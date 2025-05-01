@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bengaluru
+info,team,Gujarat Giants
+info,gender,female
+info,season,2024/25
+info,date,2025/02/27
+info,event,Women's Premier League
+info,match_number,12
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,Gujarat Giants
+info,toss_decision,field
+info,player_of_match,A Gardner
+info,umpire,AS Guha
+info,umpire,HAS Khalid
+info,reserve_umpire,VG Rathi
+info,tv_umpire,KM Gandhi
+info,match_referee,NK Lokur
+info,winner,Gujarat Giants
+info,winner_wickets,6
+info,player,Royal Challengers Bengaluru,S Mandhana
+info,player,Royal Challengers Bengaluru,DN Wyatt
+info,player,Royal Challengers Bengaluru,EA Perry
+info,player,Royal Challengers Bengaluru,Raghvi Bist
+info,player,Royal Challengers Bengaluru,KS Ahuja
+info,player,Royal Challengers Bengaluru,RM Ghosh
+info,player,Royal Challengers Bengaluru,G Wareham
+info,player,Royal Challengers Bengaluru,KJ Garth
+info,player,Royal Challengers Bengaluru,S Rana
+info,player,Royal Challengers Bengaluru,P Rawat
+info,player,Royal Challengers Bengaluru,Renuka Singh
+info,player,Gujarat Giants,BL Mooney
+info,player,Gujarat Giants,D Hemalatha
+info,player,Gujarat Giants,H Deol
+info,player,Gujarat Giants,A Gardner
+info,player,Gujarat Giants,P Litchfield
+info,player,Gujarat Giants,DJS Dottin
+info,player,Gujarat Giants,KS Gautam
+info,player,Gujarat Giants,BS Fulmali
+info,player,Gujarat Giants,TP Kanwar
+info,player,Gujarat Giants,Meghna Singh
+info,player,Gujarat Giants,Priya Mishra
+info,registry,people,A Gardner,bc969efb
+info,registry,people,AS Guha,c21b184d
+info,registry,people,BL Mooney,52d1dbc8
+info,registry,people,BS Fulmali,bd8689b0
+info,registry,people,D Hemalatha,1d6ff329
+info,registry,people,DJS Dottin,53bee17f
+info,registry,people,DN Wyatt,a139c379
+info,registry,people,EA Perry,be150fc8
+info,registry,people,G Wareham,f0b4e47d
+info,registry,people,H Deol,3664712e
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,KJ Garth,0b69a844
+info,registry,people,KM Gandhi,a9421c64
+info,registry,people,KS Ahuja,58593620
+info,registry,people,KS Gautam,bc773c4a
+info,registry,people,Meghna Singh,f176e421
+info,registry,people,NK Lokur,2b0fa148
+info,registry,people,P Litchfield,4e6ef14f
+info,registry,people,P Rawat,34b8cd68
+info,registry,people,Priya Mishra,91e217c3
+info,registry,people,RM Ghosh,721e0199
+info,registry,people,Raghvi Bist,19826516
+info,registry,people,Renuka Singh,7298db76
+info,registry,people,S Mandhana,5d2eda89
+info,registry,people,S Rana,c4c374d9
+info,registry,people,TP Kanwar,443c122f
+info,registry,people,VG Rathi,144e5b16

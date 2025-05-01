@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,UP Warriorz
+info,team,Delhi Capitals
+info,gender,female
+info,season,2022/23
+info,date,2023/03/21
+info,event,Women's Premier League
+info,match_number,20
+info,venue,"Brabourne Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,A Capsey
+info,umpire,Gayathri Venugopal
+info,umpire,N Pandit
+info,reserve_umpire,PG Pathak
+info,tv_umpire,VG Rathi
+info,match_referee,VR Nagre
+info,winner,Delhi Capitals
+info,winner_wickets,5
+info,player,UP Warriorz,AJ Healy
+info,player,UP Warriorz,S Sehrawat
+info,player,UP Warriorz,Simran Shaikh
+info,player,UP Warriorz,TM McGrath
+info,player,UP Warriorz,KP Navgire
+info,player,UP Warriorz,DB Sharma
+info,player,UP Warriorz,S Ecclestone
+info,player,UP Warriorz,K Anjali Sarvani
+info,player,UP Warriorz,SV Yashasri
+info,player,UP Warriorz,PG Chopra
+info,player,UP Warriorz,S Ismail
+info,player,Delhi Capitals,MM Lanning
+info,player,Delhi Capitals,Shafali Verma
+info,player,Delhi Capitals,JI Rodrigues
+info,player,Delhi Capitals,M Kapp
+info,player,Delhi Capitals,A Capsey
+info,player,Delhi Capitals,JL Jonassen
+info,player,Delhi Capitals,A Reddy
+info,player,Delhi Capitals,T Bhatia
+info,player,Delhi Capitals,RP Yadav
+info,player,Delhi Capitals,S Pandey
+info,player,Delhi Capitals,Poonam Yadav
+info,registry,people,A Capsey,910dd54e
+info,registry,people,A Reddy,eadc8924
+info,registry,people,AJ Healy,321644de
+info,registry,people,DB Sharma,201fef33
+info,registry,people,Gayathri Venugopal,20e3ae99
+info,registry,people,JI Rodrigues,cb08b611
+info,registry,people,JL Jonassen,0475a86b
+info,registry,people,K Anjali Sarvani,fa0bf9d9
+info,registry,people,KP Navgire,617a0b79
+info,registry,people,M Kapp,63e3b6b3
+info,registry,people,MM Lanning,27e003ce
+info,registry,people,N Pandit,4947c258
+info,registry,people,PG Chopra,0dc28b3f
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,Poonam Yadav,d0bb40b8
+info,registry,people,RP Yadav,6c3aef71
+info,registry,people,S Ecclestone,cdb82f1c
+info,registry,people,S Ismail,108c4c09
+info,registry,people,S Pandey,5463cb7a
+info,registry,people,S Sehrawat,0e9d4094
+info,registry,people,SV Yashasri,712a32d7
+info,registry,people,Shafali Verma,d8f59089
+info,registry,people,Simran Shaikh,4961601c
+info,registry,people,T Bhatia,211dc1ce
+info,registry,people,TM McGrath,ca5acfa4
+info,registry,people,VG Rathi,144e5b16
+info,registry,people,VR Nagre,fadaac76

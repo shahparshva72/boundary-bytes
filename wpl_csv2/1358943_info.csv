@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,UP Warriorz
+info,gender,female
+info,season,2022/23
+info,date,2023/03/18
+info,event,Women's Premier League
+info,match_number,15
+info,venue,"Dr DY Patil Sports Academy, Mumbai"
+info,city,Navi Mumbai
+info,toss_winner,UP Warriorz
+info,toss_decision,field
+info,player_of_match,DB Sharma
+info,umpire,Gayathri Venugopal
+info,umpire,N Pandit
+info,reserve_umpire,N Janani
+info,tv_umpire,Saurabh Dhote
+info,match_referee,VR Nagre
+info,winner,UP Warriorz
+info,winner_wickets,5
+info,player,Mumbai Indians,HK Matthews
+info,player,Mumbai Indians,YH Bhatia
+info,player,Mumbai Indians,NR Sciver-Brunt
+info,player,Mumbai Indians,H Kaur
+info,player,Mumbai Indians,AC Kerr
+info,player,Mumbai Indians,IECM Wong
+info,player,Mumbai Indians,AB Kaur
+info,player,Mumbai Indians,HY Kazi
+info,player,Mumbai Indians,DV Gujjar
+info,player,Mumbai Indians,JN Kalita
+info,player,Mumbai Indians,S Ishaque
+info,player,UP Warriorz,DP Vaidya
+info,player,UP Warriorz,AJ Healy
+info,player,UP Warriorz,KP Navgire
+info,player,UP Warriorz,TM McGrath
+info,player,UP Warriorz,GM Harris
+info,player,UP Warriorz,DB Sharma
+info,player,UP Warriorz,S Ecclestone
+info,player,UP Warriorz,Simran Shaikh
+info,player,UP Warriorz,PG Chopra
+info,player,UP Warriorz,K Anjali Sarvani
+info,player,UP Warriorz,RS Gayakwad
+info,registry,people,AB Kaur,9565fda6
+info,registry,people,AC Kerr,7673c908
+info,registry,people,AJ Healy,321644de
+info,registry,people,DB Sharma,201fef33
+info,registry,people,DP Vaidya,f9ded29b
+info,registry,people,DV Gujjar,7d5f23c3
+info,registry,people,GM Harris,72166006
+info,registry,people,Gayathri Venugopal,20e3ae99
+info,registry,people,H Kaur,53cd8da6
+info,registry,people,HK Matthews,d32cf49a
+info,registry,people,HY Kazi,16954a36
+info,registry,people,IECM Wong,e5b17517
+info,registry,people,JN Kalita,4c3bbf03
+info,registry,people,K Anjali Sarvani,fa0bf9d9
+info,registry,people,KP Navgire,617a0b79
+info,registry,people,N Janani,d06a665d
+info,registry,people,N Pandit,4947c258
+info,registry,people,NR Sciver-Brunt,f3a18a0c
+info,registry,people,PG Chopra,0dc28b3f
+info,registry,people,RS Gayakwad,237ec05b
+info,registry,people,S Ecclestone,cdb82f1c
+info,registry,people,S Ishaque,f2c1f0e5
+info,registry,people,Saurabh Dhote,afe4ec5a
+info,registry,people,Simran Shaikh,4961601c
+info,registry,people,TM McGrath,ca5acfa4
+info,registry,people,VR Nagre,fadaac76
+info,registry,people,YH Bhatia,9c3d4e8a

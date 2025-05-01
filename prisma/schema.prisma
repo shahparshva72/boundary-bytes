@@ -1,0 +1,54 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// WPL match and delivery models
+model WplMatch {
+  id         Int           @id @map("match_id")
+  season     String        @map("season")
+  startDate  DateTime      @map("start_date")
+  venue      String        @map("venue")
+  deliveries WplDelivery[]
+
+  @@map("wpl_match")
+}
+
+model WplDelivery {
+  id                   Int      @id @default(autoincrement())
+  matchId              Int      @map("match_id")
+  match                WplMatch @relation(fields: [matchId], references: [id])
+  innings              Int      @map("innings")
+  ball                 String   @map("ball")
+  battingTeam          String   @map("batting_team")
+  bowlingTeam          String   @map("bowling_team")
+  striker              String   @map("striker")
+  nonStriker           String   @map("non_striker")
+  bowler               String   @map("bowler")
+  runsOffBat           Int      @map("runs_off_bat")
+  extras               Int      @map("extras")
+  wides                Int      @map("wides")
+  noballs              Int      @map("noballs")
+  byes                 Int      @map("byes")
+  legbyes              Int      @map("legbyes")
+  penalty              Int      @map("penalty")
+  wicketType           String?  @map("wicket_type")
+  playerDismissed      String?  @map("player_dismissed")
+  otherWicketType      String?  @map("other_wicket_type")
+  otherPlayerDismissed String?  @map("other_player_dismissed")
+
+  @@index([matchId])
+  @@index([matchId, innings, ball])
+  @@map("wpl_delivery")
+}

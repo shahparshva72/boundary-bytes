@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,UP Warriorz
+info,gender,female
+info,season,2023/24
+info,date,2024/03/04
+info,event,Women's Premier League
+info,match_number,11
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,UP Warriorz
+info,toss_decision,field
+info,player_of_match,S Mandhana
+info,umpire,A Bengeri
+info,umpire,VG Rathi
+info,reserve_umpire,M Krishnadas
+info,tv_umpire,PG Pathak
+info,match_referee,GS Lakshmi
+info,winner,Royal Challengers Bangalore
+info,winner_runs,23
+info,player,Royal Challengers Bangalore,S Meghana
+info,player,Royal Challengers Bangalore,S Mandhana
+info,player,Royal Challengers Bangalore,EA Perry
+info,player,Royal Challengers Bangalore,RM Ghosh
+info,player,Royal Challengers Bangalore,SFM Devine
+info,player,Royal Challengers Bangalore,S Molineux
+info,player,Royal Challengers Bangalore,G Wareham
+info,player,Royal Challengers Bangalore,E Bisht
+info,player,Royal Challengers Bangalore,SD Bahadur
+info,player,Royal Challengers Bangalore,S Asha
+info,player,Royal Challengers Bangalore,Renuka Singh
+info,player,UP Warriorz,AJ Healy
+info,player,UP Warriorz,KP Navgire
+info,player,UP Warriorz,AC Jayangani
+info,player,UP Warriorz,GM Harris
+info,player,UP Warriorz,S Sehrawat
+info,player,UP Warriorz,DB Sharma
+info,player,UP Warriorz,PN Khemnar
+info,player,UP Warriorz,S Ecclestone
+info,player,UP Warriorz,K Anjali Sarvani
+info,player,UP Warriorz,RS Gayakwad
+info,player,UP Warriorz,SZ Thakor
+info,registry,people,A Bengeri,c109497d
+info,registry,people,AC Jayangani,ac56b5a7
+info,registry,people,AJ Healy,321644de
+info,registry,people,DB Sharma,201fef33
+info,registry,people,E Bisht,705489eb
+info,registry,people,EA Perry,be150fc8
+info,registry,people,G Wareham,f0b4e47d
+info,registry,people,GM Harris,72166006
+info,registry,people,GS Lakshmi,ba8d5615
+info,registry,people,K Anjali Sarvani,fa0bf9d9
+info,registry,people,KP Navgire,617a0b79
+info,registry,people,M Krishnadas,e298c588
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,PN Khemnar,53707c8c
+info,registry,people,RM Ghosh,721e0199
+info,registry,people,RS Gayakwad,237ec05b
+info,registry,people,Renuka Singh,7298db76
+info,registry,people,S Asha,77143581
+info,registry,people,S Ecclestone,cdb82f1c
+info,registry,people,S Mandhana,5d2eda89
+info,registry,people,S Meghana,302fb7ae
+info,registry,people,S Molineux,99e23670
+info,registry,people,S Sehrawat,0e9d4094
+info,registry,people,SD Bahadur,e96b8df7
+info,registry,people,SFM Devine,de69af96
+info,registry,people,SZ Thakor,7d794fa6
+info,registry,people,VG Rathi,144e5b16

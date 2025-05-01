@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Gujarat Giants
+info,team,Delhi Capitals
+info,gender,female
+info,season,2024/25
+info,date,2025/02/25
+info,event,Women's Premier League
+info,match_number,10
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,JL Jonassen
+info,umpire,AS Guha
+info,umpire,KM Gandhi
+info,reserve_umpire,K Kelkar
+info,tv_umpire,HAS Khalid
+info,match_referee,NK Lokur
+info,winner,Delhi Capitals
+info,winner_wickets,6
+info,player,Gujarat Giants,BL Mooney
+info,player,Gujarat Giants,H Deol
+info,player,Gujarat Giants,P Litchfield
+info,player,Gujarat Giants,A Gardner
+info,player,Gujarat Giants,KS Gautam
+info,player,Gujarat Giants,DJS Dottin
+info,player,Gujarat Giants,TP Kanwar
+info,player,Gujarat Giants,BS Fulmali
+info,player,Gujarat Giants,Simran Shaikh
+info,player,Gujarat Giants,Meghna Singh
+info,player,Gujarat Giants,Priya Mishra
+info,player,Delhi Capitals,MM Lanning
+info,player,Delhi Capitals,Shafali Verma
+info,player,Delhi Capitals,JL Jonassen
+info,player,Delhi Capitals,JI Rodrigues
+info,player,Delhi Capitals,A Sutherland
+info,player,Delhi Capitals,M Kapp
+info,player,Delhi Capitals,SJ Bryce
+info,player,Delhi Capitals,NS Prasad
+info,player,Delhi Capitals,M Mani
+info,player,Delhi Capitals,TR Sadhu
+info,player,Delhi Capitals,S Pandey
+info,registry,people,A Gardner,bc969efb
+info,registry,people,A Sutherland,65d9b6b6
+info,registry,people,AS Guha,c21b184d
+info,registry,people,BL Mooney,52d1dbc8
+info,registry,people,BS Fulmali,bd8689b0
+info,registry,people,DJS Dottin,53bee17f
+info,registry,people,H Deol,3664712e
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,JI Rodrigues,cb08b611
+info,registry,people,JL Jonassen,0475a86b
+info,registry,people,K Kelkar,1d88908d
+info,registry,people,KM Gandhi,a9421c64
+info,registry,people,KS Gautam,bc773c4a
+info,registry,people,M Kapp,63e3b6b3
+info,registry,people,M Mani,8d1ade08
+info,registry,people,MM Lanning,27e003ce
+info,registry,people,Meghna Singh,f176e421
+info,registry,people,NK Lokur,2b0fa148
+info,registry,people,NS Prasad,f903aec2
+info,registry,people,P Litchfield,4e6ef14f
+info,registry,people,Priya Mishra,91e217c3
+info,registry,people,S Pandey,5463cb7a
+info,registry,people,SJ Bryce,2ca65aee
+info,registry,people,Shafali Verma,d8f59089
+info,registry,people,Simran Shaikh,4961601c
+info,registry,people,TP Kanwar,443c122f
+info,registry,people,TR Sadhu,25ca0573

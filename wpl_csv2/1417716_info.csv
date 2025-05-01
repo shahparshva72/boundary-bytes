@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Mumbai Indians
+info,gender,female
+info,season,2023/24
+info,date,2024/02/23
+info,event,Women's Premier League
+info,match_number,1
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,H Kaur
+info,umpire,A Bengeri
+info,umpire,VG Rathi
+info,reserve_umpire,M Krishnadas
+info,tv_umpire,PG Pathak
+info,match_referee,GS Lakshmi
+info,winner,Mumbai Indians
+info,winner_wickets,4
+info,player,Delhi Capitals,MM Lanning
+info,player,Delhi Capitals,Shafali Verma
+info,player,Delhi Capitals,A Capsey
+info,player,Delhi Capitals,JI Rodrigues
+info,player,Delhi Capitals,M Kapp
+info,player,Delhi Capitals,A Sutherland
+info,player,Delhi Capitals,A Reddy
+info,player,Delhi Capitals,M Mani
+info,player,Delhi Capitals,T Bhatia
+info,player,Delhi Capitals,RP Yadav
+info,player,Delhi Capitals,S Pandey
+info,player,Mumbai Indians,HK Matthews
+info,player,Mumbai Indians,YH Bhatia
+info,player,Mumbai Indians,NR Sciver-Brunt
+info,player,Mumbai Indians,H Kaur
+info,player,Mumbai Indians,AC Kerr
+info,player,Mumbai Indians,P Vastrakar
+info,player,Mumbai Indians,AB Kaur
+info,player,Mumbai Indians,S Sajana
+info,player,Mumbai Indians,S Ismail
+info,player,Mumbai Indians,SB Keerthana
+info,player,Mumbai Indians,S Ishaque
+info,registry,people,A Bengeri,c109497d
+info,registry,people,A Capsey,910dd54e
+info,registry,people,A Reddy,eadc8924
+info,registry,people,A Sutherland,65d9b6b6
+info,registry,people,AB Kaur,9565fda6
+info,registry,people,AC Kerr,7673c908
+info,registry,people,GS Lakshmi,ba8d5615
+info,registry,people,H Kaur,53cd8da6
+info,registry,people,HK Matthews,d32cf49a
+info,registry,people,JI Rodrigues,cb08b611
+info,registry,people,M Kapp,63e3b6b3
+info,registry,people,M Krishnadas,e298c588
+info,registry,people,M Mani,8d1ade08
+info,registry,people,MM Lanning,27e003ce
+info,registry,people,NR Sciver-Brunt,f3a18a0c
+info,registry,people,P Vastrakar,8026ea72
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,RP Yadav,6c3aef71
+info,registry,people,S Ishaque,f2c1f0e5
+info,registry,people,S Ismail,108c4c09
+info,registry,people,S Pandey,5463cb7a
+info,registry,people,S Sajana,a4dcac97
+info,registry,people,SB Keerthana,4a3cdeec
+info,registry,people,Shafali Verma,d8f59089
+info,registry,people,T Bhatia,211dc1ce
+info,registry,people,VG Rathi,144e5b16
+info,registry,people,YH Bhatia,9c3d4e8a

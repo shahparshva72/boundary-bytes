@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Gujarat Giants
+info,team,Delhi Capitals
+info,gender,female
+info,season,2022/23
+info,date,2023/03/11
+info,event,Women's Premier League
+info,match_number,9
+info,venue,"Dr DY Patil Sports Academy, Mumbai"
+info,city,Navi Mumbai
+info,toss_winner,Gujarat Giants
+info,toss_decision,bat
+info,player_of_match,M Kapp
+info,umpire,Gayathri Venugopal
+info,umpire,Sanjay Kumar Singh
+info,reserve_umpire,M Kuppuraj
+info,tv_umpire,VG Rathi
+info,match_referee,GS Lakshmi
+info,winner,Delhi Capitals
+info,winner_wickets,10
+info,player,Gujarat Giants,S Meghana
+info,player,Gujarat Giants,L Wolvaardt
+info,player,Gujarat Giants,H Deol
+info,player,Gujarat Giants,A Gardner
+info,player,Gujarat Giants,D Hemalatha
+info,player,Gujarat Giants,G Wareham
+info,player,Gujarat Giants,S Verma
+info,player,Gujarat Giants,KJ Garth
+info,player,Gujarat Giants,TP Kanwar
+info,player,Gujarat Giants,S Rana
+info,player,Gujarat Giants,M Joshi
+info,player,Delhi Capitals,MM Lanning
+info,player,Delhi Capitals,Shafali Verma
+info,player,Delhi Capitals,JI Rodrigues
+info,player,Delhi Capitals,L Harris
+info,player,Delhi Capitals,M Kapp
+info,player,Delhi Capitals,JL Jonassen
+info,player,Delhi Capitals,T Bhatia
+info,player,Delhi Capitals,S Pandey
+info,player,Delhi Capitals,M Mani
+info,player,Delhi Capitals,RP Yadav
+info,player,Delhi Capitals,TG Norris
+info,registry,people,A Gardner,bc969efb
+info,registry,people,D Hemalatha,1d6ff329
+info,registry,people,G Wareham,f0b4e47d
+info,registry,people,GS Lakshmi,ba8d5615
+info,registry,people,Gayathri Venugopal,20e3ae99
+info,registry,people,H Deol,3664712e
+info,registry,people,JI Rodrigues,cb08b611
+info,registry,people,JL Jonassen,0475a86b
+info,registry,people,KJ Garth,0b69a844
+info,registry,people,L Harris,36e2dc83
+info,registry,people,L Wolvaardt,e60f81c9
+info,registry,people,M Joshi,47fb8d80
+info,registry,people,M Kapp,63e3b6b3
+info,registry,people,M Kuppuraj,aa4063d0
+info,registry,people,M Mani,8d1ade08
+info,registry,people,MM Lanning,27e003ce
+info,registry,people,RP Yadav,6c3aef71
+info,registry,people,S Meghana,302fb7ae
+info,registry,people,S Pandey,5463cb7a
+info,registry,people,S Rana,c4c374d9
+info,registry,people,S Verma,185e6c0c
+info,registry,people,Sanjay Kumar Singh,ccb9d6a6
+info,registry,people,Shafali Verma,d8f59089
+info,registry,people,T Bhatia,211dc1ce
+info,registry,people,TG Norris,8ae7bb3e
+info,registry,people,TP Kanwar,443c122f
+info,registry,people,VG Rathi,144e5b16

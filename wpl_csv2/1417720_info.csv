@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Gujarat Giants
+info,team,Royal Challengers Bangalore
+info,gender,female
+info,season,2023/24
+info,date,2024/02/27
+info,event,Women's Premier League
+info,match_number,5
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,Renuka Singh
+info,umpire,Mohamad Rafi
+info,umpire,P Joshi
+info,reserve_umpire,P Jayapal
+info,tv_umpire,Gayathri Venugopal
+info,match_referee,M Mangla
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,8
+info,player,Gujarat Giants,H Deol
+info,player,Gujarat Giants,BL Mooney
+info,player,Gujarat Giants,P Litchfield
+info,player,Gujarat Giants,V Krishnamurthy
+info,player,Gujarat Giants,A Gardner
+info,player,Gujarat Giants,D Hemalatha
+info,player,Gujarat Giants,KE Bryce
+info,player,Gujarat Giants,S Rana
+info,player,Gujarat Giants,TP Kanwar
+info,player,Gujarat Giants,LMM Tahuhu
+info,player,Gujarat Giants,Meghna Singh
+info,player,Royal Challengers Bangalore,S Mandhana
+info,player,Royal Challengers Bangalore,SFM Devine
+info,player,Royal Challengers Bangalore,S Meghana
+info,player,Royal Challengers Bangalore,EA Perry
+info,player,Royal Challengers Bangalore,RM Ghosh
+info,player,Royal Challengers Bangalore,G Wareham
+info,player,Royal Challengers Bangalore,S Molineux
+info,player,Royal Challengers Bangalore,SR Patil
+info,player,Royal Challengers Bangalore,SD Bahadur
+info,player,Royal Challengers Bangalore,S Asha
+info,player,Royal Challengers Bangalore,Renuka Singh
+info,registry,people,A Gardner,bc969efb
+info,registry,people,BL Mooney,52d1dbc8
+info,registry,people,D Hemalatha,1d6ff329
+info,registry,people,EA Perry,be150fc8
+info,registry,people,G Wareham,f0b4e47d
+info,registry,people,Gayathri Venugopal,20e3ae99
+info,registry,people,H Deol,3664712e
+info,registry,people,KE Bryce,f13d3eba
+info,registry,people,LMM Tahuhu,60471339
+info,registry,people,M Mangla,a4d2b121
+info,registry,people,Meghna Singh,f176e421
+info,registry,people,Mohamad Rafi,0479de6b
+info,registry,people,P Jayapal,209e51e8
+info,registry,people,P Joshi,ffc0e370
+info,registry,people,P Litchfield,4e6ef14f
+info,registry,people,RM Ghosh,721e0199
+info,registry,people,Renuka Singh,7298db76
+info,registry,people,S Asha,77143581
+info,registry,people,S Mandhana,5d2eda89
+info,registry,people,S Meghana,302fb7ae
+info,registry,people,S Molineux,99e23670
+info,registry,people,S Rana,c4c374d9
+info,registry,people,SD Bahadur,e96b8df7
+info,registry,people,SFM Devine,de69af96
+info,registry,people,SR Patil,33946d69
+info,registry,people,TP Kanwar,443c122f
+info,registry,people,V Krishnamurthy,c3f21798

@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Mumbai Indians
+info,gender,female
+info,season,2023/24
+info,date,2024/03/02
+info,event,Women's Premier League
+info,match_number,9
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,AC Kerr
+info,umpire,M Krishnadas
+info,umpire,PG Pathak
+info,reserve_umpire,N Janani
+info,tv_umpire,Abhijit Bhattacharya
+info,match_referee,VR Nagre
+info,winner,Mumbai Indians
+info,winner_wickets,7
+info,player,Royal Challengers Bangalore,S Mandhana
+info,player,Royal Challengers Bangalore,SFM Devine
+info,player,Royal Challengers Bangalore,S Meghana
+info,player,Royal Challengers Bangalore,EA Perry
+info,player,Royal Challengers Bangalore,RM Ghosh
+info,player,Royal Challengers Bangalore,S Molineux
+info,player,Royal Challengers Bangalore,G Wareham
+info,player,Royal Challengers Bangalore,SR Patil
+info,player,Royal Challengers Bangalore,SD Bahadur
+info,player,Royal Challengers Bangalore,S Asha
+info,player,Royal Challengers Bangalore,Renuka Singh
+info,player,Mumbai Indians,YH Bhatia
+info,player,Mumbai Indians,HK Matthews
+info,player,Mumbai Indians,NR Sciver-Brunt
+info,player,Mumbai Indians,AC Kerr
+info,player,Mumbai Indians,P Vastrakar
+info,player,Mumbai Indians,AB Kaur
+info,player,Mumbai Indians,IECM Wong
+info,player,Mumbai Indians,S Sajana
+info,player,Mumbai Indians,HY Kazi
+info,player,Mumbai Indians,SB Keerthana
+info,player,Mumbai Indians,S Ishaque
+info,registry,people,AB Kaur,9565fda6
+info,registry,people,AC Kerr,7673c908
+info,registry,people,Abhijit Bhattacharya,59ec9638
+info,registry,people,EA Perry,be150fc8
+info,registry,people,G Wareham,f0b4e47d
+info,registry,people,HK Matthews,d32cf49a
+info,registry,people,HY Kazi,16954a36
+info,registry,people,IECM Wong,e5b17517
+info,registry,people,M Krishnadas,e298c588
+info,registry,people,N Janani,d06a665d
+info,registry,people,NR Sciver-Brunt,f3a18a0c
+info,registry,people,P Vastrakar,8026ea72
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,RM Ghosh,721e0199
+info,registry,people,Renuka Singh,7298db76
+info,registry,people,S Asha,77143581
+info,registry,people,S Ishaque,f2c1f0e5
+info,registry,people,S Mandhana,5d2eda89
+info,registry,people,S Meghana,302fb7ae
+info,registry,people,S Molineux,99e23670
+info,registry,people,S Sajana,a4dcac97
+info,registry,people,SB Keerthana,4a3cdeec
+info,registry,people,SD Bahadur,e96b8df7
+info,registry,people,SFM Devine,de69af96
+info,registry,people,SR Patil,33946d69
+info,registry,people,VR Nagre,fadaac76
+info,registry,people,YH Bhatia,9c3d4e8a

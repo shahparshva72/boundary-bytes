@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Delhi Capitals
+info,gender,female
+info,season,2022/23
+info,date,2023/03/13
+info,event,Women's Premier League
+info,match_number,11
+info,venue,"Dr DY Patil Sports Academy, Mumbai"
+info,city,Navi Mumbai
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,JL Jonassen
+info,umpire,N Pandit
+info,umpire,Saurabh Dhote
+info,reserve_umpire,Sanjay Kumar Singh
+info,tv_umpire,M Kuppuraj
+info,match_referee,AV Narvekar
+info,winner,Delhi Capitals
+info,winner_wickets,6
+info,player,Royal Challengers Bangalore,S Mandhana
+info,player,Royal Challengers Bangalore,SFM Devine
+info,player,Royal Challengers Bangalore,EA Perry
+info,player,Royal Challengers Bangalore,HC Knight
+info,player,Royal Challengers Bangalore,RM Ghosh
+info,player,Royal Challengers Bangalore,SR Patil
+info,player,Royal Challengers Bangalore,DD Kasat
+info,player,Royal Challengers Bangalore,ML Schutt
+info,player,Royal Challengers Bangalore,S Asha
+info,player,Royal Challengers Bangalore,Renuka Singh
+info,player,Royal Challengers Bangalore,Preeti Bose
+info,player,Delhi Capitals,MM Lanning
+info,player,Delhi Capitals,Shafali Verma
+info,player,Delhi Capitals,A Capsey
+info,player,Delhi Capitals,JI Rodrigues
+info,player,Delhi Capitals,M Kapp
+info,player,Delhi Capitals,JL Jonassen
+info,player,Delhi Capitals,T Bhatia
+info,player,Delhi Capitals,A Reddy
+info,player,Delhi Capitals,RP Yadav
+info,player,Delhi Capitals,S Pandey
+info,player,Delhi Capitals,TG Norris
+info,registry,people,A Capsey,910dd54e
+info,registry,people,A Reddy,eadc8924
+info,registry,people,AV Narvekar,a7c9f985
+info,registry,people,DD Kasat,fc0155d9
+info,registry,people,EA Perry,be150fc8
+info,registry,people,HC Knight,4ba0289e
+info,registry,people,JI Rodrigues,cb08b611
+info,registry,people,JL Jonassen,0475a86b
+info,registry,people,M Kapp,63e3b6b3
+info,registry,people,M Kuppuraj,aa4063d0
+info,registry,people,ML Schutt,17608a6f
+info,registry,people,MM Lanning,27e003ce
+info,registry,people,N Pandit,4947c258
+info,registry,people,Preeti Bose,ca1a3105
+info,registry,people,RM Ghosh,721e0199
+info,registry,people,RP Yadav,6c3aef71
+info,registry,people,Renuka Singh,7298db76
+info,registry,people,S Asha,77143581
+info,registry,people,S Mandhana,5d2eda89
+info,registry,people,S Pandey,5463cb7a
+info,registry,people,SFM Devine,de69af96
+info,registry,people,SR Patil,33946d69
+info,registry,people,Sanjay Kumar Singh,ccb9d6a6
+info,registry,people,Saurabh Dhote,afe4ec5a
+info,registry,people,Shafali Verma,d8f59089
+info,registry,people,T Bhatia,211dc1ce
+info,registry,people,TG Norris,8ae7bb3e

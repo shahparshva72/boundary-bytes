@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Gujarat Giants
+info,team,Royal Challengers Bangalore
+info,gender,female
+info,season,2023/24
+info,date,2024/03/06
+info,event,Women's Premier League
+info,match_number,13
+info,venue,"Arun Jaitley Stadium, Delhi"
+info,city,Delhi
+info,toss_winner,Gujarat Giants
+info,toss_decision,bat
+info,player_of_match,BL Mooney
+info,umpire,Gayathri Venugopal
+info,umpire,P Jayapal
+info,reserve_umpire,A Bengeri
+info,tv_umpire,VG Rathi
+info,match_referee,AV Narvekar
+info,winner,Gujarat Giants
+info,winner_runs,19
+info,player,Gujarat Giants,L Wolvaardt
+info,player,Gujarat Giants,BL Mooney
+info,player,Gujarat Giants,P Litchfield
+info,player,Gujarat Giants,A Gardner
+info,player,Gujarat Giants,D Hemalatha
+info,player,Gujarat Giants,V Krishnamurthy
+info,player,Gujarat Giants,KE Bryce
+info,player,Gujarat Giants,TP Kanwar
+info,player,Gujarat Giants,Meghna Singh
+info,player,Gujarat Giants,MS Kashyap
+info,player,Gujarat Giants,SM Shakil
+info,player,Royal Challengers Bangalore,S Meghana
+info,player,Royal Challengers Bangalore,S Mandhana
+info,player,Royal Challengers Bangalore,EA Perry
+info,player,Royal Challengers Bangalore,SFM Devine
+info,player,Royal Challengers Bangalore,RM Ghosh
+info,player,Royal Challengers Bangalore,G Wareham
+info,player,Royal Challengers Bangalore,S Molineux
+info,player,Royal Challengers Bangalore,SD Bahadur
+info,player,Royal Challengers Bangalore,E Bisht
+info,player,Royal Challengers Bangalore,S Asha
+info,player,Royal Challengers Bangalore,Renuka Singh
+info,registry,people,A Bengeri,c109497d
+info,registry,people,A Gardner,bc969efb
+info,registry,people,AV Narvekar,a7c9f985
+info,registry,people,BL Mooney,52d1dbc8
+info,registry,people,D Hemalatha,1d6ff329
+info,registry,people,E Bisht,705489eb
+info,registry,people,EA Perry,be150fc8
+info,registry,people,G Wareham,f0b4e47d
+info,registry,people,Gayathri Venugopal,20e3ae99
+info,registry,people,KE Bryce,f13d3eba
+info,registry,people,L Wolvaardt,e60f81c9
+info,registry,people,MS Kashyap,9ab635dd
+info,registry,people,Meghna Singh,f176e421
+info,registry,people,P Jayapal,209e51e8
+info,registry,people,P Litchfield,4e6ef14f
+info,registry,people,RM Ghosh,721e0199
+info,registry,people,Renuka Singh,7298db76
+info,registry,people,S Asha,77143581
+info,registry,people,S Mandhana,5d2eda89
+info,registry,people,S Meghana,302fb7ae
+info,registry,people,S Molineux,99e23670
+info,registry,people,SD Bahadur,e96b8df7
+info,registry,people,SFM Devine,de69af96
+info,registry,people,SM Shakil,2803bd53
+info,registry,people,TP Kanwar,443c122f
+info,registry,people,V Krishnamurthy,c3f21798
+info,registry,people,VG Rathi,144e5b16

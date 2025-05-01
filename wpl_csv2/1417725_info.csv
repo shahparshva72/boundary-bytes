@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Gujarat Giants
+info,gender,female
+info,season,2023/24
+info,date,2024/03/03
+info,event,Women's Premier League
+info,match_number,10
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,Gujarat Giants
+info,toss_decision,field
+info,player_of_match,JL Jonassen
+info,umpire,Mohamad Rafi
+info,umpire,P Joshi
+info,reserve_umpire,Gayathri Venugopal
+info,tv_umpire,P Jayapal
+info,match_referee,M Mangla
+info,winner,Delhi Capitals
+info,winner_runs,25
+info,player,Delhi Capitals,MM Lanning
+info,player,Delhi Capitals,Shafali Verma
+info,player,Delhi Capitals,A Capsey
+info,player,Delhi Capitals,JI Rodrigues
+info,player,Delhi Capitals,A Sutherland
+info,player,Delhi Capitals,JL Jonassen
+info,player,Delhi Capitals,A Reddy
+info,player,Delhi Capitals,RP Yadav
+info,player,Delhi Capitals,S Pandey
+info,player,Delhi Capitals,T Bhatia
+info,player,Delhi Capitals,TR Sadhu
+info,player,Gujarat Giants,D Hemalatha
+info,player,Gujarat Giants,BL Mooney
+info,player,Gujarat Giants,L Wolvaardt
+info,player,Gujarat Giants,P Litchfield
+info,player,Gujarat Giants,V Krishnamurthy
+info,player,Gujarat Giants,A Gardner
+info,player,Gujarat Giants,KE Bryce
+info,player,Gujarat Giants,TP Kanwar
+info,player,Gujarat Giants,TN Pathan
+info,player,Gujarat Giants,Meghna Singh
+info,player,Gujarat Giants,SG Satghare
+info,player,Gujarat Giants,MS Kashyap
+info,registry,people,A Capsey,910dd54e
+info,registry,people,A Gardner,bc969efb
+info,registry,people,A Reddy,eadc8924
+info,registry,people,A Sutherland,65d9b6b6
+info,registry,people,BL Mooney,52d1dbc8
+info,registry,people,D Hemalatha,1d6ff329
+info,registry,people,Gayathri Venugopal,20e3ae99
+info,registry,people,JI Rodrigues,cb08b611
+info,registry,people,JL Jonassen,0475a86b
+info,registry,people,KE Bryce,f13d3eba
+info,registry,people,L Wolvaardt,e60f81c9
+info,registry,people,M Mangla,a4d2b121
+info,registry,people,MM Lanning,27e003ce
+info,registry,people,MS Kashyap,9ab635dd
+info,registry,people,Meghna Singh,f176e421
+info,registry,people,Mohamad Rafi,0479de6b
+info,registry,people,P Jayapal,209e51e8
+info,registry,people,P Joshi,ffc0e370
+info,registry,people,P Litchfield,4e6ef14f
+info,registry,people,RP Yadav,6c3aef71
+info,registry,people,S Pandey,5463cb7a
+info,registry,people,SG Satghare,3708b522
+info,registry,people,Shafali Verma,d8f59089
+info,registry,people,T Bhatia,211dc1ce
+info,registry,people,TN Pathan,00cff9ba
+info,registry,people,TP Kanwar,443c122f
+info,registry,people,TR Sadhu,25ca0573
+info,registry,people,V Krishnamurthy,c3f21798
