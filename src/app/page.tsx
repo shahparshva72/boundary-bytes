@@ -1,103 +1,132 @@
 import Image from "next/image";
 
-export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+async function getMatches(page = 1, season?: string) {
+  const searchParams = new URLSearchParams({
+    page: page.toString(),
+    limit: '5'
+  });
+  if (season) searchParams.append('season', season);
+  
+  const res = await fetch(`http://localhost:3000/api/matches?${searchParams}`, 
+    { next: { revalidate: 3600 } }
+  );
+  if (!res.ok) throw new Error('Failed to fetch matches');
+  return res.json();
+}
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: { page?: string; season?: string };
+}) {
+  const currentPage = Number(searchParams.page) || 1;
+  const { matches, pagination, seasons } = await getMatches(currentPage, searchParams.season);
+
+  return (
+    <div className="grid grid-rows-[auto_1fr_auto] min-h-screen p-4 pb-20 gap-8 sm:p-8 bg-[#FFFEE0]">
+      <main className="flex flex-col gap-[40px] items-center w-full max-w-5xl mx-auto my-8">
+        {/* Header */}
+        <div className="flex flex-col items-center gap-6 mb-4 w-full">
+          <div className="bg-[#FF5E5B] p-8 rounded-none shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] border-4 border-black transition-all hover:translate-y-[2px] hover:translate-x-[2px] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] w-full max-w-2xl">
+            <h1 className="text-5xl md:text-6xl font-black text-black text-center tracking-tight">BOUNDARY BYTES</h1>
+          </div>
+          <p className="text-xl font-bold text-black bg-[#4ECDC4] px-6 py-3 rounded-none border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+            An upcoming cricket stats query website.
+          </p>
         </div>
+
+        {/* Season Filter */}
+        <div className="w-full flex flex-wrap gap-4 justify-center">
+          <a
+            href="/"
+            className={`px-4 py-2 font-bold border-2 border-black text-black ${
+              !searchParams.season ? 'bg-[#FF5E5B] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]' : 'bg-white hover:bg-[#FF5E5B] transition-colors'
+            }`}
+          >
+            All Seasons
+          </a>
+          {seasons.map((season: string) => (
+            <a
+              key={season}
+              href={`/?season=${season}`}
+              className={`px-4 py-2 font-bold border-2 border-black text-black ${
+                searchParams.season === season ? 'bg-[#FF5E5B] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]' : 'bg-white hover:bg-[#FF5E5B] transition-colors'
+              }`}
+            >
+              {season}
+            </a>
+          ))}
+        </div>
+
+        {/* Match cards */}
+        <div className="w-full grid gap-12">
+          {matches.map((match: any) => (
+            <div
+              key={match.id}
+              className="p-8 bg-white rounded-none border-4 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[4px] hover:translate-y-[4px] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all"
+            >
+              <div className="flex flex-col md:flex-row justify-between items-start gap-4 mb-6">
+                <div>
+                  <h2 className="font-black text-3xl text-black">{match.venue}</h2>
+                  <p className="text-lg font-bold text-black mt-1 bg-[#4ECDC4] px-3 py-1 inline-block border-2 border-black">
+                    {new Date(match.startDate).toLocaleDateString("en-IN")}
+                  </p>
+                </div>
+                <div className="text-lg bg-[#FF9F1C] px-4 py-2 rounded-none border-3 border-black font-black text-black self-start">
+                  {match.season}
+                </div>
+              </div>
+
+              <div className="mb-6 grid gap-6">
+                <div className="font-mono bg-white p-6 rounded-none border-4 border-black">
+                  <div className="flex justify-between items-center">
+                    <span className="font-black text-2xl text-black">{match.team1}</span>
+                    <span className="font-black text-2xl bg-[#FF5E5B] px-3 py-1 border-2 border-black text-black">
+                      {match.innings1Score}
+                    </span>
+                  </div>
+                  <div className="my-4 border-b-4 border-dashed border-black"></div>
+                  <div className="flex justify-between items-center">
+                    <span className="font-black text-2xl text-black">{match.team2}</span>
+                    <span className="font-black text-2xl bg-[#4ECDC4] px-3 py-1 border-2 border-black text-black">
+                      {match.innings2Score}
+                    </span>
+                  </div>
+                </div>
+
+                <div className="bg-[#FFED66] p-4 rounded-none border-4 border-black text-center font-bold text-xl text-black w-full max-w-md mx-auto">
+                  {match.result}
+                </div>
+              </div>
+
+              <div className="flex justify-end mt-4">
+                <div className="text-base bg-[#FF9F1C] px-4 py-2 rounded-none border-3 border-black font-black text-black">
+                  Match #{match.id}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Pagination */}
+        {pagination.pages > 1 && (
+          <div className="flex gap-4 justify-center flex-wrap">
+            {Array.from({ length: pagination.pages }, (_, i) => i + 1).map((page) => (
+              <a
+                key={page}
+                href={`/?page=${page}${searchParams.season ? `&season=${searchParams.season}` : ''}`}
+                className={`px-6 py-3 font-bold border-2 border-black text-black ${
+                  currentPage === page
+                    ? 'bg-[#FF5E5B] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
+                    : 'bg-white hover:bg-[#FF5E5B] transition-colors'
+                }`}
+              >
+                {page}
+              </a>
+            ))}
+          </div>
+        )}
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }
