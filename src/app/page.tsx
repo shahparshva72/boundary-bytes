@@ -6,8 +6,8 @@ async function getMatches(page = 1, season?: string) {
     limit: '5'
   });
   if (season) searchParams.append('season', season);
-  
-  const res = await fetch(`http://localhost:3000/api/matches?${searchParams}`, 
+
+  const res = await fetch(`http://localhost:3000/api/matches?${searchParams}`,
     { next: { revalidate: 3600 } }
   );
   if (!res.ok) throw new Error('Failed to fetch matches');
@@ -33,6 +33,12 @@ export default async function Home({
           <p className="text-xl font-bold text-black bg-[#4ECDC4] px-6 py-3 rounded-none border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
             An upcoming cricket stats query website.
           </p>
+          <a
+            href="/query"
+            className="px-6 py-3 bg-[#FF9F1C] font-bold border-2 border-black text-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[2px] hover:translate-x-[2px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all"
+          >
+            Try SQL Query Explorer
+          </a>
         </div>
 
         {/* Season Filter */}
