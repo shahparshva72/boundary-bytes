@@ -5,12 +5,13 @@ export default function HomePage({
 }: {
   searchParams: { page?: string; season?: string };
 }) {
-  const currentPage = Number(searchParams.page) || 1;
-  
+  const currentPage = Number(searchParams?.page) || 1;
+  const initialSeason = searchParams?.season;
+
   return (
-    <Matches 
+    <Matches
       initialPage={currentPage}
-      initialSeason={searchParams.season}
+      initialSeason={initialSeason}
     />
   );
 }
