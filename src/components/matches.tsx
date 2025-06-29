@@ -4,6 +4,11 @@ import { useMatches } from '@/lib/useMatches';
 import { MoonLoader } from 'react-spinners';
 import Link from 'next/link';
 
+function redirectToCricinfoScorecard(matchId: number) {
+  var scorecardUrl = "http://www.espncricinfo.com/matches/engine/match/" + matchId + ".html";
+  window.open(scorecardUrl, '_blank');
+}
+
 interface MatchesProps {
   initialPage: number;
   initialSeason?: string;
@@ -126,9 +131,11 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
               </div>
 
               <div className="flex justify-end mt-4">
-                <div className="text-base bg-[#FF9F1C] px-4 py-2 rounded-none border-3 border-black font-black text-black">
+                <button
+                  onClick={() => redirectToCricinfoScorecard(match.id)}
+                  className="text-base bg-[#FF9F1C] px-4 py-2 rounded-none border-3 border-black font-black text-black cursor-pointer hover:bg-[#FF9F1C]/80 transition-colors">
                   Match #{match.id}
-                </div>
+                </button>
               </div>
             </div>
           ))}
