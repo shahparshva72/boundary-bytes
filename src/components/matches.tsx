@@ -2,10 +2,23 @@
 
 import { useMatches } from "@/lib/useMatches";
 import { MoonLoader } from "react-spinners";
+import Link from "next/link";
 
 interface MatchesProps {
   initialPage: number;
   initialSeason?: string;
+}
+
+interface Match {
+  id: number;
+  venue: string;
+  startDate: string;
+  season: string;
+  team1: string;
+  team2: string;
+  innings1Score: string;
+  innings2Score: string;
+  result: string;
 }
 
 export default function Matches({ initialPage, initialSeason }: MatchesProps) {
@@ -48,7 +61,7 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
 
         {/* Season Filter */}
         <div className="w-full flex flex-wrap gap-4 justify-center">
-          <a
+          <Link
             href="/"
             className={`px-4 py-2 font-bold border-2 border-black text-black ${
               !initialSeason
@@ -57,9 +70,9 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
             }`}
           >
             All Seasons
-          </a>
+          </Link>
           {seasons.map((season: string) => (
-            <a
+            <Link
               key={season}
               href={`/?season=${season}`}
               className={`px-4 py-2 font-bold border-2 border-black text-black ${
@@ -69,13 +82,13 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
               }`}
             >
               {season}
-            </a>
+            </Link>
           ))}
         </div>
 
         {/* Match cards */}
         <div className="w-full grid gap-12">
-          {matches.map((match: any) => (
+          {matches.map((match: Match) => (
             <div
               key={match.id}
               className="p-8 bg-white rounded-none border-4 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[4px] hover:translate-y-[4px] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all"

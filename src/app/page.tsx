@@ -1,12 +1,13 @@
 import Matches from '../components/matches';
 
-export default function HomePage({
+export default async function HomePage({
   searchParams,
 }: {
-  searchParams: { page?: string; season?: string };
+  searchParams: Promise<{ page?: string; season?: string }>;
 }) {
-  const currentPage = Number(searchParams?.page) || 1;
-  const initialSeason = searchParams?.season;
+  const resolvedSearchParams = await searchParams;
+  const currentPage = Number(resolvedSearchParams?.page) || 1;
+  const initialSeason = resolvedSearchParams?.season;
 
   return (
     <Matches
