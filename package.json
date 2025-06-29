@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "db:seed": "prisma db seed"
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "db:seed": "prisma db seed",
+    "prepare": "husky"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
@@ -34,6 +37,8 @@
     "@types/react-dom": "^19",
     "eslint": "9.26.0",
     "eslint-config-next": "15.3.2",
+    "husky": "^9.1.7",
+    "prettier": "^3.6.2",
     "prisma": "^6.7.0",
     "tailwindcss": "^4",
     "tsx": "^4.19.4",
