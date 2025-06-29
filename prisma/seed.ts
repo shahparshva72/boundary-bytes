@@ -36,51 +36,51 @@ interface DeliveryRow {
 
 async function main() {
   console.log('🌱 Starting seed process...');
-  
+
   // Get all CSV files in the directory
   const files = fs.readdirSync(CSV_DIR);
-  
+
   // Filter for only the main ball-by-ball files (ignore the _info files)
   const matchFiles: string[] = [];
-  
-  files.forEach(file => {
+
+  files.forEach((file) => {
     if (!file.endsWith('.csv') || file.includes('_info')) return;
     matchFiles.push(path.join(CSV_DIR, file));
   });
-  
+
   console.log(`Found ${matchFiles.length} matches to process`);
-  
+
   // Process each match
   let processedMatches = 0;
   let processedDeliveries = 0;
-  
+
   for (const matchFile of matchFiles) {
     try {
       // Extract match ID from filename
       const filename = path.basename(matchFile);
       const matchIdRegex = /^(\d+)\.csv$/;
       const matchIdMatch = matchIdRegex.exec(filename);
-      
+
       if (!matchIdMatch?.at(1)) {
         console.warn(`Could not extract match ID from ${filename}, skipping`);
         continue;
       }
-      
+
       const matchId = parseInt(matchIdMatch[1]!, 10);
-      
+
       // Read and parse match data
       const dataContent = fs.readFileSync(matchFile, 'utf-8');
-      const dataRows = parse(dataContent, { 
-        columns: true, 
+      const dataRows = parse(dataContent, {
+        columns: true,
         skip_empty_lines: true,
-        trim: true 
+        trim: true,
       }) as DeliveryRow[];
-      
+
       if (dataRows.length === 0) {
         console.warn(`No data rows for match ${matchId}, skipping`);
         continue;
       }
-      
+
       // Extract match details from the first row of data
       const firstRow = dataRows[0];
       if (!firstRow) {
@@ -94,19 +94,19 @@ async function main() {
         startDate: new Date(firstRow.start_date),
         venue: firstRow.venue.replace(/^"(.+)"$/, '$1'), // Remove surrounding quotes if present
       };
-      
+
       // Create or update match
       await prisma.wplMatch.upsert({
         where: { id: match.id },
         update: match,
         create: match,
       });
-      
+
       processedMatches++;
-      
+
       // Process deliveries for this match
       const deliveries = [];
-      
+
       for (const row of dataRows) {
         const delivery = {
           matchId: matchId,
@@ -129,27 +129,29 @@ async function main() {
           otherWicketType: row.other_wicket_type ?? null,
           otherPlayerDismissed: row.other_player_dismissed ?? null,
         };
-        
+
         deliveries.push(delivery);
       }
-      
+
       // Use createMany for better performance with large datasets
       if (deliveries.length > 0) {
         await prisma.wplDelivery.createMany({
           data: deliveries,
           skipDuplicates: true, // Skip duplicates based on the model's unique constraints
         });
-        
+
         processedDeliveries += deliveries.length;
       }
-      
+
       console.log(`Processed match ${matchId}: ${deliveries.length} deliveries`);
     } catch (error) {
       console.error(`Error processing match file ${matchFile}:`, error);
     }
   }
-  
-  console.log(`✅ Seed completed: ${processedMatches} matches and ${processedDeliveries} deliveries processed`);
+
+  console.log(
+    `✅ Seed completed: ${processedMatches} matches and ${processedDeliveries} deliveries processed`,
+  );
 }
 
 main()

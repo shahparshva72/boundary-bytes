@@ -9,10 +9,5 @@ export default async function HomePage({
   const currentPage = Number(resolvedSearchParams?.page) || 1;
   const initialSeason = resolvedSearchParams?.season;
 
-  return (
-    <Matches
-      initialPage={currentPage}
-      initialSeason={initialSeason}
-    />
-  );
+  return <Matches initialPage={currentPage} initialSeason={initialSeason} />;
 }

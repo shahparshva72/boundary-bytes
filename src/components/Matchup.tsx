@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import axios from "axios";
-import { MoonLoader } from "react-spinners";
-import dynamic from "next/dynamic";
+import { useState } from 'react';
+import axios from 'axios';
+import { MoonLoader } from 'react-spinners';
+import dynamic from 'next/dynamic';
 
-const Select = dynamic(() => import("react-select"), { ssr: false });
+const Select = dynamic(() => import('react-select'), { ssr: false });
 
 interface MatchupProps {
   batters: string[];
@@ -13,8 +13,12 @@ interface MatchupProps {
 }
 
 export default function Matchup({ batters, bowlers }: MatchupProps) {
-  const [selectedBatter, setSelectedBatter] = useState<{ value: string; label: string } | null>(null);
-  const [selectedBowler, setSelectedBowler] = useState<{ value: string; label: string } | null>(null);
+  const [selectedBatter, setSelectedBatter] = useState<{ value: string; label: string } | null>(
+    null,
+  );
+  const [selectedBowler, setSelectedBowler] = useState<{ value: string; label: string } | null>(
+    null,
+  );
   const [matchupData, setMatchupData] = useState<{
     runsScored: number;
     ballsFaced: number;
@@ -38,7 +42,7 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
 
   const handleFetchMatchup = async () => {
     if (!selectedBatter || !selectedBowler) {
-      setError("Please select both a batter and a bowler.");
+      setError('Please select both a batter and a bowler.');
       return;
     }
     setIsLoading(true);
@@ -46,12 +50,12 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
     setMatchupData(null);
     try {
       const response = await axios.get(
-        `/api/stats/matchup?batter=${selectedBatter.value}&bowler=${selectedBowler.value}`
+        `/api/stats/matchup?batter=${selectedBatter.value}&bowler=${selectedBowler.value}`,
       );
       setMatchupData(response.data);
     } catch (error) {
-      console.error("Failed to fetch matchup data:", error);
-      setError("Failed to fetch matchup data.");
+      console.error('Failed to fetch matchup data:', error);
+      setError('Failed to fetch matchup data.');
     } finally {
       setIsLoading(false);
     }
@@ -61,20 +65,20 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     control: (provided: any) => ({
       ...provided,
-      border: "4px solid black",
+      border: '4px solid black',
       borderRadius: 0,
-      padding: "0.5rem",
-      boxShadow: "none",
-      "&:hover": {
-        borderColor: "black",
+      padding: '0.5rem',
+      boxShadow: 'none',
+      '&:hover': {
+        borderColor: 'black',
       },
     }),
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     option: (provided: any, state: { isSelected: boolean; isFocused: boolean }) => ({
       ...provided,
-      backgroundColor: state.isSelected ? "#FF5E5B" : state.isFocused ? "#FFED66" : "white",
-      color: "black",
-      fontWeight: "bold",
+      backgroundColor: state.isSelected ? '#FF5E5B' : state.isFocused ? '#FFED66' : 'white',
+      color: 'black',
+      fontWeight: 'bold',
     }),
   };
 
@@ -116,7 +120,7 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
         className="px-8 py-4 font-black text-2xl text-black bg-[#FFED66] border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all disabled:opacity-50"
         disabled={isLoading || !selectedBatter || !selectedBowler}
       >
-        {isLoading ? "Loading..." : "Get Stats"}
+        {isLoading ? 'Loading...' : 'Get Stats'}
       </button>
 
       {error && (
@@ -141,37 +145,51 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
               <table className="w-full border-collapse border-4 border-black">
                 <thead>
                   <tr className="bg-[#4ECDC4]">
-                    <th className="p-4 font-black text-lg border-4 border-black text-black">Metric</th>
-                    <th className="p-4 font-black text-lg border-4 border-black text-black">Value</th>
+                    <th className="p-4 font-black text-lg border-4 border-black text-black">
+                      Metric
+                    </th>
+                    <th className="p-4 font-black text-lg border-4 border-black text-black">
+                      Value
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr className="bg-white">
-                    <td className="p-4 font-bold text-lg border-4 border-black text-black">Runs Scored</td>
+                    <td className="p-4 font-bold text-lg border-4 border-black text-black">
+                      Runs Scored
+                    </td>
                     <td className="p-4 font-mono text-lg border-4 border-black text-center text-black">
                       {matchupData.runsScored}
                     </td>
                   </tr>
                   <tr className="bg-[#FFED66]">
-                    <td className="p-4 font-bold text-lg border-4 border-black text-black">Balls Faced</td>
+                    <td className="p-4 font-bold text-lg border-4 border-black text-black">
+                      Balls Faced
+                    </td>
                     <td className="p-4 font-mono text-lg border-4 border-black text-center text-black">
                       {matchupData.ballsFaced}
                     </td>
                   </tr>
                   <tr className="bg-white">
-                    <td className="p-4 font-bold text-lg border-4 border-black text-black">Dismissals</td>
+                    <td className="p-4 font-bold text-lg border-4 border-black text-black">
+                      Dismissals
+                    </td>
                     <td className="p-4 font-mono text-lg border-4 border-black text-center text-black">
                       {matchupData.dismissals}
                     </td>
                   </tr>
                   <tr className="bg-[#FFED66]">
-                    <td className="p-4 font-bold text-lg border-4 border-black text-black">Strike Rate</td>
+                    <td className="p-4 font-bold text-lg border-4 border-black text-black">
+                      Strike Rate
+                    </td>
                     <td className="p-4 font-mono text-lg border-4 border-black text-center text-black">
                       {matchupData.strikeRate}
                     </td>
                   </tr>
                   <tr className="bg-white">
-                    <td className="p-4 font-bold text-lg border-4 border-black text-black">Average</td>
+                    <td className="p-4 font-bold text-lg border-4 border-black text-black">
+                      Average
+                    </td>
                     <td className="p-4 font-mono text-lg border-4 border-black text-center text-black">
                       {matchupData.average}
                     </td>

@@ -1,6 +1,5 @@
-
-import { NextResponse } from "next/server";
-import { prisma } from "@/lib/prisma";
+import { NextResponse } from 'next/server';
+import { prisma } from '@/lib/prisma';
 
 export async function GET() {
   try {
@@ -8,15 +7,12 @@ export async function GET() {
       select: {
         striker: true,
       },
-      distinct: ["striker"],
+      distinct: ['striker'],
     });
     const batterNames = batters.map((b) => b.striker);
     return NextResponse.json(batterNames);
   } catch (error) {
-    console.error("Error fetching batters:", error);
-    return NextResponse.json(
-      { error: "Internal Server Error" },
-      { status: 500 }
-    );
+    console.error('Error fetching batters:', error);
+    return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
   }
 }

@@ -11,13 +11,13 @@ export async function GET(request: Request) {
     // Get total matches count and unique seasons
     const [totalMatches, seasons] = await Promise.all([
       prisma.wplMatch.count({
-        where: season ? { season } : undefined
+        where: season ? { season } : undefined,
       }),
       prisma.wplMatch.findMany({
         distinct: ['season'],
         select: { season: true },
-        orderBy: { season: 'desc' }
-      })
+        orderBy: { season: 'desc' },
+      }),
     ]);
 
     // Fetch paginated matches
@@ -35,26 +35,26 @@ export async function GET(request: Request) {
             innings: true,
             battingTeam: true,
             bowlingTeam: true,
-          }
-        }
+          },
+        },
       },
       skip: (page - 1) * limit,
       take: limit,
     });
 
     // Calculate match summaries
-    const matchesWithSummary = matches.map(match => {
-      const innings1 = match.deliveries.filter(d => d.innings === 1);
-      const innings2 = match.deliveries.filter(d => d.innings === 2);
-      
+    const matchesWithSummary = matches.map((match) => {
+      const innings1 = match.deliveries.filter((d) => d.innings === 1);
+      const innings2 = match.deliveries.filter((d) => d.innings === 2);
+
       const team1 = innings1[0]?.battingTeam;
       const team2 = innings1[0]?.bowlingTeam;
-      
+
       const innings1Score = innings1.reduce((total, d) => total + d.runsOffBat + d.extras, 0);
       const innings2Score = innings2.reduce((total, d) => total + d.runsOffBat + d.extras, 0);
-      
-      const innings1Wickets = innings1.filter(d => d.wicketType).length;
-      const innings2Wickets = innings2.filter(d => d.wicketType).length;
+
+      const innings1Wickets = innings1.filter((d) => d.wicketType).length;
+      const innings2Wickets = innings2.filter((d) => d.wicketType).length;
 
       let result = '';
       if (innings1Score > innings2Score) {
@@ -74,7 +74,7 @@ export async function GET(request: Request) {
         team2,
         innings1Score: `${innings1Score}/${innings1Wickets}`,
         innings2Score: `${innings2Score}/${innings2Wickets}`,
-        result
+        result,
       };
     });
 
@@ -84,15 +84,12 @@ export async function GET(request: Request) {
         total: totalMatches,
         pages: Math.ceil(totalMatches / limit),
         currentPage: page,
-        limit
+        limit,
       },
-      seasons: seasons.map(s => s.season)
+      seasons: seasons.map((s) => s.season),
     });
   } catch (error) {
-    console.error("Error fetching matches:", error);
-    return NextResponse.json(
-      { error: 'Failed to fetch matches' },
-      { status: 500 }
-    );
+    console.error('Error fetching matches:', error);
+    return NextResponse.json({ error: 'Failed to fetch matches' }, { status: 500 });
   }
 }

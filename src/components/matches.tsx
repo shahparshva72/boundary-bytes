@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import { useMatches } from "@/lib/useMatches";
-import { MoonLoader } from "react-spinners";
-import Link from "next/link";
+import { useMatches } from '@/lib/useMatches';
+import { MoonLoader } from 'react-spinners';
+import Link from 'next/link';
 
 interface MatchesProps {
   initialPage: number;
@@ -35,9 +35,7 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
   if (error) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-[#FFFEE0]">
-        <div className="text-2xl font-bold text-red-600">
-          Error loading matches
-        </div>
+        <div className="text-2xl font-bold text-red-600">Error loading matches</div>
       </div>
     );
   }
@@ -65,8 +63,8 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
             href="/"
             className={`px-4 py-2 font-bold border-2 border-black text-black ${
               !initialSeason
-                ? "bg-[#FF5E5B] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
-                : "bg-white hover:bg-[#FF5E5B] transition-colors"
+                ? 'bg-[#FF5E5B] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
+                : 'bg-white hover:bg-[#FF5E5B] transition-colors'
             }`}
           >
             All Seasons
@@ -77,8 +75,8 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
               href={`/?season=${season}`}
               className={`px-4 py-2 font-bold border-2 border-black text-black ${
                 initialSeason === season
-                  ? "bg-[#FF5E5B] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
-                  : "bg-white hover:bg-[#FF5E5B] transition-colors"
+                  ? 'bg-[#FF5E5B] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
+                  : 'bg-white hover:bg-[#FF5E5B] transition-colors'
               }`}
             >
               {season}
@@ -95,11 +93,9 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
             >
               <div className="flex flex-col md:flex-row justify-between items-start gap-4 mb-6">
                 <div>
-                  <h2 className="font-black text-3xl text-black">
-                    {match.venue}
-                  </h2>
+                  <h2 className="font-black text-3xl text-black">{match.venue}</h2>
                   <p className="text-lg font-bold text-black mt-1 bg-[#4ECDC4] px-3 py-1 inline-block border-2 border-black">
-                    {new Date(match.startDate).toLocaleDateString("en-IN")}
+                    {new Date(match.startDate).toLocaleDateString('en-IN')}
                   </p>
                 </div>
                 <div className="text-lg bg-[#FF9F1C] px-4 py-2 rounded-none border-3 border-black font-black text-black self-start">
@@ -110,18 +106,14 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
               <div className="mb-6 grid gap-6">
                 <div className="font-mono bg-white p-6 rounded-none border-4 border-black">
                   <div className="flex justify-between items-center">
-                    <span className="font-black text-2xl text-black">
-                      {match.team1}
-                    </span>
+                    <span className="font-black text-2xl text-black">{match.team1}</span>
                     <span className="font-black text-2xl bg-[#FF5E5B] px-3 py-1 border-2 border-black text-black">
                       {match.innings1Score}
                     </span>
                   </div>
                   <div className="my-4 border-b-4 border-dashed border-black"></div>
                   <div className="flex justify-between items-center">
-                    <span className="font-black text-2xl text-black">
-                      {match.team2}
-                    </span>
+                    <span className="font-black text-2xl text-black">{match.team2}</span>
                     <span className="font-black text-2xl bg-[#4ECDC4] px-3 py-1 border-2 border-black text-black">
                       {match.innings2Score}
                     </span>
@@ -145,21 +137,19 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
         {/* Pagination */}
         {pagination.pages > 1 && (
           <div className="flex gap-4 justify-center flex-wrap">
-            {Array.from({ length: pagination.pages }, (_, i) => i + 1).map(
-              (page) => (
-                <a
-                  key={page}
-                  href={`/?page=${page}${initialSeason ? `&season=${initialSeason}` : ""}`}
-                  className={`px-6 py-3 font-bold border-2 border-black text-black ${
-                    initialPage === page
-                      ? "bg-[#FF5E5B] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
-                      : "bg-white hover:bg-[#FF5E5B] transition-colors"
-                  }`}
-                >
-                  {page}
-                </a>
-              ),
-            )}
+            {Array.from({ length: pagination.pages }, (_, i) => i + 1).map((page) => (
+              <a
+                key={page}
+                href={`/?page=${page}${initialSeason ? `&season=${initialSeason}` : ''}`}
+                className={`px-6 py-3 font-bold border-2 border-black text-black ${
+                  initialPage === page
+                    ? 'bg-[#FF5E5B] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
+                    : 'bg-white hover:bg-[#FF5E5B] transition-colors'
+                }`}
+              >
+                {page}
+              </a>
+            ))}
           </div>
         )}
       </main>

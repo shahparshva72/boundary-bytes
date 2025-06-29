@@ -32,10 +32,10 @@ export function useMatches(page = 1, season?: string) {
     queryFn: async () => {
       const searchParams = new URLSearchParams({
         page: page.toString(),
-        limit: '5'
+        limit: '5',
       });
       if (season) searchParams.append('season', season);
-      
+
       const { data } = await api.get<MatchesResponse>(`/matches?${searchParams}`);
       return data;
     },
