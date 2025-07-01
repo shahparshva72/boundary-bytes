@@ -3,37 +3,29 @@ import { prisma } from '@/lib/prisma';
 
 export async function GET() {
   try {
-    const runScorersData = await prisma.wplDelivery.groupBy({
-      by: ['striker'],
-      _sum: {
-        runsOffBat: true,
-      },
-      _count: {
-        striker: true,
-      },
-      where: {
-        wides: {
-          equals: 0,
-        },
-      },
-    });
-
-    const playersWithMatches = await prisma.wplDelivery.groupBy({
-      by: ['striker', 'matchId'],
-    });
-
-    const matchCounts = playersWithMatches.reduce(
-      (acc: Record<string, number>, { striker }) => {
-        acc[striker] = (acc[striker] || 0) + 1;
-        return acc;
-      },
-      {}
-    );
+    // Use raw SQL query to optimize performance and reduce connection usage
+    const runScorersData = await prisma.$queryRaw<Array<{
+      striker: string;
+      runs: bigint;
+      balls_faced: bigint;
+      matches: bigint;
+    }>>`
+      SELECT 
+        striker,
+        SUM(runs_off_bat) as runs,
+        COUNT(*) FILTER (WHERE wides = 0) as balls_faced,
+        COUNT(DISTINCT match_id) as matches
+      FROM wpl_delivery 
+      GROUP BY striker 
+      HAVING SUM(runs_off_bat) > 0
+      ORDER BY SUM(runs_off_bat) DESC 
+      LIMIT 20
+    `;
 
     const processedData = runScorersData.map(data => {
-      const runs = data._sum.runsOffBat ?? 0;
-      const ballsFaced = data._count.striker;
-      const matches = matchCounts[data.striker] || 0;
+      const runs = Number(data.runs);
+      const ballsFaced = Number(data.balls_faced);
+      const matches = Number(data.matches);
 
       return {
         player: data.striker,
@@ -44,11 +36,7 @@ export async function GET() {
       };
     });
 
-    const sortedRunScorers = processedData
-      .sort((a, b) => b.runs - a.runs)
-      .slice(0, 20);
-
-    return NextResponse.json(sortedRunScorers);
+    return NextResponse.json(processedData);
   } catch (error) {
     console.error('Error fetching leading run scorers:', error);
     return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
