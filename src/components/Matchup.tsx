@@ -136,8 +136,8 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
       )}
 
       {matchupData && (
-        <div className="mt-8 w-full max-w-4xl">
-          <div className="bg-white p-8 rounded-none border-4 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)]">
+        <div className="mt-8 w-full ">
+          <div className="bg-white p-8 rounded-none border-4 border-black">
             <h2 className="text-3xl font-black text-center mb-6 text-black">
               {selectedBatter?.label} vs {selectedBowler?.label}
             </h2>
