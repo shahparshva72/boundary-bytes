@@ -6,9 +6,9 @@ This list outlines potential new statistics to implement based on the existing b
 
 - [ ] **Batting Stats**
   - [x] Add a count for total 4s and 6s for each player.
-  - [ ] Calculate and store Dot Ball Percentage for batters.
-  - [ ] Analyze and store batting performance by innings phase (Powerplay, Middle, Death overs).
-  - [ ] Implement player vs. bowler matchup statistics (strike rate, dismissals).
+  - [x] Calculate and store Dot Ball Percentage for batters.
+  - [x] Analyze and store batting performance by innings phase (Powerplay, Middle, Death overs).
+  - [x] Implement player vs. bowler matchup statistics (strike rate, dismissals).
 
 - [ ] **Bowling Stats**
   - [ ] Calculate and store player Economy Rate (Total Runs Conceded / Overs Bowled).
