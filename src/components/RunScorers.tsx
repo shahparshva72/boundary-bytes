@@ -30,11 +30,12 @@ export default function RunScorers({ data: initialData }: RunScorersProps) {
   const { data, isLoading } = useQuery({
     queryKey: ['runScorers', currentPage],
     queryFn: () => fetchRunScorers(currentPage),
-    initialData: { data: initialData, total: initialData.length },
+    initialData: Array.isArray(initialData)
+      ? { data: initialData, total: initialData.length }
+      : initialData,
   });
 
   const totalPages = data ? Math.ceil(data.total / 10) : 1;
-
 
   return (
     <div className="w-full mx-auto p-4">
@@ -73,30 +74,38 @@ export default function RunScorers({ data: initialData }: RunScorersProps) {
                 </tr>
               </thead>
               <tbody>
-                {data.data.map((player: RunScorerData, index: number) => (
-                  <tr
-                    key={player.player}
-                    className={`${index % 2 === 0 ? 'bg-white' : 'bg-[#FFED66]'}
-                      border-b-2 border-black hover:bg-[#FFED66] transition-colors duration-150`}
-                  >
-                    <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
-                      {(currentPage - 1) * 10 + index + 1}
+                {data?.data && data.data.length > 0 ? (
+                  data.data.map((player: RunScorerData, index: number) => (
+                    <tr
+                      key={player.player}
+                      className={`${index % 2 === 0 ? 'bg-white' : 'bg-[#FFED66]'}
+                        border-b-2 border-black hover:bg-[#FFED66] transition-colors duration-150`}
+                    >
+                      <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        {(currentPage - 1) * 10 + index + 1}
+                      </td>
+                      <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        {player.player}
+                      </td>
+                      <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        {player.runs}
+                      </td>
+                      <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        {player.ballsFaced}
+                      </td>
+                      <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        {player.strikeRate.toFixed(2)}
+                      </td>
+                      <td className="px-6 py-4 text-lg font-bold text-black">{player.matches}</td>
+                    </tr>
+                  ))
+                ) : (
+                  <tr>
+                    <td colSpan={6} className="px-6 py-8 text-lg font-bold text-black text-center">
+                      No run scorers data available
                     </td>
-                    <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
-                      {player.player}
-                    </td>
-                    <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
-                      {player.runs}
-                    </td>
-                    <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
-                      {player.ballsFaced}
-                    </td>
-                    <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
-                      {player.strikeRate.toFixed(2)}
-                    </td>
-                    <td className="px-6 py-4 text-lg font-bold text-black">{player.matches}</td>
                   </tr>
-                ))}
+                )}
               </tbody>
             </table>
             <Pagination

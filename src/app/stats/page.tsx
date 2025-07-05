@@ -48,8 +48,8 @@ export default function StatsPage() {
 
         setBatters(battersData);
         setBowlers(bowlersData);
-        setRunScorers(runScorersData);
-        setWicketTakers(wicketTakersData);
+        setRunScorers(runScorersData.data || []);
+        setWicketTakers(wicketTakersData.data || []);
       } catch (error) {
         console.error('Error fetching stats data:', error);
       } finally {
