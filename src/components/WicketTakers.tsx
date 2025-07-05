@@ -20,19 +20,12 @@ const fetchWicketTakers = async (page: number) => {
   return data;
 };
 
-interface WicketTakersProps {
-  data: WicketTakerData[];
-}
-
-export default function WicketTakers({ data: initialData }: WicketTakersProps) {
+export default function WicketTakers() {
   const [currentPage, setCurrentPage] = useState(1);
 
   const { data, isLoading } = useQuery({
     queryKey: ['wicketTakers', currentPage],
     queryFn: () => fetchWicketTakers(currentPage),
-    initialData: Array.isArray(initialData)
-      ? { data: initialData, total: initialData.length }
-      : initialData,
   });
 
   const totalPages = data ? Math.ceil(data.total / 10) : 1;

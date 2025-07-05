@@ -20,19 +20,12 @@ const fetchRunScorers = async (page: number) => {
   return data;
 };
 
-interface RunScorersProps {
-  data: RunScorerData[];
-}
-
-export default function RunScorers({ data: initialData }: RunScorersProps) {
+export default function RunScorers() {
   const [currentPage, setCurrentPage] = useState(1);
 
   const { data, isLoading } = useQuery({
     queryKey: ['runScorers', currentPage],
     queryFn: () => fetchRunScorers(currentPage),
-    initialData: Array.isArray(initialData)
-      ? { data: initialData, total: initialData.length }
-      : initialData,
   });
 
   const totalPages = data ? Math.ceil(data.total / 10) : 1;
