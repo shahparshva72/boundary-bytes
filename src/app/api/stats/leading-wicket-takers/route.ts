@@ -51,7 +51,7 @@ export async function GET(request: NextRequest) {
       ) AS T
     `;
 
-    const processedData = wicketTakerData.map(data => {
+    const processedData = wicketTakerData.map((data) => {
       const wickets = Number(data.wickets);
       const runsConceded = Number(data.runs_conceded);
       const ballsBowled = Number(data.balls_bowled);

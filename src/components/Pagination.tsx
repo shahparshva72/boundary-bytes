@@ -22,13 +22,9 @@ export default function Pagination({ currentPage, totalPages, onPageChange }: Pa
             hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all duration-150
             disabled:bg-gray-400 disabled:opacity-50 disabled:cursor-not-allowed disabled:shadow-none disabled:translate-x-0 disabled:translate-y-0`}
         >
-          <span className="text-xl font-black text-black uppercase tracking-wide">
-            Previous
-          </span>
+          <span className="text-xl font-black text-black uppercase tracking-wide">Previous</span>
         </button>
-        <div
-          className="px-6 py-3 bg-white border-4 border-black rounded-none"
-        >
+        <div className="px-6 py-3 bg-white border-4 border-black rounded-none">
           <span className="text-xl font-black text-black uppercase tracking-wide">
             Page {currentPage} of {totalPages}
           </span>
@@ -40,9 +36,7 @@ export default function Pagination({ currentPage, totalPages, onPageChange }: Pa
             hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all duration-150
             disabled:bg-gray-400 disabled:opacity-50 disabled:cursor-not-allowed disabled:shadow-none disabled:translate-x-0 disabled:translate-y-0`}
         >
-          <span className="text-xl font-black text-black uppercase tracking-wide">
-            Next
-          </span>
+          <span className="text-xl font-black text-black uppercase tracking-wide">Next</span>
         </button>
       </div>
     </div>

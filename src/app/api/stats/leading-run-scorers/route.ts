@@ -40,7 +40,7 @@ export async function GET(request: NextRequest) {
       ) AS T
     `;
 
-    const processedData = runScorersData.map(data => {
+    const processedData = runScorersData.map((data) => {
       const runs = Number(data.runs);
       const ballsFaced = Number(data.balls_faced);
       const matches = Number(data.matches);
