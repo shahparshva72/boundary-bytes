@@ -5,9 +5,18 @@ export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const oversParam = searchParams.get('overs');
   const batter = searchParams.get('batter');
+  const bowler = searchParams.get('bowler');
+  const playerType = searchParams.get('playerType') || 'batter';
 
   if (!oversParam) {
     return NextResponse.json({ error: 'Over numbers are required' }, { status: 400 });
+  }
+
+  if (!batter && !bowler) {
+    return NextResponse.json(
+      { error: 'Either batter or bowler must be specified' },
+      { status: 400 },
+    );
   }
 
   const overs = oversParam.split(',').map(Number);
@@ -18,9 +27,10 @@ export async function GET(request: Request) {
 
   try {
     const deliveries = await prisma.wplDelivery.findMany({
-      where: {
-        striker: batter || undefined,
-      },
+      where:
+        playerType === 'batter'
+          ? { striker: batter || undefined }
+          : { bowler: bowler || undefined },
     });
 
     const filteredDeliveries = deliveries.filter((delivery) => {
@@ -28,44 +38,92 @@ export async function GET(request: Request) {
       return overs.includes(overNumber);
     });
 
-    let runsScored = 0;
-    let ballsFaced = 0;
-    let fours = 0;
-    let sixes = 0;
-    let dismissals = 0;
+    if (playerType === 'batter') {
+      let runsScored = 0;
+      let ballsFaced = 0;
+      let fours = 0;
+      let sixes = 0;
+      let dismissals = 0;
 
-    for (const delivery of filteredDeliveries) {
-      runsScored += delivery.runsOffBat;
+      for (const delivery of filteredDeliveries) {
+        runsScored += delivery.runsOffBat;
 
-      if (delivery.wides === 0 && delivery.noballs === 0) {
-        ballsFaced++;
+        if (delivery.wides === 0 && delivery.noballs === 0) {
+          ballsFaced++;
+        }
+
+        if (delivery.runsOffBat === 4) {
+          fours++;
+        }
+
+        if (delivery.runsOffBat === 6) {
+          sixes++;
+        }
+
+        if (delivery.playerDismissed) {
+          dismissals++;
+        }
       }
 
-      if (delivery.runsOffBat === 4) {
-        fours++;
+      const strikeRate = ballsFaced > 0 ? (runsScored / ballsFaced) * 100 : 0;
+      const average = dismissals > 0 ? runsScored / dismissals : runsScored;
+
+      return NextResponse.json({
+        runsScored,
+        ballsFaced,
+        strikeRate: parseFloat(strikeRate.toFixed(2)),
+        average: parseFloat(average.toFixed(2)),
+        fours,
+        sixes,
+        dismissals,
+      });
+    } else {
+      let runsConceded = 0;
+      let ballsBowled = 0;
+      let wickets = 0;
+      let dots = 0;
+      let wides = 0;
+      let noballs = 0;
+
+      for (const delivery of filteredDeliveries) {
+        runsConceded += delivery.runsOffBat + delivery.extras;
+        ballsBowled++;
+
+        if (delivery.playerDismissed) {
+          wickets++;
+        }
+
+        if (delivery.runsOffBat === 0 && delivery.extras === 0) {
+          dots++;
+        }
+
+        if (delivery.wides > 0) {
+          wides++;
+        }
+
+        if (delivery.noballs > 0) {
+          noballs++;
+        }
       }
 
-      if (delivery.runsOffBat === 6) {
-        sixes++;
-      }
+      const overs = Math.floor(ballsBowled / 6) + (ballsBowled % 6) / 10;
+      const economyRate = overs > 0 ? runsConceded / overs : 0;
+      const average = wickets > 0 ? runsConceded / wickets : 0;
+      const strikeRate = wickets > 0 ? ballsBowled / wickets : 0;
 
-      if (delivery.playerDismissed) {
-        dismissals++;
-      }
+      return NextResponse.json({
+        runsConceded,
+        ballsBowled,
+        overs: parseFloat(overs.toFixed(1)),
+        wickets,
+        economyRate: parseFloat(economyRate.toFixed(2)),
+        average: parseFloat(average.toFixed(2)),
+        strikeRate: parseFloat(strikeRate.toFixed(2)),
+        dots,
+        wides,
+        noballs,
+      });
     }
-
-    const strikeRate = ballsFaced > 0 ? (runsScored / ballsFaced) * 100 : 0;
-    const average = dismissals > 0 ? runsScored / dismissals : runsScored;
-
-    return NextResponse.json({
-      runsScored,
-      ballsFaced,
-      strikeRate: parseFloat(strikeRate.toFixed(2)),
-      average: parseFloat(average.toFixed(2)),
-      fours,
-      sixes,
-      dismissals,
-    });
   } catch (error) {
     console.error('Error fetching advanced stats:', error);
     return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });

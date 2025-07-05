@@ -12,20 +12,36 @@ const fetchBatters = async () => {
   return data;
 };
 
-const fetchAdvancedStats = async (overs: number[], batter: string) => {
-  const { data } = await axios.get(`/api/stats/advanced?overs=${overs.join(',')}&batter=${batter}`);
+const fetchBowlers = async () => {
+  const { data } = await axios.get('/api/players/bowlers');
+  return data;
+};
+
+const fetchAdvancedStats = async (overs: number[], player: string, playerType: string) => {
+  const params = new URLSearchParams({
+    overs: overs.join(','),
+    playerType,
+    ...(playerType === 'batter' ? { batter: player } : { bowler: player }),
+  });
+  const { data } = await axios.get(`/api/stats/advanced?${params}`);
   return data;
 };
 
 const AdvancedStatsPage = () => {
   const [selectedOvers, setSelectedOvers] = useState<number[]>([]);
-  const [selectedBatter, setSelectedBatter] = useState<{ value: string; label: string } | null>(
+  const [selectedPlayer, setSelectedPlayer] = useState<{ value: string; label: string } | null>(
     null,
   );
+  const [playerType, setPlayerType] = useState<'batter' | 'bowler'>('batter');
 
   const { data: battersData } = useQuery({
     queryKey: ['batters'],
     queryFn: fetchBatters,
+  });
+
+  const { data: bowlersData } = useQuery({
+    queryKey: ['bowlers'],
+    queryFn: fetchBowlers,
   });
 
   const {
@@ -34,8 +50,8 @@ const AdvancedStatsPage = () => {
     isError: statsError,
     refetch,
   } = useQuery({
-    queryKey: ['advancedStats', selectedBatter, selectedOvers],
-    queryFn: () => fetchAdvancedStats(selectedOvers, selectedBatter!.value),
+    queryKey: ['advancedStats', selectedPlayer, selectedOvers, playerType],
+    queryFn: () => fetchAdvancedStats(selectedOvers, selectedPlayer!.value, playerType),
     enabled: false,
     retry: false,
   });
@@ -59,13 +75,20 @@ const AdvancedStatsPage = () => {
   };
 
   const handleFetchStats = () => {
-    if (selectedBatter && selectedOvers.length > 0) {
+    if (selectedPlayer && selectedOvers.length > 0) {
       refetch();
     }
   };
 
-  const batterOptions =
-    battersData?.map((batter: string) => ({ value: batter, label: batter })) || [];
+  const handlePlayerTypeChange = (type: 'batter' | 'bowler') => {
+    setPlayerType(type);
+    setSelectedPlayer(null);
+  };
+
+  const playerOptions =
+    playerType === 'batter'
+      ? battersData?.map((batter: string) => ({ value: batter, label: batter })) || []
+      : bowlersData?.map((bowler: string) => ({ value: bowler, label: bowler })) || [];
 
   const phaseOptions = [
     { value: 'custom', label: 'Custom' },
@@ -109,16 +132,40 @@ const AdvancedStatsPage = () => {
 
         <div className="w-full max-w-2xl">
           <div className="mb-4">
-            <label className="block text-lg font-bold mb-2 text-black">Select Batter</label>
+            <label className="block text-lg font-bold mb-2 text-black">Player Type</label>
+            <div className="grid grid-cols-2 gap-2 mb-4">
+              <button
+                onClick={() => handlePlayerTypeChange('batter')}
+                className={`p-3 rounded-none border-2 border-black font-bold ${
+                  playerType === 'batter' ? 'bg-[#FFC700] text-black' : 'bg-white text-black'
+                }`}
+              >
+                BATTER
+              </button>
+              <button
+                onClick={() => handlePlayerTypeChange('bowler')}
+                className={`p-3 rounded-none border-2 border-black font-bold ${
+                  playerType === 'bowler' ? 'bg-[#FFC700] text-black' : 'bg-white text-black'
+                }`}
+              >
+                BOWLER
+              </button>
+            </div>
+          </div>
+
+          <div className="mb-4">
+            <label className="block text-lg font-bold mb-2 text-black">
+              Select {playerType === 'batter' ? 'Batter' : 'Bowler'}
+            </label>
             <Select
-              instanceId="advanced-stats-batter-select"
-              options={batterOptions}
-              value={selectedBatter}
+              instanceId="advanced-stats-player-select"
+              options={playerOptions}
+              value={selectedPlayer}
               onChange={(newValue) =>
-                setSelectedBatter(newValue as { value: string; label: string } | null)
+                setSelectedPlayer(newValue as { value: string; label: string } | null)
               }
               styles={customStyles}
-              placeholder="Select Batter"
+              placeholder={`Select ${playerType === 'batter' ? 'Batter' : 'Bowler'}`}
             />
           </div>
 
@@ -158,7 +205,7 @@ const AdvancedStatsPage = () => {
           <div className="flex space-x-4">
             <button
               onClick={handleFetchStats}
-              disabled={!selectedBatter || selectedOvers.length === 0 || statsLoading}
+              disabled={!selectedPlayer || selectedOvers.length === 0 || statsLoading}
               className="w-full bg-[#FFC700] text-black font-bold p-4 rounded-none border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] disabled:bg-gray-400 disabled:shadow-none"
             >
               {statsLoading ? 'LOADING...' : 'FETCH STATS'}
@@ -184,30 +231,61 @@ const AdvancedStatsPage = () => {
 
         {stats && (
           <div className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
-              <p className="text-lg font-bold text-black">Runs Scored</p>
-              <p className="text-3xl font-black text-black">{stats.runsScored}</p>
-            </div>
-            <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
-              <p className="text-lg font-bold text-black">Balls Faced</p>
-              <p className="text-3xl font-black text-black">{stats.ballsFaced}</p>
-            </div>
-            <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
-              <p className="text-lg font-bold text-black">Strike Rate</p>
-              <p className="text-3xl font-black text-black">{stats.strikeRate}</p>
-            </div>
-            <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
-              <p className="text-lg font-bold text-black">Average</p>
-              <p className="text-3xl font-black text-black">{stats.average}</p>
-            </div>
-            <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
-              <p className="text-lg font-bold text-black">Fours</p>
-              <p className="text-3xl font-black text-black">{stats.fours}</p>
-            </div>
-            <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
-              <p className="text-lg font-bold text-black">Sixes</p>
-              <p className="text-3xl font-black text-black">{stats.sixes}</p>
-            </div>
+            {playerType === 'batter' ? (
+              <>
+                <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
+                  <p className="text-lg font-bold text-black">Runs Scored</p>
+                  <p className="text-3xl font-black text-black">{stats.runsScored}</p>
+                </div>
+                <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
+                  <p className="text-lg font-bold text-black">Balls Faced</p>
+                  <p className="text-3xl font-black text-black">{stats.ballsFaced}</p>
+                </div>
+                <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
+                  <p className="text-lg font-bold text-black">Strike Rate</p>
+                  <p className="text-3xl font-black text-black">{stats.strikeRate}</p>
+                </div>
+                <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
+                  <p className="text-lg font-bold text-black">Average</p>
+                  <p className="text-3xl font-black text-black">{stats.average}</p>
+                </div>
+                <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
+                  <p className="text-lg font-bold text-black">Fours</p>
+                  <p className="text-3xl font-black text-black">{stats.fours}</p>
+                </div>
+                <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
+                  <p className="text-lg font-bold text-black">Sixes</p>
+                  <p className="text-3xl font-black text-black">{stats.sixes}</p>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
+                  <p className="text-lg font-bold text-black">Runs Conceded</p>
+                  <p className="text-3xl font-black text-black">{stats.runsConceded}</p>
+                </div>
+                <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
+                  <p className="text-lg font-bold text-black">Wickets</p>
+                  <p className="text-3xl font-black text-black">{stats.wickets}</p>
+                </div>
+                <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
+                  <p className="text-lg font-bold text-black">Economy Rate</p>
+                  <p className="text-3xl font-black text-black">{stats.economyRate}</p>
+                </div>
+                <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
+                  <p className="text-lg font-bold text-black">Average</p>
+                  <p className="text-3xl font-black text-black">{stats.average}</p>
+                </div>
+                <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
+                  <p className="text-lg font-bold text-black">Strike Rate</p>
+                  <p className="text-3xl font-black text-black">{stats.strikeRate}</p>
+                </div>
+                <div className="bg-[#FFC700] p-4 rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
+                  <p className="text-lg font-bold text-black">Dot Balls</p>
+                  <p className="text-3xl font-black text-black">{stats.dots}</p>
+                </div>
+              </>
+            )}
           </div>
         )}
       </main>
