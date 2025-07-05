@@ -83,7 +83,7 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
   };
 
   return (
-    <div className="flex flex-col gap-[40px] items-center w-full max-w-5xl mx-auto my-8">
+    <div className="flex flex-col gap-[40px] items-center w-full  mx-auto my-8">
       <div className="w-full max-w-2xl flex flex-col md:flex-row gap-6 items-center justify-center">
         <div className="w-full md:w-1/2">
           <label htmlFor="batter-select" className="block text-lg font-bold text-black mb-2">

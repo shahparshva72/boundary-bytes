@@ -11,6 +11,9 @@ interface RunScorerData {
   ballsFaced: number;
   strikeRate: number;
   matches: number;
+  fours: number;
+  sixes: number;
+  dotBallPercentage: number;
 }
 
 const fetchRunScorers = async (page: number) => {
@@ -59,6 +62,15 @@ export default function RunScorers() {
                     Balls
                   </th>
                   <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide border-r-4 border-black">
+                    4s
+                  </th>
+                  <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide border-r-4 border-black">
+                    6s
+                  </th>
+                  <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide border-r-4 border-black">
+                    Dot Ball %
+                  </th>
+                  <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide border-r-4 border-black">
                     Strike Rate
                   </th>
                   <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide">
@@ -87,6 +99,15 @@ export default function RunScorers() {
                         {player.ballsFaced}
                       </td>
                       <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        {player.fours}
+                      </td>
+                      <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        {player.sixes}
+                      </td>
+                      <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        {player.dotBallPercentage.toFixed(2)}
+                      </td>
+                      <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
                         {player.strikeRate.toFixed(2)}
                       </td>
                       <td className="px-6 py-4 text-lg font-bold text-black">{player.matches}</td>
@@ -94,7 +115,7 @@ export default function RunScorers() {
                   ))
                 ) : (
                   <tr>
-                    <td colSpan={6} className="px-6 py-8 text-lg font-bold text-black text-center">
+                    <td colSpan={9} className="px-6 py-8 text-lg font-bold text-black text-center">
                       No run scorers data available
                     </td>
                   </tr>

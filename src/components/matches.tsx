@@ -49,7 +49,7 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
 
   return (
     <div className="grid grid-rows-[auto_1fr_auto] min-h-screen p-4 pb-20 gap-8 sm:p-8 bg-[#FFFEE0]">
-      <main className="flex flex-col gap-[40px] items-center w-full max-w-5xl mx-auto my-8">
+      <main className="flex flex-col gap-[40px] items-center w-full  mx-auto my-8">
         {/* Header */}
         <div className="flex flex-col items-center gap-6 mb-4 w-full">
           <div className="bg-[#FF5E5B] p-8 rounded-none shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] border-4 border-black transition-all hover:translate-y-[2px] hover:translate-x-[2px] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] w-full max-w-2xl">

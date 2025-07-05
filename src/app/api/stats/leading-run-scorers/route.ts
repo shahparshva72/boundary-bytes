@@ -15,13 +15,19 @@ export async function GET(request: NextRequest) {
         runs: bigint;
         balls_faced: bigint;
         matches: bigint;
+        fours: bigint;
+        sixes: bigint;
+        dot_balls: bigint;
       }>
     >`
       SELECT 
         striker,
         SUM(runs_off_bat) as runs,
         COUNT(*) FILTER (WHERE wides = 0) as balls_faced,
-        COUNT(DISTINCT match_id) as matches
+        COUNT(DISTINCT match_id) as matches,
+        COUNT(*) FILTER (WHERE runs_off_bat = 4) as fours,
+        COUNT(*) FILTER (WHERE runs_off_bat = 6) as sixes,
+        COUNT(*) FILTER (WHERE runs_off_bat = 0) as dot_balls
       FROM wpl_delivery 
       GROUP BY striker 
       HAVING SUM(runs_off_bat) > 0
@@ -44,6 +50,9 @@ export async function GET(request: NextRequest) {
       const runs = Number(data.runs);
       const ballsFaced = Number(data.balls_faced);
       const matches = Number(data.matches);
+      const fours = Number(data.fours);
+      const sixes = Number(data.sixes);
+      const dotBalls = Number(data.dot_balls);
 
       return {
         player: data.striker,
@@ -51,6 +60,9 @@ export async function GET(request: NextRequest) {
         ballsFaced,
         strikeRate: ballsFaced > 0 ? (runs / ballsFaced) * 100 : 0,
         matches,
+        fours,
+        sixes,
+        dotBallPercentage: ballsFaced > 0 ? (dotBalls / ballsFaced) * 100 : 0,
       };
     });
 
