@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import NavLink from './NavLink';
 
 const Header = () => {
   return (
@@ -8,12 +9,9 @@ const Header = () => {
           Boundary Bytes
         </Link>
         <nav className="flex gap-4">
-          <Link href="/" className="text-lg font-bold text-black hover:text-gray-700">
-            Home
-          </Link>
-          <Link href="/stats" className="text-lg font-bold text-black hover:text-gray-700">
-            Stats
-          </Link>
+          <NavLink href="/">Home</NavLink>
+          <NavLink href="/stats">Stats</NavLink>
+          <NavLink href="/stats/advanced">Advanced Stats</NavLink>
         </nav>
       </div>
     </header>
