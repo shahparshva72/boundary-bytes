@@ -21,17 +21,13 @@ const fetchPlayers = async () => {
 };
 
 export default function StatsPage() {
-  const {
-    data: playersData,
-    isLoading,
-    isError,
-  } = useQuery({
+  const { data: playersData, isError } = useQuery({
     queryKey: ['players'],
     queryFn: fetchPlayers,
   });
 
   return (
-    <Layout title="WPL STATS" loading={isLoading} error={isError}>
+    <Layout title="WPL STATS" error={isError}>
       <StatsTabs batters={playersData?.batters || []} bowlers={playersData?.bowlers || []} />
     </Layout>
   );

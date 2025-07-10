@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import { useQuery } from '@tanstack/react-query';
+import { MoonLoader } from 'react-spinners';
 import Pagination from './Pagination';
 
 interface RunScorerData {
@@ -43,7 +44,9 @@ export default function RunScorers() {
         </div>
 
         {isLoading ? (
-          <div className="p-6 text-center">Loading...</div>
+          <div className="flex items-center justify-center p-6">
+            <MoonLoader color="#4F46E5" size={50} />
+          </div>
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full">

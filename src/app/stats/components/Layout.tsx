@@ -2,6 +2,8 @@
 
 import { ReactNode } from 'react';
 
+import { MoonLoader } from 'react-spinners';
+
 interface LayoutProps {
   title: string;
   children: ReactNode;
@@ -22,7 +24,9 @@ const Layout = ({ title, children, loading, error }: LayoutProps) => {
         </div>
         {loading && (
           <div className="flex items-center justify-center p-8">
-            <div className="text-xl font-bold">Loading stats...</div>
+            <div className="flex items-center justify-center">
+              <MoonLoader color="#4F46E5" size={50} />
+            </div>
           </div>
         )}
         {error && (
