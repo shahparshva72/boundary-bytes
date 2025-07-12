@@ -70,7 +70,8 @@ export default function TeamWins() {
               <tbody>
                 {data?.data && data.data.length > 0 ? (
                   data.data.map((team: TeamWinRow, index: number) => {
-                    const winPct = team.matchesPlayed > 0 ? (team.wins / team.matchesPlayed) * 100 : 0;
+                    const winPct =
+                      team.matchesPlayed > 0 ? (team.wins / team.matchesPlayed) * 100 : 0;
                     return (
                       <tr
                         key={team.team}
@@ -118,4 +119,3 @@ export default function TeamWins() {
     </div>
   );
 }
-

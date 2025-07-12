@@ -12,7 +12,8 @@ import { prisma } from '@/lib/prisma';
 // opposition. Runs are calculated as runs_off_bat + extras for every delivery.
 // A win is categorised as "batting_first" if the team wins while playing the
 // first innings, otherwise it is "batting_second".
-export async function GET(_request: NextRequest) {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export async function GET(request: NextRequest) {
   try {
     /*
       Explanation of the SQL:
@@ -109,4 +110,3 @@ WITH delivery_std AS (
     return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
   }
 }
-
