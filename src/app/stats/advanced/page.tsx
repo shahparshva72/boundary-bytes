@@ -76,7 +76,10 @@ const AdvancedStatsPage = () => {
   ];
 
   return (
-    <Layout title="ADVANCED STATS" error={statsError}>
+    <Layout
+      description={'Get Advanced WPL Stats for players performance overwise.'}
+      error={statsError}
+    >
       <StatsControls
         playerType={playerType}
         setPlayerType={dispatch}

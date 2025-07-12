@@ -27,7 +27,7 @@ export default function StatsPage() {
   });
 
   return (
-    <Layout title="WPL STATS" error={isError}>
+    <Layout description="" error={isError}>
       <StatsTabs batters={playersData?.batters || []} bowlers={playersData?.bowlers || []} />
     </Layout>
   );
