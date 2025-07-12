@@ -34,6 +34,37 @@ interface DeliveryRow {
   other_player_dismissed: string | null;
 }
 
+// Type definition for a row in the info CSV file
+interface InfoRow {
+  type: string;
+  key: string;
+  value: string;
+  extra?: string;
+}
+
+// Parsed match info structure
+interface MatchInfo {
+  version: string;
+  ballsPerOver: number;
+  teams: string[];
+  gender: string;
+  season: string;
+  date: string;
+  event: string;
+  matchNumber: number;
+  venue: string;
+  city: string;
+  tossWinner: string;
+  tossDecision: string;
+  playerOfMatch?: string;
+  winner?: string;
+  winnerRuns?: number;
+  winnerWickets?: number;
+  players: Array<{ team: string; player: string }>;
+  officials: Array<{ type: string; name: string }>;
+  peopleRegistry: Array<{ name: string; id: string }>;
+}
+
 async function main() {
   console.log('🌱 Starting seed process...');
 
@@ -42,13 +73,21 @@ async function main() {
 
   // Filter for only the main ball-by-ball files (ignore the _info files)
   const matchFiles: string[] = [];
+  const infoFiles: string[] = [];
 
   files.forEach((file) => {
-    if (!file.endsWith('.csv') || file.includes('_info')) return;
-    matchFiles.push(path.join(CSV_DIR, file));
+    if (!file.endsWith('.csv')) return;
+    if (file.includes('_info')) {
+      infoFiles.push(path.join(CSV_DIR, file));
+    } else {
+      matchFiles.push(path.join(CSV_DIR, file));
+    }
   });
 
-  console.log(`Found ${matchFiles.length} matches to process`);
+  console.log(`Found ${matchFiles.length} matches and ${infoFiles.length} info files to process`);
+
+  // Process info files first
+  await processInfoFiles(infoFiles);
 
   // Process each match
   let processedMatches = 0;
@@ -152,6 +191,227 @@ async function main() {
   console.log(
     `✅ Seed completed: ${processedMatches} matches and ${processedDeliveries} deliveries processed`,
   );
+}
+
+async function processInfoFiles(infoFiles: string[]) {
+  console.log('Processing match info files...');
+
+  for (const infoFile of infoFiles) {
+    try {
+      // Extract match ID from filename
+      const filename = path.basename(infoFile);
+      const matchIdRegex = /^(\d+)_info\.csv$/;
+      const matchIdMatch = matchIdRegex.exec(filename);
+
+      if (!matchIdMatch?.at(1)) {
+        console.warn(`Could not extract match ID from ${filename}, skipping`);
+        continue;
+      }
+
+      const matchId = parseInt(matchIdMatch[1]!, 10);
+
+      // Read and parse info data
+      const infoContent = fs.readFileSync(infoFile, 'utf-8');
+      const infoRows = parse(infoContent, {
+        columns: false,
+        skip_empty_lines: true,
+        trim: true,
+        relax_column_count: true,
+      }) as string[][];
+
+      // Parse the info data
+      const matchInfo = parseMatchInfo(infoRows);
+
+      // Create or update match info
+      await prisma.wplMatchInfo.upsert({
+        where: { id: matchId },
+        update: {
+          version: matchInfo.version,
+          ballsPerOver: matchInfo.ballsPerOver,
+          gender: matchInfo.gender,
+          season: matchInfo.season,
+          date: new Date(matchInfo.date),
+          event: matchInfo.event,
+          matchNumber: matchInfo.matchNumber,
+          venue: matchInfo.venue,
+          city: matchInfo.city,
+          tossWinner: matchInfo.tossWinner,
+          tossDecision: matchInfo.tossDecision,
+          playerOfMatch: matchInfo.playerOfMatch,
+          winner: matchInfo.winner,
+          winnerRuns: matchInfo.winnerRuns,
+          winnerWickets: matchInfo.winnerWickets,
+        },
+        create: {
+          id: matchId,
+          version: matchInfo.version,
+          ballsPerOver: matchInfo.ballsPerOver,
+          gender: matchInfo.gender,
+          season: matchInfo.season,
+          date: new Date(matchInfo.date),
+          event: matchInfo.event,
+          matchNumber: matchInfo.matchNumber,
+          venue: matchInfo.venue,
+          city: matchInfo.city,
+          tossWinner: matchInfo.tossWinner,
+          tossDecision: matchInfo.tossDecision,
+          playerOfMatch: matchInfo.playerOfMatch,
+          winner: matchInfo.winner,
+          winnerRuns: matchInfo.winnerRuns,
+          winnerWickets: matchInfo.winnerWickets,
+        },
+      });
+
+      // Delete existing related data to avoid duplicates
+      await prisma.wplTeam.deleteMany({ where: { matchId } });
+      await prisma.wplPlayer.deleteMany({ where: { matchId } });
+      await prisma.wplOfficial.deleteMany({ where: { matchId } });
+      await prisma.wplPersonRegistry.deleteMany({ where: { matchId } });
+
+      // Insert teams
+      if (matchInfo.teams.length > 0) {
+        await prisma.wplTeam.createMany({
+          data: matchInfo.teams.map((team) => ({
+            matchId,
+            teamName: team,
+          })),
+        });
+      }
+
+      // Insert players
+      if (matchInfo.players.length > 0) {
+        await prisma.wplPlayer.createMany({
+          data: matchInfo.players.map((player) => ({
+            matchId,
+            teamName: player.team,
+            playerName: player.player,
+          })),
+        });
+      }
+
+      // Insert officials
+      if (matchInfo.officials.length > 0) {
+        await prisma.wplOfficial.createMany({
+          data: matchInfo.officials.map((official) => ({
+            matchId,
+            officialType: official.type,
+            officialName: official.name,
+          })),
+        });
+      }
+
+      // Insert people registry
+      if (matchInfo.peopleRegistry.length > 0) {
+        await prisma.wplPersonRegistry.createMany({
+          data: matchInfo.peopleRegistry.map((person) => ({
+            matchId,
+            personName: person.name,
+            registryId: person.id,
+          })),
+        });
+      }
+
+      console.log(`Processed info for match ${matchId}`);
+    } catch (error) {
+      console.error(`Error processing info file ${infoFile}:`, error);
+    }
+  }
+}
+
+function parseMatchInfo(rows: string[][]): MatchInfo {
+  const matchInfo: MatchInfo = {
+    version: '',
+    ballsPerOver: 6,
+    teams: [],
+    gender: '',
+    season: '',
+    date: '',
+    event: '',
+    matchNumber: 0,
+    venue: '',
+    city: '',
+    tossWinner: '',
+    tossDecision: '',
+    players: [],
+    officials: [],
+    peopleRegistry: [],
+  };
+
+  for (const row of rows) {
+    if (row.length < 2) continue;
+
+    const [type, key, value, extra] = row;
+
+    if (type === 'version') {
+      matchInfo.version = key;
+    } else if (type === 'info') {
+      switch (key) {
+        case 'balls_per_over':
+          matchInfo.ballsPerOver = parseInt(value, 10);
+          break;
+        case 'team':
+          matchInfo.teams.push(value);
+          break;
+        case 'gender':
+          matchInfo.gender = value;
+          break;
+        case 'season':
+          matchInfo.season = value;
+          break;
+        case 'date':
+          matchInfo.date = value;
+          break;
+        case 'event':
+          matchInfo.event = value;
+          break;
+        case 'match_number':
+          matchInfo.matchNumber = parseInt(value, 10);
+          break;
+        case 'venue':
+          matchInfo.venue = value.replace(/^"(.+)"$/, '$1');
+          break;
+        case 'city':
+          matchInfo.city = value;
+          break;
+        case 'toss_winner':
+          matchInfo.tossWinner = value;
+          break;
+        case 'toss_decision':
+          matchInfo.tossDecision = value;
+          break;
+        case 'player_of_match':
+          matchInfo.playerOfMatch = value;
+          break;
+        case 'winner':
+          matchInfo.winner = value;
+          break;
+        case 'winner_runs':
+          matchInfo.winnerRuns = parseInt(value, 10);
+          break;
+        case 'winner_wickets':
+          matchInfo.winnerWickets = parseInt(value, 10);
+          break;
+        case 'umpire':
+        case 'reserve_umpire':
+        case 'tv_umpire':
+        case 'match_referee':
+          matchInfo.officials.push({ type: key, name: value });
+          break;
+        case 'player':
+          if (extra) {
+            matchInfo.players.push({ team: value, player: extra });
+          }
+          break;
+        case 'registry':
+          if (value === 'people' && extra && row[4]) {
+            matchInfo.peopleRegistry.push({ name: extra, id: row[4] });
+          }
+          break;
+      }
+    }
+  }
+
+  return matchInfo;
 }
 
 main()

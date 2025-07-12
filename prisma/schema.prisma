@@ -52,3 +52,72 @@ model WplDelivery {
   @@index([matchId, innings, ball])
   @@map("wpl_delivery")
 }
+
+// WPL match info model for storing match metadata
+model WplMatchInfo {
+  id               Int       @id @map("match_id")
+  version          String    @map("version")
+  ballsPerOver     Int       @map("balls_per_over")
+  gender           String    @map("gender")
+  season           String    @map("season")
+  date             DateTime  @map("date")
+  event            String    @map("event")
+  matchNumber      Int       @map("match_number")
+  venue            String    @map("venue")
+  city             String    @map("city")
+  tossWinner       String    @map("toss_winner")
+  tossDecision     String    @map("toss_decision")
+  playerOfMatch    String?   @map("player_of_match")
+  winner           String?   @map("winner")
+  winnerRuns       Int?      @map("winner_runs")
+  winnerWickets    Int?      @map("winner_wickets")
+  teams            WplTeam[]
+  players          WplPlayer[]
+  officials        WplOfficial[]
+  peopleRegistry   WplPersonRegistry[]
+
+  @@map("wpl_match_info")
+}
+
+// WPL team model
+model WplTeam {
+  id          Int            @id @default(autoincrement())
+  matchId     Int            @map("match_id")
+  teamName    String         @map("team_name")
+  matchInfo   WplMatchInfo   @relation(fields: [matchId], references: [id])
+
+  @@map("wpl_team")
+}
+
+// WPL player model
+model WplPlayer {
+  id          Int            @id @default(autoincrement())
+  matchId     Int            @map("match_id")
+  teamName    String         @map("team_name")
+  playerName  String         @map("player_name")
+  matchInfo   WplMatchInfo   @relation(fields: [matchId], references: [id])
+
+  @@map("wpl_player")
+}
+
+// WPL official model
+model WplOfficial {
+  id          Int            @id @default(autoincrement())
+  matchId     Int            @map("match_id")
+  officialType String        @map("official_type") // umpire, reserve_umpire, tv_umpire, match_referee
+  officialName String        @map("official_name")
+  matchInfo   WplMatchInfo   @relation(fields: [matchId], references: [id])
+
+  @@map("wpl_official")
+}
+
+// WPL people registry model
+model WplPersonRegistry {
+  id          Int            @id @default(autoincrement())
+  matchId     Int            @map("match_id")
+  personName  String         @map("person_name")
+  registryId  String         @map("registry_id")
+  matchInfo   WplMatchInfo   @relation(fields: [matchId], references: [id])
+
+  @@map("wpl_person_registry")
+}
