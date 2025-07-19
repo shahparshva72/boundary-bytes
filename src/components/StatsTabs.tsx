@@ -5,6 +5,8 @@ import MatchupTab from '@/components/MatchupTab';
 import RunScorers from '@/components/RunScorers';
 import WicketTakers from '@/components/WicketTakers';
 import TeamWins from '@/components/TeamWins';
+import BowlingWicketTypes from '@/components/BowlingWicketTypes';
+import TeamAverages from '@/components/TeamAverages';
 
 interface StatsTabsProps {
   batters: string[];
@@ -25,6 +27,12 @@ export default function StatsTabs({ batters, bowlers }: StatsTabsProps) {
       </Tab>
       <Tab label="Team Wins">
         <TeamWins />
+      </Tab>
+      <Tab label="Bowling Wicket Types">
+        <BowlingWicketTypes />
+      </Tab>
+      <Tab label="Team Averages">
+        <TeamAverages />
       </Tab>
     </Tabs>
   );
