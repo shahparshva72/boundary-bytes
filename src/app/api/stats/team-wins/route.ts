@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 
 // GET /api/stats/team-wins
@@ -12,8 +12,7 @@ import { prisma } from '@/lib/prisma';
 // opposition. Runs are calculated as runs_off_bat + extras for every delivery.
 // A win is categorised as "batting_first" if the team wins while playing the
 // first innings, otherwise it is "batting_second".
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-export async function GET(request: NextRequest) {
+export async function GET() {
   try {
     /*
       Explanation of the SQL:

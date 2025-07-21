@@ -20,7 +20,7 @@ export async function GET(request: NextRequest) {
         dot_balls: bigint;
       }>
     >`
-      SELECT 
+      SELECT
         striker,
         SUM(runs_off_bat) as runs,
         COUNT(*) FILTER (WHERE wides = 0) as balls_faced,
@@ -28,10 +28,10 @@ export async function GET(request: NextRequest) {
         COUNT(*) FILTER (WHERE runs_off_bat = 4) as fours,
         COUNT(*) FILTER (WHERE runs_off_bat = 6) as sixes,
         COUNT(*) FILTER (WHERE runs_off_bat = 0) as dot_balls
-      FROM wpl_delivery 
-      GROUP BY striker 
+      FROM wpl_delivery
+      GROUP BY striker
       HAVING SUM(runs_off_bat) > 0
-      ORDER BY SUM(runs_off_bat) DESC 
+      ORDER BY SUM(runs_off_bat) DESC
       LIMIT ${limit}
       OFFSET ${offset}
     `;
@@ -40,8 +40,8 @@ export async function GET(request: NextRequest) {
       SELECT COUNT(T.striker) as count
       FROM (
         SELECT striker
-        FROM wpl_delivery 
-        GROUP BY striker 
+        FROM wpl_delivery
+        GROUP BY striker
         HAVING SUM(runs_off_bat) > 0
       ) AS T
     `;

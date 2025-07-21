@@ -18,22 +18,22 @@ export async function GET(request: NextRequest) {
         matches: bigint;
       }>
     >`
-      SELECT 
+      SELECT
         bowler,
         COUNT(*) FILTER (
-          WHERE player_dismissed IS NOT NULL 
+          WHERE player_dismissed IS NOT NULL
           AND wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
         ) as wickets,
         SUM(runs_off_bat + extras) as runs_conceded,
         COUNT(*) FILTER (WHERE wides = 0 AND noballs = 0) as balls_bowled,
         COUNT(DISTINCT match_id) as matches
-      FROM wpl_delivery 
-      GROUP BY bowler 
+      FROM wpl_delivery
+      GROUP BY bowler
       HAVING COUNT(*) FILTER (
-        WHERE player_dismissed IS NOT NULL 
+        WHERE player_dismissed IS NOT NULL
         AND wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
       ) > 0
-      ORDER BY wickets DESC 
+      ORDER BY wickets DESC
       LIMIT ${limit}
       OFFSET ${offset}
     `;
@@ -45,7 +45,7 @@ export async function GET(request: NextRequest) {
         FROM wpl_delivery
         GROUP BY bowler
         HAVING COUNT(*) FILTER (
-          WHERE player_dismissed IS NOT NULL 
+          WHERE player_dismissed IS NOT NULL
           AND wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
         ) > 0
       ) AS T

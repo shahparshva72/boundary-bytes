@@ -1,8 +1,7 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-export async function GET(request: NextRequest) {
+export async function GET() {
   try {
     // Use raw SQL query to optimize performance and reduce connection usage
     const teamAveragesData = await prisma.$queryRaw<
@@ -19,11 +18,11 @@ export async function GET(request: NextRequest) {
       }>
     >`
       WITH standardized_deliveries AS (
-        SELECT 
-          CASE 
-            WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru') 
+        SELECT
+          CASE
+            WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
             THEN 'Royal Challengers Bangalore'
-            ELSE batting_team 
+            ELSE batting_team
           END as team,
           match_id,
           innings,
@@ -36,7 +35,7 @@ export async function GET(request: NextRequest) {
         WHERE innings <= 2  -- Exclude super overs (innings > 2)
       ),
       team_innings AS (
-        SELECT 
+        SELECT
           team,
           match_id,
           innings,
@@ -45,32 +44,32 @@ export async function GET(request: NextRequest) {
         GROUP BY team, match_id, innings
       ),
       team_stats AS (
-        SELECT 
+        SELECT
           team,
           SUM(runs_off_bat) as total_runs,
           COUNT(*) FILTER (WHERE wides = 0) as total_balls,
           COUNT(*) FILTER (
-            WHERE player_dismissed IS NOT NULL 
+            WHERE player_dismissed IS NOT NULL
             AND wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket', 'run out')
           ) as total_dismissals
         FROM standardized_deliveries
         GROUP BY team
       )
-      SELECT 
+      SELECT
         ti.team,
         COUNT(*) as total_innings,
         ts.total_runs,
         ts.total_balls,
         ts.total_dismissals,
-        CASE 
-          WHEN ts.total_dismissals > 0 
+        CASE
+          WHEN ts.total_dismissals > 0
           THEN ts.total_runs::decimal / ts.total_dismissals
           ELSE ts.total_runs::decimal / NULLIF(COUNT(*), 0)
         END as batting_average,
-        CASE 
-          WHEN ts.total_balls > 0 
-          THEN (ts.total_runs::decimal / ts.total_balls) * 100 
-          ELSE 0 
+        CASE
+          WHEN ts.total_balls > 0
+          THEN (ts.total_runs::decimal / ts.total_balls) * 100
+          ELSE 0
         END as strike_rate,
         MAX(ti.innings_total_runs) as highest_score,
         MIN(ti.innings_total_runs) as lowest_score

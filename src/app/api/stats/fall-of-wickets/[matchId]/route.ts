@@ -24,21 +24,21 @@ export async function GET(
       }>
     >`
       WITH match_teams AS (
-        SELECT 
+        SELECT
           match_id,
           season,
           start_date,
           venue,
-          STRING_AGG(DISTINCT 
-            CASE 
-              WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru') 
+          STRING_AGG(DISTINCT
+            CASE
+              WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
               THEN 'Royal Challengers Bangalore'
-              ELSE batting_team 
-            END, ' vs ' ORDER BY 
-            CASE 
-              WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru') 
+              ELSE batting_team
+            END, ' vs ' ORDER BY
+            CASE
+              WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
               THEN 'Royal Challengers Bangalore'
-              ELSE batting_team 
+              ELSE batting_team
             END
           ) as teams
         FROM wpl_delivery d
@@ -46,7 +46,7 @@ export async function GET(
         WHERE d.match_id = ${matchIdNum}
         GROUP BY match_id, season, start_date, venue
       )
-      SELECT 
+      SELECT
         match_id,
         season,
         start_date,
@@ -73,35 +73,35 @@ export async function GET(
       }>
     >`
       WITH wicket_details AS (
-        SELECT 
+        SELECT
           match_id,
           innings,
           ball,
           player_dismissed,
           wicket_type,
           bowler,
-          CASE 
-            WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru') 
+          CASE
+            WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
             THEN 'Royal Challengers Bangalore'
-            ELSE batting_team 
+            ELSE batting_team
           END as batting_team,
           ROW_NUMBER() OVER (PARTITION BY match_id, innings ORDER BY ball) as wicket_number
-        FROM wpl_delivery 
-        WHERE player_dismissed IS NOT NULL 
+        FROM wpl_delivery
+        WHERE player_dismissed IS NOT NULL
           AND match_id = ${matchIdNum}
           AND wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket', 'run out', 'retired hurt', 'obstructing the field', 'hit the ball twice', 'handled the ball', 'timed out')
       ),
       runs_at_wicket AS (
-        SELECT 
+        SELECT
           wd.*,
           SUM(d.runs_off_bat + d.extras) as runs_at_fall
         FROM wicket_details wd
-        JOIN wpl_delivery d ON d.match_id = wd.match_id 
-          AND d.innings = wd.innings 
+        JOIN wpl_delivery d ON d.match_id = wd.match_id
+          AND d.innings = wd.innings
           AND d.ball <= wd.ball
         GROUP BY wd.match_id, wd.innings, wd.ball, wd.player_dismissed, wd.wicket_type, wd.bowler, wd.batting_team, wd.wicket_number
       )
-      SELECT 
+      SELECT
         innings,
         batting_team,
         ball,
@@ -110,7 +110,7 @@ export async function GET(
         bowler,
         wicket_number,
         runs_at_fall
-      FROM runs_at_wicket 
+      FROM runs_at_wicket
       ORDER BY innings, wicket_number
     `;
 

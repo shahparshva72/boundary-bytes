@@ -15,28 +15,28 @@ export async function GET(request: NextRequest) {
       }>
     >`
       WITH match_teams AS (
-        SELECT 
+        SELECT
           match_id,
           season,
           start_date,
           venue,
-          STRING_AGG(DISTINCT 
-            CASE 
-              WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru') 
+          STRING_AGG(DISTINCT
+            CASE
+              WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
               THEN 'Royal Challengers Bangalore'
-              ELSE batting_team 
-            END, ' vs ' ORDER BY 
-            CASE 
-              WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru') 
+              ELSE batting_team
+            END, ' vs ' ORDER BY
+            CASE
+              WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
               THEN 'Royal Challengers Bangalore'
-              ELSE batting_team 
+              ELSE batting_team
             END
           ) as teams
         FROM wpl_delivery d
         JOIN wpl_match m ON d.match_id = m.match_id
         GROUP BY match_id, season, start_date, venue
       )
-      SELECT 
+      SELECT
         match_id,
         season,
         start_date,
