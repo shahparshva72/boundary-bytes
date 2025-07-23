@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import axios from 'axios';
+import { fetchFallOfWickets } from '@/services/statsService';
 import { useQuery } from '@tanstack/react-query';
 import { MoonLoader } from 'react-spinners';
 import MatchSelector from './MatchSelector';
@@ -31,11 +31,6 @@ interface FallOfWicketsData {
   };
   innings: InningsData[];
 }
-
-const fetchFallOfWickets = async (matchId: number) => {
-  const { data } = await axios.get(`/api/stats/fall-of-wickets/${matchId}`);
-  return data;
-};
 
 export default function FallOfWickets() {
   const [selectedMatchId, setSelectedMatchId] = useState<number | undefined>();

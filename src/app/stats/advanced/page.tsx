@@ -1,7 +1,8 @@
 'use client';
 
 import { useQuery } from '@tanstack/react-query';
-import axios from 'axios';
+import { fetchBatters, fetchBowlers } from '@/services/playerService';
+import { fetchAdvancedStats } from '@/services/statsService';
 import dynamic from 'next/dynamic';
 
 import Layout from '../components/Layout';
@@ -10,26 +11,6 @@ import StatsDisplay from '../components/StatsDisplay';
 import { useAdvancedStats } from '../hooks/useAdvancedStats';
 
 const Select = dynamic(() => import('react-select'), { ssr: false });
-
-const fetchBatters = async () => {
-  const { data } = await axios.get('/api/players/batters');
-  return data;
-};
-
-const fetchBowlers = async () => {
-  const { data } = await axios.get('/api/players/bowlers');
-  return data;
-};
-
-const fetchAdvancedStats = async (overs: number[], player: string, playerType: string) => {
-  const params = new URLSearchParams({
-    overs: overs.join(','),
-    playerType,
-    ...(playerType === 'batter' ? { batter: player } : { bowler: player }),
-  });
-  const { data } = await axios.get(`/api/stats/advanced?${params}`);
-  return data;
-};
 
 const AdvancedStatsPage = () => {
   const { state, dispatch } = useAdvancedStats();
@@ -83,8 +64,8 @@ const AdvancedStatsPage = () => {
       <StatsControls
         playerType={playerType}
         setPlayerType={dispatch}
-        battersData={battersData || []}
-        bowlersData={bowlersData || []}
+        battersData={Array.isArray(battersData) ? battersData : []}
+        bowlersData={Array.isArray(bowlersData) ? bowlersData : []}
         selectedPlayer={selectedPlayer}
         setSelectedPlayer={dispatch}
         phaseOptions={phaseOptions}

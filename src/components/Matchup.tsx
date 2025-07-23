@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import axios from 'axios';
+import { fetchMatchup } from '@/services/statsService';
 import { MoonLoader } from 'react-spinners';
 import dynamic from 'next/dynamic';
 
@@ -49,10 +49,8 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
     setError(null);
     setMatchupData(null);
     try {
-      const response = await axios.get(
-        `/api/stats/matchup?batter=${selectedBatter.value}&bowler=${selectedBowler.value}`,
-      );
-      setMatchupData(response.data);
+      const data = await fetchMatchup(selectedBatter.value, selectedBowler.value);
+      setMatchupData(data);
     } catch (error) {
       console.error('Failed to fetch matchup data:', error);
       setError('Failed to fetch matchup data.');

@@ -1,6 +1,6 @@
 'use client';
 
-import axios from 'axios';
+import { fetchTeamAverages } from '@/services/statsService';
 import { useQuery } from '@tanstack/react-query';
 import { MoonLoader } from 'react-spinners';
 
@@ -15,11 +15,6 @@ interface TeamAveragesData {
   highestScore: number;
   lowestScore: number;
 }
-
-const fetchTeamAverages = async () => {
-  const { data } = await axios.get('/api/stats/team-averages');
-  return data;
-};
 
 export default function TeamAverages() {
   const { data, isLoading } = useQuery({

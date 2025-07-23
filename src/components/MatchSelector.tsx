@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import axios from 'axios';
+import { fetchMatches } from '@/services/matchService';
 import { useQuery } from '@tanstack/react-query';
 import { MoonLoader } from 'react-spinners';
 
@@ -17,11 +17,6 @@ interface MatchSelectorProps {
   onMatchSelect: (matchId: number) => void;
   selectedMatchId?: number;
 }
-
-const fetchMatches = async () => {
-  const { data } = await axios.get('/api/matches/list');
-  return data;
-};
 
 export default function MatchSelector({ onMatchSelect, selectedMatchId }: MatchSelectorProps) {
   const [searchTerm, setSearchTerm] = useState('');

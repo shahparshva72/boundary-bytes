@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import axios from 'axios';
+import { fetchRunScorers } from '@/services/statsService';
 import { useQuery } from '@tanstack/react-query';
 import { MoonLoader } from 'react-spinners';
 import Pagination from './Pagination';
@@ -16,13 +16,6 @@ interface RunScorerData {
   sixes: number;
   dotBallPercentage: number;
 }
-
-const fetchRunScorers = async (page: number) => {
-  const { data } = await axios.get('/api/stats/leading-run-scorers', {
-    params: { page, limit: 10 },
-  });
-  return data;
-};
 
 export default function RunScorers() {
   const [currentPage, setCurrentPage] = useState(1);

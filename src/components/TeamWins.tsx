@@ -1,6 +1,6 @@
 'use client';
 
-import axios from 'axios';
+import { fetchTeamWins } from '@/services/statsService';
 import { useQuery } from '@tanstack/react-query';
 import { MoonLoader } from 'react-spinners';
 
@@ -12,11 +12,6 @@ interface TeamWinRow {
   winsBattingFirst: number;
   winsBattingSecond: number;
 }
-
-const fetchTeamWins = async () => {
-  const { data } = await axios.get('/api/stats/team-wins');
-  return data;
-};
 
 export default function TeamWins() {
   const { data, isLoading } = useQuery({
