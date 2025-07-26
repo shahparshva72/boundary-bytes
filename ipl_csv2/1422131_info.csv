@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2024
+info,date,2024/03/31
+info,event,Indian Premier League
+info,match_number,13
+info,venue,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam"
+info,city,Visakhapatnam
+info,toss_winner,Delhi Capitals
+info,toss_decision,bat
+info,player_of_match,KK Ahmed
+info,umpire,HDPK Dharmasena
+info,umpire,Vinod Seshan
+info,reserve_umpire,VM Dhokre
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,Prakash Bhatt
+info,winner,Delhi Capitals
+info,winner_runs,20
+info,player,Delhi Capitals,Rasikh Salam
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,MR Marsh
+info,player,Delhi Capitals,T Stubbs
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,A Nortje
+info,player,Delhi Capitals,Mukesh Kumar
+info,player,Delhi Capitals,I Sharma
+info,player,Delhi Capitals,KK Ahmed
+info,player,Chennai Super Kings,M Pathirana
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,R Ravindra
+info,player,Chennai Super Kings,AM Rahane
+info,player,Chennai Super Kings,DJ Mitchell
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,Sameer Rizvi
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,TU Deshpande
+info,player,Chennai Super Kings,Mustafizur Rahman
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AR Patel,2e171977
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Mitchell,eade4650
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Pathirana,64839cb3
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,R Ravindra,ba5e1069
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,RR Pant,919a3be2
+info,registry,people,Rasikh Salam,b8527c3d
+info,registry,people,S Dube,a4e37e47
+info,registry,people,Sameer Rizvi,f89d3b11
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,TU Deshpande,46a9bea1
+info,registry,people,VM Dhokre,67df71c9
+info,registry,people,Vinod Seshan,a3357a27

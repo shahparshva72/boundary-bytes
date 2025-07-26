@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2021
+info,date,2021/04/13
+info,event,Indian Premier League
+info,match_number,5
+info,venue,"MA Chidambaram Stadium, Chepauk, Chennai"
+info,city,Chennai
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,RD Chahar
+info,umpire,C Shamshuddin
+info,umpire,CB Gaffaney
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,S Chaturvedi
+info,winner,Mumbai Indians
+info,winner_runs,10
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,M Jansen
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,TA Boult
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,RA Tripathi
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,PJ Cummins
+info,player,Kolkata Knight Riders,Harbhajan Singh
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Kolkata Knight Riders,M Prasidh Krishna
+info,registry,people,AD Russell,bbd41817
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Chaturvedi,c8ec02e1
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,TA Boult,a818c1be

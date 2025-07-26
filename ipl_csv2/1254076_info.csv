@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2021
+info,date,2021/04/25
+info,event,Indian Premier League
+info,match_number,19
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,RA Jadeja
+info,umpire,AK Chaudhary
+info,umpire,VK Sharma
+info,reserve_umpire,J Madanagopal
+info,tv_umpire,Navdeep Singh
+info,match_referee,Shakti Singh
+info,winner,Chennai Super Kings
+info,winner_runs,69
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,SM Curran
+info,player,Chennai Super Kings,SN Thakur
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,Imran Tahir
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,D Padikkal
+info,player,Royal Challengers Bangalore,Washington Sundar
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,DT Christian
+info,player,Royal Challengers Bangalore,KA Jamieson
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,NA Saini
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,KA Jamieson,68c56d09
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,NA Saini,21d4e29b
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SM Curran,e94915e6
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YS Chahal,57ee1fde

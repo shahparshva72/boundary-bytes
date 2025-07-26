@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bengaluru
+info,team,Delhi Capitals
+info,gender,male
+info,season,2024
+info,date,2024/05/12
+info,event,Indian Premier League
+info,match_number,62
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,C Green
+info,umpire,A Nand Kishore
+info,umpire,VA Kulkarni
+info,reserve_umpire,Bhavesh Patel
+info,tv_umpire,Nitin Menon
+info,match_referee,R Seth
+info,winner,Royal Challengers Bengaluru
+info,winner_runs,47
+info,player,Royal Challengers Bengaluru,V Kohli
+info,player,Royal Challengers Bengaluru,F du Plessis
+info,player,Royal Challengers Bengaluru,WG Jacks
+info,player,Royal Challengers Bengaluru,RM Patidar
+info,player,Royal Challengers Bengaluru,C Green
+info,player,Royal Challengers Bengaluru,MK Lomror
+info,player,Royal Challengers Bengaluru,KD Karthik
+info,player,Royal Challengers Bengaluru,Swapnil Singh
+info,player,Royal Challengers Bengaluru,KV Sharma
+info,player,Royal Challengers Bengaluru,Mohammed Siraj
+info,player,Royal Challengers Bengaluru,Yash Dayal
+info,player,Royal Challengers Bengaluru,LH Ferguson
+info,player,Delhi Capitals,KK Ahmed
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,J Fraser-McGurk
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,SD Hope
+info,player,Delhi Capitals,Kumar Kushagra
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,T Stubbs
+info,player,Delhi Capitals,Rasikh Salam
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,Mukesh Kumar
+info,player,Delhi Capitals,I Sharma
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AR Patel,2e171977
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,Bhavesh Patel,ee03dc30
+info,registry,people,C Green,eaa76d3c
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,F du Plessis,3355b542
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KV Sharma,119678fd
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,Kumar Kushagra,57ca01b3
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,R Seth,540a44ba
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,Rasikh Salam,b8527c3d
+info,registry,people,SD Hope,1fc6ef83
+info,registry,people,Swapnil Singh,983f2f61
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,WG Jacks,9caf69a1
+info,registry,people,Yash Dayal,7210d461

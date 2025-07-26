@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2009/10
+info,date,2010/03/30
+info,event,Indian Premier League
+info,match_number,27
+info,venue,Brabourne Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,SL Malinga
+info,umpire,BR Doctrove
+info,umpire,SK Tarapore
+info,reserve_umpire,VM Bandiwadekar
+info,tv_umpire,S Ravi
+info,match_referee,S Venkataraghavan
+info,winner,Mumbai Indians
+info,winner_wickets,4
+info,player,Kings XI Punjab,RS Bopara
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,MS Bisla
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,B Lee
+info,player,Kings XI Punjab,K Goel
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,VS Malik
+info,player,Kings XI Punjab,SJ Srivastava
+info,player,Mumbai Indians,S Dhawan
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,SS Tiwary
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,R Sathish
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,R McLaren
+info,player,Mumbai Indians,Z Khan
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,K Goel,a1f1829d
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R McLaren,c654af19
+info,registry,people,R Sathish,626c5379
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Srivastava,2049f3a0
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,VM Bandiwadekar,e236db6b
+info,registry,people,VS Malik,5f26df4f
+info,registry,people,Yuvraj Singh,1c914163
+info,registry,people,Z Khan,91a4a398

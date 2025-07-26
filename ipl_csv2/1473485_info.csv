@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Delhi Capitals
+info,gender,male
+info,season,2025
+info,date,2025/04/29
+info,event,Indian Premier League
+info,match_number,48
+info,venue,"Arun Jaitley Stadium, Delhi"
+info,city,Delhi
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,SP Narine
+info,umpire,M Krishnadas
+info,umpire,MV Saidharshan Kumar
+info,reserve_umpire,Bhavesh Patel
+info,tv_umpire,Nitin Menon
+info,match_referee,IR Siddiqui
+info,winner,Kolkata Knight Riders
+info,winner_runs,14
+info,player,Kolkata Knight Riders,VG Arora
+info,player,Kolkata Knight Riders,Rahmanullah Gurbaz
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,AM Rahane
+info,player,Kolkata Knight Riders,A Raghuvanshi
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,R Powell
+info,player,Kolkata Knight Riders,AS Roy
+info,player,Kolkata Knight Riders,Harshit Rana
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Delhi Capitals,Mukesh Kumar
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,F du Plessis
+info,player,Delhi Capitals,KK Nair
+info,player,Delhi Capitals,KL Rahul
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,T Stubbs
+info,player,Delhi Capitals,V Nigam
+info,player,Delhi Capitals,Ashutosh Sharma
+info,player,Delhi Capitals,MA Starc
+info,player,Delhi Capitals,PVD Chameera
+info,player,Delhi Capitals,Kuldeep Yadav
+info,registry,people,A Raghuvanshi,d7017798
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AR Patel,2e171977
+info,registry,people,AS Roy,e4cdf230
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,Ashutosh Sharma,84d9c311
+info,registry,people,Bhavesh Patel,ee03dc30
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,F du Plessis,3355b542
+info,registry,people,Harshit Rana,77b1aa15
+info,registry,people,IR Siddiqui,6436f803
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Krishnadas,e298c588
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PVD Chameera,327b58d3
+info,registry,people,R Powell,650d5e49
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,Rahmanullah Gurbaz,0bacade8
+info,registry,people,SP Narine,9d430b40
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,V Nigam,5ffc0565
+info,registry,people,VG Arora,7c3b3b78
+info,registry,people,VR Iyer,a24be938

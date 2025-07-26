@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2009
+info,date,2009/04/24
+info,event,Indian Premier League
+info,match_number,11
+info,venue,Kingsmead
+info,city,Durban
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,bat
+info,player_of_match,RS Bopara
+info,umpire,BR Doctrove
+info,umpire,TH Wijewardene
+info,reserve_umpire,ZTA Ndamane
+info,tv_umpire,SJA Taufel
+info,match_referee,D Govindjee
+info,winner,Kings XI Punjab
+info,winner_wickets,7
+info,player,Kings XI Punjab,RS Bopara
+info,player,Kings XI Punjab,K Goel
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,WA Mota
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,VRV Singh
+info,player,Kings XI Punjab,RR Bose
+info,player,Kings XI Punjab,YA Abdulla
+info,player,Royal Challengers Bangalore,JD Ryder
+info,player,Royal Challengers Bangalore,RV Uthappa
+info,player,Royal Challengers Bangalore,JH Kallis
+info,player,Royal Challengers Bangalore,KP Pietersen
+info,player,Royal Challengers Bangalore,R Dravid
+info,player,Royal Challengers Bangalore,LRPL Taylor
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,P Kumar
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,Pankaj Singh
+info,player,Royal Challengers Bangalore,A Kumble
+info,registry,people,A Kumble,0c2730df
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,K Goel,a1f1829d
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,Pankaj Singh,e32d22f6
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RR Bose,21ac077a
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,TH Wijewardene,6a6be119
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VRV Singh,034b4b7d
+info,registry,people,WA Mota,3dba85c2
+info,registry,people,YA Abdulla,4353bba5
+info,registry,people,Yuvraj Singh,1c914163
+info,registry,people,ZTA Ndamane,545cc6db

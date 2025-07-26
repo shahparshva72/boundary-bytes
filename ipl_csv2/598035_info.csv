@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Pune Warriors
+info,gender,male
+info,season,2013
+info,date,2013/04/28
+info,event,Indian Premier League
+info,match_number,39
+info,venue,Shaheed Veer Narayan Singh International Stadium
+info,city,Raipur
+info,toss_winner,Pune Warriors
+info,toss_decision,field
+info,player_of_match,DA Warner
+info,umpire,CK Nandan
+info,umpire,S Ravi
+info,reserve_umpire,VK Sharma
+info,tv_umpire,HDPK Dharmasena
+info,match_referee,RS Mahanama
+info,winner,Delhi Daredevils
+info,winner_runs,15
+info,player,Delhi Daredevils,DPMD Jayawardene
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,UBT Chand
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,BJ Rohrer
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,M Morkel
+info,player,Delhi Daredevils,A Nehra
+info,player,Delhi Daredevils,UT Yadav
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,AJ Finch
+info,player,Pune Warriors,Yuvraj Singh
+info,player,Pune Warriors,LJ Wright
+info,player,Pune Warriors,SPD Smith
+info,player,Pune Warriors,M Manhas
+info,player,Pune Warriors,AM Nayar
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,AB Dinda
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,KW Richardson
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RS Mahanama,57910393
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,UBT Chand,0c94f480
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,Yuvraj Singh,1c914163

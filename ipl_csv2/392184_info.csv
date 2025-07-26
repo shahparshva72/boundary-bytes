@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2009
+info,date,2009/04/19
+info,event,Indian Premier League
+info,match_number,4
+info,venue,Newlands
+info,city,Cape Town
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,RP Singh
+info,umpire,MR Benson
+info,umpire,BR Doctrove
+info,reserve_umpire,MW Brown
+info,tv_umpire,SD Ranade
+info,match_referee,Yashpal Sharma
+info,winner,Deccan Chargers
+info,winner_wickets,8
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,VVS Laxman
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,SB Styris
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,Harmeet Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,FH Edwards
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,CH Gayle
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,BJ Hodge
+info,player,Kolkata Knight Riders,A Chopra
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,MC Henriques
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Kolkata Knight Riders,AB Dinda
+info,registry,people,A Chopra,e249fdaa
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,FH Edwards,a7c226e1
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,Harmeet Singh,2a72fd4f
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Kartik,abfeb126
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MR Benson,790e14d3
+info,registry,people,MW Brown,d83d7796
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,SB Styris,57efa3be
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SD Ranade,369c85c1
+info,registry,people,VVS Laxman,de8cce37
+info,registry,people,Y Venugopal Rao,fe763256
+info,registry,people,Yashpal Sharma,e22d7ccb

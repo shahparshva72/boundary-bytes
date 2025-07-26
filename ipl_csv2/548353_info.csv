@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Pune Warriors
+info,gender,male
+info,season,2012
+info,date,2012/05/05
+info,event,Indian Premier League
+info,match_number,47
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,SP Narine
+info,umpire,BF Bowden
+info,umpire,SK Tarapore
+info,reserve_umpire,AS Pathania
+info,tv_umpire,C Shamshuddin
+info,match_referee,J Srinath
+info,winner,Kolkata Knight Riders
+info,winner_runs,7
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,DB Das
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,M de Lange
+info,player,Kolkata Knight Riders,Iqbal Abdulla
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,MJ Clarke
+info,player,Pune Warriors,MK Pandey
+info,player,Pune Warriors,SPD Smith
+info,player,Pune Warriors,M Manhas
+info,player,Pune Warriors,AD Mathews
+info,player,Pune Warriors,SC Ganguly
+info,player,Pune Warriors,WD Parnell
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,M Kartik
+info,player,Pune Warriors,AB Dinda
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AS Pathania,bf6c251d
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,DB Das,7050a1e7
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Kartik,abfeb126
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,M de Lange,d4eef961
+info,registry,people,MJ Clarke,f842c2cf
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,WD Parnell,3a60e0b5
+info,registry,people,YK Pathan,3c6ffae8

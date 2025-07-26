@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2018
+info,date,2018/04/07
+info,event,Indian Premier League
+info,match_number,1
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,DJ Bravo
+info,umpire,CB Gaffaney
+info,umpire,A Nand Kishore
+info,reserve_umpire,UV Gandhe
+info,tv_umpire,AK Chaudhary
+info,match_referee,RB Richardson
+info,winner,Chennai Super Kings
+info,winner_wickets,1
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,E Lewis
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,Mustafizur Rahman
+info,player,Mumbai Indians,M Markande
+info,player,Chennai Super Kings,SR Watson
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,KM Jadhav
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,Harbhajan Singh
+info,player,Chennai Super Kings,MA Wood
+info,player,Chennai Super Kings,Imran Tahir
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,E Lewis,0ebfb1ad
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,MA Wood,8d92a2c3
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RB Richardson,410e2f12
+info,registry,people,RG Sharma,740742ef
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,UV Gandhe,43dd4011

@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Rising Pune Supergiant
+info,gender,male
+info,season,2017
+info,date,2017/05/03
+info,event,Indian Premier League
+info,match_number,41
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Rising Pune Supergiant
+info,toss_decision,field
+info,player_of_match,RA Tripathi
+info,umpire,KN Ananthapadmanabhan
+info,umpire,A Nand Kishore
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,S Ravi
+info,match_referee,J Srinath
+info,winner,Rising Pune Supergiant
+info,winner_wickets,4
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,SP Jackson
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,C de Grandhomme
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,CR Woakes
+info,player,Kolkata Knight Riders,NM Coulter-Nile
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Rising Pune Supergiant,AM Rahane
+info,player,Rising Pune Supergiant,RA Tripathi
+info,player,Rising Pune Supergiant,SPD Smith
+info,player,Rising Pune Supergiant,MK Tiwary
+info,player,Rising Pune Supergiant,BA Stokes
+info,player,Rising Pune Supergiant,MS Dhoni
+info,player,Rising Pune Supergiant,DT Christian
+info,player,Rising Pune Supergiant,Washington Sundar
+info,player,Rising Pune Supergiant,SN Thakur
+info,player,Rising Pune Supergiant,JD Unadkat
+info,player,Rising Pune Supergiant,Imran Tahir
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BA Stokes,e087956b
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CR Woakes,4c5d73db
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,R Powell,650d5e49
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SP Jackson,acc1aeda
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YK Pathan,3c6ffae8

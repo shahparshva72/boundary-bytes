@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2023
+info,date,2023/04/26
+info,event,Indian Premier League
+info,match_number,36
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,CV Varun
+info,umpire,KN Ananthapadmanabhan
+info,umpire,R Pandit
+info,reserve_umpire,Abhijit Bhattacharya
+info,tv_umpire,MA Gough
+info,match_referee,Amit Sharma
+info,winner,Kolkata Knight Riders
+info,winner_runs,21
+info,player,Kolkata Knight Riders,Suyash Sharma
+info,player,Kolkata Knight Riders,JJ Roy
+info,player,Kolkata Knight Riders,N Jagadeesan
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,D Wiese
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,VG Arora
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,MK Lomror
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,SS Prabhudessai
+info,player,Royal Challengers Bangalore,PWH de Silva
+info,player,Royal Challengers Bangalore,DJ Willey
+info,player,Royal Challengers Bangalore,Vijaykumar Vyshak
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AS Roy,e4cdf230
+info,registry,people,Abhijit Bhattacharya,59ec9638
+info,registry,people,Amit Sharma,7ea3e0cc
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,D Wiese,aa8d28ae
+info,registry,people,DJ Willey,7f048519
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MA Gough,76752ac8
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,N Jagadeesan,bd54eef5
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,R Pandit,8a604384
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Prabhudessai,9385de2e
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,Suyash Sharma,9440ef41
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VG Arora,7c3b3b78
+info,registry,people,VR Iyer,a24be938
+info,registry,people,Vijaykumar Vyshak,54e52590

@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2023
+info,date,2023/04/23
+info,event,Indian Premier League
+info,match_number,32
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,GJ Maxwell
+info,umpire,MA Gough
+info,umpire,MV Saidharshan Kumar
+info,reserve_umpire,Abhijit Bhattacharya
+info,tv_umpire,Navdeep Singh
+info,match_referee,Amit Sharma
+info,winner,Royal Challengers Bangalore
+info,winner_runs,7
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,MK Lomror
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,SS Prabhudessai
+info,player,Royal Challengers Bangalore,PWH de Silva
+info,player,Royal Challengers Bangalore,DJ Willey
+info,player,Royal Challengers Bangalore,Vijaykumar Vyshak
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,D Padikkal
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,Abdul Basith
+info,player,Rajasthan Royals,JO Holder
+info,player,Rajasthan Royals,TA Boult
+info,player,Rajasthan Royals,Sandeep Sharma
+info,player,Rajasthan Royals,YS Chahal
+info,registry,people,Abdul Basith,cc777ffa
+info,registry,people,Abhijit Bhattacharya,59ec9638
+info,registry,people,Amit Sharma,7ea3e0cc
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,DJ Willey,7f048519
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JO Holder,0f721006
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,MA Gough,76752ac8
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SS Prabhudessai,9385de2e
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,TA Boult,a818c1be
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Vijaykumar Vyshak,54e52590
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YS Chahal,57ee1fde

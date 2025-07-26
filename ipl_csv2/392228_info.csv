@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2009
+info,date,2009/05/16
+info,event,Indian Premier League
+info,match_number,48
+info,venue,New Wanderers Stadium
+info,city,Johannesburg
+info,toss_winner,Deccan Chargers
+info,toss_decision,field
+info,player_of_match,RG Sharma
+info,umpire,RE Koertzen
+info,umpire,S Ravi
+info,reserve_umpire,KH Hurter
+info,tv_umpire,SL Shastri
+info,match_referee,S Venkataraghavan
+info,winner,Deccan Chargers
+info,winner_wickets,6
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,TL Suman
+info,player,Deccan Chargers,A Symonds
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,RJ Harris
+info,player,Deccan Chargers,Harmeet Singh
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,BJ Hodge
+info,player,Kolkata Knight Riders,DJ Hussey
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,Mashrafe Mortaza
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,Yashpal Singh
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Kolkata Knight Riders,SS Shaikh
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,Harmeet Singh,2a72fd4f
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,KH Hurter,bda8cca8
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Kartik,abfeb126
+info,registry,people,Mashrafe Mortaza,e186f49c
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,SS Shaikh,5f5d3ad4
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Y Venugopal Rao,fe763256
+info,registry,people,Yashpal Singh,297b26da

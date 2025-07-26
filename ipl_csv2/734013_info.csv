@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2014
+info,date,2014/05/18
+info,event,Indian Premier League
+info,match_number,42
+info,venue,JSCA International Stadium Complex
+info,city,Ranchi
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,AB de Villiers
+info,umpire,BNJ Oxenford
+info,umpire,C Shamshuddin
+info,reserve_umpire,J Madanagopal
+info,tv_umpire,RM Deshpande
+info,match_referee,J Srinath
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,5
+info,player,Chennai Super Kings,DR Smith
+info,player,Chennai Super Kings,BB McCullum
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,DJ Hussey
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,M Manhas
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,IC Pandey
+info,player,Chennai Super Kings,MM Sharma
+info,player,Chennai Super Kings,S Badree
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,PA Patel
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,Yuvraj Singh
+info,player,Royal Challengers Bangalore,S Rana
+info,player,Royal Challengers Bangalore,AN Ahmed
+info,player,Royal Challengers Bangalore,MA Starc
+info,player,Royal Challengers Bangalore,M Muralitharan
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,VR Aaron
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AN Ahmed,2af1b6d2
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DR Smith,35205dfc
+info,registry,people,IC Pandey,e0407c01
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,J Srinath,bad31fac
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RM Deshpande,7d2a4250
+info,registry,people,S Badree,76388dc8
+info,registry,people,S Rana,90edaaa9
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Yuvraj Singh,1c914163

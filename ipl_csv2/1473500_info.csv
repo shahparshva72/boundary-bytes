@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2025
+info,date,2025/05/20
+info,event,Indian Premier League
+info,match_number,62
+info,venue,"Arun Jaitley Stadium, Delhi"
+info,city,Delhi
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,Akash Madhwal
+info,umpire,K Kelkar
+info,umpire,R Pandit
+info,reserve_umpire,Amit Rana
+info,tv_umpire,AT Holdstock
+info,match_referee,A Kripal Singh
+info,winner,Rajasthan Royals
+info,winner_wickets,6
+info,player,Chennai Super Kings,M Pathirana
+info,player,Chennai Super Kings,A Mhatre
+info,player,Chennai Super Kings,DP Conway
+info,player,Chennai Super Kings,Urvil Patel
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,D Brevis
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,A Kamboj
+info,player,Chennai Super Kings,Noor Ahmad
+info,player,Chennai Super Kings,KK Ahmed
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,V Suryavanshi
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,PWH de Silva
+info,player,Rajasthan Royals,KT Maphaka
+info,player,Rajasthan Royals,Yudhvir Singh
+info,player,Rajasthan Royals,TU Deshpande
+info,player,Rajasthan Royals,Akash Madhwal
+info,registry,people,A Kamboj,fcc21ace
+info,registry,people,A Kripal Singh,8f559207
+info,registry,people,A Mhatre,b2b4f545
+info,registry,people,AT Holdstock,6fa3258c
+info,registry,people,Akash Madhwal,4bd09374
+info,registry,people,Amit Rana,f5db088b
+info,registry,people,D Brevis,844e79d1
+info,registry,people,DP Conway,df5a6881
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,K Kelkar,1d88908d
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KT Maphaka,107c26fb
+info,registry,people,M Pathirana,64839cb3
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Noor Ahmad,efc04be7
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Parag,04a418e8
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,TU Deshpande,46a9bea1
+info,registry,people,Urvil Patel,cf59b3f0
+info,registry,people,V Suryavanshi,470f446b
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,Yudhvir Singh,4885bbe6

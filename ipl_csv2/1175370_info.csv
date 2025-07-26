@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2019
+info,date,2019/04/03
+info,event,Indian Premier League
+info,match_number,15
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,HH Pandya
+info,umpire,BNJ Oxenford
+info,umpire,RJ Tucker
+info,reserve_umpire,BK Ravi
+info,tv_umpire,YC Barde
+info,match_referee,M Nayyar
+info,winner,Mumbai Indians
+info,winner_runs,37
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Yuvraj Singh
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,JP Behrendorff
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Chennai Super Kings,SR Watson
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,KM Jadhav
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,SN Thakur
+info,player,Chennai Super Kings,MM Sharma
+info,player,Chennai Super Kings,Imran Tahir
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,BK Ravi,ff8c3cfb
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,YC Barde,b90f3346
+info,registry,people,Yuvraj Singh,1c914163

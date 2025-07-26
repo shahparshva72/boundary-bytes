@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Gujarat Titans
+info,team,Punjab Kings
+info,gender,male
+info,season,2022
+info,date,2022/05/03
+info,event,Indian Premier League
+info,match_number,48
+info,venue,"Dr DY Patil Sports Academy, Mumbai"
+info,city,Navi Mumbai
+info,toss_winner,Gujarat Titans
+info,toss_decision,bat
+info,player_of_match,K Rabada
+info,umpire,R Pandit
+info,umpire,VK Sharma
+info,reserve_umpire,UV Gandhe
+info,tv_umpire,HAS Khalid
+info,match_referee,DS Manohar
+info,winner,Punjab Kings
+info,winner_wickets,8
+info,player,Gujarat Titans,WP Saha
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,B Sai Sudharsan
+info,player,Gujarat Titans,HH Pandya
+info,player,Gujarat Titans,DA Miller
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,PJ Sangwan
+info,player,Gujarat Titans,LH Ferguson
+info,player,Gujarat Titans,AS Joseph
+info,player,Gujarat Titans,Mohammed Shami
+info,player,Punjab Kings,JM Bairstow
+info,player,Punjab Kings,S Dhawan
+info,player,Punjab Kings,PBB Rajapaksa
+info,player,Punjab Kings,LS Livingstone
+info,player,Punjab Kings,MA Agarwal
+info,player,Punjab Kings,JM Sharma
+info,player,Punjab Kings,R Dhawan
+info,player,Punjab Kings,K Rabada
+info,player,Punjab Kings,RD Chahar
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Punjab Kings,Sandeep Sharma
+info,registry,people,AS Joseph,b0946605
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,B Sai Sudharsan,d5130a30
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DS Manohar,b35f3ac8
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,PBB Rajapaksa,6c882e9a
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,R Dhawan,26a85969
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Dhawan,0a476045
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,WP Saha,fe11caa6

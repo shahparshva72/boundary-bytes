@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Gujarat Titans
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2022
+info,date,2022/04/14
+info,event,Indian Premier League
+info,match_number,24
+info,venue,"Dr DY Patil Sports Academy, Mumbai"
+info,city,Mumbai
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,HH Pandya
+info,umpire,CB Gaffaney
+info,umpire,R Pandit
+info,reserve_umpire,Tapan Sharma
+info,tv_umpire,J Madanagopal
+info,match_referee,M Nayyar
+info,winner,Gujarat Titans
+info,winner_runs,37
+info,player,Gujarat Titans,MS Wade
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,V Shankar
+info,player,Gujarat Titans,HH Pandya
+info,player,Gujarat Titans,A Manohar
+info,player,Gujarat Titans,DA Miller
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,Mohammed Shami
+info,player,Gujarat Titans,LH Ferguson
+info,player,Gujarat Titans,Yash Dayal
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,D Padikkal
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,HE van der Dussen
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,JDS Neesham
+info,player,Rajasthan Royals,M Prasidh Krishna
+info,player,Rajasthan Royals,YS Chahal
+info,player,Rajasthan Royals,KR Sen
+info,registry,people,A Manohar,0890552f
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,HE van der Dussen,9948e262
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JDS Neesham,9219eff0
+info,registry,people,KR Sen,2e78f685
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,MS Wade,afa7e784
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,Tapan Sharma,b9aa2b6e
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Yash Dayal,7210d461

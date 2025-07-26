@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2012
+info,date,2012/04/28
+info,event,Indian Premier League
+info,match_number,38
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,G Gambhir
+info,umpire,Asad Rauf
+info,umpire,BR Doctrove
+info,reserve_umpire,AS Pathania
+info,tv_umpire,S Asnani
+info,match_referee,RR Jadeja
+info,winner,Kolkata Knight Riders
+info,winner_runs,47
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,DB Das
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,B Lee
+info,player,Kolkata Knight Riders,Iqbal Abdulla
+info,player,Royal Challengers Bangalore,TM Dilshan
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,DL Vettori
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,KP Appanna
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AS Pathania,bf6c251d
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DB Das,7050a1e7
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,KP Appanna,d92e42f5
+info,registry,people,LR Shukla,b1451597
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RR Jadeja,053de19b
+info,registry,people,S Asnani,b04524bc
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Z Khan,91a4a398

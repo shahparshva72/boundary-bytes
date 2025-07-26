@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2009
+info,date,2009/05/07
+info,event,Indian Premier League
+info,match_number,34
+info,venue,SuperSport Park
+info,city,Centurion
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,ML Hayden
+info,umpire,DJ Harper
+info,umpire,TH Wijewardene
+info,reserve_umpire,JD Cloete
+info,tv_umpire,K Hariharan
+info,match_referee,S Venkataraghavan
+info,winner,Chennai Super Kings
+info,winner_runs,12
+info,method,D/L
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,ML Hayden
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,GJ Bailey
+info,player,Chennai Super Kings,S Tyagi
+info,player,Chennai Super Kings,SB Jakati
+info,player,Chennai Super Kings,L Balaji
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Chennai Super Kings,MS Gony
+info,player,Kings XI Punjab,S Sohal
+info,player,Kings XI Punjab,SM Katich
+info,player,Kings XI Punjab,K Goel
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,S Sreesanth
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,YA Abdulla
+info,player,Kings XI Punjab,VRV Singh
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,K Goel,a1f1829d
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Sohal,3fca55af
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,S Tyagi,c24a2c5d
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,TH Wijewardene,6a6be119
+info,registry,people,VRV Singh,034b4b7d
+info,registry,people,YA Abdulla,4353bba5
+info,registry,people,Yuvraj Singh,1c914163

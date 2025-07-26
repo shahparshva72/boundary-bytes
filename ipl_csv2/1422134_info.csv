@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Delhi Capitals
+info,gender,male
+info,season,2024
+info,date,2024/04/03
+info,event,Indian Premier League
+info,match_number,16
+info,venue,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam"
+info,city,Visakhapatnam
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,SP Narine
+info,umpire,A Totre
+info,umpire,UV Gandhe
+info,reserve_umpire,VM Dhokre
+info,tv_umpire,HDPK Dharmasena
+info,match_referee,Prakash Bhatt
+info,winner,Kolkata Knight Riders
+info,winner_runs,106
+info,player,Kolkata Knight Riders,VG Arora
+info,player,Kolkata Knight Riders,PD Salt
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,A Raghuvanshi
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,SS Iyer
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,Ramandeep Singh
+info,player,Kolkata Knight Riders,MA Starc
+info,player,Kolkata Knight Riders,Harshit Rana
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Delhi Capitals,KK Ahmed
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,MR Marsh
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,T Stubbs
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,Sumit Kumar
+info,player,Delhi Capitals,Rasikh Salam
+info,player,Delhi Capitals,A Nortje
+info,player,Delhi Capitals,I Sharma
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,A Raghuvanshi,d7017798
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AR Patel,2e171977
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,Harshit Rana,77b1aa15
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,RR Pant,919a3be2
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,Rasikh Salam,b8527c3d
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,Sumit Kumar,8998a68f
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,VG Arora,7c3b3b78
+info,registry,people,VM Dhokre,67df71c9
+info,registry,people,VR Iyer,a24be938

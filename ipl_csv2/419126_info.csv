@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Deccan Chargers
+info,gender,male
+info,season,2009/10
+info,date,2010/03/26
+info,event,Indian Premier League
+info,match_number,22
+info,venue,"Sardar Patel Stadium, Motera"
+info,city,Ahmedabad
+info,toss_winner,Deccan Chargers
+info,toss_decision,bat
+info,player_of_match,YK Pathan
+info,umpire,HDPK Dharmasena
+info,umpire,SJA Taufel
+info,reserve_umpire,S Dua
+info,tv_umpire,SS Hazare
+info,match_referee,RS Mahanama
+info,winner,Rajasthan Royals
+info,winner_wickets,8
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,VVS Laxman
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,A Symonds
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,TL Suman
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,WPUJC Vaas
+info,player,Deccan Chargers,R Sharma
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Rajasthan Royals,MJ Lumb
+info,player,Rajasthan Royals,NV Ojha
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,FY Fazal
+info,player,Rajasthan Royals,AC Voges
+info,player,Rajasthan Royals,AA Jhunjhunwala
+info,player,Rajasthan Royals,P Dogra
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,S Narwal
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,SW Tait
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AA Jhunjhunwala,2815fe50
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AC Voges,864c199e
+info,registry,people,FY Fazal,c15e2193
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Dogra,2728e7e9
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Dua,f1375866
+info,registry,people,S Narwal,287686fd
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SS Hazare,166e5081
+info,registry,people,SW Tait,addfb70e
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,VVS Laxman,de8cce37
+info,registry,people,WPUJC Vaas,bcce309e
+info,registry,people,Y Venugopal Rao,fe763256
+info,registry,people,YK Pathan,3c6ffae8

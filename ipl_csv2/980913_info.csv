@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2016
+info,date,2016/04/15
+info,event,Indian Premier League
+info,match_number,7
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,A Mishra
+info,umpire,S Ravi
+info,umpire,C Shamshuddin
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,Nitin Menon
+info,match_referee,RS Mahanama
+info,winner,Delhi Daredevils
+info,winner_wickets,8
+info,player,Delhi Daredevils,Q de Kock
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,SV Samson
+info,player,Delhi Daredevils,P Negi
+info,player,Delhi Daredevils,KK Nair
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,CR Brathwaite
+info,player,Delhi Daredevils,J Yadav
+info,player,Delhi Daredevils,CH Morris
+info,player,Delhi Daredevils,Z Khan
+info,player,Delhi Daredevils,A Mishra
+info,player,Kings XI Punjab,M Vijay
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,MG Johnson
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,P Sahu
+info,player,Kings XI Punjab,Sandeep Sharma
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AR Patel,2e171977
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,J Yadav,81049310
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KK Nair,944533a5
+info,registry,people,M Vijay,4b57e452
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,P Negi,f62772e5
+info,registry,people,P Sahu,9a0146b3
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Z Khan,91a4a398

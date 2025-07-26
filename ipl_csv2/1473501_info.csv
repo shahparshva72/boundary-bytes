@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Delhi Capitals
+info,gender,male
+info,season,2025
+info,date,2025/05/21
+info,event,Indian Premier League
+info,match_number,63
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,SA Yadav
+info,umpire,A Bengeri
+info,umpire,J Madanagopal
+info,reserve_umpire,P Joshi
+info,tv_umpire,CB Gaffaney
+info,match_referee,DS Manohar
+info,winner,Mumbai Indians
+info,winner_runs,59
+info,player,Mumbai Indians,RD Rickelton
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,WG Jacks
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,Naman Dhir
+info,player,Mumbai Indians,MJ Santner
+info,player,Mumbai Indians,DL Chahar
+info,player,Mumbai Indians,TA Boult
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,KV Sharma
+info,player,Delhi Capitals,KL Rahul
+info,player,Delhi Capitals,F du Plessis
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,Sameer Rizvi
+info,player,Delhi Capitals,V Nigam
+info,player,Delhi Capitals,T Stubbs
+info,player,Delhi Capitals,Ashutosh Sharma
+info,player,Delhi Capitals,M Tiwari
+info,player,Delhi Capitals,PVD Chameera
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,Mustafizur Rahman
+info,player,Delhi Capitals,Mukesh Kumar
+info,registry,people,A Bengeri,c109497d
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,Ashutosh Sharma,84d9c311
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,DS Manohar,b35f3ac8
+info,registry,people,F du Plessis,3355b542
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KV Sharma,119678fd
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Tiwari,fb5f69e4
+info,registry,people,MJ Santner,e4a0deae
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,Naman Dhir,fffa744b
+info,registry,people,P Joshi,ffc0e370
+info,registry,people,PVD Chameera,327b58d3
+info,registry,people,RA Bawa,ba6b2f91
+info,registry,people,RD Rickelton,e66732f8
+info,registry,people,RG Sharma,740742ef
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,Sameer Rizvi,f89d3b11
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,TA Boult,a818c1be
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,V Nigam,5ffc0565
+info,registry,people,WG Jacks,9caf69a1

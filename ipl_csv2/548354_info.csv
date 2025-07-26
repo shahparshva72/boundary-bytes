@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2012
+info,date,2012/05/05
+info,event,Indian Premier League
+info,match_number,48
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,SR Watson
+info,umpire,JD Cloete
+info,umpire,SJA Taufel
+info,reserve_umpire,B Vij
+info,tv_umpire,S Ravi
+info,match_referee,AJ Pycroft
+info,winner,Rajasthan Royals
+info,winner_runs,43
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,N Saini
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,Azhar Mahmood
+info,player,Kings XI Punjab,Gurkeerat Singh
+info,player,Kings XI Punjab,AM Nayar
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,RJ Harris
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,P Awana
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,AL Menaria
+info,player,Rajasthan Royals,BJ Hodge
+info,player,Rajasthan Royals,J Botha
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,AA Chavan
+info,player,Rajasthan Royals,DH Yagnik
+info,player,Rajasthan Royals,SW Tait
+info,player,Rajasthan Royals,SK Trivedi
+info,registry,people,AA Chavan,29d72eb2
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AL Menaria,8291f939
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,B Vij,470050ff
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,DH Yagnik,063b3673
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,J Botha,7c503806
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,N Saini,addbde6c
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Dravid,0184dc35
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SW Tait,addfb70e

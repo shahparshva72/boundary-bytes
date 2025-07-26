@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2007/08
+info,date,2008/05/17
+info,event,Indian Premier League
+info,match_number,40
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Delhi Daredevils
+info,toss_decision,bat
+info,player_of_match,DPMD Jayawardene
+info,umpire,AV Jayaprakash
+info,umpire,RE Koertzen
+info,reserve_umpire,AK Chaudhary
+info,tv_umpire,BG Jerling
+info,match_referee,CH Lloyd
+info,winner,Kings XI Punjab
+info,winner_runs,6
+info,method,D/L
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,S Dhawan
+info,player,Delhi Daredevils,TM Dilshan
+info,player,Delhi Daredevils,MF Maharoof
+info,player,Delhi Daredevils,Shoaib Malik
+info,player,Delhi Daredevils,PJ Sangwan
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,R Bhatia
+info,player,Delhi Daredevils,GD McGrath
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,JR Hopes
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,LA Pomersbach
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,RR Powar
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,U Kaul
+info,player,Kings XI Punjab,S Sreesanth
+info,player,Kings XI Punjab,VRV Singh
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AV Jayaprakash,bde6e9ef
+info,registry,people,BG Jerling,26457e41
+info,registry,people,CH Lloyd,5b445db0
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GD McGrath,ee7d0c82
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JR Hopes,2498e163
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,LA Pomersbach,b63ab531
+info,registry,people,MF Maharoof,ab89348d
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,RR Powar,5d096f3d
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,Shoaib Malik,64c34cd0
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,U Kaul,622cc511
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VRV Singh,034b4b7d
+info,registry,people,Yuvraj Singh,1c914163

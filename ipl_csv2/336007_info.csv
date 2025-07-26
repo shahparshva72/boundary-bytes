@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Deccan Chargers
+info,gender,male
+info,season,2007/08
+info,date,2008/05/06
+info,event,Indian Premier League
+info,match_number,26
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Deccan Chargers
+info,toss_decision,field
+info,player_of_match,AC Gilchrist
+info,umpire,MR Benson
+info,umpire,RB Tiffin
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,S Ravi
+info,match_referee,J Srinath
+info,winner,Deccan Chargers
+info,winner_wickets,7
+info,player,Chennai Super Kings,PA Patel
+info,player,Chennai Super Kings,SP Fleming
+info,player,Chennai Super Kings,S Anirudha
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,Joginder Sharma
+info,player,Chennai Super Kings,MS Gony
+info,player,Chennai Super Kings,M Ntini
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,SB Styris
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,Shahid Afridi
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,SB Bangar
+info,player,Deccan Chargers,AS Yadav
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,DP Vijaykumar
+info,player,Deccan Chargers,PP Ojha
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AS Yadav,b9be6507
+info,registry,people,DP Vijaykumar,acd4f5dc
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,Joginder Sharma,9f961c14
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,M Ntini,20a941bb
+info,registry,people,MR Benson,790e14d3
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RB Tiffin,89087a0d
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Anirudha,95a2ea61
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SB Bangar,0604ef16
+info,registry,people,SB Styris,57efa3be
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SP Fleming,eea6b7f1
+info,registry,people,Shahid Afridi,0dc00542
+info,registry,people,Y Venugopal Rao,fe763256

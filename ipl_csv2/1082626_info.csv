@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2017
+info,date,2017/04/30
+info,event,Indian Premier League
+info,match_number,36
+info,venue,"Punjab Cricket Association IS Bindra Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,Sandeep Sharma
+info,umpire,YC Barde
+info,umpire,CK Nandan
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,Nitin Menon
+info,match_referee,S Chaturvedi
+info,winner,Kings XI Punjab
+info,winner_wickets,10
+info,player,Delhi Daredevils,SV Samson
+info,player,Delhi Daredevils,SW Billings
+info,player,Delhi Daredevils,KK Nair
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,CJ Anderson
+info,player,Delhi Daredevils,CH Morris
+info,player,Delhi Daredevils,K Rabada
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Mohammed Shami
+info,player,Delhi Daredevils,S Nadeem
+info,player,Kings XI Punjab,MJ Guptill
+info,player,Kings XI Punjab,HM Amla
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,VR Aaron
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Kings XI Punjab,T Natarajan
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AR Patel,2e171977
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CJ Anderson,8abdf100
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HM Amla,e798611a
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KK Nair,944533a5
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MJ Guptill,2be41edb
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Chaturvedi,c8ec02e1
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,SW Billings,c16d4035
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,T Natarajan,ce794613
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YC Barde,b90f3346

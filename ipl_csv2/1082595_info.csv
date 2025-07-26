@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2017
+info,date,2017/04/08
+info,event,Indian Premier League
+info,match_number,5
+info,venue,M.Chinnaswamy Stadium
+info,city,Bengaluru
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,bat
+info,player_of_match,KM Jadhav
+info,umpire,S Ravi
+info,umpire,VK Sharma
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,A Nand Kishore
+info,match_referee,J Srinath
+info,winner,Royal Challengers Bangalore
+info,winner_runs,15
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,SR Watson
+info,player,Royal Challengers Bangalore,Mandeep Singh
+info,player,Royal Challengers Bangalore,KM Jadhav
+info,player,Royal Challengers Bangalore,STR Binny
+info,player,Royal Challengers Bangalore,Vishnu Vinod
+info,player,Royal Challengers Bangalore,P Negi
+info,player,Royal Challengers Bangalore,Iqbal Abdulla
+info,player,Royal Challengers Bangalore,TS Mills
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,B Stanlake
+info,player,Delhi Daredevils,AP Tare
+info,player,Delhi Daredevils,SW Billings
+info,player,Delhi Daredevils,KK Nair
+info,player,Delhi Daredevils,SV Samson
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,CH Morris
+info,player,Delhi Daredevils,CR Brathwaite
+info,player,Delhi Daredevils,PJ Cummins
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,Z Khan
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AP Tare,855a210c
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KK Nair,944533a5
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,P Negi,f62772e5
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,SW Billings,c16d4035
+info,registry,people,TS Mills,245c97cb
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,Vishnu Vinod,0494fa6e
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Z Khan,91a4a398

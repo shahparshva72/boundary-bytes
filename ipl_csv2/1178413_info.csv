@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2019
+info,date,2019/04/21
+info,event,Indian Premier League
+info,match_number,38
+info,venue,Rajiv Gandhi International Stadium
+info,city,Hyderabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,KK Ahmed
+info,umpire,NJ Llong
+info,umpire,Nitin Menon
+info,reserve_umpire,K Srinath
+info,tv_umpire,IJ Gould
+info,match_referee,AJ Pycroft
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,9
+info,player,Kolkata Knight Riders,CA Lynn
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,Y Prithvi Raj
+info,player,Kolkata Knight Riders,KC Cariappa
+info,player,Kolkata Knight Riders,HF Gurney
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,JM Bairstow
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,YK Pathan
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,S Nadeem
+info,player,Sunrisers Hyderabad,KK Ahmed
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,HF Gurney,e412cb64
+info,registry,people,IJ Gould,a9dfdf6c
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KC Cariappa,edb3d4f8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,NJ Llong,573fb985
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,Y Prithvi Raj,cfa4bd2b
+info,registry,people,YK Pathan,3c6ffae8

@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2009/10
+info,date,2010/04/04
+info,event,Indian Premier League
+info,match_number,34
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,DPMD Jayawardene
+info,umpire,S Asnani
+info,umpire,DJ Harper
+info,reserve_umpire,R Shankar
+info,tv_umpire,K Hariharan
+info,match_referee,J Srinath
+info,winner,Kings XI Punjab
+info,winner_wickets,8
+info,player,Kings XI Punjab,MS Bisla
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,RS Bopara
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,J Theron
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,SJ Srivastava
+info,player,Kings XI Punjab,Bipul Sharma
+info,player,Kings XI Punjab,RR Powar
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,CH Gayle
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,AD Mathews
+info,player,Kolkata Knight Riders,DJ Hussey
+info,player,Kolkata Knight Riders,CA Pujara
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,SE Bond
+info,player,Kolkata Knight Riders,JD Unadkat
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,CA Pujara,d4f9dbd4
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,J Srinath,bad31fac
+info,registry,people,J Theron,dec8e038
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,M Kaif,d84378a4
+info,registry,people,M Kartik,abfeb126
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Shankar,82f0b62e
+info,registry,people,RR Powar,5d096f3d
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,S Asnani,b04524bc
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SE Bond,4f629497
+info,registry,people,SJ Srivastava,2049f3a0
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Yuvraj Singh,1c914163

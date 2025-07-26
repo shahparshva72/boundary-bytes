@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Deccan Chargers
+info,gender,male
+info,season,2011
+info,date,2011/04/11
+info,event,Indian Premier League
+info,match_number,6
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,JH Kallis
+info,umpire,RE Koertzen
+info,umpire,SK Tarapore
+info,reserve_umpire,S Das
+info,tv_umpire,S Ravi
+info,match_referee,D Govindjee
+info,winner,Kolkata Knight Riders
+info,winner_runs,9
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,IR Jaggi
+info,player,Deccan Chargers,B Chipli
+info,player,Deccan Chargers,KC Sangakkara
+info,player,Deccan Chargers,JP Duminy
+info,player,Deccan Chargers,DT Christian
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,DW Steyn
+info,player,Deccan Chargers,A Mishra
+info,player,Deccan Chargers,I Sharma
+info,player,Deccan Chargers,PP Ojha
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,MS Bisla
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,Iqbal Abdulla
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,L Balaji
+info,player,Kolkata Knight Riders,JD Unadkat
+info,registry,people,A Mishra,6b19d823
+info,registry,people,B Chipli,5451a2c1
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,IR Jaggi,dded65e7
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,L Balaji,b2b50355
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,S Das,475e38b6
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,YK Pathan,3c6ffae8

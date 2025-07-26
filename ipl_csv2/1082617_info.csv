@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2017
+info,date,2017/04/23
+info,event,Indian Premier League
+info,match_number,27
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,NM Coulter-Nile
+info,umpire,CB Gaffaney
+info,umpire,CK Nandan
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,Nitin Menon
+info,match_referee,V Narayan Kutty
+info,winner,Kolkata Knight Riders
+info,winner_runs,82
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,C de Grandhomme
+info,player,Kolkata Knight Riders,CR Woakes
+info,player,Kolkata Knight Riders,NM Coulter-Nile
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,Mandeep Singh
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,KM Jadhav
+info,player,Royal Challengers Bangalore,STR Binny
+info,player,Royal Challengers Bangalore,P Negi
+info,player,Royal Challengers Bangalore,S Badree
+info,player,Royal Challengers Bangalore,TS Mills
+info,player,Royal Challengers Bangalore,S Aravind
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,CR Woakes,4c5d73db
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,P Negi,f62772e5
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Aravind,957532de
+info,registry,people,S Badree,76388dc8
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,TS Mills,245c97cb
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,YS Chahal,57ee1fde

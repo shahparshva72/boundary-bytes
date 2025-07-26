@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2013
+info,date,2013/04/27
+info,event,Indian Premier League
+info,match_number,36
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,JP Faulkner
+info,umpire,VA Kulkarni
+info,umpire,K Srinath
+info,reserve_umpire,Tapan Sharma
+info,tv_umpire,M Erasmus
+info,match_referee,RS Madugalle
+info,winner,Rajasthan Royals
+info,winner_wickets,8
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,BJ Hodge
+info,player,Rajasthan Royals,DH Yagnik
+info,player,Rajasthan Royals,Sachin Baby
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,KK Cooper
+info,player,Rajasthan Royals,A Chandila
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Sunrisers Hyderabad,PA Reddy
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KC Sangakkara
+info,player,Sunrisers Hyderabad,GH Vihari
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,NLTC Perera
+info,player,Sunrisers Hyderabad,DJG Sammy
+info,player,Sunrisers Hyderabad,A Mishra
+info,player,Sunrisers Hyderabad,A Ashish Reddy
+info,player,Sunrisers Hyderabad,DW Steyn
+info,player,Sunrisers Hyderabad,I Sharma
+info,registry,people,A Ashish Reddy,1c2a64cd
+info,registry,people,A Chandila,99b202b3
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,DH Yagnik,063b3673
+info,registry,people,DJG Sammy,c03c6200
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,GH Vihari,94253925
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,KK Cooper,557153ca
+info,registry,people,KV Sharma,119678fd
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,PA Reddy,2461eef2
+info,registry,people,R Dravid,0184dc35
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,Sachin Baby,dc9dd038
+info,registry,people,Tapan Sharma,b9aa2b6e
+info,registry,people,VA Kulkarni,8fe0c4f8

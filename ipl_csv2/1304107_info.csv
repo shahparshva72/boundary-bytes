@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2022
+info,date,2022/05/14
+info,event,Indian Premier League
+info,match_number,61
+info,venue,"Maharashtra Cricket Association Stadium, Pune"
+info,city,Pune
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,AD Russell
+info,umpire,AK Chaudhary
+info,umpire,KN Ananthapadmanabhan
+info,reserve_umpire,MV Saidharshan Kumar
+info,tv_umpire,MA Gough
+info,match_referee,V Narayan Kutty
+info,winner,Kolkata Knight Riders
+info,winner_runs,54
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,AM Rahane
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,SS Iyer
+info,player,Kolkata Knight Riders,SW Billings
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,TG Southee
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,N Pooran
+info,player,Sunrisers Hyderabad,Washington Sundar
+info,player,Sunrisers Hyderabad,Shashank Singh
+info,player,Sunrisers Hyderabad,M Jansen
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Umran Malik
+info,player,Sunrisers Hyderabad,T Natarajan
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AK Markram,6a26221c
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,MA Gough,76752ac8
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SW Billings,c16d4035
+info,registry,people,Shashank Singh,26989d80
+info,registry,people,T Natarajan,ce794613
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,Umran Malik,81c08fa3
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,VR Iyer,a24be938
+info,registry,people,Washington Sundar,f19ccfad

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Mumbai Indians
+info,gender,male
+info,season,2007/08
+info,date,2008/05/26
+info,event,Indian Premier League
+info,match_number,53
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,Sohail Tanvir
+info,umpire,BF Bowden
+info,umpire,K Hariharan
+info,reserve_umpire,MSS Ranawat
+info,tv_umpire,SL Shastri
+info,match_referee,CH Lloyd
+info,winner,Rajasthan Royals
+info,winner_wickets,5
+info,player,Mumbai Indians,ST Jayasuriya
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,AM Nayar
+info,player,Mumbai Indians,RV Uthappa
+info,player,Mumbai Indians,DR Smith
+info,player,Mumbai Indians,SM Pollock
+info,player,Mumbai Indians,MK Pandey
+info,player,Mumbai Indians,YV Takawale
+info,player,Mumbai Indians,RR Raje
+info,player,Mumbai Indians,CRD Fernando
+info,player,Mumbai Indians,A Nehra
+info,player,Rajasthan Royals,Kamran Akmal
+info,player,Rajasthan Royals,SA Asnodkar
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,M Kaif
+info,player,Rajasthan Royals,RA Jadeja
+info,player,Rajasthan Royals,Niraj Patel
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,Sohail Tanvir
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,Pankaj Singh
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,CH Lloyd,5b445db0
+info,registry,people,CRD Fernando,342d8ade
+info,registry,people,DR Smith,35205dfc
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,Kamran Akmal,ff077124
+info,registry,people,M Kaif,d84378a4
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MSS Ranawat,8048c698
+info,registry,people,Niraj Patel,a2870fb7
+info,registry,people,Pankaj Singh,e32d22f6
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RR Raje,5f4e9e8f
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SA Asnodkar,ae091d39
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,SM Pollock,88fccd6c
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,ST Jayasuriya,f233bbb4
+info,registry,people,Sohail Tanvir,64d43928
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,YV Takawale,4e04666c

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2020/21
+info,date,2020/10/20
+info,event,Indian Premier League
+info,match_number,38
+info,venue,Dubai International Cricket Stadium
+info,city,
+info,toss_winner,Delhi Capitals
+info,toss_decision,bat
+info,player_of_match,S Dhawan
+info,umpire,C Shamshuddin
+info,umpire,RK Illingworth
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,Prakash Bhatt
+info,winner,Kings XI Punjab
+info,winner_wickets,5
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,S Dhawan
+info,player,Delhi Capitals,SS Iyer
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,MP Stoinis
+info,player,Delhi Capitals,SO Hetmyer
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,R Ashwin
+info,player,Delhi Capitals,K Rabada
+info,player,Delhi Capitals,DR Sams
+info,player,Delhi Capitals,TU Deshpande
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,N Pooran
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,DJ Hooda
+info,player,Kings XI Punjab,JDS Neesham
+info,player,Kings XI Punjab,M Ashwin
+info,player,Kings XI Punjab,Ravi Bishnoi
+info,player,Kings XI Punjab,Mohammed Shami
+info,player,Kings XI Punjab,Arshdeep Singh
+info,registry,people,AR Patel,2e171977
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JDS Neesham,9219eff0
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RK Illingworth,20672246
+info,registry,people,RR Pant,919a3be2
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,TU Deshpande,46a9bea1

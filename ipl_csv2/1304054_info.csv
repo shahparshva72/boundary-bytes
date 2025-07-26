@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2022
+info,date,2022/04/01
+info,event,Indian Premier League
+info,match_number,8
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,UT Yadav
+info,umpire,AK Chaudhary
+info,umpire,HAS Khalid
+info,reserve_umpire,A Totre
+info,tv_umpire,J Madanagopal
+info,match_referee,Prakash Bhatt
+info,winner,Kolkata Knight Riders
+info,winner_wickets,6
+info,player,Punjab Kings,MA Agarwal
+info,player,Punjab Kings,S Dhawan
+info,player,Punjab Kings,PBB Rajapaksa
+info,player,Punjab Kings,LS Livingstone
+info,player,Punjab Kings,RA Bawa
+info,player,Punjab Kings,M Shahrukh Khan
+info,player,Punjab Kings,Harpreet Brar
+info,player,Punjab Kings,OF Smith
+info,player,Punjab Kings,RD Chahar
+info,player,Punjab Kings,K Rabada
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Kolkata Knight Riders,AM Rahane
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,SS Iyer
+info,player,Kolkata Knight Riders,SW Billings
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,TG Southee
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Kolkata Knight Riders,Shivam Mavi
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,Harpreet Brar,c05edf8e
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,OF Smith,23cca426
+info,registry,people,PBB Rajapaksa,6c882e9a
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,RA Bawa,ba6b2f91
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SW Billings,c16d4035
+info,registry,people,Shivam Mavi,c38d3503
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,VR Iyer,a24be938

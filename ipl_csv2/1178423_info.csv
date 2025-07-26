@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2019
+info,date,2019/04/29
+info,event,Indian Premier League
+info,match_number,48
+info,venue,Rajiv Gandhi International Stadium
+info,city,Hyderabad
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,DA Warner
+info,umpire,CK Nandan
+info,umpire,S Ravi
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,A Nand Kishore
+info,match_referee,M Nayyar
+info,winner,Sunrisers Hyderabad
+info,winner_runs,45
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,WP Saha
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,Mohammad Nabi
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,KK Ahmed
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,N Pooran
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,R Ashwin
+info,player,Kings XI Punjab,P Simran Singh
+info,player,Kings XI Punjab,M Ashwin
+info,player,Kings XI Punjab,Mujeeb Ur Rahman
+info,player,Kings XI Punjab,Mohammed Shami
+info,player,Kings XI Punjab,Arshdeep Singh
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,WP Saha,fe11caa6

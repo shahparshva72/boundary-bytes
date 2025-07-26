@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2011
+info,date,2011/05/11
+info,event,Indian Premier League
+info,match_number,55
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,S Aravind
+info,umpire,HDPK Dharmasena
+info,umpire,K Hariharan
+info,reserve_umpire,R Subramanian
+info,tv_umpire,SJA Taufel
+info,match_referee,RS Mahanama
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,9
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,J Botha
+info,player,Rajasthan Royals,LRPL Taylor
+info,player,Rajasthan Royals,AL Menaria
+info,player,Rajasthan Royals,AS Raut
+info,player,Rajasthan Royals,DH Yagnik
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,Pankaj Singh
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,TM Dilshan
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,KB Arun Karthik
+info,player,Royal Challengers Bangalore,M Kaif
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,AA Kazi
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,S Aravind
+info,player,Royal Challengers Bangalore,CK Langeveldt
+info,registry,people,AA Kazi,16605a1b
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AL Menaria,8291f939
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AS Raut,c69a7b5c
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CK Langeveldt,d1c94b25
+info,registry,people,DH Yagnik,063b3673
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,J Botha,7c503806
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,KB Arun Karthik,7daedf2f
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,M Kaif,d84378a4
+info,registry,people,Pankaj Singh,e32d22f6
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Subramanian,7c32b886
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Aravind,957532de
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Z Khan,91a4a398

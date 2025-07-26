@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Royal Challengers Bengaluru
+info,gender,male
+info,season,2025
+info,date,2025/04/27
+info,event,Indian Premier League
+info,match_number,46
+info,venue,"Arun Jaitley Stadium, Delhi"
+info,city,Delhi
+info,toss_winner,Royal Challengers Bengaluru
+info,toss_decision,field
+info,player_of_match,KH Pandya
+info,umpire,M Krishnadas
+info,umpire,Nitin Menon
+info,reserve_umpire,Bhavesh Patel
+info,tv_umpire,MV Saidharshan Kumar
+info,match_referee,IR Siddiqui
+info,winner,Royal Challengers Bengaluru
+info,winner_wickets,6
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,F du Plessis
+info,player,Delhi Capitals,KK Nair
+info,player,Delhi Capitals,KL Rahul
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,T Stubbs
+info,player,Delhi Capitals,Ashutosh Sharma
+info,player,Delhi Capitals,V Nigam
+info,player,Delhi Capitals,MA Starc
+info,player,Delhi Capitals,PVD Chameera
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,Mukesh Kumar
+info,player,Royal Challengers Bengaluru,Suyash Sharma
+info,player,Royal Challengers Bengaluru,JG Bethell
+info,player,Royal Challengers Bengaluru,V Kohli
+info,player,Royal Challengers Bengaluru,D Padikkal
+info,player,Royal Challengers Bengaluru,RM Patidar
+info,player,Royal Challengers Bengaluru,KH Pandya
+info,player,Royal Challengers Bengaluru,TH David
+info,player,Royal Challengers Bengaluru,R Shepherd
+info,player,Royal Challengers Bengaluru,JM Sharma
+info,player,Royal Challengers Bengaluru,B Kumar
+info,player,Royal Challengers Bengaluru,JR Hazlewood
+info,player,Royal Challengers Bengaluru,Yash Dayal
+info,registry,people,AR Patel,2e171977
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,Ashutosh Sharma,84d9c311
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,Bhavesh Patel,ee03dc30
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,F du Plessis,3355b542
+info,registry,people,IR Siddiqui,6436f803
+info,registry,people,JG Bethell,3c55c703
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Krishnadas,e298c588
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PVD Chameera,327b58d3
+info,registry,people,R Shepherd,c5aef772
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,Suyash Sharma,9440ef41
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,TH David,f1f99156
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Nigam,5ffc0565
+info,registry,people,Yash Dayal,7210d461

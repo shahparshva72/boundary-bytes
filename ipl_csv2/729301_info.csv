@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2014
+info,date,2014/04/25
+info,event,Indian Premier League
+info,match_number,12
+info,venue,Dubai International Cricket Stadium
+info,city,
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,AJ Finch
+info,umpire,M Erasmus
+info,umpire,S Ravi
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,BF Bowden
+info,match_referee,GF Labrooy
+info,winner,Sunrisers Hyderabad
+info,winner_runs,4
+info,player,Delhi Daredevils,Q de Kock
+info,player,Delhi Daredevils,M Vijay
+info,player,Delhi Daredevils,KP Pietersen
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,MK Tiwary
+info,player,Delhi Daredevils,LR Shukla
+info,player,Delhi Daredevils,WD Parnell
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,Mohammed Shami
+info,player,Delhi Daredevils,JD Unadkat
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,AJ Finch
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,KL Rahul
+info,player,Sunrisers Hyderabad,DJG Sammy
+info,player,Sunrisers Hyderabad,Y Venugopal Rao
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,DW Steyn
+info,player,Sunrisers Hyderabad,A Mishra
+info,player,Sunrisers Hyderabad,B Kumar
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJG Sammy,c03c6200
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,KV Sharma,119678fd
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,NV Ojha,890946a0
+info,registry,people,Q de Kock,372455c4
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,WD Parnell,3a60e0b5
+info,registry,people,Y Venugopal Rao,fe763256

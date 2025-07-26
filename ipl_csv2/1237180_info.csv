@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2020/21
+info,date,2020/11/08
+info,event,Indian Premier League
+info,venue,Sheikh Zayed Stadium
+info,city,Abu Dhabi
+info,toss_winner,Delhi Capitals
+info,toss_decision,bat
+info,player_of_match,MP Stoinis
+info,umpire,PR Reiffel
+info,umpire,S Ravi
+info,reserve_umpire,VK Sharma
+info,tv_umpire,C Shamshuddin
+info,match_referee,M Nayyar
+info,winner,Delhi Capitals
+info,winner_runs,17
+info,player,Delhi Capitals,MP Stoinis
+info,player,Delhi Capitals,S Dhawan
+info,player,Delhi Capitals,SS Iyer
+info,player,Delhi Capitals,SO Hetmyer
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,AM Rahane
+info,player,Delhi Capitals,P Dubey
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,R Ashwin
+info,player,Delhi Capitals,K Rabada
+info,player,Delhi Capitals,A Nortje
+info,player,Sunrisers Hyderabad,PK Garg
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,JO Holder
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,SP Goswami
+info,player,Sunrisers Hyderabad,S Nadeem
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Sunrisers Hyderabad,T Natarajan
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AR Patel,2e171977
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,JO Holder,0f721006
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,KMA Paul,75224f22
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,P Dubey,ed5a5510
+info,registry,people,PK Garg,bb965e9a
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RR Pant,919a3be2
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,T Natarajan,ce794613
+info,registry,people,VK Sharma,a7a49df4

@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Gujarat Titans
+info,team,Mumbai Indians
+info,gender,male
+info,season,2024
+info,date,2024/03/24
+info,event,Indian Premier League
+info,match_number,5
+info,venue,"Narendra Modi Stadium, Ahmedabad"
+info,city,Ahmedabad
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,B Sai Sudharsan
+info,umpire,VA Kulkarni
+info,umpire,VK Sharma
+info,reserve_umpire,M Kuppuraj
+info,tv_umpire,Nitin Menon
+info,match_referee,J Srinath
+info,winner,Gujarat Titans
+info,winner_runs,6
+info,player,Gujarat Titans,MM Sharma
+info,player,Gujarat Titans,WP Saha
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,B Sai Sudharsan
+info,player,Gujarat Titans,Azmatullah Omarzai
+info,player,Gujarat Titans,DA Miller
+info,player,Gujarat Titans,V Shankar
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,UT Yadav
+info,player,Gujarat Titans,R Sai Kishore
+info,player,Gujarat Titans,SH Johnson
+info,player,Mumbai Indians,L Wood
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Naman Dhir
+info,player,Mumbai Indians,D Brevis
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,G Coetzee
+info,player,Mumbai Indians,SZ Mulani
+info,player,Mumbai Indians,PP Chawla
+info,player,Mumbai Indians,JJ Bumrah
+info,registry,people,A Manohar,0890552f
+info,registry,people,Azmatullah Omarzai,8f6dd463
+info,registry,people,B Sai Sudharsan,d5130a30
+info,registry,people,D Brevis,844e79d1
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,G Coetzee,3204c99f
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,L Wood,65b6943c
+info,registry,people,M Kuppuraj,aa4063d0
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,Naman Dhir,fffa744b
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Sai Kishore,c7a995d3
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RG Sharma,740742ef
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SH Johnson,83c3e8e3
+info,registry,people,SZ Mulani,9d704f6f
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,TH David,f1f99156
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,WP Saha,fe11caa6

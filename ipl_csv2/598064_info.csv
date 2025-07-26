@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2013
+info,date,2013/05/06
+info,event,Indian Premier League
+info,match_number,51
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,DA Miller
+info,umpire,VA Kulkarni
+info,umpire,NJ Llong
+info,reserve_umpire,Nitin Menon
+info,tv_umpire,K Srinath
+info,match_referee,RR Jadeja
+info,winner,Kings XI Punjab
+info,winner_wickets,6
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,Gurkeerat Singh
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,R Sathish
+info,player,Kings XI Punjab,MG Neser
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,MS Gony
+info,player,Kings XI Punjab,P Awana
+info,player,Royal Challengers Bangalore,CA Pujara
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,MC Henriques
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,KB Arun Karthik
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,R Rampaul
+info,player,Royal Challengers Bangalore,M Kartik
+info,player,Royal Challengers Bangalore,RP Singh
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,CA Pujara,d4f9dbd4
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KB Arun Karthik,7daedf2f
+info,registry,people,M Kartik,abfeb126
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MG Neser,0164b064
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,NJ Llong,573fb985
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Rampaul,d68e7f48
+info,registry,people,R Sathish,626c5379
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RR Jadeja,053de19b
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VA Kulkarni,8fe0c4f8

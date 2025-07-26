@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2009
+info,date,2009/04/23
+info,event,Indian Premier League
+info,match_number,10
+info,venue,Newlands
+info,city,Cape Town
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,YK Pathan
+info,umpire,MR Benson
+info,umpire,M Erasmus
+info,reserve_umpire,EC Hendrikse
+info,tv_umpire,AM Saheba
+info,match_referee,GR Viswanath
+info,outcome,tie
+info,eliminator,Rajasthan Royals
+info,player,Kolkata Knight Riders,CH Gayle
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,BJ Hodge
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,SB Bangar
+info,player,Kolkata Knight Riders,Yashpal Singh
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Kolkata Knight Riders,BAW Mendis
+info,player,Kolkata Knight Riders,Anureet Singh
+info,player,Rajasthan Royals,GC Smith
+info,player,Rajasthan Royals,PC Valthaty
+info,player,Rajasthan Royals,RJ Quiney
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,RA Jadeja
+info,player,Rajasthan Royals,AD Mascarenhas
+info,player,Rajasthan Royals,AS Raut
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,M Rawat
+info,player,Rajasthan Royals,MM Patel
+info,player,Rajasthan Royals,Kamran Khan
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AD Mascarenhas,3edb58fc
+info,registry,people,AM Saheba,883e3818
+info,registry,people,AS Raut,c69a7b5c
+info,registry,people,Anureet Singh,69be866a
+info,registry,people,BAW Mendis,ea0cdc12
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CH Gayle,db584dad
+info,registry,people,EC Hendrikse,3f2996c9
+info,registry,people,GC Smith,72861603
+info,registry,people,GR Viswanath,9333bc07
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,Kamran Khan,6ef60d3a
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Rawat,de8d3876
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,MR Benson,790e14d3
+info,registry,people,PC Valthaty,25eeb281
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,SB Bangar,0604ef16
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SK Warne,bb18be76
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Yashpal Singh,297b26da

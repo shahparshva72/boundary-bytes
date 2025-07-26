@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Lucknow Super Giants
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2024
+info,date,2024/04/14
+info,event,Indian Premier League
+info,match_number,28
+info,venue,"Eden Gardens, Kolkata"
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,PD Salt
+info,umpire,A Totre
+info,umpire,Vinod Seshan
+info,reserve_umpire,VM Dhokre
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,Amit Sharma
+info,winner,Kolkata Knight Riders
+info,winner_wickets,8
+info,player,Lucknow Super Giants,Q de Kock
+info,player,Lucknow Super Giants,KL Rahul
+info,player,Lucknow Super Giants,DJ Hooda
+info,player,Lucknow Super Giants,A Badoni
+info,player,Lucknow Super Giants,MP Stoinis
+info,player,Lucknow Super Giants,N Pooran
+info,player,Lucknow Super Giants,KH Pandya
+info,player,Lucknow Super Giants,Arshad Khan (2)
+info,player,Lucknow Super Giants,Mohsin Khan
+info,player,Lucknow Super Giants,Ravi Bishnoi
+info,player,Lucknow Super Giants,S Joseph
+info,player,Lucknow Super Giants,Yash Thakur
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Kolkata Knight Riders,PD Salt
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,A Raghuvanshi
+info,player,Kolkata Knight Riders,SS Iyer
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,Ramandeep Singh
+info,player,Kolkata Knight Riders,MA Starc
+info,player,Kolkata Knight Riders,VG Arora
+info,player,Kolkata Knight Riders,Harshit Rana
+info,player,Kolkata Knight Riders,RK Singh
+info,registry,people,A Badoni,872b03f7
+info,registry,people,A Raghuvanshi,d7017798
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AD Russell,bbd41817
+info,registry,people,Amit Sharma,7ea3e0cc
+info,registry,people,Arshad Khan (2),12314277
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,Harshit Rana,77b1aa15
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohsin Khan,c33d8116
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,S Joseph,97290faf
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,VG Arora,7c3b3b78
+info,registry,people,VM Dhokre,67df71c9
+info,registry,people,VR Iyer,a24be938
+info,registry,people,Vinod Seshan,a3357a27
+info,registry,people,Yash Thakur,4b31f3a3

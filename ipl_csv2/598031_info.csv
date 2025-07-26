@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2013
+info,date,2013/04/26
+info,event,Indian Premier League
+info,match_number,35
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kings XI Punjab
+info,toss_decision,bat
+info,player_of_match,JH Kallis
+info,umpire,CK Nandan
+info,umpire,S Ravi
+info,reserve_umpire,AS Pathania
+info,tv_umpire,HDPK Dharmasena
+info,match_referee,RS Mahanama
+info,winner,Kolkata Knight Riders
+info,winner_wickets,6
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,Gurkeerat Singh
+info,player,Kings XI Punjab,Azhar Mahmood
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,Harmeet Singh
+info,player,Kings XI Punjab,BA Bhatt
+info,player,Kolkata Knight Riders,MS Bisla
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,SMSM Senanayake
+info,player,Kolkata Knight Riders,DB Das
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,S Ladda
+info,player,Kolkata Knight Riders,L Balaji
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AS Pathania,bf6c251d
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,BA Bhatt,dc4686e6
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DB Das,7050a1e7
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,Harmeet Singh,2a72fd4f
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Ladda,fb693839
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SMSM Senanayake,4c4fa80b
+info,registry,people,SP Narine,9d430b40
+info,registry,people,YK Pathan,3c6ffae8

@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Rising Pune Supergiant
+info,gender,male
+info,season,2017
+info,date,2017/05/16
+info,event,Indian Premier League
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,Washington Sundar
+info,umpire,S Ravi
+info,umpire,C Shamshuddin
+info,reserve_umpire,YC Barde
+info,tv_umpire,CK Nandan
+info,match_referee,J Srinath
+info,winner,Rising Pune Supergiant
+info,winner_runs,20
+info,player,Mumbai Indians,LMP Simmons
+info,player,Mumbai Indians,PA Patel
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,KV Sharma
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,SL Malinga
+info,player,Rising Pune Supergiant,AM Rahane
+info,player,Rising Pune Supergiant,RA Tripathi
+info,player,Rising Pune Supergiant,SPD Smith
+info,player,Rising Pune Supergiant,MK Tiwary
+info,player,Rising Pune Supergiant,MS Dhoni
+info,player,Rising Pune Supergiant,DT Christian
+info,player,Rising Pune Supergiant,Washington Sundar
+info,player,Rising Pune Supergiant,LH Ferguson
+info,player,Rising Pune Supergiant,A Zampa
+info,player,Rising Pune Supergiant,SN Thakur
+info,player,Rising Pune Supergiant,JD Unadkat
+info,registry,people,A Zampa,14f96089
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KV Sharma,119678fd
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,LMP Simmons,89f64c19
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YC Barde,b90f3346

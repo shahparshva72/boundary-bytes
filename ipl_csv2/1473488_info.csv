@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Gujarat Titans
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2025
+info,date,2025/05/02
+info,event,Indian Premier League
+info,match_number,51
+info,venue,"Narendra Modi Stadium, Ahmedabad"
+info,city,Ahmedabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,M Prasidh Krishna
+info,umpire,K Swaroopanand
+info,umpire,VK Sharma
+info,reserve_umpire,Abhijit Bhattacharya
+info,tv_umpire,MA Gough
+info,match_referee,P Dharmani
+info,winner,Gujarat Titans
+info,winner_runs,38
+info,player,Gujarat Titans,I Sharma
+info,player,Gujarat Titans,B Sai Sudharsan
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,JC Buttler
+info,player,Gujarat Titans,Washington Sundar
+info,player,Gujarat Titans,M Shahrukh Khan
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,Mohammed Siraj
+info,player,Gujarat Titans,G Coetzee
+info,player,Gujarat Titans,R Sai Kishore
+info,player,Gujarat Titans,M Prasidh Krishna
+info,player,Sunrisers Hyderabad,Mohammed Shami
+info,player,Sunrisers Hyderabad,TM Head
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,Ishan Kishan
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,Aniket Verma
+info,player,Sunrisers Hyderabad,Nithish Kumar Reddy
+info,player,Sunrisers Hyderabad,PHKD Mendis
+info,player,Sunrisers Hyderabad,PJ Cummins
+info,player,Sunrisers Hyderabad,HV Patel
+info,player,Sunrisers Hyderabad,JD Unadkat
+info,player,Sunrisers Hyderabad,Zeeshan Ansari
+info,registry,people,Abhijit Bhattacharya,59ec9638
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Aniket Verma,a3b0600d
+info,registry,people,B Sai Sudharsan,d5130a30
+info,registry,people,G Coetzee,3204c99f
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Swaroopanand,aa2a4962
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,MA Gough,76752ac8
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Nithish Kumar Reddy,aad0c365
+info,registry,people,P Dharmani,eaa90ab4
+info,registry,people,PHKD Mendis,08548b13
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,R Sai Kishore,c7a995d3
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,TM Head,12b610c2
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,Zeeshan Ansari,36619795

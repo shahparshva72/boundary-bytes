@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2021
+info,date,2021/04/19
+info,event,Indian Premier League
+info,match_number,12
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,MM Ali
+info,umpire,PR Reiffel
+info,umpire,VK Sharma
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,YC Barde
+info,match_referee,Prakash Bhatt
+info,winner,Chennai Super Kings
+info,winner_runs,45
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,MM Ali
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,SM Curran
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,SN Thakur
+info,player,Chennai Super Kings,DL Chahar
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,M Vohra
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,S Dube
+info,player,Rajasthan Royals,DA Miller
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,R Tewatia
+info,player,Rajasthan Royals,CH Morris
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,C Sakariya
+info,player,Rajasthan Royals,Mustafizur Rahman
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,C Sakariya,2cdce1be
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,F du Plessis,3355b542
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SM Curran,e94915e6
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,YC Barde,b90f3346

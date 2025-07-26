@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Delhi Capitals
+info,gender,male
+info,season,2025
+info,date,2025/05/24
+info,event,Indian Premier League
+info,match_number,66
+info,venue,"Sawai Mansingh Stadium, Jaipur"
+info,city,Jaipur
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,Sameer Rizvi
+info,umpire,J Madanagopal
+info,umpire,P Joshi
+info,reserve_umpire,Bhavesh Patel
+info,tv_umpire,CB Gaffaney
+info,match_referee,DS Manohar
+info,winner,Delhi Capitals
+info,winner_wickets,6
+info,player,Punjab Kings,P Dubey
+info,player,Punjab Kings,Priyansh Arya
+info,player,Punjab Kings,P Simran Singh
+info,player,Punjab Kings,JP Inglis
+info,player,Punjab Kings,SS Iyer
+info,player,Punjab Kings,N Wadhera
+info,player,Punjab Kings,Shashank Singh
+info,player,Punjab Kings,MP Stoinis
+info,player,Punjab Kings,Azmatullah Omarzai
+info,player,Punjab Kings,M Jansen
+info,player,Punjab Kings,Harpreet Brar
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Delhi Capitals,Mukesh Kumar
+info,player,Delhi Capitals,KL Rahul
+info,player,Delhi Capitals,F du Plessis
+info,player,Delhi Capitals,KK Nair
+info,player,Delhi Capitals,Sediqullah Atal
+info,player,Delhi Capitals,Sameer Rizvi
+info,player,Delhi Capitals,T Stubbs
+info,player,Delhi Capitals,Ashutosh Sharma
+info,player,Delhi Capitals,V Nigam
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,MM Sharma
+info,player,Delhi Capitals,Mustafizur Rahman
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,Ashutosh Sharma,84d9c311
+info,registry,people,Azmatullah Omarzai,8f6dd463
+info,registry,people,Bhavesh Patel,ee03dc30
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DS Manohar,b35f3ac8
+info,registry,people,F du Plessis,3355b542
+info,registry,people,Harpreet Brar,c05edf8e
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JP Inglis,989889ff
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,P Dubey,ed5a5510
+info,registry,people,P Joshi,ffc0e370
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,Priyansh Arya,b5797845
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,Sameer Rizvi,f89d3b11
+info,registry,people,Sediqullah Atal,3c28853f
+info,registry,people,Shashank Singh,26989d80
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,V Nigam,5ffc0565

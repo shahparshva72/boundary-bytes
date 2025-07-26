@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2023
+info,date,2023/04/12
+info,event,Indian Premier League
+info,match_number,17
+info,venue,"MA Chidambaram Stadium, Chepauk, Chennai"
+info,city,Chennai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,R Ashwin
+info,umpire,Vinod Seshan
+info,umpire,VK Sharma
+info,reserve_umpire,A Bengeri
+info,tv_umpire,Nitin Menon
+info,match_referee,J Srinath
+info,winner,Rajasthan Royals
+info,winner_runs,3
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,D Padikkal
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,JO Holder
+info,player,Rajasthan Royals,A Zampa
+info,player,Rajasthan Royals,KR Sen
+info,player,Rajasthan Royals,Sandeep Sharma
+info,player,Rajasthan Royals,YS Chahal
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,DP Conway
+info,player,Chennai Super Kings,AM Rahane
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,MM Ali
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,SSB Magala
+info,player,Chennai Super Kings,TU Deshpande
+info,player,Chennai Super Kings,M Theekshana
+info,player,Chennai Super Kings,Akash Singh
+info,registry,people,A Bengeri,c109497d
+info,registry,people,A Zampa,14f96089
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Akash Singh,b483905d
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,DP Conway,df5a6881
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JO Holder,0f721006
+info,registry,people,KR Sen,2e78f685
+info,registry,people,M Theekshana,f24c6701
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SSB Magala,8361e524
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,TU Deshpande,46a9bea1
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,Vinod Seshan,a3357a27
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YS Chahal,57ee1fde

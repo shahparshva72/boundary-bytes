@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2011
+info,date,2011/05/15
+info,event,Indian Premier League
+info,match_number,60
+info,venue,Himachal Pradesh Cricket Association Stadium
+info,city,Dharamsala
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,PP Chawla
+info,umpire,Asad Rauf
+info,umpire,SL Shastri
+info,reserve_umpire,K Bharatan
+info,tv_umpire,AM Saheba
+info,match_referee,GF Labrooy
+info,winner,Kings XI Punjab
+info,winner_runs,29
+info,player,Delhi Daredevils,NV Ojha
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,Y Venugopal Rao
+info,player,Delhi Daredevils,S Sriram
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,JR Hopes
+info,player,Delhi Daredevils,TR Birt
+info,player,Delhi Daredevils,Y Nagar
+info,player,Delhi Daredevils,M Morkel
+info,player,Delhi Daredevils,VR Aaron
+info,player,Delhi Daredevils,AM Salvi
+info,player,Kings XI Punjab,PC Valthaty
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,KD Karthik
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,RJ Harris
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,SJ Srivastava
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,BA Bhatt
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AM Saheba,883e3818
+info,registry,people,AM Salvi,260fd380
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,BA Bhatt,dc4686e6
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JR Hopes,2498e163
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PC Valthaty,25eeb281
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,S Sriram,64a4c383
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Srivastava,2049f3a0
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,TR Birt,d2d4bb0a
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,Y Nagar,662c47a6
+info,registry,people,Y Venugopal Rao,fe763256

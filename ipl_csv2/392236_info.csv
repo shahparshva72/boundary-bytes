@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Deccan Chargers
+info,gender,male
+info,season,2009
+info,date,2009/05/21
+info,event,Indian Premier League
+info,match_number,56
+info,venue,SuperSport Park
+info,city,Centurion
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,bat
+info,player_of_match,MK Pandey
+info,umpire,IL Howell
+info,umpire,S Ravi
+info,reserve_umpire,MW Brown
+info,tv_umpire,SK Tarapore
+info,match_referee,S Venkataraghavan
+info,winner,Royal Challengers Bangalore
+info,winner_runs,12
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,TL Suman
+info,player,Deccan Chargers,A Symonds
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,AA Bilakhia
+info,player,Deccan Chargers,RJ Harris
+info,player,Deccan Chargers,Jaskaran Singh
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Royal Challengers Bangalore,JH Kallis
+info,player,Royal Challengers Bangalore,MK Pandey
+info,player,Royal Challengers Bangalore,RE van der Merwe
+info,player,Royal Challengers Bangalore,R Dravid
+info,player,Royal Challengers Bangalore,LRPL Taylor
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,RV Uthappa
+info,player,Royal Challengers Bangalore,MV Boucher
+info,player,Royal Challengers Bangalore,P Kumar
+info,player,Royal Challengers Bangalore,B Akhil
+info,player,Royal Challengers Bangalore,A Kumble
+info,registry,people,A Kumble,0c2730df
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AA Bilakhia,bff458c6
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,B Akhil,af7dadf7
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,IL Howell,c1cd91c3
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,Jaskaran Singh,d7b3a420
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MV Boucher,f3cb53a1
+info,registry,people,MW Brown,d83d7796
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R Dravid,0184dc35
+info,registry,people,RE van der Merwe,05c2ca46
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Y Venugopal Rao,fe763256

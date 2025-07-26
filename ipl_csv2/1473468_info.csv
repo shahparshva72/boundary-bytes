@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2025
+info,date,2025/04/15
+info,event,Indian Premier League
+info,match_number,31
+info,venue,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur"
+info,city,Mohali
+info,toss_winner,Punjab Kings
+info,toss_decision,bat
+info,player_of_match,YS Chahal
+info,umpire,M Krishnadas
+info,umpire,MV Saidharshan Kumar
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,J Srinath
+info,winner,Punjab Kings
+info,winner_runs,16
+info,player,Punjab Kings,Priyansh Arya
+info,player,Punjab Kings,P Simran Singh
+info,player,Punjab Kings,SS Iyer
+info,player,Punjab Kings,JP Inglis
+info,player,Punjab Kings,N Wadhera
+info,player,Punjab Kings,GJ Maxwell
+info,player,Punjab Kings,Suryansh Shedge
+info,player,Punjab Kings,Shashank Singh
+info,player,Punjab Kings,M Jansen
+info,player,Punjab Kings,XC Bartlett
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Punjab Kings,YS Chahal
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Kolkata Knight Riders,Q de Kock
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,AM Rahane
+info,player,Kolkata Knight Riders,A Raghuvanshi
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,Ramandeep Singh
+info,player,Kolkata Knight Riders,Harshit Rana
+info,player,Kolkata Knight Riders,VG Arora
+info,player,Kolkata Knight Riders,A Nortje
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,A Raghuvanshi,d7017798
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,Harshit Rana,77b1aa15
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JP Inglis,989889ff
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,M Krishnadas,e298c588
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,Priyansh Arya,b5797845
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,Shashank Singh,26989d80
+info,registry,people,Suryansh Shedge,970ddd24
+info,registry,people,VG Arora,7c3b3b78
+info,registry,people,VR Iyer,a24be938
+info,registry,people,XC Bartlett,3b53243a
+info,registry,people,YS Chahal,57ee1fde

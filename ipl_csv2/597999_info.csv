@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Mumbai Indians
+info,gender,male
+info,season,2013
+info,date,2013/04/04
+info,event,Indian Premier League
+info,match_number,2
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,CH Gayle
+info,umpire,VA Kulkarni
+info,umpire,C Shamshuddin
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,K Srinath
+info,match_referee,AJ Pycroft
+info,winner,Royal Challengers Bangalore
+info,winner_runs,2
+info,player,Mumbai Indians,RT Ponting
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,KD Karthik
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,MG Johnson
+info,player,Mumbai Indians,JDP Oram
+info,player,Mumbai Indians,MM Patel
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,TM Dilshan
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,DT Christian
+info,player,Royal Challengers Bangalore,KK Nair
+info,player,Royal Challengers Bangalore,KB Arun Karthik
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,M Kartik
+info,player,Royal Challengers Bangalore,JD Unadkat
+info,player,Royal Challengers Bangalore,M Muralitharan
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JDP Oram,3eac9d95
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KB Arun Karthik,7daedf2f
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KK Nair,944533a5
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Kartik,abfeb126
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RT Ponting,7d415ea5
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VA Kulkarni,8fe0c4f8

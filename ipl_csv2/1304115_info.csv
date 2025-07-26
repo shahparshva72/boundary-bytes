@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Mumbai Indians
+info,gender,male
+info,season,2022
+info,date,2022/05/21
+info,event,Indian Premier League
+info,match_number,69
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,JJ Bumrah
+info,umpire,Nitin Menon
+info,umpire,Tapan Sharma
+info,reserve_umpire,GR Sadashiv Iyer
+info,tv_umpire,HAS Khalid
+info,match_referee,J Srinath
+info,winner,Mumbai Indians
+info,winner_wickets,5
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,MR Marsh
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,SN Khan
+info,player,Delhi Capitals,R Powell
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,SN Thakur
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,A Nortje
+info,player,Delhi Capitals,KK Ahmed
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,D Brevis
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,Ramandeep Singh
+info,player,Mumbai Indians,DR Sams
+info,player,Mumbai Indians,HR Shokeen
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,M Markande
+info,player,Mumbai Indians,RP Meredith
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AR Patel,2e171977
+info,registry,people,D Brevis,844e79d1
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,GR Sadashiv Iyer,0be62e31
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,HR Shokeen,0c9652b0
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,R Powell,650d5e49
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Meredith,64775749
+info,registry,people,RR Pant,919a3be2
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,SN Khan,f088b960
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,TH David,f1f99156
+info,registry,people,Tapan Sharma,b9aa2b6e
+info,registry,people,Tilak Varma,b0482a1d

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Pune Warriors
+info,gender,male
+info,season,2013
+info,date,2013/04/05
+info,event,Indian Premier League
+info,match_number,3
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Pune Warriors
+info,toss_decision,field
+info,player_of_match,A Mishra
+info,umpire,S Ravi
+info,umpire,SJA Taufel
+info,reserve_umpire,A Nand Kishore
+info,tv_umpire,CK Nandan
+info,match_referee,DC Boon
+info,winner,Sunrisers Hyderabad
+info,winner_runs,22
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,MK Pandey
+info,player,Pune Warriors,MN Samuels
+info,player,Pune Warriors,Yuvraj Singh
+info,player,Pune Warriors,LRPL Taylor
+info,player,Pune Warriors,AM Nayar
+info,player,Pune Warriors,AD Mathews
+info,player,Pune Warriors,MR Marsh
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,AB Dinda
+info,player,Sunrisers Hyderabad,PA Reddy
+info,player,Sunrisers Hyderabad,PA Patel
+info,player,Sunrisers Hyderabad,KC Sangakkara
+info,player,Sunrisers Hyderabad,CL White
+info,player,Sunrisers Hyderabad,NLTC Perera
+info,player,Sunrisers Hyderabad,GH Vihari
+info,player,Sunrisers Hyderabad,A Ashish Reddy
+info,player,Sunrisers Hyderabad,DB Ravi Teja
+info,player,Sunrisers Hyderabad,A Mishra
+info,player,Sunrisers Hyderabad,DW Steyn
+info,player,Sunrisers Hyderabad,I Sharma
+info,registry,people,A Ashish Reddy,1c2a64cd
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,CL White,d0513f63
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DC Boon,e79a1fe3
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,GH Vihari,94253925
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MN Samuels,f846de6a
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PA Reddy,2461eef2
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,Yuvraj Singh,1c914163

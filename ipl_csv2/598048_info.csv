@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2013
+info,date,2013/04/09
+info,event,Indian Premier League
+info,match_number,9
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,V Kohli
+info,umpire,S Ravi
+info,umpire,SJA Taufel
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,CK Nandan
+info,match_referee,DC Boon
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,7
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,MC Henriques
+info,player,Royal Challengers Bangalore,KB Arun Karthik
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,M Kartik
+info,player,Royal Challengers Bangalore,JD Unadkat
+info,player,Royal Challengers Bangalore,RP Singh
+info,player,Royal Challengers Bangalore,M Muralitharan
+info,player,Sunrisers Hyderabad,PA Reddy
+info,player,Sunrisers Hyderabad,PA Patel
+info,player,Sunrisers Hyderabad,KC Sangakkara
+info,player,Sunrisers Hyderabad,CL White
+info,player,Sunrisers Hyderabad,NLTC Perera
+info,player,Sunrisers Hyderabad,A Ashish Reddy
+info,player,Sunrisers Hyderabad,GH Vihari
+info,player,Sunrisers Hyderabad,BB Samantray
+info,player,Sunrisers Hyderabad,A Mishra
+info,player,Sunrisers Hyderabad,DW Steyn
+info,player,Sunrisers Hyderabad,I Sharma
+info,registry,people,A Ashish Reddy,1c2a64cd
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,BB Samantray,53f27a35
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,CL White,d0513f63
+info,registry,people,DC Boon,e79a1fe3
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,GH Vihari,94253925
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,KB Arun Karthik,7daedf2f
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Kartik,abfeb126
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PA Reddy,2461eef2
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,V Kohli,ba607b88

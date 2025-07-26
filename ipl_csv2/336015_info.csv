@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2007/08
+info,date,2008/05/11
+info,event,Indian Premier League
+info,match_number,33
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,SR Watson
+info,umpire,SJ Davis
+info,umpire,RE Koertzen
+info,tv_umpire,MSS Ranawat
+info,match_referee,FM Engineer
+info,winner,Rajasthan Royals
+info,winner_wickets,3
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,S Dhawan
+info,player,Delhi Daredevils,AB de Villiers
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,TM Dilshan
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,MF Maharoof
+info,player,Delhi Daredevils,VY Mahesh
+info,player,Delhi Daredevils,GD McGrath
+info,player,Delhi Daredevils,PJ Sangwan
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,GC Smith
+info,player,Rajasthan Royals,M Kaif
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,RA Jadeja
+info,player,Rajasthan Royals,AD Mascarenhas
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,Niraj Patel
+info,player,Rajasthan Royals,M Rawat
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,MM Patel
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AD Mascarenhas,3edb58fc
+info,registry,people,FM Engineer,6529ee42
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GC Smith,72861603
+info,registry,people,GD McGrath,ee7d0c82
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Kaif,d84378a4
+info,registry,people,M Rawat,de8d3876
+info,registry,people,MF Maharoof,ab89348d
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,MSS Ranawat,8048c698
+info,registry,people,Niraj Patel,a2870fb7
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VY Mahesh,93a17209
+info,registry,people,YK Pathan,3c6ffae8

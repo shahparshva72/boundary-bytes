@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Lucknow Super Giants
+info,gender,male
+info,season,2023
+info,date,2023/05/01
+info,event,Indian Premier League
+info,match_number,43
+info,venue,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow"
+info,city,Lucknow
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,bat
+info,player_of_match,F du Plessis
+info,umpire,AK Chaudhary
+info,umpire,GR Sadashiv Iyer
+info,reserve_umpire,M Krishnadas
+info,tv_umpire,A Nand Kishore
+info,match_referee,Prakash Bhatt
+info,winner,Royal Challengers Bangalore
+info,winner_runs,18
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,Anuj Rawat
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,SS Prabhudessai
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,MK Lomror
+info,player,Royal Challengers Bangalore,PWH de Silva
+info,player,Royal Challengers Bangalore,KV Sharma
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,JR Hazlewood
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Lucknow Super Giants,KR Mayers
+info,player,Lucknow Super Giants,A Badoni
+info,player,Lucknow Super Giants,KH Pandya
+info,player,Lucknow Super Giants,DJ Hooda
+info,player,Lucknow Super Giants,MP Stoinis
+info,player,Lucknow Super Giants,N Pooran
+info,player,Lucknow Super Giants,K Gowtham
+info,player,Lucknow Super Giants,Ravi Bishnoi
+info,player,Lucknow Super Giants,A Mishra
+info,player,Lucknow Super Giants,Naveen-ul-Haq
+info,player,Lucknow Super Giants,KL Rahul
+info,player,Lucknow Super Giants,Yash Thakur
+info,registry,people,A Badoni,872b03f7
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Anuj Rawat,c8f5f961
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,GR Sadashiv Iyer,0be62e31
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KR Mayers,73c18486
+info,registry,people,KV Sharma,119678fd
+info,registry,people,M Krishnadas,e298c588
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,Naveen-ul-Haq,c0c411cb
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,SS Prabhudessai,9385de2e
+info,registry,people,Sonu Yadav,6ab96cc2
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Yash Thakur,4b31f3a3

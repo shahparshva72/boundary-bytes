@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Gujarat Titans
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2022
+info,date,2022/04/23
+info,event,Indian Premier League
+info,match_number,35
+info,venue,"Dr DY Patil Sports Academy, Mumbai"
+info,city,Navi Mumbai
+info,toss_winner,Gujarat Titans
+info,toss_decision,bat
+info,player_of_match,Rashid Khan
+info,umpire,KN Ananthapadmanabhan
+info,umpire,UV Gandhe
+info,reserve_umpire,Vinod Seshan
+info,tv_umpire,BNJ Oxenford
+info,match_referee,V Narayan Kutty
+info,winner,Gujarat Titans
+info,winner_runs,8
+info,player,Gujarat Titans,WP Saha
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,HH Pandya
+info,player,Gujarat Titans,DA Miller
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,A Manohar
+info,player,Gujarat Titans,LH Ferguson
+info,player,Gujarat Titans,AS Joseph
+info,player,Gujarat Titans,Yash Dayal
+info,player,Gujarat Titans,Mohammed Shami
+info,player,Kolkata Knight Riders,SW Billings
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,SS Iyer
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,Shivam Mavi
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,TG Southee
+info,player,Kolkata Knight Riders,CV Varun
+info,registry,people,A Manohar,0890552f
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AS Joseph,b0946605
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SW Billings,c16d4035
+info,registry,people,Shivam Mavi,c38d3503
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,VR Iyer,a24be938
+info,registry,people,Vinod Seshan,a3357a27
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Yash Dayal,7210d461

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2009/10
+info,date,2010/03/28
+info,event,Indian Premier League
+info,match_number,24
+info,venue,"Sardar Patel Stadium, Motera"
+info,city,Ahmedabad
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,NV Ojha
+info,umpire,SS Hazare
+info,umpire,SJA Taufel
+info,reserve_umpire,S Dua
+info,tv_umpire,HDPK Dharmasena
+info,match_referee,RS Mahanama
+info,winner,Rajasthan Royals
+info,winner_runs,17
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,ML Hayden
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,KB Arun Karthik
+info,player,Chennai Super Kings,T Thushara
+info,player,Chennai Super Kings,Joginder Sharma
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Chennai Super Kings,SB Jakati
+info,player,Rajasthan Royals,MJ Lumb
+info,player,Rajasthan Royals,NV Ojha
+info,player,Rajasthan Royals,FY Fazal
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,AC Voges
+info,player,Rajasthan Royals,AA Jhunjhunwala
+info,player,Rajasthan Royals,P Dogra
+info,player,Rajasthan Royals,S Narwal
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,SW Tait
+info,player,Rajasthan Royals,SK Trivedi
+info,registry,people,AA Jhunjhunwala,2815fe50
+info,registry,people,AC Voges,864c199e
+info,registry,people,FY Fazal,c15e2193
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,Joginder Sharma,9f961c14
+info,registry,people,KB Arun Karthik,7daedf2f
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Dogra,2728e7e9
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Dua,f1375866
+info,registry,people,S Narwal,287686fd
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SS Hazare,166e5081
+info,registry,people,SW Tait,addfb70e
+info,registry,people,T Thushara,b2ae53f5
+info,registry,people,YK Pathan,3c6ffae8

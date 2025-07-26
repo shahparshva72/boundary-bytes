@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2011
+info,date,2011/04/22
+info,event,Indian Premier League
+info,match_number,25
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,Harbhajan Singh
+info,umpire,Asad Rauf
+info,umpire,AM Saheba
+info,reserve_umpire,VA Kulkarni
+info,tv_umpire,SL Shastri
+info,match_referee,Raju Mukherjee
+info,winner,Mumbai Indians
+info,winner_runs,8
+info,player,Chennai Super Kings,MEK Hussey
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,S Anirudha
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,Joginder Sharma
+info,player,Chennai Super Kings,S Randiv
+info,player,Chennai Super Kings,DE Bollinger
+info,player,Mumbai Indians,R Sathish
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,A Symonds
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,JEC Franklin
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,AN Ahmed
+info,player,Mumbai Indians,MM Patel
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AM Saheba,883e3818
+info,registry,people,AN Ahmed,2af1b6d2
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JEC Franklin,cf73ad76
+info,registry,people,Joginder Sharma,9f961c14
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Sathish,626c5379
+info,registry,people,RG Sharma,740742ef
+info,registry,people,Raju Mukherjee,7a3244b5
+info,registry,people,S Anirudha,95a2ea61
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Randiv,f5f18a18
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,VA Kulkarni,8fe0c4f8

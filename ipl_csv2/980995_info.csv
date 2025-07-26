@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2016
+info,date,2016/05/16
+info,event,Indian Premier League
+info,match_number,48
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,V Kohli
+info,umpire,CB Gaffaney
+info,umpire,A Nand Kishore
+info,reserve_umpire,YC Barde
+info,tv_umpire,BNJ Oxenford
+info,match_referee,Chinmay Sharma
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,9
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,AS Rajpoot
+info,player,Kolkata Knight Riders,M Morkel
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,SR Watson
+info,player,Royal Challengers Bangalore,KL Rahul
+info,player,Royal Challengers Bangalore,Sachin Baby
+info,player,Royal Challengers Bangalore,STR Binny
+info,player,Royal Challengers Bangalore,CJ Jordan
+info,player,Royal Challengers Bangalore,S Aravind
+info,player,Royal Challengers Bangalore,Iqbal Abdulla
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AS Rajpoot,db31895a
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Aravind,957532de
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,Sachin Baby,dc9dd038
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YC Barde,b90f3346
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,YS Chahal,57ee1fde

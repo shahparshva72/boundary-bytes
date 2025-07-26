@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2019
+info,date,2019/03/31
+info,event,Indian Premier League
+info,match_number,11
+info,venue,Rajiv Gandhi International Stadium
+info,city,Hyderabad
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,JM Bairstow
+info,umpire,KN Ananthapadmanabhan
+info,umpire,S Ravi
+info,reserve_umpire,K Srinath
+info,tv_umpire,C Shamshuddin
+info,match_referee,Chinmay Sharma
+info,winner,Sunrisers Hyderabad
+info,winner_runs,118
+info,player,Sunrisers Hyderabad,JM Bairstow
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,YK Pathan
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,Mohammad Nabi
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Royal Challengers Bangalore,PA Patel
+info,player,Royal Challengers Bangalore,SO Hetmyer
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,MM Ali
+info,player,Royal Challengers Bangalore,S Dube
+info,player,Royal Challengers Bangalore,C de Grandhomme
+info,player,Royal Challengers Bangalore,P Ray Barman
+info,player,Royal Challengers Bangalore,UT Yadav
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MM Ali,bb351c23
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,P Ray Barman,441c72ae
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Dube,a4e37e47
+info,registry,people,S Kaul,dcf81436
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,YS Chahal,57ee1fde

@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2023
+info,date,2023/04/09
+info,event,Indian Premier League
+info,match_number,14
+info,venue,"Rajiv Gandhi International Stadium, Uppal, Hyderabad"
+info,city,Hyderabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,S Dhawan
+info,umpire,BNJ Oxenford
+info,umpire,UV Gandhe
+info,reserve_umpire,PM Joshi
+info,tv_umpire,J Madanagopal
+info,match_referee,M Nayyar
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,8
+info,player,Punjab Kings,P Simran Singh
+info,player,Punjab Kings,S Dhawan
+info,player,Punjab Kings,MW Short
+info,player,Punjab Kings,JM Sharma
+info,player,Punjab Kings,SM Curran
+info,player,Punjab Kings,Sikandar Raza
+info,player,Punjab Kings,M Shahrukh Khan
+info,player,Punjab Kings,Harpreet Brar
+info,player,Punjab Kings,RD Chahar
+info,player,Punjab Kings,NT Ellis
+info,player,Punjab Kings,Mohit Rathee
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Sunrisers Hyderabad,HC Brook
+info,player,Sunrisers Hyderabad,MA Agarwal
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,Washington Sundar
+info,player,Sunrisers Hyderabad,M Jansen
+info,player,Sunrisers Hyderabad,M Markande
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Umran Malik
+info,player,Sunrisers Hyderabad,T Natarajan
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HC Brook,4ae1755b
+info,registry,people,Harpreet Brar,c05edf8e
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MW Short,a90e53ec
+info,registry,people,Mohit Rathee,9a5f2863
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,PM Joshi,0dcc9a8c
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SM Curran,e94915e6
+info,registry,people,Sikandar Raza,26d041c4
+info,registry,people,T Natarajan,ce794613
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,Umran Malik,81c08fa3
+info,registry,people,Washington Sundar,f19ccfad

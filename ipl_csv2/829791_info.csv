@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2015
+info,date,2015/05/09
+info,event,Indian Premier League
+info,match_number,44
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kings XI Punjab
+info,toss_decision,bat
+info,player_of_match,AD Russell
+info,umpire,AK Chaudhary
+info,umpire,HDPK Dharmasena
+info,reserve_umpire,A Nand Kishore
+info,tv_umpire,K Srinivasan
+info,match_referee,RS Mahanama
+info,winner,Kolkata Knight Riders
+info,winner_wickets,1
+info,player,Kings XI Punjab,M Vijay
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,Gurkeerat Singh
+info,player,Kings XI Punjab,GJ Bailey
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,BE Hendricks
+info,player,Kings XI Punjab,Anureet Singh
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,J Botha
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,GB Hogg
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,SP Narine
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AR Patel,2e171977
+info,registry,people,Anureet Singh,69be866a
+info,registry,people,BE Hendricks,b56dc5f7
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,J Botha,7c503806
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,M Vijay,4b57e452
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RS Mahanama,57910393
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YK Pathan,3c6ffae8

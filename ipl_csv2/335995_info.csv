@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2007/08
+info,date,2008/04/27
+info,event,Indian Premier League
+info,match_number,13
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Delhi Daredevils
+info,toss_decision,bat
+info,player_of_match,SM Katich
+info,umpire,RE Koertzen
+info,umpire,I Shivram
+info,reserve_umpire,MS Mahal
+info,tv_umpire,Aleem Dar
+info,match_referee,FM Engineer
+info,winner,Kings XI Punjab
+info,winner_wickets,4
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,S Dhawan
+info,player,Delhi Daredevils,Shoaib Malik
+info,player,Delhi Daredevils,MK Tiwary
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,R Bhatia
+info,player,Delhi Daredevils,MF Maharoof
+info,player,Delhi Daredevils,VY Mahesh
+info,player,Delhi Daredevils,Mohammad Asif
+info,player,Delhi Daredevils,GD McGrath
+info,player,Kings XI Punjab,K Goel
+info,player,Kings XI Punjab,SM Katich
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,TM Srivastava
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,B Lee
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,S Sreesanth
+info,player,Kings XI Punjab,VRV Singh
+info,registry,people,Aleem Dar,f02778d1
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,FM Engineer,6529ee42
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GD McGrath,ee7d0c82
+info,registry,people,I Shivram,85143097
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,K Goel,a1f1829d
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,MF Maharoof,ab89348d
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Mahal,50a7e89b
+info,registry,people,Mohammad Asif,e03b66ec
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,Shoaib Malik,64c34cd0
+info,registry,people,TM Srivastava,a76d10ba
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VRV Singh,034b4b7d
+info,registry,people,VY Mahesh,93a17209
+info,registry,people,Yuvraj Singh,1c914163

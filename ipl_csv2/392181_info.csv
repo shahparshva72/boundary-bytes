@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Mumbai Indians
+info,gender,male
+info,season,2009
+info,date,2009/04/18
+info,event,Indian Premier League
+info,match_number,1
+info,venue,Newlands
+info,city,Cape Town
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,SR Tendulkar
+info,umpire,BR Doctrove
+info,umpire,K Hariharan
+info,reserve_umpire,EC Hendrikse
+info,tv_umpire,RB Tiffin
+info,match_referee,GR Viswanath
+info,winner,Mumbai Indians
+info,winner_runs,19
+info,player,Chennai Super Kings,PA Patel
+info,player,Chennai Super Kings,ML Hayden
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,A Flintoff
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,JDP Oram
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,Joginder Sharma
+info,player,Chennai Super Kings,T Thushara
+info,player,Chennai Super Kings,MS Gony
+info,player,Chennai Super Kings,R Ashwin
+info,player,Mumbai Indians,ST Jayasuriya
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,S Dhawan
+info,player,Mumbai Indians,JP Duminy
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,AM Nayar
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,Z Khan
+info,player,Mumbai Indians,PR Shah
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,RR Raje
+info,registry,people,A Flintoff,ddc0828d
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,EC Hendrikse,3f2996c9
+info,registry,people,GR Viswanath,9333bc07
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JDP Oram,3eac9d95
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,Joginder Sharma,9f961c14
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PR Shah,0aadc906
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RB Tiffin,89087a0d
+info,registry,people,RR Raje,5f4e9e8f
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,ST Jayasuriya,f233bbb4
+info,registry,people,T Thushara,b2ae53f5
+info,registry,people,Z Khan,91a4a398

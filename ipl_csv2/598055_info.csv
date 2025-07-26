@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Pune Warriors
+info,team,Mumbai Indians
+info,gender,male
+info,season,2013
+info,date,2013/05/11
+info,event,Indian Premier League
+info,match_number,58
+info,venue,Subrata Roy Sahara Stadium
+info,city,Pune
+info,toss_winner,Pune Warriors
+info,toss_decision,bat
+info,player_of_match,MG Johnson
+info,umpire,Asad Rauf
+info,umpire,AK Chaudhary
+info,reserve_umpire,RM Deshpande
+info,tv_umpire,S Asnani
+info,match_referee,J Srinath
+info,winner,Mumbai Indians
+info,winner_wickets,5
+info,player,Mumbai Indians,DR Smith
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,KD Karthik
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,GJ Maxwell
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,MG Johnson
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,PP Ojha
+info,player,Mumbai Indians,AN Ahmed
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,AJ Finch
+info,player,Pune Warriors,MK Pandey
+info,player,Pune Warriors,Yuvraj Singh
+info,player,Pune Warriors,AD Mathews
+info,player,Pune Warriors,AM Nayar
+info,player,Pune Warriors,KW Richardson
+info,player,Pune Warriors,Parvez Rasool
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,AB Dinda
+info,player,Pune Warriors,BAW Mendis
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AN Ahmed,2af1b6d2
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BAW Mendis,ea0cdc12
+info,registry,people,DR Smith,35205dfc
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,Parvez Rasool,9170ff49
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RM Deshpande,7d2a4250
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Asnani,b04524bc
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,Yuvraj Singh,1c914163

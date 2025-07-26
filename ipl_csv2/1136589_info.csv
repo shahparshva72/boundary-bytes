@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2018
+info,date,2018/04/29
+info,event,Indian Premier League
+info,match_number,29
+info,venue,M.Chinnaswamy Stadium
+info,city,Bengaluru
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,CA Lynn
+info,umpire,AK Chaudhary
+info,umpire,NJ Llong
+info,reserve_umpire,R Pandit
+info,tv_umpire,VK Sharma
+info,match_referee,M Nayyar
+info,winner,Kolkata Knight Riders
+info,winner_wickets,6
+info,player,Royal Challengers Bangalore,Q de Kock
+info,player,Royal Challengers Bangalore,BB McCullum
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,M Vohra
+info,player,Royal Challengers Bangalore,Mandeep Singh
+info,player,Royal Challengers Bangalore,C de Grandhomme
+info,player,Royal Challengers Bangalore,M Ashwin
+info,player,Royal Challengers Bangalore,TG Southee
+info,player,Royal Challengers Bangalore,UT Yadav
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Kolkata Knight Riders,CA Lynn
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,Shivam Mavi
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,MG Johnson
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,NJ Llong,573fb985
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Pandit,8a604384
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shivam Mavi,c38d3503
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,YS Chahal,57ee1fde

@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2017
+info,date,2017/05/19
+info,event,Indian Premier League
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,KV Sharma
+info,umpire,NJ Llong
+info,umpire,Nitin Menon
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,C Shamshuddin
+info,match_referee,Chinmay Sharma
+info,winner,Mumbai Indians
+info,winner_wickets,6
+info,player,Kolkata Knight Riders,CA Lynn
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,IR Jaggi
+info,player,Kolkata Knight Riders,C de Grandhomme
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,NM Coulter-Nile
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,AS Rajpoot
+info,player,Mumbai Indians,LMP Simmons
+info,player,Mumbai Indians,PA Patel
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,MG Johnson
+info,player,Mumbai Indians,KV Sharma
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,AS Rajpoot,db31895a
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,IR Jaggi,dded65e7
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KV Sharma,119678fd
+info,registry,people,LMP Simmons,89f64c19
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,NJ Llong,573fb985
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SP Narine,9d430b40
+info,registry,people,UT Yadav,cc1e8c68

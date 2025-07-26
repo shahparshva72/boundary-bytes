@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Mumbai Indians
+info,gender,male
+info,season,2020/21
+info,date,2020/10/28
+info,event,Indian Premier League
+info,match_number,48
+info,venue,Sheikh Zayed Stadium
+info,city,Abu Dhabi
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,SA Yadav
+info,umpire,UV Gandhe
+info,umpire,CB Gaffaney
+info,reserve_umpire,PG Pathak
+info,tv_umpire,S Ravi
+info,match_referee,M Nayyar
+info,winner,Mumbai Indians
+info,winner_wickets,5
+info,player,Royal Challengers Bangalore,JR Philippe
+info,player,Royal Challengers Bangalore,D Padikkal
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,S Dube
+info,player,Royal Challengers Bangalore,CH Morris
+info,player,Royal Challengers Bangalore,Gurkeerat Singh
+info,player,Royal Challengers Bangalore,Washington Sundar
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,DW Steyn
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,SS Tiwary
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,JL Pattinson
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,TA Boult
+info,player,Mumbai Indians,JJ Bumrah
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,JR Philippe,39086549
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,S Dube,a4e37e47
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,TA Boult,a818c1be
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YS Chahal,57ee1fde

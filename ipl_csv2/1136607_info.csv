@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2018
+info,date,2018/05/13
+info,event,Indian Premier League
+info,match_number,47
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,JC Buttler
+info,umpire,Nitin Menon
+info,umpire,S Ravi
+info,reserve_umpire,UV Gandhe
+info,tv_umpire,C Shamshuddin
+info,match_referee,J Srinath
+info,winner,Rajasthan Royals
+info,winner_wickets,7
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,E Lewis
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,BCJ Cutting
+info,player,Mumbai Indians,JP Duminy
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,M Markande
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Rajasthan Royals,DJM Short
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,K Gowtham
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,DS Kulkarni
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BA Stokes,e087956b
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,E Lewis,0ebfb1ad
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,UV Gandhe,43dd4011

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2015
+info,date,2015/04/21
+info,event,Indian Premier League
+info,match_number,18
+info,venue,"Sardar Patel Stadium, Motera"
+info,city,Ahmedabad
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,SE Marsh
+info,umpire,M Erasmus
+info,umpire,S Ravi
+info,reserve_umpire,K Srinath
+info,tv_umpire,AK Chaudhary
+info,match_referee,Chinmay Sharma
+info,outcome,tie
+info,eliminator,Kings XI Punjab
+info,player,Kings XI Punjab,M Vijay
+info,player,Kings XI Punjab,V Sehwag
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,MG Johnson
+info,player,Kings XI Punjab,Anureet Singh
+info,player,Kings XI Punjab,Shivam Sharma
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,DJ Hooda
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,KK Nair
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,CH Morris
+info,player,Rajasthan Royals,R Tewatia
+info,player,Rajasthan Royals,PV Tambe
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AR Patel,2e171977
+info,registry,people,Anureet Singh,69be866a
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KK Nair,944533a5
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,PV Tambe,6aed7e79
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shivam Sharma,6f49cc6e
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,WP Saha,fe11caa6

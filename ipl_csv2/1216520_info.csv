@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2020/21
+info,date,2020/10/26
+info,event,Indian Premier League
+info,match_number,46
+info,venue,Sharjah Cricket Stadium
+info,city,
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,CH Gayle
+info,umpire,KN Ananthapadmanabhan
+info,umpire,RK Illingworth
+info,reserve_umpire,VA Kulkarni
+info,tv_umpire,K Srinivasan
+info,match_referee,V Narayan Kutty
+info,winner,Kings XI Punjab
+info,winner_wickets,8
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,RA Tripathi
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,KL Nagarkoti
+info,player,Kolkata Knight Riders,PJ Cummins
+info,player,Kolkata Knight Riders,LH Ferguson
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Kolkata Knight Riders,M Prasidh Krishna
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,N Pooran
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,DJ Hooda
+info,player,Kings XI Punjab,CJ Jordan
+info,player,Kings XI Punjab,M Ashwin
+info,player,Kings XI Punjab,Ravi Bishnoi
+info,player,Kings XI Punjab,Mohammed Shami
+info,player,Kings XI Punjab,Arshdeep Singh
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KL Nagarkoti,b4f5c2d9
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RK Illingworth,20672246
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,VA Kulkarni,8fe0c4f8

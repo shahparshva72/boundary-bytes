@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Punjab Kings
+info,gender,male
+info,season,2022
+info,date,2022/03/27
+info,event,Indian Premier League
+info,match_number,3
+info,venue,"Dr DY Patil Sports Academy, Mumbai"
+info,city,Mumbai
+info,toss_winner,Punjab Kings
+info,toss_decision,field
+info,player_of_match,OF Smith
+info,umpire,Nitin Menon
+info,umpire,YC Barde
+info,reserve_umpire,R Pandit
+info,tv_umpire,AK Chaudhary
+info,match_referee,M Nayyar
+info,winner,Punjab Kings
+info,winner_wickets,5
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,Anuj Rawat
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,SE Rutherford
+info,player,Royal Challengers Bangalore,DJ Willey
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,PWH de Silva
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,Akash Deep
+info,player,Punjab Kings,MA Agarwal
+info,player,Punjab Kings,S Dhawan
+info,player,Punjab Kings,PBB Rajapaksa
+info,player,Punjab Kings,LS Livingstone
+info,player,Punjab Kings,RA Bawa
+info,player,Punjab Kings,M Shahrukh Khan
+info,player,Punjab Kings,OF Smith
+info,player,Punjab Kings,Harpreet Brar
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Punjab Kings,Sandeep Sharma
+info,player,Punjab Kings,RD Chahar
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Akash Deep,0a67aec0
+info,registry,people,Anuj Rawat,c8f5f961
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,DJ Willey,7f048519
+info,registry,people,F du Plessis,3355b542
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Harpreet Brar,c05edf8e
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,OF Smith,23cca426
+info,registry,people,PBB Rajapaksa,6c882e9a
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,R Pandit,8a604384
+info,registry,people,RA Bawa,ba6b2f91
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SE Rutherford,d014d5ac
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YC Barde,b90f3346

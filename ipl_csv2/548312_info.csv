@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2012
+info,date,2012/04/08
+info,event,Indian Premier League
+info,match_number,7
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,BJ Hodge
+info,umpire,BF Bowden
+info,umpire,VA Kulkarni
+info,reserve_umpire,PK Khakhar
+info,tv_umpire,SK Tarapore
+info,match_referee,RS Madugalle
+info,winner,Rajasthan Royals
+info,winner_runs,22
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,DB Das
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,B Lee
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,Iqbal Abdulla
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SP Goswami
+info,player,Rajasthan Royals,AL Menaria
+info,player,Rajasthan Royals,BJ Hodge
+info,player,Rajasthan Royals,OA Shah
+info,player,Rajasthan Royals,KK Cooper
+info,player,Rajasthan Royals,J Botha
+info,player,Rajasthan Royals,AA Chavan
+info,player,Rajasthan Royals,A Singh
+info,player,Rajasthan Royals,SK Trivedi
+info,registry,people,A Singh,5b040b81
+info,registry,people,AA Chavan,29d72eb2
+info,registry,people,AL Menaria,8291f939
+info,registry,people,AM Rahane,29e95537
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,DB Das,7050a1e7
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,J Botha,7c503806
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,KK Cooper,557153ca
+info,registry,people,LR Shukla,b1451597
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,OA Shah,7bf96684
+info,registry,people,PK Khakhar,b7cad41f
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R Dravid,0184dc35
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,SP Narine,9d430b40
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,YK Pathan,3c6ffae8

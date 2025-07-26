@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2023
+info,date,2023/05/18
+info,event,Indian Premier League
+info,match_number,65
+info,venue,"Rajiv Gandhi International Stadium, Uppal, Hyderabad"
+info,city,Hyderabad
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,V Kohli
+info,umpire,BNJ Oxenford
+info,umpire,VK Sharma
+info,reserve_umpire,VM Dhokre
+info,tv_umpire,HAS Khalid
+info,match_referee,J Srinath
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,8
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,HC Brook
+info,player,Sunrisers Hyderabad,GD Phillips
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Kartik Tyagi
+info,player,Sunrisers Hyderabad,Mayank Dagar
+info,player,Sunrisers Hyderabad,Nithish Kumar Reddy
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,MG Bracewell
+info,player,Royal Challengers Bangalore,MK Lomror
+info,player,Royal Challengers Bangalore,Anuj Rawat
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,WD Parnell
+info,player,Royal Challengers Bangalore,KV Sharma
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Anuj Rawat,c8f5f961
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GD Phillips,9a46c4e5
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,HC Brook,4ae1755b
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KV Sharma,119678fd
+info,registry,people,Kartik Tyagi,5d2eea49
+info,registry,people,MG Bracewell,e38bce7a
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,Mayank Dagar,a457cfb5
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Nithish Kumar Reddy,aad0c365
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,T Natarajan,ce794613
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,VM Dhokre,67df71c9
+info,registry,people,WD Parnell,3a60e0b5

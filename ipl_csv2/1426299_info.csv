@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2024
+info,date,2024/05/12
+info,event,Indian Premier League
+info,match_number,61
+info,venue,"MA Chidambaram Stadium, Chepauk, Chennai"
+info,city,Chennai
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,Simarjeet Singh
+info,umpire,R Pandit
+info,umpire,YC Barde
+info,reserve_umpire,R Rajesh Kannan
+info,tv_umpire,AK Chaudhary
+info,match_referee,Shakti Singh
+info,winner,Chennai Super Kings
+info,winner_wickets,5
+info,player,Rajasthan Royals,N Burger
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,SB Dubey
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,TA Boult
+info,player,Rajasthan Royals,Avesh Khan
+info,player,Rajasthan Royals,Sandeep Sharma
+info,player,Rajasthan Royals,YS Chahal
+info,player,Chennai Super Kings,R Ravindra
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,DJ Mitchell
+info,player,Chennai Super Kings,MM Ali
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,Sameer Rizvi
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,SN Thakur
+info,player,Chennai Super Kings,TU Deshpande
+info,player,Chennai Super Kings,Simarjeet Singh
+info,player,Chennai Super Kings,M Theekshana
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,DJ Mitchell,eade4650
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,JC Buttler,99b75528
+info,registry,people,M Theekshana,f24c6701
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,N Burger,465aa633
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Rajesh Kannan,c9062c3e
+info,registry,people,R Ravindra,ba5e1069
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SB Dubey,6b2ff18f
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sameer Rizvi,f89d3b11
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,Simarjeet Singh,30df8c66
+info,registry,people,TA Boult,a818c1be
+info,registry,people,TU Deshpande,46a9bea1
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YC Barde,b90f3346
+info,registry,people,YS Chahal,57ee1fde

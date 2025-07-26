@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Mumbai Indians
+info,gender,male
+info,season,2007/08
+info,date,2008/04/29
+info,event,Indian Premier League
+info,match_number,16
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,ST Jayasuriya
+info,umpire,BF Bowden
+info,umpire,AV Jayaprakash
+info,reserve_umpire,SK Porel
+info,tv_umpire,MR Benson
+info,match_referee,S Venkataraghavan
+info,winner,Mumbai Indians
+info,winner_wickets,7
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,RT Ponting
+info,player,Kolkata Knight Riders,DB Das
+info,player,Kolkata Knight Riders,DJ Hussey
+info,player,Kolkata Knight Riders,Mohammad Hafeez
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Kolkata Knight Riders,AB Dinda
+info,player,Mumbai Indians,AM Rahane
+info,player,Mumbai Indians,ST Jayasuriya
+info,player,Mumbai Indians,MK Pandey
+info,player,Mumbai Indians,RV Uthappa
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,SM Pollock
+info,player,Mumbai Indians,AM Nayar
+info,player,Mumbai Indians,A Nehra
+info,player,Mumbai Indians,DS Kulkarni
+info,player,Mumbai Indians,CRD Fernando
+info,player,Mumbai Indians,PR Shah
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AV Jayaprakash,bde6e9ef
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,CRD Fernando,342d8ade
+info,registry,people,DB Das,7050a1e7
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Kartik,abfeb126
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MR Benson,790e14d3
+info,registry,people,Mohammad Hafeez,9ab63e7b
+info,registry,people,PR Shah,0aadc906
+info,registry,people,RT Ponting,7d415ea5
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SK Porel,350a07a7
+info,registry,people,SM Pollock,88fccd6c
+info,registry,people,ST Jayasuriya,f233bbb4

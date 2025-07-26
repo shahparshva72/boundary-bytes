@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Lucknow Super Giants
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2022
+info,date,2022/05/18
+info,event,Indian Premier League
+info,match_number,66
+info,venue,"Dr DY Patil Sports Academy, Mumbai"
+info,city,Navi Mumbai
+info,toss_winner,Lucknow Super Giants
+info,toss_decision,bat
+info,player_of_match,Q de Kock
+info,umpire,R Pandit
+info,umpire,YC Barde
+info,reserve_umpire,NA Patwardhan
+info,tv_umpire,BNJ Oxenford
+info,match_referee,M Nayyar
+info,winner,Lucknow Super Giants
+info,winner_runs,2
+info,player,Lucknow Super Giants,Q de Kock
+info,player,Lucknow Super Giants,KL Rahul
+info,player,Lucknow Super Giants,E Lewis
+info,player,Lucknow Super Giants,DJ Hooda
+info,player,Lucknow Super Giants,M Vohra
+info,player,Lucknow Super Giants,MP Stoinis
+info,player,Lucknow Super Giants,JO Holder
+info,player,Lucknow Super Giants,K Gowtham
+info,player,Lucknow Super Giants,Mohsin Khan
+info,player,Lucknow Super Giants,Avesh Khan
+info,player,Lucknow Super Giants,Ravi Bishnoi
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,A Tomar
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,SS Iyer
+info,player,Kolkata Knight Riders,SW Billings
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,TG Southee
+info,player,Kolkata Knight Riders,CV Varun
+info,registry,people,A Tomar,aa5d8c9e
+info,registry,people,AD Russell,bbd41817
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,E Lewis,0ebfb1ad
+info,registry,people,JO Holder,0f721006
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohsin Khan,c33d8116
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,NA Patwardhan,e6ef687d
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Pandit,8a604384
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SW Billings,c16d4035
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,VR Iyer,a24be938
+info,registry,people,YC Barde,b90f3346

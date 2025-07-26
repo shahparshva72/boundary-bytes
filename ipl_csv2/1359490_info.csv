@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Mumbai Indians
+info,gender,male
+info,season,2023
+info,date,2023/04/11
+info,event,Indian Premier League
+info,match_number,16
+info,venue,"Arun Jaitley Stadium, Delhi"
+info,city,Delhi
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,RG Sharma
+info,umpire,MA Gough
+info,umpire,R Pandit
+info,reserve_umpire,Abhijit Bhattacharya
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,V Narayan Kutty
+info,winner,Mumbai Indians
+info,winner_wickets,6
+info,player,Delhi Capitals,Mukesh Kumar
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,MK Pandey
+info,player,Delhi Capitals,YV Dhull
+info,player,Delhi Capitals,R Powell
+info,player,Delhi Capitals,Lalit Yadav
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,A Nortje
+info,player,Delhi Capitals,Mustafizur Rahman
+info,player,Mumbai Indians,RP Meredith
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,C Green
+info,player,Mumbai Indians,N Wadhera
+info,player,Mumbai Indians,HR Shokeen
+info,player,Mumbai Indians,Arshad Khan
+info,player,Mumbai Indians,JP Behrendorff
+info,player,Mumbai Indians,PP Chawla
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AR Patel,2e171977
+info,registry,people,Abhijit Bhattacharya,59ec9638
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,Arshad Khan,12314277
+info,registry,people,C Green,eaa76d3c
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,HR Shokeen,0c9652b0
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,Lalit Yadav,ad427b5c
+info,registry,people,MA Gough,76752ac8
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Powell,650d5e49
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Meredith,64775749
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,TH David,f1f99156
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,YV Dhull,dd7e9b3b

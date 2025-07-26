@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2016
+info,date,2016/05/29
+info,event,Indian Premier League
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,BCJ Cutting
+info,umpire,HDPK Dharmasena
+info,umpire,BNJ Oxenford
+info,reserve_umpire,A Deshmukh
+info,tv_umpire,AK Chaudhary
+info,match_referee,RS Madugalle
+info,winner,Sunrisers Hyderabad
+info,winner_runs,8
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,KL Rahul
+info,player,Royal Challengers Bangalore,SR Watson
+info,player,Royal Challengers Bangalore,Sachin Baby
+info,player,Royal Challengers Bangalore,STR Binny
+info,player,Royal Challengers Bangalore,CJ Jordan
+info,player,Royal Challengers Bangalore,Iqbal Abdulla
+info,player,Royal Challengers Bangalore,S Aravind
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,Yuvraj Singh
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,BCJ Cutting
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,Bipul Sharma
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,BB Sran
+info,player,Sunrisers Hyderabad,Mustafizur Rahman
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BB Sran,d8b2f218
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,NV Ojha,890946a0
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,S Aravind,957532de
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,Sachin Baby,dc9dd038
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Yuvraj Singh,1c914163

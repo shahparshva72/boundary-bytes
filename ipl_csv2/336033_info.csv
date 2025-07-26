@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2007/08
+info,date,2008/05/24
+info,event,Indian Premier League
+info,match_number,49
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,JA Morkel
+info,umpire,DJ Harper
+info,umpire,SL Shastri
+info,tv_umpire,AV Jayaprakash
+info,match_referee,J Srinath
+info,winner,Rajasthan Royals
+info,winner_runs,10
+info,player,Chennai Super Kings,PA Patel
+info,player,Chennai Super Kings,SP Fleming
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,MS Gony
+info,player,Chennai Super Kings,A Mukund
+info,player,Chennai Super Kings,L Balaji
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Chennai Super Kings,M Ntini
+info,player,Rajasthan Royals,GC Smith
+info,player,Rajasthan Royals,SA Asnodkar
+info,player,Rajasthan Royals,Kamran Akmal
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,M Kaif
+info,player,Rajasthan Royals,T Kohli
+info,player,Rajasthan Royals,D Salunkhe
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,Sohail Tanvir
+info,player,Rajasthan Royals,Pankaj Singh
+info,player,Rajasthan Royals,MM Patel
+info,registry,people,A Mukund,6165bca6
+info,registry,people,AV Jayaprakash,bde6e9ef
+info,registry,people,D Salunkhe,0264c10e
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,GC Smith,72861603
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,Kamran Akmal,ff077124
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Kaif,d84378a4
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,M Ntini,20a941bb
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,Pankaj Singh,e32d22f6
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,SA Asnodkar,ae091d39
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,SP Fleming,eea6b7f1
+info,registry,people,Sohail Tanvir,64d43928
+info,registry,people,T Kohli,40caa465
+info,registry,people,YK Pathan,3c6ffae8

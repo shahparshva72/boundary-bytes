@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2014
+info,date,2014/05/22
+info,event,Indian Premier League
+info,match_number,49
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,RV Uthappa
+info,umpire,AK Chaudhary
+info,umpire,CK Nandan
+info,reserve_umpire,Nitin Menon
+info,tv_umpire,NJ Llong
+info,match_referee,RS Madugalle
+info,winner,Kolkata Knight Riders
+info,winner_runs,30
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,R Vinay Kumar
+info,player,Kolkata Knight Riders,M Morkel
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,YV Takawale
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,Yuvraj Singh
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,S Rana
+info,player,Royal Challengers Bangalore,MA Starc
+info,player,Royal Challengers Bangalore,AN Ahmed
+info,player,Royal Challengers Bangalore,AB Dinda
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,M Muralitharan
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AN Ahmed,2af1b6d2
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,NJ Llong,573fb985
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Rana,90edaaa9
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,YV Takawale,4e04666c
+info,registry,people,Yuvraj Singh,1c914163

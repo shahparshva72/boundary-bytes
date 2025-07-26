@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2018
+info,date,2018/05/08
+info,event,Indian Premier League
+info,match_number,40
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,JC Buttler
+info,umpire,M Erasmus
+info,umpire,Nitin Menon
+info,reserve_umpire,N Pandit
+info,tv_umpire,YC Barde
+info,match_referee,J Srinath
+info,winner,Rajasthan Royals
+info,winner_runs,15
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,K Gowtham
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,MK Lomror
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,IS Sodhi
+info,player,Rajasthan Royals,Anureet Singh
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,R Ashwin
+info,player,Kings XI Punjab,KK Nair
+info,player,Kings XI Punjab,AD Nath
+info,player,Kings XI Punjab,MK Tiwary
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,MP Stoinis
+info,player,Kings XI Punjab,AJ Tye
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,Mujeeb Ur Rahman
+info,registry,people,AD Nath,f10e94c4
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AR Patel,2e171977
+info,registry,people,Anureet Singh,69be866a
+info,registry,people,BA Stokes,e087956b
+info,registry,people,CH Gayle,db584dad
+info,registry,people,IS Sodhi,641ac5ff
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,N Pandit,4947c258
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,YC Barde,b90f3346

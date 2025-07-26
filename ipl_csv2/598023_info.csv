@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2013
+info,date,2013/04/20
+info,event,Indian Premier League
+info,match_number,27
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,R Vinay Kumar
+info,umpire,Aleem Dar
+info,umpire,C Shamshuddin
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,S Das
+info,match_referee,AJ Pycroft
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,7
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,BJ Hodge
+info,player,Rajasthan Royals,DH Yagnik
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,A Chandila
+info,player,Rajasthan Royals,S Sreesanth
+info,player,Rajasthan Royals,SW Tait
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Royal Challengers Bangalore,TM Dilshan
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,KB Arun Karthik
+info,player,Royal Challengers Bangalore,R Rampaul
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,M Kartik
+info,player,Royal Challengers Bangalore,RP Singh
+info,player,Royal Challengers Bangalore,JD Unadkat
+info,registry,people,A Chandila,99b202b3
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Aleem Dar,f02778d1
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DH Yagnik,063b3673
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KB Arun Karthik,7daedf2f
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Kartik,abfeb126
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Rampaul,d68e7f48
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Das,475e38b6
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SW Tait,addfb70e
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Kohli,ba607b88

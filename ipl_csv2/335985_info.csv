@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2007/08
+info,date,2008/04/20
+info,event,Indian Premier League
+info,match_number,5
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,MV Boucher
+info,umpire,SJ Davis
+info,umpire,DJ Harper
+info,reserve_umpire,SN Bandekar
+info,tv_umpire,AV Jayaprakash
+info,match_referee,J Srinath
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,5
+info,player,Mumbai Indians,L Ronchi
+info,player,Mumbai Indians,ST Jayasuriya
+info,player,Mumbai Indians,DJ Thornely
+info,player,Mumbai Indians,RV Uthappa
+info,player,Mumbai Indians,PR Shah
+info,player,Mumbai Indians,AM Nayar
+info,player,Mumbai Indians,SM Pollock
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,MA Khote
+info,player,Mumbai Indians,A Nehra
+info,player,Mumbai Indians,DS Kulkarni
+info,player,Royal Challengers Bangalore,S Chanderpaul
+info,player,Royal Challengers Bangalore,R Dravid
+info,player,Royal Challengers Bangalore,LRPL Taylor
+info,player,Royal Challengers Bangalore,JH Kallis
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,MV Boucher
+info,player,Royal Challengers Bangalore,B Akhil
+info,player,Royal Challengers Bangalore,P Kumar
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,SB Joshi
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AV Jayaprakash,bde6e9ef
+info,registry,people,B Akhil,af7dadf7
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Thornely,7d3937ed
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,L Ronchi,0fa5042b
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,MA Khote,0d232ffd
+info,registry,people,MV Boucher,f3cb53a1
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PR Shah,0aadc906
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Chanderpaul,881a9bdd
+info,registry,people,SB Joshi,670709ec
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SM Pollock,88fccd6c
+info,registry,people,SN Bandekar,350528bb
+info,registry,people,ST Jayasuriya,f233bbb4
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Z Khan,91a4a398

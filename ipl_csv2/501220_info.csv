@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2011
+info,date,2011/04/21
+info,event,Indian Premier League
+info,match_number,23
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,SE Marsh
+info,umpire,S Asnani
+info,umpire,PR Reiffel
+info,reserve_umpire,K Bharatan
+info,tv_umpire,RJ Tucker
+info,match_referee,J Srinath
+info,winner,Kings XI Punjab
+info,winner_runs,48
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,PC Valthaty
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,KD Karthik
+info,player,Kings XI Punjab,AM Nayar
+info,player,Kings XI Punjab,R McLaren
+info,player,Kings XI Punjab,Sunny Singh
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,RJ Harris
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,BA Bhatt
+info,player,Rajasthan Royals,SA Asnodkar
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,LRPL Taylor
+info,player,Rajasthan Royals,AL Menaria
+info,player,Rajasthan Royals,AS Raut
+info,player,Rajasthan Royals,DH Yagnik
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,SW Tait
+info,player,Rajasthan Royals,SK Trivedi
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AL Menaria,8291f939
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AS Raut,c69a7b5c
+info,registry,people,BA Bhatt,dc4686e6
+info,registry,people,DH Yagnik,063b3673
+info,registry,people,J Srinath,bad31fac
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PC Valthaty,25eeb281
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R McLaren,c654af19
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,S Asnani,b04524bc
+info,registry,people,SA Asnodkar,ae091d39
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SW Tait,addfb70e
+info,registry,people,Sunny Singh,30e37810

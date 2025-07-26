@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2022
+info,date,2022/05/13
+info,event,Indian Premier League
+info,match_number,60
+info,venue,"Brabourne Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,JM Bairstow
+info,umpire,J Madanagopal
+info,umpire,N Pandit
+info,reserve_umpire,Vinod Seshan
+info,tv_umpire,Navdeep Singh
+info,match_referee,J Srinath
+info,winner,Punjab Kings
+info,winner_runs,54
+info,player,Punjab Kings,JM Bairstow
+info,player,Punjab Kings,S Dhawan
+info,player,Punjab Kings,PBB Rajapaksa
+info,player,Punjab Kings,LS Livingstone
+info,player,Punjab Kings,MA Agarwal
+info,player,Punjab Kings,JM Sharma
+info,player,Punjab Kings,Harpreet Brar
+info,player,Punjab Kings,R Dhawan
+info,player,Punjab Kings,RD Chahar
+info,player,Punjab Kings,K Rabada
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,RM Patidar
+info,player,Royal Challengers Bangalore,MK Lomror
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,PWH de Silva
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,JR Hazlewood
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Harpreet Brar,c05edf8e
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,N Pandit,4947c258
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,PBB Rajapaksa,6c882e9a
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,R Dhawan,26a85969
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,S Dhawan,0a476045
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Vinod Seshan,a3357a27

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Deccan Chargers
+info,gender,male
+info,season,2009/10
+info,date,2010/04/01
+info,event,Indian Premier League
+info,match_number,30
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,SC Ganguly
+info,umpire,K Hariharan
+info,umpire,DJ Harper
+info,reserve_umpire,R Shankar
+info,tv_umpire,S Asnani
+info,match_referee,GR Viswanath
+info,winner,Kolkata Knight Riders
+info,winner_runs,24
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,MD Mishra
+info,player,Deccan Chargers,A Symonds
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,TL Suman
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,Jaskaran Singh
+info,player,Deccan Chargers,KAJ Roach
+info,player,Deccan Chargers,Harmeet Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,CH Gayle
+info,player,Kolkata Knight Riders,CA Pujara
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,DJ Hussey
+info,player,Kolkata Knight Riders,AD Mathews
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,SE Bond
+info,player,Kolkata Knight Riders,MB Parmar
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,CA Pujara,d4f9dbd4
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,GR Viswanath,9333bc07
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,Harmeet Singh,2a72fd4f
+info,registry,people,Jaskaran Singh,d7b3a420
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,KAJ Roach,78eb4223
+info,registry,people,M Kartik,abfeb126
+info,registry,people,MB Parmar,86ae8ef2
+info,registry,people,MD Mishra,6afb26d6
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R Shankar,82f0b62e
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Asnani,b04524bc
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SE Bond,4f629497
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Y Venugopal Rao,fe763256

@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2007/08
+info,date,2008/05/25
+info,event,Indian Premier League
+info,match_number,52
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kings XI Punjab
+info,toss_decision,bat
+info,player_of_match,Umar Gul
+info,umpire,SJ Davis
+info,umpire,I Shivram
+info,tv_umpire,BR Doctrove
+info,match_referee,S Venkataraghavan
+info,winner,Kolkata Knight Riders
+info,winner_wickets,3
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,JR Hopes
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,TM Srivastava
+info,player,Kings XI Punjab,RR Powar
+info,player,Kings XI Punjab,VRV Singh
+info,player,Kings XI Punjab,S Sreesanth
+info,player,Kolkata Knight Riders,Salman Butt
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,DB Das
+info,player,Kolkata Knight Riders,DJ Hussey
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,A Chopra
+info,player,Kolkata Knight Riders,Umar Gul
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Kolkata Knight Riders,BAW Mendis
+info,player,Kolkata Knight Riders,AB Dinda
+info,registry,people,A Chopra,e249fdaa
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,BAW Mendis,ea0cdc12
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,DB Das,7050a1e7
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,I Shivram,85143097
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JR Hopes,2498e163
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,LR Shukla,b1451597
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RR Powar,5d096f3d
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,Salman Butt,4d6d6280
+info,registry,people,TM Srivastava,a76d10ba
+info,registry,people,Umar Gul,16dfcc19
+info,registry,people,VRV Singh,034b4b7d
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Yuvraj Singh,1c914163

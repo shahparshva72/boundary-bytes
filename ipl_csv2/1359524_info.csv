@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Delhi Capitals
+info,gender,male
+info,season,2023
+info,date,2023/05/06
+info,event,Indian Premier League
+info,match_number,50
+info,venue,"Arun Jaitley Stadium, Delhi"
+info,city,Delhi
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,bat
+info,player_of_match,PD Salt
+info,umpire,RJ Tucker
+info,umpire,YC Barde
+info,reserve_umpire,Mohamad Rafi
+info,tv_umpire,J Madanagopal
+info,match_referee,M Nayyar
+info,winner,Delhi Capitals
+info,winner_wickets,7
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,MK Lomror
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,Anuj Rawat
+info,player,Royal Challengers Bangalore,KM Jadhav
+info,player,Royal Challengers Bangalore,PWH de Silva
+info,player,Royal Challengers Bangalore,KV Sharma
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,JR Hazlewood
+info,player,Delhi Capitals,I Sharma
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,PD Salt
+info,player,Delhi Capitals,MR Marsh
+info,player,Delhi Capitals,RR Rossouw
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,Aman Hakim Khan
+info,player,Delhi Capitals,MK Pandey
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,Mukesh Kumar
+info,player,Delhi Capitals,KK Ahmed
+info,player,Delhi Capitals,RV Patel
+info,registry,people,AR Patel,2e171977
+info,registry,people,Aman Hakim Khan,378daa89
+info,registry,people,Anuj Rawat,c8f5f961
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KV Sharma,119678fd
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,Mohamad Rafi,0479de6b
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RR Rossouw,cad00a4d
+info,registry,people,RV Patel,60500956
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YC Barde,b90f3346

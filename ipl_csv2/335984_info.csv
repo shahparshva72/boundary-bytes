@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2007/08
+info,date,2008/04/19
+info,event,Indian Premier League
+info,match_number,3
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,MF Maharoof
+info,umpire,Aleem Dar
+info,umpire,GA Pratapkumar
+info,tv_umpire,IL Howell
+info,match_referee,GR Viswanath
+info,winner,Delhi Daredevils
+info,winner_wickets,9
+info,player,Rajasthan Royals,T Kohli
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,M Kaif
+info,player,Rajasthan Royals,DS Lehmann
+info,player,Rajasthan Royals,RA Jadeja
+info,player,Rajasthan Royals,M Rawat
+info,player,Rajasthan Royals,D Salunkhe
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,MM Patel
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,S Dhawan
+info,player,Delhi Daredevils,MK Tiwary
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,R Bhatia
+info,player,Delhi Daredevils,M Manhas
+info,player,Delhi Daredevils,DL Vettori
+info,player,Delhi Daredevils,MF Maharoof
+info,player,Delhi Daredevils,B Geeves
+info,player,Delhi Daredevils,GD McGrath
+info,registry,people,Aleem Dar,f02778d1
+info,registry,people,B Geeves,50758325
+info,registry,people,D Salunkhe,0264c10e
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,DS Lehmann,53fe6ee4
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GA Pratapkumar,cf7c5778
+info,registry,people,GD McGrath,ee7d0c82
+info,registry,people,GR Viswanath,9333bc07
+info,registry,people,IL Howell,c1cd91c3
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Kaif,d84378a4
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,M Rawat,de8d3876
+info,registry,people,MF Maharoof,ab89348d
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,T Kohli,40caa465
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,YK Pathan,3c6ffae8

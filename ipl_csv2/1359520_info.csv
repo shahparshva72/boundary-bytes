@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Mumbai Indians
+info,gender,male
+info,season,2023
+info,date,2023/05/03
+info,event,Indian Premier League
+info,match_number,46
+info,venue,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh"
+info,city,Chandigarh
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,Ishan Kishan
+info,umpire,J Madanagopal
+info,umpire,RJ Tucker
+info,reserve_umpire,Mohamad Rafi
+info,tv_umpire,A Totre
+info,match_referee,SS Raul
+info,winner,Mumbai Indians
+info,winner_wickets,6
+info,player,Punjab Kings,NT Ellis
+info,player,Punjab Kings,P Simran Singh
+info,player,Punjab Kings,S Dhawan
+info,player,Punjab Kings,MW Short
+info,player,Punjab Kings,LS Livingstone
+info,player,Punjab Kings,JM Sharma
+info,player,Punjab Kings,SM Curran
+info,player,Punjab Kings,M Shahrukh Khan
+info,player,Punjab Kings,Harpreet Brar
+info,player,Punjab Kings,R Dhawan
+info,player,Punjab Kings,RD Chahar
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Mumbai Indians,Akash Madhwal
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,C Green
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,N Wadhera
+info,player,Mumbai Indians,PP Chawla
+info,player,Mumbai Indians,JC Archer
+info,player,Mumbai Indians,K Kartikeya
+info,player,Mumbai Indians,Arshad Khan
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,Akash Madhwal,4bd09374
+info,registry,people,Arshad Khan,12314277
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,C Green,eaa76d3c
+info,registry,people,Harpreet Brar,c05edf8e
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JC Archer,5574750c
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,K Kartikeya,f6d8a7ab
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,MW Short,a90e53ec
+info,registry,people,Mohamad Rafi,0479de6b
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Dhawan,26a85969
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SM Curran,e94915e6
+info,registry,people,SS Raul,4cfdf1d0
+info,registry,people,TH David,f1f99156
+info,registry,people,Tilak Varma,b0482a1d

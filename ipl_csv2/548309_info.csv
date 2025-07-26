@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2012
+info,date,2012/04/06
+info,event,Indian Premier League
+info,match_number,4
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,AM Rahane
+info,umpire,BF Bowden
+info,umpire,SK Tarapore
+info,reserve_umpire,PK Khakhar
+info,tv_umpire,VA Kulkarni
+info,match_referee,RS Madugalle
+info,winner,Rajasthan Royals
+info,winner_runs,31
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,PC Valthaty
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,AM Nayar
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,Bipul Sharma
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,JP Faulkner
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,Harmeet Singh
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,AL Menaria
+info,player,Rajasthan Royals,BJ Hodge
+info,player,Rajasthan Royals,OA Shah
+info,player,Rajasthan Royals,KK Cooper
+info,player,Rajasthan Royals,J Botha
+info,player,Rajasthan Royals,AA Chavan
+info,player,Rajasthan Royals,SP Goswami
+info,player,Rajasthan Royals,A Singh
+info,player,Rajasthan Royals,SK Trivedi
+info,registry,people,A Singh,5b040b81
+info,registry,people,AA Chavan,29d72eb2
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AL Menaria,8291f939
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,Harmeet Singh,2a72fd4f
+info,registry,people,J Botha,7c503806
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KK Cooper,557153ca
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,OA Shah,7bf96684
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PC Valthaty,25eeb281
+info,registry,people,PK Khakhar,b7cad41f
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Dravid,0184dc35
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,VA Kulkarni,8fe0c4f8

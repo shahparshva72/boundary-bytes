@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Pune Warriors
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2012
+info,date,2012/04/24
+info,event,Indian Premier League
+info,match_number,31
+info,venue,Subrata Roy Sahara Stadium
+info,city,Pune
+info,toss_winner,Pune Warriors
+info,toss_decision,bat
+info,player_of_match,V Sehwag
+info,umpire,S Ravi
+info,umpire,RJ Tucker
+info,reserve_umpire,SD Ranade
+info,tv_umpire,JD Cloete
+info,match_referee,Raju Mukherjee
+info,winner,Delhi Daredevils
+info,winner_wickets,8
+info,player,Delhi Daredevils,DPMD Jayawardene
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,KP Pietersen
+info,player,Delhi Daredevils,LRPL Taylor
+info,player,Delhi Daredevils,NV Ojha
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,Y Nagar
+info,player,Delhi Daredevils,M Morkel
+info,player,Delhi Daredevils,P Negi
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,UT Yadav
+info,player,Pune Warriors,JD Ryder
+info,player,Pune Warriors,MK Pandey
+info,player,Pune Warriors,SC Ganguly
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,SPD Smith
+info,player,Pune Warriors,LJ Wright
+info,player,Pune Warriors,AC Thomas
+info,player,Pune Warriors,M Manhas
+info,player,Pune Warriors,M Kartik
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,A Nehra
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AC Thomas,b552a935
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,M Kartik,abfeb126
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Negi,f62772e5
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,Raju Mukherjee,7a3244b5
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SD Ranade,369c85c1
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,Y Nagar,662c47a6

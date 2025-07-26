@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2021
+info,date,2021/04/11
+info,event,Indian Premier League
+info,match_number,3
+info,venue,"MA Chidambaram Stadium, Chepauk, Chennai"
+info,city,Chennai
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,N Rana
+info,umpire,KN Ananthapadmanabhan
+info,umpire,Nitin Menon
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,CB Gaffaney
+info,match_referee,V Narayan Kutty
+info,winner,Kolkata Knight Riders
+info,winner_runs,10
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,RA Tripathi
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,PJ Cummins
+info,player,Kolkata Knight Riders,Harbhajan Singh
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Kolkata Knight Riders,M Prasidh Krishna
+info,player,Sunrisers Hyderabad,WP Saha
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,JM Bairstow
+info,player,Sunrisers Hyderabad,Mohammad Nabi
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Sunrisers Hyderabad,T Natarajan
+info,registry,people,AD Russell,bbd41817
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,T Natarajan,ce794613
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,WP Saha,fe11caa6

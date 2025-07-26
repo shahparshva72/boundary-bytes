@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Delhi Capitals
+info,gender,male
+info,season,2019
+info,date,2019/04/18
+info,event,Indian Premier League
+info,match_number,34
+info,venue,Arun Jaitley Stadium
+info,city,Delhi
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,HH Pandya
+info,umpire,BNJ Oxenford
+info,umpire,NJ Llong
+info,reserve_umpire,N Pandit
+info,tv_umpire,AK Chaudhary
+info,match_referee,J Srinath
+info,winner,Mumbai Indians
+info,winner_runs,40
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,BCJ Cutting
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,J Yadav
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,SL Malinga
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,S Dhawan
+info,player,Delhi Capitals,C Munro
+info,player,Delhi Capitals,SS Iyer
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,CH Morris
+info,player,Delhi Capitals,KMA Paul
+info,player,Delhi Capitals,K Rabada
+info,player,Delhi Capitals,A Mishra
+info,player,Delhi Capitals,I Sharma
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AR Patel,2e171977
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Munro,af2c687b
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,J Srinath,bad31fac
+info,registry,people,J Yadav,81049310
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KMA Paul,75224f22
+info,registry,people,N Pandit,4947c258
+info,registry,people,NJ Llong,573fb985
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SS Iyer,85ec8e33

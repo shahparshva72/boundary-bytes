@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2025
+info,date,2025/03/30
+info,event,Indian Premier League
+info,match_number,11
+info,venue,"Barsapara Cricket Stadium, Guwahati"
+info,city,Guwahati
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,N Rana
+info,umpire,AT Holdstock
+info,umpire,A Totre
+info,reserve_umpire,K Kelkar
+info,tv_umpire,R Pandit
+info,match_referee,Shakti Singh
+info,winner,Rajasthan Royals
+info,winner_runs,6
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,N Rana
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,PWH de Silva
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,K Kartikeya
+info,player,Rajasthan Royals,M Theekshana
+info,player,Rajasthan Royals,TU Deshpande
+info,player,Rajasthan Royals,Sandeep Sharma
+info,player,Chennai Super Kings,M Pathirana
+info,player,Chennai Super Kings,R Ravindra
+info,player,Chennai Super Kings,RA Tripathi
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,V Shankar
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,J Overton
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,Noor Ahmad
+info,player,Chennai Super Kings,KK Ahmed
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AT Holdstock,6fa3258c
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,J Overton,59559bc2
+info,registry,people,JC Archer,5574750c
+info,registry,people,K Kartikeya,f6d8a7ab
+info,registry,people,K Kelkar,1d88908d
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,M Pathirana,64839cb3
+info,registry,people,M Theekshana,f24c6701
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,Noor Ahmad,efc04be7
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Ravindra,ba5e1069
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,TU Deshpande,46a9bea1
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,YBK Jaiswal,6c19c6e5

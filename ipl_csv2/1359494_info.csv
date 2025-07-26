@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Delhi Capitals
+info,gender,male
+info,season,2023
+info,date,2023/04/15
+info,event,Indian Premier League
+info,match_number,20
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,V Kohli
+info,umpire,KN Ananthapadmanabhan
+info,umpire,MV Saidharshan Kumar
+info,reserve_umpire,Abhijit Bhattacharya
+info,tv_umpire,MA Gough
+info,match_referee,Amit Sharma
+info,winner,Royal Challengers Bangalore
+info,winner_runs,23
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,MK Lomror
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,Anuj Rawat
+info,player,Royal Challengers Bangalore,PWH de Silva
+info,player,Royal Challengers Bangalore,WD Parnell
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,Vijaykumar Vyshak
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,MR Marsh
+info,player,Delhi Capitals,YV Dhull
+info,player,Delhi Capitals,MK Pandey
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,Aman Hakim Khan
+info,player,Delhi Capitals,Lalit Yadav
+info,player,Delhi Capitals,A Nortje
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,Mustafizur Rahman
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AR Patel,2e171977
+info,registry,people,Abhijit Bhattacharya,59ec9638
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,Aman Hakim Khan,378daa89
+info,registry,people,Amit Sharma,7ea3e0cc
+info,registry,people,Anuj Rawat,c8f5f961
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,Lalit Yadav,ad427b5c
+info,registry,people,MA Gough,76752ac8
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Vijaykumar Vyshak,54e52590
+info,registry,people,WD Parnell,3a60e0b5
+info,registry,people,YV Dhull,dd7e9b3b

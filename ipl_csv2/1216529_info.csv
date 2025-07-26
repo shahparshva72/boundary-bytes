@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Mumbai Indians
+info,gender,male
+info,season,2020/21
+info,date,2020/10/11
+info,event,Indian Premier League
+info,match_number,27
+info,venue,Sheikh Zayed Stadium
+info,city,Abu Dhabi
+info,toss_winner,Delhi Capitals
+info,toss_decision,bat
+info,player_of_match,Q de Kock
+info,umpire,CB Gaffaney
+info,umpire,S Ravi
+info,reserve_umpire,UV Gandhe
+info,tv_umpire,VK Sharma
+info,match_referee,Shakti Singh
+info,winner,Mumbai Indians
+info,winner_wickets,5
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,S Dhawan
+info,player,Delhi Capitals,AM Rahane
+info,player,Delhi Capitals,SS Iyer
+info,player,Delhi Capitals,MP Stoinis
+info,player,Delhi Capitals,AT Carey
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,R Ashwin
+info,player,Delhi Capitals,HV Patel
+info,player,Delhi Capitals,K Rabada
+info,player,Delhi Capitals,A Nortje
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,JL Pattinson
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,TA Boult
+info,player,Mumbai Indians,JJ Bumrah
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AR Patel,2e171977
+info,registry,people,AT Carey,69d03465
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,TA Boult,a818c1be
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,VK Sharma,a7a49df4

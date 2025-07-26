@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2022
+info,date,2022/05/08
+info,event,Indian Premier League
+info,match_number,54
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,bat
+info,player_of_match,PWH de Silva
+info,umpire,BNJ Oxenford
+info,umpire,N Pandit
+info,reserve_umpire,A Totre
+info,tv_umpire,PG Pathak
+info,match_referee,Shakti Singh
+info,winner,Royal Challengers Bangalore
+info,winner_runs,67
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,RM Patidar
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,MK Lomror
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,PWH de Silva
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,JR Hazlewood
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,N Pooran
+info,player,Sunrisers Hyderabad,J Suchith
+info,player,Sunrisers Hyderabad,Shashank Singh
+info,player,Sunrisers Hyderabad,Kartik Tyagi
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Umran Malik
+info,player,Sunrisers Hyderabad,Fazalhaq Farooqi
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,F du Plessis,3355b542
+info,registry,people,Fazalhaq Farooqi,e9c7f0d0
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,J Suchith,4125d931
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,Kartik Tyagi,5d2eea49
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,N Pandit,4947c258
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,Shashank Singh,26989d80
+info,registry,people,Umran Malik,81c08fa3
+info,registry,people,V Kohli,ba607b88

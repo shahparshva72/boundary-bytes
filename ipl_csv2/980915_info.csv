@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2016
+info,date,2016/04/16
+info,event,Indian Premier League
+info,match_number,8
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,G Gambhir
+info,umpire,AK Chaudhary
+info,umpire,CK Nandan
+info,reserve_umpire,A Deshmukh
+info,tv_umpire,K Bharatan
+info,match_referee,J Srinath
+info,winner,Kolkata Knight Riders
+info,winner_wickets,8
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,M Morkel
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,EJG Morgan
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,A Ashish Reddy
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Mustafizur Rahman
+info,player,Sunrisers Hyderabad,BB Sran
+info,registry,people,A Ashish Reddy,1c2a64cd
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BB Sran,d8b2f218
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,J Srinath,bad31fac
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,KV Sharma,119678fd
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,NV Ojha,890946a0
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,YK Pathan,3c6ffae8

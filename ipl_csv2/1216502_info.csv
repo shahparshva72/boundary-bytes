@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2020/21
+info,date,2020/10/31
+info,event,Indian Premier League
+info,match_number,52
+info,venue,Sharjah Cricket Stadium
+info,city,
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,Sandeep Sharma
+info,umpire,KN Ananthapadmanabhan
+info,umpire,K Srinivasan
+info,reserve_umpire,VA Kulkarni
+info,tv_umpire,C Shamshuddin
+info,match_referee,V Narayan Kutty
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,5
+info,player,Royal Challengers Bangalore,JR Philippe
+info,player,Royal Challengers Bangalore,D Padikkal
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,Washington Sundar
+info,player,Royal Challengers Bangalore,Gurkeerat Singh
+info,player,Royal Challengers Bangalore,CH Morris
+info,player,Royal Challengers Bangalore,I Udana
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,NA Saini
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,WP Saha
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,JO Holder
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,S Nadeem
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Sunrisers Hyderabad,T Natarajan
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,I Udana,ac5ae4af
+info,registry,people,JO Holder,0f721006
+info,registry,people,JR Philippe,39086549
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,NA Saini,21d4e29b
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,T Natarajan,ce794613
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YS Chahal,57ee1fde

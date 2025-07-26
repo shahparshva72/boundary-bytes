@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Pune Warriors
+info,gender,male
+info,season,2013
+info,date,2013/04/23
+info,event,Indian Premier League
+info,match_number,31
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Pune Warriors
+info,toss_decision,field
+info,player_of_match,CH Gayle
+info,umpire,Aleem Dar
+info,umpire,C Shamshuddin
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,S Das
+info,match_referee,AJ Pycroft
+info,winner,Royal Challengers Bangalore
+info,winner_runs,130
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,AJ Finch
+info,player,Pune Warriors,Yuvraj Singh
+info,player,Pune Warriors,LJ Wright
+info,player,Pune Warriors,SPD Smith
+info,player,Pune Warriors,MR Marsh
+info,player,Pune Warriors,M Manhas
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,AG Murtaza
+info,player,Pune Warriors,IC Pandey
+info,player,Pune Warriors,AB Dinda
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,TM Dilshan
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,R Rampaul
+info,player,Royal Challengers Bangalore,KB Arun Karthik
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,M Kartik
+info,player,Royal Challengers Bangalore,RP Singh
+info,player,Royal Challengers Bangalore,JD Unadkat
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AG Murtaza,ef5da05c
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,Aleem Dar,f02778d1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Gayle,db584dad
+info,registry,people,IC Pandey,e0407c01
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,KB Arun Karthik,7daedf2f
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,M Kartik,abfeb126
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,R Rampaul,d68e7f48
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Das,475e38b6
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Yuvraj Singh,1c914163

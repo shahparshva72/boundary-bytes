@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Mumbai Indians
+info,gender,male
+info,season,2009
+info,date,2009/05/16
+info,event,Indian Premier League
+info,match_number,47
+info,venue,St George's Park
+info,city,Port Elizabeth
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,ML Hayden
+info,umpire,SK Tarapore
+info,umpire,SJA Taufel
+info,reserve_umpire,S George
+info,tv_umpire,BG Jerling
+info,match_referee,Yashpal Sharma
+info,winner,Chennai Super Kings
+info,winner_wickets,7
+info,player,Chennai Super Kings,PA Patel
+info,player,Chennai Super Kings,ML Hayden
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,JDP Oram
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,SB Jakati
+info,player,Chennai Super Kings,L Balaji
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Chennai Super Kings,S Tyagi
+info,player,Mumbai Indians,ST Jayasuriya
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,JP Duminy
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,AM Nayar
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,YV Takawale
+info,player,Mumbai Indians,AM Rahane
+info,player,Mumbai Indians,DS Kulkarni
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,C Nanda
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BG Jerling,26457e41
+info,registry,people,C Nanda,f24ca2ba
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JDP Oram,3eac9d95
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S George,6d9e5a54
+info,registry,people,S Tyagi,c24a2c5d
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,ST Jayasuriya,f233bbb4
+info,registry,people,YV Takawale,4e04666c
+info,registry,people,Yashpal Sharma,e22d7ccb

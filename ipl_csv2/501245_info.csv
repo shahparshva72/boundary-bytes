@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2011
+info,date,2011/05/07
+info,event,Indian Premier League
+info,match_number,48
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,Iqbal Abdulla
+info,umpire,Asad Rauf
+info,umpire,PR Reiffel
+info,reserve_umpire,S Das
+info,tv_umpire,S Asnani
+info,match_referee,Raju Mukherjee
+info,winner,Kolkata Knight Riders
+info,winner_runs,10
+info,method,D/L
+info,player,Chennai Super Kings,MEK Hussey
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,WP Saha
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,DE Bollinger
+info,player,Chennai Super Kings,SB Jakati
+info,player,Chennai Super Kings,S Randiv
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,MV Boucher
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,Iqbal Abdulla
+info,player,Kolkata Knight Riders,B Lee
+info,player,Kolkata Knight Riders,L Balaji
+info,player,Kolkata Knight Riders,JD Unadkat
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,MV Boucher,f3cb53a1
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,Raju Mukherjee,7a3244b5
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Das,475e38b6
+info,registry,people,S Randiv,f5f18a18
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YK Pathan,3c6ffae8

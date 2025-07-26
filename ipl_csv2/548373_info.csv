@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2012
+info,date,2012/05/18
+info,event,Indian Premier League
+info,match_number,68
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,DW Steyn
+info,umpire,S Ravi
+info,umpire,SJA Taufel
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,JD Cloete
+info,match_referee,J Srinath
+info,winner,Deccan Chargers
+info,winner_wickets,5
+info,player,Deccan Chargers,PA Reddy
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,JP Duminy
+info,player,Deccan Chargers,CL White
+info,player,Deccan Chargers,CA Lynn
+info,player,Deccan Chargers,PA Patel
+info,player,Deccan Chargers,A Ashish Reddy
+info,player,Deccan Chargers,A Mishra
+info,player,Deccan Chargers,DW Steyn
+info,player,Deccan Chargers,MS Gony
+info,player,Deccan Chargers,V Pratap Singh
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,OA Shah
+info,player,Rajasthan Royals,AL Menaria
+info,player,Rajasthan Royals,J Botha
+info,player,Rajasthan Royals,SP Goswami
+info,player,Rajasthan Royals,A Chandila
+info,player,Rajasthan Royals,SW Tait
+info,player,Rajasthan Royals,SK Trivedi
+info,registry,people,A Ashish Reddy,1c2a64cd
+info,registry,people,A Chandila,99b202b3
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AL Menaria,8291f939
+info,registry,people,AM Rahane,29e95537
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CL White,d0513f63
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,J Botha,7c503806
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,OA Shah,7bf96684
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PA Reddy,2461eef2
+info,registry,people,R Dravid,0184dc35
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SW Tait,addfb70e
+info,registry,people,V Pratap Singh,d718440b

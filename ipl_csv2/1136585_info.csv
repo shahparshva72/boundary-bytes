@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2018
+info,date,2018/04/26
+info,event,Indian Premier League
+info,match_number,25
+info,venue,Rajiv Gandhi International Stadium
+info,city,Hyderabad
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,AS Rajpoot
+info,umpire,CK Nandan
+info,umpire,YC Barde
+info,reserve_umpire,GR Sadashiv Iyer
+info,tv_umpire,RJ Tucker
+info,match_referee,J Srinath
+info,winner,Sunrisers Hyderabad
+info,winner_runs,13
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,WP Saha
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,Shakib Al Hasan
+info,player,Sunrisers Hyderabad,YK Pathan
+info,player,Sunrisers Hyderabad,Mohammad Nabi
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,Basil Thampi
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,KK Nair
+info,player,Kings XI Punjab,AJ Finch
+info,player,Kings XI Punjab,MK Tiwary
+info,player,Kings XI Punjab,R Ashwin
+info,player,Kings XI Punjab,AJ Tye
+info,player,Kings XI Punjab,BB Sran
+info,player,Kings XI Punjab,AS Rajpoot
+info,player,Kings XI Punjab,Mujeeb Ur Rahman
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AS Rajpoot,db31895a
+info,registry,people,BB Sran,d8b2f218
+info,registry,people,Basil Thampi,871e9faf
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,GR Sadashiv Iyer,0be62e31
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaul,dcf81436
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YC Barde,b90f3346
+info,registry,people,YK Pathan,3c6ffae8

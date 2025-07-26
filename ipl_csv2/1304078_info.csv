@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Delhi Capitals
+info,gender,male
+info,season,2022
+info,date,2022/04/20
+info,event,Indian Premier League
+info,match_number,32
+info,venue,"Brabourne Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,Kuldeep Yadav
+info,umpire,RJ Tucker
+info,umpire,Tapan Sharma
+info,reserve_umpire,R Pandit
+info,tv_umpire,AK Chaudhary
+info,match_referee,Shakti Singh
+info,winner,Delhi Capitals
+info,winner_wickets,9
+info,player,Punjab Kings,MA Agarwal
+info,player,Punjab Kings,S Dhawan
+info,player,Punjab Kings,JM Bairstow
+info,player,Punjab Kings,LS Livingstone
+info,player,Punjab Kings,JM Sharma
+info,player,Punjab Kings,M Shahrukh Khan
+info,player,Punjab Kings,K Rabada
+info,player,Punjab Kings,NT Ellis
+info,player,Punjab Kings,RD Chahar
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Punjab Kings,VG Arora
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,SN Khan
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,R Powell
+info,player,Delhi Capitals,Lalit Yadav
+info,player,Delhi Capitals,SN Thakur
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,Mustafizur Rahman
+info,player,Delhi Capitals,KK Ahmed
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AR Patel,2e171977
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,Lalit Yadav,ad427b5c
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Powell,650d5e49
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SN Khan,f088b960
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,Tapan Sharma,b9aa2b6e
+info,registry,people,VG Arora,7c3b3b78

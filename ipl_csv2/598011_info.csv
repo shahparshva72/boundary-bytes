@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Pune Warriors
+info,gender,male
+info,season,2013
+info,date,2013/04/13
+info,event,Indian Premier League
+info,match_number,15
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,RG Sharma
+info,umpire,S Ravi
+info,umpire,SJA Taufel
+info,reserve_umpire,RM Deshpande
+info,tv_umpire,CK Nandan
+info,match_referee,DC Boon
+info,winner,Mumbai Indians
+info,winner_runs,41
+info,player,Mumbai Indians,RT Ponting
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,KD Karthik
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,R Dhawan
+info,player,Mumbai Indians,MG Johnson
+info,player,Mumbai Indians,PP Ojha
+info,player,Mumbai Indians,SL Malinga
+info,player,Pune Warriors,AJ Finch
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,LRPL Taylor
+info,player,Pune Warriors,Yuvraj Singh
+info,player,Pune Warriors,TL Suman
+info,player,Pune Warriors,AD Mathews
+info,player,Pune Warriors,MR Marsh
+info,player,Pune Warriors,AM Nayar
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,AB Dinda
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DC Boon,e79a1fe3
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R Dhawan,26a85969
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RM Deshpande,7d2a4250
+info,registry,people,RT Ponting,7d415ea5
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,Yuvraj Singh,1c914163

@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2021
+info,date,2021/09/23
+info,event,Indian Premier League
+info,match_number,34
+info,venue,"Zayed Cricket Stadium, Abu Dhabi"
+info,city,Abu Dhabi
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,SP Narine
+info,umpire,S Ravi
+info,umpire,VK Sharma
+info,reserve_umpire,Tapan Sharma
+info,tv_umpire,CB Gaffaney
+info,match_referee,V Narayan Kutty
+info,winner,Kolkata Knight Riders
+info,winner_wickets,7
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,SS Tiwary
+info,player,Mumbai Indians,AF Milne
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,TA Boult
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,RA Tripathi
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,LH Ferguson
+info,player,Kolkata Knight Riders,M Prasidh Krishna
+info,player,Kolkata Knight Riders,CV Varun
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AF Milne,350bb1b1
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,TA Boult,a818c1be
+info,registry,people,Tapan Sharma,b9aa2b6e
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,VR Iyer,a24be938

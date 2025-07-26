@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2009/10
+info,date,2010/03/22
+info,event,Indian Premier League
+info,match_number,17
+info,venue,Brabourne Stadium
+info,city,Mumbai
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,SR Tendulkar
+info,umpire,SS Hazare
+info,umpire,SJA Taufel
+info,reserve_umpire,VM Bandiwadekar
+info,tv_umpire,HDPK Dharmasena
+info,match_referee,Yashpal Sharma
+info,winner,Mumbai Indians
+info,winner_wickets,7
+info,player,Kolkata Knight Riders,CH Gayle
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,OA Shah
+info,player,Kolkata Knight Riders,AD Mathews
+info,player,Kolkata Knight Riders,CA Pujara
+info,player,Kolkata Knight Riders,Mandeep Singh
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,Harpreet Singh
+info,player,Kolkata Knight Riders,SE Bond
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Mumbai Indians,S Dhawan
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,SS Tiwary
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,R Sathish
+info,player,Mumbai Indians,AP Tare
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,R McLaren
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,Z Khan
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AP Tare,855a210c
+info,registry,people,CA Pujara,d4f9dbd4
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,Harpreet Singh,28c78fb3
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,M Kartik,abfeb126
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,OA Shah,7bf96684
+info,registry,people,R McLaren,c654af19
+info,registry,people,R Sathish,626c5379
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SE Bond,4f629497
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,SS Hazare,166e5081
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,VM Bandiwadekar,e236db6b
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Yashpal Sharma,e22d7ccb
+info,registry,people,Z Khan,91a4a398

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2012
+info,date,2012/04/22
+info,event,Indian Premier League
+info,match_number,29
+info,venue,Barabati Stadium
+info,city,Cuttack
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,B Lee
+info,umpire,BF Bowden
+info,umpire,SK Tarapore
+info,reserve_umpire,R Subramanian
+info,tv_umpire,VA Kulkarni
+info,match_referee,RS Mahanama
+info,winner,Kolkata Knight Riders
+info,winner_wickets,5
+info,player,Deccan Chargers,KC Sangakkara
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,PA Patel
+info,player,Deccan Chargers,CL White
+info,player,Deccan Chargers,JP Duminy
+info,player,Deccan Chargers,IR Jaggi
+info,player,Deccan Chargers,Ankit Sharma
+info,player,Deccan Chargers,DW Steyn
+info,player,Deccan Chargers,A Mishra
+info,player,Deccan Chargers,Anand Rajan
+info,player,Deccan Chargers,V Pratap Singh
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MS Bisla
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,DB Das
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,L Balaji
+info,player,Kolkata Knight Riders,B Lee
+info,registry,people,A Mishra,6b19d823
+info,registry,people,Anand Rajan,d2340a43
+info,registry,people,Ankit Sharma,24d94623
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,CL White,d0513f63
+info,registry,people,DB Das,7050a1e7
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,IR Jaggi,dded65e7
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,L Balaji,b2b50355
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R Subramanian,7c32b886
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SP Narine,9d430b40
+info,registry,people,V Pratap Singh,d718440b
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,YK Pathan,3c6ffae8

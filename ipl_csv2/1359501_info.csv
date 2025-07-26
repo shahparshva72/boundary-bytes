@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Punjab Kings
+info,gender,male
+info,season,2023
+info,date,2023/04/20
+info,event,Indian Premier League
+info,match_number,27
+info,venue,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh"
+info,city,Chandigarh
+info,toss_winner,Punjab Kings
+info,toss_decision,field
+info,player_of_match,Mohammed Siraj
+info,umpire,AK Chaudhary
+info,umpire,GR Sadashiv Iyer
+info,reserve_umpire,M Kuppuraj
+info,tv_umpire,CB Gaffaney
+info,match_referee,Prakash Bhatt
+info,winner,Royal Challengers Bangalore
+info,winner_runs,24
+info,player,Royal Challengers Bangalore,Vijaykumar Vyshak
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,MK Lomror
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,SS Prabhudessai
+info,player,Royal Challengers Bangalore,PWH de Silva
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,WD Parnell
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Punjab Kings,RD Chahar
+info,player,Punjab Kings,Atharva Taide
+info,player,Punjab Kings,P Simran Singh
+info,player,Punjab Kings,MW Short
+info,player,Punjab Kings,LS Livingstone
+info,player,Punjab Kings,Harpreet Singh
+info,player,Punjab Kings,SM Curran
+info,player,Punjab Kings,JM Sharma
+info,player,Punjab Kings,M Shahrukh Khan
+info,player,Punjab Kings,Harpreet Brar
+info,player,Punjab Kings,NT Ellis
+info,player,Punjab Kings,Arshdeep Singh
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,Atharva Taide,1ac746c8
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,GR Sadashiv Iyer,0be62e31
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Harpreet Brar,c05edf8e
+info,registry,people,Harpreet Singh,28c78fb3
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Kuppuraj,aa4063d0
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,MW Short,a90e53ec
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,SM Curran,e94915e6
+info,registry,people,SS Prabhudessai,9385de2e
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Vijaykumar Vyshak,54e52590
+info,registry,people,WD Parnell,3a60e0b5

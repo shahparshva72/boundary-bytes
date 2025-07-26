@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2025
+info,date,2025/04/08
+info,event,Indian Premier League
+info,match_number,22
+info,venue,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur"
+info,city,Mohali
+info,toss_winner,Punjab Kings
+info,toss_decision,bat
+info,player_of_match,Priyansh Arya
+info,umpire,Abhijit Bhattacharya
+info,umpire,UV Gandhe
+info,reserve_umpire,AK Argal
+info,tv_umpire,VK Sharma
+info,match_referee,V Narayan Kutty
+info,winner,Punjab Kings
+info,winner_runs,18
+info,player,Punjab Kings,Priyansh Arya
+info,player,Punjab Kings,P Simran Singh
+info,player,Punjab Kings,SS Iyer
+info,player,Punjab Kings,MP Stoinis
+info,player,Punjab Kings,N Wadhera
+info,player,Punjab Kings,GJ Maxwell
+info,player,Punjab Kings,Shashank Singh
+info,player,Punjab Kings,M Jansen
+info,player,Punjab Kings,YS Chahal
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Punjab Kings,LH Ferguson
+info,player,Punjab Kings,Yash Thakur
+info,player,Chennai Super Kings,M Pathirana
+info,player,Chennai Super Kings,R Ravindra
+info,player,Chennai Super Kings,DP Conway
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,V Shankar
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,Noor Ahmad
+info,player,Chennai Super Kings,Mukesh Choudhary
+info,player,Chennai Super Kings,KK Ahmed
+info,registry,people,AK Argal,0ee78cf3
+info,registry,people,Abhijit Bhattacharya,59ec9638
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,DP Conway,df5a6881
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,M Pathirana,64839cb3
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mukesh Choudhary,765a4731
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,Noor Ahmad,efc04be7
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,Priyansh Arya,b5797845
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Ravindra,ba5e1069
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,Shashank Singh,26989d80
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Yash Thakur,4b31f3a3

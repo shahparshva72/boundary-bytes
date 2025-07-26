@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2021
+info,date,2021/04/16
+info,event,Indian Premier League
+info,match_number,8
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,DL Chahar
+info,umpire,AK Chaudhary
+info,umpire,AY Dandekar
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,VK Sharma
+info,match_referee,Prakash Bhatt
+info,winner,Chennai Super Kings
+info,winner_wickets,6
+info,player,Punjab Kings,KL Rahul
+info,player,Punjab Kings,MA Agarwal
+info,player,Punjab Kings,CH Gayle
+info,player,Punjab Kings,DJ Hooda
+info,player,Punjab Kings,N Pooran
+info,player,Punjab Kings,M Shahrukh Khan
+info,player,Punjab Kings,JA Richardson
+info,player,Punjab Kings,M Ashwin
+info,player,Punjab Kings,Mohammed Shami
+info,player,Punjab Kings,RP Meredith
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,MM Ali
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,SM Curran
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,SN Thakur
+info,player,Chennai Super Kings,DL Chahar
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,F du Plessis,3355b542
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,RP Meredith,64775749
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SM Curran,e94915e6
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,VK Sharma,a7a49df4

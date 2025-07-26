@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Gujarat Lions
+info,team,Mumbai Indians
+info,gender,male
+info,season,2017
+info,date,2017/04/29
+info,event,Indian Premier League
+info,match_number,35
+info,venue,Saurashtra Cricket Association Stadium
+info,city,Rajkot
+info,toss_winner,Gujarat Lions
+info,toss_decision,bat
+info,player_of_match,KH Pandya
+info,umpire,AK Chaudhary
+info,umpire,CB Gaffaney
+info,reserve_umpire,N Pandit
+info,tv_umpire,A Nand Kishore
+info,match_referee,M Nayyar
+info,outcome,tie
+info,eliminator,Mumbai Indians
+info,player,Gujarat Lions,Ishan Kishan
+info,player,Gujarat Lions,BB McCullum
+info,player,Gujarat Lions,SK Raina
+info,player,Gujarat Lions,AJ Finch
+info,player,Gujarat Lions,KD Karthik
+info,player,Gujarat Lions,RA Jadeja
+info,player,Gujarat Lions,JP Faulkner
+info,player,Gujarat Lions,IK Pathan
+info,player,Gujarat Lions,AJ Tye
+info,player,Gujarat Lions,Basil Thampi
+info,player,Gujarat Lions,Ankit Soni
+info,player,Mumbai Indians,PA Patel
+info,player,Mumbai Indians,JC Buttler
+info,player,Mumbai Indians,N Rana
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Ankit Soni,f18ba07f
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,Basil Thampi,871e9faf
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,N Pandit,4947c258
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RG Sharma,740742ef
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SL Malinga,a12e1d51

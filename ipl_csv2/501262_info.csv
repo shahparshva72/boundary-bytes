@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Pune Warriors
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2011
+info,date,2011/05/19
+info,event,Indian Premier League
+info,match_number,65
+info,venue,Dr DY Patil Sports Academy
+info,city,Mumbai
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,YK Pathan
+info,umpire,S Ravi
+info,umpire,SJA Taufel
+info,reserve_umpire,NA Patwardhan
+info,tv_umpire,SK Tarapore
+info,match_referee,D Govindjee
+info,winner,Kolkata Knight Riders
+info,winner_wickets,7
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,SP Goswami
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,B Lee
+info,player,Kolkata Knight Riders,L Balaji
+info,player,Kolkata Knight Riders,Iqbal Abdulla
+info,player,Pune Warriors,JD Ryder
+info,player,Pune Warriors,MK Pandey
+info,player,Pune Warriors,CJ Ferguson
+info,player,Pune Warriors,SC Ganguly
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,Yuvraj Singh
+info,player,Pune Warriors,S Rana
+info,player,Pune Warriors,WD Parnell
+info,player,Pune Warriors,AC Thomas
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,B Kumar
+info,registry,people,AC Thomas,b552a935
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,L Balaji,b2b50355
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,NA Patwardhan,e6ef687d
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Rana,90edaaa9
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,WD Parnell,3a60e0b5
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Yuvraj Singh,1c914163

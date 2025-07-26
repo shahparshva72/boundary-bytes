@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Lucknow Super Giants
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2024
+info,date,2024/04/27
+info,event,Indian Premier League
+info,match_number,44
+info,venue,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow"
+info,city,Lucknow
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,SV Samson
+info,umpire,KN Ananthapadmanabhan
+info,umpire,MA Gough
+info,reserve_umpire,A Bengeri
+info,tv_umpire,Vinod Seshan
+info,match_referee,Amit Sharma
+info,winner,Rajasthan Royals
+info,winner_wickets,7
+info,player,Lucknow Super Giants,A Mishra
+info,player,Lucknow Super Giants,Q de Kock
+info,player,Lucknow Super Giants,KL Rahul
+info,player,Lucknow Super Giants,MP Stoinis
+info,player,Lucknow Super Giants,DJ Hooda
+info,player,Lucknow Super Giants,N Pooran
+info,player,Lucknow Super Giants,A Badoni
+info,player,Lucknow Super Giants,KH Pandya
+info,player,Lucknow Super Giants,MJ Henry
+info,player,Lucknow Super Giants,Ravi Bishnoi
+info,player,Lucknow Super Giants,Mohsin Khan
+info,player,Lucknow Super Giants,Yash Thakur
+info,player,Rajasthan Royals,YS Chahal
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,R Powell
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,TA Boult
+info,player,Rajasthan Royals,Avesh Khan
+info,player,Rajasthan Royals,Sandeep Sharma
+info,registry,people,A Badoni,872b03f7
+info,registry,people,A Bengeri,c109497d
+info,registry,people,A Mishra,6b19d823
+info,registry,people,Amit Sharma,7ea3e0cc
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,JC Buttler,99b75528
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MA Gough,76752ac8
+info,registry,people,MJ Henry,e84ac20c
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohsin Khan,c33d8116
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Powell,650d5e49
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,TA Boult,a818c1be
+info,registry,people,Vinod Seshan,a3357a27
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Yash Thakur,4b31f3a3

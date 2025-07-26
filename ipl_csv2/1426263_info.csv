@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bengaluru
+info,team,Mumbai Indians
+info,gender,male
+info,season,2024
+info,date,2024/04/11
+info,event,Indian Premier League
+info,match_number,25
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,JJ Bumrah
+info,umpire,Nitin Menon
+info,umpire,VA Kulkarni
+info,reserve_umpire,M Kuppuraj
+info,tv_umpire,VK Sharma
+info,match_referee,J Srinath
+info,winner,Mumbai Indians
+info,winner_wickets,7
+info,player,Royal Challengers Bengaluru,V Kohli
+info,player,Royal Challengers Bengaluru,F du Plessis
+info,player,Royal Challengers Bengaluru,WG Jacks
+info,player,Royal Challengers Bengaluru,RM Patidar
+info,player,Royal Challengers Bengaluru,GJ Maxwell
+info,player,Royal Challengers Bengaluru,KD Karthik
+info,player,Royal Challengers Bengaluru,MK Lomror
+info,player,Royal Challengers Bengaluru,Saurav Chauhan
+info,player,Royal Challengers Bengaluru,Vijaykumar Vyshak
+info,player,Royal Challengers Bengaluru,Akash Deep
+info,player,Royal Challengers Bengaluru,RJW Topley
+info,player,Royal Challengers Bengaluru,Mohammed Siraj
+info,player,Mumbai Indians,Akash Madhwal
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,Mohammad Nabi
+info,player,Mumbai Indians,R Shepherd
+info,player,Mumbai Indians,S Gopal
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,G Coetzee
+info,registry,people,Akash Deep,0a67aec0
+info,registry,people,Akash Madhwal,4bd09374
+info,registry,people,F du Plessis,3355b542
+info,registry,people,G Coetzee,3204c99f
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Kuppuraj,aa4063d0
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,R Shepherd,c5aef772
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJW Topley,8db7f47f
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,Saurav Chauhan,9e7225b0
+info,registry,people,TH David,f1f99156
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,Vijaykumar Vyshak,54e52590
+info,registry,people,WG Jacks,9caf69a1

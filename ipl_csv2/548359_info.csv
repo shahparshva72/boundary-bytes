@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2012
+info,date,2012/05/08
+info,event,Indian Premier League
+info,match_number,53
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Deccan Chargers
+info,toss_decision,field
+info,player_of_match,Mandeep Singh
+info,umpire,HDPK Dharmasena
+info,umpire,BNJ Oxenford
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,C Shamshuddin
+info,match_referee,J Srinath
+info,winner,Kings XI Punjab
+info,winner_runs,25
+info,player,Deccan Chargers,DJ Harris
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,PA Patel
+info,player,Deccan Chargers,CL White
+info,player,Deccan Chargers,KC Sangakkara
+info,player,Deccan Chargers,PA Reddy
+info,player,Deccan Chargers,AA Jhunjhunwala
+info,player,Deccan Chargers,A Ashish Reddy
+info,player,Deccan Chargers,J Theron
+info,player,Deccan Chargers,A Mishra
+info,player,Deccan Chargers,V Pratap Singh
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,N Saini
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,Azhar Mahmood
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,SD Chitnis
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,RR Powar
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,P Awana
+info,registry,people,A Ashish Reddy,1c2a64cd
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AA Jhunjhunwala,2815fe50
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CL White,d0513f63
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DJ Harris,39f82db3
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,J Srinath,bad31fac
+info,registry,people,J Theron,dec8e038
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,N Saini,addbde6c
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PA Reddy,2461eef2
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RR Powar,5d096f3d
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SD Chitnis,facb9086
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,V Pratap Singh,d718440b

@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Delhi Capitals
+info,gender,male
+info,season,2023
+info,date,2023/04/29
+info,event,Indian Premier League
+info,match_number,40
+info,venue,"Arun Jaitley Stadium, Delhi"
+info,city,Delhi
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,MR Marsh
+info,umpire,MA Gough
+info,umpire,Navdeep Singh
+info,reserve_umpire,P Joshi
+info,tv_umpire,MV Saidharshan Kumar
+info,match_referee,V Narayan Kutty
+info,winner,Sunrisers Hyderabad
+info,winner_runs,9
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,MA Agarwal
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,HC Brook
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,AJ Hosein
+info,player,Sunrisers Hyderabad,M Markande
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Umran Malik
+info,player,Delhi Capitals,I Sharma
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,PD Salt
+info,player,Delhi Capitals,MR Marsh
+info,player,Delhi Capitals,MK Pandey
+info,player,Delhi Capitals,PK Garg
+info,player,Delhi Capitals,SN Khan
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,RV Patel
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,A Nortje
+info,player,Delhi Capitals,Mukesh Kumar
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AJ Hosein,4d7f517e
+info,registry,people,AK Markram,6a26221c
+info,registry,people,AR Patel,2e171977
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HC Brook,4ae1755b
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MA Gough,76752ac8
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,P Joshi,ffc0e370
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PK Garg,bb965e9a
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RV Patel,60500956
+info,registry,people,SN Khan,f088b960
+info,registry,people,T Natarajan,ce794613
+info,registry,people,Umran Malik,81c08fa3
+info,registry,people,V Narayan Kutty,4bacee3d

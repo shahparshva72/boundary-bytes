@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2012
+info,date,2012/05/27
+info,event,Indian Premier League
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,MS Bisla
+info,umpire,BF Bowden
+info,umpire,SJA Taufel
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,BR Doctrove
+info,match_referee,RS Madugalle
+info,winner,Kolkata Knight Riders
+info,winner_wickets,5
+info,player,Chennai Super Kings,MEK Hussey
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,BW Hilfenhaus
+info,player,Chennai Super Kings,SB Jakati
+info,player,Chennai Super Kings,S Badrinath
+info,player,Kolkata Knight Riders,MS Bisla
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,Iqbal Abdulla
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,B Lee
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,YK Pathan,3c6ffae8

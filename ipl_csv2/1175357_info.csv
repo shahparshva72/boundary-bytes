@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2019
+info,date,2019/03/24
+info,event,Indian Premier League
+info,match_number,2
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,AD Russell
+info,umpire,AK Chaudhary
+info,umpire,CB Gaffaney
+info,reserve_umpire,GR Sadashiv Iyer
+info,tv_umpire,VA Kulkarni
+info,match_referee,V Narayan Kutty
+info,winner,Kolkata Knight Riders
+info,winner_wickets,6
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,JM Bairstow
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,YK Pathan
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,Shakib Al Hasan
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Kolkata Knight Riders,CA Lynn
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Kolkata Knight Riders,LH Ferguson
+info,player,Kolkata Knight Riders,M Prasidh Krishna
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,GR Sadashiv Iyer,0be62e31
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Kaul,dcf81436
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,YK Pathan,3c6ffae8

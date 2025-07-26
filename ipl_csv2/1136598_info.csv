@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2018
+info,date,2018/05/06
+info,event,Indian Premier League
+info,match_number,38
+info,venue,Holkar Cricket Stadium
+info,city,Indore
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,Mujeeb Ur Rahman
+info,umpire,C Shamshuddin
+info,umpire,S Ravi
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,AY Dandekar
+info,match_referee,M Nayyar
+info,winner,Kings XI Punjab
+info,winner_wickets,6
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,DJM Short
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,RA Tripathi
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,K Gowtham
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,Anureet Singh
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,KK Nair
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,MP Stoinis
+info,player,Kings XI Punjab,MK Tiwary
+info,player,Kings XI Punjab,R Ashwin
+info,player,Kings XI Punjab,Mujeeb Ur Rahman
+info,player,Kings XI Punjab,AS Rajpoot
+info,player,Kings XI Punjab,AJ Tye
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AR Patel,2e171977
+info,registry,people,AS Rajpoot,db31895a
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,Anureet Singh,69be866a
+info,registry,people,BA Stokes,e087956b
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DJM Short,1a156c88
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SV Samson,a4cc73aa

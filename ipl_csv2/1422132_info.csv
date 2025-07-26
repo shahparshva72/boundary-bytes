@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2024
+info,date,2024/04/01
+info,event,Indian Premier League
+info,match_number,14
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,TA Boult
+info,umpire,MV Saidharshan Kumar
+info,umpire,YC Barde
+info,reserve_umpire,M Krishnadas
+info,tv_umpire,BNJ Oxenford
+info,match_referee,M Nayyar
+info,winner,Rajasthan Royals
+info,winner_wickets,6
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Naman Dhir
+info,player,Mumbai Indians,D Brevis
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,PP Chawla
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,G Coetzee
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,Akash Madhwal
+info,player,Mumbai Indians,KT Maphaka
+info,player,Rajasthan Royals,YS Chahal
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,SB Dubey
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,TA Boult
+info,player,Rajasthan Royals,Avesh Khan
+info,player,Rajasthan Royals,N Burger
+info,registry,people,Akash Madhwal,4bd09374
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,D Brevis,844e79d1
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,G Coetzee,3204c99f
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KT Maphaka,107c26fb
+info,registry,people,M Krishnadas,e298c588
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,N Burger,465aa633
+info,registry,people,Naman Dhir,fffa744b
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Powell,650d5e49
+info,registry,people,RG Sharma,740742ef
+info,registry,people,SB Dubey,6b2ff18f
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,TA Boult,a818c1be
+info,registry,people,TH David,f1f99156
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YC Barde,b90f3346
+info,registry,people,YS Chahal,57ee1fde

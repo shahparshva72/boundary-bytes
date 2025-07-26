@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2011
+info,date,2011/04/23
+info,event,Indian Premier League
+info,match_number,26
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,DA Warner
+info,umpire,S Asnani
+info,umpire,RE Koertzen
+info,reserve_umpire,AK Chaudhary
+info,tv_umpire,PR Reiffel
+info,match_referee,J Srinath
+info,winner,Delhi Daredevils
+info,winner_runs,29
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,Y Nagar
+info,player,Delhi Daredevils,Y Venugopal Rao
+info,player,Delhi Daredevils,AJ Finch
+info,player,Delhi Daredevils,NV Ojha
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,JR Hopes
+info,player,Delhi Daredevils,AB Agarkar
+info,player,Delhi Daredevils,M Morkel
+info,player,Delhi Daredevils,VR Aaron
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,PC Valthaty
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,KD Karthik
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,AM Nayar
+info,player,Kings XI Punjab,Sunny Singh
+info,player,Kings XI Punjab,RJ Harris
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,SJ Srivastava
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JR Hopes,2498e163
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PC Valthaty,25eeb281
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,S Asnani,b04524bc
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Srivastava,2049f3a0
+info,registry,people,Sunny Singh,30e37810
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,Y Nagar,662c47a6
+info,registry,people,Y Venugopal Rao,fe763256

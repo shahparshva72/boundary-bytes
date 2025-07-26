@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Gujarat Titans
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2025
+info,date,2025/04/09
+info,event,Indian Premier League
+info,match_number,23
+info,venue,"Narendra Modi Stadium, Ahmedabad"
+info,city,Ahmedabad
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,B Sai Sudharsan
+info,umpire,A Totre
+info,umpire,R Pandit
+info,reserve_umpire,Anish Sahasrabudhe
+info,tv_umpire,AT Holdstock
+info,match_referee,Shakti Singh
+info,winner,Gujarat Titans
+info,winner_runs,58
+info,player,Gujarat Titans,K Khejroliya
+info,player,Gujarat Titans,B Sai Sudharsan
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,JC Buttler
+info,player,Gujarat Titans,M Shahrukh Khan
+info,player,Gujarat Titans,SE Rutherford
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,Arshad Khan
+info,player,Gujarat Titans,R Sai Kishore
+info,player,Gujarat Titans,Mohammed Siraj
+info,player,Gujarat Titans,M Prasidh Krishna
+info,player,Rajasthan Royals,Fazalhaq Farooqi
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,N Rana
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,SB Dubey
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,M Theekshana
+info,player,Rajasthan Royals,TU Deshpande
+info,player,Rajasthan Royals,Sandeep Sharma
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AT Holdstock,6fa3258c
+info,registry,people,Anish Sahasrabudhe,2892df67
+info,registry,people,Arshad Khan,12314277
+info,registry,people,B Sai Sudharsan,d5130a30
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,Fazalhaq Farooqi,e9c7f0d0
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,K Khejroliya,fa2f1dde
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,M Theekshana,f24c6701
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Sai Kishore,c7a995d3
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SB Dubey,6b2ff18f
+info,registry,people,SE Rutherford,d014d5ac
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,TU Deshpande,46a9bea1
+info,registry,people,YBK Jaiswal,6c19c6e5

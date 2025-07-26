@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Gujarat Titans
+info,team,Lucknow Super Giants
+info,gender,male
+info,season,2022
+info,date,2022/05/10
+info,event,Indian Premier League
+info,match_number,57
+info,venue,"Maharashtra Cricket Association Stadium, Pune"
+info,city,Pune
+info,toss_winner,Gujarat Titans
+info,toss_decision,bat
+info,player_of_match,Shubman Gill
+info,umpire,KN Ananthapadmanabhan
+info,umpire,MA Gough
+info,reserve_umpire,Vinod Seshan
+info,tv_umpire,AK Chaudhary
+info,match_referee,V Narayan Kutty
+info,winner,Gujarat Titans
+info,winner_runs,62
+info,player,Gujarat Titans,WP Saha
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,MS Wade
+info,player,Gujarat Titans,HH Pandya
+info,player,Gujarat Titans,DA Miller
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,R Sai Kishore
+info,player,Gujarat Titans,AS Joseph
+info,player,Gujarat Titans,Yash Dayal
+info,player,Gujarat Titans,Mohammed Shami
+info,player,Lucknow Super Giants,Q de Kock
+info,player,Lucknow Super Giants,KL Rahul
+info,player,Lucknow Super Giants,DJ Hooda
+info,player,Lucknow Super Giants,KS Sharma
+info,player,Lucknow Super Giants,KH Pandya
+info,player,Lucknow Super Giants,A Badoni
+info,player,Lucknow Super Giants,MP Stoinis
+info,player,Lucknow Super Giants,JO Holder
+info,player,Lucknow Super Giants,Mohsin Khan
+info,player,Lucknow Super Giants,PVD Chameera
+info,player,Lucknow Super Giants,Avesh Khan
+info,registry,people,A Badoni,872b03f7
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AS Joseph,b0946605
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,JO Holder,0f721006
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KS Sharma,39ed0d2f
+info,registry,people,MA Gough,76752ac8
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MS Wade,afa7e784
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Mohsin Khan,c33d8116
+info,registry,people,PVD Chameera,327b58d3
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Sai Kishore,c7a995d3
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,Vinod Seshan,a3357a27
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Yash Dayal,7210d461

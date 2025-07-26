@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2009/10
+info,date,2010/03/27
+info,event,Indian Premier League
+info,match_number,23
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,MK Tiwary
+info,umpire,BR Doctrove
+info,umpire,S Ravi
+info,reserve_umpire,C Shamshuddin
+info,tv_umpire,SK Tarapore
+info,match_referee,S Venkataraghavan
+info,winner,Kolkata Knight Riders
+info,winner_runs,39
+info,player,Kings XI Punjab,RS Bopara
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,MS Bisla
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,K Goel
+info,player,Kings XI Punjab,B Lee
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,SJ Srivastava
+info,player,Kings XI Punjab,VS Malik
+info,player,Kolkata Knight Riders,CH Gayle
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,Mandeep Singh
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,DJ Hussey
+info,player,Kolkata Knight Riders,AD Mathews
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,SE Bond
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,AB Dinda
+info,player,Kolkata Knight Riders,Iqbal Abdulla
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,K Goel,a1f1829d
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SE Bond,4f629497
+info,registry,people,SJ Srivastava,2049f3a0
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,VS Malik,5f26df4f
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Yuvraj Singh,1c914163

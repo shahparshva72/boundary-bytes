@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2009
+info,date,2009/05/12
+info,event,Indian Premier League
+info,match_number,41
+info,venue,SuperSport Park
+info,city,Centurion
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,LRPL Taylor
+info,umpire,M Erasmus
+info,umpire,SS Hazare
+info,reserve_umpire,JD Cloete
+info,tv_umpire,RE Koertzen
+info,match_referee,Yashpal Sharma
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,6
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,AN Ghosh
+info,player,Kolkata Knight Riders,DJ Hussey
+info,player,Kolkata Knight Riders,AD Mathews
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,Yashpal Singh
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Kolkata Knight Riders,BAW Mendis
+info,player,Royal Challengers Bangalore,JD Ryder
+info,player,Royal Challengers Bangalore,JH Kallis
+info,player,Royal Challengers Bangalore,RV Uthappa
+info,player,Royal Challengers Bangalore,LRPL Taylor
+info,player,Royal Challengers Bangalore,R Dravid
+info,player,Royal Challengers Bangalore,MV Boucher
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,B Akhil
+info,player,Royal Challengers Bangalore,KP Appanna
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,A Kumble
+info,registry,people,A Kumble,0c2730df
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AN Ghosh,7023d182
+info,registry,people,B Akhil,af7dadf7
+info,registry,people,BAW Mendis,ea0cdc12
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,KP Appanna,d92e42f5
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Kartik,abfeb126
+info,registry,people,MV Boucher,f3cb53a1
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SS Hazare,166e5081
+info,registry,people,V Kohli,ba607b88
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Yashpal Sharma,e22d7ccb
+info,registry,people,Yashpal Singh,297b26da

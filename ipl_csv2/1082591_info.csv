@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2017
+info,date,2017/04/05
+info,event,Indian Premier League
+info,match_number,1
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,Yuvraj Singh
+info,umpire,AY Dandekar
+info,umpire,NJ Llong
+info,reserve_umpire,N Pandit
+info,tv_umpire,A Deshmukh
+info,match_referee,J Srinath
+info,winner,Sunrisers Hyderabad
+info,winner_runs,35
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,Mandeep Singh
+info,player,Royal Challengers Bangalore,TM Head
+info,player,Royal Challengers Bangalore,KM Jadhav
+info,player,Royal Challengers Bangalore,SR Watson
+info,player,Royal Challengers Bangalore,Sachin Baby
+info,player,Royal Challengers Bangalore,STR Binny
+info,player,Royal Challengers Bangalore,S Aravind
+info,player,Royal Challengers Bangalore,TS Mills
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,A Choudhary
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,Yuvraj Singh
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,BCJ Cutting
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,Bipul Sharma
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,A Nehra
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,registry,people,A Choudhary,18e6906e
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,N Pandit,4947c258
+info,registry,people,NJ Llong,573fb985
+info,registry,people,NV Ojha,890946a0
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Aravind,957532de
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,Sachin Baby,dc9dd038
+info,registry,people,TM Head,12b610c2
+info,registry,people,TS Mills,245c97cb
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Yuvraj Singh,1c914163

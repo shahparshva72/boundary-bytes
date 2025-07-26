@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2007/08
+info,date,2008/04/26
+info,event,Indian Premier League
+info,match_number,11
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,JDP Oram
+info,umpire,BF Bowden
+info,umpire,AV Jayaprakash
+info,reserve_umpire,S Ravi
+info,tv_umpire,SJ Davis
+info,match_referee,Talat Ali
+info,winner,Chennai Super Kings
+info,winner_wickets,9
+info,player,Chennai Super Kings,PA Patel
+info,player,Chennai Super Kings,ML Hayden
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,MEK Hussey
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,JDP Oram
+info,player,Chennai Super Kings,Joginder Sharma
+info,player,Chennai Super Kings,P Amarnath
+info,player,Chennai Super Kings,MS Gony
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,RT Ponting
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,DJ Hussey
+info,player,Kolkata Knight Riders,Mohammad Hafeez
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Kolkata Knight Riders,AB Dinda
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AV Jayaprakash,bde6e9ef
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,JDP Oram,3eac9d95
+info,registry,people,Joginder Sharma,9f961c14
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Kartik,abfeb126
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,Mohammad Hafeez,9ab63e7b
+info,registry,people,P Amarnath,6ad3a659
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,RT Ponting,7d415ea5
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,Talat Ali,1df4131e
+info,registry,people,WP Saha,fe11caa6

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2009
+info,date,2009/05/05
+info,event,Indian Premier League
+info,match_number,31
+info,venue,Kingsmead
+info,city,Durban
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,G Gambhir
+info,umpire,GAV Baxter
+info,umpire,IL Howell
+info,reserve_umpire,KH Hurter
+info,tv_umpire,S Ravi
+info,match_referee,J Srinath
+info,winner,Delhi Daredevils
+info,winner_wickets,9
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,TM Dilshan
+info,player,Delhi Daredevils,AB de Villiers
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,M Manhas
+info,player,Delhi Daredevils,R Bhatia
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,PJ Sangwan
+info,player,Delhi Daredevils,A Nehra
+info,player,Delhi Daredevils,DP Nannes
+info,player,Kolkata Knight Riders,MN van Wyk
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,BJ Hodge
+info,player,Kolkata Knight Riders,MC Henriques
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,Yashpal Singh
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Kolkata Knight Riders,AB Dinda
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GAV Baxter,cb4b3ab0
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,IL Howell,c1cd91c3
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KH Hurter,bda8cca8
+info,registry,people,M Kartik,abfeb126
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MN van Wyk,710dd98c
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Yashpal Singh,297b26da

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2020/21
+info,date,2020/10/03
+info,event,Indian Premier League
+info,match_number,15
+info,venue,Sheikh Zayed Stadium
+info,city,Abu Dhabi
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,YS Chahal
+info,umpire,CB Gaffaney
+info,umpire,S Ravi
+info,reserve_umpire,UV Gandhe
+info,tv_umpire,PG Pathak
+info,match_referee,M Nayyar
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,8
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,RV Uthappa
+info,player,Rajasthan Royals,MK Lomror
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,R Tewatia
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,TK Curran
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Royal Challengers Bangalore,D Padikkal
+info,player,Royal Challengers Bangalore,AJ Finch
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,S Dube
+info,player,Royal Challengers Bangalore,Gurkeerat Singh
+info,player,Royal Challengers Bangalore,Washington Sundar
+info,player,Royal Challengers Bangalore,I Udana
+info,player,Royal Challengers Bangalore,NA Saini
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,A Zampa
+info,registry,people,A Zampa,14f96089
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,I Udana,ac5ae4af
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,NA Saini,21d4e29b
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Dube,a4e37e47
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,TK Curran,e86754b2
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YS Chahal,57ee1fde

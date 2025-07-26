@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Mumbai Indians
+info,gender,male
+info,season,2015
+info,date,2015/04/14
+info,event,Indian Premier League
+info,match_number,9
+info,venue,"Sardar Patel Stadium, Motera"
+info,city,Ahmedabad
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,SPD Smith
+info,umpire,AK Chaudhary
+info,umpire,SD Fry
+info,reserve_umpire,A Nand Kishore
+info,tv_umpire,K Srinivasan
+info,match_referee,Chinmay Sharma
+info,winner,Rajasthan Royals
+info,winner_wickets,7
+info,player,Mumbai Indians,AJ Finch
+info,player,Mumbai Indians,PA Patel
+info,player,Mumbai Indians,UBT Chand
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,CJ Anderson
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,J Suchith
+info,player,Mumbai Indians,S Gopal
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,R Vinay Kumar
+info,player,Mumbai Indians,P Suyal
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,DJ Hooda
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,KK Nair
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,CH Morris
+info,player,Rajasthan Royals,TG Southee
+info,player,Rajasthan Royals,DS Kulkarni
+info,player,Rajasthan Royals,PV Tambe
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CJ Anderson,8abdf100
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,J Suchith,4125d931
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KK Nair,944533a5
+info,registry,people,P Suyal,cedc1d9a
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PV Tambe,6aed7e79
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,UBT Chand,0c94f480

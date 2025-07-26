@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Delhi Capitals
+info,gender,male
+info,season,2022
+info,date,2022/05/08
+info,event,Indian Premier League
+info,match_number,55
+info,venue,"Dr DY Patil Sports Academy, Mumbai"
+info,city,Navi Mumbai
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,DP Conway
+info,umpire,Nitin Menon
+info,umpire,R Pandit
+info,reserve_umpire,Tapan Sharma
+info,tv_umpire,HAS Khalid
+info,match_referee,M Nayyar
+info,winner,Chennai Super Kings
+info,winner_runs,91
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,DP Conway
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,MM Ali
+info,player,Chennai Super Kings,RV Uthappa
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,Simarjeet Singh
+info,player,Chennai Super Kings,M Theekshana
+info,player,Chennai Super Kings,Mukesh Choudhary
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,KS Bharat
+info,player,Delhi Capitals,MR Marsh
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,R Powell
+info,player,Delhi Capitals,RV Patel
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,SN Thakur
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,A Nortje
+info,player,Delhi Capitals,KK Ahmed
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AR Patel,2e171977
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DP Conway,df5a6881
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KL Nagarkoti,b4f5c2d9
+info,registry,people,KS Bharat,44a89551
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Theekshana,f24c6701
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mukesh Choudhary,765a4731
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Powell,650d5e49
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,RR Pant,919a3be2
+info,registry,people,RV Patel,60500956
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,Simarjeet Singh,30df8c66
+info,registry,people,Tapan Sharma,b9aa2b6e

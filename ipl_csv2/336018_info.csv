@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2007/08
+info,date,2008/05/14
+info,event,Indian Premier League
+info,match_number,36
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,ST Jayasuriya
+info,umpire,BR Doctrove
+info,umpire,AM Saheba
+info,reserve_umpire,RM Deshpande
+info,tv_umpire,RE Koertzen
+info,match_referee,J Srinath
+info,winner,Mumbai Indians
+info,winner_wickets,9
+info,player,Chennai Super Kings,S Vidyut
+info,player,Chennai Super Kings,SP Fleming
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,CK Kapugedera
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,Joginder Sharma
+info,player,Chennai Super Kings,MS Gony
+info,player,Chennai Super Kings,L Balaji
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Mumbai Indians,ST Jayasuriya
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,RV Uthappa
+info,player,Mumbai Indians,DJ Thornely
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,AM Nayar
+info,player,Mumbai Indians,SM Pollock
+info,player,Mumbai Indians,YV Takawale
+info,player,Mumbai Indians,RR Raje
+info,player,Mumbai Indians,A Nehra
+info,player,Mumbai Indians,DS Kulkarni
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AM Saheba,883e3818
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,CK Kapugedera,cfad138c
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Thornely,7d3937ed
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,Joginder Sharma,9f961c14
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,RM Deshpande,7d2a4250
+info,registry,people,RR Raje,5f4e9e8f
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Vidyut,756389bd
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SM Pollock,88fccd6c
+info,registry,people,SP Fleming,eea6b7f1
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,ST Jayasuriya,f233bbb4
+info,registry,people,YV Takawale,4e04666c

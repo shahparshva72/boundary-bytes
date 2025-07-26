@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2024
+info,date,2024/05/26
+info,event,Indian Premier League
+info,venue,"MA Chidambaram Stadium, Chepauk, Chennai"
+info,city,Chennai
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,MA Starc
+info,umpire,J Madanagopal
+info,umpire,Nitin Menon
+info,reserve_umpire,VK Sharma
+info,tv_umpire,MA Gough
+info,match_referee,M Nayyar
+info,winner,Kolkata Knight Riders
+info,winner_wickets,8
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,TM Head
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,Nithish Kumar Reddy
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,Shahbaz Ahmed
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,PJ Cummins
+info,player,Sunrisers Hyderabad,JD Unadkat
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Kolkata Knight Riders,Rahmanullah Gurbaz
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,SS Iyer
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,Ramandeep Singh
+info,player,Kolkata Knight Riders,MA Starc
+info,player,Kolkata Knight Riders,VG Arora
+info,player,Kolkata Knight Riders,Harshit Rana
+info,player,Kolkata Knight Riders,CV Varun
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,Harshit Rana,77b1aa15
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MA Gough,76752ac8
+info,registry,people,MA Starc,3fb19989
+info,registry,people,Nithish Kumar Reddy,aad0c365
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,Rahmanullah Gurbaz,0bacade8
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,T Natarajan,ce794613
+info,registry,people,TM Head,12b610c2
+info,registry,people,VG Arora,7c3b3b78
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,VR Iyer,a24be938

@@ -1,0 +1,69 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Lucknow Super Giants
+info,gender,male
+info,season,2022
+info,date,2022/05/25
+info,event,Indian Premier League
+info,venue,"Eden Gardens, Kolkata"
+info,city,Kolkata
+info,toss_winner,Lucknow Super Giants
+info,toss_decision,field
+info,player_of_match,RM Patidar
+info,umpire,J Madanagopal
+info,umpire,MA Gough
+info,reserve_umpire,VK Sharma
+info,tv_umpire,BNJ Oxenford
+info,match_referee,M Nayyar
+info,winner,Royal Challengers Bangalore
+info,winner_runs,14
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,RM Patidar
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,MK Lomror
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,PWH de Silva
+info,player,Royal Challengers Bangalore,JR Hazlewood
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Lucknow Super Giants,Q de Kock
+info,player,Lucknow Super Giants,KL Rahul
+info,player,Lucknow Super Giants,M Vohra
+info,player,Lucknow Super Giants,DJ Hooda
+info,player,Lucknow Super Giants,MP Stoinis
+info,player,Lucknow Super Giants,E Lewis
+info,player,Lucknow Super Giants,KH Pandya
+info,player,Lucknow Super Giants,PVD Chameera
+info,player,Lucknow Super Giants,Mohsin Khan
+info,player,Lucknow Super Giants,Avesh Khan
+info,player,Lucknow Super Giants,Ravi Bishnoi
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,E Lewis,0ebfb1ad
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MA Gough,76752ac8
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Mohsin Khan,c33d8116
+info,registry,people,PVD Chameera,327b58d3
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VK Sharma,a7a49df4

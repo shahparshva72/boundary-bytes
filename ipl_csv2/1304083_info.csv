@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Lucknow Super Giants
+info,team,Mumbai Indians
+info,gender,male
+info,season,2022
+info,date,2022/04/24
+info,event,Indian Premier League
+info,match_number,37
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,KL Rahul
+info,umpire,M Erasmus
+info,umpire,HAS Khalid
+info,reserve_umpire,N Pandit
+info,tv_umpire,VK Sharma
+info,match_referee,Shakti Singh
+info,winner,Lucknow Super Giants
+info,winner_runs,36
+info,player,Lucknow Super Giants,Q de Kock
+info,player,Lucknow Super Giants,KL Rahul
+info,player,Lucknow Super Giants,MK Pandey
+info,player,Lucknow Super Giants,MP Stoinis
+info,player,Lucknow Super Giants,KH Pandya
+info,player,Lucknow Super Giants,DJ Hooda
+info,player,Lucknow Super Giants,A Badoni
+info,player,Lucknow Super Giants,JO Holder
+info,player,Lucknow Super Giants,PVD Chameera
+info,player,Lucknow Super Giants,Ravi Bishnoi
+info,player,Lucknow Super Giants,Mohsin Khan
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,D Brevis
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,DR Sams
+info,player,Mumbai Indians,JD Unadkat
+info,player,Mumbai Indians,HR Shokeen
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,RP Meredith
+info,registry,people,A Badoni,872b03f7
+info,registry,people,D Brevis,844e79d1
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,HR Shokeen,0c9652b0
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JO Holder,0f721006
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohsin Khan,c33d8116
+info,registry,people,N Pandit,4947c258
+info,registry,people,PVD Chameera,327b58d3
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Meredith,64775749
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,VK Sharma,a7a49df4

@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2007/08
+info,date,2008/05/31
+info,event,Indian Premier League
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Kings XI Punjab
+info,toss_decision,bat
+info,player_of_match,M Ntini
+info,umpire,Asad Rauf
+info,umpire,DJ Harper
+info,tv_umpire,K Hariharan
+info,match_referee,S Venkataraghavan
+info,winner,Chennai Super Kings
+info,winner_wickets,9
+info,player,Chennai Super Kings,PA Patel
+info,player,Chennai Super Kings,S Vidyut
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,CK Kapugedera
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,MS Gony
+info,player,Chennai Super Kings,L Balaji
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Chennai Super Kings,M Ntini
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,JR Hopes
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,WA Mota
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,RR Powar
+info,player,Kings XI Punjab,S Sreesanth
+info,player,Kings XI Punjab,VRV Singh
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,CK Kapugedera,cfad138c
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JR Hopes,2498e163
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,M Ntini,20a941bb
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RR Powar,5d096f3d
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,S Vidyut,756389bd
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,VRV Singh,034b4b7d
+info,registry,people,WA Mota,3dba85c2
+info,registry,people,Yuvraj Singh,1c914163

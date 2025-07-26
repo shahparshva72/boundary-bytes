@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2025
+info,date,2025/04/12
+info,event,Indian Premier League
+info,match_number,27
+info,venue,"Rajiv Gandhi International Stadium, Uppal, Hyderabad"
+info,city,Hyderabad
+info,toss_winner,Punjab Kings
+info,toss_decision,bat
+info,player_of_match,Abhishek Sharma
+info,umpire,A Totre
+info,umpire,K Kelkar
+info,reserve_umpire,Anish Sahasrabudhe
+info,tv_umpire,AT Holdstock
+info,match_referee,Shakti Singh
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,8
+info,player,Punjab Kings,Yash Thakur
+info,player,Punjab Kings,Priyansh Arya
+info,player,Punjab Kings,P Simran Singh
+info,player,Punjab Kings,SS Iyer
+info,player,Punjab Kings,N Wadhera
+info,player,Punjab Kings,Shashank Singh
+info,player,Punjab Kings,GJ Maxwell
+info,player,Punjab Kings,MP Stoinis
+info,player,Punjab Kings,M Jansen
+info,player,Punjab Kings,YS Chahal
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Punjab Kings,LH Ferguson
+info,player,Sunrisers Hyderabad,E Malinga
+info,player,Sunrisers Hyderabad,TM Head
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,Ishan Kishan
+info,player,Sunrisers Hyderabad,Nithish Kumar Reddy
+info,player,Sunrisers Hyderabad,Aniket Verma
+info,player,Sunrisers Hyderabad,PJ Cummins
+info,player,Sunrisers Hyderabad,HV Patel
+info,player,Sunrisers Hyderabad,Mohammed Shami
+info,player,Sunrisers Hyderabad,Zeeshan Ansari
+info,player,Sunrisers Hyderabad,A Manohar
+info,registry,people,A Manohar,0890552f
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AT Holdstock,6fa3258c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Aniket Verma,a3b0600d
+info,registry,people,Anish Sahasrabudhe,2892df67
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,E Malinga,5750bcb4
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,K Kelkar,1d88908d
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,Nithish Kumar Reddy,aad0c365
+info,registry,people,P Dubey,ed5a5510
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,Priyansh Arya,b5797845
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,Shashank Singh,26989d80
+info,registry,people,TM Head,12b610c2
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Yash Thakur,4b31f3a3
+info,registry,people,Zeeshan Ansari,36619795

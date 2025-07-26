@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2012
+info,date,2012/05/02
+info,event,Indian Premier League
+info,match_number,44
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,Azhar Mahmood
+info,umpire,BF Bowden
+info,umpire,C Shamshuddin
+info,reserve_umpire,CK Nandan
+info,tv_umpire,SK Tarapore
+info,match_referee,RS Mahanama
+info,winner,Kings XI Punjab
+info,winner_wickets,4
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,N Saini
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,Azhar Mahmood
+info,player,Kings XI Punjab,AM Nayar
+info,player,Kings XI Punjab,P Dogra
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,RJ Harris
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,P Awana
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,AB McDonald
+info,player,Royal Challengers Bangalore,AUK Pathan
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,DL Vettori
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,KP Appanna
+info,registry,people,AB McDonald,16043342
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AUK Pathan,3ae3f034
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,KP Appanna,d92e42f5
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,N Saini,addbde6c
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Dogra,2728e7e9
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RS Mahanama,57910393
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Z Khan,91a4a398

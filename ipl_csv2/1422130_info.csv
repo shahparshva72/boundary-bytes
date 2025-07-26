@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Gujarat Titans
+info,gender,male
+info,season,2024
+info,date,2024/03/31
+info,event,Indian Premier League
+info,match_number,12
+info,venue,"Narendra Modi Stadium, Ahmedabad"
+info,city,Ahmedabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,MM Sharma
+info,umpire,HAS Khalid
+info,umpire,VK Sharma
+info,reserve_umpire,M Kuppuraj
+info,match_referee,J Srinath
+info,winner,Gujarat Titans
+info,winner_wickets,7
+info,player,Sunrisers Hyderabad,TM Head
+info,player,Sunrisers Hyderabad,MA Agarwal
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,Shahbaz Ahmed
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,Washington Sundar
+info,player,Sunrisers Hyderabad,PJ Cummins
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,M Markande
+info,player,Sunrisers Hyderabad,JD Unadkat
+info,player,Gujarat Titans,MM Sharma
+info,player,Gujarat Titans,WP Saha
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,B Sai Sudharsan
+info,player,Gujarat Titans,DA Miller
+info,player,Gujarat Titans,V Shankar
+info,player,Gujarat Titans,Azmatullah Omarzai
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,UT Yadav
+info,player,Gujarat Titans,Noor Ahmad
+info,player,Gujarat Titans,DG Nalkande
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Azmatullah Omarzai,8f6dd463
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,B Sai Sudharsan,d5130a30
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DG Nalkande,cd8d2859
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,M Kuppuraj,aa4063d0
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,Noor Ahmad,efc04be7
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,TM Head,12b610c2
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Washington Sundar,f19ccfad

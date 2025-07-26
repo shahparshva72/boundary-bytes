@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2025
+info,date,2025/05/18
+info,event,Indian Premier League
+info,match_number,59
+info,venue,"Sawai Mansingh Stadium, Jaipur"
+info,city,Jaipur
+info,toss_winner,Punjab Kings
+info,toss_decision,bat
+info,player_of_match,Harpreet Brar
+info,umpire,A Bengeri
+info,umpire,CB Gaffaney
+info,reserve_umpire,P Joshi
+info,tv_umpire,J Madanagopal
+info,match_referee,DS Manohar
+info,winner,Punjab Kings
+info,winner_runs,10
+info,player,Punjab Kings,Harpreet Brar
+info,player,Punjab Kings,Priyansh Arya
+info,player,Punjab Kings,P Simran Singh
+info,player,Punjab Kings,MJ Owen
+info,player,Punjab Kings,N Wadhera
+info,player,Punjab Kings,SS Iyer
+info,player,Punjab Kings,Shashank Singh
+info,player,Punjab Kings,Azmatullah Omarzai
+info,player,Punjab Kings,M Jansen
+info,player,Punjab Kings,XC Bartlett
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Punjab Kings,YS Chahal
+info,player,Rajasthan Royals,Fazalhaq Farooqi
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,V Suryavanshi
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,SB Dubey
+info,player,Rajasthan Royals,PWH de Silva
+info,player,Rajasthan Royals,KT Maphaka
+info,player,Rajasthan Royals,TU Deshpande
+info,player,Rajasthan Royals,Akash Madhwal
+info,registry,people,A Bengeri,c109497d
+info,registry,people,Akash Madhwal,4bd09374
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,Azmatullah Omarzai,8f6dd463
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DS Manohar,b35f3ac8
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,Fazalhaq Farooqi,e9c7f0d0
+info,registry,people,Harpreet Brar,c05edf8e
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,KT Maphaka,107c26fb
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,MJ Owen,f2c936d7
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,P Joshi,ffc0e370
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,Priyansh Arya,b5797845
+info,registry,people,R Parag,04a418e8
+info,registry,people,SB Dubey,6b2ff18f
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shashank Singh,26989d80
+info,registry,people,TU Deshpande,46a9bea1
+info,registry,people,V Suryavanshi,470f446b
+info,registry,people,XC Bartlett,3b53243a
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YS Chahal,57ee1fde

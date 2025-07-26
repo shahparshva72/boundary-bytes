@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2017
+info,date,2017/04/28
+info,event,Indian Premier League
+info,match_number,33
+info,venue,"Punjab Cricket Association IS Bindra Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,Rashid Khan
+info,umpire,Nitin Menon
+info,umpire,CK Nandan
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,YC Barde
+info,match_referee,S Chaturvedi
+info,winner,Sunrisers Hyderabad
+info,winner_runs,26
+info,player,Kings XI Punjab,MJ Guptill
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,EJG Morgan
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,Anureet Singh
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,I Sharma
+info,player,Kings XI Punjab,KC Cariappa
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,Yuvraj Singh
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,A Nehra
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AR Patel,2e171977
+info,registry,people,Anureet Singh,69be866a
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KC Cariappa,edb3d4f8
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Guptill,2be41edb
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,NV Ojha,890946a0
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Chaturvedi,c8ec02e1
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaul,dcf81436
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YC Barde,b90f3346
+info,registry,people,Yuvraj Singh,1c914163

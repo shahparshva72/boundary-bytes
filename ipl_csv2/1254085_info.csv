@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2021
+info,date,2021/05/02
+info,event,Indian Premier League
+info,match_number,28
+info,venue,"Arun Jaitley Stadium, Delhi"
+info,city,Delhi
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,JC Buttler
+info,umpire,C Shamshuddin
+info,umpire,CB Gaffaney
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,UV Gandhe
+info,match_referee,S Chaturvedi
+info,winner,Rajasthan Royals
+info,winner_runs,55
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,DA Miller
+info,player,Rajasthan Royals,Anuj Rawat
+info,player,Rajasthan Royals,R Tewatia
+info,player,Rajasthan Royals,CH Morris
+info,player,Rajasthan Royals,Kartik Tyagi
+info,player,Rajasthan Royals,C Sakariya
+info,player,Rajasthan Royals,Mustafizur Rahman
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,JM Bairstow
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,KM Jadhav
+info,player,Sunrisers Hyderabad,Mohammad Nabi
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Sunrisers Hyderabad,KK Ahmed
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Anuj Rawat,c8f5f961
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,C Sakariya,2cdce1be
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,Kartik Tyagi,5d2eea49
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Chaturvedi,c8ec02e1
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,YBK Jaiswal,6c19c6e5

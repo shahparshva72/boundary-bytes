@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Delhi Capitals
+info,gender,male
+info,season,2021
+info,date,2021/10/02
+info,event,Indian Premier League
+info,match_number,46
+info,venue,Sharjah Cricket Stadium
+info,city,Sharjah
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,AR Patel
+info,umpire,AK Chaudhary
+info,umpire,MA Gough
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,Nitin Menon
+info,match_referee,J Srinath
+info,winner,Delhi Capitals
+info,winner_wickets,4
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,SS Tiwary
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,NM Coulter-Nile
+info,player,Mumbai Indians,J Yadav
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,TA Boult
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,S Dhawan
+info,player,Delhi Capitals,SPD Smith
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,SS Iyer
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,SO Hetmyer
+info,player,Delhi Capitals,R Ashwin
+info,player,Delhi Capitals,K Rabada
+info,player,Delhi Capitals,Avesh Khan
+info,player,Delhi Capitals,A Nortje
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AR Patel,2e171977
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,J Srinath,bad31fac
+info,registry,people,J Yadav,81049310
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,MA Gough,76752ac8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,TA Boult,a818c1be

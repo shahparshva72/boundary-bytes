@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2012
+info,date,2012/04/10
+info,event,Indian Premier League
+info,match_number,10
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,L Balaji
+info,umpire,S Ravi
+info,umpire,RJ Tucker
+info,reserve_umpire,BK Ravi
+info,tv_umpire,S Asnani
+info,match_referee,Raju Mukherjee
+info,winner,Kolkata Knight Riders
+info,winner_runs,42
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MS Bisla
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,B Lee
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,L Balaji
+info,player,Royal Challengers Bangalore,CA Pujara
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,DL Vettori
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,M Muralitharan
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BK Ravi,ff8c3cfb
+info,registry,people,CA Pujara,d4f9dbd4
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,L Balaji,b2b50355
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,Raju Mukherjee,7a3244b5
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Z Khan,91a4a398

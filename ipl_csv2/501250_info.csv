@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Pune Warriors
+info,gender,male
+info,season,2011
+info,date,2011/05/10
+info,event,Indian Premier League
+info,match_number,53
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Deccan Chargers
+info,toss_decision,bat
+info,player_of_match,MR Marsh
+info,umpire,Asad Rauf
+info,umpire,AM Saheba
+info,reserve_umpire,C Shamshuddin
+info,tv_umpire,SL Shastri
+info,match_referee,GF Labrooy
+info,winner,Pune Warriors
+info,winner_wickets,6
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,KC Sangakkara
+info,player,Deccan Chargers,JP Duminy
+info,player,Deccan Chargers,DT Christian
+info,player,Deccan Chargers,B Chipli
+info,player,Deccan Chargers,S Sohal
+info,player,Deccan Chargers,A Mishra
+info,player,Deccan Chargers,DW Steyn
+info,player,Deccan Chargers,I Sharma
+info,player,Deccan Chargers,PP Ojha
+info,player,Pune Warriors,JD Ryder
+info,player,Pune Warriors,MK Pandey
+info,player,Pune Warriors,SC Ganguly
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,Yuvraj Singh
+info,player,Pune Warriors,CJ Ferguson
+info,player,Pune Warriors,MR Marsh
+info,player,Pune Warriors,WD Parnell
+info,player,Pune Warriors,SB Wagh
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,B Kumar
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AM Saheba,883e3818
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,B Chipli,5451a2c1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Sohal,3fca55af
+info,registry,people,SB Wagh,dddca1d6
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,WD Parnell,3a60e0b5
+info,registry,people,Yuvraj Singh,1c914163

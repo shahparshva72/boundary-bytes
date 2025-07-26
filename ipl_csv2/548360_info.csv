@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2012
+info,date,2012/05/09
+info,event,Indian Premier League
+info,match_number,54
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,CH Gayle
+info,umpire,BF Bowden
+info,umpire,VA Kulkarni
+info,reserve_umpire,RM Deshpande
+info,tv_umpire,SK Tarapore
+info,match_referee,RS Madugalle
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,9
+info,player,Mumbai Indians,JEC Franklin
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KD Karthik
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,DR Smith
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,PP Ojha
+info,player,Mumbai Indians,RP Singh
+info,player,Royal Challengers Bangalore,TM Dilshan
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,J Syed Mohammad
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,M Muralitharan
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DR Smith,35205dfc
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,J Syed Mohammad,c64c2443
+info,registry,people,JEC Franklin,cf73ad76
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RM Deshpande,7d2a4250
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,Z Khan,91a4a398

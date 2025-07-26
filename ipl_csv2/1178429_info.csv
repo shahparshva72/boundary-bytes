@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2019
+info,date,2019/05/04
+info,event,Indian Premier League
+info,match_number,54
+info,venue,M.Chinnaswamy Stadium
+info,city,Bengaluru
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,SO Hetmyer
+info,umpire,AK Chaudhary
+info,umpire,NJ Llong
+info,tv_umpire,UV Gandhe
+info,match_referee,V Narayan Kutty
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,4
+info,player,Sunrisers Hyderabad,WP Saha
+info,player,Sunrisers Hyderabad,MJ Guptill
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,YK Pathan
+info,player,Sunrisers Hyderabad,Mohammad Nabi
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,KK Ahmed
+info,player,Sunrisers Hyderabad,Basil Thampi
+info,player,Royal Challengers Bangalore,PA Patel
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,SO Hetmyer
+info,player,Royal Challengers Bangalore,Gurkeerat Singh
+info,player,Royal Challengers Bangalore,C de Grandhomme
+info,player,Royal Challengers Bangalore,Washington Sundar
+info,player,Royal Challengers Bangalore,UT Yadav
+info,player,Royal Challengers Bangalore,K Khejroliya
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,NA Saini
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,Basil Thampi,871e9faf
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,K Khejroliya,fa2f1dde
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,MJ Guptill,2be41edb
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,NJ Llong,573fb985
+info,registry,people,NA Saini,21d4e29b
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,YS Chahal,57ee1fde

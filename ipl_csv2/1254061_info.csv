@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2021
+info,date,2021/04/12
+info,event,Indian Premier League
+info,match_number,4
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,SV Samson
+info,umpire,AK Chaudhary
+info,umpire,S Ravi
+info,reserve_umpire,YC Barde
+info,tv_umpire,VK Sharma
+info,match_referee,M Nayyar
+info,winner,Punjab Kings
+info,winner_runs,4
+info,player,Punjab Kings,KL Rahul
+info,player,Punjab Kings,MA Agarwal
+info,player,Punjab Kings,CH Gayle
+info,player,Punjab Kings,DJ Hooda
+info,player,Punjab Kings,N Pooran
+info,player,Punjab Kings,M Shahrukh Khan
+info,player,Punjab Kings,JA Richardson
+info,player,Punjab Kings,M Ashwin
+info,player,Punjab Kings,Mohammed Shami
+info,player,Punjab Kings,RP Meredith
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,M Vohra
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,S Dube
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,R Tewatia
+info,player,Rajasthan Royals,CH Morris
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,C Sakariya
+info,player,Rajasthan Royals,Mustafizur Rahman
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,BA Stokes,e087956b
+info,registry,people,C Sakariya,2cdce1be
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JC Buttler,99b75528
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Dube,a4e37e47
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,YC Barde,b90f3346

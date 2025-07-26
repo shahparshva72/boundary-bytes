@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Pune Warriors
+info,team,Deccan Chargers
+info,gender,male
+info,season,2012
+info,date,2012/04/26
+info,event,Indian Premier League
+info,match_number,35
+info,venue,Subrata Roy Sahara Stadium
+info,city,Pune
+info,toss_winner,Deccan Chargers
+info,toss_decision,bat
+info,player_of_match,CL White
+info,umpire,S Ravi
+info,umpire,RJ Tucker
+info,reserve_umpire,SD Ranade
+info,tv_umpire,JD Cloete
+info,match_referee,Raju Mukherjee
+info,winner,Deccan Chargers
+info,winner_runs,18
+info,player,Deccan Chargers,PA Patel
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,CL White
+info,player,Deccan Chargers,KC Sangakkara
+info,player,Deccan Chargers,JP Duminy
+info,player,Deccan Chargers,IR Jaggi
+info,player,Deccan Chargers,Ankit Sharma
+info,player,Deccan Chargers,A Ashish Reddy
+info,player,Deccan Chargers,A Mishra
+info,player,Deccan Chargers,J Theron
+info,player,Deccan Chargers,MS Gony
+info,player,Pune Warriors,MK Pandey
+info,player,Pune Warriors,JD Ryder
+info,player,Pune Warriors,SC Ganguly
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,MN Samuels
+info,player,Pune Warriors,SPD Smith
+info,player,Pune Warriors,M Manhas
+info,player,Pune Warriors,AC Thomas
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,A Nehra
+info,registry,people,A Ashish Reddy,1c2a64cd
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AC Thomas,b552a935
+info,registry,people,Ankit Sharma,24d94623
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Harris,39f82db3
+info,registry,people,IR Jaggi,dded65e7
+info,registry,people,J Theron,dec8e038
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MN Samuels,f846de6a
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,Raju Mukherjee,7a3244b5
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SD Ranade,369c85c1
+info,registry,people,SPD Smith,30a45b23

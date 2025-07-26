@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2007/08
+info,date,2008/05/28
+info,event,Indian Premier League
+info,match_number,56
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,SE Marsh
+info,umpire,SJ Davis
+info,umpire,K Hariharan
+info,reserve_umpire,MS Mahal
+info,tv_umpire,DJ Harper
+info,match_referee,S Venkataraghavan
+info,winner,Kings XI Punjab
+info,winner_runs,41
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,JR Hopes
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,LA Pomersbach
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,RR Powar
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,VRV Singh
+info,player,Kings XI Punjab,S Sreesanth
+info,player,Kings XI Punjab,WA Mota
+info,player,Rajasthan Royals,M Kaif
+info,player,Rajasthan Royals,Niraj Patel
+info,player,Rajasthan Royals,Younis Khan
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,Kamran Akmal
+info,player,Rajasthan Royals,M Rawat
+info,player,Rajasthan Royals,D Salunkhe
+info,player,Rajasthan Royals,Pankaj Singh
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,MM Patel
+info,registry,people,D Salunkhe,0264c10e
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JR Hopes,2498e163
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,Kamran Akmal,ff077124
+info,registry,people,LA Pomersbach,b63ab531
+info,registry,people,M Kaif,d84378a4
+info,registry,people,M Rawat,de8d3876
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,MS Mahal,50a7e89b
+info,registry,people,Niraj Patel,a2870fb7
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,Pankaj Singh,e32d22f6
+info,registry,people,RR Powar,5d096f3d
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,VRV Singh,034b4b7d
+info,registry,people,WA Mota,3dba85c2
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Younis Khan,33cb3411
+info,registry,people,Yuvraj Singh,1c914163

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2012
+info,date,2012/05/19
+info,event,Indian Premier League
+info,match_number,69
+info,venue,Himachal Pradesh Cricket Association Stadium
+info,city,Dharamsala
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,UT Yadav
+info,umpire,BF Bowden
+info,umpire,VA Kulkarni
+info,reserve_umpire,VK Sharma
+info,tv_umpire,SK Tarapore
+info,match_referee,RS Madugalle
+info,winner,Delhi Daredevils
+info,winner_wickets,6
+info,player,Delhi Daredevils,UBT Chand
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,Y Venugopal Rao
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,DPMD Jayawardene
+info,player,Delhi Daredevils,NV Ojha
+info,player,Delhi Daredevils,AD Russell
+info,player,Delhi Daredevils,P Negi
+info,player,Delhi Daredevils,VR Aaron
+info,player,Delhi Daredevils,M Morkel
+info,player,Delhi Daredevils,UT Yadav
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,PC Valthaty
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,SD Chitnis
+info,player,Kings XI Punjab,Azhar Mahmood
+info,player,Kings XI Punjab,Gurkeerat Singh
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,RJ Harris
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,P Awana
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AD Russell,bbd41817
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,P Negi,f62772e5
+info,registry,people,PC Valthaty,25eeb281
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,SD Chitnis,facb9086
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,UBT Chand,0c94f480
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,Y Venugopal Rao,fe763256

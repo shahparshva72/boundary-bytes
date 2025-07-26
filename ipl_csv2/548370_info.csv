@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2012
+info,date,2012/05/16
+info,event,Indian Premier League
+info,match_number,65
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,SP Narine
+info,umpire,S Das
+info,umpire,BR Doctrove
+info,reserve_umpire,RM Deshpande
+info,tv_umpire,S Asnani
+info,match_referee,GF Labrooy
+info,winner,Kolkata Knight Riders
+info,winner_runs,32
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,DB Das
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,L Balaji
+info,player,Kolkata Knight Riders,Iqbal Abdulla
+info,player,Mumbai Indians,HH Gibbs
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,KD Karthik
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,DR Smith
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,RP Singh
+info,player,Mumbai Indians,MM Patel
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,DB Das,7050a1e7
+info,registry,people,DR Smith,35205dfc
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,L Balaji,b2b50355
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RM Deshpande,7d2a4250
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Das,475e38b6
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,YK Pathan,3c6ffae8

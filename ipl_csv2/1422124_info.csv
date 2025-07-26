@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Royal Challengers Bengaluru
+info,gender,male
+info,season,2024
+info,date,2024/03/25
+info,event,Indian Premier League
+info,match_number,6
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,Royal Challengers Bengaluru
+info,toss_decision,field
+info,player_of_match,V Kohli
+info,umpire,AK Chaudhary
+info,umpire,MV Saidharshan Kumar
+info,reserve_umpire,M Krishnadas
+info,tv_umpire,BNJ Oxenford
+info,match_referee,M Nayyar
+info,winner,Royal Challengers Bengaluru
+info,winner_wickets,4
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Punjab Kings,S Dhawan
+info,player,Punjab Kings,JM Bairstow
+info,player,Punjab Kings,P Simran Singh
+info,player,Punjab Kings,LS Livingstone
+info,player,Punjab Kings,SM Curran
+info,player,Punjab Kings,JM Sharma
+info,player,Punjab Kings,Shashank Singh
+info,player,Punjab Kings,Harpreet Brar
+info,player,Punjab Kings,HV Patel
+info,player,Punjab Kings,K Rabada
+info,player,Punjab Kings,RD Chahar
+info,player,Royal Challengers Bengaluru,Yash Dayal
+info,player,Royal Challengers Bengaluru,V Kohli
+info,player,Royal Challengers Bengaluru,F du Plessis
+info,player,Royal Challengers Bengaluru,C Green
+info,player,Royal Challengers Bengaluru,RM Patidar
+info,player,Royal Challengers Bengaluru,GJ Maxwell
+info,player,Royal Challengers Bengaluru,Anuj Rawat
+info,player,Royal Challengers Bengaluru,KD Karthik
+info,player,Royal Challengers Bengaluru,MK Lomror
+info,player,Royal Challengers Bengaluru,AS Joseph
+info,player,Royal Challengers Bengaluru,Mayank Dagar
+info,player,Royal Challengers Bengaluru,Mohammed Siraj
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AS Joseph,b0946605
+info,registry,people,Anuj Rawat,c8f5f961
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Green,eaa76d3c
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Harpreet Brar,c05edf8e
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Krishnadas,e298c588
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,Mayank Dagar,a457cfb5
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SM Curran,e94915e6
+info,registry,people,Shashank Singh,26989d80
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Yash Dayal,7210d461

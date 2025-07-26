@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2012
+info,date,2012/04/22
+info,event,Indian Premier League
+info,match_number,28
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,SE Marsh
+info,umpire,S Ravi
+info,umpire,RJ Tucker
+info,reserve_umpire,PG Pathak
+info,tv_umpire,JD Cloete
+info,match_referee,Raju Mukherjee
+info,winner,Kings XI Punjab
+info,winner_wickets,6
+info,player,Kings XI Punjab,N Saini
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,Azhar Mahmood
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,SD Chitnis
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,BA Bhatt
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,P Awana
+info,player,Mumbai Indians,JEC Franklin
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KD Karthik
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,NLTC Perera
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,PP Ojha
+info,player,Mumbai Indians,RP Singh
+info,player,Mumbai Indians,MM Patel
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,BA Bhatt,dc4686e6
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,JEC Franklin,cf73ad76
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,N Saini,addbde6c
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,Raju Mukherjee,7a3244b5
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SD Chitnis,facb9086
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SR Tendulkar,d2c2b2d5

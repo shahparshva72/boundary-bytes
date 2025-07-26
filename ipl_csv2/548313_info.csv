@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Pune Warriors
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2012
+info,date,2012/04/08
+info,event,Indian Premier League
+info,match_number,8
+info,venue,Subrata Roy Sahara Stadium
+info,city,Pune
+info,toss_winner,Pune Warriors
+info,toss_decision,bat
+info,player_of_match,MN Samuels
+info,umpire,S Das
+info,umpire,SJA Taufel
+info,reserve_umpire,SD Ranade
+info,tv_umpire,S Asnani
+info,match_referee,RR Jadeja
+info,winner,Pune Warriors
+info,winner_runs,22
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,PC Valthaty
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,AM Nayar
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,AD Mascarenhas
+info,player,Kings XI Punjab,Bipul Sharma
+info,player,Kings XI Punjab,JP Faulkner
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,Harmeet Singh
+info,player,Pune Warriors,JD Ryder
+info,player,Pune Warriors,SC Ganguly
+info,player,Pune Warriors,MN Samuels
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,CJ Ferguson
+info,player,Pune Warriors,SPD Smith
+info,player,Pune Warriors,MK Pandey
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,M Kartik
+info,player,Pune Warriors,AB Dinda
+info,player,Pune Warriors,A Nehra
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AD Mascarenhas,3edb58fc
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,Harmeet Singh,2a72fd4f
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,M Kartik,abfeb126
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MN Samuels,f846de6a
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PC Valthaty,25eeb281
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RR Jadeja,053de19b
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Das,475e38b6
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SD Ranade,369c85c1
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SPD Smith,30a45b23

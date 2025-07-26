@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2017
+info,date,2017/04/22
+info,event,Indian Premier League
+info,match_number,25
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,MJ McClenaghan
+info,umpire,A Nand Kishore
+info,umpire,S Ravi
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,J Srinath
+info,winner,Mumbai Indians
+info,winner_runs,14
+info,player,Delhi Daredevils,SV Samson
+info,player,Delhi Daredevils,AP Tare
+info,player,Delhi Daredevils,KK Nair
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,CJ Anderson
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,K Rabada
+info,player,Delhi Daredevils,CH Morris
+info,player,Delhi Daredevils,PJ Cummins
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Z Khan
+info,player,Mumbai Indians,PA Patel
+info,player,Mumbai Indians,JC Buttler
+info,player,Mumbai Indians,N Rana
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,MG Johnson
+info,player,Mumbai Indians,JJ Bumrah
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AP Tare,855a210c
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CJ Anderson,8abdf100
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KK Nair,944533a5
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Z Khan,91a4a398

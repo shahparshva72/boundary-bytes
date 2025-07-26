@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2012
+info,date,2012/05/01
+info,event,Indian Premier League
+info,match_number,43
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,P Negi
+info,umpire,JD Cloete
+info,umpire,SJA Taufel
+info,reserve_umpire,K Bharatan
+info,tv_umpire,S Ravi
+info,match_referee,Raju Mukherjee
+info,winner,Delhi Daredevils
+info,winner_wickets,6
+info,player,Delhi Daredevils,DPMD Jayawardene
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,KP Pietersen
+info,player,Delhi Daredevils,LRPL Taylor
+info,player,Delhi Daredevils,Y Nagar
+info,player,Delhi Daredevils,NV Ojha
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,P Negi
+info,player,Delhi Daredevils,M Morkel
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,UT Yadav
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,OA Shah
+info,player,Rajasthan Royals,BJ Hodge
+info,player,Rajasthan Royals,AL Menaria
+info,player,Rajasthan Royals,SP Goswami
+info,player,Rajasthan Royals,AA Chavan
+info,player,Rajasthan Royals,GB Hogg
+info,player,Rajasthan Royals,A Singh
+info,player,Rajasthan Royals,Pankaj Singh
+info,registry,people,A Singh,5b040b81
+info,registry,people,AA Chavan,29d72eb2
+info,registry,people,AL Menaria,8291f939
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,NV Ojha,890946a0
+info,registry,people,OA Shah,7bf96684
+info,registry,people,P Negi,f62772e5
+info,registry,people,Pankaj Singh,e32d22f6
+info,registry,people,R Dravid,0184dc35
+info,registry,people,Raju Mukherjee,7a3244b5
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,Y Nagar,662c47a6

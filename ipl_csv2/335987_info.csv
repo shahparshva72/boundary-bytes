@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2007/08
+info,date,2008/04/21
+info,event,Indian Premier League
+info,match_number,6
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Kings XI Punjab
+info,toss_decision,bat
+info,player_of_match,SR Watson
+info,umpire,Aleem Dar
+info,umpire,RB Tiffin
+info,reserve_umpire,MSS Ranawat
+info,tv_umpire,I Shivram
+info,match_referee,S Venkataraghavan
+info,winner,Rajasthan Royals
+info,winner_wickets,6
+info,player,Kings XI Punjab,K Goel
+info,player,Kings XI Punjab,JR Hopes
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,S Sohal
+info,player,Kings XI Punjab,B Lee
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,WA Mota
+info,player,Kings XI Punjab,S Sreesanth
+info,player,Rajasthan Royals,M Kaif
+info,player,Rajasthan Royals,Kamran Akmal
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,DS Lehmann
+info,player,Rajasthan Royals,RA Jadeja
+info,player,Rajasthan Royals,Pankaj Singh
+info,player,Rajasthan Royals,D Salunkhe
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,MM Patel
+info,registry,people,Aleem Dar,f02778d1
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,D Salunkhe,0264c10e
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,DS Lehmann,53fe6ee4
+info,registry,people,I Shivram,85143097
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JR Hopes,2498e163
+info,registry,people,K Goel,a1f1829d
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,Kamran Akmal,ff077124
+info,registry,people,M Kaif,d84378a4
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,MSS Ranawat,8048c698
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,Pankaj Singh,e32d22f6
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RB Tiffin,89087a0d
+info,registry,people,S Sohal,3fca55af
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,WA Mota,3dba85c2
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Yuvraj Singh,1c914163

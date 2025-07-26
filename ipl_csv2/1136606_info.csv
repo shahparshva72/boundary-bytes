@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2018
+info,date,2018/05/13
+info,event,Indian Premier League
+info,match_number,46
+info,venue,Maharashtra Cricket Association Stadium
+info,city,Pune
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,AT Rayudu
+info,umpire,M Erasmus
+info,umpire,YC Barde
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,AY Dandekar
+info,match_referee,M Nayyar
+info,winner,Chennai Super Kings
+info,winner_wickets,8
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,AD Hales
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,Shakib Al Hasan
+info,player,Sunrisers Hyderabad,SP Goswami
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Chennai Super Kings,SR Watson
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,SW Billings
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,DJ Willey
+info,player,Chennai Super Kings,Harbhajan Singh
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,SN Thakur
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DJ Willey,7f048519
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaul,dcf81436
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SW Billings,c16d4035
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,YC Barde,b90f3346

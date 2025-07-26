@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2016
+info,date,2016/05/18
+info,event,Indian Premier League
+info,match_number,50
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,V Kohli
+info,umpire,KN Ananthapadmanabhan
+info,umpire,M Erasmus
+info,reserve_umpire,A Deshmukh
+info,tv_umpire,K Bharatan
+info,match_referee,M Nayyar
+info,winner,Royal Challengers Bangalore
+info,winner_runs,82
+info,method,D/L
+info,player,Kings XI Punjab,M Vijay
+info,player,Kings XI Punjab,HM Amla
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,Gurkeerat Singh
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,F Behardien
+info,player,Kings XI Punjab,KJ Abbott
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,KC Cariappa
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,KL Rahul
+info,player,Royal Challengers Bangalore,SR Watson
+info,player,Royal Challengers Bangalore,Sachin Baby
+info,player,Royal Challengers Bangalore,STR Binny
+info,player,Royal Challengers Bangalore,CJ Jordan
+info,player,Royal Challengers Bangalore,S Aravind
+info,player,Royal Challengers Bangalore,VR Aaron
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AR Patel,2e171977
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,F Behardien,dce2019b
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,HM Amla,e798611a
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,KC Cariappa,edb3d4f8
+info,registry,people,KJ Abbott,a9da7784
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,S Aravind,957532de
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,Sachin Baby,dc9dd038
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YS Chahal,57ee1fde

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2021
+info,date,2021/04/09
+info,event,Indian Premier League
+info,match_number,1
+info,venue,"MA Chidambaram Stadium, Chepauk, Chennai"
+info,city,Chennai
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,HV Patel
+info,umpire,KN Ananthapadmanabhan
+info,umpire,Nitin Menon
+info,reserve_umpire,UV Gandhe
+info,tv_umpire,C Shamshuddin
+info,match_referee,V Narayan Kutty
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,2
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,CA Lynn
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,M Jansen
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,TA Boult
+info,player,Royal Challengers Bangalore,Washington Sundar
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,RM Patidar
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,DT Christian
+info,player,Royal Challengers Bangalore,KA Jamieson
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Jamieson,68c56d09
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,TA Boult,a818c1be
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YS Chahal,57ee1fde

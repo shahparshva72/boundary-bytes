@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2015
+info,date,2015/05/07
+info,event,Indian Premier League
+info,match_number,42
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,PP Chawla
+info,umpire,AK Chaudhary
+info,umpire,M Erasmus
+info,reserve_umpire,A Nand Kishore
+info,tv_umpire,K Srinivasan
+info,match_referee,RS Mahanama
+info,winner,Kolkata Knight Riders
+info,winner_runs,13
+info,player,Delhi Daredevils,MK Tiwary
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,Yuvraj Singh
+info,player,Delhi Daredevils,AD Mathews
+info,player,Delhi Daredevils,SS Tiwary
+info,player,Delhi Daredevils,JA Morkel
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Imran Tahir
+info,player,Delhi Daredevils,Z Khan
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,J Botha
+info,player,Kolkata Knight Riders,GB Hogg
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,SP Narine
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,J Botha,7c503806
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RS Mahanama,57910393
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Yuvraj Singh,1c914163
+info,registry,people,Z Khan,91a4a398

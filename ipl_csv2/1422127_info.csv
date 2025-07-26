@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Delhi Capitals
+info,gender,male
+info,season,2024
+info,date,2024/03/28
+info,event,Indian Premier League
+info,match_number,9
+info,venue,"Sawai Mansingh Stadium, Jaipur"
+info,city,Jaipur
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,R Parag
+info,umpire,A Nand Kishore
+info,umpire,Nitin Menon
+info,reserve_umpire,M Kuppuraj
+info,tv_umpire,VK Sharma
+info,match_referee,J Srinath
+info,winner,Rajasthan Royals
+info,winner_runs,12
+info,player,Rajasthan Royals,N Burger
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,TA Boult
+info,player,Rajasthan Royals,Avesh Khan
+info,player,Rajasthan Royals,Sandeep Sharma
+info,player,Rajasthan Royals,YS Chahal
+info,player,Delhi Capitals,KK Ahmed
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,MR Marsh
+info,player,Delhi Capitals,RK Bhui
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,T Stubbs
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,Sumit Kumar
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,A Nortje
+info,player,Delhi Capitals,Mukesh Kumar
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AR Patel,2e171977
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JC Buttler,99b75528
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Kuppuraj,aa4063d0
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,N Burger,465aa633
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Parag,04a418e8
+info,registry,people,RK Bhui,b63e358a
+info,registry,people,RR Pant,919a3be2
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Sumit Kumar,8998a68f
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,TA Boult,a818c1be
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YS Chahal,57ee1fde

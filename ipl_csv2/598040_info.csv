@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2013
+info,date,2013/05/01
+info,event,Indian Premier League
+info,match_number,44
+info,venue,Shaheed Veer Narayan Singh International Stadium
+info,city,Raipur
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,DA Warner
+info,umpire,HDPK Dharmasena
+info,umpire,CK Nandan
+info,reserve_umpire,VK Sharma
+info,tv_umpire,S Ravi
+info,match_referee,RS Mahanama
+info,winner,Delhi Daredevils
+info,winner_wickets,7
+info,player,Delhi Daredevils,DPMD Jayawardene
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,UBT Chand
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,BJ Rohrer
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,M Morkel
+info,player,Delhi Daredevils,UT Yadav
+info,player,Delhi Daredevils,A Nehra
+info,player,Kolkata Knight Riders,MS Bisla
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,DB Das
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,S Narwal
+info,player,Kolkata Knight Riders,B Lee
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,L Balaji
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DB Das,7050a1e7
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,S Narwal,287686fd
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SP Narine,9d430b40
+info,registry,people,UBT Chand,0c94f480
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,YK Pathan,3c6ffae8

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2009/10
+info,date,2010/04/05
+info,event,Indian Premier League
+info,match_number,36
+info,venue,"Vidarbha Cricket Association Stadium, Jamtha"
+info,city,Nagpur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,SK Warne
+info,umpire,HDPK Dharmasena
+info,umpire,SJA Taufel
+info,reserve_umpire,VM Bandiwadekar
+info,tv_umpire,SS Hazare
+info,match_referee,RS Mahanama
+info,winner,Rajasthan Royals
+info,winner_runs,2
+info,player,Deccan Chargers,VVS Laxman
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,A Symonds
+info,player,Deccan Chargers,Anirudh Singh
+info,player,Deccan Chargers,DR Smith
+info,player,Deccan Chargers,AA Bilakhia
+info,player,Deccan Chargers,RJ Harris
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,Harmeet Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Rajasthan Royals,MJ Lumb
+info,player,Rajasthan Royals,NV Ojha
+info,player,Rajasthan Royals,FY Fazal
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,AA Jhunjhunwala
+info,player,Rajasthan Royals,AS Raut
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,M Morkel
+info,player,Rajasthan Royals,AP Dole
+info,player,Rajasthan Royals,SK Trivedi
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AA Bilakhia,bff458c6
+info,registry,people,AA Jhunjhunwala,2815fe50
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AP Dole,dbc50253
+info,registry,people,AS Raut,c69a7b5c
+info,registry,people,Anirudh Singh,7bb62642
+info,registry,people,DR Smith,35205dfc
+info,registry,people,FY Fazal,c15e2193
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,Harmeet Singh,2a72fd4f
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,NV Ojha,890946a0
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RS Mahanama,57910393
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SS Hazare,166e5081
+info,registry,people,VM Bandiwadekar,e236db6b
+info,registry,people,VVS Laxman,de8cce37
+info,registry,people,YK Pathan,3c6ffae8

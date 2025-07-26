@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2017
+info,date,2017/05/14
+info,event,Indian Premier League
+info,match_number,56
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,bat
+info,player_of_match,HV Patel
+info,umpire,CK Nandan
+info,umpire,C Shamshuddin
+info,reserve_umpire,R Pandit
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,AJ Pycroft
+info,winner,Royal Challengers Bangalore
+info,winner_runs,10
+info,player,Delhi Daredevils,SV Samson
+info,player,Delhi Daredevils,KK Nair
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,MN Samuels
+info,player,Delhi Daredevils,CJ Anderson
+info,player,Delhi Daredevils,PJ Cummins
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Mohammed Shami
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,Z Khan
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,Vishnu Vinod
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,TM Head
+info,player,Royal Challengers Bangalore,KM Jadhav
+info,player,Royal Challengers Bangalore,Sachin Baby
+info,player,Royal Challengers Bangalore,SR Watson
+info,player,Royal Challengers Bangalore,P Negi
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,Avesh Khan
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Anderson,8abdf100
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,KK Nair,944533a5
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MN Samuels,f846de6a
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,P Negi,f62772e5
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,R Pandit,8a604384
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sachin Baby,dc9dd038
+info,registry,people,TM Head,12b610c2
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Vishnu Vinod,0494fa6e
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Z Khan,91a4a398

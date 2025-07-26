@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2019
+info,date,2019/04/17
+info,event,Indian Premier League
+info,match_number,33
+info,venue,Rajiv Gandhi International Stadium
+info,city,Hyderabad
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,DA Warner
+info,umpire,IJ Gould
+info,umpire,UV Gandhe
+info,reserve_umpire,BK Ravi
+info,tv_umpire,C Shamshuddin
+info,match_referee,Prakash Bhatt
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,6
+info,player,Chennai Super Kings,SR Watson
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,KM Jadhav
+info,player,Chennai Super Kings,SW Billings
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,KV Sharma
+info,player,Chennai Super Kings,Imran Tahir
+info,player,Chennai Super Kings,SN Thakur
+info,player,Chennai Super Kings,DL Chahar
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,JM Bairstow
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,YK Pathan
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Sunrisers Hyderabad,S Nadeem
+info,player,Sunrisers Hyderabad,KK Ahmed
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BK Ravi,ff8c3cfb
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,F du Plessis,3355b542
+info,registry,people,IJ Gould,a9dfdf6c
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,KV Sharma,119678fd
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SW Billings,c16d4035
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,YK Pathan,3c6ffae8

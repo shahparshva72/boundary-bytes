@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2018
+info,date,2018/05/02
+info,event,Indian Premier League
+info,match_number,32
+info,venue,Arun Jaitley Stadium
+info,city,Delhi
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,RR Pant
+info,umpire,CK Nandan
+info,umpire,VK Sharma
+info,reserve_umpire,GR Sadashiv Iyer
+info,tv_umpire,BNJ Oxenford
+info,match_referee,AJ Pycroft
+info,winner,Delhi Daredevils
+info,winner_runs,4
+info,method,D/L
+info,player,Delhi Daredevils,PP Shaw
+info,player,Delhi Daredevils,C Munro
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,GJ Maxwell
+info,player,Delhi Daredevils,V Shankar
+info,player,Delhi Daredevils,LE Plunkett
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,Avesh Khan
+info,player,Delhi Daredevils,TA Boult
+info,player,Rajasthan Royals,DJM Short
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,RA Tripathi
+info,player,Rajasthan Royals,K Gowtham
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,DS Kulkarni
+info,player,Rajasthan Royals,S Gopal
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,BA Stokes,e087956b
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Munro,af2c687b
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,GR Sadashiv Iyer,0be62e31
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Gowtham,90de905a
+info,registry,people,LE Plunkett,9a963804
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,TA Boult,a818c1be
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,VK Sharma,a7a49df4

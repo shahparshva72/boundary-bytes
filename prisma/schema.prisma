@@ -17,11 +17,14 @@ datasource db {
 // WPL match and delivery models
 model WplMatch {
   id         Int           @id @map("match_id")
+  league     String        @default("WPL") @map("league")
   season     String        @map("season")
   startDate  DateTime      @map("start_date")
   venue      String        @map("venue")
   deliveries WplDelivery[]
 
+  @@index([league])
+  @@index([league, season])
   @@map("wpl_match")
 }
 
@@ -56,6 +59,7 @@ model WplDelivery {
 // WPL match info model for storing match metadata
 model WplMatchInfo {
   id               Int       @id @map("match_id")
+  league           String    @default("WPL") @map("league")
   version          String    @map("version")
   ballsPerOver     Int       @map("balls_per_over")
   gender           String    @map("gender")
@@ -76,6 +80,8 @@ model WplMatchInfo {
   officials        WplOfficial[]
   peopleRegistry   WplPersonRegistry[]
 
+  @@index([league])
+  @@index([league, season])
   @@map("wpl_match_info")
 }
 

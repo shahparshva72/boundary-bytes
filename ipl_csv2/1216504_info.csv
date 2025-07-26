@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2020/21
+info,date,2020/09/30
+info,event,Indian Premier League
+info,match_number,12
+info,venue,Dubai International Cricket Stadium
+info,city,
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,Shivam Mavi
+info,umpire,KN Ananthapadmanabhan
+info,umpire,C Shamshuddin
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,VA Kulkarni
+info,match_referee,V Narayan Kutty
+info,winner,Kolkata Knight Riders
+info,winner_runs,37
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,PJ Cummins
+info,player,Kolkata Knight Riders,KL Nagarkoti
+info,player,Kolkata Knight Riders,Shivam Mavi
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,RV Uthappa
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,R Tewatia
+info,player,Rajasthan Royals,TK Curran
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,AS Rajpoot
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AS Rajpoot,db31895a
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KL Nagarkoti,b4f5c2d9
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shivam Mavi,c38d3503
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,TK Curran,e86754b2
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,VA Kulkarni,8fe0c4f8

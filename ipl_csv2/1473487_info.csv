@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2025
+info,date,2025/05/01
+info,event,Indian Premier League
+info,match_number,50
+info,venue,"Sawai Mansingh Stadium, Jaipur"
+info,city,Jaipur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,RD Rickelton
+info,umpire,P Joshi
+info,umpire,Vinod Seshan
+info,reserve_umpire,A Bengeri
+info,tv_umpire,CB Gaffaney
+info,match_referee,DS Manohar
+info,winner,Mumbai Indians
+info,winner_runs,100
+info,player,Mumbai Indians,KV Sharma
+info,player,Mumbai Indians,RD Rickelton
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,WG Jacks
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,Naman Dhir
+info,player,Mumbai Indians,C Bosch
+info,player,Mumbai Indians,DL Chahar
+info,player,Mumbai Indians,TA Boult
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Rajasthan Royals,Fazalhaq Farooqi
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,V Suryavanshi
+info,player,Rajasthan Royals,N Rana
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,SB Dubey
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,M Theekshana
+info,player,Rajasthan Royals,K Kartikeya
+info,player,Rajasthan Royals,Akash Madhwal
+info,registry,people,A Bengeri,c109497d
+info,registry,people,Akash Madhwal,4bd09374
+info,registry,people,C Bosch,172dff15
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,DS Manohar,b35f3ac8
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,Fazalhaq Farooqi,e9c7f0d0
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,JC Archer,5574750c
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,K Kartikeya,f6d8a7ab
+info,registry,people,KV Sharma,119678fd
+info,registry,people,M Theekshana,f24c6701
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,Naman Dhir,fffa744b
+info,registry,people,P Joshi,ffc0e370
+info,registry,people,R Parag,04a418e8
+info,registry,people,RD Rickelton,e66732f8
+info,registry,people,RG Sharma,740742ef
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SB Dubey,6b2ff18f
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,TA Boult,a818c1be
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,V Suryavanshi,470f446b
+info,registry,people,Vinod Seshan,a3357a27
+info,registry,people,WG Jacks,9caf69a1
+info,registry,people,YBK Jaiswal,6c19c6e5

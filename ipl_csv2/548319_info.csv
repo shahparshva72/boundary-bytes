@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Pune Warriors
+info,gender,male
+info,season,2012
+info,date,2012/04/12
+info,event,Indian Premier League
+info,match_number,14
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,AD Mascarenhas
+info,umpire,VA Kulkarni
+info,umpire,SK Tarapore
+info,reserve_umpire,B Vij
+info,tv_umpire,BF Bowden
+info,match_referee,RS Madugalle
+info,winner,Kings XI Punjab
+info,winner_wickets,7
+info,player,Kings XI Punjab,PC Valthaty
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,AD Mascarenhas
+info,player,Kings XI Punjab,P Awana
+info,player,Kings XI Punjab,Bipul Sharma
+info,player,Kings XI Punjab,Harmeet Singh
+info,player,Kings XI Punjab,P Kumar
+info,player,Pune Warriors,JD Ryder
+info,player,Pune Warriors,SC Ganguly
+info,player,Pune Warriors,MN Samuels
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,AD Mathews
+info,player,Pune Warriors,M Manhas
+info,player,Pune Warriors,SPD Smith
+info,player,Pune Warriors,MK Pandey
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,A Nehra
+info,player,Pune Warriors,AB Dinda
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AD Mascarenhas,3edb58fc
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,B Vij,470050ff
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,Harmeet Singh,2a72fd4f
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MN Samuels,f846de6a
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PC Valthaty,25eeb281
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,VA Kulkarni,8fe0c4f8

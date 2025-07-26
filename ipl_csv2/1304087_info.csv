@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Delhi Capitals
+info,gender,male
+info,season,2022
+info,date,2022/04/28
+info,event,Indian Premier League
+info,match_number,41
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,Kuldeep Yadav
+info,umpire,AK Chaudhary
+info,umpire,PG Pathak
+info,reserve_umpire,A Totre
+info,tv_umpire,Nitin Menon
+info,match_referee,DS Manohar
+info,winner,Delhi Capitals
+info,winner_wickets,4
+info,player,Kolkata Knight Riders,AJ Finch
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,SS Iyer
+info,player,Kolkata Knight Riders,B Indrajith
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,TG Southee
+info,player,Kolkata Knight Riders,Harshit Rana
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,MR Marsh
+info,player,Delhi Capitals,Lalit Yadav
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,R Powell
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,SN Thakur
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,Mustafizur Rahman
+info,player,Delhi Capitals,C Sakariya
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AR Patel,2e171977
+info,registry,people,B Indrajith,ff1e68fa
+info,registry,people,C Sakariya,2cdce1be
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DS Manohar,b35f3ac8
+info,registry,people,Harshit Rana,77b1aa15
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,Lalit Yadav,ad427b5c
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,R Powell,650d5e49
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,RR Pant,919a3be2
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,VR Iyer,a24be938

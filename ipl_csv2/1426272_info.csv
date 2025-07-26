@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Lucknow Super Giants
+info,gender,male
+info,season,2024
+info,date,2024/04/19
+info,event,Indian Premier League
+info,match_number,34
+info,venue,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow"
+info,city,Lucknow
+info,toss_winner,Lucknow Super Giants
+info,toss_decision,field
+info,player_of_match,KL Rahul
+info,umpire,AK Chaudhary
+info,umpire,R Pandit
+info,reserve_umpire,R Rajesh Kannan
+info,tv_umpire,BNJ Oxenford
+info,match_referee,M Nayyar
+info,winner,Lucknow Super Giants
+info,winner_wickets,8
+info,player,Chennai Super Kings,AM Rahane
+info,player,Chennai Super Kings,R Ravindra
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,Sameer Rizvi
+info,player,Chennai Super Kings,MM Ali
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,TU Deshpande
+info,player,Chennai Super Kings,Mustafizur Rahman
+info,player,Chennai Super Kings,M Pathirana
+info,player,Lucknow Super Giants,Q de Kock
+info,player,Lucknow Super Giants,KL Rahul
+info,player,Lucknow Super Giants,N Pooran
+info,player,Lucknow Super Giants,MP Stoinis
+info,player,Lucknow Super Giants,DJ Hooda
+info,player,Lucknow Super Giants,A Badoni
+info,player,Lucknow Super Giants,KH Pandya
+info,player,Lucknow Super Giants,MJ Henry
+info,player,Lucknow Super Giants,Ravi Bishnoi
+info,player,Lucknow Super Giants,Mohsin Khan
+info,player,Lucknow Super Giants,Yash Thakur
+info,registry,people,A Badoni,872b03f7
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Pathirana,64839cb3
+info,registry,people,MJ Henry,e84ac20c
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mohsin Khan,c33d8116
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Rajesh Kannan,c9062c3e
+info,registry,people,R Ravindra,ba5e1069
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,S Dube,a4e37e47
+info,registry,people,Sameer Rizvi,f89d3b11
+info,registry,people,TU Deshpande,46a9bea1
+info,registry,people,Yash Thakur,4b31f3a3

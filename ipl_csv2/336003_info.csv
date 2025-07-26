@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2007/08
+info,date,2008/05/03
+info,event,Indian Premier League
+info,match_number,22
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Kings XI Punjab
+info,toss_decision,bat
+info,player_of_match,IK Pathan
+info,umpire,DJ Harper
+info,umpire,I Shivram
+info,reserve_umpire,MS Mahal
+info,tv_umpire,SJ Davis
+info,match_referee,CH Lloyd
+info,winner,Kings XI Punjab
+info,winner_runs,9
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,JR Hopes
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,K Goel
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,S Sreesanth
+info,player,Kings XI Punjab,VRV Singh
+info,player,Kings XI Punjab,Gagandeep Singh
+info,player,Kolkata Knight Riders,Mohammad Hafeez
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,DB Das
+info,player,Kolkata Knight Riders,BJ Hodge
+info,player,Kolkata Knight Riders,DJ Hussey
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,Umar Gul
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Kolkata Knight Riders,AB Dinda
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CH Lloyd,5b445db0
+info,registry,people,DB Das,7050a1e7
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,Gagandeep Singh,890de8cb
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,I Shivram,85143097
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JR Hopes,2498e163
+info,registry,people,K Goel,a1f1829d
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,LR Shukla,b1451597
+info,registry,people,MS Mahal,50a7e89b
+info,registry,people,Mohammad Hafeez,9ab63e7b
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,Umar Gul,16dfcc19
+info,registry,people,VRV Singh,034b4b7d
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Yuvraj Singh,1c914163

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2009
+info,date,2009/04/26
+info,event,Indian Premier League
+info,match_number,15
+info,venue,Newlands
+info,city,Cape Town
+info,toss_winner,Kings XI Punjab
+info,toss_decision,bat
+info,player_of_match,KC Sangakkara
+info,umpire,M Erasmus
+info,umpire,K Hariharan
+info,reserve_umpire,EC Hendrikse
+info,tv_umpire,MR Benson
+info,match_referee,GR Viswanath
+info,winner,Kings XI Punjab
+info,winner_runs,27
+info,player,Kings XI Punjab,RS Bopara
+info,player,Kings XI Punjab,K Goel
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,WA Mota
+info,player,Kings XI Punjab,RR Powar
+info,player,Kings XI Punjab,VRV Singh
+info,player,Kings XI Punjab,YA Abdulla
+info,player,Rajasthan Royals,SA Asnodkar
+info,player,Rajasthan Royals,GC Smith
+info,player,Rajasthan Royals,RJ Quiney
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,AD Mascarenhas
+info,player,Rajasthan Royals,RA Jadeja
+info,player,Rajasthan Royals,AS Raut
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,M Rawat
+info,player,Rajasthan Royals,MM Patel
+info,player,Rajasthan Royals,Kamran Khan
+info,registry,people,AD Mascarenhas,3edb58fc
+info,registry,people,AS Raut,c69a7b5c
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,EC Hendrikse,3f2996c9
+info,registry,people,GC Smith,72861603
+info,registry,people,GR Viswanath,9333bc07
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,K Goel,a1f1829d
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,Kamran Khan,6ef60d3a
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Rawat,de8d3876
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,MR Benson,790e14d3
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,RR Powar,5d096f3d
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,SA Asnodkar,ae091d39
+info,registry,people,SK Warne,bb18be76
+info,registry,people,VRV Singh,034b4b7d
+info,registry,people,WA Mota,3dba85c2
+info,registry,people,YA Abdulla,4353bba5
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Yuvraj Singh,1c914163

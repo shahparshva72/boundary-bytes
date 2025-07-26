@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Pune Warriors
+info,gender,male
+info,season,2011
+info,date,2011/05/08
+info,event,Indian Premier League
+info,match_number,51
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Kings XI Punjab
+info,toss_decision,bat
+info,player_of_match,R Sharma
+info,umpire,SK Tarapore
+info,umpire,RJ Tucker
+info,reserve_umpire,K Bharatan
+info,tv_umpire,S Ravi
+info,match_referee,D Govindjee
+info,winner,Pune Warriors
+info,winner_wickets,5
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,PC Valthaty
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,KD Karthik
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,SD Chitnis
+info,player,Kings XI Punjab,RJ Harris
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,SJ Srivastava
+info,player,Kings XI Punjab,BA Bhatt
+info,player,Pune Warriors,JD Ryder
+info,player,Pune Warriors,MK Pandey
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,Yuvraj Singh
+info,player,Pune Warriors,CJ Ferguson
+info,player,Pune Warriors,AA Jhunjhunwala
+info,player,Pune Warriors,MR Marsh
+info,player,Pune Warriors,SB Wagh
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,WD Parnell
+info,player,Pune Warriors,B Kumar
+info,registry,people,AA Jhunjhunwala,2815fe50
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BA Bhatt,dc4686e6
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PC Valthaty,25eeb281
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SB Wagh,dddca1d6
+info,registry,people,SD Chitnis,facb9086
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Srivastava,2049f3a0
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,WD Parnell,3a60e0b5
+info,registry,people,Yuvraj Singh,1c914163

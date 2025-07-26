@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Pune Warriors
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2012
+info,date,2012/05/11
+info,event,Indian Premier League
+info,match_number,57
+info,venue,Subrata Roy Sahara Stadium
+info,city,Pune
+info,toss_winner,Pune Warriors
+info,toss_decision,field
+info,player_of_match,CH Gayle
+info,umpire,BF Bowden
+info,umpire,SK Tarapore
+info,reserve_umpire,NA Patwardhan
+info,tv_umpire,VA Kulkarni
+info,match_referee,RS Madugalle
+info,winner,Royal Challengers Bangalore
+info,winner_runs,35
+info,player,Pune Warriors,MD Mishra
+info,player,Pune Warriors,MJ Clarke
+info,player,Pune Warriors,MK Pandey
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,AP Majumdar
+info,player,Pune Warriors,AD Mathews
+info,player,Pune Warriors,SPD Smith
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,AC Thomas
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,K Upadhyay
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,TM Dilshan
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,M Muralitharan
+info,player,Royal Challengers Bangalore,KP Appanna
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AP Majumdar,f4cb4f53
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,CH Gayle,db584dad
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,K Upadhyay,27e71d47
+info,registry,people,KP Appanna,d92e42f5
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MD Mishra,6afb26d6
+info,registry,people,MJ Clarke,f842c2cf
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,NA Patwardhan,e6ef687d
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,Z Khan,91a4a398

@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Delhi Capitals
+info,gender,male
+info,season,2023
+info,date,2023/05/20
+info,event,Indian Premier League
+info,match_number,67
+info,venue,"Arun Jaitley Stadium, Delhi"
+info,city,Delhi
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,RD Gaikwad
+info,umpire,CB Gaffaney
+info,umpire,NA Patwardhan
+info,reserve_umpire,M Krishnadas
+info,tv_umpire,AK Chaudhary
+info,match_referee,Sanjay Verma
+info,winner,Chennai Super Kings
+info,winner_runs,77
+info,player,Chennai Super Kings,M Pathirana
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,DP Conway
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,AM Rahane
+info,player,Chennai Super Kings,MM Ali
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,TU Deshpande
+info,player,Chennai Super Kings,M Theekshana
+info,player,Delhi Capitals,KK Ahmed
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,PD Salt
+info,player,Delhi Capitals,RR Rossouw
+info,player,Delhi Capitals,YV Dhull
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,Aman Hakim Khan
+info,player,Delhi Capitals,Lalit Yadav
+info,player,Delhi Capitals,A Nortje
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,C Sakariya
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AR Patel,2e171977
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Aman Hakim Khan,378daa89
+info,registry,people,C Sakariya,2cdce1be
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,DP Conway,df5a6881
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,Lalit Yadav,ad427b5c
+info,registry,people,M Krishnadas,e298c588
+info,registry,people,M Pathirana,64839cb3
+info,registry,people,M Theekshana,f24c6701
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,NA Patwardhan,e6ef687d
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,RR Rossouw,cad00a4d
+info,registry,people,S Dube,a4e37e47
+info,registry,people,Sanjay Verma,bc19a37f
+info,registry,people,TU Deshpande,46a9bea1
+info,registry,people,YV Dhull,dd7e9b3b

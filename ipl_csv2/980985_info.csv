@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2016
+info,date,2016/05/13
+info,event,Indian Premier League
+info,match_number,43
+info,venue,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium
+info,city,Visakhapatnam
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,MP Stoinis
+info,umpire,HDPK Dharmasena
+info,umpire,CK Nandan
+info,reserve_umpire,R Pandit
+info,tv_umpire,AK Chaudhary
+info,match_referee,RS Mahanama
+info,winner,Kings XI Punjab
+info,winner_wickets,7
+info,player,Kings XI Punjab,M Vijay
+info,player,Kings XI Punjab,HM Amla
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,Gurkeerat Singh
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,MP Stoinis
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Kings XI Punjab,KC Cariappa
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,UBT Chand
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,N Rana
+info,player,Mumbai Indians,JC Buttler
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,TG Southee
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,JJ Bumrah
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AR Patel,2e171977
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,HM Amla,e798611a
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KC Cariappa,edb3d4f8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,R Pandit,8a604384
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RS Mahanama,57910393
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,UBT Chand,0c94f480
+info,registry,people,WP Saha,fe11caa6

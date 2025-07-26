@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2015
+info,date,2015/05/09
+info,event,Indian Premier League
+info,match_number,45
+info,venue,Shaheed Veer Narayan Singh International Stadium
+info,city,Raipur
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,MC Henriques
+info,umpire,VA Kulkarni
+info,umpire,S Ravi
+info,reserve_umpire,RM Deshpande
+info,tv_umpire,RK Illingworth
+info,match_referee,RS Madugalle
+info,winner,Sunrisers Hyderabad
+info,winner_runs,6
+info,player,Delhi Daredevils,Q de Kock
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,Yuvraj Singh
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,SS Tiwary
+info,player,Delhi Daredevils,JA Morkel
+info,player,Delhi Daredevils,J Yadav
+info,player,Delhi Daredevils,NM Coulter-Nile
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Z Khan
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,EJG Morgan
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,RS Bopara
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,Parvez Rasool
+info,player,Sunrisers Hyderabad,P Kumar
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,I Sharma
+info,registry,people,A Mishra,6b19d823
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,J Yadav,81049310
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KV Sharma,119678fd
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,Parvez Rasool,9170ff49
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RK Illingworth,20672246
+info,registry,people,RM Deshpande,7d2a4250
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,Yuvraj Singh,1c914163
+info,registry,people,Z Khan,91a4a398

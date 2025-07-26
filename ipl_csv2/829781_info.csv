@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2015
+info,date,2015/05/04
+info,event,Indian Premier League
+info,match_number,38
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,UT Yadav
+info,umpire,AK Chaudhary
+info,umpire,M Erasmus
+info,reserve_umpire,A Nand Kishore
+info,tv_umpire,K Srinivasan
+info,match_referee,RR Jadeja
+info,winner,Kolkata Knight Riders
+info,winner_runs,35
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,J Botha
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,GB Hogg
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,EJG Morgan
+info,player,Sunrisers Hyderabad,GH Vihari
+info,player,Sunrisers Hyderabad,Bipul Sharma
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,P Kumar
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,DW Steyn
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GH Vihari,94253925
+info,registry,people,J Botha,7c503806
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KV Sharma,119678fd
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,RR Jadeja,053de19b
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,YK Pathan,3c6ffae8

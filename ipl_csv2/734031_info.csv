@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2014
+info,date,2014/05/23
+info,event,Indian Premier League
+info,match_number,51
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,MEK Hussey
+info,umpire,S Ravi
+info,umpire,RJ Tucker
+info,reserve_umpire,AY Dandekar
+info,tv_umpire,K Srinath
+info,match_referee,AJ Pycroft
+info,winner,Mumbai Indians
+info,winner_runs,15
+info,player,Delhi Daredevils,M Vijay
+info,player,Delhi Daredevils,KP Pietersen
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,MK Tiwary
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,WD Parnell
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,JD Unadkat
+info,player,Delhi Daredevils,S Kaul
+info,player,Delhi Daredevils,Imran Tahir
+info,player,Mumbai Indians,LMP Simmons
+info,player,Mumbai Indians,MEK Hussey
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,AP Tare
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,S Gopal
+info,player,Mumbai Indians,M de Lange
+info,player,Mumbai Indians,PP Ojha
+info,player,Mumbai Indians,JJ Bumrah
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AP Tare,855a210c
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LMP Simmons,89f64c19
+info,registry,people,M Vijay,4b57e452
+info,registry,people,M de Lange,d4eef961
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,S Kaul,dcf81436
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,WD Parnell,3a60e0b5

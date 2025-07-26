@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2022
+info,date,2022/03/29
+info,event,Indian Premier League
+info,match_number,5
+info,venue,"Maharashtra Cricket Association Stadium, Pune"
+info,city,Pune
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,SV Samson
+info,umpire,BNJ Oxenford
+info,umpire,UV Gandhe
+info,reserve_umpire,MV Saidharshan Kumar
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,Shakti Singh
+info,winner,Rajasthan Royals
+info,winner_runs,61
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,D Padikkal
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,NM Coulter-Nile
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,YS Chahal
+info,player,Rajasthan Royals,TA Boult
+info,player,Rajasthan Royals,M Prasidh Krishna
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,N Pooran
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,R Shepherd
+info,player,Sunrisers Hyderabad,Washington Sundar
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Umran Malik
+info,player,Sunrisers Hyderabad,T Natarajan
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,JC Buttler,99b75528
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Shepherd,c5aef772
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,T Natarajan,ce794613
+info,registry,people,TA Boult,a818c1be
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,Umran Malik,81c08fa3
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YS Chahal,57ee1fde

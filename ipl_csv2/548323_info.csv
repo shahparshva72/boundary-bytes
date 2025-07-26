@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2012
+info,date,2012/04/15
+info,event,Indian Premier League
+info,match_number,17
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,SP Narine
+info,umpire,Asad Rauf
+info,umpire,S Asnani
+info,reserve_umpire,Premdip Chatterjee
+info,tv_umpire,S Das
+info,match_referee,GF Labrooy
+info,winner,Kings XI Punjab
+info,winner_runs,2
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,P Dogra
+info,player,Kings XI Punjab,Bipul Sharma
+info,player,Kings XI Punjab,AD Mascarenhas
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,Harmeet Singh
+info,player,Kings XI Punjab,BA Bhatt
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MS Bisla
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,DB Das
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,JD Unadkat
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AD Mascarenhas,3edb58fc
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,BA Bhatt,dc4686e6
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,DB Das,7050a1e7
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,Harmeet Singh,2a72fd4f
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,P Dogra,2728e7e9
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,Premdip Chatterjee,489fb760
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Das,475e38b6
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,YK Pathan,3c6ffae8

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2018
+info,date,2018/05/18
+info,event,Indian Premier League
+info,match_number,52
+info,venue,Arun Jaitley Stadium
+info,city,Delhi
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,HV Patel
+info,umpire,HDPK Dharmasena
+info,umpire,VA Kulkarni
+info,reserve_umpire,K Srinath
+info,tv_umpire,CK Nandan
+info,match_referee,M Nayyar
+info,winner,Delhi Daredevils
+info,winner_runs,34
+info,player,Delhi Daredevils,PP Shaw
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,GJ Maxwell
+info,player,Delhi Daredevils,V Shankar
+info,player,Delhi Daredevils,Abhishek Sharma
+info,player,Delhi Daredevils,HV Patel
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,S Lamichhane
+info,player,Delhi Daredevils,TA Boult
+info,player,Delhi Daredevils,Avesh Khan
+info,player,Chennai Super Kings,SR Watson
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,SW Billings
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,Harbhajan Singh
+info,player,Chennai Super Kings,SN Thakur
+info,player,Chennai Super Kings,L Ngidi
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,L Ngidi,f834dcfc
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SW Billings,c16d4035
+info,registry,people,TA Boult,a818c1be
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,VA Kulkarni,8fe0c4f8

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2009/10
+info,date,2010/04/17
+info,event,Indian Premier League
+info,match_number,53
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,JD Unadkat
+info,umpire,BG Jerling
+info,umpire,RB Tiffin
+info,reserve_umpire,R Shankar
+info,tv_umpire,RE Koertzen
+info,match_referee,AJ Pycroft
+info,winner,Kolkata Knight Riders
+info,winner_wickets,8
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,CH Gayle
+info,player,Kolkata Knight Riders,CA Pujara
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,AD Mathews
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,JD Unadkat
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,AB Dinda
+info,player,Kolkata Knight Riders,SE Bond
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,NV Ojha
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,AJ Finch
+info,player,Rajasthan Royals,AC Voges
+info,player,Rajasthan Royals,AS Raut
+info,player,Rajasthan Royals,P Dogra
+info,player,Rajasthan Royals,FY Fazal
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,Kamran Khan
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AC Voges,864c199e
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AS Raut,c69a7b5c
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BG Jerling,26457e41
+info,registry,people,CA Pujara,d4f9dbd4
+info,registry,people,CH Gayle,db584dad
+info,registry,people,FY Fazal,c15e2193
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,Kamran Khan,6ef60d3a
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Kartik,abfeb126
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Dogra,2728e7e9
+info,registry,people,R Shankar,82f0b62e
+info,registry,people,RB Tiffin,89087a0d
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SE Bond,4f629497
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,YK Pathan,3c6ffae8

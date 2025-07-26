@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Lucknow Super Giants
+info,team,Royal Challengers Bengaluru
+info,gender,male
+info,season,2025
+info,date,2025/05/27
+info,event,Indian Premier League
+info,match_number,70
+info,venue,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow"
+info,city,Lucknow
+info,toss_winner,Royal Challengers Bengaluru
+info,toss_decision,field
+info,player_of_match,JM Sharma
+info,umpire,MA Gough
+info,umpire,VK Sharma
+info,reserve_umpire,K Swaroopanand
+info,tv_umpire,UV Gandhe
+info,match_referee,P Dharmani
+info,winner,Royal Challengers Bengaluru
+info,winner_wickets,6
+info,player,Lucknow Super Giants,Akash Singh
+info,player,Lucknow Super Giants,MR Marsh
+info,player,Lucknow Super Giants,MP Breetzke
+info,player,Lucknow Super Giants,RR Pant
+info,player,Lucknow Super Giants,N Pooran
+info,player,Lucknow Super Giants,Abdul Samad
+info,player,Lucknow Super Giants,A Badoni
+info,player,Lucknow Super Giants,Himmat Singh
+info,player,Lucknow Super Giants,Shahbaz Ahmed
+info,player,Lucknow Super Giants,DS Rathi
+info,player,Lucknow Super Giants,Avesh Khan
+info,player,Lucknow Super Giants,W O'Rourke
+info,player,Royal Challengers Bengaluru,Suyash Sharma
+info,player,Royal Challengers Bengaluru,PD Salt
+info,player,Royal Challengers Bengaluru,V Kohli
+info,player,Royal Challengers Bengaluru,RM Patidar
+info,player,Royal Challengers Bengaluru,LS Livingstone
+info,player,Royal Challengers Bengaluru,MA Agarwal
+info,player,Royal Challengers Bengaluru,JM Sharma
+info,player,Royal Challengers Bengaluru,R Shepherd
+info,player,Royal Challengers Bengaluru,KH Pandya
+info,player,Royal Challengers Bengaluru,B Kumar
+info,player,Royal Challengers Bengaluru,Yash Dayal
+info,player,Royal Challengers Bengaluru,N Thushara
+info,registry,people,A Badoni,872b03f7
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Akash Singh,b483905d
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,DS Rathi,13fc5c6d
+info,registry,people,Himmat Singh,ebcfef83
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,K Swaroopanand,aa2a4962
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MA Gough,76752ac8
+info,registry,people,MP Breetzke,35f173a0
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,N Thushara,ee1b6c27
+info,registry,people,P Dharmani,eaa90ab4
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,R Shepherd,c5aef772
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,RR Pant,919a3be2
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,Suyash Sharma,9440ef41
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,W O'Rourke,cb9b8664
+info,registry,people,Yash Dayal,7210d461

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2015
+info,date,2015/04/27
+info,event,Indian Premier League
+info,match_number,27
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,TA Boult
+info,umpire,HDPK Dharmasena
+info,umpire,CB Gaffaney
+info,reserve_umpire,CK Nandan
+info,tv_umpire,SD Fry
+info,match_referee,RS Mahanama
+info,winner,Sunrisers Hyderabad
+info,winner_runs,20
+info,player,Kings XI Punjab,M Vijay
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,GJ Bailey
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,R Dhawan
+info,player,Kings XI Punjab,MG Johnson
+info,player,Kings XI Punjab,Anureet Singh
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,GH Vihari
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,RS Bopara
+info,player,Sunrisers Hyderabad,A Ashish Reddy
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,P Kumar
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,TA Boult
+info,registry,people,A Ashish Reddy,1c2a64cd
+info,registry,people,AR Patel,2e171977
+info,registry,people,Anureet Singh,69be866a
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,GH Vihari,94253925
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,KV Sharma,119678fd
+info,registry,people,M Vijay,4b57e452
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,R Dhawan,26a85969
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,TA Boult,a818c1be
+info,registry,people,WP Saha,fe11caa6

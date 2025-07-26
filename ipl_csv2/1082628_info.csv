@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2017
+info,date,2017/05/01
+info,event,Indian Premier League
+info,match_number,38
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,bat
+info,player_of_match,RG Sharma
+info,umpire,AK Chaudhary
+info,umpire,CB Gaffaney
+info,reserve_umpire,N Pandit
+info,tv_umpire,A Deshmukh
+info,match_referee,M Nayyar
+info,winner,Mumbai Indians
+info,winner_wickets,5
+info,player,Mumbai Indians,PA Patel
+info,player,Mumbai Indians,JC Buttler
+info,player,Mumbai Indians,N Rana
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,KV Sharma
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,Mandeep Singh
+info,player,Royal Challengers Bangalore,TM Head
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,KM Jadhav
+info,player,Royal Challengers Bangalore,SR Watson
+info,player,Royal Challengers Bangalore,P Negi
+info,player,Royal Challengers Bangalore,AF Milne
+info,player,Royal Challengers Bangalore,S Aravind
+info,player,Royal Challengers Bangalore,A Choudhary
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,A Choudhary,18e6906e
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AF Milne,350bb1b1
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KV Sharma,119678fd
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,N Pandit,4947c258
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,P Negi,f62772e5
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Aravind,957532de
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,TM Head,12b610c2
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YS Chahal,57ee1fde

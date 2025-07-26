@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2019
+info,date,2019/04/13
+info,event,Indian Premier League
+info,match_number,28
+info,venue,Punjab Cricket Association IS Bindra Stadium
+info,city,Chandigarh
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,AB de Villiers
+info,umpire,S Ravi
+info,umpire,UV Gandhe
+info,reserve_umpire,K Srinath
+info,tv_umpire,NJ Llong
+info,match_referee,Prakash Bhatt
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,8
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,SN Khan
+info,player,Kings XI Punjab,SM Curran
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,N Pooran
+info,player,Kings XI Punjab,AJ Tye
+info,player,Kings XI Punjab,R Ashwin
+info,player,Kings XI Punjab,Mohammed Shami
+info,player,Kings XI Punjab,M Ashwin
+info,player,Royal Challengers Bangalore,PA Patel
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,MP Stoinis
+info,player,Royal Challengers Bangalore,MM Ali
+info,player,Royal Challengers Bangalore,AD Nath
+info,player,Royal Challengers Bangalore,P Negi
+info,player,Royal Challengers Bangalore,UT Yadav
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,NA Saini
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AD Nath,f10e94c4
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,CH Gayle,db584dad
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,NJ Llong,573fb985
+info,registry,people,NA Saini,21d4e29b
+info,registry,people,P Negi,f62772e5
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SM Curran,e94915e6
+info,registry,people,SN Khan,f088b960
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YS Chahal,57ee1fde

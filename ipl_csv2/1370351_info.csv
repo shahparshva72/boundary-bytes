@@ -1,0 +1,73 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Lucknow Super Giants
+info,gender,male
+info,season,2023
+info,date,2023/05/24
+info,event,Indian Premier League
+info,venue,"MA Chidambaram Stadium, Chepauk, Chennai"
+info,city,Chennai
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,Akash Madhwal
+info,umpire,BNJ Oxenford
+info,umpire,VK Sharma
+info,reserve_umpire,AK Chaudhary
+info,tv_umpire,CB Gaffaney
+info,match_referee,V Narayan Kutty
+info,winner,Mumbai Indians
+info,winner_runs,81
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,C Green
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,N Wadhera
+info,player,Mumbai Indians,CJ Jordan
+info,player,Mumbai Indians,HR Shokeen
+info,player,Mumbai Indians,PP Chawla
+info,player,Mumbai Indians,JP Behrendorff
+info,player,Mumbai Indians,Akash Madhwal
+info,player,Lucknow Super Giants,Yash Thakur
+info,player,Lucknow Super Giants,KR Mayers
+info,player,Lucknow Super Giants,PN Mankad
+info,player,Lucknow Super Giants,KH Pandya
+info,player,Lucknow Super Giants,MP Stoinis
+info,player,Lucknow Super Giants,A Badoni
+info,player,Lucknow Super Giants,N Pooran
+info,player,Lucknow Super Giants,DJ Hooda
+info,player,Lucknow Super Giants,K Gowtham
+info,player,Lucknow Super Giants,Ravi Bishnoi
+info,player,Lucknow Super Giants,Naveen-ul-Haq
+info,player,Lucknow Super Giants,Mohsin Khan
+info,registry,people,A Badoni,872b03f7
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Akash Madhwal,4bd09374
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Green,eaa76d3c
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,HR Shokeen,0c9652b0
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KR Mayers,73c18486
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohsin Khan,c33d8116
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,Naveen-ul-Haq,c0c411cb
+info,registry,people,PN Mankad,663b5e34
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RG Sharma,740742ef
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,TH David,f1f99156
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,Yash Thakur,4b31f3a3

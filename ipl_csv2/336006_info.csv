@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2007/08
+info,date,2008/05/05
+info,event,Indian Premier League
+info,match_number,25
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,S Sreesanth
+info,umpire,SJ Davis
+info,umpire,BR Doctrove
+info,reserve_umpire,SK Tarapore
+info,tv_umpire,SL Shastri
+info,match_referee,CH Lloyd
+info,winner,Kings XI Punjab
+info,winner_wickets,6
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,JR Hopes
+info,player,Kings XI Punjab,RR Sarwan
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,U Kaul
+info,player,Kings XI Punjab,Gagandeep Singh
+info,player,Kings XI Punjab,S Sreesanth
+info,player,Kings XI Punjab,VRV Singh
+info,player,Royal Challengers Bangalore,W Jaffer
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,CL White
+info,player,Royal Challengers Bangalore,JH Kallis
+info,player,Royal Challengers Bangalore,R Dravid
+info,player,Royal Challengers Bangalore,Misbah-ul-Haq
+info,player,Royal Challengers Bangalore,P Kumar
+info,player,Royal Challengers Bangalore,DT Patil
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,A Kumble
+info,player,Royal Challengers Bangalore,DW Steyn
+info,registry,people,A Kumble,0c2730df
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,CH Lloyd,5b445db0
+info,registry,people,CL White,d0513f63
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,DT Patil,f48cf4da
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,Gagandeep Singh,890de8cb
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,JR Hopes,2498e163
+info,registry,people,Misbah-ul-Haq,7eae4418
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Dravid,0184dc35
+info,registry,people,RR Sarwan,36d33dd0
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,U Kaul,622cc511
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VRV Singh,034b4b7d
+info,registry,people,W Jaffer,619aa81f
+info,registry,people,Yuvraj Singh,1c914163
+info,registry,people,Z Khan,91a4a398

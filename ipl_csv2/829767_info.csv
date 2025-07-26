@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2015
+info,date,2015/05/01
+info,event,Indian Premier League
+info,match_number,31
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,NM Coulter-Nile
+info,umpire,RK Illingworth
+info,umpire,S Ravi
+info,reserve_umpire,K Bharatan
+info,tv_umpire,VA Kulkarni
+info,match_referee,RS Madugalle
+info,winner,Delhi Daredevils
+info,winner_wickets,9
+info,player,Delhi Daredevils,MA Agarwal
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,SS Tiwary
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,Yuvraj Singh
+info,player,Delhi Daredevils,AD Mathews
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,NM Coulter-Nile
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Z Khan
+info,player,Delhi Daredevils,Imran Tahir
+info,player,Kings XI Punjab,V Sehwag
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,GJ Bailey
+info,player,Kings XI Punjab,NLTC Perera
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,SN Thakur
+info,player,Kings XI Punjab,Anureet Singh
+info,player,Kings XI Punjab,Sandeep Sharma
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AR Patel,2e171977
+info,registry,people,Anureet Singh,69be866a
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,RK Illingworth,20672246
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Yuvraj Singh,1c914163
+info,registry,people,Z Khan,91a4a398

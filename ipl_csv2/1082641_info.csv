@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2017
+info,date,2017/05/11
+info,event,Indian Premier League
+info,match_number,51
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,WP Saha
+info,umpire,A Deshmukh
+info,umpire,A Nand Kishore
+info,reserve_umpire,N Pandit
+info,tv_umpire,VK Sharma
+info,match_referee,M Nayyar
+info,winner,Kings XI Punjab
+info,winner_runs,7
+info,player,Kings XI Punjab,MJ Guptill
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,R Tewatia
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Kings XI Punjab,I Sharma
+info,player,Kings XI Punjab,MJ Henry
+info,player,Mumbai Indians,LMP Simmons
+info,player,Mumbai Indians,PA Patel
+info,player,Mumbai Indians,N Rana
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KV Sharma
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AR Patel,2e171977
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KV Sharma,119678fd
+info,registry,people,LMP Simmons,89f64c19
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MJ Guptill,2be41edb
+info,registry,people,MJ Henry,e84ac20c
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,N Pandit,4947c258
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RG Sharma,740742ef
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,WP Saha,fe11caa6

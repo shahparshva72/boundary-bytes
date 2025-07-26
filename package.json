@@ -10,6 +10,10 @@
     "typecheck": "tsc --noEmit",
     "format": "prettier --write .",
     "db:seed": "prisma db seed",
+    "seed:multi": "tsx prisma/seed-multi-league.ts",
+    "seed:wpl": "tsx prisma/seed-multi-league.ts WPL",
+    "seed:ipl": "tsx prisma/seed-multi-league.ts IPL",
+    "migrate:existing": "tsx prisma/migrate-existing-data.ts",
     "prepare": "husky"
   },
   "prisma": {

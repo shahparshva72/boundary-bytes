@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Mumbai Indians
+info,gender,male
+info,season,2022
+info,date,2022/05/12
+info,event,Indian Premier League
+info,match_number,59
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,DR Sams
+info,umpire,Chirra Ravikanthreddy
+info,umpire,CB Gaffaney
+info,reserve_umpire,A Totre
+info,tv_umpire,Nitin Menon
+info,match_referee,Shakti Singh
+info,winner,Mumbai Indians
+info,winner_wickets,5
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,DP Conway
+info,player,Chennai Super Kings,MM Ali
+info,player,Chennai Super Kings,RV Uthappa
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,Simarjeet Singh
+info,player,Chennai Super Kings,M Theekshana
+info,player,Chennai Super Kings,Mukesh Choudhary
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,DR Sams
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,T Stubbs
+info,player,Mumbai Indians,HR Shokeen
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,Ramandeep Singh
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,RP Meredith
+info,player,Mumbai Indians,K Kartikeya
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,Chirra Ravikanthreddy,8b680f55
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DP Conway,df5a6881
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,HR Shokeen,0c9652b0
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,K Kartikeya,f6d8a7ab
+info,registry,people,M Theekshana,f24c6701
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mukesh Choudhary,765a4731
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Meredith,64775749
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,S Dube,a4e37e47
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,Simarjeet Singh,30df8c66
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,TH David,f1f99156
+info,registry,people,Tilak Varma,b0482a1d

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Mumbai Indians
+info,gender,male
+info,season,2012
+info,date,2012/04/09
+info,event,Indian Premier League
+info,match_number,9
+info,venue,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium
+info,city,Visakhapatnam
+info,toss_winner,Deccan Chargers
+info,toss_decision,bat
+info,player_of_match,RG Sharma
+info,umpire,AK Chaudhary
+info,umpire,JD Cloete
+info,reserve_umpire,R Subramanian
+info,tv_umpire,HDPK Dharmasena
+info,match_referee,GF Labrooy
+info,winner,Mumbai Indians
+info,winner_wickets,5
+info,player,Deccan Chargers,PA Patel
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,B Chipli
+info,player,Deccan Chargers,DT Christian
+info,player,Deccan Chargers,KC Sangakkara
+info,player,Deccan Chargers,CL White
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,A Mishra
+info,player,Deccan Chargers,DW Steyn
+info,player,Deccan Chargers,Ankit Sharma
+info,player,Deccan Chargers,Anand Rajan
+info,player,Mumbai Indians,TL Suman
+info,player,Mumbai Indians,RE Levi
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,KD Karthik
+info,player,Mumbai Indians,JEC Franklin
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,PP Ojha
+info,player,Mumbai Indians,MM Patel
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Anand Rajan,d2340a43
+info,registry,people,Ankit Sharma,24d94623
+info,registry,people,B Chipli,5451a2c1
+info,registry,people,CL White,d0513f63
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,JEC Franklin,cf73ad76
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R Subramanian,7c32b886
+info,registry,people,RE Levi,18c78b11
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,TL Suman,aaa1b522

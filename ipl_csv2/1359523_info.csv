@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2023
+info,date,2023/05/06
+info,event,Indian Premier League
+info,match_number,49
+info,venue,"MA Chidambaram Stadium, Chepauk, Chennai"
+info,city,Chennai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,M Pathirana
+info,umpire,BNJ Oxenford
+info,umpire,Navdeep Singh
+info,reserve_umpire,P Joshi
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,V Narayan Kutty
+info,winner,Chennai Super Kings
+info,winner_wickets,6
+info,player,Mumbai Indians,R Goyal
+info,player,Mumbai Indians,C Green
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,N Wadhera
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,T Stubbs
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,Arshad Khan
+info,player,Mumbai Indians,JC Archer
+info,player,Mumbai Indians,PP Chawla
+info,player,Mumbai Indians,Akash Madhwal
+info,player,Chennai Super Kings,M Theekshana
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,DP Conway
+info,player,Chennai Super Kings,AM Rahane
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,MM Ali
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,M Pathirana
+info,player,Chennai Super Kings,TU Deshpande
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Akash Madhwal,4bd09374
+info,registry,people,Arshad Khan,12314277
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Green,eaa76d3c
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,DP Conway,df5a6881
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JC Archer,5574750c
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Pathirana,64839cb3
+info,registry,people,M Theekshana,f24c6701
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,P Joshi,ffc0e370
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Goyal,266849c1
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,TH David,f1f99156
+info,registry,people,TU Deshpande,46a9bea1
+info,registry,people,V Narayan Kutty,4bacee3d

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2019
+info,date,2019/05/03
+info,event,Indian Premier League
+info,match_number,52
+info,venue,Punjab Cricket Association IS Bindra Stadium
+info,city,Chandigarh
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,Shubman Gill
+info,umpire,BNJ Oxenford
+info,umpire,C Shamshuddin
+info,reserve_umpire,N Pandit
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,J Srinath
+info,winner,Kolkata Knight Riders
+info,winner_wickets,7
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,N Pooran
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,SM Curran
+info,player,Kings XI Punjab,R Ashwin
+info,player,Kings XI Punjab,AJ Tye
+info,player,Kings XI Punjab,Mohammed Shami
+info,player,Kings XI Punjab,M Ashwin
+info,player,Kings XI Punjab,Arshdeep Singh
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,CA Lynn
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,HF Gurney
+info,player,Kolkata Knight Riders,S Sandeep Warrier
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CH Gayle,db584dad
+info,registry,people,HF Gurney,e412cb64
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,N Pandit,4947c258
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Sandeep Warrier,cdc6bdba
+info,registry,people,SM Curran,e94915e6
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shubman Gill,b4b99816

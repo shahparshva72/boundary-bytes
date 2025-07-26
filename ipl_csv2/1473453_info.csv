@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Lucknow Super Giants
+info,team,Mumbai Indians
+info,gender,male
+info,season,2025
+info,date,2025/04/04
+info,event,Indian Premier League
+info,match_number,16
+info,venue,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow"
+info,city,Lucknow
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,DS Rathi
+info,umpire,Nitin Menon
+info,umpire,MV Saidharshan Kumar
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,J Srinath
+info,winner,Lucknow Super Giants
+info,winner_runs,12
+info,player,Lucknow Super Giants,Ravi Bishnoi
+info,player,Lucknow Super Giants,MR Marsh
+info,player,Lucknow Super Giants,AK Markram
+info,player,Lucknow Super Giants,N Pooran
+info,player,Lucknow Super Giants,RR Pant
+info,player,Lucknow Super Giants,A Badoni
+info,player,Lucknow Super Giants,DA Miller
+info,player,Lucknow Super Giants,Abdul Samad
+info,player,Lucknow Super Giants,SN Thakur
+info,player,Lucknow Super Giants,Akash Deep
+info,player,Lucknow Super Giants,Avesh Khan
+info,player,Lucknow Super Giants,DS Rathi
+info,player,Mumbai Indians,V Puthur
+info,player,Mumbai Indians,WG Jacks
+info,player,Mumbai Indians,RD Rickelton
+info,player,Mumbai Indians,Naman Dhir
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,MJ Santner
+info,player,Mumbai Indians,RA Bawa
+info,player,Mumbai Indians,DL Chahar
+info,player,Mumbai Indians,TA Boult
+info,player,Mumbai Indians,Ashwani Kumar
+info,registry,people,A Badoni,872b03f7
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Akash Deep,0a67aec0
+info,registry,people,Ashwani Kumar,d45c29b1
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,C Bosch,172dff15
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,DS Rathi,13fc5c6d
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MJ Santner,e4a0deae
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,Naman Dhir,fffa744b
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,RA Bawa,ba6b2f91
+info,registry,people,RD Rickelton,e66732f8
+info,registry,people,RR Pant,919a3be2
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,TA Boult,a818c1be
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,V Puthur,1e030637
+info,registry,people,WG Jacks,9caf69a1

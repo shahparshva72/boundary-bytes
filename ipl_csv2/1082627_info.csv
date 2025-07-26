@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2017
+info,date,2017/04/30
+info,event,Indian Premier League
+info,match_number,37
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,DA Warner
+info,umpire,AY Dandekar
+info,umpire,S Ravi
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,VK Sharma
+info,match_referee,J Srinath
+info,winner,Sunrisers Hyderabad
+info,winner_runs,48
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,SP Jackson
+info,player,Kolkata Knight Riders,C de Grandhomme
+info,player,Kolkata Knight Riders,CR Woakes
+info,player,Kolkata Knight Riders,NM Coulter-Nile
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,Yuvraj Singh
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,Bipul Sharma
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Sunrisers Hyderabad,Mohammed Siraj
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CR Woakes,4c5d73db
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NV Ojha,890946a0
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaul,dcf81436
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SP Jackson,acc1aeda
+info,registry,people,SP Narine,9d430b40
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Yuvraj Singh,1c914163

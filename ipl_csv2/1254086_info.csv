@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Delhi Capitals
+info,gender,male
+info,season,2021
+info,date,2021/05/02
+info,event,Indian Premier League
+info,match_number,29
+info,venue,"Narendra Modi Stadium, Ahmedabad"
+info,city,Ahmedabad
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,MA Agarwal
+info,umpire,AK Chaudhary
+info,umpire,AY Dandekar
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,J Madanagopal
+info,match_referee,Shakti Singh
+info,winner,Delhi Capitals
+info,winner_wickets,7
+info,player,Punjab Kings,P Simran Singh
+info,player,Punjab Kings,MA Agarwal
+info,player,Punjab Kings,CH Gayle
+info,player,Punjab Kings,DJ Malan
+info,player,Punjab Kings,DJ Hooda
+info,player,Punjab Kings,M Shahrukh Khan
+info,player,Punjab Kings,CJ Jordan
+info,player,Punjab Kings,Harpreet Brar
+info,player,Punjab Kings,RP Meredith
+info,player,Punjab Kings,Ravi Bishnoi
+info,player,Punjab Kings,Mohammed Shami
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,S Dhawan
+info,player,Delhi Capitals,SPD Smith
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,SO Hetmyer
+info,player,Delhi Capitals,MP Stoinis
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,Lalit Yadav
+info,player,Delhi Capitals,K Rabada
+info,player,Delhi Capitals,I Sharma
+info,player,Delhi Capitals,Avesh Khan
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AR Patel,2e171977
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DJ Malan,ad9c32a2
+info,registry,people,Harpreet Brar,c05edf8e
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,Lalit Yadav,ad427b5c
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,RP Meredith,64775749
+info,registry,people,RR Pant,919a3be2
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,Shakti Singh,eb90d319

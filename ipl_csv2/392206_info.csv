@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2009
+info,date,2009/05/02
+info,event,Indian Premier League
+info,match_number,26
+info,venue,New Wanderers Stadium
+info,city,Johannesburg
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,SB Jakati
+info,umpire,DJ Harper
+info,umpire,RE Koertzen
+info,reserve_umpire,KH Hurter
+info,tv_umpire,SS Hazare
+info,match_referee,GR Viswanath
+info,winner,Chennai Super Kings
+info,winner_runs,18
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,ML Hayden
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,JDP Oram
+info,player,Chennai Super Kings,SB Jakati
+info,player,Chennai Super Kings,L Balaji
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Chennai Super Kings,S Tyagi
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,AB de Villiers
+info,player,Delhi Daredevils,TM Dilshan
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,M Manhas
+info,player,Delhi Daredevils,R Bhatia
+info,player,Delhi Daredevils,PJ Sangwan
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,A Nehra
+info,player,Delhi Daredevils,DP Nannes
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GR Viswanath,9333bc07
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JDP Oram,3eac9d95
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KH Hurter,bda8cca8
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,M Vijay,4b57e452
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Tyagi,c24a2c5d
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SS Hazare,166e5081
+info,registry,people,TM Dilshan,5bdcdb72

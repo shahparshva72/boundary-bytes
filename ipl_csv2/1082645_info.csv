@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rising Pune Supergiant
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2017
+info,date,2017/05/14
+info,event,Indian Premier League
+info,match_number,55
+info,venue,Maharashtra Cricket Association Stadium
+info,city,Pune
+info,toss_winner,Rising Pune Supergiant
+info,toss_decision,field
+info,player_of_match,JD Unadkat
+info,umpire,AY Dandekar
+info,umpire,A Deshmukh
+info,reserve_umpire,N Pandit
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,M Nayyar
+info,winner,Rising Pune Supergiant
+info,winner_wickets,9
+info,player,Kings XI Punjab,MJ Guptill
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,EJG Morgan
+info,player,Kings XI Punjab,R Tewatia
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,Swapnil Singh
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,I Sharma
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Rising Pune Supergiant,AM Rahane
+info,player,Rising Pune Supergiant,RA Tripathi
+info,player,Rising Pune Supergiant,SPD Smith
+info,player,Rising Pune Supergiant,BA Stokes
+info,player,Rising Pune Supergiant,MK Tiwary
+info,player,Rising Pune Supergiant,MS Dhoni
+info,player,Rising Pune Supergiant,DT Christian
+info,player,Rising Pune Supergiant,Washington Sundar
+info,player,Rising Pune Supergiant,SN Thakur
+info,player,Rising Pune Supergiant,JD Unadkat
+info,player,Rising Pune Supergiant,A Zampa
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,A Zampa,14f96089
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AR Patel,2e171977
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,BA Stokes,e087956b
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MJ Guptill,2be41edb
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,N Pandit,4947c258
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Swapnil Singh,983f2f61
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Washington Sundar,f19ccfad

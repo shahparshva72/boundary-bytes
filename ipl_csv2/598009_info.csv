@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Pune Warriors
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2013
+info,date,2013/04/11
+info,event,Indian Premier League
+info,match_number,13
+info,venue,Subrata Roy Sahara Stadium
+info,city,Pune
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,AJ Finch
+info,umpire,M Erasmus
+info,umpire,K Srinath
+info,reserve_umpire,PG Pathak
+info,tv_umpire,VA Kulkarni
+info,match_referee,RS Madugalle
+info,winner,Pune Warriors
+info,winner_wickets,7
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,AJ Finch
+info,player,Pune Warriors,LRPL Taylor
+info,player,Pune Warriors,Yuvraj Singh
+info,player,Pune Warriors,AD Mathews
+info,player,Pune Warriors,TL Suman
+info,player,Pune Warriors,AM Nayar
+info,player,Pune Warriors,MR Marsh
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,AB Dinda
+info,player,Rajasthan Royals,MDKJ Perera
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,BJ Hodge
+info,player,Rajasthan Royals,DH Yagnik
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,KK Cooper
+info,player,Rajasthan Royals,S Sreesanth
+info,player,Rajasthan Royals,Harmeet Singh (2)
+info,player,Rajasthan Royals,SK Trivedi
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AM Rahane,29e95537
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,DH Yagnik,063b3673
+info,registry,people,Harmeet Singh (2),0bf15e52
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KK Cooper,557153ca
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,MDKJ Perera,f21043a5
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,Yuvraj Singh,1c914163

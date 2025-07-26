@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2014
+info,date,2014/05/24
+info,event,Indian Premier League
+info,match_number,54
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,YK Pathan
+info,umpire,RM Deshpande
+info,umpire,BNJ Oxenford
+info,reserve_umpire,Nitin Menon
+info,tv_umpire,C Shamshuddin
+info,match_referee,J Srinath
+info,winner,Kolkata Knight Riders
+info,winner_wickets,4
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,R Vinay Kumar
+info,player,Kolkata Knight Riders,M Morkel
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,Y Venugopal Rao
+info,player,Sunrisers Hyderabad,DJG Sammy
+info,player,Sunrisers Hyderabad,S Anirudha
+info,player,Sunrisers Hyderabad,JO Holder
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,Parvez Rasool
+info,player,Sunrisers Hyderabad,DW Steyn
+info,player,Sunrisers Hyderabad,B Kumar
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJG Sammy,c03c6200
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JO Holder,0f721006
+info,registry,people,KV Sharma,119678fd
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,NV Ojha,890946a0
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,Parvez Rasool,9170ff49
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RM Deshpande,7d2a4250
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Anirudha,95a2ea61
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,Y Venugopal Rao,fe763256
+info,registry,people,YK Pathan,3c6ffae8

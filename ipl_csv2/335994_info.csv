@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Deccan Chargers
+info,gender,male
+info,season,2007/08
+info,date,2008/04/27
+info,event,Indian Premier League
+info,match_number,14
+info,venue,Dr DY Patil Sports Academy
+info,city,Mumbai
+info,toss_winner,Deccan Chargers
+info,toss_decision,field
+info,player_of_match,AC Gilchrist
+info,umpire,Asad Rauf
+info,umpire,SL Shastri
+info,reserve_umpire,VD Nerurkar
+info,tv_umpire,DJ Harper
+info,match_referee,S Venkataraghavan
+info,winner,Deccan Chargers
+info,winner_wickets,10
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,VVS Laxman
+info,player,Deccan Chargers,A Symonds
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,Shahid Afridi
+info,player,Deccan Chargers,SB Bangar
+info,player,Deccan Chargers,AS Yadav
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Deccan Chargers,D Kalyankrishna
+info,player,Deccan Chargers,DNT Zoysa
+info,player,Mumbai Indians,L Ronchi
+info,player,Mumbai Indians,ST Jayasuriya
+info,player,Mumbai Indians,AM Rahane
+info,player,Mumbai Indians,RV Uthappa
+info,player,Mumbai Indians,SM Pollock
+info,player,Mumbai Indians,AM Nayar
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,MA Khote
+info,player,Mumbai Indians,A Nehra
+info,player,Mumbai Indians,DS Kulkarni
+info,player,Mumbai Indians,SD Chitnis
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AS Yadav,b9be6507
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,D Kalyankrishna,94bc776b
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DNT Zoysa,e0351c86
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,L Ronchi,0fa5042b
+info,registry,people,MA Khote,0d232ffd
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SB Bangar,0604ef16
+info,registry,people,SD Chitnis,facb9086
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,SM Pollock,88fccd6c
+info,registry,people,ST Jayasuriya,f233bbb4
+info,registry,people,Shahid Afridi,0dc00542
+info,registry,people,VD Nerurkar,8647d51d
+info,registry,people,VVS Laxman,de8cce37

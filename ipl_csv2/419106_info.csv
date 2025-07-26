@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2009/10
+info,date,2010/03/12
+info,event,Indian Premier League
+info,match_number,1
+info,venue,Dr DY Patil Sports Academy
+info,city,Mumbai
+info,toss_winner,Deccan Chargers
+info,toss_decision,field
+info,player_of_match,AD Mathews
+info,umpire,RE Koertzen
+info,umpire,RB Tiffin
+info,reserve_umpire,SN Bandekar
+info,tv_umpire,BG Jerling
+info,match_referee,AJ Pycroft
+info,winner,Kolkata Knight Riders
+info,winner_runs,11
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,VVS Laxman
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,A Symonds
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,Anirudh Singh
+info,player,Deccan Chargers,TL Suman
+info,player,Deccan Chargers,WPUJC Vaas
+info,player,Deccan Chargers,Jaskaran Singh
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,BJ Hodge
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,CA Pujara
+info,player,Kolkata Knight Riders,OA Shah
+info,player,Kolkata Knight Riders,AD Mathews
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,CK Langeveldt
+info,player,Kolkata Knight Riders,I Sharma
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,Anirudh Singh,7bb62642
+info,registry,people,BG Jerling,26457e41
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CA Pujara,d4f9dbd4
+info,registry,people,CK Langeveldt,d1c94b25
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,Jaskaran Singh,d7b3a420
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Kartik,abfeb126
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,OA Shah,7bf96684
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RB Tiffin,89087a0d
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SN Bandekar,350528bb
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,VVS Laxman,de8cce37
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,WPUJC Vaas,bcce309e

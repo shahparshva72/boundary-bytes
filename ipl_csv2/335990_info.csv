@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2007/08
+info,date,2008/04/24
+info,event,Indian Premier League
+info,match_number,9
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,YK Pathan
+info,umpire,Asad Rauf
+info,umpire,MR Benson
+info,reserve_umpire,C Shamshuddin
+info,tv_umpire,SL Shastri
+info,match_referee,S Venkataraghavan
+info,winner,Rajasthan Royals
+info,winner_wickets,3
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,VVS Laxman
+info,player,Deccan Chargers,Shahid Afridi
+info,player,Deccan Chargers,A Symonds
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,AS Yadav
+info,player,Deccan Chargers,SB Bangar
+info,player,Deccan Chargers,WPUJC Vaas
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Deccan Chargers,D Kalyankrishna
+info,player,Rajasthan Royals,Kamran Akmal
+info,player,Rajasthan Royals,GC Smith
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,M Kaif
+info,player,Rajasthan Royals,RA Jadeja
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,D Salunkhe
+info,player,Rajasthan Royals,Pankaj Singh
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,MM Patel
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AS Yadav,b9be6507
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,D Kalyankrishna,94bc776b
+info,registry,people,D Salunkhe,0264c10e
+info,registry,people,GC Smith,72861603
+info,registry,people,Kamran Akmal,ff077124
+info,registry,people,M Kaif,d84378a4
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,MR Benson,790e14d3
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,Pankaj Singh,e32d22f6
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SB Bangar,0604ef16
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,Shahid Afridi,0dc00542
+info,registry,people,VVS Laxman,de8cce37
+info,registry,people,WPUJC Vaas,bcce309e
+info,registry,people,YK Pathan,3c6ffae8

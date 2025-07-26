@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2007/08
+info,date,2008/04/19
+info,event,Indian Premier League
+info,match_number,2
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,MEK Hussey
+info,umpire,MR Benson
+info,umpire,SL Shastri
+info,reserve_umpire,MSS Ranawat
+info,tv_umpire,RB Tiffin
+info,match_referee,S Venkataraghavan
+info,winner,Chennai Super Kings
+info,winner_runs,33
+info,player,Chennai Super Kings,PA Patel
+info,player,Chennai Super Kings,ML Hayden
+info,player,Chennai Super Kings,MEK Hussey
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,JDP Oram
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,Joginder Sharma
+info,player,Chennai Super Kings,P Amarnath
+info,player,Chennai Super Kings,MS Gony
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Kings XI Punjab,K Goel
+info,player,Kings XI Punjab,JR Hopes
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,SM Katich
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,P Dharmani
+info,player,Kings XI Punjab,B Lee
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,WA Mota
+info,player,Kings XI Punjab,S Sreesanth
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JDP Oram,3eac9d95
+info,registry,people,JR Hopes,2498e163
+info,registry,people,Joginder Sharma,9f961c14
+info,registry,people,K Goel,a1f1829d
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MR Benson,790e14d3
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,MSS Ranawat,8048c698
+info,registry,people,P Amarnath,6ad3a659
+info,registry,people,P Dharmani,eaa90ab4
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RB Tiffin,89087a0d
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,WA Mota,3dba85c2
+info,registry,people,Yuvraj Singh,1c914163

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2018
+info,date,2018/05/09
+info,event,Indian Premier League
+info,match_number,41
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,Ishan Kishan
+info,umpire,KN Ananthapadmanabhan
+info,umpire,AK Chaudhary
+info,reserve_umpire,R Pandit
+info,tv_umpire,HDPK Dharmasena
+info,match_referee,Prakash Bhatt
+info,winner,Mumbai Indians
+info,winner_runs,102
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,E Lewis
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,BCJ Cutting
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,JP Duminy
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,M Markande
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,CA Lynn
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,TK Curran
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Kolkata Knight Riders,M Prasidh Krishna
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,E Lewis,0ebfb1ad
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,R Pandit,8a604384
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,TK Curran,e86754b2

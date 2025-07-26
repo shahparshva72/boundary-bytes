@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rising Pune Supergiants
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2016
+info,date,2016/04/24
+info,event,Indian Premier League
+info,match_number,20
+info,venue,Maharashtra Cricket Association Stadium
+info,city,Pune
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,SA Yadav
+info,umpire,CB Gaffaney
+info,umpire,A Nand Kishore
+info,reserve_umpire,YC Barde
+info,tv_umpire,VK Sharma
+info,match_referee,Chinmay Sharma
+info,winner,Kolkata Knight Riders
+info,winner_wickets,2
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,R Sathish
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,M Morkel
+info,player,Rising Pune Supergiants,AM Rahane
+info,player,Rising Pune Supergiants,F du Plessis
+info,player,Rising Pune Supergiants,SPD Smith
+info,player,Rising Pune Supergiants,NLTC Perera
+info,player,Rising Pune Supergiants,JA Morkel
+info,player,Rising Pune Supergiants,MS Dhoni
+info,player,Rising Pune Supergiants,R Bhatia
+info,player,Rising Pune Supergiants,SS Tiwary
+info,player,Rising Pune Supergiants,R Ashwin
+info,player,Rising Pune Supergiants,Ankit Sharma
+info,player,Rising Pune Supergiants,M Ashwin
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Ankit Sharma,24d94623
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,F du Plessis,3355b542
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R Sathish,626c5379
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,YC Barde,b90f3346
+info,registry,people,YK Pathan,3c6ffae8

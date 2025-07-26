@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2018
+info,date,2018/04/29
+info,event,Indian Premier League
+info,match_number,28
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,KS Williamson
+info,umpire,BNJ Oxenford
+info,umpire,A Nand Kishore
+info,reserve_umpire,GR Sadashiv Iyer
+info,tv_umpire,S Ravi
+info,match_referee,AJ Pycroft
+info,winner,Sunrisers Hyderabad
+info,winner_runs,11
+info,player,Sunrisers Hyderabad,AD Hales
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,Shakib Al Hasan
+info,player,Sunrisers Hyderabad,YK Pathan
+info,player,Sunrisers Hyderabad,WP Saha
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,Basil Thampi
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,RA Tripathi
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,MK Lomror
+info,player,Rajasthan Royals,K Gowtham
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,DS Kulkarni
+info,player,Rajasthan Royals,IS Sodhi
+info,player,Rajasthan Royals,JD Unadkat
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BA Stokes,e087956b
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,Basil Thampi,871e9faf
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,GR Sadashiv Iyer,0be62e31
+info,registry,people,IS Sodhi,641ac5ff
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaul,dcf81436
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YK Pathan,3c6ffae8

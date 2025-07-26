@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Gujarat Titans
+info,gender,male
+info,season,2023
+info,date,2023/04/04
+info,event,Indian Premier League
+info,match_number,7
+info,venue,"Arun Jaitley Stadium, Delhi"
+info,city,Delhi
+info,toss_winner,Gujarat Titans
+info,toss_decision,field
+info,player_of_match,B Sai Sudharsan
+info,umpire,A Nand Kishore
+info,umpire,GR Sadashiv Iyer
+info,reserve_umpire,M Kuppuraj
+info,tv_umpire,AK Chaudhary
+info,match_referee,DS Manohar
+info,winner,Gujarat Titans
+info,winner_wickets,6
+info,player,Delhi Capitals,KK Ahmed
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,MR Marsh
+info,player,Delhi Capitals,SN Khan
+info,player,Delhi Capitals,RR Rossouw
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,Aman Hakim Khan
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,A Nortje
+info,player,Delhi Capitals,Mukesh Kumar
+info,player,Gujarat Titans,J Little
+info,player,Gujarat Titans,WP Saha
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,B Sai Sudharsan
+info,player,Gujarat Titans,HH Pandya
+info,player,Gujarat Titans,V Shankar
+info,player,Gujarat Titans,DA Miller
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,AS Joseph
+info,player,Gujarat Titans,Yash Dayal
+info,player,Gujarat Titans,Mohammed Shami
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AR Patel,2e171977
+info,registry,people,AS Joseph,b0946605
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,Aman Hakim Khan,378daa89
+info,registry,people,B Sai Sudharsan,d5130a30
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DS Manohar,b35f3ac8
+info,registry,people,GR Sadashiv Iyer,0be62e31
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,J Little,9061a703
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Kuppuraj,aa4063d0
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RR Rossouw,cad00a4d
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SN Khan,f088b960
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Yash Dayal,7210d461

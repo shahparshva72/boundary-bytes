@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Rising Pune Supergiants
+info,gender,male
+info,season,2016
+info,date,2016/04/17
+info,event,Indian Premier League
+info,match_number,10
+info,venue,"Punjab Cricket Association IS Bindra Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Rising Pune Supergiants
+info,toss_decision,bat
+info,player_of_match,M Vohra
+info,umpire,S Ravi
+info,umpire,C Shamshuddin
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,Nitin Menon
+info,match_referee,M Nayyar
+info,winner,Kings XI Punjab
+info,winner_wickets,6
+info,player,Kings XI Punjab,M Vijay
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,KJ Abbott
+info,player,Kings XI Punjab,P Sahu
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Rising Pune Supergiants,AM Rahane
+info,player,Rising Pune Supergiants,F du Plessis
+info,player,Rising Pune Supergiants,KP Pietersen
+info,player,Rising Pune Supergiants,NLTC Perera
+info,player,Rising Pune Supergiants,SPD Smith
+info,player,Rising Pune Supergiants,MS Dhoni
+info,player,Rising Pune Supergiants,IK Pathan
+info,player,Rising Pune Supergiants,R Ashwin
+info,player,Rising Pune Supergiants,I Sharma
+info,player,Rising Pune Supergiants,Ankit Sharma
+info,player,Rising Pune Supergiants,M Ashwin
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AR Patel,2e171977
+info,registry,people,Ankit Sharma,24d94623
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,KJ Abbott,a9da7784
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Vijay,4b57e452
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,P Sahu,9a0146b3
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,WP Saha,fe11caa6

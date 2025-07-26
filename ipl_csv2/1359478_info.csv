@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2023
+info,date,2023/04/02
+info,event,Indian Premier League
+info,match_number,4
+info,venue,"Rajiv Gandhi International Stadium, Uppal, Hyderabad"
+info,city,Hyderabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,JC Buttler
+info,umpire,KN Ananthapadmanabhan
+info,umpire,R Pandit
+info,reserve_umpire,Abhijit Bhattacharya
+info,tv_umpire,Navdeep Singh
+info,match_referee,V Narayan Kutty
+info,winner,Rajasthan Royals
+info,winner_runs,72
+info,player,Rajasthan Royals,NA Saini
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,D Padikkal
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,JO Holder
+info,player,Rajasthan Royals,TA Boult
+info,player,Rajasthan Royals,KM Asif
+info,player,Rajasthan Royals,YS Chahal
+info,player,Sunrisers Hyderabad,Fazalhaq Farooqi
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,MA Agarwal
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,HC Brook
+info,player,Sunrisers Hyderabad,Washington Sundar
+info,player,Sunrisers Hyderabad,GD Phillips
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,AU Rashid
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Umran Malik
+info,player,Sunrisers Hyderabad,T Natarajan
+info,registry,people,AU Rashid,249d60c9
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhijit Bhattacharya,59ec9638
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,Fazalhaq Farooqi,e9c7f0d0
+info,registry,people,GD Phillips,9a46c4e5
+info,registry,people,HC Brook,4ae1755b
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JO Holder,0f721006
+info,registry,people,KM Asif,798cc28e
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,NA Saini,21d4e29b
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Parag,04a418e8
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,T Natarajan,ce794613
+info,registry,people,TA Boult,a818c1be
+info,registry,people,Umran Malik,81c08fa3
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YS Chahal,57ee1fde

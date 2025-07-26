@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2018
+info,date,2018/05/23
+info,event,Indian Premier League
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,AD Russell
+info,umpire,AK Chaudhary
+info,umpire,Nitin Menon
+info,reserve_umpire,A Nand Kishore
+info,tv_umpire,HDPK Dharmasena
+info,match_referee,J Srinath
+info,winner,Kolkata Knight Riders
+info,winner_runs,25
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,CA Lynn
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,JPR Scantlebury-Searles
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Kolkata Knight Riders,M Prasidh Krishna
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,RA Tripathi
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,H Klaasen
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,K Gowtham
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,IS Sodhi
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,B Laughlin
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,IS Sodhi,641ac5ff
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JC Archer,5574750c
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JPR Scantlebury-Searles,99ed60f8
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,SP Narine,9d430b40
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shubman Gill,b4b99816

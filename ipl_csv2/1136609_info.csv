@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2018
+info,date,2018/05/15
+info,event,Indian Premier League
+info,match_number,49
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,Kuldeep Yadav
+info,umpire,AK Chaudhary
+info,umpire,HDPK Dharmasena
+info,reserve_umpire,K Srinath
+info,tv_umpire,VA Kulkarni
+info,match_referee,M Nayyar
+info,winner,Kolkata Knight Riders
+info,winner_wickets,6
+info,player,Rajasthan Royals,RA Tripathi
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,K Gowtham
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,IS Sodhi
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,Anureet Singh
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,CA Lynn
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,Shivam Mavi
+info,player,Kolkata Knight Riders,JPR Scantlebury-Searles
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Kolkata Knight Riders,M Prasidh Krishna
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Anureet Singh,69be866a
+info,registry,people,BA Stokes,e087956b
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,IS Sodhi,641ac5ff
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JPR Scantlebury-Searles,99ed60f8
+info,registry,people,K Gowtham,90de905a
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SP Narine,9d430b40
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shivam Mavi,c38d3503
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,VA Kulkarni,8fe0c4f8

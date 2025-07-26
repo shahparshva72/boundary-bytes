@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2017
+info,date,2017/04/28
+info,event,Indian Premier League
+info,match_number,32
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,G Gambhir
+info,umpire,NJ Llong
+info,umpire,S Ravi
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,VK Sharma
+info,match_referee,AJ Pycroft
+info,winner,Kolkata Knight Riders
+info,winner_wickets,7
+info,player,Delhi Daredevils,SV Samson
+info,player,Delhi Daredevils,KK Nair
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,CH Morris
+info,player,Delhi Daredevils,CJ Anderson
+info,player,Delhi Daredevils,AR Bawne
+info,player,Delhi Daredevils,PJ Cummins
+info,player,Delhi Daredevils,K Rabada
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Z Khan
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,SP Jackson
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,C de Grandhomme
+info,player,Kolkata Knight Riders,CR Woakes
+info,player,Kolkata Knight Riders,NM Coulter-Nile
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AR Bawne,afe3355a
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CJ Anderson,8abdf100
+info,registry,people,CR Woakes,4c5d73db
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,KK Nair,944533a5
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,NJ Llong,573fb985
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,RR Pant,919a3be2
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SP Jackson,acc1aeda
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Z Khan,91a4a398

@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2020/21
+info,date,2020/10/14
+info,event,Indian Premier League
+info,match_number,30
+info,venue,Dubai International Cricket Stadium
+info,city,
+info,toss_winner,Delhi Capitals
+info,toss_decision,bat
+info,player_of_match,A Nortje
+info,umpire,AK Chaudhary
+info,umpire,Nitin Menon
+info,reserve_umpire,YC Barde
+info,tv_umpire,AY Dandekar
+info,match_referee,J Srinath
+info,winner,Delhi Capitals
+info,winner_runs,13
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,S Dhawan
+info,player,Delhi Capitals,AM Rahane
+info,player,Delhi Capitals,SS Iyer
+info,player,Delhi Capitals,MP Stoinis
+info,player,Delhi Capitals,AT Carey
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,R Ashwin
+info,player,Delhi Capitals,TU Deshpande
+info,player,Delhi Capitals,K Rabada
+info,player,Delhi Capitals,A Nortje
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,RV Uthappa
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,R Tewatia
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,Kartik Tyagi
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AR Patel,2e171977
+info,registry,people,AT Carey,69d03465
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,BA Stokes,e087956b
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,Kartik Tyagi,5d2eea49
+info,registry,people,Lalit Yadav,ad427b5c
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,TU Deshpande,46a9bea1
+info,registry,people,YC Barde,b90f3346

@@ -1,0 +1,73 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Mumbai Indians
+info,gender,male
+info,season,2023
+info,date,2023/05/21
+info,event,Indian Premier League
+info,match_number,69
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,C Green
+info,umpire,KN Ananthapadmanabhan
+info,umpire,RJ Tucker
+info,reserve_umpire,P Joshi
+info,tv_umpire,R Pandit
+info,match_referee,P Dharmani
+info,winner,Mumbai Indians
+info,winner_wickets,8
+info,player,Sunrisers Hyderabad,Kartik Tyagi
+info,player,Sunrisers Hyderabad,Vivrant Sharma
+info,player,Sunrisers Hyderabad,MA Agarwal
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,GD Phillips
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,HC Brook
+info,player,Sunrisers Hyderabad,Sanvir Singh
+info,player,Sunrisers Hyderabad,Nithish Kumar Reddy
+info,player,Sunrisers Hyderabad,Mayank Dagar
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Umran Malik
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,C Green
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,N Wadhera
+info,player,Mumbai Indians,CJ Jordan
+info,player,Mumbai Indians,PP Chawla
+info,player,Mumbai Indians,JP Behrendorff
+info,player,Mumbai Indians,K Kartikeya
+info,player,Mumbai Indians,Akash Madhwal
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Akash Madhwal,4bd09374
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,C Green,eaa76d3c
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,GD Phillips,9a46c4e5
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HC Brook,4ae1755b
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,K Kartikeya,f6d8a7ab
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,Kartik Tyagi,5d2eea49
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,Mayank Dagar,a457cfb5
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,Nithish Kumar Reddy,aad0c365
+info,registry,people,P Dharmani,eaa90ab4
+info,registry,people,P Joshi,ffc0e370
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Pandit,8a604384
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,Sanvir Singh,b0f2baf4
+info,registry,people,TH David,f1f99156
+info,registry,people,Umran Malik,81c08fa3
+info,registry,people,Vivrant Sharma,1b7b0fa7

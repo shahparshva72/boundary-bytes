@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Lucknow Super Giants
+info,team,Delhi Capitals
+info,gender,male
+info,season,2025
+info,date,2025/03/24
+info,event,Indian Premier League
+info,match_number,4
+info,venue,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam"
+info,city,Visakhapatnam
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,Ashutosh Sharma
+info,umpire,Abhijit Bhattacharya
+info,umpire,UV Gandhe
+info,reserve_umpire,AK Argal
+info,tv_umpire,VK Sharma
+info,match_referee,V Narayan Kutty
+info,winner,Delhi Capitals
+info,winner_wickets,1
+info,player,Lucknow Super Giants,M Siddharth
+info,player,Lucknow Super Giants,AK Markram
+info,player,Lucknow Super Giants,MR Marsh
+info,player,Lucknow Super Giants,N Pooran
+info,player,Lucknow Super Giants,RR Pant
+info,player,Lucknow Super Giants,DA Miller
+info,player,Lucknow Super Giants,A Badoni
+info,player,Lucknow Super Giants,SN Thakur
+info,player,Lucknow Super Giants,Shahbaz Ahmed
+info,player,Lucknow Super Giants,Ravi Bishnoi
+info,player,Lucknow Super Giants,DS Rathi
+info,player,Lucknow Super Giants,Prince Yadav
+info,player,Delhi Capitals,Mukesh Kumar
+info,player,Delhi Capitals,J Fraser-McGurk
+info,player,Delhi Capitals,F du Plessis
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,Sameer Rizvi
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,T Stubbs
+info,player,Delhi Capitals,Ashutosh Sharma
+info,player,Delhi Capitals,V Nigam
+info,player,Delhi Capitals,MA Starc
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,MM Sharma
+info,registry,people,A Badoni,872b03f7
+info,registry,people,AK Argal,0ee78cf3
+info,registry,people,AK Markram,6a26221c
+info,registry,people,AR Patel,2e171977
+info,registry,people,Abhijit Bhattacharya,59ec9638
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,Ashutosh Sharma,84d9c311
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DS Rathi,13fc5c6d
+info,registry,people,F du Plessis,3355b542
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Siddharth,cf0ccafa
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,Prince Yadav,80b2fb19
+info,registry,people,RR Pant,919a3be2
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,Sameer Rizvi,f89d3b11
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,T Vijay,51ec3919
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,V Nigam,5ffc0565
+info,registry,people,VK Sharma,a7a49df4

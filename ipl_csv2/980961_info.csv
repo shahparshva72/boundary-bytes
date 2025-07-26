@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Gujarat Lions
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2016
+info,date,2016/05/03
+info,event,Indian Premier League
+info,match_number,31
+info,venue,Saurashtra Cricket Association Stadium
+info,city,Rajkot
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,RR Pant
+info,umpire,CB Gaffaney
+info,umpire,BNJ Oxenford
+info,reserve_umpire,YC Barde
+info,tv_umpire,A Nand Kishore
+info,match_referee,M Nayyar
+info,winner,Delhi Daredevils
+info,winner_wickets,8
+info,player,Delhi Daredevils,Q de Kock
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,SV Samson
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,KK Nair
+info,player,Delhi Daredevils,SW Billings
+info,player,Delhi Daredevils,CH Morris
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Mohammed Shami
+info,player,Delhi Daredevils,Z Khan
+info,player,Delhi Daredevils,S Nadeem
+info,player,Gujarat Lions,DR Smith
+info,player,Gujarat Lions,BB McCullum
+info,player,Gujarat Lions,AJ Finch
+info,player,Gujarat Lions,SK Raina
+info,player,Gujarat Lions,KD Karthik
+info,player,Gujarat Lions,RA Jadeja
+info,player,Gujarat Lions,JP Faulkner
+info,player,Gujarat Lions,Ishan Kishan
+info,player,Gujarat Lions,P Kumar
+info,player,Gujarat Lions,DS Kulkarni
+info,player,Gujarat Lions,S Kaushik
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,DR Smith,35205dfc
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KK Nair,944533a5
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Kaushik,1da489ff
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,SW Billings,c16d4035
+info,registry,people,YC Barde,b90f3346
+info,registry,people,Z Khan,91a4a398

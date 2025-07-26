@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kochi Tuskers Kerala
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2011
+info,date,2011/05/15
+info,event,Indian Premier League
+info,match_number,61
+info,venue,Holkar Cricket Stadium
+info,city,Indore
+info,toss_winner,Kochi Tuskers Kerala
+info,toss_decision,field
+info,player_of_match,BJ Hodge
+info,umpire,PR Reiffel
+info,umpire,RJ Tucker
+info,reserve_umpire,NA Patwardhan
+info,tv_umpire,S Asnani
+info,match_referee,RS Mahanama
+info,winner,Kochi Tuskers Kerala
+info,winner_wickets,8
+info,player,Kochi Tuskers Kerala,BB McCullum
+info,player,Kochi Tuskers Kerala,DPMD Jayawardene
+info,player,Kochi Tuskers Kerala,PA Patel
+info,player,Kochi Tuskers Kerala,BJ Hodge
+info,player,Kochi Tuskers Kerala,OA Shah
+info,player,Kochi Tuskers Kerala,RA Jadeja
+info,player,Kochi Tuskers Kerala,RP Singh
+info,player,Kochi Tuskers Kerala,P Parameswaran
+info,player,Kochi Tuskers Kerala,P Prasanth
+info,player,Kochi Tuskers Kerala,S Sreesanth
+info,player,Kochi Tuskers Kerala,Y Gnaneswara Rao
+info,player,Rajasthan Royals,FY Fazal
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,AL Menaria
+info,player,Rajasthan Royals,PR Shah
+info,player,Rajasthan Royals,JDP Oram
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,AA Chavan
+info,player,Rajasthan Royals,SW Tait
+info,player,Rajasthan Royals,ND Doshi
+info,registry,people,AA Chavan,29d72eb2
+info,registry,people,AL Menaria,8291f939
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,FY Fazal,c15e2193
+info,registry,people,JDP Oram,3eac9d95
+info,registry,people,NA Patwardhan,e6ef687d
+info,registry,people,ND Doshi,6ec424a9
+info,registry,people,OA Shah,7bf96684
+info,registry,people,P Parameswaran,0c432afb
+info,registry,people,P Prasanth,ddb00822
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,PR Shah,0aadc906
+info,registry,people,R Dravid,0184dc35
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SW Tait,addfb70e
+info,registry,people,Y Gnaneswara Rao,bae11797
