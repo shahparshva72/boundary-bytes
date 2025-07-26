@@ -95,12 +95,12 @@ async function main() {
     process.exit(1);
   }
 
-  const configsToProcess = targetLeague 
-    ? LEAGUE_CONFIGS.filter(config => config.league === targetLeague)
+  const configsToProcess = targetLeague
+    ? LEAGUE_CONFIGS.filter((config) => config.league === targetLeague)
     : LEAGUE_CONFIGS;
 
   console.log('🌱 Starting multi-league seed process...');
-  
+
   for (const config of configsToProcess) {
     console.log(`\n📊 Processing ${config.league} data from ${config.csvDirectory}`);
     await processLeague(config);
@@ -131,7 +131,9 @@ async function processLeague(config: LeagueConfig) {
     }
   });
 
-  console.log(`Found ${matchFiles.length} matches and ${infoFiles.length} info files for ${config.league}`);
+  console.log(
+    `Found ${matchFiles.length} matches and ${infoFiles.length} info files for ${config.league}`,
+  );
 
   // Process info files first
   await processInfoFiles(infoFiles, config);
