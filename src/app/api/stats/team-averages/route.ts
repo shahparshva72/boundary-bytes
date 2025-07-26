@@ -1,8 +1,22 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 
-export async function GET() {
+// Valid league values
+const VALID_LEAGUES = ['WPL', 'IPL'] as const;
+type League = (typeof VALID_LEAGUES)[number];
+
+function validateLeague(league: string | null): League {
+  if (!league) return 'WPL'; // Default to WPL for backward compatibility
+  if (VALID_LEAGUES.includes(league as League)) {
+    return league as League;
+  }
+  throw new Error(`Invalid league: ${league}. Valid leagues are: ${VALID_LEAGUES.join(', ')}`);
+}
+
+export async function GET(request: Request) {
   try {
+    const { searchParams } = new URL(request.url);
+    const league = validateLeague(searchParams.get('league'));
     // Use raw SQL query to optimize performance and reduce connection usage
     const teamAveragesData = await prisma.$queryRaw<
       Array<{
@@ -20,19 +34,21 @@ export async function GET() {
       WITH standardized_deliveries AS (
         SELECT
           CASE
-            WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
+            WHEN d.batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
             THEN 'Royal Challengers Bangalore'
-            ELSE batting_team
+            ELSE d.batting_team
           END as team,
-          match_id,
-          innings,
-          runs_off_bat,
-          extras,
-          wides,
-          player_dismissed,
-          wicket_type
-        FROM wpl_delivery
-        WHERE innings <= 2  -- Exclude super overs (innings > 2)
+          d.match_id,
+          d.innings,
+          d.runs_off_bat,
+          d.extras,
+          d.wides,
+          d.player_dismissed,
+          d.wicket_type
+        FROM wpl_delivery d
+        JOIN wpl_match m ON d.match_id = m.match_id
+        WHERE d.innings <= 2  -- Exclude super overs (innings > 2)
+          AND m.league = ${league}
       ),
       team_innings AS (
         SELECT
@@ -104,9 +120,27 @@ export async function GET() {
 
     return NextResponse.json({
       data: processedData,
+      league,
+      metadata: {
+        availableLeagues: VALID_LEAGUES,
+        totalTeams: processedData.length,
+      },
     });
   } catch (error) {
     console.error('Error fetching team averages:', error);
+
+    // Handle league validation errors
+    if (error instanceof Error && error.message.includes('Invalid league')) {
+      return NextResponse.json(
+        {
+          error: error.message,
+          code: 'INVALID_LEAGUE',
+          availableLeagues: VALID_LEAGUES,
+        },
+        { status: 400 },
+      );
+    }
+
     return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
   }
 }

@@ -1,22 +1,37 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 
+// Valid league values
+const VALID_LEAGUES = ['WPL', 'IPL'] as const;
+type League = (typeof VALID_LEAGUES)[number];
+
+function validateLeague(league: string | null): League {
+  if (!league) return 'WPL'; // Default to WPL for backward compatibility
+  if (VALID_LEAGUES.includes(league as League)) {
+    return league as League;
+  }
+  throw new Error(`Invalid league: ${league}. Valid leagues are: ${VALID_LEAGUES.join(', ')}`);
+}
+
 export async function GET(
   request: NextRequest,
   { params }: { params: Promise<{ matchId: string }> },
 ) {
   try {
+    const { searchParams } = new URL(request.url);
     const { matchId } = await params;
     const matchIdNum = parseInt(matchId, 10);
+    const league = validateLeague(searchParams.get('league'));
 
     if (isNaN(matchIdNum)) {
       return NextResponse.json({ error: 'Invalid match ID' }, { status: 400 });
     }
 
-    // First, get match info
+    // First, get match info and verify league
     const matchInfo = await prisma.$queryRaw<
       Array<{
         match_id: number;
+        league: string;
         season: string;
         start_date: Date;
         venue: string;
@@ -25,29 +40,31 @@ export async function GET(
     >`
       WITH match_teams AS (
         SELECT
-          match_id,
-          season,
-          start_date,
-          venue,
+          m.match_id,
+          m.league,
+          m.season,
+          m.start_date,
+          m.venue,
           STRING_AGG(DISTINCT
             CASE
-              WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
+              WHEN d.batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
               THEN 'Royal Challengers Bangalore'
-              ELSE batting_team
+              ELSE d.batting_team
             END, ' vs ' ORDER BY
             CASE
-              WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
+              WHEN d.batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
               THEN 'Royal Challengers Bangalore'
-              ELSE batting_team
+              ELSE d.batting_team
             END
           ) as teams
-        FROM wpl_delivery d
-        JOIN wpl_match m ON d.match_id = m.match_id
-        WHERE d.match_id = ${matchIdNum}
-        GROUP BY match_id, season, start_date, venue
+        FROM wpl_match m
+        JOIN wpl_delivery d ON d.match_id = m.match_id
+        WHERE m.match_id = ${matchIdNum} AND m.league = ${league}
+        GROUP BY m.match_id, m.league, m.season, m.start_date, m.venue
       )
       SELECT
         match_id,
+        league,
         season,
         start_date,
         venue,
@@ -56,7 +73,15 @@ export async function GET(
     `;
 
     if (matchInfo.length === 0) {
-      return NextResponse.json({ error: 'Match not found' }, { status: 404 });
+      return NextResponse.json(
+        {
+          error: `Match not found in ${league} league`,
+          code: 'MATCH_NOT_FOUND',
+          league,
+          matchId: matchIdNum,
+        },
+        { status: 404 },
+      );
     }
 
     // Get fall of wickets data
@@ -74,22 +99,24 @@ export async function GET(
     >`
       WITH wicket_details AS (
         SELECT
-          match_id,
-          innings,
-          ball,
-          player_dismissed,
-          wicket_type,
-          bowler,
+          d.match_id,
+          d.innings,
+          d.ball,
+          d.player_dismissed,
+          d.wicket_type,
+          d.bowler,
           CASE
-            WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
+            WHEN d.batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
             THEN 'Royal Challengers Bangalore'
-            ELSE batting_team
+            ELSE d.batting_team
           END as batting_team,
-          ROW_NUMBER() OVER (PARTITION BY match_id, innings ORDER BY ball) as wicket_number
-        FROM wpl_delivery
-        WHERE player_dismissed IS NOT NULL
-          AND match_id = ${matchIdNum}
-          AND wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket', 'run out', 'retired hurt', 'obstructing the field', 'hit the ball twice', 'handled the ball', 'timed out')
+          ROW_NUMBER() OVER (PARTITION BY d.match_id, d.innings ORDER BY d.ball) as wicket_number
+        FROM wpl_delivery d
+        JOIN wpl_match m ON d.match_id = m.match_id
+        WHERE d.player_dismissed IS NOT NULL
+          AND d.match_id = ${matchIdNum}
+          AND m.league = ${league}
+          AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket', 'run out', 'retired hurt', 'obstructing the field', 'hit the ball twice', 'handled the ball', 'timed out')
       ),
       runs_at_wicket AS (
         SELECT
@@ -153,17 +180,35 @@ export async function GET(
     const response = {
       matchInfo: {
         id: matchInfo[0].match_id,
+        league: matchInfo[0].league,
         teams: matchInfo[0].teams.split(' vs '),
         venue: matchInfo[0].venue,
         date: matchInfo[0].start_date.toISOString().split('T')[0],
         season: matchInfo[0].season,
       },
       innings: Object.values(inningsData),
+      metadata: {
+        availableLeagues: VALID_LEAGUES,
+        totalWickets: fallOfWicketsData.length,
+      },
     };
 
     return NextResponse.json(response);
   } catch (error) {
     console.error('Error fetching fall of wickets:', error);
+
+    // Handle league validation errors
+    if (error instanceof Error && error.message.includes('Invalid league')) {
+      return NextResponse.json(
+        {
+          error: error.message,
+          code: 'INVALID_LEAGUE',
+          availableLeagues: VALID_LEAGUES,
+        },
+        { status: 400 },
+      );
+    }
+
     return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
   }
 }
