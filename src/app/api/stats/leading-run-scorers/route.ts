@@ -43,7 +43,7 @@ export async function GET(request: NextRequest) {
         COUNT(*) FILTER (WHERE d.runs_off_bat = 0) as dot_balls
       FROM wpl_delivery d
       JOIN wpl_match m ON d.match_id = m.match_id
-      WHERE m.league = ${league}
+      WHERE m.league = ${league} AND d.innings <= 2
       GROUP BY d.striker
       HAVING SUM(d.runs_off_bat) > 0
       ORDER BY SUM(d.runs_off_bat) DESC

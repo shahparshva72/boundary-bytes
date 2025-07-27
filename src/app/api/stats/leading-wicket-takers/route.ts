@@ -42,7 +42,7 @@ export async function GET(request: NextRequest) {
         COUNT(DISTINCT d.match_id) as matches
       FROM wpl_delivery d
       JOIN wpl_match m ON d.match_id = m.match_id
-      WHERE m.league = ${league}
+      WHERE m.league = ${league} AND d.innings <= 2
       GROUP BY d.bowler
       HAVING COUNT(*) FILTER (
         WHERE d.player_dismissed IS NOT NULL

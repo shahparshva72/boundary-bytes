@@ -48,7 +48,7 @@ export async function GET(request: Request) {
         END as "average"
       FROM wpl_delivery d
       JOIN wpl_match m ON d.match_id = m.match_id
-      WHERE d.striker = ${batter} AND d.bowler = ${bowler} AND m.league = ${league}
+      WHERE d.striker = ${batter} AND d.bowler = ${bowler} AND m.league = ${league} AND d.innings <= 2
     `;
 
     // The SQL query with aggregates and no GROUP BY is guaranteed to return exactly one row.
