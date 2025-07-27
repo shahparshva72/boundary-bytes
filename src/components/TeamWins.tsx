@@ -1,7 +1,6 @@
 'use client';
 
-import { fetchTeamWins } from '@/services/statsService';
-import { useQuery } from '@tanstack/react-query';
+import { useTeamWins } from '@/hooks/useStatsAPI';
 import { MoonLoader } from 'react-spinners';
 
 interface TeamWinRow {
@@ -14,10 +13,7 @@ interface TeamWinRow {
 }
 
 export default function TeamWins() {
-  const { data, isLoading } = useQuery({
-    queryKey: ['teamWins'],
-    queryFn: fetchTeamWins,
-  });
+  const { data, isLoading } = useTeamWins();
 
   return (
     <div className="w-full mx-auto p-4">

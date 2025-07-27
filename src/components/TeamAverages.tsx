@@ -1,7 +1,6 @@
 'use client';
 
-import { fetchTeamAverages } from '@/services/statsService';
-import { useQuery } from '@tanstack/react-query';
+import { useTeamAverages } from '@/hooks/useStatsAPI';
 import { MoonLoader } from 'react-spinners';
 
 interface TeamAveragesData {
@@ -17,10 +16,7 @@ interface TeamAveragesData {
 }
 
 export default function TeamAverages() {
-  const { data, isLoading } = useQuery({
-    queryKey: ['teamAverages'],
-    queryFn: fetchTeamAverages,
-  });
+  const { data, isLoading } = useTeamAverages();
 
   return (
     <div className="w-full mx-auto p-4">

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { fetchMatchup } from '@/services/statsService';
+import { useMatchup } from '@/hooks/useStatsAPI';
 import { MoonLoader } from 'react-spinners';
 import dynamic from 'next/dynamic';
 
@@ -19,15 +19,14 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
   const [selectedBowler, setSelectedBowler] = useState<{ value: string; label: string } | null>(
     null,
   );
-  const [matchupData, setMatchupData] = useState<{
-    runsScored: number;
-    ballsFaced: number;
-    dismissals: number;
-    strikeRate: string;
-    average: string;
-  } | null>(null);
-  const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [error, setError] = useState<string | null>(null);
+
+  const {
+    data: matchupData,
+    isLoading,
+    error: queryError,
+  } = useMatchup(selectedBatter?.value || '', selectedBowler?.value || '');
+
+  const error = queryError ? 'Failed to fetch matchup data.' : null;
 
   const batterOptions = batters.map((batter) => ({ value: batter, label: batter }));
   const bowlerOptions = bowlers.map((bowler) => ({ value: bowler, label: bowler }));
@@ -40,22 +39,9 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
     setSelectedBowler(newValue as { value: string; label: string } | null);
   };
 
-  const handleFetchMatchup = async () => {
+  const handleFetchMatchup = () => {
     if (!selectedBatter || !selectedBowler) {
-      setError('Please select both a batter and a bowler.');
       return;
-    }
-    setIsLoading(true);
-    setError(null);
-    setMatchupData(null);
-    try {
-      const data = await fetchMatchup(selectedBatter.value, selectedBowler.value);
-      setMatchupData(data);
-    } catch (error) {
-      console.error('Failed to fetch matchup data:', error);
-      setError('Failed to fetch matchup data.');
-    } finally {
-      setIsLoading(false);
     }
   };
 
@@ -133,7 +119,7 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
         </div>
       )}
 
-      {matchupData && (
+      {matchupData?.data && (
         <div className="mt-8 w-full ">
           <div className="bg-white p-8 rounded-none border-4 border-black">
             <h2 className="text-3xl font-black text-center mb-6 text-black">
@@ -157,7 +143,7 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
                       Runs Scored
                     </td>
                     <td className="p-4 font-mono text-lg border-4 border-black text-center text-black">
-                      {matchupData.runsScored}
+                      {matchupData.data.runsScored}
                     </td>
                   </tr>
                   <tr className="bg-[#FFED66]">
@@ -165,7 +151,7 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
                       Balls Faced
                     </td>
                     <td className="p-4 font-mono text-lg border-4 border-black text-center text-black">
-                      {matchupData.ballsFaced}
+                      {matchupData.data.ballsFaced}
                     </td>
                   </tr>
                   <tr className="bg-white">
@@ -173,7 +159,7 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
                       Dismissals
                     </td>
                     <td className="p-4 font-mono text-lg border-4 border-black text-center text-black">
-                      {matchupData.dismissals}
+                      {matchupData.data.dismissals}
                     </td>
                   </tr>
                   <tr className="bg-[#FFED66]">
@@ -181,7 +167,7 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
                       Strike Rate
                     </td>
                     <td className="p-4 font-mono text-lg border-4 border-black text-center text-black">
-                      {matchupData.strikeRate}
+                      {matchupData.data.strikeRate}
                     </td>
                   </tr>
                   <tr className="bg-white">
@@ -189,7 +175,7 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
                       Average
                     </td>
                     <td className="p-4 font-mono text-lg border-4 border-black text-center text-black">
-                      {matchupData.average}
+                      {matchupData.data.average}
                     </td>
                   </tr>
                 </tbody>

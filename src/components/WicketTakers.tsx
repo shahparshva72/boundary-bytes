@@ -1,8 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { fetchWicketTakers } from '@/services/statsService';
-import { useQuery } from '@tanstack/react-query';
+import { useWicketTakers } from '@/hooks/useStatsAPI';
 import { MoonLoader } from 'react-spinners';
 import Pagination from './Pagination';
 
@@ -17,12 +16,9 @@ interface WicketTakerData {
 export default function WicketTakers() {
   const [currentPage, setCurrentPage] = useState(1);
 
-  const { data, isLoading } = useQuery({
-    queryKey: ['wicketTakers', currentPage],
-    queryFn: () => fetchWicketTakers(currentPage),
-  });
+  const { data, isLoading } = useWicketTakers(currentPage);
 
-  const totalPages = data ? Math.ceil(data.total / 10) : 1;
+  const totalPages = data?.pagination ? data.pagination.pages : 1;
 
   return (
     <div className="w-full mx-auto p-4">

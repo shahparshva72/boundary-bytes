@@ -1,8 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { fetchBowlingWicketTypes } from '@/services/statsService';
-import { useQuery } from '@tanstack/react-query';
+import { useBowlingWicketTypes } from '@/hooks/useStatsAPI';
 import { MoonLoader } from 'react-spinners';
 import Pagination from './Pagination';
 
@@ -23,12 +22,9 @@ interface BowlingWicketTypesData {
 export default function BowlingWicketTypes() {
   const [currentPage, setCurrentPage] = useState(1);
 
-  const { data, isLoading } = useQuery({
-    queryKey: ['bowlingWicketTypes', currentPage],
-    queryFn: () => fetchBowlingWicketTypes(currentPage),
-  });
+  const { data, isLoading } = useBowlingWicketTypes(currentPage);
 
-  const totalPages = data ? Math.ceil(data.total / 10) : 1;
+  const totalPages = data?.pagination ? data.pagination.pages : 1;
 
   return (
     <div className="w-full mx-auto p-4">

@@ -1,8 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { fetchRunScorers } from '@/services/statsService';
-import { useQuery } from '@tanstack/react-query';
+import { useRunScorers } from '@/hooks/useStatsAPI';
 import { MoonLoader } from 'react-spinners';
 import Pagination from './Pagination';
 
@@ -20,12 +19,9 @@ interface RunScorerData {
 export default function RunScorers() {
   const [currentPage, setCurrentPage] = useState(1);
 
-  const { data, isLoading } = useQuery({
-    queryKey: ['runScorers', currentPage],
-    queryFn: () => fetchRunScorers(currentPage),
-  });
+  const { data, isLoading } = useRunScorers(currentPage);
 
-  const totalPages = data ? Math.ceil(data.total / 10) : 1;
+  const totalPages = data?.pagination ? data.pagination.pages : 1;
 
   return (
     <div className="w-full mx-auto p-4">
