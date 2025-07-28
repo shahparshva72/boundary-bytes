@@ -38,13 +38,17 @@ export async function GET(request: NextRequest) {
           m.venue,
           STRING_AGG(DISTINCT
             CASE
-              WHEN d.batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
-              THEN 'Royal Challengers Bangalore'
+              WHEN d.batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+              WHEN d.batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
+              WHEN d.batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
+              WHEN d.batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
               ELSE d.batting_team
             END, ' vs ' ORDER BY
             CASE
-              WHEN d.batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru')
-              THEN 'Royal Challengers Bangalore'
+              WHEN d.batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+              WHEN d.batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
+              WHEN d.batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
+              WHEN d.batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
               ELSE d.batting_team
             END
           ) as teams

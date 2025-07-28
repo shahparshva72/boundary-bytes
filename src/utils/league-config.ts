@@ -17,7 +17,7 @@ export const LEAGUE_CONFIGS: Record<League, LeagueConfig> = {
       teams: 5,
       matches: 66,
       players: 108,
-      seasons: ['2023', '2024'],
+      seasons: ['2023', '2024', '2025'],
     },
     icon: '🏏',
   },
@@ -34,10 +34,10 @@ export const LEAGUE_CONFIGS: Record<League, LeagueConfig> = {
       headerBg: '#FF9F1C', // Header background
     },
     stats: {
-      teams: 18,
+      teams: 15,
       matches: 1169,
       players: 704,
-      seasons: ['2008-2024'],
+      seasons: ['2008-2025'],
     },
     icon: '🏆',
   },

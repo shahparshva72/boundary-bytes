@@ -50,7 +50,10 @@ WITH delivery_std AS (
         SELECT
           d.*,
           CASE
-            WHEN d.batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru') THEN 'Royal Challengers Bangalore'
+            WHEN d.batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+            WHEN d.batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
+            WHEN d.batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
+            WHEN d.batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
             ELSE d.batting_team
           END AS std_batting_team
         FROM wpl_delivery d
