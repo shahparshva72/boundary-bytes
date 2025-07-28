@@ -44,6 +44,7 @@ export async function GET(request: Request) {
         match: {
           league,
         },
+        innings: { lte: 2 },
         ...(playerType === 'batter'
           ? { striker: batter || undefined }
           : { bowler: bowler || undefined }),

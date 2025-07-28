@@ -55,7 +55,7 @@ WITH delivery_std AS (
           END AS std_batting_team
         FROM wpl_delivery d
         JOIN wpl_match m ON d.match_id = m.match_id
-        WHERE m.league = ${league}
+        WHERE m.league = ${league} AND d.innings <= 2
       ),
       runs_per_innings AS (
         SELECT

@@ -35,10 +35,10 @@ export async function GET(request: Request) {
     const result = await prisma.$queryRaw<MatchupStats[]>`
       SELECT
         COALESCE(SUM(d.runs_off_bat), 0)::int as "runsScored",
-        COUNT(*)::int as "ballsFaced",
+        COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0)::int as "ballsFaced",
         COUNT(CASE WHEN d.player_dismissed = ${batter} THEN 1 END)::int as "dismissals",
         CASE
-          WHEN COUNT(*) > 0 THEN ROUND((COALESCE(SUM(d.runs_off_bat), 0)::numeric / COUNT(*)) * 100, 2)
+          WHEN COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) > 0 THEN ROUND((COALESCE(SUM(d.runs_off_bat), 0)::numeric / COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0)) * 100, 2)
           ELSE 0
         END as "strikeRate",
         CASE

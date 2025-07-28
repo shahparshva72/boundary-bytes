@@ -36,7 +36,7 @@ export async function GET(request: NextRequest) {
       SELECT
         d.striker,
         SUM(d.runs_off_bat) as runs,
-        COUNT(*) FILTER (WHERE d.wides = 0) as balls_faced,
+        COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) as balls_faced,
         COUNT(DISTINCT d.match_id) as matches,
         COUNT(*) FILTER (WHERE d.runs_off_bat = 4) as fours,
         COUNT(*) FILTER (WHERE d.runs_off_bat = 6) as sixes,

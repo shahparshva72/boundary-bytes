@@ -116,6 +116,7 @@ export async function GET(
         WHERE d.player_dismissed IS NOT NULL
           AND d.match_id = ${matchIdNum}
           AND m.league = ${league}
+          AND d.innings <= 2
           AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket', 'run out', 'retired hurt', 'obstructing the field', 'hit the ball twice', 'handled the ball', 'timed out')
       ),
       runs_at_wicket AS (
