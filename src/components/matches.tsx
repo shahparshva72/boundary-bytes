@@ -58,7 +58,7 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
             </h1>
           </div>
           <p className="text-xl font-bold text-black bg-[#4ECDC4] px-6 py-3 rounded-none border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-            An upcoming cricket stats query website.
+            Get the latest cricket league stats and settle the debates with your friends!
           </p>
         </div>
 
