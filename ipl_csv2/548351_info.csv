@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Pune Warriors
+info,team,Mumbai Indians
+info,gender,male
+info,season,2012
+info,date,2012/05/03
+info,event,Indian Premier League
+info,match_number,45
+info,venue,Subrata Roy Sahara Stadium
+info,city,Pune
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,SL Malinga
+info,umpire,Asad Rauf
+info,umpire,S Asnani
+info,reserve_umpire,NA Patwardhan
+info,tv_umpire,BR Doctrove
+info,match_referee,AJ Pycroft
+info,winner,Mumbai Indians
+info,winner_runs,1
+info,player,Mumbai Indians,JEC Franklin
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,RJ Peterson
+info,player,Mumbai Indians,KD Karthik
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,NLTC Perera
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,PP Ojha
+info,player,Mumbai Indians,MM Patel
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,JD Ryder
+info,player,Pune Warriors,MJ Clarke
+info,player,Pune Warriors,SC Ganguly
+info,player,Pune Warriors,SPD Smith
+info,player,Pune Warriors,M Manhas
+info,player,Pune Warriors,WD Parnell
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,M Kartik
+info,player,Pune Warriors,A Nehra
+info,player,Pune Warriors,AB Dinda
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,JEC Franklin,cf73ad76
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Kartik,abfeb126
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,MJ Clarke,f842c2cf
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,NA Patwardhan,e6ef687d
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Peterson,26ff4c29
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Asnani,b04524bc
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,WD Parnell,3a60e0b5

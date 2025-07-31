@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2021
+info,date,2021/09/24
+info,event,Indian Premier League
+info,match_number,35
+info,venue,Sharjah Cricket Stadium
+info,city,Sharjah
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,DJ Bravo
+info,umpire,AK Chaudhary
+info,umpire,Nitin Menon
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,MA Gough
+info,match_referee,J Srinath
+info,winner,Chennai Super Kings
+info,winner_wickets,6
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,D Padikkal
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,TH David
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,PWH de Silva
+info,player,Royal Challengers Bangalore,KS Bharat
+info,player,Royal Challengers Bangalore,Navdeep Saini
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,MM Ali
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,SN Thakur
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,JR Hazlewood
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,KS Bharat,44a89551
+info,registry,people,MA Gough,76752ac8
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Navdeep Saini,21d4e29b
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,TH David,f1f99156
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YS Chahal,57ee1fde

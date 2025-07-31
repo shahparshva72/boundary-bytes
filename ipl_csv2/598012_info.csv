@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2013
+info,date,2013/04/13
+info,event,Indian Premier League
+info,match_number,16
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,RA Jadeja
+info,umpire,Asad Rauf
+info,umpire,AK Chaudhary
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,S Asnani
+info,match_referee,J Srinath
+info,winner,Chennai Super Kings
+info,winner_wickets,4
+info,player,Chennai Super Kings,MEK Hussey
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,CH Morris
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,DP Nannes
+info,player,Chennai Super Kings,MM Sharma
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,DT Christian
+info,player,Royal Challengers Bangalore,R Rampaul
+info,player,Royal Challengers Bangalore,KB Arun Karthik
+info,player,Royal Challengers Bangalore,J Syed Mohammad
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,M Kartik
+info,player,Royal Challengers Bangalore,RP Singh
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,J Srinath,bad31fac
+info,registry,people,J Syed Mohammad,c64c2443
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KB Arun Karthik,7daedf2f
+info,registry,people,M Kartik,abfeb126
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Rampaul,d68e7f48
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,V Kohli,ba607b88

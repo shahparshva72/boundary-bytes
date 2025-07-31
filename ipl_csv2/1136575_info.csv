@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2018
+info,date,2018/04/18
+info,event,Indian Premier League
+info,match_number,15
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,N Rana
+info,umpire,A Deshmukh
+info,umpire,S Ravi
+info,reserve_umpire,K Srinath
+info,tv_umpire,C Shamshuddin
+info,match_referee,M Nayyar
+info,winner,Kolkata Knight Riders
+info,winner_wickets,7
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,DJM Short
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,RA Tripathi
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,K Gowtham
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,DS Kulkarni
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,B Laughlin
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,CA Lynn
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,TK Curran
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,Shivam Mavi
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AM Rahane,29e95537
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BA Stokes,e087956b
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Gowtham,90de905a
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shivam Mavi,c38d3503
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,TK Curran,e86754b2

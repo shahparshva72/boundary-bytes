@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2017
+info,date,2017/04/13
+info,event,Indian Premier League
+info,match_number,11
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,SP Narine
+info,umpire,A Deshmukh
+info,umpire,NJ Llong
+info,reserve_umpire,N Pandit
+info,tv_umpire,AY Dandekar
+info,match_referee,AJ Pycroft
+info,winner,Kolkata Knight Riders
+info,winner_wickets,8
+info,player,Kings XI Punjab,HM Amla
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,MP Stoinis
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,VR Aaron
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Kings XI Punjab,I Sharma
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,CR Woakes
+info,player,Kolkata Knight Riders,C de Grandhomme
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,TA Boult
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AR Patel,2e171977
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CR Woakes,4c5d73db
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HM Amla,e798611a
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,N Pandit,4947c258
+info,registry,people,NJ Llong,573fb985
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,TA Boult,a818c1be
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YK Pathan,3c6ffae8

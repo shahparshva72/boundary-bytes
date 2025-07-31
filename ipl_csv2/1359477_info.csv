@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Lucknow Super Giants
+info,team,Delhi Capitals
+info,gender,male
+info,season,2023
+info,date,2023/04/01
+info,event,Indian Premier League
+info,match_number,3
+info,venue,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow"
+info,city,Lucknow
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,MA Wood
+info,umpire,AK Chaudhary
+info,umpire,NA Patwardhan
+info,reserve_umpire,M Kuppuraj
+info,tv_umpire,GR Sadashiv Iyer
+info,match_referee,DS Manohar
+info,winner,Lucknow Super Giants
+info,winner_runs,50
+info,player,Lucknow Super Giants,KL Rahul
+info,player,Lucknow Super Giants,KR Mayers
+info,player,Lucknow Super Giants,DJ Hooda
+info,player,Lucknow Super Giants,KH Pandya
+info,player,Lucknow Super Giants,MP Stoinis
+info,player,Lucknow Super Giants,N Pooran
+info,player,Lucknow Super Giants,A Badoni
+info,player,Lucknow Super Giants,K Gowtham
+info,player,Lucknow Super Giants,Avesh Khan
+info,player,Lucknow Super Giants,Ravi Bishnoi
+info,player,Lucknow Super Giants,JD Unadkat
+info,player,Lucknow Super Giants,MA Wood
+info,player,Delhi Capitals,KK Ahmed
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,MR Marsh
+info,player,Delhi Capitals,SN Khan
+info,player,Delhi Capitals,RR Rossouw
+info,player,Delhi Capitals,R Powell
+info,player,Delhi Capitals,Aman Hakim Khan
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,C Sakariya
+info,player,Delhi Capitals,Mukesh Kumar
+info,registry,people,A Badoni,872b03f7
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AR Patel,2e171977
+info,registry,people,Aman Hakim Khan,378daa89
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,C Sakariya,2cdce1be
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DS Manohar,b35f3ac8
+info,registry,people,GR Sadashiv Iyer,0be62e31
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KR Mayers,73c18486
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Kuppuraj,aa4063d0
+info,registry,people,MA Wood,8d92a2c3
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,NA Patwardhan,e6ef687d
+info,registry,people,PN Mankad,663b5e34
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,R Powell,650d5e49
+info,registry,people,RR Rossouw,cad00a4d
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,SN Khan,f088b960

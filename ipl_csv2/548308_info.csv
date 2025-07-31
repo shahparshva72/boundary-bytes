@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Pune Warriors
+info,gender,male
+info,season,2012
+info,date,2012/04/06
+info,event,Indian Premier League
+info,match_number,3
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,SPD Smith
+info,umpire,AK Chaudhary
+info,umpire,SJA Taufel
+info,reserve_umpire,PG Pathak
+info,tv_umpire,JD Cloete
+info,match_referee,RR Jadeja
+info,winner,Pune Warriors
+info,winner_runs,28
+info,player,Mumbai Indians,RE Levi
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,JEC Franklin
+info,player,Mumbai Indians,KD Karthik
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,PP Ojha
+info,player,Mumbai Indians,MM Patel
+info,player,Pune Warriors,MK Pandey
+info,player,Pune Warriors,SC Ganguly
+info,player,Pune Warriors,WD Parnell
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,CJ Ferguson
+info,player,Pune Warriors,SPD Smith
+info,player,Pune Warriors,MN Samuels
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,M Kartik
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,AB Dinda
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,JEC Franklin,cf73ad76
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Kartik,abfeb126
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,MN Samuels,f846de6a
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RE Levi,18c78b11
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RR Jadeja,053de19b
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,WD Parnell,3a60e0b5

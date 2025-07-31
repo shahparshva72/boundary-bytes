@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Mumbai Indians
+info,gender,male
+info,season,2009
+info,date,2009/05/10
+info,event,Indian Premier League
+info,match_number,38
+info,venue,St George's Park
+info,city,Port Elizabeth
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,JP Duminy
+info,umpire,BR Doctrove
+info,umpire,BG Jerling
+info,reserve_umpire,S George
+info,tv_umpire,IL Howell
+info,match_referee,Yashpal Sharma
+info,winner,Mumbai Indians
+info,winner_runs,16
+info,player,Mumbai Indians,ST Jayasuriya
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,AM Rahane
+info,player,Mumbai Indians,JP Duminy
+info,player,Mumbai Indians,AM Nayar
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,YV Takawale
+info,player,Mumbai Indians,C Nanda
+info,player,Mumbai Indians,DS Kulkarni
+info,player,Mumbai Indians,SL Malinga
+info,player,Royal Challengers Bangalore,JH Kallis
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,RV Uthappa
+info,player,Royal Challengers Bangalore,LRPL Taylor
+info,player,Royal Challengers Bangalore,R Dravid
+info,player,Royal Challengers Bangalore,MV Boucher
+info,player,Royal Challengers Bangalore,RE van der Merwe
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,A Kumble
+info,player,Royal Challengers Bangalore,KP Appanna
+info,player,Royal Challengers Bangalore,A Mithun
+info,registry,people,A Kumble,0c2730df
+info,registry,people,A Mithun,66cf56a5
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BG Jerling,26457e41
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,C Nanda,f24ca2ba
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,IL Howell,c1cd91c3
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KP Appanna,d92e42f5
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,MV Boucher,f3cb53a1
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RE van der Merwe,05c2ca46
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S George,6d9e5a54
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,ST Jayasuriya,f233bbb4
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YV Takawale,4e04666c
+info,registry,people,Yashpal Sharma,e22d7ccb

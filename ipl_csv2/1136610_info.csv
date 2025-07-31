@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2018
+info,date,2018/05/16
+info,event,Indian Premier League
+info,match_number,50
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,JJ Bumrah
+info,umpire,M Erasmus
+info,umpire,Nitin Menon
+info,reserve_umpire,UV Gandhe
+info,tv_umpire,YC Barde
+info,match_referee,J Srinath
+info,winner,Mumbai Indians
+info,winner_runs,3
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,E Lewis
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,BCJ Cutting
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,M Markande
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,AJ Finch
+info,player,Kings XI Punjab,MP Stoinis
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,MK Tiwary
+info,player,Kings XI Punjab,R Ashwin
+info,player,Kings XI Punjab,AJ Tye
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,AS Rajpoot
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AR Patel,2e171977
+info,registry,people,AS Rajpoot,db31895a
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,CH Gayle,db584dad
+info,registry,people,E Lewis,0ebfb1ad
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RG Sharma,740742ef
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,YC Barde,b90f3346
+info,registry,people,Yuvraj Singh,1c914163

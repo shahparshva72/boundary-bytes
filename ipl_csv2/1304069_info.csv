@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Mumbai Indians
+info,gender,male
+info,season,2022
+info,date,2022/04/13
+info,event,Indian Premier League
+info,match_number,23
+info,venue,"Maharashtra Cricket Association Stadium, Pune"
+info,city,Pune
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,MA Agarwal
+info,umpire,BNJ Oxenford
+info,umpire,UV Gandhe
+info,reserve_umpire,MV Saidharshan Kumar
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,V Narayan Kutty
+info,winner,Punjab Kings
+info,winner_runs,12
+info,player,Punjab Kings,MA Agarwal
+info,player,Punjab Kings,S Dhawan
+info,player,Punjab Kings,JM Bairstow
+info,player,Punjab Kings,LS Livingstone
+info,player,Punjab Kings,JM Sharma
+info,player,Punjab Kings,M Shahrukh Khan
+info,player,Punjab Kings,OF Smith
+info,player,Punjab Kings,K Rabada
+info,player,Punjab Kings,RD Chahar
+info,player,Punjab Kings,VG Arora
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,D Brevis
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,JD Unadkat
+info,player,Mumbai Indians,M Ashwin
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,TS Mills
+info,player,Mumbai Indians,Basil Thampi
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,Basil Thampi,871e9faf
+info,registry,people,D Brevis,844e79d1
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,OF Smith,23cca426
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,TS Mills,245c97cb
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,VG Arora,7c3b3b78

@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Mumbai Indians
+info,gender,male
+info,season,2022
+info,date,2022/05/17
+info,event,Indian Premier League
+info,match_number,65
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,RA Tripathi
+info,umpire,CB Gaffaney
+info,umpire,N Pandit
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,Navdeep Singh
+info,match_referee,J Srinath
+info,winner,Sunrisers Hyderabad
+info,winner_runs,3
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,PK Garg
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,N Pooran
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,Washington Sundar
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Umran Malik
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Sunrisers Hyderabad,Fazalhaq Farooqi
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,DR Sams
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,T Stubbs
+info,player,Mumbai Indians,Ramandeep Singh
+info,player,Mumbai Indians,R Sanjay Yadav
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,M Markande
+info,player,Mumbai Indians,RP Meredith
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,Fazalhaq Farooqi,e9c7f0d0
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,J Suchith,4125d931
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,N Pandit,4947c258
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,PK Garg,bb965e9a
+info,registry,people,R Sanjay Yadav,33ffc3dd
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Meredith,64775749
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,T Natarajan,ce794613
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,TH David,f1f99156
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,Umran Malik,81c08fa3
+info,registry,people,Washington Sundar,f19ccfad

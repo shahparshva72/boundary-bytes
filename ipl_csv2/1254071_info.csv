@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2021
+info,date,2021/04/21
+info,event,Indian Premier League
+info,match_number,14
+info,venue,"MA Chidambaram Stadium, Chepauk, Chennai"
+info,city,Chennai
+info,toss_winner,Punjab Kings
+info,toss_decision,bat
+info,player_of_match,JM Bairstow
+info,umpire,K Srinivasan
+info,umpire,Nitin Menon
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,S Chaturvedi
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,9
+info,player,Punjab Kings,KL Rahul
+info,player,Punjab Kings,MA Agarwal
+info,player,Punjab Kings,CH Gayle
+info,player,Punjab Kings,N Pooran
+info,player,Punjab Kings,DJ Hooda
+info,player,Punjab Kings,MC Henriques
+info,player,Punjab Kings,M Shahrukh Khan
+info,player,Punjab Kings,FA Allen
+info,player,Punjab Kings,M Ashwin
+info,player,Punjab Kings,Mohammed Shami
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,JM Bairstow
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,Virat Singh
+info,player,Sunrisers Hyderabad,KM Jadhav
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Sunrisers Hyderabad,KK Ahmed
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,FA Allen,b52ffbbd
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Chaturvedi,c8ec02e1
+info,registry,people,S Kaul,dcf81436
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,Virat Singh,26d76ad9

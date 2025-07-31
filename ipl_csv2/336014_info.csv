@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2007/08
+info,date,2008/05/11
+info,event,Indian Premier League
+info,match_number,32
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,SC Ganguly
+info,umpire,IL Howell
+info,umpire,AM Saheba
+info,tv_umpire,BF Bowden
+info,match_referee,Talat Ali
+info,winner,Kolkata Knight Riders
+info,winner_runs,23
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,SB Styris
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,SB Bangar
+info,player,Deccan Chargers,WPUJC Vaas
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,DP Vijaykumar
+info,player,Deccan Chargers,PP Ojha
+info,player,Kolkata Knight Riders,Salman Butt
+info,player,Kolkata Knight Riders,A Chopra
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,DJ Hussey
+info,player,Kolkata Knight Riders,T Taibu
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,Umar Gul
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Kolkata Knight Riders,AB Dinda
+info,player,Kolkata Knight Riders,M Kartik
+info,registry,people,A Chopra,e249fdaa
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AM Saheba,883e3818
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DP Vijaykumar,acd4f5dc
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,IL Howell,c1cd91c3
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Kartik,abfeb126
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,SB Bangar,0604ef16
+info,registry,people,SB Styris,57efa3be
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,Salman Butt,4d6d6280
+info,registry,people,T Taibu,75de770f
+info,registry,people,Talat Ali,1df4131e
+info,registry,people,Umar Gul,16dfcc19
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,WPUJC Vaas,bcce309e
+info,registry,people,Y Venugopal Rao,fe763256

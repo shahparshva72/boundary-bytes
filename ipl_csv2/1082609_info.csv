@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2017
+info,date,2017/04/17
+info,event,Indian Premier League
+info,match_number,19
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,B Kumar
+info,umpire,AY Dandekar
+info,umpire,A Deshmukh
+info,reserve_umpire,N Pandit
+info,tv_umpire,NJ Llong
+info,match_referee,AJ Pycroft
+info,winner,Sunrisers Hyderabad
+info,winner_runs,5
+info,player,Kings XI Punjab,HM Amla
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,EJG Morgan
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,KC Cariappa
+info,player,Kings XI Punjab,I Sharma
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,Yuvraj Singh
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,Mohammad Nabi
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,BB Sran
+info,player,Sunrisers Hyderabad,S Kaul
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AR Patel,2e171977
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BB Sran,d8b2f218
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HM Amla,e798611a
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,KC Cariappa,edb3d4f8
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,N Pandit,4947c258
+info,registry,people,NJ Llong,573fb985
+info,registry,people,NV Ojha,890946a0
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaul,dcf81436
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Yuvraj Singh,1c914163

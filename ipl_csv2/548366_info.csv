@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Deccan Chargers
+info,gender,male
+info,season,2012
+info,date,2012/05/13
+info,event,Indian Premier League
+info,match_number,61
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Deccan Chargers
+info,toss_decision,bat
+info,player_of_match,DJ Hussey
+info,umpire,HDPK Dharmasena
+info,umpire,BNJ Oxenford
+info,reserve_umpire,B Vij
+info,tv_umpire,C Shamshuddin
+info,match_referee,AJ Pycroft
+info,winner,Kings XI Punjab
+info,winner_wickets,4
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,PA Patel
+info,player,Deccan Chargers,KC Sangakkara
+info,player,Deccan Chargers,CL White
+info,player,Deccan Chargers,DT Christian
+info,player,Deccan Chargers,PA Reddy
+info,player,Deccan Chargers,AA Jhunjhunwala
+info,player,Deccan Chargers,A Mishra
+info,player,Deccan Chargers,DW Steyn
+info,player,Deccan Chargers,MS Gony
+info,player,Deccan Chargers,TP Sudhindra
+info,player,Kings XI Punjab,N Saini
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,Azhar Mahmood
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,SD Chitnis
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,Gurkeerat Singh
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,P Awana
+info,player,Kings XI Punjab,RJ Harris
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AA Jhunjhunwala,2815fe50
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,B Vij,470050ff
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,N Saini,addbde6c
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PA Reddy,2461eef2
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SD Chitnis,facb9086
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,TP Sudhindra,2f3817ce

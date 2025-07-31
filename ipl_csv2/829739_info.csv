@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2015
+info,date,2015/04/20
+info,event,Indian Premier League
+info,match_number,17
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,UT Yadav
+info,umpire,SD Fry
+info,umpire,CB Gaffaney
+info,reserve_umpire,Nitin Menon
+info,tv_umpire,CK Nandan
+info,match_referee,GF Labrooy
+info,winner,Kolkata Knight Riders
+info,winner_wickets,6
+info,player,Delhi Daredevils,MA Agarwal
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,MK Tiwary
+info,player,Delhi Daredevils,Yuvraj Singh
+info,player,Delhi Daredevils,AD Mathews
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,NM Coulter-Nile
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Imran Tahir
+info,player,Delhi Daredevils,DJ Muthuswami
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,M Morkel
+info,player,Kolkata Knight Riders,UT Yadav
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AD Russell,bbd41817
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DJ Muthuswami,2c76b512
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Yuvraj Singh,1c914163

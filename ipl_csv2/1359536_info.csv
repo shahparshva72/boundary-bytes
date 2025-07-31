@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Gujarat Titans
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2023
+info,date,2023/05/15
+info,event,Indian Premier League
+info,match_number,62
+info,venue,"Narendra Modi Stadium, Ahmedabad"
+info,city,Ahmedabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,Shubman Gill
+info,umpire,J Madanagopal
+info,umpire,UV Gandhe
+info,reserve_umpire,Mohamad Rafi
+info,tv_umpire,A Totre
+info,match_referee,M Nayyar
+info,winner,Gujarat Titans
+info,winner_runs,34
+info,player,Gujarat Titans,Yash Dayal
+info,player,Gujarat Titans,WP Saha
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,B Sai Sudharsan
+info,player,Gujarat Titans,HH Pandya
+info,player,Gujarat Titans,DA Miller
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,MD Shanaka
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,Noor Ahmad
+info,player,Gujarat Titans,Mohammed Shami
+info,player,Gujarat Titans,MM Sharma
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Sunrisers Hyderabad,Anmolpreet Singh
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,Sanvir Singh
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,M Jansen
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,M Markande
+info,player,Sunrisers Hyderabad,Fazalhaq Farooqi
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Anmolpreet Singh,1399b39c
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,B Sai Sudharsan,d5130a30
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,Fazalhaq Farooqi,e9c7f0d0
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MD Shanaka,3ff033bb
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,Mohamad Rafi,0479de6b
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Noor Ahmad,efc04be7
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,Sanvir Singh,b0f2baf4
+info,registry,people,Shivam Mavi,c38d3503
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,T Natarajan,ce794613
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Yash Dayal,7210d461

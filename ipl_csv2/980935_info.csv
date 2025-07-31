@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2016
+info,date,2016/04/23
+info,event,Indian Premier League
+info,match_number,18
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,Mustafizur Rahman
+info,umpire,AK Chaudhary
+info,umpire,CK Nandan
+info,reserve_umpire,R Pandit
+info,tv_umpire,AY Dandekar
+info,match_referee,RS Mahanama
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,5
+info,player,Kings XI Punjab,M Vijay
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,NS Naik
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,R Dhawan
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,KJ Abbott
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,AP Tare
+info,player,Sunrisers Hyderabad,EJG Morgan
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,Bipul Sharma
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,BB Sran
+info,player,Sunrisers Hyderabad,Mustafizur Rahman
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AP Tare,855a210c
+info,registry,people,AR Patel,2e171977
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BB Sran,d8b2f218
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,KJ Abbott,a9da7784
+info,registry,people,M Vijay,4b57e452
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,NS Naik,aedc3b7c
+info,registry,people,NV Ojha,890946a0
+info,registry,people,R Dhawan,26a85969
+info,registry,people,R Pandit,8a604384
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,Sandeep Sharma,ce820073

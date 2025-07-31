@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2009/10
+info,date,2010/04/18
+info,event,Indian Premier League
+info,match_number,54
+info,venue,Himachal Pradesh Cricket Association Stadium
+info,city,Dharamsala
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,MS Dhoni
+info,umpire,BF Bowden
+info,umpire,AM Saheba
+info,reserve_umpire,C Shamshuddin
+info,tv_umpire,M Erasmus
+info,match_referee,D Govindjee
+info,winner,Chennai Super Kings
+info,winner_wickets,6
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,ML Hayden
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,JM Kemp
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,SB Jakati
+info,player,Chennai Super Kings,DE Bollinger
+info,player,Chennai Super Kings,S Tyagi
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,K Goel
+info,player,Kings XI Punjab,J Theron
+info,player,Kings XI Punjab,RR Powar
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,S Sohal
+info,player,Kings XI Punjab,VRV Singh
+info,registry,people,AM Saheba,883e3818
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,J Theron,dec8e038
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JM Kemp,6581d753
+info,registry,people,K Goel,a1f1829d
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Vijay,4b57e452
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RR Powar,5d096f3d
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Sohal,3fca55af
+info,registry,people,S Tyagi,c24a2c5d
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,VRV Singh,034b4b7d
+info,registry,people,Yuvraj Singh,1c914163

@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2023
+info,date,2023/05/08
+info,event,Indian Premier League
+info,match_number,53
+info,venue,"Eden Gardens, Kolkata"
+info,city,Kolkata
+info,toss_winner,Punjab Kings
+info,toss_decision,bat
+info,player_of_match,AD Russell
+info,umpire,A Totre
+info,umpire,J Madanagopal
+info,reserve_umpire,Mohamad Rafi
+info,tv_umpire,UV Gandhe
+info,match_referee,SS Raul
+info,winner,Kolkata Knight Riders
+info,winner_wickets,5
+info,player,Punjab Kings,NT Ellis
+info,player,Punjab Kings,P Simran Singh
+info,player,Punjab Kings,S Dhawan
+info,player,Punjab Kings,PBB Rajapaksa
+info,player,Punjab Kings,LS Livingstone
+info,player,Punjab Kings,JM Sharma
+info,player,Punjab Kings,SM Curran
+info,player,Punjab Kings,R Dhawan
+info,player,Punjab Kings,M Shahrukh Khan
+info,player,Punjab Kings,Harpreet Brar
+info,player,Punjab Kings,RD Chahar
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Kolkata Knight Riders,Suyash Sharma
+info,player,Kolkata Knight Riders,JJ Roy
+info,player,Kolkata Knight Riders,Rahmanullah Gurbaz
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,SN Thakur
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,Harshit Rana
+info,player,Kolkata Knight Riders,VG Arora
+info,player,Kolkata Knight Riders,CV Varun
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AD Russell,bbd41817
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,Harpreet Brar,c05edf8e
+info,registry,people,Harshit Rana,77b1aa15
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,Mohamad Rafi,0479de6b
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,PBB Rajapaksa,6c882e9a
+info,registry,people,R Dhawan,26a85969
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,Rahmanullah Gurbaz,0bacade8
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SM Curran,e94915e6
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Raul,4cfdf1d0
+info,registry,people,Suyash Sharma,9440ef41
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,VG Arora,7c3b3b78
+info,registry,people,VR Iyer,a24be938

@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Royal Challengers Bengaluru
+info,gender,male
+info,season,2024
+info,date,2024/04/21
+info,event,Indian Premier League
+info,match_number,36
+info,venue,"Eden Gardens, Kolkata"
+info,city,Kolkata
+info,toss_winner,Royal Challengers Bengaluru
+info,toss_decision,field
+info,player_of_match,AD Russell
+info,umpire,A Totre
+info,umpire,Vinod Seshan
+info,reserve_umpire,A Bengeri
+info,tv_umpire,MA Gough
+info,match_referee,Amit Sharma
+info,winner,Kolkata Knight Riders
+info,winner_runs,1
+info,player,Kolkata Knight Riders,Suyash Sharma
+info,player,Kolkata Knight Riders,PD Salt
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,A Raghuvanshi
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,SS Iyer
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,Ramandeep Singh
+info,player,Kolkata Knight Riders,MA Starc
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Kolkata Knight Riders,Harshit Rana
+info,player,Royal Challengers Bengaluru,Yash Dayal
+info,player,Royal Challengers Bengaluru,V Kohli
+info,player,Royal Challengers Bengaluru,F du Plessis
+info,player,Royal Challengers Bengaluru,WG Jacks
+info,player,Royal Challengers Bengaluru,RM Patidar
+info,player,Royal Challengers Bengaluru,C Green
+info,player,Royal Challengers Bengaluru,SS Prabhudessai
+info,player,Royal Challengers Bengaluru,MK Lomror
+info,player,Royal Challengers Bengaluru,KD Karthik
+info,player,Royal Challengers Bengaluru,KV Sharma
+info,player,Royal Challengers Bengaluru,Mohammed Siraj
+info,player,Royal Challengers Bengaluru,LH Ferguson
+info,registry,people,A Bengeri,c109497d
+info,registry,people,A Raghuvanshi,d7017798
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AD Russell,bbd41817
+info,registry,people,Amit Sharma,7ea3e0cc
+info,registry,people,C Green,eaa76d3c
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,F du Plessis,3355b542
+info,registry,people,Harshit Rana,77b1aa15
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KV Sharma,119678fd
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,MA Gough,76752ac8
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SS Prabhudessai,9385de2e
+info,registry,people,Suyash Sharma,9440ef41
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VR Iyer,a24be938
+info,registry,people,Vinod Seshan,a3357a27
+info,registry,people,WG Jacks,9caf69a1
+info,registry,people,Yash Dayal,7210d461

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2009
+info,date,2009/05/11
+info,event,Indian Premier League
+info,match_number,40
+info,venue,De Beers Diamond Oval
+info,city,Kimberley
+info,toss_winner,Deccan Chargers
+info,toss_decision,bat
+info,player_of_match,DR Smith
+info,umpire,GAV Baxter
+info,umpire,HDPK Dharmasena
+info,reserve_umpire,KH Hurter
+info,tv_umpire,S Asnani
+info,match_referee,J Srinath
+info,winner,Deccan Chargers
+info,winner_runs,53
+info,player,Deccan Chargers,TL Suman
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,A Symonds
+info,player,Deccan Chargers,DR Smith
+info,player,Deccan Chargers,WPUJC Vaas
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Deccan Chargers,Shoaib Ahmed
+info,player,Rajasthan Royals,GC Smith
+info,player,Rajasthan Royals,SA Asnodkar
+info,player,Rajasthan Royals,LA Carseldine
+info,player,Rajasthan Royals,NV Ojha
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,RA Jadeja
+info,player,Rajasthan Royals,AS Raut
+info,player,Rajasthan Royals,M Morkel
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,MM Patel
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AS Raut,c69a7b5c
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DR Smith,35205dfc
+info,registry,people,GAV Baxter,cb4b3ab0
+info,registry,people,GC Smith,72861603
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KH Hurter,bda8cca8
+info,registry,people,LA Carseldine,d872f52a
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,NV Ojha,890946a0
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Asnani,b04524bc
+info,registry,people,SA Asnodkar,ae091d39
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,Shoaib Ahmed,8a668774
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,WPUJC Vaas,bcce309e
+info,registry,people,Y Venugopal Rao,fe763256
+info,registry,people,YK Pathan,3c6ffae8

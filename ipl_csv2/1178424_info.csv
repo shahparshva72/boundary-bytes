@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2019
+info,date,2019/04/30
+info,event,Indian Premier League
+info,match_number,49
+info,venue,M.Chinnaswamy Stadium
+info,city,Bengaluru
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,umpire,NJ Llong
+info,umpire,UV Gandhe
+info,reserve_umpire,GR Sadashiv Iyer
+info,tv_umpire,AK Chaudhary
+info,match_referee,V Narayan Kutty
+info,outcome,no result
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,MP Stoinis
+info,player,Royal Challengers Bangalore,H Klaasen
+info,player,Royal Challengers Bangalore,Gurkeerat Singh
+info,player,Royal Challengers Bangalore,PA Patel
+info,player,Royal Challengers Bangalore,P Negi
+info,player,Royal Challengers Bangalore,UT Yadav
+info,player,Royal Challengers Bangalore,NA Saini
+info,player,Royal Challengers Bangalore,K Khejroliya
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,LS Livingstone
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,MK Lomror
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,VR Aaron
+info,player,Rajasthan Royals,O Thomas
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,GR Sadashiv Iyer,0be62e31
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Khejroliya,fa2f1dde
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NJ Llong,573fb985
+info,registry,people,NA Saini,21d4e29b
+info,registry,people,O Thomas,c6097d68
+info,registry,people,P Negi,f62772e5
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,R Parag,04a418e8
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,YS Chahal,57ee1fde

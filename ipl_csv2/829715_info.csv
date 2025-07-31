@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2015
+info,date,2015/04/12
+info,event,Indian Premier League
+info,match_number,6
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,DJ Hooda
+info,umpire,SD Fry
+info,umpire,CB Gaffaney
+info,reserve_umpire,Nitin Menon
+info,tv_umpire,CK Nandan
+info,match_referee,GF Labrooy
+info,winner,Rajasthan Royals
+info,winner_wickets,3
+info,player,Delhi Daredevils,MA Agarwal
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,Yuvraj Singh
+info,player,Delhi Daredevils,AD Mathews
+info,player,Delhi Daredevils,MK Tiwary
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,NM Coulter-Nile
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Imran Tahir
+info,player,Delhi Daredevils,JD Unadkat
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,KK Nair
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,DJ Hooda
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,CH Morris
+info,player,Rajasthan Royals,TG Southee
+info,player,Rajasthan Royals,DS Kulkarni
+info,player,Rajasthan Royals,PV Tambe
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AM Rahane,29e95537
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KK Nair,944533a5
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PV Tambe,6aed7e79
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,Yuvraj Singh,1c914163

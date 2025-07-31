@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2020/21
+info,date,2020/10/12
+info,event,Indian Premier League
+info,match_number,28
+info,venue,Sharjah Cricket Stadium
+info,city,
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,bat
+info,player_of_match,AB de Villiers
+info,umpire,RK Illingworth
+info,umpire,K Srinivasan
+info,reserve_umpire,VA Kulkarni
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,V Narayan Kutty
+info,winner,Royal Challengers Bangalore
+info,winner_runs,82
+info,player,Royal Challengers Bangalore,AJ Finch
+info,player,Royal Challengers Bangalore,D Padikkal
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,CH Morris
+info,player,Royal Challengers Bangalore,Washington Sundar
+info,player,Royal Challengers Bangalore,S Dube
+info,player,Royal Challengers Bangalore,I Udana
+info,player,Royal Challengers Bangalore,NA Saini
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Kolkata Knight Riders,T Banton
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,RA Tripathi
+info,player,Kolkata Knight Riders,PJ Cummins
+info,player,Kolkata Knight Riders,KL Nagarkoti
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Kolkata Knight Riders,M Prasidh Krishna
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,I Udana,ac5ae4af
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KL Nagarkoti,b4f5c2d9
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,NA Saini,21d4e29b
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RK Illingworth,20672246
+info,registry,people,S Dube,a4e37e47
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,T Banton,25f7b7d6
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YS Chahal,57ee1fde

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Rising Pune Supergiant
+info,gender,male
+info,season,2017
+info,date,2017/05/06
+info,event,Indian Premier League
+info,match_number,44
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,JD Unadkat
+info,umpire,KN Ananthapadmanabhan
+info,umpire,AK Chaudhary
+info,reserve_umpire,R Pandit
+info,tv_umpire,M Erasmus
+info,match_referee,Chinmay Sharma
+info,winner,Rising Pune Supergiant
+info,winner_runs,12
+info,player,Rising Pune Supergiant,AM Rahane
+info,player,Rising Pune Supergiant,RA Tripathi
+info,player,Rising Pune Supergiant,SPD Smith
+info,player,Rising Pune Supergiant,BA Stokes
+info,player,Rising Pune Supergiant,MS Dhoni
+info,player,Rising Pune Supergiant,DT Christian
+info,player,Rising Pune Supergiant,MK Tiwary
+info,player,Rising Pune Supergiant,Washington Sundar
+info,player,Rising Pune Supergiant,SN Thakur
+info,player,Rising Pune Supergiant,JD Unadkat
+info,player,Rising Pune Supergiant,Imran Tahir
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,Yuvraj Singh
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,Bipul Sharma
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Sunrisers Hyderabad,A Nehra
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BA Stokes,e087956b
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,NV Ojha,890946a0
+info,registry,people,R Pandit,8a604384
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaul,dcf81436
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,Yuvraj Singh,1c914163

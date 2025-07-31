@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2015
+info,date,2015/05/07
+info,event,Indian Premier League
+info,match_number,41
+info,venue,Brabourne Stadium
+info,city,Mumbai
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,EJG Morgan
+info,umpire,JD Cloete
+info,umpire,C Shamshuddin
+info,reserve_umpire,PG Pathak
+info,tv_umpire,HDPK Dharmasena
+info,match_referee,J Srinath
+info,winner,Sunrisers Hyderabad
+info,winner_runs,7
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,KK Nair
+info,player,Rajasthan Royals,DJ Hooda
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,CH Morris
+info,player,Rajasthan Royals,DS Kulkarni
+info,player,Rajasthan Royals,PV Tambe
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,EJG Morgan
+info,player,Sunrisers Hyderabad,RS Bopara
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,GH Vihari
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,P Kumar
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,I Sharma
+info,registry,people,AM Rahane,29e95537
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,GH Vihari,94253925
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KK Nair,944533a5
+info,registry,people,KV Sharma,119678fd
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,PV Tambe,6aed7e79
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa

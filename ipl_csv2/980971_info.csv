@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2016
+info,date,2016/05/07
+info,event,Indian Premier League
+info,match_number,36
+info,venue,"Punjab Cricket Association IS Bindra Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,MP Stoinis
+info,umpire,HDPK Dharmasena
+info,umpire,CK Nandan
+info,reserve_umpire,R Pandit
+info,tv_umpire,AK Chaudhary
+info,match_referee,RS Mahanama
+info,winner,Kings XI Punjab
+info,winner_runs,9
+info,player,Delhi Daredevils,Q de Kock
+info,player,Delhi Daredevils,SV Samson
+info,player,Delhi Daredevils,KK Nair
+info,player,Delhi Daredevils,SW Billings
+info,player,Delhi Daredevils,CR Brathwaite
+info,player,Delhi Daredevils,CH Morris
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Mohammed Shami
+info,player,Delhi Daredevils,Z Khan
+info,player,Delhi Daredevils,S Nadeem
+info,player,Kings XI Punjab,M Vijay
+info,player,Kings XI Punjab,MP Stoinis
+info,player,Kings XI Punjab,HM Amla
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,Gurkeerat Singh
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Kings XI Punjab,KC Cariappa
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AR Patel,2e171977
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,HM Amla,e798611a
+info,registry,people,KC Cariappa,edb3d4f8
+info,registry,people,KK Nair,944533a5
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Pandit,8a604384
+info,registry,people,RR Pant,919a3be2
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,SW Billings,c16d4035
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Z Khan,91a4a398

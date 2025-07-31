@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2019
+info,date,2019/04/24
+info,event,Indian Premier League
+info,match_number,42
+info,venue,M.Chinnaswamy Stadium
+info,city,Bengaluru
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,AB de Villiers
+info,umpire,BNJ Oxenford
+info,umpire,C Shamshuddin
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,RJ Tucker
+info,match_referee,J Srinath
+info,winner,Royal Challengers Bangalore
+info,winner_runs,17
+info,player,Royal Challengers Bangalore,PA Patel
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,MM Ali
+info,player,Royal Challengers Bangalore,AD Nath
+info,player,Royal Challengers Bangalore,MP Stoinis
+info,player,Royal Challengers Bangalore,Washington Sundar
+info,player,Royal Challengers Bangalore,UT Yadav
+info,player,Royal Challengers Bangalore,TG Southee
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,NA Saini
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,N Pooran
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,R Ashwin
+info,player,Kings XI Punjab,GC Viljoen
+info,player,Kings XI Punjab,M Ashwin
+info,player,Kings XI Punjab,AS Rajpoot
+info,player,Kings XI Punjab,Mohammed Shami
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AD Nath,f10e94c4
+info,registry,people,AS Rajpoot,db31895a
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,GC Viljoen,a316d663
+info,registry,people,J Srinath,bad31fac
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,NA Saini,21d4e29b
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YS Chahal,57ee1fde

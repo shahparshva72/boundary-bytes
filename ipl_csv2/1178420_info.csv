@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2019
+info,date,2019/04/27
+info,event,Indian Premier League
+info,match_number,45
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,JD Unadkat
+info,umpire,A Nand Kishore
+info,umpire,YC Barde
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,S Ravi
+info,match_referee,M Nayyar
+info,winner,Rajasthan Royals
+info,winner_wickets,7
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,Shakib Al Hasan
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,WP Saha
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Sunrisers Hyderabad,KK Ahmed
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,LS Livingstone
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,AJ Turner
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,VR Aaron
+info,player,Rajasthan Royals,O Thomas
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AM Rahane,29e95537
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,O Thomas,c6097d68
+info,registry,people,R Parag,04a418e8
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,S Kaul,dcf81436
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YC Barde,b90f3346

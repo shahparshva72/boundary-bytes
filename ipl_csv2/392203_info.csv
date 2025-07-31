@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Mumbai Indians
+info,gender,male
+info,season,2009
+info,date,2009/05/01
+info,event,Indian Premier League
+info,match_number,23
+info,venue,Buffalo Park
+info,city,East London
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,JP Duminy
+info,umpire,M Erasmus
+info,umpire,SK Tarapore
+info,reserve_umpire,S George
+info,tv_umpire,BR Doctrove
+info,match_referee,Yashpal Sharma
+info,winner,Mumbai Indians
+info,winner_runs,9
+info,player,Kolkata Knight Riders,CH Gayle
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,BJ Hodge
+info,player,Kolkata Knight Riders,MN van Wyk
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Kolkata Knight Riders,AB Dinda
+info,player,Mumbai Indians,ST Jayasuriya
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,AM Nayar
+info,player,Mumbai Indians,JP Duminy
+info,player,Mumbai Indians,GR Napier
+info,player,Mumbai Indians,AM Rahane
+info,player,Mumbai Indians,Z Khan
+info,player,Mumbai Indians,SS Tiwary
+info,player,Mumbai Indians,PR Shah
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,CH Gayle,db584dad
+info,registry,people,GR Napier,611926bc
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Kartik,abfeb126
+info,registry,people,MN van Wyk,710dd98c
+info,registry,people,PR Shah,0aadc906
+info,registry,people,S George,6d9e5a54
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,ST Jayasuriya,f233bbb4
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Yashpal Sharma,e22d7ccb
+info,registry,people,Z Khan,91a4a398

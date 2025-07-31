@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2016
+info,date,2016/04/19
+info,event,Indian Premier League
+info,match_number,13
+info,venue,"Punjab Cricket Association IS Bindra Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,RV Uthappa
+info,umpire,S Ravi
+info,umpire,C Shamshuddin
+info,reserve_umpire,YC Barde
+info,tv_umpire,Nitin Menon
+info,match_referee,M Nayyar
+info,winner,Kolkata Knight Riders
+info,winner_wickets,6
+info,player,Kings XI Punjab,M Vijay
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,P Sahu
+info,player,Kings XI Punjab,KJ Abbott
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,M Morkel
+info,player,Kolkata Knight Riders,UT Yadav
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AR Patel,2e171977
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,KJ Abbott,a9da7784
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Vijay,4b57e452
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,P Sahu,9a0146b3
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YC Barde,b90f3346
+info,registry,people,YK Pathan,3c6ffae8

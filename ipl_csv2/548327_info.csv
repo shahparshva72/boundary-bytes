@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Pune Warriors
+info,gender,male
+info,season,2012
+info,date,2012/04/17
+info,event,Indian Premier League
+info,match_number,21
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Pune Warriors
+info,toss_decision,bat
+info,player_of_match,CH Gayle
+info,umpire,S Asnani
+info,umpire,S Das
+info,reserve_umpire,BK Ravi
+info,tv_umpire,Asad Rauf
+info,match_referee,GF Labrooy
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,6
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,JD Ryder
+info,player,Pune Warriors,SC Ganguly
+info,player,Pune Warriors,MN Samuels
+info,player,Pune Warriors,SPD Smith
+info,player,Pune Warriors,AD Mathews
+info,player,Pune Warriors,M Manhas
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,AB Dinda
+info,player,Pune Warriors,A Nehra
+info,player,Royal Challengers Bangalore,TM Dilshan
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,DL Vettori
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,KP Appanna
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BK Ravi,ff8c3cfb
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,KP Appanna,d92e42f5
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MN Samuels,f846de6a
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Das,475e38b6
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Z Khan,91a4a398

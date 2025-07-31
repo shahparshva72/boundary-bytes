@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2022
+info,date,2022/04/21
+info,event,Indian Premier League
+info,match_number,33
+info,venue,"Dr DY Patil Sports Academy, Mumbai"
+info,city,Navi Mumbai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,Mukesh Choudhary
+info,umpire,BNJ Oxenford
+info,umpire,UV Gandhe
+info,reserve_umpire,MV Saidharshan Kumar
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,V Narayan Kutty
+info,winner,Chennai Super Kings
+info,winner_wickets,3
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,D Brevis
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,HR Shokeen
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,DR Sams
+info,player,Mumbai Indians,JD Unadkat
+info,player,Mumbai Indians,RP Meredith
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,RV Uthappa
+info,player,Chennai Super Kings,MJ Santner
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,D Pretorius
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,Mukesh Choudhary
+info,player,Chennai Super Kings,M Theekshana
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,D Brevis,844e79d1
+info,registry,people,D Pretorius,11614d87
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,HR Shokeen,0c9652b0
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Theekshana,f24c6701
+info,registry,people,MJ Santner,e4a0deae
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,Mukesh Choudhary,765a4731
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Meredith,64775749
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Narayan Kutty,4bacee3d

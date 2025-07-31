@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2009
+info,date,2009/05/03
+info,event,Indian Premier League
+info,match_number,27
+info,venue,St George's Park
+info,city,Port Elizabeth
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,DPMD Jayawardene
+info,umpire,S Asnani
+info,umpire,MR Benson
+info,reserve_umpire,S George
+info,tv_umpire,BG Jerling
+info,match_referee,S Venkataraghavan
+info,winner,Kings XI Punjab
+info,winner_wickets,6
+info,player,Kings XI Punjab,S Sohal
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,SM Katich
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,RR Powar
+info,player,Kings XI Punjab,TM Srivastava
+info,player,Kings XI Punjab,VS Malik
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,YA Abdulla
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,CH Gayle
+info,player,Kolkata Knight Riders,BJ Hodge
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,MN van Wyk
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Kolkata Knight Riders,AB Dinda
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BG Jerling,26457e41
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Kartik,abfeb126
+info,registry,people,MN van Wyk,710dd98c
+info,registry,people,MR Benson,790e14d3
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RR Powar,5d096f3d
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S George,6d9e5a54
+info,registry,people,S Sohal,3fca55af
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,TM Srivastava,a76d10ba
+info,registry,people,VS Malik,5f26df4f
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YA Abdulla,4353bba5
+info,registry,people,Yuvraj Singh,1c914163

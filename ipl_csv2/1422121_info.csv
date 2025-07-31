@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2024
+info,date,2024/03/23
+info,event,Indian Premier League
+info,match_number,3
+info,venue,"Eden Gardens, Kolkata"
+info,city,Kolkata
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,AD Russell
+info,umpire,R Pandit
+info,umpire,YC Barde
+info,reserve_umpire,M Krishnadas
+info,tv_umpire,BNJ Oxenford
+info,match_referee,M Nayyar
+info,winner,Kolkata Knight Riders
+info,winner_runs,4
+info,player,Kolkata Knight Riders,Suyash Sharma
+info,player,Kolkata Knight Riders,PD Salt
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,SS Iyer
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,Ramandeep Singh
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,MA Starc
+info,player,Kolkata Knight Riders,Harshit Rana
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Sunrisers Hyderabad,MA Agarwal
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,Shahbaz Ahmed
+info,player,Sunrisers Hyderabad,M Jansen
+info,player,Sunrisers Hyderabad,PJ Cummins
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,M Markande
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,Harshit Rana,77b1aa15
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,M Krishnadas,e298c588
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MA Starc,3fb19989
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,R Pandit,8a604384
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,Suyash Sharma,9440ef41
+info,registry,people,T Natarajan,ce794613
+info,registry,people,VR Iyer,a24be938
+info,registry,people,YC Barde,b90f3346

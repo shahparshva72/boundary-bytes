@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2020/21
+info,date,2020/09/25
+info,event,Indian Premier League
+info,match_number,7
+info,venue,Dubai International Cricket Stadium
+info,city,
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,PP Shaw
+info,umpire,KN Ananthapadmanabhan
+info,umpire,RK Illingworth
+info,reserve_umpire,VA Kulkarni
+info,tv_umpire,K Srinivasan
+info,match_referee,V Narayan Kutty
+info,winner,Delhi Capitals
+info,winner_runs,44
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,S Dhawan
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,SS Iyer
+info,player,Delhi Capitals,MP Stoinis
+info,player,Delhi Capitals,SO Hetmyer
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,A Mishra
+info,player,Delhi Capitals,K Rabada
+info,player,Delhi Capitals,A Nortje
+info,player,Delhi Capitals,Avesh Khan
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,SR Watson
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,KM Jadhav
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,SM Curran
+info,player,Chennai Super Kings,PP Chawla
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,JR Hazlewood
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AR Patel,2e171977
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,F du Plessis,3355b542
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,RK Illingworth,20672246
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SM Curran,e94915e6
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,VA Kulkarni,8fe0c4f8

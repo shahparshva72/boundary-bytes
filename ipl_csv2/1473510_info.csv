@@ -1,0 +1,73 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Punjab Kings
+info,gender,male
+info,season,2025
+info,date,2025/06/01
+info,event,Indian Premier League
+info,venue,"Narendra Modi Stadium, Ahmedabad"
+info,city,Ahmedabad
+info,toss_winner,Punjab Kings
+info,toss_decision,field
+info,player_of_match,SS Iyer
+info,umpire,CB Gaffaney
+info,umpire,Nitin Menon
+info,reserve_umpire,J Madanagopal
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,J Srinath
+info,winner,Punjab Kings
+info,winner_wickets,5
+info,player,Mumbai Indians,Ashwani Kumar
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,JM Bairstow
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,Naman Dhir
+info,player,Mumbai Indians,RA Bawa
+info,player,Mumbai Indians,MJ Santner
+info,player,Mumbai Indians,TA Boult
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,RJW Topley
+info,player,Punjab Kings,YS Chahal
+info,player,Punjab Kings,Priyansh Arya
+info,player,Punjab Kings,P Simran Singh
+info,player,Punjab Kings,JP Inglis
+info,player,Punjab Kings,SS Iyer
+info,player,Punjab Kings,N Wadhera
+info,player,Punjab Kings,Shashank Singh
+info,player,Punjab Kings,MP Stoinis
+info,player,Punjab Kings,Azmatullah Omarzai
+info,player,Punjab Kings,Vijaykumar Vyshak
+info,player,Punjab Kings,KA Jamieson
+info,player,Punjab Kings,Arshdeep Singh
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,Ashwani Kumar,d45c29b1
+info,registry,people,Azmatullah Omarzai,8f6dd463
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,JP Inglis,989889ff
+info,registry,people,KA Jamieson,68c56d09
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MJ Santner,e4a0deae
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,Naman Dhir,fffa744b
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,Priyansh Arya,b5797845
+info,registry,people,RA Bawa,ba6b2f91
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJW Topley,8db7f47f
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,Shashank Singh,26989d80
+info,registry,people,TA Boult,a818c1be
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,Vijaykumar Vyshak,54e52590
+info,registry,people,YS Chahal,57ee1fde

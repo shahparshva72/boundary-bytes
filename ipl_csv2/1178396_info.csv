@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2019
+info,date,2019/04/07
+info,event,Indian Premier League
+info,match_number,21
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,HF Gurney
+info,umpire,AK Chaudhary
+info,umpire,CB Gaffaney
+info,reserve_umpire,GR Sadashiv Iyer
+info,tv_umpire,BNJ Oxenford
+info,match_referee,V Narayan Kutty
+info,winner,Kolkata Knight Riders
+info,winner_wickets,8
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,RA Tripathi
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,P Chopra
+info,player,Rajasthan Royals,K Gowtham
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,S Midhun
+info,player,Rajasthan Royals,DS Kulkarni
+info,player,Kolkata Knight Riders,CA Lynn
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Kolkata Knight Riders,HF Gurney
+info,player,Kolkata Knight Riders,M Prasidh Krishna
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BA Stokes,e087956b
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,GR Sadashiv Iyer,0be62e31
+info,registry,people,HF Gurney,e412cb64
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,P Chopra,8ac93ca2
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,S Midhun,ade90de7
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,V Narayan Kutty,4bacee3d

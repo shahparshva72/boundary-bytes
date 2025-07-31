@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Mumbai Indians
+info,gender,male
+info,season,2019
+info,date,2019/04/15
+info,event,Indian Premier League
+info,match_number,31
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,SL Malinga
+info,umpire,M Erasmus
+info,umpire,Nitin Menon
+info,reserve_umpire,N Pandit
+info,tv_umpire,A Nand Kishore
+info,match_referee,J Srinath
+info,winner,Mumbai Indians
+info,winner_wickets,5
+info,player,Royal Challengers Bangalore,PA Patel
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,MM Ali
+info,player,Royal Challengers Bangalore,MP Stoinis
+info,player,Royal Challengers Bangalore,AD Nath
+info,player,Royal Challengers Bangalore,P Negi
+info,player,Royal Challengers Bangalore,UT Yadav
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,NA Saini
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,JP Behrendorff
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AD Nath,f10e94c4
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Milind Kumar,b4296080
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,N Pandit,4947c258
+info,registry,people,NA Saini,21d4e29b
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,P Negi,f62772e5
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YS Chahal,57ee1fde

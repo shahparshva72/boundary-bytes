@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2022
+info,date,2022/05/02
+info,event,Indian Premier League
+info,match_number,47
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,RK Singh
+info,umpire,J Madanagopal
+info,umpire,N Pandit
+info,reserve_umpire,Tapan Sharma
+info,tv_umpire,CB Gaffaney
+info,match_referee,Shakti Singh
+info,winner,Kolkata Knight Riders
+info,winner_wickets,7
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,D Padikkal
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,KK Nair
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,TA Boult
+info,player,Rajasthan Royals,M Prasidh Krishna
+info,player,Rajasthan Royals,YS Chahal
+info,player,Rajasthan Royals,KR Sen
+info,player,Kolkata Knight Riders,B Indrajith
+info,player,Kolkata Knight Riders,AJ Finch
+info,player,Kolkata Knight Riders,SS Iyer
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,AS Roy
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,TG Southee
+info,player,Kolkata Knight Riders,Shivam Mavi
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AS Roy,e4cdf230
+info,registry,people,B Indrajith,ff1e68fa
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JC Buttler,99b75528
+info,registry,people,KK Nair,944533a5
+info,registry,people,KR Sen,2e78f685
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,N Pandit,4947c258
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Parag,04a418e8
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,Shivam Mavi,c38d3503
+info,registry,people,TA Boult,a818c1be
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,Tapan Sharma,b9aa2b6e
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,YS Chahal,57ee1fde

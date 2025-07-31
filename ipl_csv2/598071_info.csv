@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2013
+info,date,2013/05/22
+info,event,Indian Premier League
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,BJ Hodge
+info,umpire,S Ravi
+info,umpire,RJ Tucker
+info,reserve_umpire,CK Nandan
+info,tv_umpire,NJ Llong
+info,match_referee,RS Mahanama
+info,winner,Rajasthan Royals
+info,winner_wickets,4
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,DH Yagnik
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,BJ Hodge
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,KK Cooper
+info,player,Rajasthan Royals,VS Malik
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Sunrisers Hyderabad,PA Patel
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,GH Vihari
+info,player,Sunrisers Hyderabad,CL White
+info,player,Sunrisers Hyderabad,DJG Sammy
+info,player,Sunrisers Hyderabad,NLTC Perera
+info,player,Sunrisers Hyderabad,BB Samantray
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,DW Steyn
+info,player,Sunrisers Hyderabad,A Mishra
+info,player,Sunrisers Hyderabad,I Sharma
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BB Samantray,53f27a35
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,CL White,d0513f63
+info,registry,people,DH Yagnik,063b3673
+info,registry,people,DJG Sammy,c03c6200
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,GH Vihari,94253925
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KK Cooper,557153ca
+info,registry,people,KV Sharma,119678fd
+info,registry,people,NJ Llong,573fb985
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Shukla,de4b0555
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,VS Malik,5f26df4f

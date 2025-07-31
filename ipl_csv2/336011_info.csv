@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Deccan Chargers
+info,gender,male
+info,season,2007/08
+info,date,2008/05/09
+info,event,Indian Premier League
+info,match_number,30
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,YK Pathan
+info,umpire,MR Benson
+info,umpire,AM Saheba
+info,tv_umpire,SJ Davis
+info,match_referee,S Venkataraghavan
+info,winner,Rajasthan Royals
+info,winner_wickets,8
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,SB Styris
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,Shahid Afridi
+info,player,Deccan Chargers,SB Bangar
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Deccan Chargers,DP Vijaykumar
+info,player,Rajasthan Royals,GC Smith
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,M Kaif
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,Niraj Patel
+info,player,Rajasthan Royals,RA Jadeja
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,M Rawat
+info,player,Rajasthan Royals,Sohail Tanvir
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,MM Patel
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AM Saheba,883e3818
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DP Vijaykumar,acd4f5dc
+info,registry,people,GC Smith,72861603
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,M Kaif,d84378a4
+info,registry,people,M Rawat,de8d3876
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,MR Benson,790e14d3
+info,registry,people,Niraj Patel,a2870fb7
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SB Bangar,0604ef16
+info,registry,people,SB Styris,57efa3be
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,Shahid Afridi,0dc00542
+info,registry,people,Sohail Tanvir,64d43928
+info,registry,people,Y Venugopal Rao,fe763256
+info,registry,people,YK Pathan,3c6ffae8

@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Punjab Kings
+info,gender,male
+info,season,2025
+info,date,2025/05/26
+info,event,Indian Premier League
+info,match_number,69
+info,venue,"Sawai Mansingh Stadium, Jaipur"
+info,city,Jaipur
+info,toss_winner,Punjab Kings
+info,toss_decision,field
+info,player_of_match,JP Inglis
+info,umpire,CB Gaffaney
+info,umpire,P Joshi
+info,reserve_umpire,Bhavesh Patel
+info,tv_umpire,J Madanagopal
+info,match_referee,DS Manohar
+info,winner,Punjab Kings
+info,winner_wickets,7
+info,player,Mumbai Indians,Ashwani Kumar
+info,player,Mumbai Indians,RD Rickelton
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,WG Jacks
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,Naman Dhir
+info,player,Mumbai Indians,MJ Santner
+info,player,Mumbai Indians,DL Chahar
+info,player,Mumbai Indians,TA Boult
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Punjab Kings,Vijaykumar Vyshak
+info,player,Punjab Kings,Priyansh Arya
+info,player,Punjab Kings,P Simran Singh
+info,player,Punjab Kings,JP Inglis
+info,player,Punjab Kings,SS Iyer
+info,player,Punjab Kings,N Wadhera
+info,player,Punjab Kings,Shashank Singh
+info,player,Punjab Kings,MP Stoinis
+info,player,Punjab Kings,M Jansen
+info,player,Punjab Kings,Harpreet Brar
+info,player,Punjab Kings,KA Jamieson
+info,player,Punjab Kings,Arshdeep Singh
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,Ashwani Kumar,d45c29b1
+info,registry,people,Bhavesh Patel,ee03dc30
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,DS Manohar,b35f3ac8
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Harpreet Brar,c05edf8e
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JP Inglis,989889ff
+info,registry,people,KA Jamieson,68c56d09
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,MJ Santner,e4a0deae
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,Naman Dhir,fffa744b
+info,registry,people,P Joshi,ffc0e370
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,Priyansh Arya,b5797845
+info,registry,people,RD Rickelton,e66732f8
+info,registry,people,RG Sharma,740742ef
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,Shashank Singh,26989d80
+info,registry,people,TA Boult,a818c1be
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,Vijaykumar Vyshak,54e52590
+info,registry,people,WG Jacks,9caf69a1

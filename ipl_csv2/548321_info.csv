@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Deccan Chargers
+info,gender,male
+info,season,2012
+info,date,2012/04/19
+info,event,Indian Premier League
+info,match_number,23
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Deccan Chargers
+info,toss_decision,bat
+info,player_of_match,KP Pietersen
+info,umpire,BF Bowden
+info,umpire,SK Tarapore
+info,reserve_umpire,S Dua
+info,tv_umpire,VA Kulkarni
+info,match_referee,RS Madugalle
+info,winner,Delhi Daredevils
+info,winner_wickets,5
+info,player,Deccan Chargers,KC Sangakkara
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,PA Patel
+info,player,Deccan Chargers,DT Christian
+info,player,Deccan Chargers,JP Duminy
+info,player,Deccan Chargers,B Chipli
+info,player,Deccan Chargers,AA Jhunjhunwala
+info,player,Deccan Chargers,DW Steyn
+info,player,Deccan Chargers,A Mishra
+info,player,Deccan Chargers,Ankit Sharma
+info,player,Deccan Chargers,V Pratap Singh
+info,player,Delhi Daredevils,NV Ojha
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,KP Pietersen
+info,player,Delhi Daredevils,DPMD Jayawardene
+info,player,Delhi Daredevils,LRPL Taylor
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,Y Nagar
+info,player,Delhi Daredevils,AB Agarkar
+info,player,Delhi Daredevils,M Morkel
+info,player,Delhi Daredevils,UT Yadav
+info,player,Delhi Daredevils,S Nadeem
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AA Jhunjhunwala,2815fe50
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,Ankit Sharma,24d94623
+info,registry,people,B Chipli,5451a2c1
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,NV Ojha,890946a0
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Dua,f1375866
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Pratap Singh,d718440b
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,Y Nagar,662c47a6

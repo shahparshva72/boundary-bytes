@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2007/08
+info,date,2008/04/18
+info,event,Indian Premier League
+info,match_number,1
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,BB McCullum
+info,umpire,Asad Rauf
+info,umpire,RE Koertzen
+info,reserve_umpire,VN Kulkarni
+info,tv_umpire,AM Saheba
+info,match_referee,J Srinath
+info,winner,Kolkata Knight Riders
+info,winner_runs,140
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,RT Ponting
+info,player,Kolkata Knight Riders,DJ Hussey
+info,player,Kolkata Knight Riders,Mohammad Hafeez
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,AB Dinda
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Royal Challengers Bangalore,R Dravid
+info,player,Royal Challengers Bangalore,W Jaffer
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,JH Kallis
+info,player,Royal Challengers Bangalore,CL White
+info,player,Royal Challengers Bangalore,MV Boucher
+info,player,Royal Challengers Bangalore,B Akhil
+info,player,Royal Challengers Bangalore,AA Noffke
+info,player,Royal Challengers Bangalore,P Kumar
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,SB Joshi
+info,registry,people,AA Noffke,b69e69ed
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AM Saheba,883e3818
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,B Akhil,af7dadf7
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Kartik,abfeb126
+info,registry,people,MV Boucher,f3cb53a1
+info,registry,people,Mohammad Hafeez,9ab63e7b
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,R Dravid,0184dc35
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,RT Ponting,7d415ea5
+info,registry,people,SB Joshi,670709ec
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VN Kulkarni,0b126008
+info,registry,people,W Jaffer,619aa81f
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Z Khan,91a4a398

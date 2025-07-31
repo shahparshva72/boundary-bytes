@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2019
+info,date,2019/04/06
+info,event,Indian Premier League
+info,match_number,19
+info,venue,Rajiv Gandhi International Stadium
+info,city,Hyderabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,AS Joseph
+info,umpire,AY Dandekar
+info,umpire,Nitin Menon
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,M Erasmus
+info,match_referee,J Srinath
+info,winner,Mumbai Indians
+info,winner_runs,40
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,AS Joseph
+info,player,Mumbai Indians,JP Behrendorff
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,JM Bairstow
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,YK Pathan
+info,player,Sunrisers Hyderabad,Mohammad Nabi
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,registry,people,AS Joseph,b0946605
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Kaul,dcf81436
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,YK Pathan,3c6ffae8

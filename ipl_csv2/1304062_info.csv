@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Gujarat Titans
+info,gender,male
+info,season,2022
+info,date,2022/04/08
+info,event,Indian Premier League
+info,match_number,16
+info,venue,"Brabourne Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Gujarat Titans
+info,toss_decision,field
+info,player_of_match,Shubman Gill
+info,umpire,AK Chaudhary
+info,umpire,VK Sharma
+info,reserve_umpire,Chirra Ravikanthreddy
+info,tv_umpire,PG Pathak
+info,match_referee,J Srinath
+info,winner,Gujarat Titans
+info,winner_wickets,6
+info,player,Punjab Kings,MA Agarwal
+info,player,Punjab Kings,S Dhawan
+info,player,Punjab Kings,JM Bairstow
+info,player,Punjab Kings,LS Livingstone
+info,player,Punjab Kings,JM Sharma
+info,player,Punjab Kings,OF Smith
+info,player,Punjab Kings,M Shahrukh Khan
+info,player,Punjab Kings,K Rabada
+info,player,Punjab Kings,RD Chahar
+info,player,Punjab Kings,VG Arora
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Gujarat Titans,MS Wade
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,B Sai Sudharsan
+info,player,Gujarat Titans,HH Pandya
+info,player,Gujarat Titans,DA Miller
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,A Manohar
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,DG Nalkande
+info,player,Gujarat Titans,Mohammed Shami
+info,player,Gujarat Titans,LH Ferguson
+info,registry,people,A Manohar,0890552f
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,B Sai Sudharsan,d5130a30
+info,registry,people,Chirra Ravikanthreddy,8b680f55
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DG Nalkande,cd8d2859
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MS Wade,afa7e784
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,OF Smith,23cca426
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Dhawan,0a476045
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,VG Arora,7c3b3b78
+info,registry,people,VK Sharma,a7a49df4

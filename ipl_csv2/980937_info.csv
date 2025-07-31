@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Gujarat Lions
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2016
+info,date,2016/04/24
+info,event,Indian Premier League
+info,match_number,19
+info,venue,Saurashtra Cricket Association Stadium
+info,city,Rajkot
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,bat
+info,player_of_match,V Kohli
+info,umpire,K Bharatan
+info,umpire,BNJ Oxenford
+info,reserve_umpire,A Deshmukh
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,S Chaturvedi
+info,winner,Gujarat Lions
+info,winner_wickets,6
+info,player,Gujarat Lions,DR Smith
+info,player,Gujarat Lions,BB McCullum
+info,player,Gujarat Lions,SK Raina
+info,player,Gujarat Lions,KD Karthik
+info,player,Gujarat Lions,RA Jadeja
+info,player,Gujarat Lions,DJ Bravo
+info,player,Gujarat Lions,AJ Finch
+info,player,Gujarat Lions,P Kumar
+info,player,Gujarat Lions,DS Kulkarni
+info,player,Gujarat Lions,SB Jakati
+info,player,Gujarat Lions,PV Tambe
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,SR Watson
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,KL Rahul
+info,player,Royal Challengers Bangalore,SN Khan
+info,player,Royal Challengers Bangalore,KM Jadhav
+info,player,Royal Challengers Bangalore,STR Binny
+info,player,Royal Challengers Bangalore,Iqbal Abdulla
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,KW Richardson
+info,player,Royal Challengers Bangalore,T Shamsi
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DR Smith,35205dfc
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PV Tambe,6aed7e79
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,S Chaturvedi,c8ec02e1
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SN Khan,f088b960
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,T Shamsi,a03bba42
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YS Chahal,57ee1fde

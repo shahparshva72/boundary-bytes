@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Gujarat Titans
+info,gender,male
+info,season,2025
+info,date,2025/04/19
+info,event,Indian Premier League
+info,match_number,35
+info,venue,"Narendra Modi Stadium, Ahmedabad"
+info,city,Ahmedabad
+info,toss_winner,Gujarat Titans
+info,toss_decision,field
+info,player_of_match,JC Buttler
+info,umpire,A Totre
+info,umpire,K Kelkar
+info,reserve_umpire,Anish Sahasrabudhe
+info,tv_umpire,AT Holdstock
+info,match_referee,R Seth
+info,winner,Gujarat Titans
+info,winner_wickets,7
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,KK Nair
+info,player,Delhi Capitals,KL Rahul
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,T Stubbs
+info,player,Delhi Capitals,Ashutosh Sharma
+info,player,Delhi Capitals,V Nigam
+info,player,Delhi Capitals,D Ferreira
+info,player,Delhi Capitals,MA Starc
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,MM Sharma
+info,player,Delhi Capitals,Mukesh Kumar
+info,player,Gujarat Titans,I Sharma
+info,player,Gujarat Titans,B Sai Sudharsan
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,JC Buttler
+info,player,Gujarat Titans,SE Rutherford
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,M Shahrukh Khan
+info,player,Gujarat Titans,Arshad Khan
+info,player,Gujarat Titans,R Sai Kishore
+info,player,Gujarat Titans,Mohammed Siraj
+info,player,Gujarat Titans,M Prasidh Krishna
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AR Patel,2e171977
+info,registry,people,AT Holdstock,6fa3258c
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,Anish Sahasrabudhe,2892df67
+info,registry,people,Arshad Khan,12314277
+info,registry,people,Ashutosh Sharma,84d9c311
+info,registry,people,B Sai Sudharsan,d5130a30
+info,registry,people,D Ferreira,f0af99a7
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,JC Buttler,99b75528
+info,registry,people,K Kelkar,1d88908d
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,R Sai Kishore,c7a995d3
+info,registry,people,R Seth,540a44ba
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SE Rutherford,d014d5ac
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,V Nigam,5ffc0565

@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { Providers } from './providers';
 import Header from '../components/Header';
+import AppWithLeagueSelection from '../components/AppWithLeagueSelection';
 import { Analytics } from '@vercel/analytics/next';
 
 const geistSans = Geist({
@@ -18,15 +19,19 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Boundary Bytes | Cricket Stats Query Platform',
   description:
-    "Discover comprehensive Women's Premier League cricket statistics with Boundary Bytes. Access match scores, and get detailed insights",
+    'Discover comprehensive cricket statistics with Boundary Bytes. Access WPL and IPL match scores, player stats, and get detailed insights',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body>
-        <Header />
-        <Providers>{children}</Providers>
+        <Providers>
+          <AppWithLeagueSelection>
+            <Header />
+            {children}
+          </AppWithLeagueSelection>
+        </Providers>
         <Analytics />
       </body>
     </html>

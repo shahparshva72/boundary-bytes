@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Pune Warriors
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2011
+info,date,2011/04/17
+info,event,Indian Premier League
+info,match_number,16
+info,venue,Dr DY Patil Sports Academy
+info,city,Mumbai
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,Yuvraj Singh
+info,umpire,Asad Rauf
+info,umpire,AM Saheba
+info,reserve_umpire,NA Patwardhan
+info,tv_umpire,SL Shastri
+info,match_referee,S Venkataraghavan
+info,winner,Delhi Daredevils
+info,winner_wickets,3
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,NV Ojha
+info,player,Delhi Daredevils,MS Wade
+info,player,Delhi Daredevils,Y Venugopal Rao
+info,player,Delhi Daredevils,AJ Finch
+info,player,Delhi Daredevils,JR Hopes
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,AB Dinda
+info,player,Delhi Daredevils,UT Yadav
+info,player,Pune Warriors,JD Ryder
+info,player,Pune Warriors,GC Smith
+info,player,Pune Warriors,M Manhas
+info,player,Pune Warriors,Yuvraj Singh
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,MD Mishra
+info,player,Pune Warriors,WD Parnell
+info,player,Pune Warriors,AA Jhunjhunwala
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,SB Wagh
+info,player,Pune Warriors,AC Thomas
+info,registry,people,AA Jhunjhunwala,2815fe50
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AM Saheba,883e3818
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,GC Smith,72861603
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,JR Hopes,2498e163
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,MD Mishra,6afb26d6
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NA Patwardhan,e6ef687d
+info,registry,people,NV Ojha,890946a0
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SB Wagh,dddca1d6
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,WD Parnell,3a60e0b5
+info,registry,people,Y Venugopal Rao,fe763256
+info,registry,people,Yuvraj Singh,1c914163

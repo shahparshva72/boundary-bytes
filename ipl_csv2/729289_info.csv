@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2014
+info,date,2014/04/19
+info,event,Indian Premier League
+info,match_number,6
+info,venue,Dubai International Cricket Stadium
+info,city,
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,JP Duminy
+info,umpire,Aleem Dar
+info,umpire,VA Kulkarni
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,AK Chaudhary
+info,match_referee,GF Labrooy
+info,winner,Delhi Daredevils
+info,winner_wickets,4
+info,player,Delhi Daredevils,M Vijay
+info,player,Delhi Daredevils,MA Agarwal
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,LRPL Taylor
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,MK Tiwary
+info,player,Delhi Daredevils,JDS Neesham
+info,player,Delhi Daredevils,NM Coulter-Nile
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,Mohammed Shami
+info,player,Delhi Daredevils,JD Unadkat
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,R Vinay Kumar
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,M Morkel
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Aleem Dar,f02778d1
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JDS Neesham,9219eff0
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,YK Pathan,3c6ffae8

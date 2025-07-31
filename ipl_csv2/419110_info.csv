@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Deccan Chargers
+info,gender,male
+info,season,2009/10
+info,date,2010/03/14
+info,event,Indian Premier League
+info,match_number,5
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Deccan Chargers
+info,toss_decision,bat
+info,player_of_match,WPUJC Vaas
+info,umpire,K Hariharan
+info,umpire,DJ Harper
+info,reserve_umpire,J Madanagopal
+info,tv_umpire,S Das
+info,match_referee,D Govindjee
+info,winner,Deccan Chargers
+info,winner_runs,31
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,ML Hayden
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,JM Kemp
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,L Balaji
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Chennai Super Kings,S Tyagi
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,VVS Laxman
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,A Symonds
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,TL Suman
+info,player,Deccan Chargers,Anirudh Singh
+info,player,Deccan Chargers,WPUJC Vaas
+info,player,Deccan Chargers,Jaskaran Singh
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,PP Ojha
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,Anirudh Singh,7bb62642
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JM Kemp,6581d753
+info,registry,people,Jaskaran Singh,d7b3a420
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,M Vijay,4b57e452
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Das,475e38b6
+info,registry,people,S Tyagi,c24a2c5d
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,VVS Laxman,de8cce37
+info,registry,people,WPUJC Vaas,bcce309e

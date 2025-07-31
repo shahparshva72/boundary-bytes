@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2014
+info,date,2014/04/22
+info,event,Indian Premier League
+info,match_number,9
+info,venue,Sharjah Cricket Stadium
+info,city,
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,GJ Maxwell
+info,umpire,M Erasmus
+info,umpire,S Ravi
+info,reserve_umpire,K Bharatan
+info,tv_umpire,BF Bowden
+info,match_referee,AJ Pycroft
+info,winner,Kings XI Punjab
+info,winner_runs,72
+info,player,Kings XI Punjab,CA Pujara
+info,player,Kings XI Punjab,V Sehwag
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,GJ Bailey
+info,player,Kings XI Punjab,MG Johnson
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,L Balaji
+info,player,Kings XI Punjab,R Dhawan
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Sunrisers Hyderabad,AJ Finch
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,KL Rahul
+info,player,Sunrisers Hyderabad,Y Venugopal Rao
+info,player,Sunrisers Hyderabad,IK Pathan
+info,player,Sunrisers Hyderabad,DJG Sammy
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,DW Steyn
+info,player,Sunrisers Hyderabad,A Mishra
+info,player,Sunrisers Hyderabad,B Kumar
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AR Patel,2e171977
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,CA Pujara,d4f9dbd4
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJG Sammy,c03c6200
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KV Sharma,119678fd
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,R Dhawan,26a85969
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Y Venugopal Rao,fe763256

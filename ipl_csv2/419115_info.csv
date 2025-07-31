@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2009/10
+info,date,2010/03/18
+info,event,Indian Premier League
+info,match_number,10
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,JH Kallis
+info,umpire,K Hariharan
+info,umpire,DJ Harper
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,S Das
+info,match_referee,D Govindjee
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,10
+info,player,Rajasthan Royals,NV Ojha
+info,player,Rajasthan Royals,MJ Lumb
+info,player,Rajasthan Royals,DR Martyn
+info,player,Rajasthan Royals,AA Jhunjhunwala
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,P Dogra
+info,player,Rajasthan Royals,S Narwal
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,M Morkel
+info,player,Rajasthan Royals,MM Patel
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Royal Challengers Bangalore,MK Pandey
+info,player,Royal Challengers Bangalore,JH Kallis
+info,player,Royal Challengers Bangalore,RV Uthappa
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,R Dravid
+info,player,Royal Challengers Bangalore,EJG Morgan
+info,player,Royal Challengers Bangalore,MV Boucher
+info,player,Royal Challengers Bangalore,P Kumar
+info,player,Royal Challengers Bangalore,A Kumble
+info,player,Royal Challengers Bangalore,DW Steyn
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,registry,people,A Kumble,0c2730df
+info,registry,people,AA Jhunjhunwala,2815fe50
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DR Martyn,69762509
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,MV Boucher,f3cb53a1
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Dogra,2728e7e9
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Das,475e38b6
+info,registry,people,S Narwal,287686fd
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YK Pathan,3c6ffae8

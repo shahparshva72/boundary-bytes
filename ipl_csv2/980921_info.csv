@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2016
+info,date,2016/04/17
+info,event,Indian Premier League
+info,match_number,11
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,Q de Kock
+info,umpire,VA Kulkarni
+info,umpire,A Nand Kishore
+info,reserve_umpire,R Pandit
+info,tv_umpire,AY Dandekar
+info,match_referee,RS Mahanama
+info,winner,Delhi Daredevils
+info,winner_wickets,7
+info,player,Delhi Daredevils,Q de Kock
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,SV Samson
+info,player,Delhi Daredevils,KK Nair
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,CR Brathwaite
+info,player,Delhi Daredevils,CH Morris
+info,player,Delhi Daredevils,P Negi
+info,player,Delhi Daredevils,Z Khan
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Mohammed Shami
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,SR Watson
+info,player,Royal Challengers Bangalore,SN Khan
+info,player,Royal Challengers Bangalore,KM Jadhav
+info,player,Royal Challengers Bangalore,D Wiese
+info,player,Royal Challengers Bangalore,Parvez Rasool
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,S Aravind
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,D Wiese,aa8d28ae
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KK Nair,944533a5
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,P Negi,f62772e5
+info,registry,people,Parvez Rasool,9170ff49
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Pandit,8a604384
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Aravind,957532de
+info,registry,people,SN Khan,f088b960
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Z Khan,91a4a398

@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2023
+info,date,2023/05/11
+info,event,Indian Premier League
+info,match_number,56
+info,venue,"Eden Gardens, Kolkata"
+info,city,Kolkata
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,YBK Jaiswal
+info,umpire,RJ Tucker
+info,umpire,MV Saidharshan Kumar
+info,reserve_umpire,P Joshi
+info,tv_umpire,R Pandit
+info,match_referee,P Dharmani
+info,winner,Rajasthan Royals
+info,winner_wickets,9
+info,player,Kolkata Knight Riders,Suyash Sharma
+info,player,Kolkata Knight Riders,JJ Roy
+info,player,Kolkata Knight Riders,Rahmanullah Gurbaz
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,SN Thakur
+info,player,Kolkata Knight Riders,AS Roy
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,Harshit Rana
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,JE Root
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,Sandeep Sharma
+info,player,Rajasthan Royals,KM Asif
+info,player,Rajasthan Royals,TA Boult
+info,player,Rajasthan Royals,YS Chahal
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AS Roy,e4cdf230
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,Harshit Rana,77b1aa15
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JE Root,a343262c
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,KM Asif,798cc28e
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,P Dharmani,eaa90ab4
+info,registry,people,P Joshi,ffc0e370
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Pandit,8a604384
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,Rahmanullah Gurbaz,0bacade8
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Suyash Sharma,9440ef41
+info,registry,people,TA Boult,a818c1be
+info,registry,people,VR Iyer,a24be938
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YS Chahal,57ee1fde

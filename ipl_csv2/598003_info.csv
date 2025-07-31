@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Pune Warriors
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2013
+info,date,2013/04/07
+info,event,Indian Premier League
+info,match_number,6
+info,venue,Subrata Roy Sahara Stadium
+info,city,Pune
+info,toss_winner,Pune Warriors
+info,toss_decision,bat
+info,player_of_match,M Vohra
+info,umpire,S Asnani
+info,umpire,SJA Taufel
+info,reserve_umpire,PG Pathak
+info,tv_umpire,CK Nandan
+info,match_referee,RS Madugalle
+info,winner,Kings XI Punjab
+info,winner_wickets,8
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,Azhar Mahmood
+info,player,Kings XI Punjab,Gurkeerat Singh
+info,player,Kings XI Punjab,R Sathish
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,P Awana
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,RJ Harris
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,MK Pandey
+info,player,Pune Warriors,TL Suman
+info,player,Pune Warriors,MN Samuels
+info,player,Pune Warriors,LRPL Taylor
+info,player,Pune Warriors,AD Mathews
+info,player,Pune Warriors,AM Nayar
+info,player,Pune Warriors,MR Marsh
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,AB Dinda
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MN Samuels,f846de6a
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Sathish,626c5379
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Asnani,b04524bc
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,TL Suman,aaa1b522

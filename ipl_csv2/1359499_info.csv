@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2023
+info,date,2023/04/18
+info,event,Indian Premier League
+info,match_number,25
+info,venue,"Rajiv Gandhi International Stadium, Uppal, Hyderabad"
+info,city,Hyderabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,C Green
+info,umpire,Nitin Menon
+info,umpire,Vinod Seshan
+info,reserve_umpire,A Bengeri
+info,tv_umpire,VK Sharma
+info,match_referee,Shakti Singh
+info,winner,Mumbai Indians
+info,winner_runs,14
+info,player,Mumbai Indians,RP Meredith
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,C Green
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,N Wadhera
+info,player,Mumbai Indians,Arjun Tendulkar
+info,player,Mumbai Indians,HR Shokeen
+info,player,Mumbai Indians,PP Chawla
+info,player,Mumbai Indians,JP Behrendorff
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Sunrisers Hyderabad,HC Brook
+info,player,Sunrisers Hyderabad,MA Agarwal
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,M Jansen
+info,player,Sunrisers Hyderabad,Washington Sundar
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,M Markande
+info,registry,people,A Bengeri,c109497d
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Arjun Tendulkar,44aac2f0
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,C Green,eaa76d3c
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HC Brook,4ae1755b
+info,registry,people,HR Shokeen,0c9652b0
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Meredith,64775749
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,T Natarajan,ce794613
+info,registry,people,TH David,f1f99156
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,Vinod Seshan,a3357a27
+info,registry,people,Washington Sundar,f19ccfad

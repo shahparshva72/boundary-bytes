@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2011
+info,date,2011/05/12
+info,event,Indian Premier League
+info,match_number,56
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,MS Dhoni
+info,umpire,AM Saheba
+info,umpire,SL Shastri
+info,reserve_umpire,K Srinath
+info,tv_umpire,Asad Rauf
+info,match_referee,GF Labrooy
+info,winner,Chennai Super Kings
+info,winner_runs,18
+info,player,Chennai Super Kings,MEK Hussey
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,WP Saha
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,DE Bollinger
+info,player,Chennai Super Kings,SB Jakati
+info,player,Delhi Daredevils,NV Ojha
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,CA Ingram
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,Y Venugopal Rao
+info,player,Delhi Daredevils,JR Hopes
+info,player,Delhi Daredevils,AB McDonald
+info,player,Delhi Daredevils,Y Nagar
+info,player,Delhi Daredevils,AB Agarkar
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,VR Aaron
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AB McDonald,16043342
+info,registry,people,AM Saheba,883e3818
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,CA Ingram,c995d726
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JR Hopes,2498e163
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,NV Ojha,890946a0
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Y Nagar,662c47a6
+info,registry,people,Y Venugopal Rao,fe763256

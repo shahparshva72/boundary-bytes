@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2014
+info,date,2014/04/29
+info,event,Indian Premier League
+info,match_number,19
+info,venue,Sheikh Zayed Stadium
+info,city,Abu Dhabi
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,JP Faulkner
+info,umpire,Aleem Dar
+info,umpire,AK Chaudhary
+info,reserve_umpire,K Srinath
+info,tv_umpire,VA Kulkarni
+info,match_referee,GF Labrooy
+info,outcome,tie
+info,eliminator,Rajasthan Royals
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MS Bisla
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,R Vinay Kumar
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,M Morkel
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,KK Nair
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,R Bhatia
+info,player,Rajasthan Royals,KW Richardson
+info,player,Rajasthan Royals,PV Tambe
+info,player,Rajasthan Royals,Iqbal Abdulla
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Aleem Dar,f02778d1
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KK Nair,944533a5
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,PV Tambe,6aed7e79
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,VA Kulkarni,8fe0c4f8

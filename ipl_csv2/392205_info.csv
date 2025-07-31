@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2009
+info,date,2009/05/02
+info,event,Indian Premier League
+info,match_number,25
+info,venue,St George's Park
+info,city,Port Elizabeth
+info,toss_winner,Deccan Chargers
+info,toss_decision,bat
+info,player_of_match,YK Pathan
+info,umpire,S Asnani
+info,umpire,BG Jerling
+info,reserve_umpire,S George
+info,tv_umpire,MR Benson
+info,match_referee,S Venkataraghavan
+info,winner,Rajasthan Royals
+info,winner_wickets,3
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,AA Bilakhia
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,TL Suman
+info,player,Deccan Chargers,DR Smith
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,Shoaib Ahmed
+info,player,Deccan Chargers,PP Ojha
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,FH Edwards
+info,player,Rajasthan Royals,GC Smith
+info,player,Rajasthan Royals,SA Asnodkar
+info,player,Rajasthan Royals,LA Carseldine
+info,player,Rajasthan Royals,NV Ojha
+info,player,Rajasthan Royals,RA Jadeja
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,AS Raut
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,SM Harwood
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,MM Patel
+info,registry,people,AA Bilakhia,bff458c6
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AS Raut,c69a7b5c
+info,registry,people,BG Jerling,26457e41
+info,registry,people,DR Smith,35205dfc
+info,registry,people,FH Edwards,a7c226e1
+info,registry,people,GC Smith,72861603
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,LA Carseldine,d872f52a
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,MR Benson,790e14d3
+info,registry,people,NV Ojha,890946a0
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S George,6d9e5a54
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SA Asnodkar,ae091d39
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SM Harwood,63bff7f9
+info,registry,people,Shoaib Ahmed,8a668774
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,Y Venugopal Rao,fe763256
+info,registry,people,YK Pathan,3c6ffae8

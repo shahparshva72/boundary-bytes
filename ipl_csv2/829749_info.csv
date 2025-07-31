@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2015
+info,date,2015/04/24
+info,event,Indian Premier League
+info,match_number,22
+info,venue,"Sardar Patel Stadium, Motera"
+info,city,Ahmedabad
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,MA Starc
+info,umpire,M Erasmus
+info,umpire,S Ravi
+info,reserve_umpire,K Srinath
+info,tv_umpire,AK Chaudhary
+info,match_referee,Chinmay Sharma
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,9
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,KK Nair
+info,player,Rajasthan Royals,DJ Hooda
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,CH Morris
+info,player,Rajasthan Royals,DS Kulkarni
+info,player,Rajasthan Royals,PV Tambe
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,Mandeep Singh
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,SN Khan
+info,player,Royal Challengers Bangalore,D Wiese
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,MA Starc
+info,player,Royal Challengers Bangalore,Iqbal Abdulla
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,D Wiese,aa8d28ae
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KK Nair,944533a5
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,MA Starc,3fb19989
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,PV Tambe,6aed7e79
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SN Khan,f088b960
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YS Chahal,57ee1fde

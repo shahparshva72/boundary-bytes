@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Gujarat Lions
+info,gender,male
+info,season,2016
+info,date,2016/05/06
+info,event,Indian Premier League
+info,match_number,34
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,B Kumar
+info,umpire,M Erasmus
+info,umpire,S Ravi
+info,reserve_umpire,A Deshmukh
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,J Srinath
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,5
+info,player,Gujarat Lions,DR Smith
+info,player,Gujarat Lions,BB McCullum
+info,player,Gujarat Lions,SK Raina
+info,player,Gujarat Lions,KD Karthik
+info,player,Gujarat Lions,AJ Finch
+info,player,Gujarat Lions,DJ Bravo
+info,player,Gujarat Lions,RA Jadeja
+info,player,Gujarat Lions,P Kumar
+info,player,Gujarat Lions,PJ Sangwan
+info,player,Gujarat Lions,DS Kulkarni
+info,player,Gujarat Lions,S Kaushik
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,Yuvraj Singh
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,BB Sran
+info,player,Sunrisers Hyderabad,A Nehra
+info,player,Sunrisers Hyderabad,Mustafizur Rahman
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BB Sran,d8b2f218
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DR Smith,35205dfc
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaushik,1da489ff
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,Yuvraj Singh,1c914163

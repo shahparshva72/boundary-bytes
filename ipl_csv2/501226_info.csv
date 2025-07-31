@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Pune Warriors
+info,gender,male
+info,season,2011
+info,date,2011/04/25
+info,event,Indian Premier League
+info,match_number,29
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Pune Warriors
+info,toss_decision,field
+info,player_of_match,MEK Hussey
+info,umpire,Aleem Dar
+info,umpire,RB Tiffin
+info,reserve_umpire,K Srinath
+info,tv_umpire,SS Hazare
+info,match_referee,AJ Pycroft
+info,winner,Chennai Super Kings
+info,winner_runs,25
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,MEK Hussey
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,S Anirudha
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,DE Bollinger
+info,player,Chennai Super Kings,SB Jakati
+info,player,Chennai Super Kings,S Randiv
+info,player,Pune Warriors,JD Ryder
+info,player,Pune Warriors,MD Mishra
+info,player,Pune Warriors,MK Pandey
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,Yuvraj Singh
+info,player,Pune Warriors,M Manhas
+info,player,Pune Warriors,NL McCullum
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,JE Taylor
+info,player,Pune Warriors,M Kartik
+info,player,Pune Warriors,AC Thomas
+info,registry,people,A Mukund,6165bca6
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,Aleem Dar,f02778d1
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,JE Taylor,4180d897
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,M Kartik,abfeb126
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MD Mishra,6afb26d6
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,NL McCullum,5673a3fc
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RB Tiffin,89087a0d
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Anirudha,95a2ea61
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Randiv,f5f18a18
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SS Hazare,166e5081
+info,registry,people,Yuvraj Singh,1c914163

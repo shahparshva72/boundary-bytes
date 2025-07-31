@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2007/08
+info,date,2008/05/19
+info,event,Indian Premier League
+info,match_number,43
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,SP Goswami
+info,umpire,SJ Davis
+info,umpire,GA Pratapkumar
+info,reserve_umpire,VN Kulkarni
+info,tv_umpire,SL Shastri
+info,match_referee,Talat Ali
+info,winner,Delhi Daredevils
+info,winner_wickets,5
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,AB de Villiers
+info,player,Delhi Daredevils,TM Dilshan
+info,player,Delhi Daredevils,S Dhawan
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,MF Maharoof
+info,player,Delhi Daredevils,R Bhatia
+info,player,Delhi Daredevils,VY Mahesh
+info,player,Delhi Daredevils,PJ Sangwan
+info,player,Delhi Daredevils,GD McGrath
+info,player,Royal Challengers Bangalore,JH Kallis
+info,player,Royal Challengers Bangalore,B Chipli
+info,player,Royal Challengers Bangalore,SP Goswami
+info,player,Royal Challengers Bangalore,R Dravid
+info,player,Royal Challengers Bangalore,Misbah-ul-Haq
+info,player,Royal Challengers Bangalore,CL White
+info,player,Royal Challengers Bangalore,B Akhil
+info,player,Royal Challengers Bangalore,P Kumar
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,A Kumble
+info,player,Royal Challengers Bangalore,DW Steyn
+info,registry,people,A Kumble,0c2730df
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,B Akhil,af7dadf7
+info,registry,people,B Chipli,5451a2c1
+info,registry,people,CL White,d0513f63
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GA Pratapkumar,cf7c5778
+info,registry,people,GD McGrath,ee7d0c82
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,MF Maharoof,ab89348d
+info,registry,people,Misbah-ul-Haq,7eae4418
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R Dravid,0184dc35
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,Shoaib Malik,64c34cd0
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,Talat Ali,1df4131e
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VN Kulkarni,0b126008
+info,registry,people,VY Mahesh,93a17209
+info,registry,people,Z Khan,91a4a398

@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2024
+info,date,2024/05/02
+info,event,Indian Premier League
+info,match_number,50
+info,venue,"Rajiv Gandhi International Stadium, Uppal, Hyderabad"
+info,city,Hyderabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,B Kumar
+info,umpire,AK Chaudhary
+info,umpire,YC Barde
+info,reserve_umpire,K Kelkar
+info,tv_umpire,R Pandit
+info,match_referee,Shakti Singh
+info,winner,Sunrisers Hyderabad
+info,winner_runs,1
+info,player,Sunrisers Hyderabad,JD Unadkat
+info,player,Sunrisers Hyderabad,TM Head
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,Anmolpreet Singh
+info,player,Sunrisers Hyderabad,Nithish Kumar Reddy
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,Shahbaz Ahmed
+info,player,Sunrisers Hyderabad,M Jansen
+info,player,Sunrisers Hyderabad,PJ Cummins
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Rajasthan Royals,YS Chahal
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,R Powell
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,TA Boult
+info,player,Rajasthan Royals,Avesh Khan
+info,player,Rajasthan Royals,Sandeep Sharma
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Anmolpreet Singh,1399b39c
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Kelkar,1d88908d
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,Nithish Kumar Reddy,aad0c365
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Powell,650d5e49
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,T Natarajan,ce794613
+info,registry,people,TA Boult,a818c1be
+info,registry,people,TM Head,12b610c2
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YC Barde,b90f3346
+info,registry,people,YS Chahal,57ee1fde

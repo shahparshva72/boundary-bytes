@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2018
+info,date,2018/04/15
+info,event,Indian Premier League
+info,match_number,12
+info,venue,Punjab Cricket Association IS Bindra Stadium
+info,city,Chandigarh
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,CH Gayle
+info,umpire,CK Nandan
+info,umpire,VA Kulkarni
+info,reserve_umpire,R Pandit
+info,tv_umpire,NJ Llong
+info,match_referee,S Chaturvedi
+info,winner,Kings XI Punjab
+info,winner_runs,4
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,AJ Finch
+info,player,Kings XI Punjab,KK Nair
+info,player,Kings XI Punjab,R Ashwin
+info,player,Kings XI Punjab,AJ Tye
+info,player,Kings XI Punjab,BB Sran
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,Mujeeb Ur Rahman
+info,player,Chennai Super Kings,SR Watson
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,SW Billings
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,Harbhajan Singh
+info,player,Chennai Super Kings,SN Thakur
+info,player,Chennai Super Kings,Imran Tahir
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,BB Sran,d8b2f218
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NJ Llong,573fb985
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Pandit,8a604384
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,S Chaturvedi,c8ec02e1
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SW Billings,c16d4035
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,Yuvraj Singh,1c914163

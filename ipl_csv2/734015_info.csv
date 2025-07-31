@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2014
+info,date,2014/05/18
+info,event,Indian Premier League
+info,match_number,43
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,UT Yadav
+info,umpire,NJ Llong
+info,umpire,CK Nandan
+info,reserve_umpire,A Nand Kishore
+info,tv_umpire,AK Chaudhary
+info,match_referee,RS Madugalle
+info,winner,Kolkata Knight Riders
+info,winner_wickets,7
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,M Morkel
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Sunrisers Hyderabad,AJ Finch
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,KL Rahul
+info,player,Sunrisers Hyderabad,IK Pathan
+info,player,Sunrisers Hyderabad,DJG Sammy
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,DW Steyn
+info,player,Sunrisers Hyderabad,A Mishra
+info,player,Sunrisers Hyderabad,B Kumar
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJG Sammy,c03c6200
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KV Sharma,119678fd
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,NJ Llong,573fb985
+info,registry,people,NV Ojha,890946a0
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,YK Pathan,3c6ffae8

@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Royal Challengers Bengaluru
+info,gender,male
+info,season,2025
+info,date,2025/03/22
+info,event,Indian Premier League
+info,match_number,1
+info,venue,"Eden Gardens, Kolkata"
+info,city,Kolkata
+info,toss_winner,Royal Challengers Bengaluru
+info,toss_decision,field
+info,player_of_match,KH Pandya
+info,umpire,A Bengeri
+info,umpire,Vinod Seshan
+info,reserve_umpire,TM Srivastava
+info,tv_umpire,J Madanagopal
+info,match_referee,Prakash Bhatt
+info,winner,Royal Challengers Bengaluru
+info,winner_wickets,7
+info,player,Kolkata Knight Riders,VG Arora
+info,player,Kolkata Knight Riders,Q de Kock
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,AM Rahane
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,A Raghuvanshi
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,Ramandeep Singh
+info,player,Kolkata Knight Riders,Harshit Rana
+info,player,Kolkata Knight Riders,SH Johnson
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Royal Challengers Bengaluru,Suyash Sharma
+info,player,Royal Challengers Bengaluru,PD Salt
+info,player,Royal Challengers Bengaluru,V Kohli
+info,player,Royal Challengers Bengaluru,D Padikkal
+info,player,Royal Challengers Bengaluru,RM Patidar
+info,player,Royal Challengers Bengaluru,LS Livingstone
+info,player,Royal Challengers Bengaluru,JM Sharma
+info,player,Royal Challengers Bengaluru,TH David
+info,player,Royal Challengers Bengaluru,KH Pandya
+info,player,Royal Challengers Bengaluru,Rasikh Salam
+info,player,Royal Challengers Bengaluru,JR Hazlewood
+info,player,Royal Challengers Bengaluru,Yash Dayal
+info,registry,people,A Bengeri,c109497d
+info,registry,people,A Raghuvanshi,d7017798
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AM Rahane,29e95537
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,Harshit Rana,77b1aa15
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,Rasikh Salam,b8527c3d
+info,registry,people,SH Johnson,83c3e8e3
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Suyash Sharma,9440ef41
+info,registry,people,TH David,f1f99156
+info,registry,people,TM Srivastava,a76d10ba
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VG Arora,7c3b3b78
+info,registry,people,VR Iyer,a24be938
+info,registry,people,Vinod Seshan,a3357a27
+info,registry,people,Yash Dayal,7210d461

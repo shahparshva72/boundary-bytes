@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2012
+info,date,2012/04/15
+info,event,Indian Premier League
+info,match_number,18
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,AM Rahane
+info,umpire,JD Cloete
+info,umpire,RJ Tucker
+info,reserve_umpire,BK Ravi
+info,tv_umpire,S Ravi
+info,match_referee,Raju Mukherjee
+info,winner,Rajasthan Royals
+info,winner_runs,59
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,OA Shah
+info,player,Rajasthan Royals,BJ Hodge
+info,player,Rajasthan Royals,AL Menaria
+info,player,Rajasthan Royals,J Botha
+info,player,Rajasthan Royals,GB Hogg
+info,player,Rajasthan Royals,SP Goswami
+info,player,Rajasthan Royals,A Singh
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,Pankaj Singh
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,M Kaif
+info,player,Royal Challengers Bangalore,DL Vettori
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,S Aravind
+info,player,Royal Challengers Bangalore,M Muralitharan
+info,registry,people,A Singh,5b040b81
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AL Menaria,8291f939
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BK Ravi,ff8c3cfb
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,J Botha,7c503806
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,M Kaif,d84378a4
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,OA Shah,7bf96684
+info,registry,people,Pankaj Singh,e32d22f6
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,Raju Mukherjee,7a3244b5
+info,registry,people,S Aravind,957532de
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Z Khan,91a4a398

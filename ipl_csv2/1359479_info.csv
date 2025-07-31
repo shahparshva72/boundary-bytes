@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2023
+info,date,2023/04/02
+info,event,Indian Premier League
+info,match_number,5
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,F du Plessis
+info,umpire,Nitin Menon
+info,umpire,Tapan Sharma
+info,reserve_umpire,A Bengeri
+info,tv_umpire,VK Sharma
+info,match_referee,J Srinath
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,8
+info,player,Mumbai Indians,JP Behrendorff
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,C Green
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,N Wadhera
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,HR Shokeen
+info,player,Mumbai Indians,Arshad Khan
+info,player,Mumbai Indians,PP Chawla
+info,player,Mumbai Indians,JC Archer
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,MG Bracewell
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,Akash Deep
+info,player,Royal Challengers Bangalore,RJW Topley
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,KV Sharma
+info,registry,people,A Bengeri,c109497d
+info,registry,people,Akash Deep,0a67aec0
+info,registry,people,Arshad Khan,12314277
+info,registry,people,C Green,eaa76d3c
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HR Shokeen,0c9652b0
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JC Archer,5574750c
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KV Sharma,119678fd
+info,registry,people,MG Bracewell,e38bce7a
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJW Topley,8db7f47f
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,TH David,f1f99156
+info,registry,people,Tapan Sharma,b9aa2b6e
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VK Sharma,a7a49df4

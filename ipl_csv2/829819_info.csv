@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2015
+info,date,2015/05/20
+info,event,Indian Premier League
+info,venue,Maharashtra Cricket Association Stadium
+info,city,Pune
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,bat
+info,player_of_match,AB de Villiers
+info,umpire,AK Chaudhary
+info,umpire,C Shamshuddin
+info,reserve_umpire,K Srinath
+info,tv_umpire,CB Gaffaney
+info,match_referee,RS Mahanama
+info,winner,Royal Challengers Bangalore
+info,winner_runs,71
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,KK Nair
+info,player,Rajasthan Royals,DJ Hooda
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,CH Morris
+info,player,Rajasthan Royals,Ankit Sharma
+info,player,Rajasthan Royals,DS Kulkarni
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,Mandeep Singh
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,SN Khan
+info,player,Royal Challengers Bangalore,D Wiese
+info,player,Royal Challengers Bangalore,MA Starc
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,S Aravind
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Ankit Sharma,24d94623
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,D Wiese,aa8d28ae
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KK Nair,944533a5
+info,registry,people,MA Starc,3fb19989
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Aravind,957532de
+info,registry,people,SN Khan,f088b960
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YS Chahal,57ee1fde

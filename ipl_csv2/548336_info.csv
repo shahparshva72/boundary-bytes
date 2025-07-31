@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2012
+info,date,2012/04/23
+info,event,Indian Premier League
+info,match_number,30
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,AB de Villiers
+info,umpire,Asad Rauf
+info,umpire,S Asnani
+info,reserve_umpire,PK Khakhar
+info,tv_umpire,S Das
+info,match_referee,RS Madugalle
+info,winner,Royal Challengers Bangalore
+info,winner_runs,46
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,OA Shah
+info,player,Rajasthan Royals,SP Goswami
+info,player,Rajasthan Royals,BJ Hodge
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,KK Cooper
+info,player,Rajasthan Royals,GB Hogg
+info,player,Rajasthan Royals,Pankaj Singh
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,A Chandila
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,TM Dilshan
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,DL Vettori
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,KP Appanna
+info,registry,people,A Chandila,99b202b3
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,KK Cooper,557153ca
+info,registry,people,KP Appanna,d92e42f5
+info,registry,people,LA Pomersbach,b63ab531
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,OA Shah,7bf96684
+info,registry,people,PK Khakhar,b7cad41f
+info,registry,people,Pankaj Singh,e32d22f6
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Das,475e38b6
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Z Khan,91a4a398

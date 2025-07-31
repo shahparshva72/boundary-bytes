@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kochi Tuskers Kerala
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2011
+info,date,2011/05/05
+info,event,Indian Premier League
+info,match_number,45
+info,venue,Nehru Stadium
+info,city,Kochi
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,BJ Hodge
+info,umpire,S Ravi
+info,umpire,RJ Tucker
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,SK Tarapore
+info,match_referee,D Govindjee
+info,winner,Kochi Tuskers Kerala
+info,winner_runs,17
+info,player,Kochi Tuskers Kerala,BB McCullum
+info,player,Kochi Tuskers Kerala,M Klinger
+info,player,Kochi Tuskers Kerala,PA Patel
+info,player,Kochi Tuskers Kerala,DPMD Jayawardene
+info,player,Kochi Tuskers Kerala,RA Jadeja
+info,player,Kochi Tuskers Kerala,BJ Hodge
+info,player,Kochi Tuskers Kerala,RV Gomez
+info,player,Kochi Tuskers Kerala,R Vinay Kumar
+info,player,Kochi Tuskers Kerala,RP Singh
+info,player,Kochi Tuskers Kerala,S Sreesanth
+info,player,Kochi Tuskers Kerala,P Parameswaran
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,MV Boucher
+info,player,Kolkata Knight Riders,B Lee
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,Iqbal Abdulla
+info,player,Kolkata Knight Riders,S Ladda
+info,player,Kolkata Knight Riders,JD Unadkat
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MV Boucher,f3cb53a1
+info,registry,people,P Parameswaran,0c432afb
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RV Gomez,b2570b38
+info,registry,people,S Ladda,fb693839
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,YK Pathan,3c6ffae8

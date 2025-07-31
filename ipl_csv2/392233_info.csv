@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2009
+info,date,2009/05/20
+info,event,Indian Premier League
+info,match_number,53
+info,venue,Kingsmead
+info,city,Durban
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,LR Shukla
+info,umpire,BG Jerling
+info,umpire,SJA Taufel
+info,reserve_umpire,EC Hendrikse
+info,tv_umpire,SS Hazare
+info,match_referee,D Govindjee
+info,winner,Kolkata Knight Riders
+info,winner_wickets,4
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,BJ Hodge
+info,player,Kolkata Knight Riders,Yashpal Singh
+info,player,Kolkata Knight Riders,DJ Hussey
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,SS Shaikh
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,CK Langeveldt
+info,player,Kolkata Knight Riders,AB Dinda
+info,player,Kolkata Knight Riders,SS Sarkar
+info,player,Rajasthan Royals,NV Ojha
+info,player,Rajasthan Royals,RJ Quiney
+info,player,Rajasthan Royals,SA Asnodkar
+info,player,Rajasthan Royals,Niraj Patel
+info,player,Rajasthan Royals,J Botha
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,RA Jadeja
+info,player,Rajasthan Royals,T Henderson
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,MM Patel
+info,player,Rajasthan Royals,A Singh
+info,registry,people,A Singh,5b040b81
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BG Jerling,26457e41
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CK Langeveldt,d1c94b25
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,EC Hendrikse,3f2996c9
+info,registry,people,J Botha,7c503806
+info,registry,people,LR Shukla,b1451597
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,Niraj Patel,a2870fb7
+info,registry,people,NV Ojha,890946a0
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,SA Asnodkar,ae091d39
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SS Hazare,166e5081
+info,registry,people,SS Sarkar,caa89a48
+info,registry,people,SS Shaikh,5f5d3ad4
+info,registry,people,T Henderson,0a4ebc61
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Yashpal Singh,297b26da

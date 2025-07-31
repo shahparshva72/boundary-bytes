@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2020/21
+info,date,2020/10/05
+info,event,Indian Premier League
+info,match_number,19
+info,venue,Dubai International Cricket Stadium
+info,city,
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,AR Patel
+info,umpire,Nitin Menon
+info,umpire,YC Barde
+info,reserve_umpire,AY Dandekar
+info,tv_umpire,PR Reiffel
+info,match_referee,Prakash Bhatt
+info,winner,Delhi Capitals
+info,winner_runs,59
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,S Dhawan
+info,player,Delhi Capitals,SS Iyer
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,MP Stoinis
+info,player,Delhi Capitals,SO Hetmyer
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,R Ashwin
+info,player,Delhi Capitals,K Rabada
+info,player,Delhi Capitals,A Nortje
+info,player,Delhi Capitals,HV Patel
+info,player,Royal Challengers Bangalore,D Padikkal
+info,player,Royal Challengers Bangalore,AJ Finch
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,MM Ali
+info,player,Royal Challengers Bangalore,Washington Sundar
+info,player,Royal Challengers Bangalore,S Dube
+info,player,Royal Challengers Bangalore,I Udana
+info,player,Royal Challengers Bangalore,NA Saini
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AR Patel,2e171977
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,I Udana,ac5ae4af
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,NA Saini,21d4e29b
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YC Barde,b90f3346
+info,registry,people,YS Chahal,57ee1fde

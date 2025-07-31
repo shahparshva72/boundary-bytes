@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Mumbai Indians
+info,gender,male
+info,season,2018
+info,date,2018/05/04
+info,event,Indian Premier League
+info,match_number,34
+info,venue,Holkar Cricket Stadium
+info,city,Indore
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,SA Yadav
+info,umpire,AY Dandekar
+info,umpire,S Ravi
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,C Shamshuddin
+info,match_referee,M Nayyar
+info,winner,Mumbai Indians
+info,winner_wickets,6
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,KK Nair
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,MP Stoinis
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,R Ashwin
+info,player,Kings XI Punjab,AJ Tye
+info,player,Kings XI Punjab,Mujeeb Ur Rahman
+info,player,Kings XI Punjab,AS Rajpoot
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,E Lewis
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,JP Duminy
+info,player,Mumbai Indians,BCJ Cutting
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,M Markande
+info,player,Mumbai Indians,JJ Bumrah
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AR Patel,2e171977
+info,registry,people,AS Rajpoot,db31895a
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Gayle,db584dad
+info,registry,people,E Lewis,0ebfb1ad
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,Yuvraj Singh,1c914163

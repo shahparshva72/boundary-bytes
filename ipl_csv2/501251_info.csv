@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Mumbai Indians
+info,gender,male
+info,season,2011
+info,date,2011/05/10
+info,event,Indian Premier League
+info,match_number,54
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,BA Bhatt
+info,umpire,SK Tarapore
+info,umpire,RJ Tucker
+info,reserve_umpire,K Bharatan
+info,match_referee,D Govindjee
+info,winner,Kings XI Punjab
+info,winner_runs,76
+info,player,Kings XI Punjab,PC Valthaty
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,KD Karthik
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,Bipul Sharma
+info,player,Kings XI Punjab,RJ Harris
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,SJ Srivastava
+info,player,Kings XI Punjab,BA Bhatt
+info,player,Mumbai Indians,AC Blizzard
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,A Symonds
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,TL Suman
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,DS Kulkarni
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,MM Patel
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,BA Bhatt,dc4686e6
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PC Valthaty,25eeb281
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Srivastava,2049f3a0
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,TL Suman,aaa1b522

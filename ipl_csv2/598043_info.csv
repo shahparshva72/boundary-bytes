@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2013
+info,date,2013/05/03
+info,event,Indian Premier League
+info,match_number,47
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,YK Pathan
+info,umpire,HDPK Dharmasena
+info,umpire,CK Nandan
+info,reserve_umpire,AS Pathania
+info,tv_umpire,S Ravi
+info,match_referee,RS Mahanama
+info,winner,Kolkata Knight Riders
+info,winner_wickets,8
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MS Bisla
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,DB Das
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,S Narwal
+info,player,Kolkata Knight Riders,SMSM Senanayake
+info,player,Kolkata Knight Riders,Iqbal Abdulla
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,DH Yagnik
+info,player,Rajasthan Royals,OA Shah
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AA Chavan
+info,player,Rajasthan Royals,GB Hogg
+info,player,Rajasthan Royals,SK Trivedi
+info,registry,people,AA Chavan,29d72eb2
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AS Pathania,bf6c251d
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DB Das,7050a1e7
+info,registry,people,DH Yagnik,063b3673
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,OA Shah,7bf96684
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R Dravid,0184dc35
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Narwal,287686fd
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SMSM Senanayake,4c4fa80b
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,YK Pathan,3c6ffae8

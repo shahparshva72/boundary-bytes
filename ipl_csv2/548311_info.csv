@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2012
+info,date,2012/04/07
+info,event,Indian Premier League
+info,match_number,6
+info,venue,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium
+info,city,Visakhapatnam
+info,toss_winner,Deccan Chargers
+info,toss_decision,field
+info,player_of_match,RA Jadeja
+info,umpire,JD Cloete
+info,umpire,HDPK Dharmasena
+info,reserve_umpire,R Subramanian
+info,tv_umpire,AK Chaudhary
+info,match_referee,GF Labrooy
+info,winner,Chennai Super Kings
+info,winner_runs,74
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,SB Jakati
+info,player,Chennai Super Kings,DE Bollinger
+info,player,Deccan Chargers,DJ Harris
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,PA Patel
+info,player,Deccan Chargers,CL White
+info,player,Deccan Chargers,B Chipli
+info,player,Deccan Chargers,DT Christian
+info,player,Deccan Chargers,MS Gony
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,Ankit Sharma
+info,player,Deccan Chargers,DW Steyn
+info,player,Deccan Chargers,TP Sudhindra
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Ankit Sharma,24d94623
+info,registry,people,B Chipli,5451a2c1
+info,registry,people,CL White,d0513f63
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Harris,39f82db3
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Subramanian,7c32b886
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,TP Sudhindra,2f3817ce

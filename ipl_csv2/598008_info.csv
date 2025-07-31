@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2013
+info,date,2013/04/11
+info,event,Indian Premier League
+info,match_number,12
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,CH Gayle
+info,umpire,Asad Rauf
+info,umpire,AK Chaudhary
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,S Asnani
+info,match_referee,DC Boon
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,8
+info,player,Kolkata Knight Riders,MS Bisla
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,R McLaren
+info,player,Kolkata Knight Riders,PJ Sangwan
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,L Balaji
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,MC Henriques
+info,player,Royal Challengers Bangalore,KB Arun Karthik
+info,player,Royal Challengers Bangalore,KL Rahul
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,RP Singh
+info,player,Royal Challengers Bangalore,JD Unadkat
+info,player,Royal Challengers Bangalore,M Muralitharan
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DC Boon,e79a1fe3
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,KB Arun Karthik,7daedf2f
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R McLaren,c654af19
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Asnani,b04524bc
+info,registry,people,SP Narine,9d430b40
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YK Pathan,3c6ffae8

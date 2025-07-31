@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2011
+info,date,2011/04/30
+info,event,Indian Premier League
+info,match_number,37
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,Iqbal Abdulla
+info,umpire,AM Saheba
+info,umpire,SL Shastri
+info,reserve_umpire,S Das
+info,tv_umpire,RJ Tucker
+info,match_referee,GF Labrooy
+info,winner,Kolkata Knight Riders
+info,winner_wickets,8
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,PC Valthaty
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,KD Karthik
+info,player,Kings XI Punjab,AM Nayar
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,Bipul Sharma
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,BA Bhatt
+info,player,Kings XI Punjab,RJ Harris
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,SP Goswami
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,Iqbal Abdulla
+info,player,Kolkata Knight Riders,L Balaji
+info,player,Kolkata Knight Riders,B Lee
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AM Saheba,883e3818
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BA Bhatt,dc4686e6
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,L Balaji,b2b50355
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PC Valthaty,25eeb281
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,S Das,475e38b6
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,YK Pathan,3c6ffae8

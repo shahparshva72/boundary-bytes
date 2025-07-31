@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2009/10
+info,date,2010/03/23
+info,event,Indian Premier League
+info,match_number,18
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,RV Uthappa
+info,umpire,RE Koertzen
+info,umpire,RB Tiffin
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,BG Jerling
+info,match_referee,AJ Pycroft
+info,winner,Royal Challengers Bangalore
+info,winner_runs,36
+info,player,Chennai Super Kings,PA Patel
+info,player,Chennai Super Kings,ML Hayden
+info,player,Chennai Super Kings,GJ Bailey
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,L Balaji
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Chennai Super Kings,S Tyagi
+info,player,Royal Challengers Bangalore,MK Pandey
+info,player,Royal Challengers Bangalore,JH Kallis
+info,player,Royal Challengers Bangalore,R Dravid
+info,player,Royal Challengers Bangalore,RV Uthappa
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,EJG Morgan
+info,player,Royal Challengers Bangalore,MV Boucher
+info,player,Royal Challengers Bangalore,P Kumar
+info,player,Royal Challengers Bangalore,A Kumble
+info,player,Royal Challengers Bangalore,DW Steyn
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,registry,people,A Kumble,0c2730df
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,BG Jerling,26457e41
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KP Appanna,d92e42f5
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MV Boucher,f3cb53a1
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RB Tiffin,89087a0d
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Tyagi,c24a2c5d
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,V Kohli,ba607b88

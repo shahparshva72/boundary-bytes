@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Deccan Chargers
+info,gender,male
+info,season,2012
+info,date,2012/04/17
+info,event,Indian Premier League
+info,match_number,20
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Deccan Chargers
+info,toss_decision,bat
+info,player_of_match,BJ Hodge
+info,umpire,Aleem Dar
+info,umpire,BNJ Oxenford
+info,reserve_umpire,PK Khakhar
+info,tv_umpire,AK Chaudhary
+info,match_referee,RR Jadeja
+info,winner,Rajasthan Royals
+info,winner_wickets,5
+info,player,Deccan Chargers,KC Sangakkara
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,DT Christian
+info,player,Deccan Chargers,JP Duminy
+info,player,Deccan Chargers,B Chipli
+info,player,Deccan Chargers,T Mishra
+info,player,Deccan Chargers,AA Jhunjhunwala
+info,player,Deccan Chargers,Ankit Sharma
+info,player,Deccan Chargers,A Mishra
+info,player,Deccan Chargers,DW Steyn
+info,player,Deccan Chargers,Anand Rajan
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,AL Menaria
+info,player,Rajasthan Royals,OA Shah
+info,player,Rajasthan Royals,BJ Hodge
+info,player,Rajasthan Royals,J Botha
+info,player,Rajasthan Royals,DH Yagnik
+info,player,Rajasthan Royals,GB Hogg
+info,player,Rajasthan Royals,A Singh
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,Pankaj Singh
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Singh,5b040b81
+info,registry,people,AA Jhunjhunwala,2815fe50
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AL Menaria,8291f939
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Aleem Dar,f02778d1
+info,registry,people,Anand Rajan,d2340a43
+info,registry,people,Ankit Sharma,24d94623
+info,registry,people,B Chipli,5451a2c1
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,DH Yagnik,063b3673
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,J Botha,7c503806
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,OA Shah,7bf96684
+info,registry,people,PK Khakhar,b7cad41f
+info,registry,people,Pankaj Singh,e32d22f6
+info,registry,people,R Dravid,0184dc35
+info,registry,people,RR Jadeja,053de19b
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,T Mishra,c9cac448

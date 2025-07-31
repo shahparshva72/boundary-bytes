@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2013
+info,date,2013/05/16
+info,event,Indian Premier League
+info,match_number,67
+info,venue,Himachal Pradesh Cricket Association Stadium
+info,city,Dharamsala
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,DA Miller
+info,umpire,HDPK Dharmasena
+info,umpire,S Ravi
+info,reserve_umpire,Nitin Menon
+info,tv_umpire,CK Nandan
+info,match_referee,RS Mahanama
+info,winner,Kings XI Punjab
+info,winner_runs,7
+info,player,Delhi Daredevils,DPMD Jayawardene
+info,player,Delhi Daredevils,UBT Chand
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,BJ Rohrer
+info,player,Delhi Daredevils,CM Gautam
+info,player,Delhi Daredevils,M Morkel
+info,player,Delhi Daredevils,S Kaul
+info,player,Delhi Daredevils,UT Yadav
+info,player,Delhi Daredevils,A Nehra
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,Azhar Mahmood
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,R Sathish
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,P Awana
+info,player,Kings XI Punjab,Sandeep Sharma
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,CM Gautam,30a2649b
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,M Vohra,c03e2850
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Sathish,626c5379
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Kaul,dcf81436
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,UBT Chand,0c94f480
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Sehwag,8ba8195d

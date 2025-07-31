@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2025
+info,date,2025/03/23
+info,event,Indian Premier League
+info,match_number,3
+info,venue,"MA Chidambaram Stadium, Chepauk, Chennai"
+info,city,Chennai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,Noor Ahmad
+info,umpire,KN Ananthapadmanabhan
+info,umpire,HAS Khalid
+info,reserve_umpire,Bhavesh Patel
+info,tv_umpire,Nitin Menon
+info,match_referee,J Srinath
+info,winner,Chennai Super Kings
+info,winner_wickets,4
+info,player,Mumbai Indians,V Puthur
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,RD Rickelton
+info,player,Mumbai Indians,WG Jacks
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,R Minz
+info,player,Mumbai Indians,Naman Dhir
+info,player,Mumbai Indians,MJ Santner
+info,player,Mumbai Indians,DL Chahar
+info,player,Mumbai Indians,TA Boult
+info,player,Mumbai Indians,PVSN Raju
+info,player,Chennai Super Kings,KK Ahmed
+info,player,Chennai Super Kings,R Ravindra
+info,player,Chennai Super Kings,RA Tripathi
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,DJ Hooda
+info,player,Chennai Super Kings,SM Curran
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,Noor Ahmad
+info,player,Chennai Super Kings,NT Ellis
+info,registry,people,Bhavesh Patel,ee03dc30
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MJ Santner,e4a0deae
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,Naman Dhir,fffa744b
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,Noor Ahmad,efc04be7
+info,registry,people,PVSN Raju,c27b5a0e
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Minz,bafd0398
+info,registry,people,R Ravindra,ba5e1069
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,RD Rickelton,e66732f8
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SM Curran,e94915e6
+info,registry,people,TA Boult,a818c1be
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,V Puthur,1e030637
+info,registry,people,WG Jacks,9caf69a1

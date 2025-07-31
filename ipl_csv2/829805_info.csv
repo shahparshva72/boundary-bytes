@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2015
+info,date,2015/05/14
+info,event,Indian Premier League
+info,match_number,51
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,HH Pandya
+info,umpire,RK Illingworth
+info,umpire,VA Kulkarni
+info,reserve_umpire,AY Dandekar
+info,tv_umpire,RM Deshpande
+info,match_referee,RR Jadeja
+info,winner,Mumbai Indians
+info,winner_runs,5
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,M Morkel
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Mumbai Indians,LMP Simmons
+info,player,Mumbai Indians,PA Patel
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,J Suchith
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,R Vinay Kumar
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,J Suchith,4125d931
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,LMP Simmons,89f64c19
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RK Illingworth,20672246
+info,registry,people,RM Deshpande,7d2a4250
+info,registry,people,RR Jadeja,053de19b
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,YK Pathan,3c6ffae8

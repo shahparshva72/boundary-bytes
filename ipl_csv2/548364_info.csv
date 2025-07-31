@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2012
+info,date,2012/05/12
+info,event,Indian Premier League
+info,match_number,59
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,BW Hilfenhaus
+info,umpire,S Das
+info,umpire,BR Doctrove
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,S Asnani
+info,match_referee,GF Labrooy
+info,winner,Chennai Super Kings
+info,winner_wickets,9
+info,player,Chennai Super Kings,MEK Hussey
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,S Anirudha
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,BW Hilfenhaus
+info,player,Chennai Super Kings,SB Jakati
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,NV Ojha
+info,player,Delhi Daredevils,DPMD Jayawardene
+info,player,Delhi Daredevils,Y Venugopal Rao
+info,player,Delhi Daredevils,Y Nagar
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,RE van der Merwe
+info,player,Delhi Daredevils,M Morkel
+info,player,Delhi Daredevils,VR Aaron
+info,player,Delhi Daredevils,UT Yadav
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,NV Ojha,890946a0
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RE van der Merwe,05c2ca46
+info,registry,people,S Anirudha,95a2ea61
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Das,475e38b6
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,Y Nagar,662c47a6
+info,registry,people,Y Venugopal Rao,fe763256

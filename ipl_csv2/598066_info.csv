@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Mumbai Indians
+info,gender,male
+info,season,2013
+info,date,2013/05/18
+info,event,Indian Premier League
+info,match_number,69
+info,venue,Himachal Pradesh Cricket Association Stadium
+info,city,Dharamsala
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,Azhar Mahmood
+info,umpire,HDPK Dharmasena
+info,umpire,CK Nandan
+info,tv_umpire,S Ravi
+info,match_referee,RS Mahanama
+info,winner,Kings XI Punjab
+info,winner_runs,50
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,Azhar Mahmood
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,Gurkeerat Singh
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,P Awana
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Mumbai Indians,GJ Maxwell
+info,player,Mumbai Indians,AP Tare
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KD Karthik
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,R Dhawan
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,NM Coulter-Nile
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,DS Kulkarni
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AP Tare,855a210c
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Vohra,c03e2850
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Dhawan,26a85969
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,Sandeep Sharma,ce820073

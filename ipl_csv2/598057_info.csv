@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2013
+info,date,2013/05/12
+info,event,Indian Premier League
+info,match_number,60
+info,venue,JSCA International Stadium Complex
+info,city,Ranchi
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,JH Kallis
+info,umpire,NJ Llong
+info,umpire,K Srinath
+info,reserve_umpire,PK Khakhar
+info,tv_umpire,VA Kulkarni
+info,match_referee,RS Madugalle
+info,winner,Kolkata Knight Riders
+info,winner_wickets,5
+info,player,Kolkata Knight Riders,MS Bisla
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,DB Das
+info,player,Kolkata Knight Riders,SMSM Senanayake
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,L Balaji
+info,player,Royal Challengers Bangalore,CA Pujara
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,MC Henriques
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,R Rampaul
+info,player,Royal Challengers Bangalore,A Mithun
+info,player,Royal Challengers Bangalore,M Kartik
+info,player,Royal Challengers Bangalore,JD Unadkat
+info,registry,people,A Mithun,66cf56a5
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,CA Pujara,d4f9dbd4
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DB Das,7050a1e7
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Kartik,abfeb126
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,NJ Llong,573fb985
+info,registry,people,PK Khakhar,b7cad41f
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R Rampaul,d68e7f48
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,SMSM Senanayake,4c4fa80b
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,YK Pathan,3c6ffae8

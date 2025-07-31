@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2015
+info,date,2015/05/10
+info,event,Indian Premier League
+info,match_number,46
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,bat
+info,player_of_match,AB de Villiers
+info,umpire,JD Cloete
+info,umpire,C Shamshuddin
+info,reserve_umpire,PG Pathak
+info,tv_umpire,K Srinath
+info,match_referee,J Srinath
+info,winner,Royal Challengers Bangalore
+info,winner_runs,39
+info,player,Mumbai Indians,PA Patel
+info,player,Mumbai Indians,LMP Simmons
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,J Suchith
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,SN Khan
+info,player,Royal Challengers Bangalore,Mandeep Singh
+info,player,Royal Challengers Bangalore,D Wiese
+info,player,Royal Challengers Bangalore,MA Starc
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,S Aravind
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Gayle,db584dad
+info,registry,people,D Wiese,aa8d28ae
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,J Srinath,bad31fac
+info,registry,people,J Suchith,4125d931
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,LMP Simmons,89f64c19
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Aravind,957532de
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SN Khan,f088b960
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YS Chahal,57ee1fde

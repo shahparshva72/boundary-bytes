@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2009
+info,date,2009/05/18
+info,event,Indian Premier League
+info,match_number,51
+info,venue,SuperSport Park
+info,city,Centurion
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,BJ Hodge
+info,umpire,SJA Taufel
+info,umpire,RB Tiffin
+info,reserve_umpire,JD Cloete
+info,tv_umpire,SK Tarapore
+info,match_referee,S Venkataraghavan
+info,winner,Kolkata Knight Riders
+info,winner_wickets,7
+info,player,Chennai Super Kings,PA Patel
+info,player,Chennai Super Kings,GJ Bailey
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,JDP Oram
+info,player,Chennai Super Kings,SB Jakati
+info,player,Chennai Super Kings,L Balaji
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Chennai Super Kings,S Tyagi
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,BJ Hodge
+info,player,Kolkata Knight Riders,DJ Hussey
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,Anureet Singh
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,AB Dinda
+info,player,Kolkata Knight Riders,BAW Mendis
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,Anureet Singh,69be866a
+info,registry,people,BAW Mendis,ea0cdc12
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,JDP Oram,3eac9d95
+info,registry,people,L Balaji,b2b50355
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Kartik,abfeb126
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,RB Tiffin,89087a0d
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Tyagi,c24a2c5d
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,WP Saha,fe11caa6

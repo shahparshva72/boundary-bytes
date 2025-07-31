@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2007/08
+info,date,2008/05/08
+info,event,Indian Premier League
+info,match_number,28
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,MS Dhoni
+info,umpire,Aleem Dar
+info,umpire,RB Tiffin
+info,tv_umpire,K Hariharan
+info,match_referee,CH Lloyd
+info,winner,Chennai Super Kings
+info,winner_wickets,4
+info,player,Chennai Super Kings,S Vidyut
+info,player,Chennai Super Kings,SP Fleming
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,CK Kapugedera
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,MS Gony
+info,player,Chennai Super Kings,P Amarnath
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Chennai Super Kings,L Balaji
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,AB de Villiers
+info,player,Delhi Daredevils,S Dhawan
+info,player,Delhi Daredevils,Shoaib Malik
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,MK Tiwary
+info,player,Delhi Daredevils,VY Mahesh
+info,player,Delhi Daredevils,GD McGrath
+info,player,Delhi Daredevils,Mohammad Asif
+info,player,Delhi Daredevils,PJ Sangwan
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,Aleem Dar,f02778d1
+info,registry,people,CH Lloyd,5b445db0
+info,registry,people,CK Kapugedera,cfad138c
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GD McGrath,ee7d0c82
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,Mohammad Asif,e03b66ec
+info,registry,people,P Amarnath,6ad3a659
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,RB Tiffin,89087a0d
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Vidyut,756389bd
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SP Fleming,eea6b7f1
+info,registry,people,Shoaib Malik,64c34cd0
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VY Mahesh,93a17209

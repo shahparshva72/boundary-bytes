@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2018
+info,date,2018/04/22
+info,event,Indian Premier League
+info,match_number,21
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,JC Archer
+info,umpire,KN Ananthapadmanabhan
+info,umpire,RJ Tucker
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,Nitin Menon
+info,match_referee,J Srinath
+info,winner,Rajasthan Royals
+info,winner_wickets,3
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,E Lewis
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,M Markande
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,Mustafizur Rahman
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,RA Tripathi
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,H Klaasen
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,K Gowtham
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,DS Kulkarni
+info,player,Rajasthan Royals,S Gopal
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BA Stokes,e087956b
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,E Lewis,0ebfb1ad
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SV Samson,a4cc73aa

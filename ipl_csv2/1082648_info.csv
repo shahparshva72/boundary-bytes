@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2017
+info,date,2017/05/17
+info,date,2017/05/18
+info,event,Indian Premier League
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,NM Coulter-Nile
+info,umpire,AK Chaudhary
+info,umpire,Nitin Menon
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,A Nand Kishore
+info,match_referee,M Nayyar
+info,winner,Kolkata Knight Riders
+info,winner_wickets,7
+info,method,D/L
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,CA Lynn
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,IR Jaggi
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,NM Coulter-Nile
+info,player,Kolkata Knight Riders,TA Boult
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,Yuvraj Singh
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,CJ Jordan
+info,player,Sunrisers Hyderabad,Bipul Sharma
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,S Kaul
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,IR Jaggi,dded65e7
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NV Ojha,890946a0
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaul,dcf81436
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,TA Boult,a818c1be
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Yuvraj Singh,1c914163

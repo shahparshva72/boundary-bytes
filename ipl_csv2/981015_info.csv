@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2016
+info,date,2016/05/25
+info,event,Indian Premier League
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,MC Henriques
+info,umpire,M Erasmus
+info,umpire,C Shamshuddin
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,CK Nandan
+info,match_referee,RS Mahanama
+info,winner,Sunrisers Hyderabad
+info,winner_runs,22
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,C Munro
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,R Sathish
+info,player,Kolkata Knight Riders,JO Holder
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,M Morkel
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,Yuvraj Singh
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,BCJ Cutting
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Bipul Sharma
+info,player,Sunrisers Hyderabad,BB Sran
+info,player,Sunrisers Hyderabad,Mustafizur Rahman
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BB Sran,d8b2f218
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,C Munro,af2c687b
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,JO Holder,0f721006
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,NV Ojha,890946a0
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,R Sathish,626c5379
+info,registry,people,RS Mahanama,57910393
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Yuvraj Singh,1c914163

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2013
+info,date,2013/05/09
+info,event,Indian Premier League
+info,match_number,55
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,KK Cooper
+info,umpire,HDPK Dharmasena
+info,umpire,S Ravi
+info,reserve_umpire,Nitin Menon
+info,tv_umpire,CK Nandan
+info,match_referee,RS Mahanama
+info,winner,Rajasthan Royals
+info,winner_wickets,8
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,MS Gony
+info,player,Kings XI Punjab,R Sathish
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,Bipul Sharma
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,P Awana
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,BJ Hodge
+info,player,Rajasthan Royals,DH Yagnik
+info,player,Rajasthan Royals,KK Cooper
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,A Chandila
+info,player,Rajasthan Royals,S Sreesanth
+info,player,Rajasthan Royals,SK Trivedi
+info,registry,people,A Chandila,99b202b3
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DH Yagnik,063b3673
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KK Cooper,557153ca
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Sathish,626c5379
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SV Samson,a4cc73aa

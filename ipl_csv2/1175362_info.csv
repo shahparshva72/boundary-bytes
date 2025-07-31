@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2019
+info,date,2019/03/28
+info,event,Indian Premier League
+info,match_number,7
+info,venue,M.Chinnaswamy Stadium
+info,city,Bengaluru
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,JJ Bumrah
+info,umpire,CK Nandan
+info,umpire,S Ravi
+info,reserve_umpire,BK Ravi
+info,tv_umpire,YC Barde
+info,match_referee,M Nayyar
+info,winner,Mumbai Indians
+info,winner_runs,6
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Yuvraj Singh
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,M Markande
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,SL Malinga
+info,player,Royal Challengers Bangalore,PA Patel
+info,player,Royal Challengers Bangalore,MM Ali
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,SO Hetmyer
+info,player,Royal Challengers Bangalore,C de Grandhomme
+info,player,Royal Challengers Bangalore,S Dube
+info,player,Royal Challengers Bangalore,NA Saini
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,UT Yadav
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,BK Ravi,ff8c3cfb
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,MM Ali,bb351c23
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,NA Saini,21d4e29b
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Dube,a4e37e47
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YC Barde,b90f3346
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Yuvraj Singh,1c914163

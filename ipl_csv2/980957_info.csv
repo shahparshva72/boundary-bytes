@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rising Pune Supergiants
+info,team,Mumbai Indians
+info,gender,male
+info,season,2016
+info,date,2016/05/01
+info,event,Indian Premier League
+info,match_number,29
+info,venue,Maharashtra Cricket Association Stadium
+info,city,Pune
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,RG Sharma
+info,umpire,AY Dandekar
+info,umpire,RJ Tucker
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,Nitin Menon
+info,match_referee,RS Madugalle
+info,winner,Mumbai Indians
+info,winner_wickets,8
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,PA Patel
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,JC Buttler
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,TG Southee
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Rising Pune Supergiants,AM Rahane
+info,player,Rising Pune Supergiants,SS Tiwary
+info,player,Rising Pune Supergiants,SPD Smith
+info,player,Rising Pune Supergiants,PSP Handscomb
+info,player,Rising Pune Supergiants,MS Dhoni
+info,player,Rising Pune Supergiants,NLTC Perera
+info,player,Rising Pune Supergiants,R Bhatia
+info,player,Rising Pune Supergiants,SM Boland
+info,player,Rising Pune Supergiants,R Ashwin
+info,player,Rising Pune Supergiants,AB Dinda
+info,player,Rising Pune Supergiants,M Ashwin
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,SM Boland,d167edd3
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,TG Southee,13c35c9e

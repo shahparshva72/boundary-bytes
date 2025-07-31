@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2020/21
+info,date,2020/11/01
+info,event,Indian Premier League
+info,match_number,54
+info,venue,Dubai International Cricket Stadium
+info,city,
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,PJ Cummins
+info,umpire,Nitin Menon
+info,umpire,PR Reiffel
+info,reserve_umpire,YC Barde
+info,tv_umpire,AK Chaudhary
+info,match_referee,Shakti Singh
+info,winner,Kolkata Knight Riders
+info,winner_runs,60
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,RA Tripathi
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,PJ Cummins
+info,player,Kolkata Knight Riders,KL Nagarkoti
+info,player,Kolkata Knight Riders,Shivam Mavi
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Rajasthan Royals,RV Uthappa
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,R Tewatia
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,Kartik Tyagi
+info,player,Rajasthan Royals,VR Aaron
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,BA Stokes,e087956b
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KL Nagarkoti,b4f5c2d9
+info,registry,people,Kartik Tyagi,5d2eea49
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,Shivam Mavi,c38d3503
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,YC Barde,b90f3346

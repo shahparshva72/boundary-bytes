@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Mumbai Indians
+info,gender,male
+info,season,2009
+info,date,2009/05/06
+info,event,Indian Premier League
+info,match_number,32
+info,venue,SuperSport Park
+info,city,Centurion
+info,toss_winner,Deccan Chargers
+info,toss_decision,bat
+info,player_of_match,RG Sharma
+info,umpire,MR Benson
+info,umpire,HDPK Dharmasena
+info,reserve_umpire,JD Cloete
+info,tv_umpire,K Hariharan
+info,match_referee,GR Viswanath
+info,winner,Deccan Chargers
+info,winner_runs,19
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,TL Suman
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,DR Smith
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,RJ Harris
+info,player,Deccan Chargers,Shoaib Ahmed
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,Harmeet Singh
+info,player,Mumbai Indians,ST Jayasuriya
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,PR Shah
+info,player,Mumbai Indians,JP Duminy
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,AM Nayar
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,SS Tiwary
+info,player,Mumbai Indians,RR Raje
+info,player,Mumbai Indians,DS Kulkarni
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DR Smith,35205dfc
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,GR Viswanath,9333bc07
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,Harmeet Singh,2a72fd4f
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,MR Benson,790e14d3
+info,registry,people,PR Shah,0aadc906
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RR Raje,5f4e9e8f
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,ST Jayasuriya,f233bbb4
+info,registry,people,Shoaib Ahmed,8a668774
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,Y Venugopal Rao,fe763256

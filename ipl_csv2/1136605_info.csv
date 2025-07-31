@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2018
+info,date,2018/05/12
+info,event,Indian Premier League
+info,match_number,45
+info,venue,Arun Jaitley Stadium
+info,city,Delhi
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,AB de Villiers
+info,umpire,KN Ananthapadmanabhan
+info,umpire,HDPK Dharmasena
+info,reserve_umpire,K Srinath
+info,tv_umpire,AK Chaudhary
+info,match_referee,Prakash Bhatt
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,5
+info,player,Delhi Daredevils,PP Shaw
+info,player,Delhi Daredevils,JJ Roy
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,V Shankar
+info,player,Delhi Daredevils,Abhishek Sharma
+info,player,Delhi Daredevils,HV Patel
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,S Lamichhane
+info,player,Delhi Daredevils,CJ Dala
+info,player,Delhi Daredevils,TA Boult
+info,player,Royal Challengers Bangalore,PA Patel
+info,player,Royal Challengers Bangalore,MM Ali
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,Mandeep Singh
+info,player,Royal Challengers Bangalore,SN Khan
+info,player,Royal Challengers Bangalore,C de Grandhomme
+info,player,Royal Challengers Bangalore,TG Southee
+info,player,Royal Challengers Bangalore,UT Yadav
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CJ Dala,1cb14aa4
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MM Ali,bb351c23
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SN Khan,f088b960
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,TA Boult,a818c1be
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,YS Chahal,57ee1fde

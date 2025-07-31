@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2009/10
+info,date,2010/03/31
+info,event,Indian Premier League
+info,match_number,29
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Delhi Daredevils
+info,toss_decision,bat
+info,player_of_match,KD Karthik
+info,umpire,HDPK Dharmasena
+info,umpire,SJA Taufel
+info,reserve_umpire,AK Chaudhary
+info,tv_umpire,SS Hazare
+info,match_referee,RS Mahanama
+info,winner,Delhi Daredevils
+info,winner_runs,67
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,PD Collingwood
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,AB McDonald
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,MF Maharoof
+info,player,Delhi Daredevils,S Ladda
+info,player,Delhi Daredevils,UT Yadav
+info,player,Rajasthan Royals,MJ Lumb
+info,player,Rajasthan Royals,NV Ojha
+info,player,Rajasthan Royals,FY Fazal
+info,player,Rajasthan Royals,AA Jhunjhunwala
+info,player,Rajasthan Royals,AC Voges
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,P Dogra
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,S Narwal
+info,player,Rajasthan Royals,SW Tait
+info,player,Rajasthan Royals,SK Trivedi
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AA Jhunjhunwala,2815fe50
+info,registry,people,AB McDonald,16043342
+info,registry,people,AC Voges,864c199e
+info,registry,people,AS Raut,c69a7b5c
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,FY Fazal,c15e2193
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,MF Maharoof,ab89348d
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Dogra,2728e7e9
+info,registry,people,PD Collingwood,a386e91b
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Ladda,fb693839
+info,registry,people,S Narwal,287686fd
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SS Hazare,166e5081
+info,registry,people,SW Tait,addfb70e
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,YK Pathan,3c6ffae8

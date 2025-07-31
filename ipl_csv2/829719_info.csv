@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2015
+info,date,2015/04/13
+info,event,Indian Premier League
+info,match_number,8
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,DA Warner
+info,umpire,RM Deshpande
+info,umpire,RK Illingworth
+info,reserve_umpire,K Bharatan
+info,tv_umpire,VA Kulkarni
+info,match_referee,M Nayyar
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,8
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,Mandeep Singh
+info,player,Royal Challengers Bangalore,DJG Sammy
+info,player,Royal Challengers Bangalore,SA Abbott
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,AN Ahmed
+info,player,Royal Challengers Bangalore,VR Aaron
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,KL Rahul
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,RS Bopara
+info,player,Sunrisers Hyderabad,A Ashish Reddy
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,P Kumar
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,TA Boult
+info,registry,people,A Ashish Reddy,1c2a64cd
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AN Ahmed,2af1b6d2
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJG Sammy,c03c6200
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,KV Sharma,119678fd
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,RK Illingworth,20672246
+info,registry,people,RM Deshpande,7d2a4250
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,TA Boult,a818c1be
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,YS Chahal,57ee1fde

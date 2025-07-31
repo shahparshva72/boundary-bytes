@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2016
+info,date,2016/05/22
+info,event,Indian Premier League
+info,match_number,56
+info,venue,Shaheed Veer Narayan Singh International Stadium
+info,city,Raipur
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,V Kohli
+info,umpire,A Nand Kishore
+info,umpire,BNJ Oxenford
+info,reserve_umpire,YC Barde
+info,tv_umpire,VK Sharma
+info,match_referee,Chinmay Sharma
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,6
+info,player,Delhi Daredevils,Q de Kock
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,KK Nair
+info,player,Delhi Daredevils,SV Samson
+info,player,Delhi Daredevils,SW Billings
+info,player,Delhi Daredevils,P Negi
+info,player,Delhi Daredevils,CR Brathwaite
+info,player,Delhi Daredevils,CH Morris
+info,player,Delhi Daredevils,J Yadav
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Z Khan
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,KL Rahul
+info,player,Royal Challengers Bangalore,SR Watson
+info,player,Royal Challengers Bangalore,STR Binny
+info,player,Royal Challengers Bangalore,Sachin Baby
+info,player,Royal Challengers Bangalore,CJ Jordan
+info,player,Royal Challengers Bangalore,Iqbal Abdulla
+info,player,Royal Challengers Bangalore,S Aravind
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,J Yadav,81049310
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,P Negi,f62772e5
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Aravind,957532de
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,SW Billings,c16d4035
+info,registry,people,Sachin Baby,dc9dd038
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,YC Barde,b90f3346
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Z Khan,91a4a398

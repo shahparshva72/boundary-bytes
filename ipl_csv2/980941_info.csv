@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Mumbai Indians
+info,gender,male
+info,season,2016
+info,date,2016/04/25
+info,event,Indian Premier League
+info,match_number,21
+info,venue,"Punjab Cricket Association IS Bindra Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,PA Patel
+info,umpire,Nitin Menon
+info,umpire,RJ Tucker
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,C Shamshuddin
+info,match_referee,RS Madugalle
+info,winner,Mumbai Indians
+info,winner_runs,25
+info,player,Kings XI Punjab,M Vijay
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,NS Naik
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,MG Johnson
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,P Sahu
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,PA Patel
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,JC Buttler
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,TG Southee
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,JJ Bumrah
+info,registry,people,AR Patel,2e171977
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,M Vijay,4b57e452
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,NS Naik,aedc3b7c
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,P Sahu,9a0146b3
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,TG Southee,13c35c9e

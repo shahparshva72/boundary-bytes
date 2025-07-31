@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2018
+info,date,2018/05/10
+info,event,Indian Premier League
+info,match_number,42
+info,venue,Arun Jaitley Stadium
+info,city,Delhi
+info,toss_winner,Delhi Daredevils
+info,toss_decision,bat
+info,player_of_match,S Dhawan
+info,umpire,AY Dandekar
+info,umpire,C Shamshuddin
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,S Ravi
+info,match_referee,M Nayyar
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,9
+info,player,Delhi Daredevils,PP Shaw
+info,player,Delhi Daredevils,JJ Roy
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,HV Patel
+info,player,Delhi Daredevils,GJ Maxwell
+info,player,Delhi Daredevils,V Shankar
+info,player,Delhi Daredevils,LE Plunkett
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,TA Boult
+info,player,Sunrisers Hyderabad,AD Hales
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,Shakib Al Hasan
+info,player,Sunrisers Hyderabad,YK Pathan
+info,player,Sunrisers Hyderabad,SP Goswami
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,LE Plunkett,9a963804
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,RR Pant,919a3be2
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaul,dcf81436
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,TA Boult,a818c1be
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,YK Pathan,3c6ffae8

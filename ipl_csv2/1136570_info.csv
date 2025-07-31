@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2018
+info,date,2018/04/14
+info,event,Indian Premier League
+info,match_number,10
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,B Stanlake
+info,umpire,AK Chaudhary
+info,umpire,A Nand Kishore
+info,reserve_umpire,UV Gandhe
+info,tv_umpire,CB Gaffaney
+info,match_referee,RB Richardson
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,5
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,CA Lynn
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,Shivam Mavi
+info,player,Kolkata Knight Riders,MG Johnson
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Sunrisers Hyderabad,WP Saha
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,Shakib Al Hasan
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,YK Pathan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Sunrisers Hyderabad,B Stanlake
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RB Richardson,410e2f12
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaul,dcf81436
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,Shivam Mavi,c38d3503
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YK Pathan,3c6ffae8

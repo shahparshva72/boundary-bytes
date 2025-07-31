@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Deccan Chargers
+info,gender,male
+info,season,2009
+info,date,2009/05/04
+info,event,Indian Premier League
+info,match_number,29
+info,venue,Buffalo Park
+info,city,East London
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,MS Dhoni
+info,umpire,BR Doctrove
+info,umpire,M Erasmus
+info,reserve_umpire,S George
+info,tv_umpire,SK Tarapore
+info,match_referee,Yashpal Sharma
+info,winner,Chennai Super Kings
+info,winner_runs,78
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,ML Hayden
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,JDP Oram
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,S Tyagi
+info,player,Chennai Super Kings,SB Jakati
+info,player,Chennai Super Kings,L Balaji
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,VVS Laxman
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,DR Smith
+info,player,Deccan Chargers,TL Suman
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,RJ Harris
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,Shoaib Ahmed
+info,player,Deccan Chargers,PP Ojha
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,DR Smith,35205dfc
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JDP Oram,3eac9d95
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,M Vijay,4b57e452
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S George,6d9e5a54
+info,registry,people,S Tyagi,c24a2c5d
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,Shoaib Ahmed,8a668774
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,VVS Laxman,de8cce37
+info,registry,people,Y Venugopal Rao,fe763256
+info,registry,people,Yashpal Sharma,e22d7ccb

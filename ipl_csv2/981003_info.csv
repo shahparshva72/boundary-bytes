@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2016
+info,date,2016/05/20
+info,event,Indian Premier League
+info,match_number,52
+info,venue,Shaheed Veer Narayan Singh International Stadium
+info,city,Raipur
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,KK Nair
+info,umpire,A Nand Kishore
+info,umpire,BNJ Oxenford
+info,reserve_umpire,YC Barde
+info,tv_umpire,VK Sharma
+info,match_referee,S Chaturvedi
+info,winner,Delhi Daredevils
+info,winner_wickets,6
+info,player,Delhi Daredevils,Q de Kock
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,KK Nair
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,CR Brathwaite
+info,player,Delhi Daredevils,SV Samson
+info,player,Delhi Daredevils,P Negi
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Z Khan
+info,player,Delhi Daredevils,J Yadav
+info,player,Delhi Daredevils,NM Coulter-Nile
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,Yuvraj Singh
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,EJG Morgan
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,Mustafizur Rahman
+info,player,Sunrisers Hyderabad,BB Sran
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BB Sran,d8b2f218
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,J Yadav,81049310
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KK Nair,944533a5
+info,registry,people,KV Sharma,119678fd
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Negi,f62772e5
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Chaturvedi,c8ec02e1
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,YC Barde,b90f3346
+info,registry,people,Yuvraj Singh,1c914163
+info,registry,people,Z Khan,91a4a398

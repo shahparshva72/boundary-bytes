@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2020/21
+info,date,2020/10/18
+info,event,Indian Premier League
+info,match_number,35
+info,venue,Sheikh Zayed Stadium
+info,city,Abu Dhabi
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,LH Ferguson
+info,umpire,PG Pathak
+info,umpire,S Ravi
+info,reserve_umpire,UV Gandhe
+info,tv_umpire,VK Sharma
+info,match_referee,M Nayyar
+info,outcome,tie
+info,eliminator,Kolkata Knight Riders
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,RA Tripathi
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,PJ Cummins
+info,player,Kolkata Knight Riders,LH Ferguson
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Kolkata Knight Riders,Shivam Mavi
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Sunrisers Hyderabad,JM Bairstow
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,PK Garg
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Sunrisers Hyderabad,Basil Thampi
+info,player,Sunrisers Hyderabad,T Natarajan
+info,registry,people,AD Russell,bbd41817
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Basil Thampi,871e9faf
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,PK Garg,bb965e9a
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shivam Mavi,c38d3503
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,T Natarajan,ce794613
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,VK Sharma,a7a49df4

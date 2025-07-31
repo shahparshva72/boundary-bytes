@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2015
+info,date,2015/05/16
+info,event,Indian Premier League
+info,match_number,54
+info,venue,Brabourne Stadium
+info,city,Mumbai
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,SR Watson
+info,umpire,RM Deshpande
+info,umpire,RK Illingworth
+info,reserve_umpire,AY Dandekar
+info,tv_umpire,VA Kulkarni
+info,match_referee,RR Jadeja
+info,winner,Rajasthan Royals
+info,winner_runs,9
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,Azhar Mahmood
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,M Morkel
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,KK Nair
+info,player,Rajasthan Royals,CH Morris
+info,player,Rajasthan Royals,DJ Hooda
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,DS Kulkarni
+info,player,Rajasthan Royals,BB Sran
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,BB Sran,d8b2f218
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KK Nair,944533a5
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RK Illingworth,20672246
+info,registry,people,RM Deshpande,7d2a4250
+info,registry,people,RR Jadeja,053de19b
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,YK Pathan,3c6ffae8

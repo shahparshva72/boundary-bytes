@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2016
+info,date,2016/05/08
+info,event,Indian Premier League
+info,match_number,37
+info,venue,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium
+info,city,Visakhapatnam
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,A Nehra
+info,umpire,S Ravi
+info,umpire,C Shamshuddin
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,Nitin Menon
+info,match_referee,RS Madugalle
+info,winner,Sunrisers Hyderabad
+info,winner_runs,85
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,PA Patel
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,JC Buttler
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,TG Southee
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,Yuvraj Singh
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,BB Sran
+info,player,Sunrisers Hyderabad,A Nehra
+info,player,Sunrisers Hyderabad,Mustafizur Rahman
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BB Sran,d8b2f218
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,NV Ojha,890946a0
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,Yuvraj Singh,1c914163

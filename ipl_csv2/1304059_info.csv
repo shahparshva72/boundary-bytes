@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2022
+info,date,2022/04/05
+info,event,Indian Premier League
+info,match_number,13
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,KD Karthik
+info,umpire,AK Chaudhary
+info,umpire,HAS Khalid
+info,reserve_umpire,NA Patwardhan
+info,tv_umpire,Nitin Menon
+info,match_referee,Prakash Bhatt
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,4
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,D Padikkal
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,Navdeep Saini
+info,player,Rajasthan Royals,TA Boult
+info,player,Rajasthan Royals,YS Chahal
+info,player,Rajasthan Royals,M Prasidh Krishna
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,Anuj Rawat
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,DJ Willey
+info,player,Royal Challengers Bangalore,SE Rutherford
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,PWH de Silva
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,Akash Deep
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Akash Deep,0a67aec0
+info,registry,people,Anuj Rawat,c8f5f961
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,DJ Willey,7f048519
+info,registry,people,F du Plessis,3355b542
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,JC Buttler,99b75528
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,NA Patwardhan,e6ef687d
+info,registry,people,Navdeep Saini,21d4e29b
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Parag,04a418e8
+info,registry,people,SE Rutherford,d014d5ac
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,TA Boult,a818c1be
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YS Chahal,57ee1fde

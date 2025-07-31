@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Pune Warriors
+info,gender,male
+info,season,2011
+info,date,2011/04/20
+info,event,Indian Premier League
+info,match_number,21
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Pune Warriors
+info,toss_decision,bat
+info,player_of_match,MM Patel
+info,umpire,Asad Rauf
+info,umpire,AM Saheba
+info,reserve_umpire,VA Kulkarni
+info,tv_umpire,SL Shastri
+info,match_referee,Raju Mukherjee
+info,winner,Mumbai Indians
+info,winner_wickets,7
+info,player,Mumbai Indians,JEC Franklin
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,A Symonds
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,R Sathish
+info,player,Mumbai Indians,AN Ahmed
+info,player,Mumbai Indians,AG Murtaza
+info,player,Mumbai Indians,MM Patel
+info,player,Mumbai Indians,SL Malinga
+info,player,Pune Warriors,JD Ryder
+info,player,Pune Warriors,TD Paine
+info,player,Pune Warriors,M Manhas
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,Yuvraj Singh
+info,player,Pune Warriors,MD Mishra
+info,player,Pune Warriors,M Kartik
+info,player,Pune Warriors,WD Parnell
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,SB Wagh
+info,player,Pune Warriors,AC Thomas
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AG Murtaza,ef5da05c
+info,registry,people,AM Saheba,883e3818
+info,registry,people,AN Ahmed,2af1b6d2
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,JEC Franklin,cf73ad76
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,M Kartik,abfeb126
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,MD Mishra,6afb26d6
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,R Sathish,626c5379
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,Raju Mukherjee,7a3244b5
+info,registry,people,SB Wagh,dddca1d6
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,TD Paine,5748e866
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,WD Parnell,3a60e0b5
+info,registry,people,Yuvraj Singh,1c914163

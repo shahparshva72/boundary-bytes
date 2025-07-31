@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Pune Warriors
+info,team,Kochi Tuskers Kerala
+info,gender,male
+info,season,2011
+info,date,2011/04/13
+info,event,Indian Premier League
+info,match_number,10
+info,venue,Dr DY Patil Sports Academy
+info,city,Mumbai
+info,toss_winner,Kochi Tuskers Kerala
+info,toss_decision,bat
+info,player_of_match,MD Mishra
+info,umpire,S Asnani
+info,umpire,PR Reiffel
+info,reserve_umpire,NA Patwardhan
+info,tv_umpire,BR Doctrove
+info,match_referee,J Srinath
+info,winner,Pune Warriors
+info,winner_wickets,4
+info,player,Kochi Tuskers Kerala,BB McCullum
+info,player,Kochi Tuskers Kerala,VVS Laxman
+info,player,Kochi Tuskers Kerala,PA Patel
+info,player,Kochi Tuskers Kerala,DPMD Jayawardene
+info,player,Kochi Tuskers Kerala,BJ Hodge
+info,player,Kochi Tuskers Kerala,RA Jadeja
+info,player,Kochi Tuskers Kerala,RV Gomez
+info,player,Kochi Tuskers Kerala,R Vinay Kumar
+info,player,Kochi Tuskers Kerala,S Sreesanth
+info,player,Kochi Tuskers Kerala,RP Singh
+info,player,Kochi Tuskers Kerala,M Muralitharan
+info,player,Pune Warriors,JD Ryder
+info,player,Pune Warriors,GC Smith
+info,player,Pune Warriors,M Manhas
+info,player,Pune Warriors,Yuvraj Singh
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,MD Mishra
+info,player,Pune Warriors,WD Parnell
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,M Kartik
+info,player,Pune Warriors,SB Wagh
+info,player,Pune Warriors,AC Thomas
+info,registry,people,AC Thomas,b552a935
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,GC Smith,72861603
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,M Kartik,abfeb126
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MD Mishra,6afb26d6
+info,registry,people,NA Patwardhan,e6ef687d
+info,registry,people,NL McCullum,5673a3fc
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RV Gomez,b2570b38
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,SB Wagh,dddca1d6
+info,registry,people,VVS Laxman,de8cce37
+info,registry,people,WD Parnell,3a60e0b5
+info,registry,people,Yuvraj Singh,1c914163

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Gujarat Lions
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2017
+info,date,2017/04/07
+info,event,Indian Premier League
+info,match_number,3
+info,venue,Saurashtra Cricket Association Stadium
+info,city,Rajkot
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,CA Lynn
+info,umpire,Nitin Menon
+info,umpire,CK Nandan
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,YC Barde
+info,match_referee,V Narayan Kutty
+info,winner,Kolkata Knight Riders
+info,winner_wickets,10
+info,player,Gujarat Lions,JJ Roy
+info,player,Gujarat Lions,BB McCullum
+info,player,Gujarat Lions,SK Raina
+info,player,Gujarat Lions,AJ Finch
+info,player,Gujarat Lions,KD Karthik
+info,player,Gujarat Lions,DR Smith
+info,player,Gujarat Lions,MS Gony
+info,player,Gujarat Lions,P Kumar
+info,player,Gujarat Lions,SB Jakati
+info,player,Gujarat Lions,DS Kulkarni
+info,player,Gujarat Lions,S Kaushik
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,CA Lynn
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,CR Woakes
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,TA Boult
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,CR Woakes,4c5d73db
+info,registry,people,DR Smith,35205dfc
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Kaushik,1da489ff
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SP Narine,9d430b40
+info,registry,people,TA Boult,a818c1be
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,YC Barde,b90f3346
+info,registry,people,YK Pathan,3c6ffae8

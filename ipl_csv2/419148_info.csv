@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2009/10
+info,date,2010/04/10
+info,event,Indian Premier League
+info,match_number,43
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,R Vinay Kumar
+info,umpire,K Hariharan
+info,umpire,DJ Harper
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,S Asnani
+info,match_referee,J Srinath
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,7
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,CH Gayle
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,AD Mathews
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,CA Pujara
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,AB Dinda
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Kolkata Knight Riders,BAW Mendis
+info,player,Royal Challengers Bangalore,S Sriram
+info,player,Royal Challengers Bangalore,JH Kallis
+info,player,Royal Challengers Bangalore,R Dravid
+info,player,Royal Challengers Bangalore,RV Uthappa
+info,player,Royal Challengers Bangalore,LRPL Taylor
+info,player,Royal Challengers Bangalore,CL White
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,P Kumar
+info,player,Royal Challengers Bangalore,A Kumble
+info,player,Royal Challengers Bangalore,DW Steyn
+info,registry,people,A Kumble,0c2730df
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,BAW Mendis,ea0cdc12
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,CA Pujara,d4f9dbd4
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Sriram,64a4c383
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,V Kohli,ba607b88
+info,registry,people,WP Saha,fe11caa6

@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2015
+info,date,2015/05/17
+info,event,Indian Premier League
+info,match_number,55
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,umpire,HDPK Dharmasena
+info,umpire,K Srinivasan
+info,reserve_umpire,Nitin Menon
+info,tv_umpire,PG Pathak
+info,match_referee,RS Madugalle
+info,outcome,no result
+info,player,Delhi Daredevils,Q de Kock
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,Yuvraj Singh
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,AD Mathews
+info,player,Delhi Daredevils,SS Tiwary
+info,player,Delhi Daredevils,J Yadav
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,GS Sandhu
+info,player,Delhi Daredevils,Z Khan
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,Mandeep Singh
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,SN Khan
+info,player,Royal Challengers Bangalore,D Wiese
+info,player,Royal Challengers Bangalore,MA Starc
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,AB Dinda
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,CH Gayle,db584dad
+info,registry,people,D Wiese,aa8d28ae
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,J Yadav,81049310
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,MA Starc,3fb19989
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SN Khan,f088b960
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Yuvraj Singh,1c914163
+info,registry,people,Z Khan,91a4a398

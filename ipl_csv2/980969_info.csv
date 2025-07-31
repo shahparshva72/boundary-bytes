@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Rising Pune Supergiants
+info,gender,male
+info,season,2016
+info,date,2016/05/07
+info,event,Indian Premier League
+info,match_number,35
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,V Kohli
+info,umpire,CB Gaffaney
+info,umpire,BNJ Oxenford
+info,reserve_umpire,YC Barde
+info,tv_umpire,A Nand Kishore
+info,match_referee,Chinmay Sharma
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,7
+info,player,Rising Pune Supergiants,AM Rahane
+info,player,Rising Pune Supergiants,UT Khawaja
+info,player,Rising Pune Supergiants,SS Tiwary
+info,player,Rising Pune Supergiants,MS Dhoni
+info,player,Rising Pune Supergiants,NLTC Perera
+info,player,Rising Pune Supergiants,GJ Bailey
+info,player,Rising Pune Supergiants,R Bhatia
+info,player,Rising Pune Supergiants,R Ashwin
+info,player,Rising Pune Supergiants,A Zampa
+info,player,Rising Pune Supergiants,AB Dinda
+info,player,Rising Pune Supergiants,RP Singh
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,KL Rahul
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,SR Watson
+info,player,Royal Challengers Bangalore,TM Head
+info,player,Royal Challengers Bangalore,Sachin Baby
+info,player,Royal Challengers Bangalore,STR Binny
+info,player,Royal Challengers Bangalore,Parvez Rasool
+info,player,Royal Challengers Bangalore,CJ Jordan
+info,player,Royal Challengers Bangalore,VR Aaron
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,A Zampa,14f96089
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AM Rahane,29e95537
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,Parvez Rasool,9170ff49
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,Sachin Baby,dc9dd038
+info,registry,people,TM Head,12b610c2
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,YC Barde,b90f3346
+info,registry,people,YS Chahal,57ee1fde

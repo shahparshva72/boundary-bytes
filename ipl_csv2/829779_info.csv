@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2015
+info,date,2015/05/04
+info,event,Indian Premier League
+info,match_number,37
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,SK Raina
+info,umpire,C Shamshuddin
+info,umpire,K Srinath
+info,reserve_umpire,PG Pathak
+info,tv_umpire,JD Cloete
+info,match_referee,J Srinath
+info,winner,Chennai Super Kings
+info,winner_runs,24
+info,player,Chennai Super Kings,DR Smith
+info,player,Chennai Super Kings,BB McCullum
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,P Negi
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,MM Sharma
+info,player,Chennai Super Kings,A Nehra
+info,player,Chennai Super Kings,IC Pandey
+info,player,Royal Challengers Bangalore,NJ Maddinson
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,Mandeep Singh
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,SN Khan
+info,player,Royal Challengers Bangalore,D Wiese
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,MA Starc
+info,player,Royal Challengers Bangalore,Iqbal Abdulla
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,D Wiese,aa8d28ae
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DR Smith,35205dfc
+info,registry,people,F du Plessis,3355b542
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,IC Pandey,e0407c01
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,P Negi,f62772e5
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SN Khan,f088b960
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YS Chahal,57ee1fde

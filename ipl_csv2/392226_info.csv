@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2009
+info,date,2009/05/15
+info,event,Indian Premier League
+info,match_number,46
+info,venue,OUTsurance Oval
+info,city,Bloemfontein
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,B Lee
+info,umpire,HDPK Dharmasena
+info,umpire,IL Howell
+info,reserve_umpire,ZTA Ndamane
+info,tv_umpire,S Asnani
+info,match_referee,J Srinath
+info,winner,Kings XI Punjab
+info,winner_wickets,6
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,TM Dilshan
+info,player,Delhi Daredevils,AB de Villiers
+info,player,Delhi Daredevils,M Manhas
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,MF Maharoof
+info,player,Delhi Daredevils,DL Vettori
+info,player,Delhi Daredevils,R Bhatia
+info,player,Delhi Daredevils,PJ Sangwan
+info,player,Delhi Daredevils,A Nehra
+info,player,Kings XI Punjab,S Sohal
+info,player,Kings XI Punjab,SM Katich
+info,player,Kings XI Punjab,LA Pomersbach
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,B Lee
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,RR Powar
+info,player,Kings XI Punjab,WA Mota
+info,player,Kings XI Punjab,S Sreesanth
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,IL Howell,c1cd91c3
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,LA Pomersbach,b63ab531
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,MF Maharoof,ab89348d
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RR Powar,5d096f3d
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Sohal,3fca55af
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,WA Mota,3dba85c2
+info,registry,people,Yuvraj Singh,1c914163
+info,registry,people,ZTA Ndamane,545cc6db

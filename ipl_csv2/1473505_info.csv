@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2025
+info,date,2025/05/25
+info,event,Indian Premier League
+info,match_number,68
+info,venue,"Arun Jaitley Stadium, Delhi"
+info,city,Delhi
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,H Klaasen
+info,umpire,AT Holdstock
+info,umpire,K Kelkar
+info,reserve_umpire,Amit Rana
+info,tv_umpire,R Pandit
+info,match_referee,A Kripal Singh
+info,winner,Sunrisers Hyderabad
+info,winner_runs,110
+info,player,Sunrisers Hyderabad,Harsh Dubey
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,TM Head
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,Ishan Kishan
+info,player,Sunrisers Hyderabad,Aniket Verma
+info,player,Sunrisers Hyderabad,Nithish Kumar Reddy
+info,player,Sunrisers Hyderabad,A Manohar
+info,player,Sunrisers Hyderabad,PJ Cummins
+info,player,Sunrisers Hyderabad,HV Patel
+info,player,Sunrisers Hyderabad,JD Unadkat
+info,player,Sunrisers Hyderabad,E Malinga
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Kolkata Knight Riders,Q de Kock
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,AM Rahane
+info,player,Kolkata Knight Riders,A Raghuvanshi
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,Ramandeep Singh
+info,player,Kolkata Knight Riders,Harshit Rana
+info,player,Kolkata Knight Riders,VG Arora
+info,player,Kolkata Knight Riders,A Nortje
+info,registry,people,A Kripal Singh,8f559207
+info,registry,people,A Manohar,0890552f
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,A Raghuvanshi,d7017798
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AT Holdstock,6fa3258c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Amit Rana,f5db088b
+info,registry,people,Aniket Verma,a3b0600d
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,E Malinga,5750bcb4
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Harsh Dubey,25228673
+info,registry,people,Harshit Rana,77b1aa15
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Kelkar,1d88908d
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Nithish Kumar Reddy,aad0c365
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Pandit,8a604384
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,SP Narine,9d430b40
+info,registry,people,TM Head,12b610c2
+info,registry,people,VG Arora,7c3b3b78

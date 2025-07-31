@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2014
+info,date,2014/05/10
+info,event,Indian Premier League
+info,match_number,32
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,DW Steyn
+info,umpire,RM Deshpande
+info,umpire,BNJ Oxenford
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,C Shamshuddin
+info,match_referee,J Srinath
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,8
+info,method,D/L
+info,player,Delhi Daredevils,Q de Kock
+info,player,Delhi Daredevils,KP Pietersen
+info,player,Delhi Daredevils,MA Agarwal
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,LR Shukla
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,R Shukla
+info,player,Delhi Daredevils,Mohammed Shami
+info,player,Delhi Daredevils,Imran Tahir
+info,player,Delhi Daredevils,S Kaul
+info,player,Sunrisers Hyderabad,AJ Finch
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,KL Rahul
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,IK Pathan
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,DW Steyn
+info,player,Sunrisers Hyderabad,A Mishra
+info,player,Sunrisers Hyderabad,B Kumar
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,KV Sharma,119678fd
+info,registry,people,LR Shukla,b1451597
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,NV Ojha,890946a0
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Shukla,de4b0555
+info,registry,people,RM Deshpande,7d2a4250
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaul,dcf81436

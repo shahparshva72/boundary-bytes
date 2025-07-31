@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2020/21
+info,date,2020/10/18
+info,event,Indian Premier League
+info,match_number,36
+info,venue,Dubai International Cricket Stadium
+info,city,
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,KL Rahul
+info,umpire,Nitin Menon
+info,umpire,PR Reiffel
+info,reserve_umpire,AY Dandekar
+info,tv_umpire,AK Chaudhary
+info,match_referee,J Srinath
+info,outcome,tie
+info,eliminator,Kings XI Punjab
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,NM Coulter-Nile
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,TA Boult
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,N Pooran
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,DJ Hooda
+info,player,Kings XI Punjab,CJ Jordan
+info,player,Kings XI Punjab,M Ashwin
+info,player,Kings XI Punjab,Ravi Bishnoi
+info,player,Kings XI Punjab,Mohammed Shami
+info,player,Kings XI Punjab,Arshdeep Singh
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AS Roy,e4cdf230
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,TA Boult,a818c1be

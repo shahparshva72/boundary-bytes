@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2013
+info,date,2013/05/14
+info,event,Indian Premier League
+info,match_number,63
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,AC Gilchrist
+info,umpire,HDPK Dharmasena
+info,umpire,S Ravi
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,CK Nandan
+info,match_referee,RS Mahanama
+info,winner,Kings XI Punjab
+info,winner_wickets,7
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,Azhar Mahmood
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,R Sathish
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,MS Gony
+info,player,Kings XI Punjab,P Awana
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Royal Challengers Bangalore,CA Pujara
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,MC Henriques
+info,player,Royal Challengers Bangalore,KL Rahul
+info,player,Royal Challengers Bangalore,KB Arun Karthik
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,M Muralitharan
+info,player,Royal Challengers Bangalore,JD Unadkat
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,CA Pujara,d4f9dbd4
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,KB Arun Karthik,7daedf2f
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,P Awana,1a0c3177
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Sathish,626c5379
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Z Khan,91a4a398

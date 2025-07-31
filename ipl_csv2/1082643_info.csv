@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Gujarat Lions
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2017
+info,date,2017/05/13
+info,event,Indian Premier League
+info,match_number,53
+info,venue,Green Park
+info,city,Kanpur
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,Mohammed Siraj
+info,umpire,AK Chaudhary
+info,umpire,Nitin Menon
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,YC Barde
+info,match_referee,Chinmay Sharma
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,8
+info,player,Gujarat Lions,DR Smith
+info,player,Gujarat Lions,Ishan Kishan
+info,player,Gujarat Lions,SK Raina
+info,player,Gujarat Lions,KD Karthik
+info,player,Gujarat Lions,AJ Finch
+info,player,Gujarat Lions,RA Jadeja
+info,player,Gujarat Lions,JP Faulkner
+info,player,Gujarat Lions,PJ Sangwan
+info,player,Gujarat Lions,Ankit Soni
+info,player,Gujarat Lions,P Kumar
+info,player,Gujarat Lions,MM Patel
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,Mohammad Nabi
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Sunrisers Hyderabad,Mohammed Siraj
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Ankit Soni,f18ba07f
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DR Smith,35205dfc
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,NV Ojha,890946a0
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaul,dcf81436
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,YC Barde,b90f3346

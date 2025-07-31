@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Gujarat Lions
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2016
+info,date,2016/05/01
+info,event,Indian Premier League
+info,match_number,28
+info,venue,Saurashtra Cricket Association Stadium
+info,city,Rajkot
+info,toss_winner,Gujarat Lions
+info,toss_decision,field
+info,player_of_match,AR Patel
+info,umpire,BNJ Oxenford
+info,umpire,VK Sharma
+info,reserve_umpire,YC Barde
+info,tv_umpire,CB Gaffaney
+info,match_referee,M Nayyar
+info,winner,Kings XI Punjab
+info,winner_runs,23
+info,player,Gujarat Lions,DR Smith
+info,player,Gujarat Lions,BB McCullum
+info,player,Gujarat Lions,SK Raina
+info,player,Gujarat Lions,KD Karthik
+info,player,Gujarat Lions,RA Jadeja
+info,player,Gujarat Lions,DJ Bravo
+info,player,Gujarat Lions,Ishan Kishan
+info,player,Gujarat Lions,JP Faulkner
+info,player,Gujarat Lions,P Kumar
+info,player,Gujarat Lions,DS Kulkarni
+info,player,Gujarat Lions,S Kaushik
+info,player,Kings XI Punjab,M Vijay
+info,player,Kings XI Punjab,MP Stoinis
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,Gurkeerat Singh
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,KC Cariappa
+info,player,Kings XI Punjab,Sandeep Sharma
+info,registry,people,AR Patel,2e171977
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DR Smith,35205dfc
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KC Cariappa,edb3d4f8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,S Kaushik,1da489ff
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YC Barde,b90f3346

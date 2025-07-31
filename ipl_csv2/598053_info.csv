@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Pune Warriors
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2013
+info,date,2013/05/09
+info,event,Indian Premier League
+info,match_number,56
+info,venue,Subrata Roy Sahara Stadium
+info,city,Pune
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,G Gambhir
+info,umpire,Asad Rauf
+info,umpire,S Asnani
+info,reserve_umpire,PG Pathak
+info,tv_umpire,SJA Taufel
+info,match_referee,J Srinath
+info,winner,Kolkata Knight Riders
+info,winner_runs,46
+info,player,Kolkata Knight Riders,MS Bisla
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,Iqbal Abdulla
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,L Balaji
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,AJ Finch
+info,player,Pune Warriors,Yuvraj Singh
+info,player,Pune Warriors,UA Birla
+info,player,Pune Warriors,AD Mathews
+info,player,Pune Warriors,MR Marsh
+info,player,Pune Warriors,M Rawat
+info,player,Pune Warriors,WD Parnell
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,Parvez Rasool
+info,player,Pune Warriors,K Upadhyay
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,K Upadhyay,27e71d47
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Rawat,de8d3876
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,Parvez Rasool,9170ff49
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Asnani,b04524bc
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SP Narine,9d430b40
+info,registry,people,UA Birla,91b9300b
+info,registry,people,WD Parnell,3a60e0b5
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Yuvraj Singh,1c914163

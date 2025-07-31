@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2013
+info,date,2013/04/23
+info,event,Indian Premier League
+info,match_number,32
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,Harmeet Singh
+info,umpire,VA Kulkarni
+info,umpire,K Srinath
+info,reserve_umpire,K Bharatan
+info,tv_umpire,M Erasmus
+info,match_referee,RS Madugalle
+info,winner,Kings XI Punjab
+info,winner_wickets,5
+info,player,Delhi Daredevils,DPMD Jayawardene
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,RE van der Merwe
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,MC Juneja
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,J Botha
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,AB Agarkar
+info,player,Delhi Daredevils,A Nehra
+info,player,Delhi Daredevils,UT Yadav
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,LA Pomersbach
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,Harmeet Singh
+info,player,Kings XI Punjab,BA Bhatt
+info,player,Kings XI Punjab,P Awana
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,BA Bhatt,dc4686e6
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,Harmeet Singh,2a72fd4f
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,J Botha,7c503806
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,LA Pomersbach,b63ab531
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MC Juneja,605b7efa
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RE van der Merwe,05c2ca46
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VA Kulkarni,8fe0c4f8

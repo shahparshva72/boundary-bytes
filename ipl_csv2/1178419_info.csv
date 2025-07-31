@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2019
+info,date,2019/04/26
+info,event,Indian Premier League
+info,match_number,44
+info,venue,MA Chidambaram Stadium
+info,city,Chennai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,RG Sharma
+info,umpire,AK Chaudhary
+info,umpire,NJ Llong
+info,reserve_umpire,N Pandit
+info,tv_umpire,VA Kulkarni
+info,match_referee,V Narayan Kutty
+info,winner,Mumbai Indians
+info,winner_runs,46
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,E Lewis
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,AS Roy
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,SL Malinga
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,SR Watson
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,KM Jadhav
+info,player,Chennai Super Kings,DR Shorey
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,MJ Santner
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,Harbhajan Singh
+info,player,Chennai Super Kings,Imran Tahir
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AS Roy,e4cdf230
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,DR Shorey,faa7365d
+info,registry,people,E Lewis,0ebfb1ad
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MJ Santner,e4a0deae
+info,registry,people,N Pandit,4947c258
+info,registry,people,NJ Llong,573fb985
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,VA Kulkarni,8fe0c4f8

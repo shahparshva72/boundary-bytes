@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2011
+info,date,2011/04/16
+info,event,Indian Premier League
+info,match_number,14
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,MEK Hussey
+info,umpire,HDPK Dharmasena
+info,umpire,AL Hill
+info,reserve_umpire,K Srinath
+info,tv_umpire,K Hariharan
+info,match_referee,Raju Mukherjee
+info,winner,Chennai Super Kings
+info,winner_runs,21
+info,player,Chennai Super Kings,MEK Hussey
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,S Anirudha
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,SB Jakati
+info,player,Chennai Super Kings,TG Southee
+info,player,Chennai Super Kings,S Randiv
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,TM Dilshan
+info,player,Royal Challengers Bangalore,AUK Pathan
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,CA Pujara
+info,player,Royal Challengers Bangalore,JJ van der Wath
+info,player,Royal Challengers Bangalore,DL Vettori
+info,player,Royal Challengers Bangalore,R Ninan
+info,player,Royal Challengers Bangalore,Z Khan
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AL Hill,4165ced0
+info,registry,people,AUK Pathan,3ae3f034
+info,registry,people,CA Pujara,d4f9dbd4
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JJ van der Wath,6821ac10
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Ninan,ce4cc4d5
+info,registry,people,Raju Mukherjee,7a3244b5
+info,registry,people,S Anirudha,95a2ea61
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Randiv,f5f18a18
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Z Khan,91a4a398

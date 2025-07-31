@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2023
+info,date,2023/04/14
+info,event,Indian Premier League
+info,match_number,19
+info,venue,"Eden Gardens, Kolkata"
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,HC Brook
+info,umpire,CB Gaffaney
+info,umpire,GR Sadashiv Iyer
+info,reserve_umpire,M Kuppuraj
+info,tv_umpire,NA Patwardhan
+info,match_referee,DS Manohar
+info,winner,Sunrisers Hyderabad
+info,winner_runs,23
+info,player,Sunrisers Hyderabad,Washington Sundar
+info,player,Sunrisers Hyderabad,HC Brook
+info,player,Sunrisers Hyderabad,MA Agarwal
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,M Jansen
+info,player,Sunrisers Hyderabad,M Markande
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Umran Malik
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Kolkata Knight Riders,Suyash Sharma
+info,player,Kolkata Knight Riders,Rahmanullah Gurbaz
+info,player,Kolkata Knight Riders,N Jagadeesan
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,SN Thakur
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,LH Ferguson
+info,player,Kolkata Knight Riders,CV Varun
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,DS Manohar,b35f3ac8
+info,registry,people,GD Phillips,9a46c4e5
+info,registry,people,GR Sadashiv Iyer,0be62e31
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HC Brook,4ae1755b
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,M Kuppuraj,aa4063d0
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,N Jagadeesan,bd54eef5
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,NA Patwardhan,e6ef687d
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,Rahmanullah Gurbaz,0bacade8
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Suyash Sharma,9440ef41
+info,registry,people,T Natarajan,ce794613
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,Umran Malik,81c08fa3
+info,registry,people,VR Iyer,a24be938
+info,registry,people,Washington Sundar,f19ccfad

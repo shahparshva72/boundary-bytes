@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2009/10
+info,date,2010/03/20
+info,event,Indian Premier League
+info,match_number,14
+info,venue,Brabourne Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,JH Kallis
+info,umpire,HDPK Dharmasena
+info,umpire,SS Hazare
+info,reserve_umpire,SN Bandekar
+info,tv_umpire,SK Tarapore
+info,match_referee,Yashpal Sharma
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,7
+info,player,Mumbai Indians,ST Jayasuriya
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,AP Tare
+info,player,Mumbai Indians,SS Tiwary
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,R Sathish
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,Z Khan
+info,player,Mumbai Indians,SL Malinga
+info,player,Royal Challengers Bangalore,MK Pandey
+info,player,Royal Challengers Bangalore,JH Kallis
+info,player,Royal Challengers Bangalore,RV Uthappa
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,EJG Morgan
+info,player,Royal Challengers Bangalore,R Dravid
+info,player,Royal Challengers Bangalore,MV Boucher
+info,player,Royal Challengers Bangalore,P Kumar
+info,player,Royal Challengers Bangalore,A Kumble
+info,player,Royal Challengers Bangalore,DW Steyn
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,registry,people,A Kumble,0c2730df
+info,registry,people,AP Tare,855a210c
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MV Boucher,f3cb53a1
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Sathish,626c5379
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SN Bandekar,350528bb
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,SS Hazare,166e5081
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,ST Jayasuriya,f233bbb4
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Yashpal Sharma,e22d7ccb
+info,registry,people,Z Khan,91a4a398

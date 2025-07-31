@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Lucknow Super Giants
+info,gender,male
+info,season,2025
+info,date,2025/05/04
+info,event,Indian Premier League
+info,match_number,54
+info,venue,"Himachal Pradesh Cricket Association Stadium, Dharamsala"
+info,city,Dharamsala
+info,toss_winner,Lucknow Super Giants
+info,toss_decision,field
+info,player_of_match,P Simran Singh
+info,umpire,J Madanagopal
+info,umpire,P Joshi
+info,reserve_umpire,Bhavesh Patel
+info,tv_umpire,CB Gaffaney
+info,match_referee,DS Manohar
+info,winner,Punjab Kings
+info,winner_runs,37
+info,player,Punjab Kings,Vijaykumar Vyshak
+info,player,Punjab Kings,Priyansh Arya
+info,player,Punjab Kings,P Simran Singh
+info,player,Punjab Kings,JP Inglis
+info,player,Punjab Kings,SS Iyer
+info,player,Punjab Kings,N Wadhera
+info,player,Punjab Kings,Shashank Singh
+info,player,Punjab Kings,MP Stoinis
+info,player,Punjab Kings,Azmatullah Omarzai
+info,player,Punjab Kings,M Jansen
+info,player,Punjab Kings,YS Chahal
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Lucknow Super Giants,Akash Singh
+info,player,Lucknow Super Giants,AK Markram
+info,player,Lucknow Super Giants,MR Marsh
+info,player,Lucknow Super Giants,N Pooran
+info,player,Lucknow Super Giants,RR Pant
+info,player,Lucknow Super Giants,A Badoni
+info,player,Lucknow Super Giants,DA Miller
+info,player,Lucknow Super Giants,Abdul Samad
+info,player,Lucknow Super Giants,Avesh Khan
+info,player,Lucknow Super Giants,Prince Yadav
+info,player,Lucknow Super Giants,MP Yadav
+info,player,Lucknow Super Giants,DS Rathi
+info,registry,people,A Badoni,872b03f7
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Akash Singh,b483905d
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,Azmatullah Omarzai,8f6dd463
+info,registry,people,Bhavesh Patel,ee03dc30
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DS Manohar,b35f3ac8
+info,registry,people,DS Rathi,13fc5c6d
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JP Inglis,989889ff
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MP Yadav,b1ad996b
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,P Joshi,ffc0e370
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,Prince Yadav,80b2fb19
+info,registry,people,Priyansh Arya,b5797845
+info,registry,people,RR Pant,919a3be2
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,Shashank Singh,26989d80
+info,registry,people,Vijaykumar Vyshak,54e52590
+info,registry,people,YS Chahal,57ee1fde

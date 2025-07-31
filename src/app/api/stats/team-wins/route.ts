@@ -1,6 +1,18 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 
+// Valid league values
+const VALID_LEAGUES = ['WPL', 'IPL'] as const;
+type League = (typeof VALID_LEAGUES)[number];
+
+function validateLeague(league: string | null): League {
+  if (!league) return 'WPL'; // Default to WPL for backward compatibility
+  if (VALID_LEAGUES.includes(league as League)) {
+    return league as League;
+  }
+  throw new Error(`Invalid league: ${league}. Valid leagues are: ${VALID_LEAGUES.join(', ')}`);
+}
+
 // GET /api/stats/team-wins
 // Returns aggregated win / loss statistics for each team.
 //
@@ -12,8 +24,10 @@ import { prisma } from '@/lib/prisma';
 // opposition. Runs are calculated as runs_off_bat + extras for every delivery.
 // A win is categorised as "batting_first" if the team wins while playing the
 // first innings, otherwise it is "batting_second".
-export async function GET() {
+export async function GET(request: Request) {
   try {
+    const { searchParams } = new URL(request.url);
+    const league = validateLeague(searchParams.get('league'));
     /*
       Explanation of the SQL:
       1. runs_per_innings – Total runs for every (match, innings, team).
@@ -34,12 +48,17 @@ export async function GET() {
     >`
 WITH delivery_std AS (
         SELECT
-          *,
+          d.*,
           CASE
-            WHEN batting_team IN ('Royal Challengers Bangalore', 'Royal Challengers Bengaluru') THEN 'Royal Challengers Bangalore'
-            ELSE batting_team
+            WHEN d.batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+            WHEN d.batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
+            WHEN d.batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
+            WHEN d.batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
+            ELSE d.batting_team
           END AS std_batting_team
-        FROM wpl_delivery
+        FROM wpl_delivery d
+        JOIN wpl_match m ON d.match_id = m.match_id
+        WHERE m.league = ${league} AND d.innings <= 2
       ),
       runs_per_innings AS (
         SELECT
@@ -103,9 +122,29 @@ WITH delivery_std AS (
       winsBattingSecond: Number(row.wins_batting_second),
     }));
 
-    return NextResponse.json({ data });
+    return NextResponse.json({
+      data,
+      league,
+      metadata: {
+        availableLeagues: VALID_LEAGUES,
+        totalTeams: data.length,
+      },
+    });
   } catch (error) {
     console.error('[team-wins] Failed to fetch team win stats', error);
+
+    // Handle league validation errors
+    if (error instanceof Error && error.message.includes('Invalid league')) {
+      return NextResponse.json(
+        {
+          error: error.message,
+          code: 'INVALID_LEAGUE',
+          availableLeagues: VALID_LEAGUES,
+        },
+        { status: 400 },
+      );
+    }
+
     return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
   }
 }

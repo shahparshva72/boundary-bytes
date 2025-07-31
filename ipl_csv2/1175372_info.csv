@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2019
+info,date,2019/04/05
+info,event,Indian Premier League
+info,match_number,17
+info,venue,M.Chinnaswamy Stadium
+info,city,Bengaluru
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,AD Russell
+info,umpire,AK Chaudhary
+info,umpire,CB Gaffaney
+info,reserve_umpire,GR Sadashiv Iyer
+info,tv_umpire,CK Nandan
+info,match_referee,V Narayan Kutty
+info,winner,Kolkata Knight Riders
+info,winner_wickets,5
+info,player,Royal Challengers Bangalore,PA Patel
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,MP Stoinis
+info,player,Royal Challengers Bangalore,MM Ali
+info,player,Royal Challengers Bangalore,AD Nath
+info,player,Royal Challengers Bangalore,P Negi
+info,player,Royal Challengers Bangalore,NA Saini
+info,player,Royal Challengers Bangalore,TG Southee
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Kolkata Knight Riders,CA Lynn
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Kolkata Knight Riders,M Prasidh Krishna
+info,player,Kolkata Knight Riders,LH Ferguson
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AD Nath,f10e94c4
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,GR Sadashiv Iyer,0be62e31
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,NA Saini,21d4e29b
+info,registry,people,P Negi,f62772e5
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,YS Chahal,57ee1fde

@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2021
+info,date,2021/04/17
+info,event,Indian Premier League
+info,match_number,9
+info,venue,"MA Chidambaram Stadium, Chepauk, Chennai"
+info,city,Chennai
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,KA Pollard
+info,umpire,CB Gaffaney
+info,umpire,K Srinivasan
+info,reserve_umpire,Tapan Sharma
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,S Chaturvedi
+info,winner,Mumbai Indians
+info,winner_runs,13
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,AF Milne
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,TA Boult
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,JM Bairstow
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,Virat Singh
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Mujeeb Ur Rahman
+info,player,Sunrisers Hyderabad,KK Ahmed
+info,registry,people,AF Milne,350bb1b1
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Suchith,4125d931
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Chaturvedi,c8ec02e1
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,TA Boult,a818c1be
+info,registry,people,Tapan Sharma,b9aa2b6e
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,Virat Singh,26d76ad9

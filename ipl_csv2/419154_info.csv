@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2009/10
+info,date,2010/04/14
+info,event,Indian Premier League
+info,match_number,49
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,KP Pietersen
+info,umpire,BR Doctrove
+info,umpire,S Ravi
+info,reserve_umpire,K Sharma
+info,tv_umpire,SK Tarapore
+info,match_referee,S Venkataraghavan
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,5
+info,player,Rajasthan Royals,MJ Lumb
+info,player,Rajasthan Royals,NV Ojha
+info,player,Rajasthan Royals,AG Paunikar
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,AA Jhunjhunwala
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,AC Voges
+info,player,Rajasthan Royals,AS Raut
+info,player,Rajasthan Royals,Kamran Khan
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Royal Challengers Bangalore,MK Pandey
+info,player,Royal Challengers Bangalore,JH Kallis
+info,player,Royal Challengers Bangalore,KP Pietersen
+info,player,Royal Challengers Bangalore,RV Uthappa
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,LRPL Taylor
+info,player,Royal Challengers Bangalore,R Dravid
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,Pankaj Singh
+info,player,Royal Challengers Bangalore,A Kumble
+info,player,Royal Challengers Bangalore,DW Steyn
+info,registry,people,A Kumble,0c2730df
+info,registry,people,AA Jhunjhunwala,2815fe50
+info,registry,people,AC Voges,864c199e
+info,registry,people,AG Paunikar,3a02626a
+info,registry,people,AS Raut,c69a7b5c
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,K Sharma,661b0266
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,Kamran Khan,6ef60d3a
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,NV Ojha,890946a0
+info,registry,people,Pankaj Singh,e32d22f6
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YK Pathan,3c6ffae8

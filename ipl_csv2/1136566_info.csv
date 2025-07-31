@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2018
+info,date,2018/04/11
+info,event,Indian Premier League
+info,match_number,6
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,SV Samson
+info,umpire,KN Ananthapadmanabhan
+info,umpire,Nitin Menon
+info,reserve_umpire,N Pandit
+info,tv_umpire,RJ Tucker
+info,match_referee,J Srinath
+info,winner,Rajasthan Royals
+info,winner_runs,10
+info,method,D/L
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,DJM Short
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,RA Tripathi
+info,player,Rajasthan Royals,K Gowtham
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,DS Kulkarni
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,B Laughlin
+info,player,Delhi Daredevils,GJ Maxwell
+info,player,Delhi Daredevils,C Munro
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,CH Morris
+info,player,Delhi Daredevils,V Shankar
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,R Tewatia
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,TA Boult
+info,player,Delhi Daredevils,Mohammed Shami
+info,registry,people,AM Rahane,29e95537
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BA Stokes,e087956b
+info,registry,people,C Munro,af2c687b
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,N Pandit,4947c258
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,TA Boult,a818c1be
+info,registry,people,V Shankar,0994d0ae

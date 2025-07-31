@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bengaluru
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2024
+info,date,2024/05/22
+info,event,Indian Premier League
+info,venue,"Narendra Modi Stadium, Ahmedabad"
+info,city,Ahmedabad
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,R Ashwin
+info,umpire,KN Ananthapadmanabhan
+info,umpire,MV Saidharshan Kumar
+info,reserve_umpire,R Pandit
+info,tv_umpire,AK Chaudhary
+info,match_referee,V Narayan Kutty
+info,winner,Rajasthan Royals
+info,winner_wickets,4
+info,player,Royal Challengers Bengaluru,V Kohli
+info,player,Royal Challengers Bengaluru,F du Plessis
+info,player,Royal Challengers Bengaluru,C Green
+info,player,Royal Challengers Bengaluru,RM Patidar
+info,player,Royal Challengers Bengaluru,GJ Maxwell
+info,player,Royal Challengers Bengaluru,MK Lomror
+info,player,Royal Challengers Bengaluru,KD Karthik
+info,player,Royal Challengers Bengaluru,Swapnil Singh
+info,player,Royal Challengers Bengaluru,KV Sharma
+info,player,Royal Challengers Bengaluru,Yash Dayal
+info,player,Royal Challengers Bengaluru,Mohammed Siraj
+info,player,Royal Challengers Bengaluru,LH Ferguson
+info,player,Rajasthan Royals,YS Chahal
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,T Kohler-Cadmore
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,R Powell
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,TA Boult
+info,player,Rajasthan Royals,Avesh Khan
+info,player,Rajasthan Royals,Sandeep Sharma
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,C Green,eaa76d3c
+info,registry,people,D Ferreira,f0af99a7
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KV Sharma,119678fd
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Powell,650d5e49
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Swapnil Singh,983f2f61
+info,registry,people,T Kohler-Cadmore,f836b33d
+info,registry,people,TA Boult,a818c1be
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Yash Dayal,7210d461

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2019
+info,date,2019/04/02
+info,event,Indian Premier League
+info,match_number,14
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,S Gopal
+info,umpire,AY Dandekar
+info,umpire,M Erasmus
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,Nitin Menon
+info,match_referee,J Srinath
+info,winner,Rajasthan Royals
+info,winner_wickets,7
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,PA Patel
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,SO Hetmyer
+info,player,Royal Challengers Bangalore,MP Stoinis
+info,player,Royal Challengers Bangalore,MM Ali
+info,player,Royal Challengers Bangalore,AD Nath
+info,player,Royal Challengers Bangalore,UT Yadav
+info,player,Royal Challengers Bangalore,NA Saini
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,RA Tripathi
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,K Gowtham
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,VR Aaron
+info,player,Rajasthan Royals,DS Kulkarni
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AD Nath,f10e94c4
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,BA Stokes,e087956b
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,K Gowtham,90de905a
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,NA Saini,21d4e29b
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,YS Chahal,57ee1fde

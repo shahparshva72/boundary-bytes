@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Royal Challengers Bengaluru
+info,gender,male
+info,season,2024
+info,date,2024/04/15
+info,event,Indian Premier League
+info,match_number,30
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,Royal Challengers Bengaluru
+info,toss_decision,field
+info,player_of_match,TM Head
+info,umpire,AK Chaudhary
+info,umpire,R Pandit
+info,reserve_umpire,M Krishnadas
+info,tv_umpire,BNJ Oxenford
+info,match_referee,M Nayyar
+info,winner,Sunrisers Hyderabad
+info,winner_runs,25
+info,player,Sunrisers Hyderabad,M Markande
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,TM Head
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,Shahbaz Ahmed
+info,player,Sunrisers Hyderabad,PJ Cummins
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,JD Unadkat
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Sunrisers Hyderabad,Nithish Kumar Reddy
+info,player,Royal Challengers Bengaluru,Yash Dayal
+info,player,Royal Challengers Bengaluru,V Kohli
+info,player,Royal Challengers Bengaluru,F du Plessis
+info,player,Royal Challengers Bengaluru,WG Jacks
+info,player,Royal Challengers Bengaluru,RM Patidar
+info,player,Royal Challengers Bengaluru,Saurav Chauhan
+info,player,Royal Challengers Bengaluru,KD Karthik
+info,player,Royal Challengers Bengaluru,MK Lomror
+info,player,Royal Challengers Bengaluru,Anuj Rawat
+info,player,Royal Challengers Bengaluru,Vijaykumar Vyshak
+info,player,Royal Challengers Bengaluru,RJW Topley
+info,player,Royal Challengers Bengaluru,LH Ferguson
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Anuj Rawat,c8f5f961
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,F du Plessis,3355b542
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,M Krishnadas,e298c588
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,Nithish Kumar Reddy,aad0c365
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,R Pandit,8a604384
+info,registry,people,RJW Topley,8db7f47f
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,Saurav Chauhan,9e7225b0
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,T Natarajan,ce794613
+info,registry,people,TM Head,12b610c2
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Vijaykumar Vyshak,54e52590
+info,registry,people,WG Jacks,9caf69a1
+info,registry,people,Yash Dayal,7210d461

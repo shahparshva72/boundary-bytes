@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Gujarat Lions
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2017
+info,date,2017/05/10
+info,event,Indian Premier League
+info,match_number,50
+info,venue,Green Park
+info,city,Kanpur
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,SS Iyer
+info,umpire,YC Barde
+info,umpire,AK Chaudhary
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,Nitin Menon
+info,match_referee,V Narayan Kutty
+info,winner,Delhi Daredevils
+info,winner_wickets,2
+info,player,Delhi Daredevils,SV Samson
+info,player,Delhi Daredevils,KK Nair
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,MN Samuels
+info,player,Delhi Daredevils,CJ Anderson
+info,player,Delhi Daredevils,CR Brathwaite
+info,player,Delhi Daredevils,PJ Cummins
+info,player,Delhi Daredevils,Mohammed Shami
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Z Khan
+info,player,Gujarat Lions,DR Smith
+info,player,Gujarat Lions,Ishan Kishan
+info,player,Gujarat Lions,SK Raina
+info,player,Gujarat Lions,KD Karthik
+info,player,Gujarat Lions,AJ Finch
+info,player,Gujarat Lions,RA Jadeja
+info,player,Gujarat Lions,JP Faulkner
+info,player,Gujarat Lions,DS Kulkarni
+info,player,Gujarat Lions,PJ Sangwan
+info,player,Gujarat Lions,Basil Thampi
+info,player,Gujarat Lions,Ankit Soni
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Ankit Soni,f18ba07f
+info,registry,people,Basil Thampi,871e9faf
+info,registry,people,CJ Anderson,8abdf100
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,DR Smith,35205dfc
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KK Nair,944533a5
+info,registry,people,MN Samuels,f846de6a
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RR Pant,919a3be2
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,YC Barde,b90f3346
+info,registry,people,Z Khan,91a4a398

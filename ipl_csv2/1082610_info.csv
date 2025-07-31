@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Gujarat Lions
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2017
+info,date,2017/04/18
+info,event,Indian Premier League
+info,match_number,20
+info,venue,Saurashtra Cricket Association Stadium
+info,city,Rajkot
+info,toss_winner,Gujarat Lions
+info,toss_decision,field
+info,player_of_match,CH Gayle
+info,umpire,S Ravi
+info,umpire,VK Sharma
+info,reserve_umpire,Navdeep Singh
+info,tv_umpire,A Nand Kishore
+info,match_referee,J Srinath
+info,winner,Royal Challengers Bangalore
+info,winner_runs,21
+info,player,Gujarat Lions,DR Smith
+info,player,Gujarat Lions,BB McCullum
+info,player,Gujarat Lions,SK Raina
+info,player,Gujarat Lions,AJ Finch
+info,player,Gujarat Lions,KD Karthik
+info,player,Gujarat Lions,RA Jadeja
+info,player,Gujarat Lions,Ishan Kishan
+info,player,Gujarat Lions,AJ Tye
+info,player,Gujarat Lions,Basil Thampi
+info,player,Gujarat Lions,DS Kulkarni
+info,player,Gujarat Lions,S Kaushik
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,TM Head
+info,player,Royal Challengers Bangalore,KM Jadhav
+info,player,Royal Challengers Bangalore,SR Watson
+info,player,Royal Challengers Bangalore,Mandeep Singh
+info,player,Royal Challengers Bangalore,STR Binny
+info,player,Royal Challengers Bangalore,P Negi
+info,player,Royal Challengers Bangalore,AF Milne
+info,player,Royal Challengers Bangalore,S Aravind
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AF Milne,350bb1b1
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,Basil Thampi,871e9faf
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DR Smith,35205dfc
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,P Negi,f62772e5
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,S Aravind,957532de
+info,registry,people,S Kaushik,1da489ff
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,TM Head,12b610c2
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,YS Chahal,57ee1fde

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Mumbai Indians
+info,gender,male
+info,season,2011
+info,date,2011/04/24
+info,event,Indian Premier League
+info,match_number,27
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Deccan Chargers
+info,toss_decision,field
+info,player_of_match,SL Malinga
+info,umpire,HDPK Dharmasena
+info,umpire,AL Hill
+info,reserve_umpire,C Shamshuddin
+info,tv_umpire,K Hariharan
+info,match_referee,Raju Mukherjee
+info,winner,Mumbai Indians
+info,winner_runs,37
+info,player,Deccan Chargers,S Sohal
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,KC Sangakkara
+info,player,Deccan Chargers,CL White
+info,player,Deccan Chargers,B Chipli
+info,player,Deccan Chargers,DT Christian
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,A Mishra
+info,player,Deccan Chargers,DW Steyn
+info,player,Deccan Chargers,I Sharma
+info,player,Deccan Chargers,PP Ojha
+info,player,Mumbai Indians,DJ Jacobs
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,A Symonds
+info,player,Mumbai Indians,R Sathish
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,AN Ahmed
+info,player,Mumbai Indians,MM Patel
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AL Hill,4165ced0
+info,registry,people,AN Ahmed,2af1b6d2
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,B Chipli,5451a2c1
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CL White,d0513f63
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DJ Jacobs,a84468fe
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R Sathish,626c5379
+info,registry,people,RG Sharma,740742ef
+info,registry,people,Raju Mukherjee,7a3244b5
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Sohal,3fca55af
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5

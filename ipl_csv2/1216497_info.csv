@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Delhi Capitals
+info,gender,male
+info,season,2020/21
+info,date,2020/10/24
+info,event,Indian Premier League
+info,match_number,42
+info,venue,Sheikh Zayed Stadium
+info,city,Abu Dhabi
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,CV Varun
+info,umpire,CB Gaffaney
+info,umpire,PG Pathak
+info,reserve_umpire,UV Gandhe
+info,tv_umpire,S Ravi
+info,match_referee,M Nayyar
+info,winner,Kolkata Knight Riders
+info,winner_runs,59
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,RA Tripathi
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,PJ Cummins
+info,player,Kolkata Knight Riders,LH Ferguson
+info,player,Kolkata Knight Riders,KL Nagarkoti
+info,player,Kolkata Knight Riders,M Prasidh Krishna
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Delhi Capitals,AM Rahane
+info,player,Delhi Capitals,S Dhawan
+info,player,Delhi Capitals,SS Iyer
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,SO Hetmyer
+info,player,Delhi Capitals,MP Stoinis
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,K Rabada
+info,player,Delhi Capitals,R Ashwin
+info,player,Delhi Capitals,TU Deshpande
+info,player,Delhi Capitals,A Nortje
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AR Patel,2e171977
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KL Nagarkoti,b4f5c2d9
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,TU Deshpande,46a9bea1
+info,registry,people,UV Gandhe,43dd4011

@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2022
+info,date,2022/04/09
+info,event,Indian Premier League
+info,match_number,17
+info,venue,"Dr DY Patil Sports Academy, Mumbai"
+info,city,Mumbai
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,Abhishek Sharma
+info,umpire,Navdeep Singh
+info,umpire,Nitin Menon
+info,reserve_umpire,N Pandit
+info,tv_umpire,YC Barde
+info,match_referee,J Srinath
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,8
+info,player,Chennai Super Kings,RV Uthappa
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,MM Ali
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,CJ Jordan
+info,player,Chennai Super Kings,M Theekshana
+info,player,Chennai Super Kings,Mukesh Choudhary
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,N Pooran
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,Shashank Singh
+info,player,Sunrisers Hyderabad,Washington Sundar
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,M Jansen
+info,player,Sunrisers Hyderabad,Umran Malik
+info,player,Sunrisers Hyderabad,T Natarajan
+info,registry,people,AK Markram,6a26221c
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,M Theekshana,f24c6701
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mukesh Choudhary,765a4731
+info,registry,people,N Pandit,4947c258
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Dube,a4e37e47
+info,registry,people,Shashank Singh,26989d80
+info,registry,people,T Natarajan,ce794613
+info,registry,people,Umran Malik,81c08fa3
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YC Barde,b90f3346

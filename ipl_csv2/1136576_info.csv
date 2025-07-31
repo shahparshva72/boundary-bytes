@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2018
+info,date,2018/04/19
+info,event,Indian Premier League
+info,match_number,16
+info,venue,Punjab Cricket Association IS Bindra Stadium
+info,city,Chandigarh
+info,toss_winner,Kings XI Punjab
+info,toss_decision,bat
+info,player_of_match,CH Gayle
+info,umpire,AK Chaudhary
+info,umpire,NJ Llong
+info,reserve_umpire,R Pandit
+info,tv_umpire,VA Kulkarni
+info,match_referee,S Chaturvedi
+info,winner,Kings XI Punjab
+info,winner_runs,15
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,KK Nair
+info,player,Kings XI Punjab,AJ Finch
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,R Ashwin
+info,player,Kings XI Punjab,AJ Tye
+info,player,Kings XI Punjab,BB Sran
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,Mujeeb Ur Rahman
+info,player,Sunrisers Hyderabad,WP Saha
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,YK Pathan
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,Shakib Al Hasan
+info,player,Sunrisers Hyderabad,CJ Jordan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,S Kaul
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BB Sran,d8b2f218
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NJ Llong,573fb985
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Pandit,8a604384
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Chaturvedi,c8ec02e1
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaul,dcf81436
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Yuvraj Singh,1c914163

@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2019
+info,date,2019/03/25
+info,event,Indian Premier League
+info,match_number,4
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,CH Gayle
+info,umpire,C Shamshuddin
+info,umpire,KN Ananthapadmanabhan
+info,reserve_umpire,K Srinath
+info,tv_umpire,BNJ Oxenford
+info,match_referee,Chinmay Sharma
+info,winner,Kings XI Punjab
+info,winner_runs,14
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,SN Khan
+info,player,Kings XI Punjab,N Pooran
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,SM Curran
+info,player,Kings XI Punjab,R Ashwin
+info,player,Kings XI Punjab,Mohammed Shami
+info,player,Kings XI Punjab,Mujeeb Ur Rahman
+info,player,Kings XI Punjab,AS Rajpoot
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,RA Tripathi
+info,player,Rajasthan Royals,K Gowtham
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,DS Kulkarni
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AS Rajpoot,db31895a
+info,registry,people,BA Stokes,e087956b
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Gayle,db584dad
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Gowtham,90de905a
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,SM Curran,e94915e6
+info,registry,people,SN Khan,f088b960
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SV Samson,a4cc73aa

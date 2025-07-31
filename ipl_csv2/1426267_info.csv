@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Mumbai Indians
+info,gender,male
+info,season,2024
+info,date,2024/04/14
+info,event,Indian Premier League
+info,match_number,29
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,M Pathirana
+info,umpire,Nitin Menon
+info,umpire,HAS Khalid
+info,reserve_umpire,M Kuppuraj
+info,tv_umpire,VK Sharma
+info,match_referee,J Srinath
+info,winner,Chennai Super Kings
+info,winner_runs,20
+info,player,Chennai Super Kings,AM Rahane
+info,player,Chennai Super Kings,R Ravindra
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,DJ Mitchell
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,Sameer Rizvi
+info,player,Chennai Super Kings,SN Thakur
+info,player,Chennai Super Kings,TU Deshpande
+info,player,Chennai Super Kings,Mustafizur Rahman
+info,player,Chennai Super Kings,M Pathirana
+info,player,Mumbai Indians,Akash Madhwal
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,R Shepherd
+info,player,Mumbai Indians,Mohammad Nabi
+info,player,Mumbai Indians,S Gopal
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,G Coetzee
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Akash Madhwal,4bd09374
+info,registry,people,DJ Mitchell,eade4650
+info,registry,people,G Coetzee,3204c99f
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,M Kuppuraj,aa4063d0
+info,registry,people,M Pathirana,64839cb3
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,R Ravindra,ba5e1069
+info,registry,people,R Shepherd,c5aef772
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Dube,a4e37e47
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,Sameer Rizvi,f89d3b11
+info,registry,people,TH David,f1f99156
+info,registry,people,TU Deshpande,46a9bea1
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,VK Sharma,a7a49df4

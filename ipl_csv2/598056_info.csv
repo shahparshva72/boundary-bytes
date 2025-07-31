@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2013
+info,date,2013/05/11
+info,event,Indian Premier League
+info,match_number,59
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,PA Patel
+info,umpire,S Das
+info,umpire,RJ Tucker
+info,reserve_umpire,Nitin Menon
+info,tv_umpire,C Shamshuddin
+info,match_referee,AJ Pycroft
+info,winner,Sunrisers Hyderabad
+info,winner_runs,30
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,LA Pomersbach
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,R Sathish
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,Harmeet Singh
+info,player,Kings XI Punjab,P Awana
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Sunrisers Hyderabad,PA Patel
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,GH Vihari
+info,player,Sunrisers Hyderabad,CL White
+info,player,Sunrisers Hyderabad,BB Samantray
+info,player,Sunrisers Hyderabad,DJG Sammy
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,NLTC Perera
+info,player,Sunrisers Hyderabad,DW Steyn
+info,player,Sunrisers Hyderabad,A Mishra
+info,player,Sunrisers Hyderabad,I Sharma
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,BB Samantray,53f27a35
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CL White,d0513f63
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DJG Sammy,c03c6200
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,GH Vihari,94253925
+info,registry,people,Harmeet Singh,2a72fd4f
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,KV Sharma,119678fd
+info,registry,people,LA Pomersbach,b63ab531
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Sathish,626c5379
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,S Das,475e38b6
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,Sandeep Sharma,ce820073

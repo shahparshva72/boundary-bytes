@@ -1,19 +1,39 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 
+// Valid league values
+const VALID_LEAGUES = ['WPL', 'IPL'] as const;
+type League = (typeof VALID_LEAGUES)[number];
+
+function validateLeague(league: string | null): League {
+  if (!league) return 'WPL'; // Default to WPL for backward compatibility
+  if (VALID_LEAGUES.includes(league as League)) {
+    return league as League;
+  }
+  throw new Error(`Invalid league: ${league}. Valid leagues are: ${VALID_LEAGUES.join(', ')}`);
+}
+
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '5');
     const season = searchParams.get('season');
+    const league = validateLeague(searchParams.get('league'));
 
-    // Get total matches count and unique seasons
+    // Build where clause with league filtering
+    const whereClause = {
+      league,
+      ...(season && { season }),
+    };
+
+    // Get total matches count and unique seasons for the specified league
     const [totalMatches, seasons] = await Promise.all([
       prisma.wplMatch.count({
-        where: season ? { season } : undefined,
+        where: whereClause,
       }),
       prisma.wplMatch.findMany({
+        where: { league },
         distinct: ['season'],
         select: { season: true },
         orderBy: { season: 'desc' },
@@ -22,7 +42,7 @@ export async function GET(request: Request) {
 
     // Fetch paginated matches
     const matches = await prisma.wplMatch.findMany({
-      where: season ? { season } : undefined,
+      where: whereClause,
       orderBy: {
         startDate: 'asc',
       },
@@ -67,6 +87,7 @@ export async function GET(request: Request) {
 
       return {
         id: match.id,
+        league: match.league,
         season: match.season,
         startDate: match.startDate,
         venue: match.venue,
@@ -80,6 +101,7 @@ export async function GET(request: Request) {
 
     return NextResponse.json({
       matches: matchesWithSummary,
+      league,
       pagination: {
         total: totalMatches,
         pages: Math.ceil(totalMatches / limit),
@@ -87,9 +109,26 @@ export async function GET(request: Request) {
         limit,
       },
       seasons: seasons.map((s) => s.season),
+      metadata: {
+        availableLeagues: VALID_LEAGUES,
+        totalRecords: totalMatches,
+      },
     });
   } catch (error) {
     console.error('Error fetching matches:', error);
+
+    // Handle league validation errors
+    if (error instanceof Error && error.message.includes('Invalid league')) {
+      return NextResponse.json(
+        {
+          error: error.message,
+          code: 'INVALID_LEAGUE',
+          availableLeagues: VALID_LEAGUES,
+        },
+        { status: 400 },
+      );
+    }
+
     return NextResponse.json({ error: 'Failed to fetch matches' }, { status: 500 });
   }
 }

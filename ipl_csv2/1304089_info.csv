@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Gujarat Titans
+info,gender,male
+info,season,2022
+info,date,2022/04/30
+info,event,Indian Premier League
+info,match_number,43
+info,venue,"Brabourne Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,bat
+info,player_of_match,R Tewatia
+info,umpire,HAS Khalid
+info,umpire,VK Sharma
+info,reserve_umpire,Chirra Ravikanthreddy
+info,tv_umpire,Nitin Menon
+info,match_referee,Shakti Singh
+info,winner,Gujarat Titans
+info,winner_wickets,6
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,RM Patidar
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,MK Lomror
+info,player,Royal Challengers Bangalore,PWH de Silva
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,JR Hazlewood
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Gujarat Titans,WP Saha
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,B Sai Sudharsan
+info,player,Gujarat Titans,HH Pandya
+info,player,Gujarat Titans,DA Miller
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,PJ Sangwan
+info,player,Gujarat Titans,AS Joseph
+info,player,Gujarat Titans,LH Ferguson
+info,player,Gujarat Titans,Mohammed Shami
+info,registry,people,AS Joseph,b0946605
+info,registry,people,Anuj Rawat,c8f5f961
+info,registry,people,B Sai Sudharsan,d5130a30
+info,registry,people,Chirra Ravikanthreddy,8b680f55
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,WP Saha,fe11caa6

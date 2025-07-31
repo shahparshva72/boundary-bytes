@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2007/08
+info,date,2008/05/17
+info,event,Indian Premier League
+info,match_number,39
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,GC Smith
+info,umpire,BF Bowden
+info,umpire,SL Shastri
+info,reserve_umpire,MSS Ranawat
+info,tv_umpire,SJ Davis
+info,match_referee,Talat Ali
+info,winner,Rajasthan Royals
+info,winner_runs,65
+info,player,Rajasthan Royals,GC Smith
+info,player,Rajasthan Royals,SA Asnodkar
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,M Kaif
+info,player,Rajasthan Royals,RA Jadeja
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,Sohail Tanvir
+info,player,Rajasthan Royals,M Rawat
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,MM Patel
+info,player,Royal Challengers Bangalore,J Arunkumar
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,Misbah-ul-Haq
+info,player,Royal Challengers Bangalore,JH Kallis
+info,player,Royal Challengers Bangalore,CL White
+info,player,Royal Challengers Bangalore,R Dravid
+info,player,Royal Challengers Bangalore,DT Patil
+info,player,Royal Challengers Bangalore,P Kumar
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,A Kumble
+info,player,Royal Challengers Bangalore,Abdur Razzak
+info,registry,people,A Kumble,0c2730df
+info,registry,people,Abdur Razzak,888e32bf
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,CL White,d0513f63
+info,registry,people,DT Patil,f48cf4da
+info,registry,people,GC Smith,72861603
+info,registry,people,J Arunkumar,f663ef00
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,M Kaif,d84378a4
+info,registry,people,M Rawat,de8d3876
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,MSS Ranawat,8048c698
+info,registry,people,Misbah-ul-Haq,7eae4418
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,R Dravid,0184dc35
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,SA Asnodkar,ae091d39
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,Sohail Tanvir,64d43928
+info,registry,people,T Kohli,40caa465
+info,registry,people,Talat Ali,1df4131e
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Z Khan,91a4a398

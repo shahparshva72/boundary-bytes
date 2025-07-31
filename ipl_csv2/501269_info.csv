@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2011
+info,date,2011/05/25
+info,event,Indian Premier League
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,MM Patel
+info,umpire,Asad Rauf
+info,umpire,SJA Taufel
+info,reserve_umpire,VN Kulkarni
+info,tv_umpire,PR Reiffel
+info,match_referee,RS Mahanama
+info,winner,Mumbai Indians
+info,winner_wickets,4
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,SP Goswami
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,B Lee
+info,player,Kolkata Knight Riders,L Balaji
+info,player,Kolkata Knight Riders,Iqbal Abdulla
+info,player,Mumbai Indians,AC Blizzard
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,JEC Franklin
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,TL Suman
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,DS Kulkarni
+info,player,Mumbai Indians,MM Patel
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,JEC Franklin,cf73ad76
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,L Balaji,b2b50355
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,RS Mahanama,57910393
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,VN Kulkarni,0b126008
+info,registry,people,YK Pathan,3c6ffae8

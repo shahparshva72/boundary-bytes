@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2007/08
+info,date,2008/05/02
+info,event,Indian Premier League
+info,match_number,20
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,V Sehwag
+info,umpire,BF Bowden
+info,umpire,K Hariharan
+info,reserve_umpire,S Ravi
+info,tv_umpire,MR Benson
+info,match_referee,S Venkataraghavan
+info,winner,Delhi Daredevils
+info,winner_wickets,8
+info,player,Chennai Super Kings,PA Patel
+info,player,Chennai Super Kings,SP Fleming
+info,player,Chennai Super Kings,S Vidyut
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,Joginder Sharma
+info,player,Chennai Super Kings,M Ntini
+info,player,Chennai Super Kings,MS Gony
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,AB de Villiers
+info,player,Delhi Daredevils,S Dhawan
+info,player,Delhi Daredevils,Shoaib Malik
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,R Bhatia
+info,player,Delhi Daredevils,VY Mahesh
+info,player,Delhi Daredevils,GD McGrath
+info,player,Delhi Daredevils,PJ Sangwan
+info,player,Delhi Daredevils,Mohammad Asif
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GD McGrath,ee7d0c82
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,Joginder Sharma,9f961c14
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,M Ntini,20a941bb
+info,registry,people,MR Benson,790e14d3
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,Mohammad Asif,e03b66ec
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,S Vidyut,756389bd
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SP Fleming,eea6b7f1
+info,registry,people,Shoaib Malik,64c34cd0
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VY Mahesh,93a17209

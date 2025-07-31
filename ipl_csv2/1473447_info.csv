@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Delhi Capitals
+info,gender,male
+info,season,2025
+info,date,2025/03/30
+info,event,Indian Premier League
+info,match_number,10
+info,venue,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam"
+info,city,Visakhapatnam
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,MA Starc
+info,umpire,Abhijit Bhattacharya
+info,umpire,UV Gandhe
+info,reserve_umpire,AK Argal
+info,tv_umpire,VK Sharma
+info,match_referee,V Narayan Kutty
+info,winner,Delhi Capitals
+info,winner_wickets,7
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,TM Head
+info,player,Sunrisers Hyderabad,Ishan Kishan
+info,player,Sunrisers Hyderabad,Nithish Kumar Reddy
+info,player,Sunrisers Hyderabad,Aniket Verma
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,A Manohar
+info,player,Sunrisers Hyderabad,PJ Cummins
+info,player,Sunrisers Hyderabad,PWA Mulder
+info,player,Sunrisers Hyderabad,HV Patel
+info,player,Sunrisers Hyderabad,Mohammed Shami
+info,player,Sunrisers Hyderabad,Zeeshan Ansari
+info,player,Delhi Capitals,J Fraser-McGurk
+info,player,Delhi Capitals,F du Plessis
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,KL Rahul
+info,player,Delhi Capitals,T Stubbs
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,V Nigam
+info,player,Delhi Capitals,MA Starc
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,MM Sharma
+info,player,Delhi Capitals,Mukesh Kumar
+info,registry,people,A Manohar,0890552f
+info,registry,people,AK Argal,0ee78cf3
+info,registry,people,AR Patel,2e171977
+info,registry,people,Abhijit Bhattacharya,59ec9638
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,Aniket Verma,a3b0600d
+info,registry,people,F du Plessis,3355b542
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,Nithish Kumar Reddy,aad0c365
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,PWA Mulder,c96f6ac5
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,TM Head,12b610c2
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,V Nigam,5ffc0565
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,Zeeshan Ansari,36619795

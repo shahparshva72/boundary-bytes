@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Deccan Chargers
+info,gender,male
+info,season,2007/08
+info,date,2008/05/15
+info,event,Indian Premier League
+info,match_number,37
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Deccan Chargers
+info,toss_decision,field
+info,player_of_match,A Mishra
+info,umpire,BG Jerling
+info,umpire,GA Pratapkumar
+info,tv_umpire,Asad Rauf
+info,match_referee,CH Lloyd
+info,winner,Delhi Daredevils
+info,winner_runs,12
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,Shahid Afridi
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,SB Styris
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Deccan Chargers,DP Vijaykumar
+info,player,Deccan Chargers,PM Sarvesh Kumar
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,S Dhawan
+info,player,Delhi Daredevils,MF Maharoof
+info,player,Delhi Daredevils,TM Dilshan
+info,player,Delhi Daredevils,MK Tiwary
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,R Bhatia
+info,player,Delhi Daredevils,GD McGrath
+info,player,Delhi Daredevils,Mohammad Asif
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,BG Jerling,26457e41
+info,registry,people,CH Lloyd,5b445db0
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DP Vijaykumar,acd4f5dc
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GA Pratapkumar,cf7c5778
+info,registry,people,GD McGrath,ee7d0c82
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,MF Maharoof,ab89348d
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,Mohammad Asif,e03b66ec
+info,registry,people,PM Sarvesh Kumar,4b4d1957
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SB Styris,57efa3be
+info,registry,people,Shahid Afridi,0dc00542
+info,registry,people,Shoaib Malik,64c34cd0
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,Y Venugopal Rao,fe763256

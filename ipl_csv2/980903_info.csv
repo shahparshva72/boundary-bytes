@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2016
+info,date,2016/04/10
+info,event,Indian Premier League
+info,match_number,2
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,AD Russell
+info,umpire,S Ravi
+info,umpire,C Shamshuddin
+info,reserve_umpire,A Deshmukh
+info,tv_umpire,Nitin Menon
+info,match_referee,M Nayyar
+info,winner,Kolkata Knight Riders
+info,winner_wickets,9
+info,player,Delhi Daredevils,MA Agarwal
+info,player,Delhi Daredevils,Q de Kock
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,KK Nair
+info,player,Delhi Daredevils,SV Samson
+info,player,Delhi Daredevils,P Negi
+info,player,Delhi Daredevils,CR Brathwaite
+info,player,Delhi Daredevils,CH Morris
+info,player,Delhi Daredevils,NM Coulter-Nile
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Z Khan
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,C Munro
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,JW Hastings
+info,player,Kolkata Knight Riders,GB Hogg
+info,player,Kolkata Knight Riders,UT Yadav
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AD Russell,bbd41817
+info,registry,people,C Munro,af2c687b
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,JW Hastings,012829ff
+info,registry,people,KK Nair,944533a5
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,P Negi,f62772e5
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Z Khan,91a4a398

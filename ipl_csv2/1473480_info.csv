@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2025
+info,date,2025/04/25
+info,event,Indian Premier League
+info,match_number,43
+info,venue,"MA Chidambaram Stadium, Chepauk, Chennai"
+info,city,Chennai
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,HV Patel
+info,umpire,M Krishnadas
+info,umpire,Nitin Menon
+info,reserve_umpire,KM Gandhi
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,J Srinath
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,5
+info,player,Chennai Super Kings,SK Rasheed
+info,player,Chennai Super Kings,A Mhatre
+info,player,Chennai Super Kings,SM Curran
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,D Brevis
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,DJ Hooda
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,A Kamboj
+info,player,Chennai Super Kings,Noor Ahmad
+info,player,Chennai Super Kings,KK Ahmed
+info,player,Chennai Super Kings,M Pathirana
+info,player,Sunrisers Hyderabad,Zeeshan Ansari
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,TM Head
+info,player,Sunrisers Hyderabad,Ishan Kishan
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,Aniket Verma
+info,player,Sunrisers Hyderabad,PHKD Mendis
+info,player,Sunrisers Hyderabad,Nithish Kumar Reddy
+info,player,Sunrisers Hyderabad,PJ Cummins
+info,player,Sunrisers Hyderabad,HV Patel
+info,player,Sunrisers Hyderabad,JD Unadkat
+info,player,Sunrisers Hyderabad,Mohammed Shami
+info,registry,people,A Kamboj,fcc21ace
+info,registry,people,A Mhatre,b2b4f545
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Aniket Verma,a3b0600d
+info,registry,people,D Brevis,844e79d1
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KM Gandhi,a9421c64
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Krishnadas,e298c588
+info,registry,people,M Pathirana,64839cb3
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Nithish Kumar Reddy,aad0c365
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,Noor Ahmad,efc04be7
+info,registry,people,PHKD Mendis,08548b13
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SK Rasheed,cbf58a86
+info,registry,people,SM Curran,e94915e6
+info,registry,people,TM Head,12b610c2
+info,registry,people,Zeeshan Ansari,36619795

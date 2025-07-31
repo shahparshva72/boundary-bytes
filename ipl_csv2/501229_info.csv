@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kochi Tuskers Kerala
+info,team,Deccan Chargers
+info,gender,male
+info,season,2011
+info,date,2011/04/27
+info,event,Indian Premier League
+info,match_number,32
+info,venue,Nehru Stadium
+info,city,Kochi
+info,toss_winner,Kochi Tuskers Kerala
+info,toss_decision,field
+info,player_of_match,I Sharma
+info,umpire,HDPK Dharmasena
+info,umpire,AL Hill
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,K Hariharan
+info,match_referee,Raju Mukherjee
+info,winner,Deccan Chargers
+info,winner_runs,55
+info,player,Deccan Chargers,S Sohal
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,B Chipli
+info,player,Deccan Chargers,KC Sangakkara
+info,player,Deccan Chargers,CL White
+info,player,Deccan Chargers,DT Christian
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,A Mishra
+info,player,Deccan Chargers,MS Gony
+info,player,Deccan Chargers,DW Steyn
+info,player,Deccan Chargers,I Sharma
+info,player,Kochi Tuskers Kerala,BB McCullum
+info,player,Kochi Tuskers Kerala,DPMD Jayawardene
+info,player,Kochi Tuskers Kerala,PA Patel
+info,player,Kochi Tuskers Kerala,RV Gomez
+info,player,Kochi Tuskers Kerala,BJ Hodge
+info,player,Kochi Tuskers Kerala,KM Jadhav
+info,player,Kochi Tuskers Kerala,RA Jadeja
+info,player,Kochi Tuskers Kerala,NLTC Perera
+info,player,Kochi Tuskers Kerala,R Vinay Kumar
+info,player,Kochi Tuskers Kerala,S Sreesanth
+info,player,Kochi Tuskers Kerala,RP Singh
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AL Hill,4165ced0
+info,registry,people,B Chipli,5451a2c1
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CL White,d0513f63
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RV Gomez,b2570b38
+info,registry,people,Raju Mukherjee,7a3244b5
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Sohal,3fca55af
+info,registry,people,S Sreesanth,6b8eb6e5

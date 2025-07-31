@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2020/21
+info,date,2020/10/19
+info,event,Indian Premier League
+info,match_number,37
+info,venue,Sheikh Zayed Stadium
+info,city,Abu Dhabi
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,JC Buttler
+info,umpire,CB Gaffaney
+info,umpire,VK Sharma
+info,reserve_umpire,PG Pathak
+info,tv_umpire,UV Gandhe
+info,match_referee,M Nayyar
+info,winner,Rajasthan Royals
+info,winner_wickets,7
+info,player,Chennai Super Kings,SM Curran
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,SR Watson
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,KM Jadhav
+info,player,Chennai Super Kings,PP Chawla
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,SN Thakur
+info,player,Chennai Super Kings,JR Hazlewood
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,RV Uthappa
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,R Tewatia
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,AS Rajpoot
+info,player,Rajasthan Royals,Kartik Tyagi
+info,registry,people,AS Rajpoot,db31895a
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,BA Stokes,e087956b
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,F du Plessis,3355b542
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,Kartik Tyagi,5d2eea49
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,SM Curran,e94915e6
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,VK Sharma,a7a49df4

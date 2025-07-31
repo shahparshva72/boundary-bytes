@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2016
+info,date,2016/05/15
+info,event,Indian Premier League
+info,match_number,47
+info,venue,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium
+info,city,Visakhapatnam
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,KH Pandya
+info,umpire,Nitin Menon
+info,umpire,CK Nandan
+info,reserve_umpire,R Pandit
+info,tv_umpire,AK Chaudhary
+info,match_referee,Amit Sharma
+info,winner,Mumbai Indians
+info,winner_runs,80
+info,player,Delhi Daredevils,MA Agarwal
+info,player,Delhi Daredevils,Q de Kock
+info,player,Delhi Daredevils,KK Nair
+info,player,Delhi Daredevils,SV Samson
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,CH Morris
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,Imran Tahir
+info,player,Delhi Daredevils,Z Khan
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,MJ Guptill
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,JC Buttler
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,N Rana
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,R Vinay Kumar
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,JJ Bumrah
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Amit Sharma,7ea3e0cc
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KK Nair,944533a5
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MJ Guptill,2be41edb
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Z Khan,91a4a398

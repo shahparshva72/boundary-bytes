@@ -1,0 +1,73 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Gujarat Titans
+info,gender,male
+info,season,2025
+info,date,2025/05/30
+info,event,Indian Premier League
+info,venue,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh"
+info,city,New Chandigarh
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,RG Sharma
+info,umpire,R Pandit
+info,umpire,UV Gandhe
+info,reserve_umpire,MV Saidharshan Kumar
+info,tv_umpire,VK Sharma
+info,match_referee,Prakash Bhatt
+info,winner,Mumbai Indians
+info,winner_runs,20
+info,player,Mumbai Indians,Ashwani Kumar
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,JM Bairstow
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,Naman Dhir
+info,player,Mumbai Indians,MJ Santner
+info,player,Mumbai Indians,RA Bawa
+info,player,Mumbai Indians,TA Boult
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,RJ Gleeson
+info,player,Gujarat Titans,Mohammed Siraj
+info,player,Gujarat Titans,B Sai Sudharsan
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,BKG Mendis
+info,player,Gujarat Titans,Washington Sundar
+info,player,Gujarat Titans,SE Rutherford
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,M Shahrukh Khan
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,R Sai Kishore
+info,player,Gujarat Titans,G Coetzee
+info,player,Gujarat Titans,M Prasidh Krishna
+info,registry,people,Ashwani Kumar,d45c29b1
+info,registry,people,B Sai Sudharsan,d5130a30
+info,registry,people,BKG Mendis,5d1e7582
+info,registry,people,G Coetzee,3204c99f
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,MJ Santner,e4a0deae
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Naman Dhir,fffa744b
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Sai Kishore,c7a995d3
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RA Bawa,ba6b2f91
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Gleeson,402f8494
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SE Rutherford,d014d5ac
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,TA Boult,a818c1be
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,Washington Sundar,f19ccfad

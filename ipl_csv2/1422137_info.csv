@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bengaluru
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2024
+info,date,2024/04/06
+info,event,Indian Premier League
+info,match_number,19
+info,venue,"Sawai Mansingh Stadium, Jaipur"
+info,city,Jaipur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,JC Buttler
+info,umpire,AG Wharf
+info,umpire,Tapan Sharma
+info,reserve_umpire,PM Joshi
+info,tv_umpire,J Madanagopal
+info,match_referee,V Narayan Kutty
+info,winner,Rajasthan Royals
+info,winner_wickets,6
+info,player,Royal Challengers Bengaluru,H Sharma
+info,player,Royal Challengers Bengaluru,V Kohli
+info,player,Royal Challengers Bengaluru,F du Plessis
+info,player,Royal Challengers Bengaluru,GJ Maxwell
+info,player,Royal Challengers Bengaluru,Saurav Chauhan
+info,player,Royal Challengers Bengaluru,C Green
+info,player,Royal Challengers Bengaluru,RM Patidar
+info,player,Royal Challengers Bengaluru,KD Karthik
+info,player,Royal Challengers Bengaluru,RJW Topley
+info,player,Royal Challengers Bengaluru,Mayank Dagar
+info,player,Royal Challengers Bengaluru,Mohammed Siraj
+info,player,Royal Challengers Bengaluru,Yash Dayal
+info,player,Rajasthan Royals,YS Chahal
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,TA Boult
+info,player,Rajasthan Royals,Avesh Khan
+info,player,Rajasthan Royals,N Burger
+info,player,Rajasthan Royals,SB Dubey
+info,registry,people,AG Wharf,2e0fcc58
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,C Green,eaa76d3c
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,H Sharma,52294a79
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JC Buttler,99b75528
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,Mayank Dagar,a457cfb5
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,N Burger,465aa633
+info,registry,people,PM Joshi,0dcc9a8c
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Parag,04a418e8
+info,registry,people,RJW Topley,8db7f47f
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,SB Dubey,6b2ff18f
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Saurav Chauhan,9e7225b0
+info,registry,people,TA Boult,a818c1be
+info,registry,people,Tapan Sharma,b9aa2b6e
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Yash Dayal,7210d461

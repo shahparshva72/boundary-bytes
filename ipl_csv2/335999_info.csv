@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2007/08
+info,date,2008/05/01
+info,event,Indian Premier League
+info,match_number,19
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,SE Marsh
+info,umpire,BR Doctrove
+info,umpire,RB Tiffin
+info,reserve_umpire,C Shamshuddin
+info,tv_umpire,SJ Davis
+info,match_referee,Talat Ali
+info,winner,Kings XI Punjab
+info,winner_wickets,7
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,VVS Laxman
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,Shahid Afridi
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,SB Bangar
+info,player,Deccan Chargers,DNT Zoysa
+info,player,Deccan Chargers,D Kalyankrishna
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,RR Sarwan
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,K Goel
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,S Sreesanth
+info,player,Kings XI Punjab,VRV Singh
+info,player,Kings XI Punjab,Gagandeep Singh
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,D Kalyankrishna,94bc776b
+info,registry,people,DNT Zoysa,e0351c86
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,Gagandeep Singh,890de8cb
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,K Goel,a1f1829d
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RB Tiffin,89087a0d
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RR Sarwan,36d33dd0
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,SB Bangar,0604ef16
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,Shahid Afridi,0dc00542
+info,registry,people,Talat Ali,1df4131e
+info,registry,people,VRV Singh,034b4b7d
+info,registry,people,VVS Laxman,de8cce37
+info,registry,people,Y Venugopal Rao,fe763256
+info,registry,people,Yuvraj Singh,1c914163

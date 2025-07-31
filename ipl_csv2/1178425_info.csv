@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Delhi Capitals
+info,gender,male
+info,season,2019
+info,date,2019/05/01
+info,event,Indian Premier League
+info,match_number,50
+info,venue,MA Chidambaram Stadium
+info,city,Chennai
+info,toss_winner,Delhi Capitals
+info,toss_decision,field
+info,player_of_match,MS Dhoni
+info,umpire,AY Dandekar
+info,umpire,Nitin Menon
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,IJ Gould
+info,match_referee,AJ Pycroft
+info,winner,Chennai Super Kings
+info,winner_runs,80
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,SR Watson
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,KM Jadhav
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,Harbhajan Singh
+info,player,Chennai Super Kings,Imran Tahir
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,S Dhawan
+info,player,Delhi Capitals,SS Iyer
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,CA Ingram
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,SE Rutherford
+info,player,Delhi Capitals,CH Morris
+info,player,Delhi Capitals,J Suchith
+info,player,Delhi Capitals,A Mishra
+info,player,Delhi Capitals,TA Boult
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AR Patel,2e171977
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,CA Ingram,c995d726
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,F du Plessis,3355b542
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,IJ Gould,a9dfdf6c
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,J Suchith,4125d931
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SE Rutherford,d014d5ac
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,TA Boult,a818c1be

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Deccan Chargers
+info,gender,male
+info,season,2012
+info,date,2012/05/06
+info,event,Indian Premier League
+info,match_number,50
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,AB de Villiers
+info,umpire,HDPK Dharmasena
+info,umpire,BNJ Oxenford
+info,reserve_umpire,CK Nandan
+info,tv_umpire,Aleem Dar
+info,match_referee,RS Mahanama
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,5
+info,player,Deccan Chargers,DJ Harris
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,CL White
+info,player,Deccan Chargers,KC Sangakkara
+info,player,Deccan Chargers,PA Patel
+info,player,Deccan Chargers,PA Reddy
+info,player,Deccan Chargers,A Ashish Reddy
+info,player,Deccan Chargers,A Mishra
+info,player,Deccan Chargers,DW Steyn
+info,player,Deccan Chargers,Anand Rajan
+info,player,Deccan Chargers,V Pratap Singh
+info,player,Royal Challengers Bangalore,TM Dilshan
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AUK Pathan
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,J Syed Mohammad
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,A Mithun
+info,player,Royal Challengers Bangalore,P Parameswaran
+info,player,Royal Challengers Bangalore,M Muralitharan
+info,registry,people,A Ashish Reddy,1c2a64cd
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Mithun,66cf56a5
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AUK Pathan,3ae3f034
+info,registry,people,Aleem Dar,f02778d1
+info,registry,people,Anand Rajan,d2340a43
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Harris,39f82db3
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,J Syed Mohammad,c64c2443
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,P Parameswaran,0c432afb
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PA Reddy,2461eef2
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Dhawan,0a476045
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Pratap Singh,d718440b
+info,registry,people,Z Khan,91a4a398

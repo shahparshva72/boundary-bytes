@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2022
+info,date,2022/04/09
+info,event,Indian Premier League
+info,match_number,18
+info,venue,"Maharashtra Cricket Association Stadium, Pune"
+info,city,Pune
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,Anuj Rawat
+info,umpire,BNJ Oxenford
+info,umpire,KN Ananthapadmanabhan
+info,reserve_umpire,Vinod Seshan
+info,tv_umpire,UV Gandhe
+info,match_referee,V Narayan Kutty
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,7
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,D Brevis
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,Ramandeep Singh
+info,player,Mumbai Indians,JD Unadkat
+info,player,Mumbai Indians,M Ashwin
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,Basil Thampi
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,Anuj Rawat
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,DJ Willey
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,PWH de Silva
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,Akash Deep
+info,registry,people,Akash Deep,0a67aec0
+info,registry,people,Anuj Rawat,c8f5f961
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,Basil Thampi,871e9faf
+info,registry,people,D Brevis,844e79d1
+info,registry,people,DJ Willey,7f048519
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,RG Sharma,740742ef
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,Vinod Seshan,a3357a27

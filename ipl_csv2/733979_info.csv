@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2014
+info,date,2014/05/05
+info,event,Indian Premier League
+info,match_number,25
+info,venue,"Sardar Patel Stadium, Motera"
+info,city,Ahmedabad
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,PV Tambe
+info,umpire,NJ Llong
+info,umpire,CK Nandan
+info,reserve_umpire,Nitin Menon
+info,tv_umpire,AK Chaudhary
+info,match_referee,RS Madugalle
+info,winner,Rajasthan Royals
+info,winner_runs,10
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,R Vinay Kumar
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,KK Nair
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,R Bhatia
+info,player,Rajasthan Royals,TG Southee
+info,player,Rajasthan Royals,PV Tambe
+info,player,Rajasthan Royals,R Tewatia
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KK Nair,944533a5
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,NJ Llong,573fb985
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PV Tambe,6aed7e79
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,YK Pathan,3c6ffae8

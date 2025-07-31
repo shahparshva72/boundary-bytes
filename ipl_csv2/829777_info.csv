@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2015
+info,date,2015/05/03
+info,event,Indian Premier League
+info,match_number,36
+info,venue,Brabourne Stadium
+info,city,Mumbai
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,AM Rahane
+info,umpire,HDPK Dharmasena
+info,umpire,CB Gaffaney
+info,tv_umpire,CK Nandan
+info,match_referee,RS Mahanama
+info,winner,Rajasthan Royals
+info,winner_runs,14
+info,player,Delhi Daredevils,MA Agarwal
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,Yuvraj Singh
+info,player,Delhi Daredevils,AD Mathews
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,SS Tiwary
+info,player,Delhi Daredevils,NM Coulter-Nile
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Z Khan
+info,player,Delhi Daredevils,GS Sandhu
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,KK Nair
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,DJ Hooda
+info,player,Rajasthan Royals,TG Southee
+info,player,Rajasthan Royals,DS Kulkarni
+info,player,Rajasthan Royals,R Bhatia
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AM Rahane,29e95537
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KK Nair,944533a5
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RS Mahanama,57910393
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,Yuvraj Singh,1c914163
+info,registry,people,Z Khan,91a4a398

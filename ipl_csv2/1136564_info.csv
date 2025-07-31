@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2018
+info,date,2018/04/09
+info,event,Indian Premier League
+info,match_number,4
+info,venue,Rajiv Gandhi International Stadium
+info,city,Hyderabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,S Dhawan
+info,umpire,NJ Llong
+info,umpire,VA Kulkarni
+info,reserve_umpire,R Pandit
+info,tv_umpire,CK Nandan
+info,match_referee,S Chaturvedi
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,9
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,DJM Short
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,RA Tripathi
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,K Gowtham
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,DS Kulkarni
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,B Laughlin
+info,player,Sunrisers Hyderabad,WP Saha
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,YK Pathan
+info,player,Sunrisers Hyderabad,Shakib Al Hasan
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,B Stanlake
+info,player,Sunrisers Hyderabad,S Kaul
+info,registry,people,AM Rahane,29e95537
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BA Stokes,e087956b
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,NJ Llong,573fb985
+info,registry,people,R Pandit,8a604384
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Chaturvedi,c8ec02e1
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,S Kaul,dcf81436
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YK Pathan,3c6ffae8

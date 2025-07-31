@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2020/21
+info,date,2020/10/24
+info,event,Indian Premier League
+info,match_number,43
+info,venue,Dubai International Cricket Stadium
+info,city,
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,CJ Jordan
+info,umpire,AY Dandekar
+info,umpire,PR Reiffel
+info,reserve_umpire,YC Barde
+info,tv_umpire,Nitin Menon
+info,match_referee,J Srinath
+info,winner,Kings XI Punjab
+info,winner_runs,12
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,N Pooran
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,DJ Hooda
+info,player,Kings XI Punjab,CJ Jordan
+info,player,Kings XI Punjab,M Ashwin
+info,player,Kings XI Punjab,Ravi Bishnoi
+info,player,Kings XI Punjab,Mohammed Shami
+info,player,Kings XI Punjab,Arshdeep Singh
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,JM Bairstow
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,JO Holder
+info,player,Sunrisers Hyderabad,PK Garg
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Sunrisers Hyderabad,KK Ahmed
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,J Srinath,bad31fac
+info,registry,people,J Suchith,4125d931
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,JO Holder,0f721006
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PK Garg,bb965e9a
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,T Natarajan,ce794613
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,YC Barde,b90f3346

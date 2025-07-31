@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2011
+info,date,2011/05/20
+info,event,Indian Premier League
+info,match_number,66
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,SR Watson
+info,umpire,RE Koertzen
+info,umpire,PR Reiffel
+info,reserve_umpire,VA Kulkarni
+info,tv_umpire,S Asnani
+info,match_referee,J Srinath
+info,winner,Rajasthan Royals
+info,winner_wickets,10
+info,player,Mumbai Indians,TL Suman
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,JEC Franklin
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,A Symonds
+info,player,Mumbai Indians,DS Kulkarni
+info,player,Mumbai Indians,MM Patel
+info,player,Mumbai Indians,SL Malinga
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,J Botha
+info,player,Rajasthan Royals,AL Menaria
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,LRPL Taylor
+info,player,Rajasthan Royals,PR Shah
+info,player,Rajasthan Royals,AA Chavan
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,A Singh
+info,player,Rajasthan Royals,SK Trivedi
+info,registry,people,A Singh,5b040b81
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AA Chavan,29d72eb2
+info,registry,people,AL Menaria,8291f939
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,J Botha,7c503806
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JEC Franklin,cf73ad76
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,PR Shah,0aadc906
+info,registry,people,R Dravid,0184dc35
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Asnani,b04524bc
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,VA Kulkarni,8fe0c4f8

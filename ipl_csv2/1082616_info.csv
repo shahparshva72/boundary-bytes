@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Gujarat Lions
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2017
+info,date,2017/04/23
+info,event,Indian Premier League
+info,match_number,26
+info,venue,Saurashtra Cricket Association Stadium
+info,city,Rajkot
+info,toss_winner,Gujarat Lions
+info,toss_decision,field
+info,player_of_match,HM Amla
+info,umpire,AK Chaudhary
+info,umpire,M Erasmus
+info,reserve_umpire,R Pandit
+info,tv_umpire,C Shamshuddin
+info,match_referee,Chinmay Sharma
+info,winner,Kings XI Punjab
+info,winner_runs,26
+info,player,Gujarat Lions,BB McCullum
+info,player,Gujarat Lions,AJ Finch
+info,player,Gujarat Lions,SK Raina
+info,player,Gujarat Lions,KD Karthik
+info,player,Gujarat Lions,RA Jadeja
+info,player,Gujarat Lions,DR Smith
+info,player,Gujarat Lions,AD Nath
+info,player,Gujarat Lions,AJ Tye
+info,player,Gujarat Lions,Basil Thampi
+info,player,Gujarat Lions,SS Agarwal
+info,player,Gujarat Lions,NB Singh
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,HM Amla
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,MP Stoinis
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,KC Cariappa
+info,player,Kings XI Punjab,T Natarajan
+info,player,Kings XI Punjab,Sandeep Sharma
+info,registry,people,AD Nath,f10e94c4
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AR Patel,2e171977
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,Basil Thampi,871e9faf
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,DR Smith,35205dfc
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HM Amla,e798611a
+info,registry,people,KC Cariappa,edb3d4f8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NB Singh,b822e99c
+info,registry,people,R Pandit,8a604384
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SS Agarwal,b51f72a5
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,T Natarajan,ce794613
+info,registry,people,WP Saha,fe11caa6

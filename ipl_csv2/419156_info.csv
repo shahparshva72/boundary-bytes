@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Deccan Chargers
+info,gender,male
+info,season,2009/10
+info,date,2010/04/16
+info,event,Indian Premier League
+info,match_number,51
+info,venue,Himachal Pradesh Cricket Association Stadium
+info,city,Dharamsala
+info,toss_winner,Deccan Chargers
+info,toss_decision,field
+info,player_of_match,RG Sharma
+info,umpire,M Erasmus
+info,umpire,AM Saheba
+info,reserve_umpire,C Shamshuddin
+info,tv_umpire,BF Bowden
+info,match_referee,D Govindjee
+info,winner,Deccan Chargers
+info,winner_wickets,5
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,MD Mishra
+info,player,Deccan Chargers,TL Suman
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,A Symonds
+info,player,Deccan Chargers,MR Marsh
+info,player,Deccan Chargers,B Sumanth
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Deccan Chargers,RJ Harris
+info,player,Deccan Chargers,R Sharma
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,K Goel
+info,player,Kings XI Punjab,J Theron
+info,player,Kings XI Punjab,RS Sodhi
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,SJ Srivastava
+info,player,Kings XI Punjab,VS Malik
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AM Saheba,883e3818
+info,registry,people,B Sumanth,f4f0fafd
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,J Theron,dec8e038
+info,registry,people,K Goel,a1f1829d
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,MD Mishra,6afb26d6
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RS Sodhi,a3ecf01f
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Srivastava,2049f3a0
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,VS Malik,5f26df4f
+info,registry,people,Yuvraj Singh,1c914163

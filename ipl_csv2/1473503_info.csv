@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Royal Challengers Bengaluru
+info,gender,male
+info,season,2025
+info,date,2025/05/23
+info,event,Indian Premier League
+info,match_number,65
+info,venue,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow"
+info,city,Lucknow
+info,toss_winner,Royal Challengers Bengaluru
+info,toss_decision,field
+info,player_of_match,Ishan Kishan
+info,umpire,K Swaroopanand
+info,umpire,MA Gough
+info,reserve_umpire,Abhijit Bhattacharya
+info,tv_umpire,UV Gandhe
+info,match_referee,P Dharmani
+info,winner,Sunrisers Hyderabad
+info,winner_runs,42
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,TM Head
+info,player,Sunrisers Hyderabad,Ishan Kishan
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,Aniket Verma
+info,player,Sunrisers Hyderabad,Nithish Kumar Reddy
+info,player,Sunrisers Hyderabad,A Manohar
+info,player,Sunrisers Hyderabad,PJ Cummins
+info,player,Sunrisers Hyderabad,HV Patel
+info,player,Sunrisers Hyderabad,JD Unadkat
+info,player,Sunrisers Hyderabad,E Malinga
+info,player,Sunrisers Hyderabad,Harsh Dubey
+info,player,Royal Challengers Bengaluru,PD Salt
+info,player,Royal Challengers Bengaluru,V Kohli
+info,player,Royal Challengers Bengaluru,MA Agarwal
+info,player,Royal Challengers Bengaluru,RM Patidar
+info,player,Royal Challengers Bengaluru,JM Sharma
+info,player,Royal Challengers Bengaluru,R Shepherd
+info,player,Royal Challengers Bengaluru,KH Pandya
+info,player,Royal Challengers Bengaluru,TH David
+info,player,Royal Challengers Bengaluru,B Kumar
+info,player,Royal Challengers Bengaluru,Yash Dayal
+info,player,Royal Challengers Bengaluru,L Ngidi
+info,player,Royal Challengers Bengaluru,Suyash Sharma
+info,registry,people,A Manohar,0890552f
+info,registry,people,Abhijit Bhattacharya,59ec9638
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Aniket Verma,a3b0600d
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,E Malinga,5750bcb4
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Harsh Dubey,25228673
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,K Swaroopanand,aa2a4962
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,L Ngidi,f834dcfc
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MA Gough,76752ac8
+info,registry,people,Nithish Kumar Reddy,aad0c365
+info,registry,people,P Dharmani,eaa90ab4
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,R Shepherd,c5aef772
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,Suyash Sharma,9440ef41
+info,registry,people,TH David,f1f99156
+info,registry,people,TM Head,12b610c2
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Yash Dayal,7210d461

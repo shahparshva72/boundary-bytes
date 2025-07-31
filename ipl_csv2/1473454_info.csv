@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2025
+info,date,2025/04/05
+info,event,Indian Premier League
+info,match_number,17
+info,venue,"MA Chidambaram Stadium, Chepauk, Chennai"
+info,city,Chennai
+info,toss_winner,Delhi Capitals
+info,toss_decision,bat
+info,player_of_match,KL Rahul
+info,umpire,A Bengeri
+info,umpire,P Joshi
+info,reserve_umpire,TM Srivastava
+info,tv_umpire,Vinod Seshan
+info,match_referee,Prakash Bhatt
+info,winner,Delhi Capitals
+info,winner_runs,25
+info,player,Delhi Capitals,Mukesh Kumar
+info,player,Delhi Capitals,J Fraser-McGurk
+info,player,Delhi Capitals,KL Rahul
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,Sameer Rizvi
+info,player,Delhi Capitals,T Stubbs
+info,player,Delhi Capitals,Ashutosh Sharma
+info,player,Delhi Capitals,V Nigam
+info,player,Delhi Capitals,MA Starc
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,MM Sharma
+info,player,Chennai Super Kings,M Pathirana
+info,player,Chennai Super Kings,R Ravindra
+info,player,Chennai Super Kings,DP Conway
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,V Shankar
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,Noor Ahmad
+info,player,Chennai Super Kings,Mukesh Choudhary
+info,player,Chennai Super Kings,KK Ahmed
+info,registry,people,A Bengeri,c109497d
+info,registry,people,AR Patel,2e171977
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,Ashutosh Sharma,84d9c311
+info,registry,people,DP Conway,df5a6881
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Pathirana,64839cb3
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mukesh Choudhary,765a4731
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,Noor Ahmad,efc04be7
+info,registry,people,P Joshi,ffc0e370
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Ravindra,ba5e1069
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,S Dube,a4e37e47
+info,registry,people,Sameer Rizvi,f89d3b11
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,TM Srivastava,a76d10ba
+info,registry,people,V Nigam,5ffc0565
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,Vinod Seshan,a3357a27

@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2021
+info,date,2021/09/30
+info,event,Indian Premier League
+info,match_number,44
+info,venue,Sharjah Cricket Stadium
+info,city,Sharjah
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,JR Hazlewood
+info,umpire,Nitin Menon
+info,umpire,YC Barde
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,MA Gough
+info,match_referee,Prakash Bhatt
+info,winner,Chennai Super Kings
+info,winner_wickets,6
+info,player,Sunrisers Hyderabad,JJ Roy
+info,player,Sunrisers Hyderabad,WP Saha
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,PK Garg
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,JO Holder
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,MM Ali
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,SN Thakur
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,JR Hazlewood
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,F du Plessis,3355b542
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,JO Holder,0f721006
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,MA Gough,76752ac8
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PK Garg,bb965e9a
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Kaul,dcf81436
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YC Barde,b90f3346

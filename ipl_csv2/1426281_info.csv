@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Mumbai Indians
+info,gender,male
+info,season,2024
+info,date,2024/04/27
+info,event,Indian Premier League
+info,match_number,43
+info,venue,"Arun Jaitley Stadium, Delhi"
+info,city,Delhi
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,J Fraser-McGurk
+info,umpire,Navdeep Singh
+info,umpire,NA Patwardhan
+info,reserve_umpire,K Swaroopanand
+info,tv_umpire,J Madanagopal
+info,match_referee,V Narayan Kutty
+info,winner,Delhi Capitals
+info,winner_runs,10
+info,player,Delhi Capitals,Rasikh Salam
+info,player,Delhi Capitals,J Fraser-McGurk
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,SD Hope
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,T Stubbs
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,Kumar Kushagra
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,LB Williams
+info,player,Delhi Capitals,KK Ahmed
+info,player,Delhi Capitals,Mukesh Kumar
+info,player,Mumbai Indians,N Thushara
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,N Wadhera
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,Mohammad Nabi
+info,player,Mumbai Indians,PP Chawla
+info,player,Mumbai Indians,L Wood
+info,player,Mumbai Indians,JJ Bumrah
+info,registry,people,AR Patel,2e171977
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,K Swaroopanand,aa2a4962
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,Kumar Kushagra,57ca01b3
+info,registry,people,L Wood,65b6943c
+info,registry,people,LB Williams,a1d95bd8
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,N Thushara,ee1b6c27
+info,registry,people,N Wadhera,d1a60072
+info,registry,people,NA Patwardhan,e6ef687d
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RR Pant,919a3be2
+info,registry,people,Rasikh Salam,b8527c3d
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SD Hope,1fc6ef83
+info,registry,people,Sumit Kumar,8998a68f
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,TH David,f1f99156
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,V Narayan Kutty,4bacee3d

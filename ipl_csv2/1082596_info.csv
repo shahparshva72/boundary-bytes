@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Gujarat Lions
+info,gender,male
+info,season,2017
+info,date,2017/04/09
+info,event,Indian Premier League
+info,match_number,6
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,Rashid Khan
+info,umpire,A Deshmukh
+info,umpire,NJ Llong
+info,reserve_umpire,N Pandit
+info,tv_umpire,AY Dandekar
+info,match_referee,M Nayyar
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,9
+info,player,Gujarat Lions,JJ Roy
+info,player,Gujarat Lions,BB McCullum
+info,player,Gujarat Lions,SK Raina
+info,player,Gujarat Lions,AJ Finch
+info,player,Gujarat Lions,KD Karthik
+info,player,Gujarat Lions,DR Smith
+info,player,Gujarat Lions,DS Kulkarni
+info,player,Gujarat Lions,P Kumar
+info,player,Gujarat Lions,Basil Thampi
+info,player,Gujarat Lions,Tejas Baroka
+info,player,Gujarat Lions,S Kaushik
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,Yuvraj Singh
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,BCJ Cutting
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,Bipul Sharma
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,A Nehra
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,Basil Thampi,871e9faf
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,DR Smith,35205dfc
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,N Pandit,4947c258
+info,registry,people,NJ Llong,573fb985
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaushik,1da489ff
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,Tejas Baroka,c28e9f12
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,Yuvraj Singh,1c914163

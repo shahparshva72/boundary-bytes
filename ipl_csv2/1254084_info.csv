@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Mumbai Indians
+info,gender,male
+info,season,2021
+info,date,2021/05/01
+info,event,Indian Premier League
+info,match_number,27
+info,venue,"Arun Jaitley Stadium, Delhi"
+info,city,Delhi
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,KA Pollard
+info,umpire,KN Ananthapadmanabhan
+info,umpire,CK Nandan
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,CB Gaffaney
+info,match_referee,J Srinath
+info,winner,Mumbai Indians
+info,winner_wickets,4
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,MM Ali
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,SM Curran
+info,player,Chennai Super Kings,SN Thakur
+info,player,Chennai Super Kings,DL Chahar
+info,player,Chennai Super Kings,L Ngidi
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,JDS Neesham
+info,player,Mumbai Indians,DS Kulkarni
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,TA Boult
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,F du Plessis,3355b542
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JDS Neesham,9219eff0
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,L Ngidi,f834dcfc
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,RG Sharma,740742ef
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SM Curran,e94915e6
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,TA Boult,a818c1be

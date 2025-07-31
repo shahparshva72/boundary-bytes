@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2007/08
+info,date,2008/05/21
+info,event,Indian Premier League
+info,match_number,45
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,SE Marsh
+info,umpire,BF Bowden
+info,umpire,GA Pratapkumar
+info,tv_umpire,SL Shastri
+info,match_referee,Talat Ali
+info,winner,Kings XI Punjab
+info,winner_runs,1
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,JR Hopes
+info,player,Kings XI Punjab,LA Pomersbach
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,TM Srivastava
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,U Kaul
+info,player,Kings XI Punjab,S Sreesanth
+info,player,Kings XI Punjab,VRV Singh
+info,player,Mumbai Indians,ST Jayasuriya
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,DR Smith
+info,player,Mumbai Indians,AM Nayar
+info,player,Mumbai Indians,RV Uthappa
+info,player,Mumbai Indians,SM Pollock
+info,player,Mumbai Indians,PR Shah
+info,player,Mumbai Indians,SD Chitnis
+info,player,Mumbai Indians,CRD Fernando
+info,player,Mumbai Indians,A Nehra
+info,player,Mumbai Indians,VS Yeligati
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,CRD Fernando,342d8ade
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,DR Smith,35205dfc
+info,registry,people,GA Pratapkumar,cf7c5778
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JR Hopes,2498e163
+info,registry,people,LA Pomersbach,b63ab531
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,PR Shah,0aadc906
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,SD Chitnis,facb9086
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,SM Pollock,88fccd6c
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,ST Jayasuriya,f233bbb4
+info,registry,people,TM Srivastava,a76d10ba
+info,registry,people,Talat Ali,1df4131e
+info,registry,people,U Kaul,622cc511
+info,registry,people,VRV Singh,034b4b7d
+info,registry,people,VS Yeligati,38f2c66c
+info,registry,people,Yuvraj Singh,1c914163

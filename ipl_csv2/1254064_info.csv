@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2021
+info,date,2021/04/15
+info,event,Indian Premier League
+info,match_number,7
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,JD Unadkat
+info,umpire,S Ravi
+info,umpire,VK Sharma
+info,reserve_umpire,J Madanagopal
+info,tv_umpire,AK Chaudhary
+info,match_referee,Shakti Singh
+info,winner,Rajasthan Royals
+info,winner_wickets,3
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,S Dhawan
+info,player,Delhi Capitals,AM Rahane
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,MP Stoinis
+info,player,Delhi Capitals,Lalit Yadav
+info,player,Delhi Capitals,TK Curran
+info,player,Delhi Capitals,CR Woakes
+info,player,Delhi Capitals,R Ashwin
+info,player,Delhi Capitals,K Rabada
+info,player,Delhi Capitals,Avesh Khan
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,M Vohra
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,S Dube
+info,player,Rajasthan Royals,DA Miller
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,R Tewatia
+info,player,Rajasthan Royals,CH Morris
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,C Sakariya
+info,player,Rajasthan Royals,Mustafizur Rahman
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,C Sakariya,2cdce1be
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CR Woakes,4c5d73db
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,Lalit Yadav,ad427b5c
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RR Pant,919a3be2
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Dube,a4e37e47
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,TK Curran,e86754b2
+info,registry,people,VK Sharma,a7a49df4

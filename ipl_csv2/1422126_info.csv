@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Mumbai Indians
+info,gender,male
+info,season,2024
+info,date,2024/03/27
+info,event,Indian Premier League
+info,match_number,8
+info,venue,"Rajiv Gandhi International Stadium, Uppal, Hyderabad"
+info,city,Hyderabad
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,Abhishek Sharma
+info,umpire,KN Ananthapadmanabhan
+info,umpire,UV Gandhe
+info,reserve_umpire,VM Dhokre
+info,tv_umpire,HDPK Dharmasena
+info,match_referee,Prakash Bhatt
+info,winner,Sunrisers Hyderabad
+info,winner_runs,31
+info,player,Sunrisers Hyderabad,Umran Malik
+info,player,Sunrisers Hyderabad,MA Agarwal
+info,player,Sunrisers Hyderabad,TM Head
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,Shahbaz Ahmed
+info,player,Sunrisers Hyderabad,PJ Cummins
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,M Markande
+info,player,Sunrisers Hyderabad,JD Unadkat
+info,player,Mumbai Indians,KT Maphaka
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,Naman Dhir
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,R Shepherd
+info,player,Mumbai Indians,G Coetzee
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,PP Chawla
+info,player,Mumbai Indians,SZ Mulani
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,G Coetzee,3204c99f
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KT Maphaka,107c26fb
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,Naman Dhir,fffa744b
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,R Shepherd,c5aef772
+info,registry,people,RG Sharma,740742ef
+info,registry,people,SZ Mulani,9d704f6f
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,TH David,f1f99156
+info,registry,people,TM Head,12b610c2
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,Umran Malik,81c08fa3
+info,registry,people,VM Dhokre,67df71c9

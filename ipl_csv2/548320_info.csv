@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2012
+info,date,2012/04/13
+info,event,Indian Premier League
+info,match_number,15
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,Shakib Al Hasan
+info,umpire,Asad Rauf
+info,umpire,S Asnani
+info,reserve_umpire,Premdip Chatterjee
+info,tv_umpire,S Das
+info,match_referee,GF Labrooy
+info,winner,Kolkata Knight Riders
+info,winner_wickets,5
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MS Bisla
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,DB Das
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,L Balaji
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,AL Menaria
+info,player,Rajasthan Royals,SP Goswami
+info,player,Rajasthan Royals,OA Shah
+info,player,Rajasthan Royals,BJ Hodge
+info,player,Rajasthan Royals,J Botha
+info,player,Rajasthan Royals,GB Hogg
+info,player,Rajasthan Royals,AA Chavan
+info,player,Rajasthan Royals,A Singh
+info,player,Rajasthan Royals,SK Trivedi
+info,registry,people,A Singh,5b040b81
+info,registry,people,AA Chavan,29d72eb2
+info,registry,people,AL Menaria,8291f939
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,DB Das,7050a1e7
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GF Labrooy,8e088dbc
+info,registry,people,J Botha,7c503806
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,L Balaji,b2b50355
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,OA Shah,7bf96684
+info,registry,people,Premdip Chatterjee,489fb760
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R Dravid,0184dc35
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Das,475e38b6
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,YK Pathan,3c6ffae8

@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Lucknow Super Giants
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2023
+info,date,2023/05/20
+info,event,Indian Premier League
+info,match_number,68
+info,venue,"Eden Gardens, Kolkata"
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,N Pooran
+info,umpire,J Madanagopal
+info,umpire,UV Gandhe
+info,reserve_umpire,Mohamad Rafi
+info,tv_umpire,YC Barde
+info,match_referee,M Nayyar
+info,winner,Lucknow Super Giants
+info,winner_runs,1
+info,player,Lucknow Super Giants,Yash Thakur
+info,player,Lucknow Super Giants,KS Sharma
+info,player,Lucknow Super Giants,Q de Kock
+info,player,Lucknow Super Giants,PN Mankad
+info,player,Lucknow Super Giants,MP Stoinis
+info,player,Lucknow Super Giants,KH Pandya
+info,player,Lucknow Super Giants,A Badoni
+info,player,Lucknow Super Giants,N Pooran
+info,player,Lucknow Super Giants,K Gowtham
+info,player,Lucknow Super Giants,Ravi Bishnoi
+info,player,Lucknow Super Giants,Naveen-ul-Haq
+info,player,Lucknow Super Giants,Mohsin Khan
+info,player,Kolkata Knight Riders,Harshit Rana
+info,player,Kolkata Knight Riders,JJ Roy
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,Rahmanullah Gurbaz
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,SN Thakur
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,VG Arora
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Kolkata Knight Riders,Suyash Sharma
+info,registry,people,A Badoni,872b03f7
+info,registry,people,AD Russell,bbd41817
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,Harshit Rana,77b1aa15
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KS Sharma,39ed0d2f
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohamad Rafi,0479de6b
+info,registry,people,Mohsin Khan,c33d8116
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,Naveen-ul-Haq,c0c411cb
+info,registry,people,PN Mankad,663b5e34
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,Rahmanullah Gurbaz,0bacade8
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Suyash Sharma,9440ef41
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,VG Arora,7c3b3b78
+info,registry,people,VR Iyer,a24be938
+info,registry,people,YC Barde,b90f3346
+info,registry,people,Yash Thakur,4b31f3a3

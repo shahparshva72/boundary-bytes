@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2019
+info,date,2019/04/13
+info,event,Indian Premier League
+info,match_number,27
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,JC Buttler
+info,umpire,A Nand Kishore
+info,umpire,Nitin Menon
+info,reserve_umpire,N Pandit
+info,tv_umpire,M Erasmus
+info,match_referee,J Srinath
+info,winner,Rajasthan Royals
+info,winner_wickets,4
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,AS Joseph
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,JP Behrendorff
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,RA Tripathi
+info,player,Rajasthan Royals,LS Livingstone
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,K Gowtham
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,DS Kulkarni
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AS Joseph,b0946605
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,N Pandit,4947c258
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SV Samson,a4cc73aa

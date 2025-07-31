@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2015
+info,date,2015/04/22
+info,event,Indian Premier League
+info,match_number,19
+info,venue,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium
+info,city,Visakhapatnam
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,DA Warner
+info,umpire,RK Illingworth
+info,umpire,VA Kulkarni
+info,reserve_umpire,K Bharatan
+info,tv_umpire,RM Deshpande
+info,match_referee,M Nayyar
+info,winner,Sunrisers Hyderabad
+info,winner_runs,16
+info,method,D/L
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,J Botha
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,M Morkel
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,RS Bopara
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,KL Rahul
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,Bipul Sharma
+info,player,Sunrisers Hyderabad,P Kumar
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,DW Steyn
+info,registry,people,AD Russell,bbd41817
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,J Botha,7c503806
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KV Sharma,119678fd
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RK Illingworth,20672246
+info,registry,people,RM Deshpande,7d2a4250
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,YK Pathan,3c6ffae8

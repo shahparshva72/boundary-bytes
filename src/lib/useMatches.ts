@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import api from '../services/axios';
+import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 
 interface Match {
   id: number;
@@ -24,11 +24,18 @@ interface MatchesResponse {
   matches: Match[];
   pagination: PaginationData;
   seasons: string[];
+  league: string;
+  metadata: {
+    availableLeagues: string[];
+    totalRecords: number;
+  };
 }
 
 export function useMatches(page = 1, season?: string) {
+  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+
   return useQuery<MatchesResponse>({
-    queryKey: ['matches', page, season],
+    queryKey: ['matches', page, season, selectedLeague],
     queryFn: async () => {
       const searchParams = new URLSearchParams({
         page: page.toString(),
@@ -36,8 +43,15 @@ export function useMatches(page = 1, season?: string) {
       });
       if (season) searchParams.append('season', season);
 
-      const { data } = await api.get<MatchesResponse>(`/matches?${searchParams}`);
+      const response = await fetchWithLeague(`/api/matches?${searchParams}`);
+
+      if (!response.ok) {
+        throw new Error(`Failed to fetch matches: ${response.statusText}`);
+      }
+
+      const data = await response.json();
       return data;
     },
+    enabled: !!selectedLeague, // Only run query when league is selected
   });
 }

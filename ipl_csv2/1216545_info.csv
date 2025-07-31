@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2020/21
+info,date,2020/09/26
+info,event,Indian Premier League
+info,match_number,8
+info,venue,Sheikh Zayed Stadium
+info,city,Abu Dhabi
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,bat
+info,player_of_match,Shubman Gill
+info,umpire,CB Gaffaney
+info,umpire,VK Sharma
+info,reserve_umpire,UV Gandhe
+info,tv_umpire,S Ravi
+info,match_referee,Shakti Singh
+info,winner,Kolkata Knight Riders
+info,winner_wickets,7
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,JM Bairstow
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,WP Saha
+info,player,Sunrisers Hyderabad,Mohammad Nabi
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,PK Garg
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Sunrisers Hyderabad,KK Ahmed
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,PJ Cummins
+info,player,Kolkata Knight Riders,Shivam Mavi
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Kolkata Knight Riders,KL Nagarkoti
+info,player,Kolkata Knight Riders,CV Varun
+info,registry,people,AD Russell,bbd41817
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KL Nagarkoti,b4f5c2d9
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,PK Garg,bb965e9a
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,Shivam Mavi,c38d3503
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,T Natarajan,ce794613
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,WP Saha,fe11caa6

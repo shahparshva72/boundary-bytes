@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2009
+info,date,2009/05/09
+info,event,Indian Premier League
+info,match_number,36
+info,venue,De Beers Diamond Oval
+info,city,Kimberley
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,DPMD Jayawardene
+info,umpire,GAV Baxter
+info,umpire,AM Saheba
+info,reserve_umpire,KH Hurter
+info,tv_umpire,HDPK Dharmasena
+info,match_referee,J Srinath
+info,winner,Kings XI Punjab
+info,winner_wickets,3
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,TL Suman
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,A Symonds
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,PP Ojha
+info,player,Deccan Chargers,Shoaib Ahmed
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,RJ Harris
+info,player,Kings XI Punjab,S Sohal
+info,player,Kings XI Punjab,SM Katich
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,WA Mota
+info,player,Kings XI Punjab,B Lee
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,RR Powar
+info,player,Kings XI Punjab,S Sreesanth
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AM Saheba,883e3818
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,GAV Baxter,cb4b3ab0
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,KH Hurter,bda8cca8
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RR Powar,5d096f3d
+info,registry,people,S Sohal,3fca55af
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,Shoaib Ahmed,8a668774
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,WA Mota,3dba85c2
+info,registry,people,Y Venugopal Rao,fe763256
+info,registry,people,Yuvraj Singh,1c914163

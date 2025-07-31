@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2020/21
+info,date,2020/10/10
+info,event,Indian Premier League
+info,match_number,24
+info,venue,Sheikh Zayed Stadium
+info,city,Abu Dhabi
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,KD Karthik
+info,umpire,UV Gandhe
+info,umpire,CB Gaffaney
+info,reserve_umpire,PG Pathak
+info,tv_umpire,VK Sharma
+info,match_referee,M Nayyar
+info,winner,Kolkata Knight Riders
+info,winner_runs,2
+info,player,Kolkata Knight Riders,RA Tripathi
+info,player,Kolkata Knight Riders,Shubman Gill
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,KD Karthik
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,PJ Cummins
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,KL Nagarkoti
+info,player,Kolkata Knight Riders,M Prasidh Krishna
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,N Pooran
+info,player,Kings XI Punjab,P Simran Singh
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,CJ Jordan
+info,player,Kings XI Punjab,Ravi Bishnoi
+info,player,Kings XI Punjab,Mohammed Shami
+info,player,Kings XI Punjab,Arshdeep Singh
+info,player,Kings XI Punjab,Mujeeb Ur Rahman
+info,registry,people,AD Russell,bbd41817
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KL Nagarkoti,b4f5c2d9
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,VK Sharma,a7a49df4

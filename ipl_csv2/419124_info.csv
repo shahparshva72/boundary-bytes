@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2009/10
+info,date,2010/03/24
+info,event,Indian Premier League
+info,match_number,19
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,AC Voges
+info,umpire,BR Doctrove
+info,umpire,SK Tarapore
+info,reserve_umpire,C Shamshuddin
+info,tv_umpire,S Ravi
+info,match_referee,S Venkataraghavan
+info,winner,Rajasthan Royals
+info,winner_runs,31
+info,player,Kings XI Punjab,RS Bopara
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,MS Bisla
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,M Kaif
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,J Theron
+info,player,Kings XI Punjab,S Sreesanth
+info,player,Kings XI Punjab,SJ Srivastava
+info,player,Rajasthan Royals,MJ Lumb
+info,player,Rajasthan Royals,NV Ojha
+info,player,Rajasthan Royals,FY Fazal
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,AC Voges
+info,player,Rajasthan Royals,P Dogra
+info,player,Rajasthan Royals,AA Jhunjhunwala
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,MM Patel
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,SW Tait
+info,registry,people,AA Jhunjhunwala,2815fe50
+info,registry,people,AC Voges,864c199e
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,FY Fazal,c15e2193
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,J Theron,dec8e038
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,M Kaif,d84378a4
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,NV Ojha,890946a0
+info,registry,people,P Dogra,2728e7e9
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SJ Srivastava,2049f3a0
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SW Tait,addfb70e
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Yuvraj Singh,1c914163

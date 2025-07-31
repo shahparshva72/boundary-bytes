@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2012
+info,date,2012/04/28
+info,event,Indian Premier League
+info,match_number,37
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Kings XI Punjab
+info,toss_decision,bat
+info,player_of_match,Mandeep Singh
+info,umpire,BF Bowden
+info,umpire,SK Tarapore
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,C Shamshuddin
+info,match_referee,RS Mahanama
+info,winner,Kings XI Punjab
+info,winner_runs,7
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,WP Saha
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,KMDN Kulasekara
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,SB Jakati
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,Azhar Mahmood
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,Bipul Sharma
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,N Saini
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,P Awana
+info,player,Kings XI Punjab,BA Bhatt
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,BA Bhatt,dc4686e6
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,F du Plessis,3355b542
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KMDN Kulasekara,469ea22b
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,N Saini,addbde6c
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Dogra,2728e7e9
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,WP Saha,fe11caa6

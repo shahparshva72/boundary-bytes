@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2012
+info,date,2012/05/10
+info,event,Indian Premier League
+info,match_number,55
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Deccan Chargers
+info,toss_decision,bat
+info,player_of_match,DA Warner
+info,umpire,JD Cloete
+info,umpire,SJA Taufel
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,S Ravi
+info,match_referee,J Srinath
+info,winner,Delhi Daredevils
+info,winner_wickets,9
+info,player,Deccan Chargers,DJ Harris
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,KC Sangakkara
+info,player,Deccan Chargers,CL White
+info,player,Deccan Chargers,JP Duminy
+info,player,Deccan Chargers,PA Patel
+info,player,Deccan Chargers,Ankit Sharma
+info,player,Deccan Chargers,A Ashish Reddy
+info,player,Deccan Chargers,A Mishra
+info,player,Deccan Chargers,MS Gony
+info,player,Deccan Chargers,TP Sudhindra
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,NV Ojha
+info,player,Delhi Daredevils,DPMD Jayawardene
+info,player,Delhi Daredevils,Y Nagar
+info,player,Delhi Daredevils,AD Russell
+info,player,Delhi Daredevils,Y Venugopal Rao
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,M Morkel
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,VR Aaron
+info,registry,people,A Ashish Reddy,1c2a64cd
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AD Russell,bbd41817
+info,registry,people,Ankit Sharma,24d94623
+info,registry,people,CL White,d0513f63
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Harris,39f82db3
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,NV Ojha,890946a0
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,TP Sudhindra,2f3817ce
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,Y Nagar,662c47a6
+info,registry,people,Y Venugopal Rao,fe763256

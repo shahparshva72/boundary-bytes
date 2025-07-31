@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Mumbai Indians
+info,gender,male
+info,season,2009
+info,date,2009/04/25
+info,event,Indian Premier League
+info,match_number,12
+info,venue,Kingsmead
+info,city,Durban
+info,toss_winner,Deccan Chargers
+info,toss_decision,bat
+info,player_of_match,PP Ojha
+info,umpire,HDPK Dharmasena
+info,umpire,SJA Taufel
+info,reserve_umpire,ZTA Ndamane
+info,tv_umpire,SD Ranade
+info,match_referee,D Govindjee
+info,winner,Deccan Chargers
+info,winner_runs,12
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,DR Smith
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,VVS Laxman
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,FH Edwards
+info,player,Deccan Chargers,PP Ojha
+info,player,Deccan Chargers,Harmeet Singh
+info,player,Mumbai Indians,ST Jayasuriya
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,JP Duminy
+info,player,Mumbai Indians,S Dhawan
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,AM Nayar
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,Z Khan
+info,player,Mumbai Indians,PR Shah
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,DS Kulkarni
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DR Smith,35205dfc
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,FH Edwards,a7c226e1
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,Harmeet Singh,2a72fd4f
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,PR Shah,0aadc906
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SD Ranade,369c85c1
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,ST Jayasuriya,f233bbb4
+info,registry,people,VVS Laxman,de8cce37
+info,registry,people,Y Venugopal Rao,fe763256
+info,registry,people,Z Khan,91a4a398
+info,registry,people,ZTA Ndamane,545cc6db

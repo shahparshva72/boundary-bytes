@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2007/08
+info,date,2008/05/01
+info,event,Indian Premier League
+info,match_number,18
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,SA Asnodkar
+info,umpire,RE Koertzen
+info,umpire,GA Pratapkumar
+info,reserve_umpire,MSS Ranawat
+info,tv_umpire,Asad Rauf
+info,match_referee,FM Engineer
+info,winner,Rajasthan Royals
+info,winner_runs,45
+info,player,Kolkata Knight Riders,Salman Butt
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,AB Agarkar
+info,player,Kolkata Knight Riders,BJ Hodge
+info,player,Kolkata Knight Riders,DJ Hussey
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,DB Das
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,Umar Gul
+info,player,Kolkata Knight Riders,I Sharma
+info,player,Kolkata Knight Riders,AB Dinda
+info,player,Rajasthan Royals,GC Smith
+info,player,Rajasthan Royals,SA Asnodkar
+info,player,Rajasthan Royals,M Kaif
+info,player,Rajasthan Royals,YK Pathan
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,RA Jadeja
+info,player,Rajasthan Royals,SK Warne
+info,player,Rajasthan Royals,Sohail Tanvir
+info,player,Rajasthan Royals,M Rawat
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,MM Patel
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,DB Das,7050a1e7
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,FM Engineer,6529ee42
+info,registry,people,GA Pratapkumar,cf7c5778
+info,registry,people,GC Smith,72861603
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,LR Shukla,b1451597
+info,registry,people,M Kaif,d84378a4
+info,registry,people,M Rawat,de8d3876
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,MSS Ranawat,8048c698
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,SA Asnodkar,ae091d39
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,Salman Butt,4d6d6280
+info,registry,people,Sohail Tanvir,64d43928
+info,registry,people,T Kohli,40caa465
+info,registry,people,Umar Gul,16dfcc19
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YK Pathan,3c6ffae8

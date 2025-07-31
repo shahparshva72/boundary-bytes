@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Mumbai Indians
+info,gender,male
+info,season,2021
+info,date,2021/04/29
+info,event,Indian Premier League
+info,match_number,24
+info,venue,"Arun Jaitley Stadium, Delhi"
+info,city,Delhi
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,Q de Kock
+info,umpire,CB Gaffaney
+info,umpire,KN Ananthapadmanabhan
+info,reserve_umpire,Tapan Sharma
+info,tv_umpire,C Shamshuddin
+info,match_referee,V Narayan Kutty
+info,winner,Mumbai Indians
+info,winner_wickets,7
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,S Dube
+info,player,Rajasthan Royals,DA Miller
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,R Tewatia
+info,player,Rajasthan Royals,CH Morris
+info,player,Rajasthan Royals,JD Unadkat
+info,player,Rajasthan Royals,C Sakariya
+info,player,Rajasthan Royals,Mustafizur Rahman
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,NM Coulter-Nile
+info,player,Mumbai Indians,J Yadav
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,TA Boult
+info,registry,people,C Sakariya,2cdce1be
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,J Yadav,81049310
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,TA Boult,a818c1be
+info,registry,people,Tapan Sharma,b9aa2b6e
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,YBK Jaiswal,6c19c6e5

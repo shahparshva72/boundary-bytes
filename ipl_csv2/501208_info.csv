@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2011
+info,date,2011/04/14
+info,event,Indian Premier League
+info,match_number,11
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,DW Steyn
+info,umpire,RE Koertzen
+info,umpire,S Ravi
+info,reserve_umpire,C Shamshuddin
+info,tv_umpire,SK Tarapore
+info,match_referee,D Govindjee
+info,winner,Deccan Chargers
+info,winner_runs,33
+info,player,Deccan Chargers,S Sohal
+info,player,Deccan Chargers,S Dhawan
+info,player,Deccan Chargers,KC Sangakkara
+info,player,Deccan Chargers,B Chipli
+info,player,Deccan Chargers,JP Duminy
+info,player,Deccan Chargers,DT Christian
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,A Mishra
+info,player,Deccan Chargers,DW Steyn
+info,player,Deccan Chargers,I Sharma
+info,player,Deccan Chargers,MS Gony
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,TM Dilshan
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,CA Pujara
+info,player,Royal Challengers Bangalore,JJ van der Wath
+info,player,Royal Challengers Bangalore,DL Vettori
+info,player,Royal Challengers Bangalore,R Ninan
+info,player,Royal Challengers Bangalore,S Aravind
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,B Chipli,5451a2c1
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CA Pujara,d4f9dbd4
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,JJ van der Wath,6821ac10
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,R Ninan,ce4cc4d5
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,S Aravind,957532de
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,S Sohal,3fca55af
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Z Khan,91a4a398

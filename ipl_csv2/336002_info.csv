@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2007/08
+info,date,2008/05/25
+info,event,Indian Premier League
+info,match_number,51
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Deccan Chargers
+info,toss_decision,bat
+info,player_of_match,R Vinay Kumar
+info,umpire,Asad Rauf
+info,umpire,RE Koertzen
+info,tv_umpire,GA Pratapkumar
+info,match_referee,Talat Ali
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,5
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,LPC Silva
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,AS Yadav
+info,player,Deccan Chargers,SB Bangar
+info,player,Deccan Chargers,WPUJC Vaas
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,DP Vijaykumar
+info,player,Royal Challengers Bangalore,JH Kallis
+info,player,Royal Challengers Bangalore,W Jaffer
+info,player,Royal Challengers Bangalore,Misbah-ul-Haq
+info,player,Royal Challengers Bangalore,R Dravid
+info,player,Royal Challengers Bangalore,CL White
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,B Akhil
+info,player,Royal Challengers Bangalore,SP Goswami
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,A Kumble
+info,player,Royal Challengers Bangalore,DW Steyn
+info,registry,people,A Kumble,0c2730df
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AS Yadav,b9be6507
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,B Akhil,af7dadf7
+info,registry,people,B Chipli,5451a2c1
+info,registry,people,CL White,d0513f63
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DP Vijaykumar,acd4f5dc
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,GA Pratapkumar,cf7c5778
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,LPC Silva,1be70c88
+info,registry,people,Misbah-ul-Haq,7eae4418
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,SB Bangar,0604ef16
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,Talat Ali,1df4131e
+info,registry,people,V Kohli,ba607b88
+info,registry,people,W Jaffer,619aa81f
+info,registry,people,WPUJC Vaas,bcce309e
+info,registry,people,Y Venugopal Rao,fe763256

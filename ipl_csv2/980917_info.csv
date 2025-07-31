@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Gujarat Lions
+info,gender,male
+info,season,2016
+info,date,2016/04/16
+info,event,Indian Premier League
+info,match_number,9
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Gujarat Lions
+info,toss_decision,field
+info,player_of_match,AJ Finch
+info,umpire,HDPK Dharmasena
+info,umpire,VK Sharma
+info,reserve_umpire,YC Barde
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,Chinmay Sharma
+info,winner,Gujarat Lions
+info,winner_wickets,3
+info,player,Gujarat Lions,AJ Finch
+info,player,Gujarat Lions,BB McCullum
+info,player,Gujarat Lions,SK Raina
+info,player,Gujarat Lions,KD Karthik
+info,player,Gujarat Lions,DJ Bravo
+info,player,Gujarat Lions,AD Nath
+info,player,Gujarat Lions,JP Faulkner
+info,player,Gujarat Lions,P Kumar
+info,player,Gujarat Lions,DS Kulkarni
+info,player,Gujarat Lions,SB Jakati
+info,player,Gujarat Lions,PV Tambe
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,PA Patel
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,JC Buttler
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,TG Southee
+info,player,Mumbai Indians,MJ McClenaghan
+info,player,Mumbai Indians,JJ Bumrah
+info,registry,people,AD Nath,f10e94c4
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PV Tambe,6aed7e79
+info,registry,people,RG Sharma,740742ef
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,TG Southee,13c35c9e
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,YC Barde,b90f3346

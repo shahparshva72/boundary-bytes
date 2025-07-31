@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2018
+info,date,2018/04/08
+info,event,Indian Premier League
+info,match_number,2
+info,venue,Punjab Cricket Association IS Bindra Stadium
+info,city,Chandigarh
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,KL Rahul
+info,umpire,KN Ananthapadmanabhan
+info,umpire,RJ Tucker
+info,reserve_umpire,N Pandit
+info,tv_umpire,Nitin Menon
+info,match_referee,J Srinath
+info,winner,Kings XI Punjab
+info,winner_wickets,6
+info,player,Delhi Daredevils,C Munro
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,V Shankar
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,R Tewatia
+info,player,Delhi Daredevils,CH Morris
+info,player,Delhi Daredevils,DT Christian
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,TA Boult
+info,player,Delhi Daredevils,Mohammed Shami
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,KK Nair
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,MP Stoinis
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,R Ashwin
+info,player,Kings XI Punjab,AJ Tye
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,Mujeeb Ur Rahman
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AR Patel,2e171977
+info,registry,people,C Munro,af2c687b
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,N Pandit,4947c258
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RR Pant,919a3be2
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,TA Boult,a818c1be
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,Yuvraj Singh,1c914163

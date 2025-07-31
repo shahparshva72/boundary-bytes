@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2020/21
+info,date,2020/09/20
+info,event,Indian Premier League
+info,match_number,2
+info,venue,Dubai International Cricket Stadium
+info,city,
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,MP Stoinis
+info,umpire,AK Chaudhary
+info,umpire,Nitin Menon
+info,reserve_umpire,YC Barde
+info,tv_umpire,PR Reiffel
+info,match_referee,J Srinath
+info,outcome,tie
+info,eliminator,Delhi Capitals
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,S Dhawan
+info,player,Delhi Capitals,SO Hetmyer
+info,player,Delhi Capitals,SS Iyer
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,MP Stoinis
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,R Ashwin
+info,player,Delhi Capitals,K Rabada
+info,player,Delhi Capitals,A Nortje
+info,player,Delhi Capitals,MM Sharma
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,KK Nair
+info,player,Kings XI Punjab,N Pooran
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,SN Khan
+info,player,Kings XI Punjab,K Gowtham
+info,player,Kings XI Punjab,CJ Jordan
+info,player,Kings XI Punjab,Mohammed Shami
+info,player,Kings XI Punjab,SS Cottrell
+info,player,Kings XI Punjab,Ravi Bishnoi
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AR Patel,2e171977
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,J Srinath,bad31fac
+info,registry,people,K Gowtham,90de905a
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RR Pant,919a3be2
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SN Khan,f088b960
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SS Cottrell,a1d053dd
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,YC Barde,b90f3346

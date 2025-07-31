@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2013
+info,date,2013/04/03
+info,event,Indian Premier League
+info,match_number,1
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,SP Narine
+info,umpire,S Ravi
+info,umpire,SJA Taufel
+info,reserve_umpire,AS Pathania
+info,tv_umpire,S Asnani
+info,match_referee,DC Boon
+info,winner,Kolkata Knight Riders
+info,winner_wickets,6
+info,player,Delhi Daredevils,UBT Chand
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,DPMD Jayawardene
+info,player,Delhi Daredevils,MC Juneja
+info,player,Delhi Daredevils,NV Ojha
+info,player,Delhi Daredevils,J Botha
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,AD Russell
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,A Nehra
+info,player,Delhi Daredevils,UT Yadav
+info,player,Kolkata Knight Riders,MS Bisla
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,LR Shukla
+info,player,Kolkata Knight Riders,R Bhatia
+info,player,Kolkata Knight Riders,B Lee
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,L Balaji
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AS Pathania,bf6c251d
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DC Boon,e79a1fe3
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,J Botha,7c503806
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,L Balaji,b2b50355
+info,registry,people,LR Shukla,b1451597
+info,registry,people,MC Juneja,605b7efa
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,NV Ojha,890946a0
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SP Narine,9d430b40
+info,registry,people,UBT Chand,0c94f480
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,YK Pathan,3c6ffae8

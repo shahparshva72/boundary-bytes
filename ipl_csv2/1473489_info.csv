@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bengaluru
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2025
+info,date,2025/05/03
+info,event,Indian Premier League
+info,match_number,52
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,R Shepherd
+info,umpire,M Krishnadas
+info,umpire,Nitin Menon
+info,reserve_umpire,KM Gandhi
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,IR Siddiqui
+info,winner,Royal Challengers Bengaluru
+info,winner_runs,2
+info,player,Royal Challengers Bengaluru,Suyash Sharma
+info,player,Royal Challengers Bengaluru,JG Bethell
+info,player,Royal Challengers Bengaluru,V Kohli
+info,player,Royal Challengers Bengaluru,D Padikkal
+info,player,Royal Challengers Bengaluru,RM Patidar
+info,player,Royal Challengers Bengaluru,JM Sharma
+info,player,Royal Challengers Bengaluru,TH David
+info,player,Royal Challengers Bengaluru,R Shepherd
+info,player,Royal Challengers Bengaluru,KH Pandya
+info,player,Royal Challengers Bengaluru,B Kumar
+info,player,Royal Challengers Bengaluru,L Ngidi
+info,player,Royal Challengers Bengaluru,Yash Dayal
+info,player,Chennai Super Kings,M Pathirana
+info,player,Chennai Super Kings,A Mhatre
+info,player,Chennai Super Kings,SK Rasheed
+info,player,Chennai Super Kings,SM Curran
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,D Brevis
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,DJ Hooda
+info,player,Chennai Super Kings,Noor Ahmad
+info,player,Chennai Super Kings,KK Ahmed
+info,player,Chennai Super Kings,A Kamboj
+info,registry,people,A Kamboj,fcc21ace
+info,registry,people,A Mhatre,b2b4f545
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,D Brevis,844e79d1
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,IR Siddiqui,6436f803
+info,registry,people,JG Bethell,3c55c703
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KM Gandhi,a9421c64
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,L Ngidi,f834dcfc
+info,registry,people,M Krishnadas,e298c588
+info,registry,people,M Pathirana,64839cb3
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,Noor Ahmad,efc04be7
+info,registry,people,R Shepherd,c5aef772
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RM Patidar,c740ea83
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SK Rasheed,cbf58a86
+info,registry,people,SM Curran,e94915e6
+info,registry,people,Suyash Sharma,9440ef41
+info,registry,people,TH David,f1f99156
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Yash Dayal,7210d461

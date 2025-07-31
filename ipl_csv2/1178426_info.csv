@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2019
+info,date,2019/05/02
+info,event,Indian Premier League
+info,match_number,51
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,JJ Bumrah
+info,umpire,CK Nandan
+info,umpire,S Ravi
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,A Nand Kishore
+info,match_referee,M Nayyar
+info,outcome,tie
+info,eliminator,Mumbai Indians
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,E Lewis
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,BB Sran
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Sunrisers Hyderabad,WP Saha
+info,player,Sunrisers Hyderabad,MJ Guptill
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,Mohammad Nabi
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,KK Ahmed
+info,player,Sunrisers Hyderabad,Basil Thampi
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BB Sran,d8b2f218
+info,registry,people,Basil Thampi,871e9faf
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,E Lewis,0ebfb1ad
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MJ Guptill,2be41edb
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RG Sharma,740742ef
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,WP Saha,fe11caa6

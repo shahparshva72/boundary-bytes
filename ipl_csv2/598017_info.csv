@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2013
+info,date,2013/04/16
+info,event,Indian Premier League
+info,match_number,21
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,V Kohli
+info,umpire,M Erasmus
+info,umpire,VA Kulkarni
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,K Srinath
+info,match_referee,RS Madugalle
+info,outcome,tie
+info,eliminator,Royal Challengers Bangalore
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,MC Juneja
+info,player,Delhi Daredevils,DPMD Jayawardene
+info,player,Delhi Daredevils,BJ Rohrer
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,M Morkel
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,A Nehra
+info,player,Delhi Daredevils,UT Yadav
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,KL Rahul
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,AB McDonald
+info,player,Royal Challengers Bangalore,KB Arun Karthik
+info,player,Royal Challengers Bangalore,J Syed Mohammad
+info,player,Royal Challengers Bangalore,R Vinay Kumar
+info,player,Royal Challengers Bangalore,R Rampaul
+info,player,Royal Challengers Bangalore,RP Singh
+info,player,Royal Challengers Bangalore,JD Unadkat
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AB McDonald,16043342
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,J Syed Mohammad,c64c2443
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KB Arun Karthik,7daedf2f
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MC Juneja,605b7efa
+info,registry,people,R Rampaul,d68e7f48
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VA Kulkarni,8fe0c4f8

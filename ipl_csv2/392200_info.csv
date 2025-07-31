@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Mumbai Indians
+info,gender,male
+info,season,2009
+info,date,2009/04/29
+info,event,Indian Premier League
+info,match_number,20
+info,venue,Kingsmead
+info,city,Durban
+info,toss_winner,Kings XI Punjab
+info,toss_decision,bat
+info,player_of_match,KC Sangakkara
+info,umpire,MR Benson
+info,umpire,SL Shastri
+info,reserve_umpire,ZTA Ndamane
+info,tv_umpire,TH Wijewardene
+info,match_referee,D Govindjee
+info,winner,Kings XI Punjab
+info,winner_runs,3
+info,player,Kings XI Punjab,RS Bopara
+info,player,Kings XI Punjab,K Goel
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,WA Mota
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,RR Powar
+info,player,Kings XI Punjab,VS Malik
+info,player,Kings XI Punjab,YA Abdulla
+info,player,Mumbai Indians,ST Jayasuriya
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,S Dhawan
+info,player,Mumbai Indians,JP Duminy
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,AM Nayar
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,SS Tiwary
+info,player,Mumbai Indians,Z Khan
+info,player,Mumbai Indians,PR Shah
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,K Goel,a1f1829d
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,MR Benson,790e14d3
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,PR Shah,0aadc906
+info,registry,people,RR Powar,5d096f3d
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SL Shastri,53ef012d
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,ST Jayasuriya,f233bbb4
+info,registry,people,T Kohli,40caa465
+info,registry,people,TH Wijewardene,6a6be119
+info,registry,people,VS Malik,5f26df4f
+info,registry,people,WA Mota,3dba85c2
+info,registry,people,YA Abdulla,4353bba5
+info,registry,people,Yuvraj Singh,1c914163
+info,registry,people,Z Khan,91a4a398
+info,registry,people,ZTA Ndamane,545cc6db

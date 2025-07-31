@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Mumbai Indians
+info,gender,male
+info,season,2025
+info,date,2025/03/31
+info,event,Indian Premier League
+info,match_number,12
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,Ashwani Kumar
+info,umpire,MV Saidharshan Kumar
+info,umpire,HAS Khalid
+info,reserve_umpire,Bhavesh Patel
+info,tv_umpire,Nitin Menon
+info,match_referee,J Srinath
+info,winner,Mumbai Indians
+info,winner_wickets,8
+info,player,Kolkata Knight Riders,Q de Kock
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,AM Rahane
+info,player,Kolkata Knight Riders,A Raghuvanshi
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,Ramandeep Singh
+info,player,Kolkata Knight Riders,Harshit Rana
+info,player,Kolkata Knight Riders,SH Johnson
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Mumbai Indians,V Puthur
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,RD Rickelton
+info,player,Mumbai Indians,WG Jacks
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,Naman Dhir
+info,player,Mumbai Indians,MJ Santner
+info,player,Mumbai Indians,DL Chahar
+info,player,Mumbai Indians,TA Boult
+info,player,Mumbai Indians,Ashwani Kumar
+info,registry,people,A Raghuvanshi,d7017798
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Ashwani Kumar,d45c29b1
+info,registry,people,Bhavesh Patel,ee03dc30
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Harshit Rana,77b1aa15
+info,registry,people,J Srinath,bad31fac
+info,registry,people,MJ Santner,e4a0deae
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,MV Saidharshan Kumar,54b6007b
+info,registry,people,Naman Dhir,fffa744b
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RD Rickelton,e66732f8
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SH Johnson,83c3e8e3
+info,registry,people,SP Narine,9d430b40
+info,registry,people,TA Boult,a818c1be
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,V Puthur,1e030637
+info,registry,people,VR Iyer,a24be938
+info,registry,people,WG Jacks,9caf69a1

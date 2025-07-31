@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Lucknow Super Giants
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2025
+info,date,2025/04/14
+info,event,Indian Premier League
+info,match_number,30
+info,venue,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow"
+info,city,Lucknow
+info,toss_winner,Chennai Super Kings
+info,toss_decision,field
+info,player_of_match,MS Dhoni
+info,umpire,UV Gandhe
+info,umpire,VK Sharma
+info,reserve_umpire,AK Argal
+info,tv_umpire,MA Gough
+info,match_referee,V Narayan Kutty
+info,winner,Chennai Super Kings
+info,winner_wickets,5
+info,player,Lucknow Super Giants,Ravi Bishnoi
+info,player,Lucknow Super Giants,AK Markram
+info,player,Lucknow Super Giants,MR Marsh
+info,player,Lucknow Super Giants,N Pooran
+info,player,Lucknow Super Giants,RR Pant
+info,player,Lucknow Super Giants,A Badoni
+info,player,Lucknow Super Giants,Abdul Samad
+info,player,Lucknow Super Giants,DA Miller
+info,player,Lucknow Super Giants,SN Thakur
+info,player,Lucknow Super Giants,DS Rathi
+info,player,Lucknow Super Giants,Akash Deep
+info,player,Lucknow Super Giants,Avesh Khan
+info,player,Chennai Super Kings,M Pathirana
+info,player,Chennai Super Kings,SK Rasheed
+info,player,Chennai Super Kings,R Ravindra
+info,player,Chennai Super Kings,RA Tripathi
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,V Shankar
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,J Overton
+info,player,Chennai Super Kings,A Kamboj
+info,player,Chennai Super Kings,Noor Ahmad
+info,player,Chennai Super Kings,KK Ahmed
+info,registry,people,A Badoni,872b03f7
+info,registry,people,A Kamboj,fcc21ace
+info,registry,people,AK Argal,0ee78cf3
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Akash Deep,0a67aec0
+info,registry,people,Avesh Khan,eef2536f
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DS Rathi,13fc5c6d
+info,registry,people,J Overton,59559bc2
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,M Pathirana,64839cb3
+info,registry,people,MA Gough,76752ac8
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,Noor Ahmad,efc04be7
+info,registry,people,R Ravindra,ba5e1069
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RR Pant,919a3be2
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SK Rasheed,cbf58a86
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,VK Sharma,a7a49df4

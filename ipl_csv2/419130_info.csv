@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Mumbai Indians
+info,gender,male
+info,season,2009/10
+info,date,2010/03/28
+info,event,Indian Premier League
+info,match_number,25
+info,venue,Dr DY Patil Sports Academy
+info,city,Mumbai
+info,toss_winner,Deccan Chargers
+info,toss_decision,field
+info,player_of_match,Harbhajan Singh
+info,umpire,S Das
+info,umpire,K Hariharan
+info,reserve_umpire,SN Bandekar
+info,tv_umpire,DJ Harper
+info,match_referee,GR Viswanath
+info,winner,Mumbai Indians
+info,winner_runs,41
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,MD Mishra
+info,player,Deccan Chargers,HH Gibbs
+info,player,Deccan Chargers,A Symonds
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,TL Suman
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,Jaskaran Singh
+info,player,Deccan Chargers,KAJ Roach
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Mumbai Indians,S Dhawan
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,SS Tiwary
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,R Sathish
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,R McLaren
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,Z Khan
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,A Symonds,bd77eb62
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,GR Viswanath,9333bc07
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,Jaskaran Singh,d7b3a420
+info,registry,people,K Hariharan,2386ccff
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KAJ Roach,78eb4223
+info,registry,people,MD Mishra,6afb26d6
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R McLaren,c654af19
+info,registry,people,R Sathish,626c5379
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Das,475e38b6
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SN Bandekar,350528bb
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,TL Suman,aaa1b522
+info,registry,people,Y Venugopal Rao,fe763256
+info,registry,people,Z Khan,91a4a398

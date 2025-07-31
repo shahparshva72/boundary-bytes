@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Mumbai Indians
+info,gender,male
+info,season,2011
+info,date,2011/05/27
+info,event,Indian Premier League
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,CH Gayle
+info,umpire,Asad Rauf
+info,umpire,SJA Taufel
+info,reserve_umpire,K Srinath
+info,tv_umpire,HDPK Dharmasena
+info,match_referee,RS Mahanama
+info,winner,Royal Challengers Bangalore
+info,winner_runs,43
+info,player,Mumbai Indians,AC Blizzard
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,JEC Franklin
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,R Sathish
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,AN Ahmed
+info,player,Mumbai Indians,MM Patel
+info,player,Royal Challengers Bangalore,MA Agarwal
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,LA Pomersbach
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,DL Vettori
+info,player,Royal Challengers Bangalore,S Aravind
+info,player,Royal Challengers Bangalore,A Mithun
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,J Syed Mohammad
+info,registry,people,A Mithun,66cf56a5
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AN Ahmed,2af1b6d2
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,J Syed Mohammad,c64c2443
+info,registry,people,JEC Franklin,cf73ad76
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,LA Pomersbach,b63ab531
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,R Sathish,626c5379
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RS Mahanama,57910393
+info,registry,people,S Aravind,957532de
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Z Khan,91a4a398

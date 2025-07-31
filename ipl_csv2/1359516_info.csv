@@ -1,0 +1,73 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Mumbai Indians
+info,gender,male
+info,season,2023
+info,date,2023/04/30
+info,event,Indian Premier League
+info,match_number,42
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,YBK Jaiswal
+info,umpire,Vinod Seshan
+info,umpire,VK Sharma
+info,reserve_umpire,VM Dhokre
+info,tv_umpire,Tapan Sharma
+info,match_referee,J Srinath
+info,winner,Mumbai Indians
+info,winner_wickets,6
+info,player,Rajasthan Royals,KR Sen
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,D Padikkal
+info,player,Rajasthan Royals,JO Holder
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,TA Boult
+info,player,Rajasthan Royals,Sandeep Sharma
+info,player,Rajasthan Royals,YS Chahal
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,C Green
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,TH David
+info,player,Mumbai Indians,PP Chawla
+info,player,Mumbai Indians,JC Archer
+info,player,Mumbai Indians,K Kartikeya
+info,player,Mumbai Indians,RP Meredith
+info,player,Mumbai Indians,Arshad Khan
+info,registry,people,Arshad Khan,12314277
+info,registry,people,C Green,eaa76d3c
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JO Holder,0f721006
+info,registry,people,K Kartikeya,f6d8a7ab
+info,registry,people,KR Sen,2e78f685
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Meredith,64775749
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,TA Boult,a818c1be
+info,registry,people,TH David,f1f99156
+info,registry,people,Tapan Sharma,b9aa2b6e
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,VM Dhokre,67df71c9
+info,registry,people,Vinod Seshan,a3357a27
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YS Chahal,57ee1fde

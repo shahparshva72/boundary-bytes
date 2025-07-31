@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2023
+info,date,2023/04/23
+info,event,Indian Premier League
+info,match_number,33
+info,venue,"Eden Gardens, Kolkata"
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,AM Rahane
+info,umpire,Nitin Menon
+info,umpire,Tapan Sharma
+info,reserve_umpire,A Bengeri
+info,tv_umpire,VK Sharma
+info,match_referee,Shakti Singh
+info,winner,Chennai Super Kings
+info,winner_runs,49
+info,player,Chennai Super Kings,Akash Singh
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,DP Conway
+info,player,Chennai Super Kings,AM Rahane
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,MM Ali
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,M Pathirana
+info,player,Chennai Super Kings,TU Deshpande
+info,player,Chennai Super Kings,M Theekshana
+info,player,Kolkata Knight Riders,Suyash Sharma
+info,player,Kolkata Knight Riders,N Jagadeesan
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,N Rana
+info,player,Kolkata Knight Riders,JJ Roy
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,D Wiese
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Kolkata Knight Riders,K Khejroliya
+info,registry,people,A Bengeri,c109497d
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Akash Singh,b483905d
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,D Wiese,aa8d28ae
+info,registry,people,DP Conway,df5a6881
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,K Khejroliya,fa2f1dde
+info,registry,people,M Pathirana,64839cb3
+info,registry,people,M Theekshana,f24c6701
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,N Jagadeesan,bd54eef5
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,Suyash Sharma,9440ef41
+info,registry,people,TU Deshpande,46a9bea1
+info,registry,people,Tapan Sharma,b9aa2b6e
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,VR Iyer,a24be938

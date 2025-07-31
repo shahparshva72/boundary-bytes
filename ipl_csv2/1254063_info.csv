@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2021
+info,date,2021/04/14
+info,event,Indian Premier League
+info,match_number,6
+info,venue,"MA Chidambaram Stadium, Chepauk, Chennai"
+info,city,Chennai
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,GJ Maxwell
+info,umpire,Nitin Menon
+info,umpire,UV Gandhe
+info,reserve_umpire,Tapan Sharma
+info,tv_umpire,C Shamshuddin
+info,match_referee,V Narayan Kutty
+info,winner,Royal Challengers Bangalore
+info,winner_runs,6
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,D Padikkal
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,Washington Sundar
+info,player,Royal Challengers Bangalore,DT Christian
+info,player,Royal Challengers Bangalore,KA Jamieson
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Sunrisers Hyderabad,WP Saha
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,JM Bairstow
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,JO Holder
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,S Nadeem
+info,player,Sunrisers Hyderabad,T Natarajan
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,JO Holder,0f721006
+info,registry,people,KA Jamieson,68c56d09
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,T Natarajan,ce794613
+info,registry,people,Tapan Sharma,b9aa2b6e
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Narayan Kutty,4bacee3d
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YS Chahal,57ee1fde

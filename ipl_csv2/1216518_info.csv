@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2020/21
+info,date,2020/10/22
+info,event,Indian Premier League
+info,match_number,40
+info,venue,Dubai International Cricket Stadium
+info,city,
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,MK Pandey
+info,umpire,Nitin Menon
+info,umpire,PR Reiffel
+info,reserve_umpire,AY Dandekar
+info,tv_umpire,AK Chaudhary
+info,match_referee,J Srinath
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,8
+info,player,Rajasthan Royals,RV Uthappa
+info,player,Rajasthan Royals,BA Stokes
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,R Tewatia
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,AS Rajpoot
+info,player,Rajasthan Royals,Kartik Tyagi
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,JM Bairstow
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,PK Garg
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,JO Holder
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Sunrisers Hyderabad,S Nadeem
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AS Rajpoot,db31895a
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,BA Stokes,e087956b
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,JO Holder,0f721006
+info,registry,people,Kartik Tyagi,5d2eea49
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PK Garg,bb965e9a
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,T Natarajan,ce794613
+info,registry,people,V Shankar,0994d0ae

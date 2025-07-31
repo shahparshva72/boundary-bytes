@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Pune Warriors
+info,gender,male
+info,season,2012
+info,date,2012/05/13
+info,event,Indian Premier League
+info,match_number,60
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,A Chandila
+info,umpire,BF Bowden
+info,umpire,SK Tarapore
+info,reserve_umpire,K Bharatan
+info,tv_umpire,VA Kulkarni
+info,match_referee,RS Madugalle
+info,winner,Rajasthan Royals
+info,winner_runs,45
+info,player,Pune Warriors,SC Ganguly
+info,player,Pune Warriors,JD Ryder
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,AP Majumdar
+info,player,Pune Warriors,CJ Ferguson
+info,player,Pune Warriors,SPD Smith
+info,player,Pune Warriors,AD Mathews
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,M Kartik
+info,player,Pune Warriors,R Sharma
+info,player,Pune Warriors,A Nehra
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,BJ Hodge
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,J Botha
+info,player,Rajasthan Royals,SP Goswami
+info,player,Rajasthan Royals,AL Menaria
+info,player,Rajasthan Royals,SW Tait
+info,player,Rajasthan Royals,SK Trivedi
+info,player,Rajasthan Royals,A Chandila
+info,registry,people,A Chandila,99b202b3
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AL Menaria,8291f939
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AP Majumdar,f4cb4f53
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,J Botha,7c503806
+info,registry,people,JD Ryder,91ffa6c6
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,M Kartik,abfeb126
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SW Tait,addfb70e
+info,registry,people,VA Kulkarni,8fe0c4f8

@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2025
+info,date,2025/04/16
+info,event,Indian Premier League
+info,match_number,32
+info,venue,"Arun Jaitley Stadium, Delhi"
+info,city,Delhi
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,MA Starc
+info,umpire,A Totre
+info,umpire,K Kelkar
+info,reserve_umpire,Anish Sahasrabudhe
+info,tv_umpire,R Pandit
+info,match_referee,Shakti Singh
+info,outcome,tie
+info,eliminator,Delhi Capitals
+info,player,Delhi Capitals,Mukesh Kumar
+info,player,Delhi Capitals,J Fraser-McGurk
+info,player,Delhi Capitals,Abishek Porel
+info,player,Delhi Capitals,KK Nair
+info,player,Delhi Capitals,KL Rahul
+info,player,Delhi Capitals,T Stubbs
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,Ashutosh Sharma
+info,player,Delhi Capitals,V Nigam
+info,player,Delhi Capitals,MA Starc
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,MM Sharma
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,N Rana
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,PWH de Silva
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,M Theekshana
+info,player,Rajasthan Royals,Sandeep Sharma
+info,player,Rajasthan Royals,TU Deshpande
+info,player,Rajasthan Royals,SB Dubey
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AR Patel,2e171977
+info,registry,people,Abishek Porel,ad3b6e95
+info,registry,people,Anish Sahasrabudhe,2892df67
+info,registry,people,Ashutosh Sharma,84d9c311
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,JC Archer,5574750c
+info,registry,people,K Kelkar,1d88908d
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Theekshana,f24c6701
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,Mukesh Kumar,2cffab74
+info,registry,people,N Rana,fb2d1dda
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Parag,04a418e8
+info,registry,people,SB Dubey,6b2ff18f
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,T Stubbs,85b3fab2
+info,registry,people,TU Deshpande,46a9bea1
+info,registry,people,V Nigam,5ffc0565
+info,registry,people,YBK Jaiswal,6c19c6e5

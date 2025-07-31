@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Gujarat Titans
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2022
+info,date,2022/04/11
+info,event,Indian Premier League
+info,match_number,21
+info,venue,"Dr DY Patil Sports Academy, Mumbai"
+info,city,Mumbai
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,KS Williamson
+info,umpire,Chirra Ravikanthreddy
+info,umpire,RJ Tucker
+info,reserve_umpire,NA Patwardhan
+info,tv_umpire,VK Sharma
+info,match_referee,DS Manohar
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,8
+info,player,Gujarat Titans,MS Wade
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,B Sai Sudharsan
+info,player,Gujarat Titans,HH Pandya
+info,player,Gujarat Titans,DA Miller
+info,player,Gujarat Titans,A Manohar
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,DG Nalkande
+info,player,Gujarat Titans,Mohammed Shami
+info,player,Gujarat Titans,LH Ferguson
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,N Pooran
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,Shashank Singh
+info,player,Sunrisers Hyderabad,Washington Sundar
+info,player,Sunrisers Hyderabad,M Jansen
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Sunrisers Hyderabad,Umran Malik
+info,registry,people,A Manohar,0890552f
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,B Sai Sudharsan,d5130a30
+info,registry,people,Chirra Ravikanthreddy,8b680f55
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DG Nalkande,cd8d2859
+info,registry,people,DS Manohar,b35f3ac8
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,LH Ferguson,2f9d0389
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,MS Wade,afa7e784
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,NA Patwardhan,e6ef687d
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,Shashank Singh,26989d80
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,T Natarajan,ce794613
+info,registry,people,Umran Malik,81c08fa3
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,Washington Sundar,f19ccfad

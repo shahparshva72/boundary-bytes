@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2009
+info,date,2009/04/23
+info,event,Indian Premier League
+info,match_number,9
+info,venue,Kingsmead
+info,city,Durban
+info,toss_winner,Delhi Daredevils
+info,toss_decision,bat
+info,player_of_match,AB de Villiers
+info,umpire,BR Doctrove
+info,umpire,SJA Taufel
+info,reserve_umpire,ZTA Ndamane
+info,tv_umpire,SD Ranade
+info,match_referee,D Govindjee
+info,winner,Delhi Daredevils
+info,winner_runs,9
+info,player,Chennai Super Kings,PA Patel
+info,player,Chennai Super Kings,ML Hayden
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,A Flintoff
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,MS Gony
+info,player,Chennai Super Kings,Joginder Sharma
+info,player,Chennai Super Kings,L Balaji
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,AB de Villiers
+info,player,Delhi Daredevils,TM Dilshan
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,MK Tiwary
+info,player,Delhi Daredevils,DL Vettori
+info,player,Delhi Daredevils,DP Nannes
+info,player,Delhi Daredevils,AM Salvi
+info,player,Delhi Daredevils,PJ Sangwan
+info,player,Delhi Daredevils,A Nehra
+info,registry,people,A Flintoff,ddc0828d
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AM Salvi,260fd380
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,Joginder Sharma,9f961c14
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,MS Gony,ae78bc32
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,SD Ranade,369c85c1
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,ZTA Ndamane,545cc6db

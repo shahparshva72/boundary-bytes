@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Chennai Super Kings
+info,gender,male
+info,season,2012
+info,date,2012/05/17
+info,event,Indian Premier League
+info,match_number,66
+info,venue,Himachal Pradesh Cricket Association Stadium
+info,city,Dharamsala
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,AC Gilchrist
+info,umpire,VA Kulkarni
+info,umpire,SK Tarapore
+info,reserve_umpire,VK Sharma
+info,tv_umpire,BF Bowden
+info,match_referee,RS Madugalle
+info,winner,Kings XI Punjab
+info,winner_wickets,6
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,MEK Hussey
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,S Anirudha
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,BW Hilfenhaus
+info,player,Chennai Super Kings,VY Mahesh
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,N Saini
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,SD Chitnis
+info,player,Kings XI Punjab,Azhar Mahmood
+info,player,Kings XI Punjab,Gurkeerat Singh
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,RJ Harris
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,P Awana
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,Gurkeerat Singh,6eb146d2
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,N Saini,addbde6c
+info,registry,people,P Awana,1a0c3177
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,S Anirudha,95a2ea61
+info,registry,people,SD Chitnis,facb9086
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,VY Mahesh,93a17209

@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Mumbai Indians
+info,gender,male
+info,season,2025
+info,date,2025/04/17
+info,event,Indian Premier League
+info,match_number,33
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,WG Jacks
+info,umpire,J Madanagopal
+info,umpire,Vinod Seshan
+info,reserve_umpire,P Joshi
+info,tv_umpire,CB Gaffaney
+info,match_referee,Prakash Bhatt
+info,winner,Mumbai Indians
+info,winner_wickets,4
+info,player,Sunrisers Hyderabad,RD Chahar
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,TM Head
+info,player,Sunrisers Hyderabad,Ishan Kishan
+info,player,Sunrisers Hyderabad,Nithish Kumar Reddy
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,Aniket Verma
+info,player,Sunrisers Hyderabad,PJ Cummins
+info,player,Sunrisers Hyderabad,HV Patel
+info,player,Sunrisers Hyderabad,Mohammed Shami
+info,player,Sunrisers Hyderabad,Zeeshan Ansari
+info,player,Sunrisers Hyderabad,E Malinga
+info,player,Mumbai Indians,KV Sharma
+info,player,Mumbai Indians,RD Rickelton
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,WG Jacks
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,Tilak Varma
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,Naman Dhir
+info,player,Mumbai Indians,MJ Santner
+info,player,Mumbai Indians,DL Chahar
+info,player,Mumbai Indians,TA Boult
+info,player,Mumbai Indians,JJ Bumrah
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Aniket Verma,a3b0600d
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,DL Chahar,23eeb873
+info,registry,people,E Malinga,5750bcb4
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KV Sharma,119678fd
+info,registry,people,MJ Santner,e4a0deae
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Naman Dhir,fffa744b
+info,registry,people,Nithish Kumar Reddy,aad0c365
+info,registry,people,P Joshi,ffc0e370
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,RA Bawa,ba6b2f91
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RD Rickelton,e66732f8
+info,registry,people,RG Sharma,740742ef
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,TA Boult,a818c1be
+info,registry,people,TM Head,12b610c2
+info,registry,people,Tilak Varma,b0482a1d
+info,registry,people,Vinod Seshan,a3357a27
+info,registry,people,WG Jacks,9caf69a1
+info,registry,people,Zeeshan Ansari,36619795

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2021
+info,date,2021/04/22
+info,event,Indian Premier League
+info,match_number,16
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,D Padikkal
+info,umpire,J Madanagopal
+info,umpire,S Ravi
+info,reserve_umpire,AY Dandekar
+info,tv_umpire,VK Sharma
+info,match_referee,Shakti Singh
+info,winner,Royal Challengers Bangalore
+info,winner_wickets,10
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,M Vohra
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,DA Miller
+info,player,Rajasthan Royals,S Dube
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,R Tewatia
+info,player,Rajasthan Royals,CH Morris
+info,player,Rajasthan Royals,S Gopal
+info,player,Rajasthan Royals,C Sakariya
+info,player,Rajasthan Royals,Mustafizur Rahman
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,D Padikkal
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,Washington Sundar
+info,player,Royal Challengers Bangalore,KA Jamieson
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,KW Richardson
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,C Sakariya,2cdce1be
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JC Buttler,99b75528
+info,registry,people,KA Jamieson,68c56d09
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,M Vohra,c03e2850
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,R Parag,04a418e8
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,S Dube,a4e37e47
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,Washington Sundar,f19ccfad
+info,registry,people,YS Chahal,57ee1fde

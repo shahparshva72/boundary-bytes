@@ -1,0 +1,74 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2023
+info,date,2023/05/07
+info,event,Indian Premier League
+info,match_number,52
+info,venue,"Sawai Mansingh Stadium, Jaipur"
+info,city,Jaipur
+info,toss_winner,Rajasthan Royals
+info,toss_decision,bat
+info,player_of_match,GD Phillips
+info,umpire,Nitin Menon
+info,umpire,Vinod Seshan
+info,reserve_umpire,VM Dhokre
+info,tv_umpire,VK Sharma
+info,match_referee,J Srinath
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,4
+info,player,Rajasthan Royals,OC McCoy
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,JE Root
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,Sandeep Sharma
+info,player,Rajasthan Royals,M Ashwin
+info,player,Rajasthan Royals,K Yadav
+info,player,Rajasthan Royals,YS Chahal
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Sunrisers Hyderabad,Anmolpreet Singh
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,H Klaasen
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,GD Phillips
+info,player,Sunrisers Hyderabad,Abdul Samad
+info,player,Sunrisers Hyderabad,M Jansen
+info,player,Sunrisers Hyderabad,Vivrant Sharma
+info,player,Sunrisers Hyderabad,M Markande
+info,player,Sunrisers Hyderabad,B Kumar
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abdul Samad,8e514b4c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Anmolpreet Singh,1399b39c
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,GD Phillips,9a46c4e5
+info,registry,people,H Klaasen,235c2bb6
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JE Root,a343262c
+info,registry,people,K Yadav,030f3089
+info,registry,people,M Ashwin,e2db2409
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,OC McCoy,529eb9e0
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,T Natarajan,ce794613
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,VM Dhokre,67df71c9
+info,registry,people,Vinod Seshan,a3357a27
+info,registry,people,Vivrant Sharma,1b7b0fa7
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YS Chahal,57ee1fde

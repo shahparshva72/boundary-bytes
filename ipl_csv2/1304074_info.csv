@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2022
+info,date,2022/04/17
+info,event,Indian Premier League
+info,match_number,28
+info,venue,"Dr DY Patil Sports Academy, Mumbai"
+info,city,Mumbai
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,Umran Malik
+info,umpire,PG Pathak
+info,umpire,R Pandit
+info,reserve_umpire,A Totre
+info,tv_umpire,RJ Tucker
+info,match_referee,DS Manohar
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,7
+info,player,Punjab Kings,S Dhawan
+info,player,Punjab Kings,P Simran Singh
+info,player,Punjab Kings,JM Bairstow
+info,player,Punjab Kings,LS Livingstone
+info,player,Punjab Kings,JM Sharma
+info,player,Punjab Kings,M Shahrukh Khan
+info,player,Punjab Kings,OF Smith
+info,player,Punjab Kings,K Rabada
+info,player,Punjab Kings,RD Chahar
+info,player,Punjab Kings,VG Arora
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,N Pooran
+info,player,Sunrisers Hyderabad,Shashank Singh
+info,player,Sunrisers Hyderabad,J Suchith
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,M Jansen
+info,player,Sunrisers Hyderabad,T Natarajan
+info,player,Sunrisers Hyderabad,Umran Malik
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,DS Manohar,b35f3ac8
+info,registry,people,J Suchith,4125d931
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Jansen,81c36ee9
+info,registry,people,M Shahrukh Khan,7dcb9bc9
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,OF Smith,23cca426
+info,registry,people,P Simran Singh,9418198b
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,R Pandit,8a604384
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,S Dhawan,0a476045
+info,registry,people,Shashank Singh,26989d80
+info,registry,people,T Natarajan,ce794613
+info,registry,people,Umran Malik,81c08fa3
+info,registry,people,VG Arora,7c3b3b78

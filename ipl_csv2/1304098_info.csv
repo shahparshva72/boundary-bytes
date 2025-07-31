@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Punjab Kings
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2022
+info,date,2022/05/07
+info,event,Indian Premier League
+info,match_number,52
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Punjab Kings
+info,toss_decision,bat
+info,player_of_match,YBK Jaiswal
+info,umpire,Chirra Ravikanthreddy
+info,umpire,YC Barde
+info,reserve_umpire,UV Gandhe
+info,tv_umpire,CB Gaffaney
+info,match_referee,Prakash Bhatt
+info,winner,Rajasthan Royals
+info,winner_wickets,6
+info,player,Punjab Kings,JM Bairstow
+info,player,Punjab Kings,S Dhawan
+info,player,Punjab Kings,PBB Rajapaksa
+info,player,Punjab Kings,MA Agarwal
+info,player,Punjab Kings,JM Sharma
+info,player,Punjab Kings,LS Livingstone
+info,player,Punjab Kings,R Dhawan
+info,player,Punjab Kings,K Rabada
+info,player,Punjab Kings,RD Chahar
+info,player,Punjab Kings,Arshdeep Singh
+info,player,Punjab Kings,Sandeep Sharma
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,JC Buttler
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,D Padikkal
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,R Ashwin
+info,player,Rajasthan Royals,TA Boult
+info,player,Rajasthan Royals,M Prasidh Krishna
+info,player,Rajasthan Royals,YS Chahal
+info,player,Rajasthan Royals,KR Sen
+info,registry,people,Arshdeep Singh,244048f6
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,Chirra Ravikanthreddy,8b680f55
+info,registry,people,D Padikkal,2c25d4f5
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,JM Sharma,800d2d97
+info,registry,people,K Rabada,e62dd25d
+info,registry,people,KR Sen,2e78f685
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Prasidh Krishna,85e0cf10
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,PBB Rajapaksa,6c882e9a
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,R Dhawan,26a85969
+info,registry,people,R Parag,04a418e8
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,TA Boult,a818c1be
+info,registry,people,UV Gandhe,43dd4011
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,YC Barde,b90f3346
+info,registry,people,YS Chahal,57ee1fde

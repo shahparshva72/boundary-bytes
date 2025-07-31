@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2012
+info,date,2012/04/11
+info,event,Indian Premier League
+info,match_number,12
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,KA Pollard
+info,umpire,Aleem Dar
+info,umpire,BNJ Oxenford
+info,reserve_umpire,PG Pathak
+info,tv_umpire,S Das
+info,match_referee,J Srinath
+info,winner,Mumbai Indians
+info,winner_runs,27
+info,player,Mumbai Indians,RE Levi
+info,player,Mumbai Indians,TL Suman
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,KD Karthik
+info,player,Mumbai Indians,JEC Franklin
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,PP Ojha
+info,player,Mumbai Indians,MM Patel
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SP Goswami
+info,player,Rajasthan Royals,OA Shah
+info,player,Rajasthan Royals,AL Menaria
+info,player,Rajasthan Royals,J Botha
+info,player,Rajasthan Royals,KK Cooper
+info,player,Rajasthan Royals,AA Chavan
+info,player,Rajasthan Royals,GB Hogg
+info,player,Rajasthan Royals,A Singh
+info,player,Rajasthan Royals,SK Trivedi
+info,registry,people,A Singh,5b040b81
+info,registry,people,AA Chavan,29d72eb2
+info,registry,people,AL Menaria,8291f939
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Aleem Dar,f02778d1
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,J Botha,7c503806
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JEC Franklin,cf73ad76
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KK Cooper,557153ca
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,OA Shah,7bf96684
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R Dravid,0184dc35
+info,registry,people,RE Levi,18c78b11
+info,registry,people,RG Sharma,740742ef
+info,registry,people,S Das,475e38b6
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SP Goswami,541f85c9
+info,registry,people,TL Suman,aaa1b522

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2013
+info,date,2013/05/19
+info,event,Indian Premier League
+info,match_number,72
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,PA Patel
+info,umpire,Asad Rauf
+info,umpire,S Asnani
+info,reserve_umpire,A Nand Kishore
+info,tv_umpire,AK Chaudhary
+info,match_referee,Raju Mukherjee
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,5
+info,player,Kolkata Knight Riders,MS Bisla
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,JH Kallis
+info,player,Kolkata Knight Riders,EJG Morgan
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,RN ten Doeschate
+info,player,Kolkata Knight Riders,P Dogra
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,Iqbal Abdulla
+info,player,Kolkata Knight Riders,PJ Sangwan
+info,player,Kolkata Knight Riders,Mohammed Shami
+info,player,Sunrisers Hyderabad,PA Patel
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,GH Vihari
+info,player,Sunrisers Hyderabad,CL White
+info,player,Sunrisers Hyderabad,NLTC Perera
+info,player,Sunrisers Hyderabad,DJG Sammy
+info,player,Sunrisers Hyderabad,BB Samantray
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,A Mishra
+info,player,Sunrisers Hyderabad,DW Steyn
+info,player,Sunrisers Hyderabad,Anand Rajan
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nand Kishore,84424f4f
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,Anand Rajan,d2340a43
+info,registry,people,Asad Rauf,861606b7
+info,registry,people,BB Samantray,53f27a35
+info,registry,people,CL White,d0513f63
+info,registry,people,DJG Sammy,c03c6200
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GH Vihari,94253925
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,KV Sharma,119678fd
+info,registry,people,MS Bisla,5afd4539
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,P Dogra,2728e7e9
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,Raju Mukherjee,7a3244b5
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SP Narine,9d430b40
+info,registry,people,YK Pathan,3c6ffae8

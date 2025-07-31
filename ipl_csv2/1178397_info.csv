@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sunrisers Hyderabad
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2019
+info,date,2019/04/08
+info,event,Indian Premier League
+info,match_number,22
+info,venue,Punjab Cricket Association IS Bindra Stadium
+info,city,Chandigarh
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,KL Rahul
+info,umpire,AY Dandekar
+info,umpire,M Erasmus
+info,reserve_umpire,HAS Khalid
+info,tv_umpire,Nitin Menon
+info,match_referee,J Srinath
+info,winner,Kings XI Punjab
+info,winner_wickets,6
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,JM Bairstow
+info,player,Sunrisers Hyderabad,V Shankar
+info,player,Sunrisers Hyderabad,Mohammad Nabi
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,YK Pathan
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,MA Agarwal
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,SM Curran
+info,player,Kings XI Punjab,SN Khan
+info,player,Kings XI Punjab,R Ashwin
+info,player,Kings XI Punjab,Mohammed Shami
+info,player,Kings XI Punjab,Mujeeb Ur Rahman
+info,player,Kings XI Punjab,AS Rajpoot
+info,registry,people,AS Rajpoot,db31895a
+info,registry,people,AY Dandekar,2efc430e
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,HAS Khalid,291ded7c
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JM Bairstow,abb83e27
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Kaul,dcf81436
+info,registry,people,SM Curran,e94915e6
+info,registry,people,SN Khan,f088b960
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,YK Pathan,3c6ffae8

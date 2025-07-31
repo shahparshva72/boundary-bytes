@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Rising Pune Supergiant
+info,gender,male
+info,season,2017
+info,date,2017/04/08
+info,event,Indian Premier League
+info,match_number,4
+info,venue,Holkar Cricket Stadium
+info,city,Indore
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,GJ Maxwell
+info,umpire,AK Chaudhary
+info,umpire,C Shamshuddin
+info,reserve_umpire,R Pandit
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,Chinmay Sharma
+info,winner,Kings XI Punjab
+info,winner_wickets,6
+info,player,Kings XI Punjab,HM Amla
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,MP Stoinis
+info,player,Kings XI Punjab,Swapnil Singh
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Kings XI Punjab,T Natarajan
+info,player,Rising Pune Supergiant,AM Rahane
+info,player,Rising Pune Supergiant,MA Agarwal
+info,player,Rising Pune Supergiant,SPD Smith
+info,player,Rising Pune Supergiant,BA Stokes
+info,player,Rising Pune Supergiant,MS Dhoni
+info,player,Rising Pune Supergiant,MK Tiwary
+info,player,Rising Pune Supergiant,DT Christian
+info,player,Rising Pune Supergiant,R Bhatia
+info,player,Rising Pune Supergiant,RD Chahar
+info,player,Rising Pune Supergiant,Imran Tahir
+info,player,Rising Pune Supergiant,AB Dinda
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AR Patel,2e171977
+info,registry,people,BA Stokes,e087956b
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HM Amla,e798611a
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R Pandit,8a604384
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Swapnil Singh,983f2f61
+info,registry,people,T Natarajan,ce794613
+info,registry,people,WP Saha,fe11caa6

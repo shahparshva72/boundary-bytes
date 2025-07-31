@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Mumbai Indians
+info,gender,male
+info,season,2009/10
+info,date,2010/03/25
+info,event,Indian Premier League
+info,match_number,21
+info,venue,"Brabourne Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,SR Tendulkar
+info,umpire,AM Saheba
+info,umpire,BF Bowden
+info,reserve_umpire,SN Bandekar
+info,tv_umpire,M Erasmus
+info,match_referee,GR Viswanath
+info,winner,Mumbai Indians
+info,winner_wickets,5
+info,player,Chennai Super Kings,PA Patel
+info,player,Chennai Super Kings,ML Hayden
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,NLTC Perera
+info,player,Chennai Super Kings,Joginder Sharma
+info,player,Chennai Super Kings,L Balaji
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Chennai Super Kings,SB Jakati
+info,player,Mumbai Indians,S Dhawan
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,SS Tiwary
+info,player,Mumbai Indians,R Sathish
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,R McLaren
+info,player,Mumbai Indians,AP Tare
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,Z Khan
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,AM Saheba,883e3818
+info,registry,people,AP Tare,855a210c
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,GR Viswanath,9333bc07
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,Joginder Sharma,9f961c14
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,R McLaren,c654af19
+info,registry,people,R Sathish,626c5379
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SN Bandekar,350528bb
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,Z Khan,91a4a398

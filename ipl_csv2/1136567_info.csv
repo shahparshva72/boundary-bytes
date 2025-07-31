@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2018
+info,date,2018/04/12
+info,event,Indian Premier League
+info,match_number,7
+info,venue,Rajiv Gandhi International Stadium
+info,city,Hyderabad
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,Rashid Khan
+info,umpire,CK Nandan
+info,umpire,NJ Llong
+info,reserve_umpire,R Pandit
+info,tv_umpire,VA Kulkarni
+info,match_referee,S Chaturvedi
+info,winner,Sunrisers Hyderabad
+info,winner_wickets,1
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,E Lewis
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,BCJ Cutting
+info,player,Mumbai Indians,PJ Sangwan
+info,player,Mumbai Indians,M Markande
+info,player,Mumbai Indians,JJ Bumrah
+info,player,Mumbai Indians,Mustafizur Rahman
+info,player,Sunrisers Hyderabad,WP Saha
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,MK Pandey
+info,player,Sunrisers Hyderabad,Shakib Al Hasan
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,YK Pathan
+info,player,Sunrisers Hyderabad,Rashid Khan
+info,player,Sunrisers Hyderabad,S Kaul
+info,player,Sunrisers Hyderabad,Sandeep Sharma
+info,player,Sunrisers Hyderabad,B Stanlake
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,E Lewis,0ebfb1ad
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,M Markande,a9fd84fb
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,NJ Llong,573fb985
+info,registry,people,PJ Sangwan,9fc0ef64
+info,registry,people,R Pandit,8a604384
+info,registry,people,RG Sharma,740742ef
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Chaturvedi,c8ec02e1
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Kaul,dcf81436
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YK Pathan,3c6ffae8

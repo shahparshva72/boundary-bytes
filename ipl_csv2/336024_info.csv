@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Deccan Chargers
+info,team,Mumbai Indians
+info,gender,male
+info,season,2007/08
+info,date,2008/05/18
+info,event,Indian Premier League
+info,match_number,42
+info,venue,"Rajiv Gandhi International Stadium, Uppal"
+info,city,Hyderabad
+info,toss_winner,Deccan Chargers
+info,toss_decision,field
+info,player_of_match,DJ Bravo
+info,umpire,BR Doctrove
+info,umpire,DJ Harper
+info,reserve_umpire,C Shamshuddin
+info,tv_umpire,I Shivram
+info,match_referee,S Venkataraghavan
+info,winner,Mumbai Indians
+info,winner_runs,25
+info,player,Deccan Chargers,AC Gilchrist
+info,player,Deccan Chargers,Shahid Afridi
+info,player,Deccan Chargers,RG Sharma
+info,player,Deccan Chargers,LPC Silva
+info,player,Deccan Chargers,Y Venugopal Rao
+info,player,Deccan Chargers,DB Ravi Teja
+info,player,Deccan Chargers,DNT Zoysa
+info,player,Deccan Chargers,H Das
+info,player,Deccan Chargers,RP Singh
+info,player,Deccan Chargers,PP Ojha
+info,player,Deccan Chargers,DP Vijaykumar
+info,player,Mumbai Indians,ST Jayasuriya
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,DJ Thornely
+info,player,Mumbai Indians,AM Nayar
+info,player,Mumbai Indians,RV Uthappa
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,PR Shah
+info,player,Mumbai Indians,YV Takawale
+info,player,Mumbai Indians,RR Raje
+info,player,Mumbai Indians,A Nehra
+info,player,Mumbai Indians,CRD Fernando
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,BR Doctrove,cbebf805
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,CRD Fernando,342d8ade
+info,registry,people,DB Ravi Teja,b720a5d6
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Thornely,7d3937ed
+info,registry,people,DNT Zoysa,e0351c86
+info,registry,people,DP Vijaykumar,acd4f5dc
+info,registry,people,H Das,0ed0cdbf
+info,registry,people,I Shivram,85143097
+info,registry,people,LPC Silva,1be70c88
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,PR Shah,0aadc906
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RR Raje,5f4e9e8f
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,ST Jayasuriya,f233bbb4
+info,registry,people,Shahid Afridi,0dc00542
+info,registry,people,Y Venugopal Rao,fe763256
+info,registry,people,YV Takawale,4e04666c

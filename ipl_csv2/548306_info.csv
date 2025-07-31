@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Mumbai Indians
+info,gender,male
+info,season,2012
+info,date,2012/04/04
+info,event,Indian Premier League
+info,match_number,1
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,RE Levi
+info,umpire,JD Cloete
+info,umpire,SJA Taufel
+info,reserve_umpire,K Srinath
+info,tv_umpire,S Ravi
+info,match_referee,RS Madugalle
+info,winner,Mumbai Indians
+info,winner_wickets,8
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,SB Jakati
+info,player,Chennai Super Kings,DE Bollinger
+info,player,Mumbai Indians,RE Levi
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,JEC Franklin
+info,player,Mumbai Indians,KD Karthik
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,AN Ahmed
+info,player,Mumbai Indians,PP Ojha
+info,registry,people,AN Ahmed,2af1b6d2
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,F du Plessis,3355b542
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JD Cloete,b0419f8c
+info,registry,people,JEC Franklin,cf73ad76
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RE Levi,18c78b11
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5

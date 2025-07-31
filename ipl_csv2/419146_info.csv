@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Mumbai Indians
+info,gender,male
+info,season,2009/10
+info,date,2010/04/09
+info,event,Indian Premier League
+info,match_number,41
+info,venue,"Punjab Cricket Association Stadium, Mohali"
+info,city,Chandigarh
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,KC Sangakkara
+info,umpire,M Erasmus
+info,umpire,AM Saheba
+info,reserve_umpire,C Shamshuddin
+info,tv_umpire,BF Bowden
+info,match_referee,D Govindjee
+info,winner,Kings XI Punjab
+info,winner_wickets,6
+info,player,Kings XI Punjab,AB Barath
+info,player,Kings XI Punjab,DPMD Jayawardene
+info,player,Kings XI Punjab,KC Sangakkara
+info,player,Kings XI Punjab,Yuvraj Singh
+info,player,Kings XI Punjab,IK Pathan
+info,player,Kings XI Punjab,RS Sodhi
+info,player,Kings XI Punjab,K Goel
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,RR Powar
+info,player,Kings XI Punjab,B Lee
+info,player,Kings XI Punjab,L Ablish
+info,player,Mumbai Indians,S Dhawan
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,SS Tiwary
+info,player,Mumbai Indians,JP Duminy
+info,player,Mumbai Indians,R Sathish
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,R McLaren
+info,player,Mumbai Indians,Z Khan
+info,player,Mumbai Indians,SL Malinga
+info,registry,people,AB Barath,d3a3e82d
+info,registry,people,AM Saheba,883e3818
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,D Govindjee,8b4c4069
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,K Goel,a1f1829d
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,L Ablish,8b9704ae
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R McLaren,c654af19
+info,registry,people,R Sathish,626c5379
+info,registry,people,RR Powar,5d096f3d
+info,registry,people,RS Sodhi,a3ecf01f
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,Yuvraj Singh,1c914163
+info,registry,people,Z Khan,91a4a398

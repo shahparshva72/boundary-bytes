@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2016
+info,date,2016/05/22
+info,event,Indian Premier League
+info,match_number,55
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,YK Pathan
+info,umpire,KN Ananthapadmanabhan
+info,umpire,M Erasmus
+info,reserve_umpire,A Deshmukh
+info,tv_umpire,K Bharatan
+info,match_referee,J Srinath
+info,winner,Kolkata Knight Riders
+info,winner_runs,22
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,C Munro
+info,player,Kolkata Knight Riders,MK Pandey
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,JO Holder
+info,player,Kolkata Knight Riders,Shakib Al Hasan
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,AS Rajpoot
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,Kuldeep Yadav
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,Yuvraj Singh
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,DJ Hooda
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,BB Sran
+info,player,Sunrisers Hyderabad,Mustafizur Rahman
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,AS Rajpoot,db31895a
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BB Sran,d8b2f218
+info,registry,people,C Munro,af2c687b
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JO Holder,0f721006
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,KV Sharma,119678fd
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MK Pandey,93b4fc78
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,NV Ojha,890946a0
+info,registry,people,R Sathish,626c5379
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Yuvraj Singh,1c914163

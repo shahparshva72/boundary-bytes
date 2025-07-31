@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Mumbai Indians
+info,gender,male
+info,season,2009/10
+info,date,2010/04/19
+info,event,Indian Premier League
+info,match_number,56
+info,venue,Eden Gardens
+info,city,Kolkata
+info,toss_winner,Mumbai Indians
+info,toss_decision,bat
+info,player_of_match,M Kartik
+info,umpire,BG Jerling
+info,umpire,RE Koertzen
+info,reserve_umpire,R Shankar
+info,tv_umpire,RB Tiffin
+info,match_referee,AJ Pycroft
+info,winner,Kolkata Knight Riders
+info,winner_wickets,9
+info,player,Kolkata Knight Riders,SC Ganguly
+info,player,Kolkata Knight Riders,BB McCullum
+info,player,Kolkata Knight Riders,DJ Hussey
+info,player,Kolkata Knight Riders,MK Tiwary
+info,player,Kolkata Knight Riders,AD Mathews
+info,player,Kolkata Knight Riders,CA Pujara
+info,player,Kolkata Knight Riders,WP Saha
+info,player,Kolkata Knight Riders,JD Unadkat
+info,player,Kolkata Knight Riders,M Kartik
+info,player,Kolkata Knight Riders,AB Dinda
+info,player,Kolkata Knight Riders,SE Bond
+info,player,Mumbai Indians,AP Tare
+info,player,Mumbai Indians,S Dhawan
+info,player,Mumbai Indians,SS Tiwary
+info,player,Mumbai Indians,JP Duminy
+info,player,Mumbai Indians,R Sathish
+info,player,Mumbai Indians,DJ Bravo
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,STR Binny
+info,player,Mumbai Indians,R McLaren
+info,player,Mumbai Indians,AG Murtaza
+info,player,Mumbai Indians,CRD Fernando
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AG Murtaza,ef5da05c
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AP Tare,855a210c
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BG Jerling,26457e41
+info,registry,people,CA Pujara,d4f9dbd4
+info,registry,people,CRD Fernando,342d8ade
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,JD Unadkat,1e66c162
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,M Kartik,abfeb126
+info,registry,people,MK Tiwary,26e5cabf
+info,registry,people,R McLaren,c654af19
+info,registry,people,R Sathish,626c5379
+info,registry,people,R Shankar,82f0b62e
+info,registry,people,RB Tiffin,89087a0d
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SC Ganguly,725529bc
+info,registry,people,SE Bond,4f629497
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,WP Saha,fe11caa6

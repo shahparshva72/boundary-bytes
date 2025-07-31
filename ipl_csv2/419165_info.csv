@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Mumbai Indians
+info,gender,male
+info,season,2009/10
+info,date,2010/04/25
+info,event,Indian Premier League
+info,venue,Dr DY Patil Sports Academy
+info,city,Mumbai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,SK Raina
+info,umpire,RE Koertzen
+info,umpire,SJA Taufel
+info,reserve_umpire,SN Bandekar
+info,tv_umpire,S Ravi
+info,match_referee,S Venkataraghavan
+info,winner,Chennai Super Kings
+info,winner_runs,22
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,ML Hayden
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,S Anirudha
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,SB Jakati
+info,player,Chennai Super Kings,DE Bollinger
+info,player,Chennai Super Kings,M Muralitharan
+info,player,Mumbai Indians,S Dhawan
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,AM Nayar
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,SS Tiwary
+info,player,Mumbai Indians,JP Duminy
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,Z Khan
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,CRD Fernando
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,CRD Fernando,342d8ade
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,M Vijay,4b57e452
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RE Koertzen,0265fab2
+info,registry,people,S Anirudha,95a2ea61
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,S Dhawan,0a476045
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,S Venkataraghavan,12453319
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SN Bandekar,350528bb
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,Z Khan,91a4a398

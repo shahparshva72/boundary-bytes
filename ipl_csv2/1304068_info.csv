@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2022
+info,date,2022/04/12
+info,event,Indian Premier League
+info,match_number,22
+info,venue,"Dr DY Patil Sports Academy, Mumbai"
+info,city,Mumbai
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,field
+info,player_of_match,S Dube
+info,umpire,Nitin Menon
+info,umpire,N Pandit
+info,reserve_umpire,A Totre
+info,tv_umpire,YC Barde
+info,match_referee,J Srinath
+info,winner,Chennai Super Kings
+info,winner_runs,23
+info,player,Chennai Super Kings,RD Gaikwad
+info,player,Chennai Super Kings,RV Uthappa
+info,player,Chennai Super Kings,MM Ali
+info,player,Chennai Super Kings,S Dube
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,AT Rayudu
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,CJ Jordan
+info,player,Chennai Super Kings,M Theekshana
+info,player,Chennai Super Kings,Mukesh Choudhary
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,Anuj Rawat
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,Shahbaz Ahmed
+info,player,Royal Challengers Bangalore,SS Prabhudessai
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,PWH de Silva
+info,player,Royal Challengers Bangalore,Akash Deep
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Royal Challengers Bangalore,JR Hazlewood
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Akash Deep,0a67aec0
+info,registry,people,Anuj Rawat,c8f5f961
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,M Theekshana,f24c6701
+info,registry,people,MM Ali,bb351c23
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Mukesh Choudhary,765a4731
+info,registry,people,N Pandit,4947c258
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RD Gaikwad,45a43fe2
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Dube,a4e37e47
+info,registry,people,SS Prabhudessai,9385de2e
+info,registry,people,Shahbaz Ahmed,f9e6e7ef
+info,registry,people,V Kohli,ba607b88
+info,registry,people,YC Barde,b90f3346

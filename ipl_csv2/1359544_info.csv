@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Gujarat Titans
+info,gender,male
+info,season,2023
+info,date,2023/05/21
+info,event,Indian Premier League
+info,match_number,70
+info,venue,"M Chinnaswamy Stadium, Bengaluru"
+info,city,Bengaluru
+info,toss_winner,Gujarat Titans
+info,toss_decision,field
+info,player_of_match,Shubman Gill
+info,umpire,Nitin Menon
+info,umpire,VK Sharma
+info,reserve_umpire,VM Dhokre
+info,tv_umpire,Tapan Sharma
+info,match_referee,J Srinath
+info,winner,Gujarat Titans
+info,winner_wickets,6
+info,player,Royal Challengers Bangalore,H Sharma
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,F du Plessis
+info,player,Royal Challengers Bangalore,GJ Maxwell
+info,player,Royal Challengers Bangalore,MK Lomror
+info,player,Royal Challengers Bangalore,MG Bracewell
+info,player,Royal Challengers Bangalore,KD Karthik
+info,player,Royal Challengers Bangalore,Anuj Rawat
+info,player,Royal Challengers Bangalore,HV Patel
+info,player,Royal Challengers Bangalore,WD Parnell
+info,player,Royal Challengers Bangalore,Vijaykumar Vyshak
+info,player,Royal Challengers Bangalore,Mohammed Siraj
+info,player,Gujarat Titans,Yash Dayal
+info,player,Gujarat Titans,WP Saha
+info,player,Gujarat Titans,Shubman Gill
+info,player,Gujarat Titans,V Shankar
+info,player,Gujarat Titans,MD Shanaka
+info,player,Gujarat Titans,DA Miller
+info,player,Gujarat Titans,R Tewatia
+info,player,Gujarat Titans,HH Pandya
+info,player,Gujarat Titans,Rashid Khan
+info,player,Gujarat Titans,Noor Ahmad
+info,player,Gujarat Titans,Mohammed Shami
+info,player,Gujarat Titans,MM Sharma
+info,registry,people,Anuj Rawat,c8f5f961
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,H Sharma,52294a79
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,HV Patel,f986ca1a
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,MD Shanaka,3ff033bb
+info,registry,people,MG Bracewell,e38bce7a
+info,registry,people,MK Lomror,da934ee8
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Mohammed Siraj,2f49c897
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,Noor Ahmad,efc04be7
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SS Prabhudessai,9385de2e
+info,registry,people,Shubman Gill,b4b99816
+info,registry,people,Tapan Sharma,b9aa2b6e
+info,registry,people,V Kohli,ba607b88
+info,registry,people,V Shankar,0994d0ae
+info,registry,people,VK Sharma,a7a49df4
+info,registry,people,VM Dhokre,67df71c9
+info,registry,people,Vijaykumar Vyshak,54e52590
+info,registry,people,WD Parnell,3a60e0b5
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,Yash Dayal,7210d461

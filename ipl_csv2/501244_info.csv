@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2011
+info,date,2011/05/06
+info,event,Indian Premier League
+info,match_number,47
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,CH Gayle
+info,umpire,Aleem Dar
+info,umpire,RB Tiffin
+info,reserve_umpire,CK Nandan
+info,tv_umpire,SS Hazare
+info,match_referee,AJ Pycroft
+info,winner,Royal Challengers Bangalore
+info,winner_runs,85
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,PC Valthaty
+info,player,Kings XI Punjab,AM Nayar
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,KD Karthik
+info,player,Kings XI Punjab,Sunny Singh
+info,player,Kings XI Punjab,R McLaren
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,RJ Harris
+info,player,Kings XI Punjab,P Kumar
+info,player,Kings XI Punjab,L Ablish
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,TM Dilshan
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,SS Tiwary
+info,player,Royal Challengers Bangalore,AUK Pathan
+info,player,Royal Challengers Bangalore,M Kaif
+info,player,Royal Challengers Bangalore,A Mithun
+info,player,Royal Challengers Bangalore,DL Vettori
+info,player,Royal Challengers Bangalore,Z Khan
+info,player,Royal Challengers Bangalore,S Aravind
+info,registry,people,A Mithun,66cf56a5
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AM Nayar,a45a5e8d
+info,registry,people,AUK Pathan,3ae3f034
+info,registry,people,Aleem Dar,f02778d1
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,L Ablish,8b9704ae
+info,registry,people,M Kaif,d84378a4
+info,registry,people,P Kumar,e938e1bc
+info,registry,people,PC Valthaty,25eeb281
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,R McLaren,c654af19
+info,registry,people,RB Tiffin,89087a0d
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,S Aravind,957532de
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SS Hazare,166e5081
+info,registry,people,SS Tiwary,709b0bac
+info,registry,people,Sunny Singh,30e37810
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,V Kohli,ba607b88
+info,registry,people,Z Khan,91a4a398

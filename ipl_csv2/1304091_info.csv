@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Lucknow Super Giants
+info,team,Delhi Capitals
+info,gender,male
+info,season,2022
+info,date,2022/05/01
+info,event,Indian Premier League
+info,match_number,45
+info,venue,"Wankhede Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Lucknow Super Giants
+info,toss_decision,bat
+info,player_of_match,Mohsin Khan
+info,umpire,Chirra Ravikanthreddy
+info,umpire,CB Gaffaney
+info,reserve_umpire,A Totre
+info,tv_umpire,PG Pathak
+info,match_referee,Prakash Bhatt
+info,winner,Lucknow Super Giants
+info,winner_runs,6
+info,player,Lucknow Super Giants,Q de Kock
+info,player,Lucknow Super Giants,KL Rahul
+info,player,Lucknow Super Giants,DJ Hooda
+info,player,Lucknow Super Giants,MP Stoinis
+info,player,Lucknow Super Giants,KH Pandya
+info,player,Lucknow Super Giants,A Badoni
+info,player,Lucknow Super Giants,JO Holder
+info,player,Lucknow Super Giants,Mohsin Khan
+info,player,Lucknow Super Giants,K Gowtham
+info,player,Lucknow Super Giants,PVD Chameera
+info,player,Lucknow Super Giants,Ravi Bishnoi
+info,player,Delhi Capitals,PP Shaw
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,MR Marsh
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,Lalit Yadav
+info,player,Delhi Capitals,R Powell
+info,player,Delhi Capitals,AR Patel
+info,player,Delhi Capitals,SN Thakur
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,Mustafizur Rahman
+info,player,Delhi Capitals,C Sakariya
+info,registry,people,A Badoni,872b03f7
+info,registry,people,A Totre,b1d7d7bc
+info,registry,people,AR Patel,2e171977
+info,registry,people,C Sakariya,2cdce1be
+info,registry,people,CB Gaffaney,d5ac41d8
+info,registry,people,Chirra Ravikanthreddy,8b680f55
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Hooda,73ad96ed
+info,registry,people,JO Holder,0f721006
+info,registry,people,K Gowtham,90de905a
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,Lalit Yadav,ad427b5c
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,Mohsin Khan,c33d8116
+info,registry,people,Mustafizur Rahman,0a8fce53
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,PP Shaw,8b3e9c7c
+info,registry,people,PVD Chameera,327b58d3
+info,registry,people,Prakash Bhatt,f848ab0b
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Powell,650d5e49
+info,registry,people,RR Pant,919a3be2
+info,registry,people,Ravi Bishnoi,df064e1a
+info,registry,people,SN Thakur,1abb78f8

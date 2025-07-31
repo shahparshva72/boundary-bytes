@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Royal Challengers Bangalore
+info,gender,male
+info,season,2017
+info,date,2017/04/10
+info,event,Indian Premier League
+info,match_number,8
+info,venue,Holkar Cricket Stadium
+info,city,Indore
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,bat
+info,player_of_match,AR Patel
+info,umpire,AK Chaudhary
+info,umpire,C Shamshuddin
+info,reserve_umpire,R Pandit
+info,tv_umpire,KN Ananthapadmanabhan
+info,match_referee,Chinmay Sharma
+info,winner,Kings XI Punjab
+info,winner_wickets,8
+info,player,Kings XI Punjab,M Vohra
+info,player,Kings XI Punjab,HM Amla
+info,player,Kings XI Punjab,AR Patel
+info,player,Kings XI Punjab,GJ Maxwell
+info,player,Kings XI Punjab,WP Saha
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,MP Stoinis
+info,player,Kings XI Punjab,MM Sharma
+info,player,Kings XI Punjab,Sandeep Sharma
+info,player,Kings XI Punjab,VR Aaron
+info,player,Kings XI Punjab,T Natarajan
+info,player,Royal Challengers Bangalore,SR Watson
+info,player,Royal Challengers Bangalore,Vishnu Vinod
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,KM Jadhav
+info,player,Royal Challengers Bangalore,Mandeep Singh
+info,player,Royal Challengers Bangalore,STR Binny
+info,player,Royal Challengers Bangalore,P Negi
+info,player,Royal Challengers Bangalore,Iqbal Abdulla
+info,player,Royal Challengers Bangalore,TS Mills
+info,player,Royal Challengers Bangalore,B Stanlake
+info,player,Royal Challengers Bangalore,YS Chahal
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AR Patel,2e171977
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,Chinmay Sharma,83250fea
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HM Amla,e798611a
+info,registry,people,Iqbal Abdulla,85aae393
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Vohra,c03e2850
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,P Negi,f62772e5
+info,registry,people,R Pandit,8a604384
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,Sandeep Sharma,ce820073
+info,registry,people,T Natarajan,ce794613
+info,registry,people,TS Mills,245c97cb
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,Vishnu Vinod,0494fa6e
+info,registry,people,WP Saha,fe11caa6
+info,registry,people,YS Chahal,57ee1fde

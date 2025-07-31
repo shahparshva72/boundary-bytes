@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2009/10
+info,date,2010/04/15
+info,event,Indian Premier League
+info,match_number,50
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,G Gambhir
+info,umpire,HDPK Dharmasena
+info,umpire,SS Hazare
+info,reserve_umpire,J Madanagopal
+info,tv_umpire,SJA Taufel
+info,match_referee,GR Viswanath
+info,winner,Delhi Daredevils
+info,winner_wickets,6
+info,player,Chennai Super Kings,M Vijay
+info,player,Chennai Super Kings,ML Hayden
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MEK Hussey
+info,player,Chennai Super Kings,S Badrinath
+info,player,Chennai Super Kings,JA Morkel
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,L Balaji
+info,player,Chennai Super Kings,DE Bollinger
+info,player,Chennai Super Kings,SB Jakati
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,DA Warner
+info,player,Delhi Daredevils,TM Dilshan
+info,player,Delhi Daredevils,G Gambhir
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,M Manhas
+info,player,Delhi Daredevils,PD Collingwood
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,A Nehra
+info,player,Delhi Daredevils,DP Nannes
+info,player,Delhi Daredevils,UT Yadav
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GR Viswanath,9333bc07
+info,registry,people,HDPK Dharmasena,323e4c16
+info,registry,people,J Madanagopal,8275b04a
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,L Balaji,b2b50355
+info,registry,people,M Manhas,c42aaf71
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,PD Collingwood,a386e91b
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,S Badrinath,3576e47e
+info,registry,people,SB Jakati,c8179c68
+info,registry,people,SJA Taufel,4b43d5ac
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SS Hazare,166e5081
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Sehwag,8ba8195d

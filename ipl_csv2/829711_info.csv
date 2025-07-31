@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2015
+info,date,2015/04/11
+info,event,Indian Premier League
+info,match_number,4
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Chennai Super Kings
+info,toss_decision,bat
+info,player_of_match,BB McCullum
+info,umpire,RK Illingworth
+info,umpire,VA Kulkarni
+info,reserve_umpire,K Bharatan
+info,tv_umpire,RM Deshpande
+info,match_referee,M Nayyar
+info,winner,Chennai Super Kings
+info,winner_runs,45
+info,player,Chennai Super Kings,DR Smith
+info,player,Chennai Super Kings,BB McCullum
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,MM Sharma
+info,player,Chennai Super Kings,IC Pandey
+info,player,Chennai Super Kings,A Nehra
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,KL Rahul
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,RS Bopara
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,Parvez Rasool
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,I Sharma
+info,player,Sunrisers Hyderabad,TA Boult
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DR Smith,35205dfc
+info,registry,people,F du Plessis,3355b542
+info,registry,people,I Sharma,5bb1a1c4
+info,registry,people,IC Pandey,e0407c01
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,KV Sharma,119678fd
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,NV Ojha,890946a0
+info,registry,people,Parvez Rasool,9170ff49
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RK Illingworth,20672246
+info,registry,people,RM Deshpande,7d2a4250
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,TA Boult,a818c1be
+info,registry,people,VA Kulkarni,8fe0c4f8

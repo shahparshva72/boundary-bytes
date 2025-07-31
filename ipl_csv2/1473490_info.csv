@@ -1,0 +1,75 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Kolkata Knight Riders
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2025
+info,date,2025/05/04
+info,event,Indian Premier League
+info,match_number,53
+info,venue,"Eden Gardens, Kolkata"
+info,city,Kolkata
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,bat
+info,player_of_match,AD Russell
+info,umpire,Anish Sahasrabudhe
+info,umpire,R Pandit
+info,reserve_umpire,Amit Rana
+info,tv_umpire,AT Holdstock
+info,match_referee,Amit Sharma
+info,winner,Kolkata Knight Riders
+info,winner_runs,1
+info,player,Kolkata Knight Riders,Harshit Rana
+info,player,Kolkata Knight Riders,Rahmanullah Gurbaz
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,AM Rahane
+info,player,Kolkata Knight Riders,A Raghuvanshi
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,RK Singh
+info,player,Kolkata Knight Riders,VR Iyer
+info,player,Kolkata Knight Riders,Ramandeep Singh
+info,player,Kolkata Knight Riders,MM Ali
+info,player,Kolkata Knight Riders,VG Arora
+info,player,Kolkata Knight Riders,CV Varun
+info,player,Rajasthan Royals,Akash Madhwal
+info,player,Rajasthan Royals,YBK Jaiswal
+info,player,Rajasthan Royals,V Suryavanshi
+info,player,Rajasthan Royals,KS Rathore
+info,player,Rajasthan Royals,R Parag
+info,player,Rajasthan Royals,Dhruv Jurel
+info,player,Rajasthan Royals,PWH de Silva
+info,player,Rajasthan Royals,SO Hetmyer
+info,player,Rajasthan Royals,SB Dubey
+info,player,Rajasthan Royals,JC Archer
+info,player,Rajasthan Royals,M Theekshana
+info,player,Rajasthan Royals,Yudhvir Singh
+info,registry,people,A Raghuvanshi,d7017798
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AM Rahane,29e95537
+info,registry,people,AT Holdstock,6fa3258c
+info,registry,people,Akash Madhwal,4bd09374
+info,registry,people,Amit Rana,f5db088b
+info,registry,people,Amit Sharma,7ea3e0cc
+info,registry,people,Anish Sahasrabudhe,2892df67
+info,registry,people,Ashok Sharma,50c09020
+info,registry,people,CV Varun,5b7ab5a9
+info,registry,people,Dhruv Jurel,bcf325d2
+info,registry,people,Harshit Rana,77b1aa15
+info,registry,people,JC Archer,5574750c
+info,registry,people,KS Rathore,e3851766
+info,registry,people,M Theekshana,f24c6701
+info,registry,people,MM Ali,bb351c23
+info,registry,people,PWH de Silva,a97c8ec2
+info,registry,people,R Pandit,8a604384
+info,registry,people,R Parag,04a418e8
+info,registry,people,RK Singh,0a509d6b
+info,registry,people,Rahmanullah Gurbaz,0bacade8
+info,registry,people,Ramandeep Singh,be24ead0
+info,registry,people,SB Dubey,6b2ff18f
+info,registry,people,SO Hetmyer,48a1d7b7
+info,registry,people,SP Narine,9d430b40
+info,registry,people,V Suryavanshi,470f446b
+info,registry,people,VG Arora,7c3b3b78
+info,registry,people,VR Iyer,a24be938
+info,registry,people,YBK Jaiswal,6c19c6e5
+info,registry,people,Yudhvir Singh,4885bbe6

@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kings XI Punjab
+info,team,Mumbai Indians
+info,gender,male
+info,season,2019
+info,date,2019/04/10
+info,event,Indian Premier League
+info,match_number,24
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,KA Pollard
+info,umpire,S Ravi
+info,umpire,YC Barde
+info,reserve_umpire,K Srinivasan
+info,tv_umpire,CK Nandan
+info,match_referee,M Nayyar
+info,winner,Mumbai Indians
+info,winner_wickets,3
+info,player,Kings XI Punjab,KL Rahul
+info,player,Kings XI Punjab,CH Gayle
+info,player,Kings XI Punjab,DA Miller
+info,player,Kings XI Punjab,KK Nair
+info,player,Kings XI Punjab,SM Curran
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,SN Khan
+info,player,Kings XI Punjab,GC Viljoen
+info,player,Kings XI Punjab,R Ashwin
+info,player,Kings XI Punjab,Mohammed Shami
+info,player,Kings XI Punjab,AS Rajpoot
+info,player,Mumbai Indians,Q de Kock
+info,player,Mumbai Indians,SD Lad
+info,player,Mumbai Indians,SA Yadav
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,Ishan Kishan
+info,player,Mumbai Indians,HH Pandya
+info,player,Mumbai Indians,KH Pandya
+info,player,Mumbai Indians,AS Joseph
+info,player,Mumbai Indians,RD Chahar
+info,player,Mumbai Indians,JP Behrendorff
+info,player,Mumbai Indians,JJ Bumrah
+info,registry,people,AS Joseph,b0946605
+info,registry,people,AS Rajpoot,db31895a
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,GC Viljoen,a316d663
+info,registry,people,HH Pandya,dbe50b21
+info,registry,people,Ishan Kishan,752f7486
+info,registry,people,JJ Bumrah,462411b3
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,K Srinivasan,042a8b69
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KH Pandya,5b8c830e
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RD Chahar,2ed569a0
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SD Lad,9601c534
+info,registry,people,SM Curran,e94915e6
+info,registry,people,SN Khan,f088b960
+info,registry,people,YC Barde,b90f3346

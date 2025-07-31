@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2014
+info,date,2014/05/08
+info,event,Indian Premier League
+info,match_number,30
+info,venue,"Sardar Patel Stadium, Motera"
+info,city,Ahmedabad
+info,toss_winner,Rajasthan Royals
+info,toss_decision,field
+info,player_of_match,B Kumar
+info,umpire,AK Chaudhary
+info,umpire,NJ Llong
+info,reserve_umpire,Nitin Menon
+info,tv_umpire,CK Nandan
+info,match_referee,RS Madugalle
+info,winner,Sunrisers Hyderabad
+info,winner_runs,32
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,KK Nair
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,R Bhatia
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,KW Richardson
+info,player,Rajasthan Royals,DS Kulkarni
+info,player,Rajasthan Royals,PV Tambe
+info,player,Sunrisers Hyderabad,S Dhawan
+info,player,Sunrisers Hyderabad,AJ Finch
+info,player,Sunrisers Hyderabad,KL Rahul
+info,player,Sunrisers Hyderabad,NV Ojha
+info,player,Sunrisers Hyderabad,DA Warner
+info,player,Sunrisers Hyderabad,MC Henriques
+info,player,Sunrisers Hyderabad,IK Pathan
+info,player,Sunrisers Hyderabad,KV Sharma
+info,player,Sunrisers Hyderabad,DW Steyn
+info,player,Sunrisers Hyderabad,A Mishra
+info,player,Sunrisers Hyderabad,B Kumar
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AM Rahane,29e95537
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,CK Nandan,012de9c4
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DS Kulkarni,d2a989fc
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KK Nair,944533a5
+info,registry,people,KL Rahul,b17e2f24
+info,registry,people,KV Sharma,119678fd
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,NJ Llong,573fb985
+info,registry,people,NV Ojha,890946a0
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,PV Tambe,6aed7e79
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,S Dhawan,0a476045
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa

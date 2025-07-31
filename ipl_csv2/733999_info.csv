@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Rajasthan Royals
+info,gender,male
+info,season,2014
+info,date,2014/05/11
+info,event,Indian Premier League
+info,match_number,35
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Royal Challengers Bangalore
+info,toss_decision,bat
+info,player_of_match,JP Faulkner
+info,umpire,S Ravi
+info,umpire,RJ Tucker
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,K Srinath
+info,match_referee,AJ Pycroft
+info,winner,Rajasthan Royals
+info,winner_wickets,5
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,KK Nair
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,SPD Smith
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,R Bhatia
+info,player,Rajasthan Royals,KW Richardson
+info,player,Rajasthan Royals,PV Tambe
+info,player,Rajasthan Royals,R Tewatia
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,VH Zol
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,Yuvraj Singh
+info,player,Royal Challengers Bangalore,JA Morkel
+info,player,Royal Challengers Bangalore,PA Patel
+info,player,Royal Challengers Bangalore,MA Starc
+info,player,Royal Challengers Bangalore,VR Aaron
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,AB Dinda
+info,registry,people,AB Dinda,66b30f71
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AM Rahane,29e95537
+info,registry,people,CH Gayle,db584dad
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KK Nair,944533a5
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MA Starc,3fb19989
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PV Tambe,6aed7e79
+info,registry,people,R Bhatia,33a364a6
+info,registry,people,R Tewatia,39a2dfa8
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RR Rossouw,cad00a4d
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VH Zol,6dbcf855
+info,registry,people,VR Aaron,0a3d54b9
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Yuvraj Singh,1c914163

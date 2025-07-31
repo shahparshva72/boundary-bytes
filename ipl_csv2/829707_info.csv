@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Chennai Super Kings
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2015
+info,date,2015/04/09
+info,event,Indian Premier League
+info,match_number,2
+info,venue,"MA Chidambaram Stadium, Chepauk"
+info,city,Chennai
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,A Nehra
+info,umpire,RK Illingworth
+info,umpire,VA Kulkarni
+info,reserve_umpire,K Bharatan
+info,tv_umpire,RM Deshpande
+info,match_referee,M Nayyar
+info,winner,Chennai Super Kings
+info,winner_runs,1
+info,player,Chennai Super Kings,DR Smith
+info,player,Chennai Super Kings,BB McCullum
+info,player,Chennai Super Kings,SK Raina
+info,player,Chennai Super Kings,F du Plessis
+info,player,Chennai Super Kings,RA Jadeja
+info,player,Chennai Super Kings,MS Dhoni
+info,player,Chennai Super Kings,DJ Bravo
+info,player,Chennai Super Kings,R Ashwin
+info,player,Chennai Super Kings,MM Sharma
+info,player,Chennai Super Kings,IC Pandey
+info,player,Chennai Super Kings,A Nehra
+info,player,Delhi Daredevils,MA Agarwal
+info,player,Delhi Daredevils,CM Gautam
+info,player,Delhi Daredevils,JA Morkel
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,Yuvraj Singh
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,NM Coulter-Nile
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Imran Tahir
+info,player,Delhi Daredevils,DJ Muthuswami
+info,registry,people,A Mishra,6b19d823
+info,registry,people,A Nehra,96fd40ae
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,CM Gautam,30a2649b
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Muthuswami,2c76b512
+info,registry,people,DR Smith,35205dfc
+info,registry,people,F du Plessis,3355b542
+info,registry,people,IC Pandey,e0407c01
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,JA Morkel,c3d35165
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,K Bharatan,7e47c743
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,M Nayyar,b7bccddb
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MM Sharma,759ac88f
+info,registry,people,MS Dhoni,4a8a2e3b
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,R Ashwin,495d42a5
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RK Illingworth,20672246
+info,registry,people,RM Deshpande,7d2a4250
+info,registry,people,SK Raina,1dc12ab9
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,Yuvraj Singh,1c914163

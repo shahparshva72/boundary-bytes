@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Kochi Tuskers Kerala
+info,team,Kings XI Punjab
+info,gender,male
+info,season,2011
+info,date,2011/05/13
+info,event,Indian Premier League
+info,match_number,57
+info,venue,Holkar Cricket Stadium
+info,city,Indore
+info,toss_winner,Kings XI Punjab
+info,toss_decision,field
+info,player_of_match,KD Karthik
+info,umpire,S Asnani
+info,umpire,RJ Tucker
+info,reserve_umpire,NA Patwardhan
+info,tv_umpire,PR Reiffel
+info,match_referee,Raju Mukherjee
+info,winner,Kings XI Punjab
+info,winner_wickets,6
+info,player,Kings XI Punjab,AC Gilchrist
+info,player,Kings XI Punjab,PC Valthaty
+info,player,Kings XI Punjab,SE Marsh
+info,player,Kings XI Punjab,KD Karthik
+info,player,Kings XI Punjab,DJ Hussey
+info,player,Kings XI Punjab,Mandeep Singh
+info,player,Kings XI Punjab,Bipul Sharma
+info,player,Kings XI Punjab,SJ Srivastava
+info,player,Kings XI Punjab,PP Chawla
+info,player,Kings XI Punjab,RJ Harris
+info,player,Kings XI Punjab,BA Bhatt
+info,player,Kochi Tuskers Kerala,BB McCullum
+info,player,Kochi Tuskers Kerala,DPMD Jayawardene
+info,player,Kochi Tuskers Kerala,RA Jadeja
+info,player,Kochi Tuskers Kerala,BJ Hodge
+info,player,Kochi Tuskers Kerala,OA Shah
+info,player,Kochi Tuskers Kerala,PA Patel
+info,player,Kochi Tuskers Kerala,RV Gomez
+info,player,Kochi Tuskers Kerala,R Vinay Kumar
+info,player,Kochi Tuskers Kerala,RP Singh
+info,player,Kochi Tuskers Kerala,P Parameswaran
+info,player,Kochi Tuskers Kerala,S Sreesanth
+info,registry,people,AC Gilchrist,2b6e6dec
+info,registry,people,BA Bhatt,dc4686e6
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,Bipul Sharma,c18496e1
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,NA Patwardhan,e6ef687d
+info,registry,people,OA Shah,7bf96684
+info,registry,people,P Parameswaran,0c432afb
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,PC Valthaty,25eeb281
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,R Vinay Kumar,41eb4a4f
+info,registry,people,RA Jadeja,fe93fd9d
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RV Gomez,b2570b38
+info,registry,people,Raju Mukherjee,7a3244b5
+info,registry,people,S Asnani,b04524bc
+info,registry,people,S Sreesanth,6b8eb6e5
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Srivastava,2049f3a0

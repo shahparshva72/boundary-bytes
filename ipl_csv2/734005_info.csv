@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Royal Challengers Bangalore
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2014
+info,date,2014/05/13
+info,event,Indian Premier League
+info,match_number,38
+info,venue,M Chinnaswamy Stadium
+info,city,Bangalore
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,Yuvraj Singh
+info,umpire,K Srinath
+info,umpire,RJ Tucker
+info,reserve_umpire,KN Ananthapadmanabhan
+info,tv_umpire,S Ravi
+info,match_referee,AJ Pycroft
+info,winner,Royal Challengers Bangalore
+info,winner_runs,16
+info,player,Delhi Daredevils,Q de Kock
+info,player,Delhi Daredevils,M Vijay
+info,player,Delhi Daredevils,MA Agarwal
+info,player,Delhi Daredevils,KP Pietersen
+info,player,Delhi Daredevils,JP Duminy
+info,player,Delhi Daredevils,KD Karthik
+info,player,Delhi Daredevils,KM Jadhav
+info,player,Delhi Daredevils,R Shukla
+info,player,Delhi Daredevils,Mohammed Shami
+info,player,Delhi Daredevils,Imran Tahir
+info,player,Delhi Daredevils,S Kaul
+info,player,Royal Challengers Bangalore,CH Gayle
+info,player,Royal Challengers Bangalore,PA Patel
+info,player,Royal Challengers Bangalore,V Kohli
+info,player,Royal Challengers Bangalore,AB de Villiers
+info,player,Royal Challengers Bangalore,Yuvraj Singh
+info,player,Royal Challengers Bangalore,S Rana
+info,player,Royal Challengers Bangalore,VH Zol
+info,player,Royal Challengers Bangalore,MA Starc
+info,player,Royal Challengers Bangalore,M Muralitharan
+info,player,Royal Challengers Bangalore,YS Chahal
+info,player,Royal Challengers Bangalore,AN Ahmed
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AN Ahmed,2af1b6d2
+info,registry,people,CH Gayle,db584dad
+info,registry,people,Imran Tahir,acee4cc4
+info,registry,people,JP Duminy,2e8994e7
+info,registry,people,K Srinath,8ab5da97
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KM Jadhav,99d63244
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,M Vijay,4b57e452
+info,registry,people,MA Agarwal,00ea847a
+info,registry,people,MA Starc,3fb19989
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,PA Patel,b5da6c24
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Shukla,de4b0555
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,S Kaul,dcf81436
+info,registry,people,S Rana,90edaaa9
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,V Kohli,ba607b88
+info,registry,people,VH Zol,6dbcf855
+info,registry,people,YS Chahal,57ee1fde
+info,registry,people,Yuvraj Singh,1c914163

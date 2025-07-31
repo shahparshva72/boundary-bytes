@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Kolkata Knight Riders
+info,gender,male
+info,season,2016
+info,date,2016/04/30
+info,event,Indian Premier League
+info,match_number,26
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Kolkata Knight Riders
+info,toss_decision,field
+info,player_of_match,CR Brathwaite
+info,umpire,KN Ananthapadmanabhan
+info,umpire,M Erasmus
+info,reserve_umpire,A Deshmukh
+info,tv_umpire,S Ravi
+info,match_referee,J Srinath
+info,winner,Delhi Daredevils
+info,winner_runs,27
+info,player,Delhi Daredevils,Q de Kock
+info,player,Delhi Daredevils,SS Iyer
+info,player,Delhi Daredevils,SV Samson
+info,player,Delhi Daredevils,KK Nair
+info,player,Delhi Daredevils,SW Billings
+info,player,Delhi Daredevils,CH Morris
+info,player,Delhi Daredevils,CR Brathwaite
+info,player,Delhi Daredevils,RR Pant
+info,player,Delhi Daredevils,Mohammed Shami
+info,player,Delhi Daredevils,A Mishra
+info,player,Delhi Daredevils,Z Khan
+info,player,Kolkata Knight Riders,RV Uthappa
+info,player,Kolkata Knight Riders,G Gambhir
+info,player,Kolkata Knight Riders,PP Chawla
+info,player,Kolkata Knight Riders,YK Pathan
+info,player,Kolkata Knight Riders,SA Yadav
+info,player,Kolkata Knight Riders,R Sathish
+info,player,Kolkata Knight Riders,AD Russell
+info,player,Kolkata Knight Riders,JO Holder
+info,player,Kolkata Knight Riders,UT Yadav
+info,player,Kolkata Knight Riders,SP Narine
+info,player,Kolkata Knight Riders,GB Hogg
+info,registry,people,A Deshmukh,6fda55cc
+info,registry,people,A Mishra,6b19d823
+info,registry,people,AD Russell,bbd41817
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,G Gambhir,bb345e0b
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,J Srinath,bad31fac
+info,registry,people,JO Holder,0f721006
+info,registry,people,KK Nair,944533a5
+info,registry,people,KN Ananthapadmanabhan,3144063a
+info,registry,people,M Erasmus,15d3c895
+info,registry,people,Mohammed Shami,8cf9814c
+info,registry,people,PP Chawla,98ae73b1
+info,registry,people,Q de Kock,372455c4
+info,registry,people,R Sathish,626c5379
+info,registry,people,RR Pant,919a3be2
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,S Ravi,9b9ee0df
+info,registry,people,SA Yadav,271f83cd
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SS Iyer,85ec8e33
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,SW Billings,c16d4035
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,YK Pathan,3c6ffae8
+info,registry,people,Z Khan,91a4a398

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Mumbai Indians
+info,team,Delhi Daredevils
+info,gender,male
+info,season,2012
+info,date,2012/04/16
+info,event,Indian Premier League
+info,match_number,19
+info,venue,Wankhede Stadium
+info,city,Mumbai
+info,toss_winner,Delhi Daredevils
+info,toss_decision,field
+info,player_of_match,S Nadeem
+info,umpire,BF Bowden
+info,umpire,SK Tarapore
+info,reserve_umpire,PG Pathak
+info,tv_umpire,VA Kulkarni
+info,match_referee,RS Madugalle
+info,winner,Delhi Daredevils
+info,winner_wickets,7
+info,player,Delhi Daredevils,NV Ojha
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,KP Pietersen
+info,player,Delhi Daredevils,DPMD Jayawardene
+info,player,Delhi Daredevils,LRPL Taylor
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,Y Nagar
+info,player,Delhi Daredevils,AB Agarkar
+info,player,Delhi Daredevils,M Morkel
+info,player,Delhi Daredevils,UT Yadav
+info,player,Delhi Daredevils,S Nadeem
+info,player,Mumbai Indians,RE Levi
+info,player,Mumbai Indians,DJ Jacobs
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,KD Karthik
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,CJ McKay
+info,player,Mumbai Indians,RP Singh
+info,player,Mumbai Indians,PP Ojha
+info,player,Mumbai Indians,MM Patel
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,BF Bowden,efc0a862
+info,registry,people,CJ McKay,94eac556
+info,registry,people,DJ Jacobs,a84468fe
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MM Patel,f0f628c7
+info,registry,people,NV Ojha,890946a0
+info,registry,people,PG Pathak,9f772ec5
+info,registry,people,PP Ojha,6c6591ab
+info,registry,people,RE Levi,18c78b11
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,RS Madugalle,766b5798
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SK Tarapore,62a824b4
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,VA Kulkarni,8fe0c4f8
+info,registry,people,Y Nagar,662c47a6

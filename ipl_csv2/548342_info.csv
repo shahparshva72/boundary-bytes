@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Delhi Daredevils
+info,team,Mumbai Indians
+info,gender,male
+info,season,2012
+info,date,2012/04/27
+info,event,Indian Premier League
+info,match_number,36
+info,venue,Feroz Shah Kotla
+info,city,Delhi
+info,toss_winner,Mumbai Indians
+info,toss_decision,field
+info,player_of_match,V Sehwag
+info,umpire,Aleem Dar
+info,umpire,BNJ Oxenford
+info,reserve_umpire,S Dua
+info,tv_umpire,AK Chaudhary
+info,match_referee,J Srinath
+info,winner,Delhi Daredevils
+info,winner_runs,37
+info,player,Delhi Daredevils,DPMD Jayawardene
+info,player,Delhi Daredevils,V Sehwag
+info,player,Delhi Daredevils,KP Pietersen
+info,player,Delhi Daredevils,IK Pathan
+info,player,Delhi Daredevils,LRPL Taylor
+info,player,Delhi Daredevils,Y Nagar
+info,player,Delhi Daredevils,NV Ojha
+info,player,Delhi Daredevils,M Morkel
+info,player,Delhi Daredevils,S Nadeem
+info,player,Delhi Daredevils,UT Yadav
+info,player,Delhi Daredevils,AB Agarkar
+info,player,Mumbai Indians,AC Blizzard
+info,player,Mumbai Indians,SR Tendulkar
+info,player,Mumbai Indians,RG Sharma
+info,player,Mumbai Indians,KD Karthik
+info,player,Mumbai Indians,AT Rayudu
+info,player,Mumbai Indians,KA Pollard
+info,player,Mumbai Indians,RJ Peterson
+info,player,Mumbai Indians,Harbhajan Singh
+info,player,Mumbai Indians,SL Malinga
+info,player,Mumbai Indians,RP Singh
+info,player,Mumbai Indians,R Shukla
+info,registry,people,AB Agarkar,fa463154
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AK Chaudhary,fdcc6236
+info,registry,people,AT Rayudu,70d205c9
+info,registry,people,Aleem Dar,f02778d1
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,Harbhajan Singh,8b5b6769
+info,registry,people,IK Pathan,5fa06777
+info,registry,people,J Srinath,bad31fac
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KD Karthik,c03f1114
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LRPL Taylor,b61a3e1a
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,NV Ojha,890946a0
+info,registry,people,R Shukla,de4b0555
+info,registry,people,RG Sharma,740742ef
+info,registry,people,RJ Peterson,26ff4c29
+info,registry,people,RP Singh,c3d1402f
+info,registry,people,S Dua,f1375866
+info,registry,people,S Nadeem,9d80c5e1
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Tendulkar,d2c2b2d5
+info,registry,people,UT Yadav,cc1e8c68
+info,registry,people,V Sehwag,8ba8195d
+info,registry,people,Y Nagar,662c47a6

@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Delhi Capitals
+info,team,Sunrisers Hyderabad
+info,gender,male
+info,season,2022
+info,date,2022/05/05
+info,event,Indian Premier League
+info,match_number,50
+info,venue,"Brabourne Stadium, Mumbai"
+info,city,Mumbai
+info,toss_winner,Sunrisers Hyderabad
+info,toss_decision,field
+info,player_of_match,DA Warner
+info,umpire,Navdeep Singh
+info,umpire,NA Patwardhan
+info,reserve_umpire,N Pandit
+info,tv_umpire,Nitin Menon
+info,match_referee,Shakti Singh
+info,winner,Delhi Capitals
+info,winner_runs,21
+info,player,Delhi Capitals,Mandeep Singh
+info,player,Delhi Capitals,DA Warner
+info,player,Delhi Capitals,MR Marsh
+info,player,Delhi Capitals,RR Pant
+info,player,Delhi Capitals,R Powell
+info,player,Delhi Capitals,Lalit Yadav
+info,player,Delhi Capitals,RV Patel
+info,player,Delhi Capitals,SN Thakur
+info,player,Delhi Capitals,Kuldeep Yadav
+info,player,Delhi Capitals,A Nortje
+info,player,Delhi Capitals,KK Ahmed
+info,player,Sunrisers Hyderabad,Abhishek Sharma
+info,player,Sunrisers Hyderabad,KS Williamson
+info,player,Sunrisers Hyderabad,RA Tripathi
+info,player,Sunrisers Hyderabad,AK Markram
+info,player,Sunrisers Hyderabad,N Pooran
+info,player,Sunrisers Hyderabad,Shashank Singh
+info,player,Sunrisers Hyderabad,SA Abbott
+info,player,Sunrisers Hyderabad,S Gopal
+info,player,Sunrisers Hyderabad,Kartik Tyagi
+info,player,Sunrisers Hyderabad,B Kumar
+info,player,Sunrisers Hyderabad,Umran Malik
+info,registry,people,A Nortje,acdc62f5
+info,registry,people,AK Markram,6a26221c
+info,registry,people,Abhishek Sharma,f29185a1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,KK Ahmed,a2f46292
+info,registry,people,KS Williamson,d027ba9f
+info,registry,people,Kartik Tyagi,5d2eea49
+info,registry,people,Kuldeep Yadav,8d2c70ad
+info,registry,people,Lalit Yadav,ad427b5c
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,Mandeep Singh,c3a96caf
+info,registry,people,N Pandit,4947c258
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,NA Patwardhan,e6ef687d
+info,registry,people,Navdeep Singh,a3e3d8a4
+info,registry,people,Nitin Menon,e1d41d9e
+info,registry,people,R Powell,650d5e49
+info,registry,people,RA Tripathi,77255a9e
+info,registry,people,RR Pant,919a3be2
+info,registry,people,RV Patel,60500956
+info,registry,people,S Gopal,7a8bd078
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SN Thakur,1abb78f8
+info,registry,people,Shakti Singh,eb90d319
+info,registry,people,Shashank Singh,26989d80
+info,registry,people,Umran Malik,81c08fa3

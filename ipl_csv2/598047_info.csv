@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Rajasthan Royals
+info,team,Pune Warriors
+info,gender,male
+info,season,2013
+info,date,2013/05/05
+info,event,Indian Premier League
+info,match_number,50
+info,venue,Sawai Mansingh Stadium
+info,city,Jaipur
+info,toss_winner,Pune Warriors
+info,toss_decision,bat
+info,player_of_match,AM Rahane
+info,umpire,C Shamshuddin
+info,umpire,RJ Tucker
+info,reserve_umpire,Tapan Sharma
+info,tv_umpire,Aleem Dar
+info,match_referee,AJ Pycroft
+info,winner,Rajasthan Royals
+info,winner_wickets,5
+info,player,Pune Warriors,RV Uthappa
+info,player,Pune Warriors,AJ Finch
+info,player,Pune Warriors,Yuvraj Singh
+info,player,Pune Warriors,MR Marsh
+info,player,Pune Warriors,AD Mathews
+info,player,Pune Warriors,M Rawat
+info,player,Pune Warriors,UA Birla
+info,player,Pune Warriors,B Kumar
+info,player,Pune Warriors,WD Parnell
+info,player,Pune Warriors,K Upadhyay
+info,player,Pune Warriors,R Sharma
+info,player,Rajasthan Royals,R Dravid
+info,player,Rajasthan Royals,AM Rahane
+info,player,Rajasthan Royals,SR Watson
+info,player,Rajasthan Royals,BJ Hodge
+info,player,Rajasthan Royals,STR Binny
+info,player,Rajasthan Royals,SV Samson
+info,player,Rajasthan Royals,JP Faulkner
+info,player,Rajasthan Royals,Sachin Baby
+info,player,Rajasthan Royals,KK Cooper
+info,player,Rajasthan Royals,A Chandila
+info,player,Rajasthan Royals,SK Trivedi
+info,registry,people,A Chandila,99b202b3
+info,registry,people,AD Mathews,896d78ad
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Pycroft,685d3f80
+info,registry,people,AM Rahane,29e95537
+info,registry,people,Aleem Dar,f02778d1
+info,registry,people,B Kumar,2e81a32d
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,C Shamshuddin,0f9d921b
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,K Upadhyay,27e71d47
+info,registry,people,KK Cooper,557153ca
+info,registry,people,M Rawat,de8d3876
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,R Dravid,0184dc35
+info,registry,people,R Sharma,5d9a1a73
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,RV Uthappa,1c17e270
+info,registry,people,SK Trivedi,3d7e087f
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,STR Binny,bd17b45f
+info,registry,people,SV Samson,a4cc73aa
+info,registry,people,Sachin Baby,dc9dd038
+info,registry,people,Tapan Sharma,b9aa2b6e
+info,registry,people,UA Birla,91b9300b
+info,registry,people,WD Parnell,3a60e0b5
+info,registry,people,Yuvraj Singh,1c914163
