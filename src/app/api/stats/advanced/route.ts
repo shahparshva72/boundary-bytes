@@ -66,7 +66,8 @@ export async function GET(request: Request) {
       for (const delivery of filteredDeliveries) {
         runsScored += delivery.runsOffBat;
 
-        if (delivery.wides === 0 && delivery.noballs === 0) {
+        // Only exclude wides from balls faced (no-balls are counted)
+        if (!delivery.wides || delivery.wides === 0) {
           ballsFaced++;
         }
 
@@ -78,7 +79,8 @@ export async function GET(request: Request) {
           sixes++;
         }
 
-        if (delivery.playerDismissed) {
+        // Only count as dismissal if this batter was dismissed
+        if (delivery.playerDismissed && delivery.playerDismissed === batter) {
           dismissals++;
         }
       }
@@ -113,23 +115,48 @@ export async function GET(request: Request) {
       let wides = 0;
       let noballs = 0;
 
-      for (const delivery of filteredDeliveries) {
-        runsConceded += delivery.runsOffBat + delivery.extras;
-        ballsBowled++;
+      // Only these wicket types are credited to the bowler
+      const bowlerWicketTypes = [
+        'bowled',
+        'caught',
+        'lbw',
+        'stumped',
+        'caught and bowled',
+        'hit wicket',
+      ];
 
-        if (delivery.playerDismissed) {
+      for (const delivery of filteredDeliveries) {
+        // Only include runsOffBat, wides, and noballs in runs conceded
+        runsConceded += delivery.runsOffBat;
+        if (delivery.wides) runsConceded += delivery.wides;
+        if (delivery.noballs) runsConceded += delivery.noballs;
+
+        // Only exclude wides from balls bowled (no-balls are counted)
+        if (!delivery.wides || delivery.wides === 0) {
+          ballsBowled++;
+
+          // Dot ball: only if legal delivery and no runs/extras
+          if (
+            delivery.runsOffBat === 0 &&
+            (!delivery.extras || delivery.extras === 0)
+          ) {
+            dots++;
+          }
+        }
+
+        // Only count as wicket if bowler-credited type
+        if (
+          delivery.playerDismissed &&
+          delivery.wicketType &&
+          bowlerWicketTypes.includes(delivery.wicketType)
+        ) {
           wickets++;
         }
 
-        if (delivery.runsOffBat === 0 && delivery.extras === 0) {
-          dots++;
-        }
-
-        if (delivery.wides > 0) {
+        if (delivery.wides && delivery.wides > 0) {
           wides++;
         }
-
-        if (delivery.noballs > 0) {
+        if (delivery.noballs && delivery.noballs > 0) {
           noballs++;
         }
       }
