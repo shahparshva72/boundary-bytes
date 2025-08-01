@@ -136,10 +136,7 @@ export async function GET(request: Request) {
           ballsBowled++;
 
           // Dot ball: only if legal delivery and no runs/extras
-          if (
-            delivery.runsOffBat === 0 &&
-            (!delivery.extras || delivery.extras === 0)
-          ) {
+          if (delivery.runsOffBat === 0 && (!delivery.extras || delivery.extras === 0)) {
             dots++;
           }
         }

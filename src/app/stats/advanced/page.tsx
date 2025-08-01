@@ -35,13 +35,15 @@ const AdvancedStatsPage = () => {
       if (!selectedPlayer || selectedOvers.length === 0) {
         throw new Error('Player and overs are required');
       }
-      
+
       const params = new URLSearchParams({
         overs: selectedOvers.join(','),
         playerType,
-        ...(playerType === 'batter' ? { batter: selectedPlayer.value } : { bowler: selectedPlayer.value }),
+        ...(playerType === 'batter'
+          ? { batter: selectedPlayer.value }
+          : { bowler: selectedPlayer.value }),
       });
-      
+
       const response = await fetchWithLeague(`/api/stats/advanced?${params}`);
       if (!response.ok) throw new Error('Failed to fetch advanced stats');
       return response.json();
@@ -83,16 +85,12 @@ const AdvancedStatsPage = () => {
   const isError = battersError || bowlersError;
 
   // Generate dynamic description based on selected league
-  const description = leagueConfig 
+  const description = leagueConfig
     ? `Get Advanced ${leagueConfig.name} Stats for players performance overwise.`
     : 'Get Advanced Cricket Stats for players performance overwise.';
 
   return (
-    <Layout
-      description={description}
-      error={isError || statsError}
-      loading={isLoading}
-    >
+    <Layout description={description} error={isError || statsError} loading={isLoading}>
       <StatsControls
         playerType={playerType}
         setPlayerType={dispatch}
@@ -111,7 +109,8 @@ const AdvancedStatsPage = () => {
       />
       {statsError && (
         <div className="w-full max-w-2xl mt-4 p-4 bg-red-100 border-2 border-red-500 text-red-700 font-bold">
-          Error loading stats: {typeof statsError === 'string' ? statsError : 'Failed to load advanced stats'}
+          Error loading stats:{' '}
+          {typeof statsError === 'string' ? statsError : 'Failed to load advanced stats'}
         </div>
       )}
       <StatsDisplay stats={stats} playerType={playerType} />
