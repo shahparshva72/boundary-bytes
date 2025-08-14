@@ -37,7 +37,7 @@ export async function GET(request: NextRequest) {
           WHERE d.player_dismissed IS NOT NULL
           AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
         ) as wickets,
-        SUM(d.runs_off_bat + d.extras) as runs_conceded,
+        SUM(d.runs_off_bat + d.wides + d.noballs) as runs_conceded,
         COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) as balls_bowled,
         COUNT(DISTINCT d.match_id) as matches
       FROM wpl_delivery d
