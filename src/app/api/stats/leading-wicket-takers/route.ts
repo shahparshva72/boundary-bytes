@@ -78,6 +78,8 @@ export async function GET(request: NextRequest) {
       return {
         player: data.bowler,
         wickets,
+        runsConceded,
+        average: wickets > 0 ? runsConceded / wickets : 0,
         ballsBowled,
         economy: overs > 0 ? runsConceded / overs : 0,
         matches,
