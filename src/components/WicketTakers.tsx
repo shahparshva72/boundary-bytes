@@ -8,6 +8,8 @@ import Pagination from './Pagination';
 interface WicketTakerData {
   player: string;
   wickets: number;
+  runsConceded: number;
+  average: number;
   ballsBowled: number;
   economy: number;
   matches: number;
@@ -48,6 +50,12 @@ export default function WicketTakers() {
                     Wickets
                   </th>
                   <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide border-r-4 border-black">
+                    Runs Conceded
+                  </th>
+                  <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide border-r-4 border-black">
+                    Average
+                  </th>
+                  <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide border-r-4 border-black">
                     Balls Bowled
                   </th>
                   <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide border-r-4 border-black">
@@ -76,6 +84,12 @@ export default function WicketTakers() {
                         {player.wickets}
                       </td>
                       <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        {player.runsConceded}
+                      </td>
+                      <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        {player.average.toFixed(2)}
+                      </td>
+                      <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
                         {player.ballsBowled}
                       </td>
                       <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
@@ -86,7 +100,7 @@ export default function WicketTakers() {
                   ))
                 ) : (
                   <tr>
-                    <td colSpan={6} className="px-6 py-8 text-lg font-bold text-black text-center">
+                    <td colSpan={8} className="px-6 py-8 text-lg font-bold text-black text-center">
                       No wicket takers data available
                     </td>
                   </tr>

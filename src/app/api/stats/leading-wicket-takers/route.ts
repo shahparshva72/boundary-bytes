@@ -59,7 +59,7 @@ export async function GET(request: NextRequest) {
         SELECT d.bowler
         FROM wpl_delivery d
         JOIN wpl_match m ON d.match_id = m.match_id
-        WHERE m.league = ${league}
+        WHERE m.league = ${league} and d.innings <= 2
         GROUP BY d.bowler
         HAVING COUNT(*) FILTER (
           WHERE d.player_dismissed IS NOT NULL
@@ -78,6 +78,8 @@ export async function GET(request: NextRequest) {
       return {
         player: data.bowler,
         wickets,
+        runsConceded,
+        average: wickets > 0 ? runsConceded / wickets : 0,
         ballsBowled,
         economy: overs > 0 ? runsConceded / overs : 0,
         matches,
