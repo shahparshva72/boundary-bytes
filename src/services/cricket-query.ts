@@ -125,10 +125,10 @@ export class CricketQueryService {
         rowCount: totalRows,
         executionTime,
       };
-      } catch (error) {
-        console.error('Sequential query execution error:', error);
-        throw error; // Re-throw the error from executeQuery
-      }
+    } catch (error) {
+      console.error('Sequential query execution error:', error);
+      throw error; // Re-throw the error from executeQuery
+    }
   }
 
   /**
