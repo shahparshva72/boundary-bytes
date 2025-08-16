@@ -2,7 +2,7 @@
 
 export interface SuccessResponse {
   success: true;
-  data: any[];
+  data: unknown[];
   metadata: {
     rowCount: number;
     executionTime: number;
@@ -30,7 +30,7 @@ export class ResponseFormatter {
   /**
    * Formats successful query results with metadata
    */
-  formatResults(data: any[], sql: string, executionTime: number): SuccessResponse {
+  formatResults(data: unknown[], sql: string, executionTime: number): SuccessResponse {
     return {
       success: true,
       data: data || [],
@@ -205,7 +205,7 @@ export class ResponseFormatter {
   /**
    * Formats validation errors from Zod
    */
-  formatValidationError(zodError: any): ErrorResponse {
+  formatValidationError(zodError: { errors?: Array<{ message?: string }> }): ErrorResponse {
     const firstError = zodError.errors?.[0];
     const message = firstError?.message || 'Invalid request format';
 

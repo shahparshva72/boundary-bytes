@@ -8,7 +8,7 @@ import { logger } from '@/lib/logger';
 
 export async function POST(request: NextRequest) {
   const startTime = Date.now();
-  let body: any = null;
+  let body: unknown = null;
 
   try {
     // Parse request body
@@ -173,7 +173,7 @@ export async function POST(request: NextRequest) {
     logger.error('Unexpected error in text-to-sql API', {
       error: (error as Error).message,
       stack: (error as Error).stack,
-      question: body?.question || 'unknown',
+      question: (body as { question?: string })?.question || 'unknown',
     });
 
     return NextResponse.json(responseFormatter.formatServerError(), { status: 500 });
@@ -181,7 +181,8 @@ export async function POST(request: NextRequest) {
 }
 
 // Handle OPTIONS request for CORS
-export async function OPTIONS(request: NextRequest) {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export async function OPTIONS(_request: NextRequest) {
   return new NextResponse(null, {
     status: 200,
     headers: {

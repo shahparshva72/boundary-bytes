@@ -2,7 +2,7 @@ import { prisma } from '@/lib/prisma';
 import { Prisma } from '@prisma/client';
 
 export interface QueryResult {
-  data: any[];
+  data: unknown[];
   rowCount: number;
   executionTime: number;
 }
@@ -32,8 +32,6 @@ export class CricketQueryService {
         executionTime,
       };
     } catch (error) {
-      const executionTime = Date.now() - startTime;
-
       console.error('Database query execution error:', error);
 
       // Handle specific Prisma/database errors
@@ -62,9 +60,9 @@ export class CricketQueryService {
     }
 
     const startTime = Date.now();
-    let finalResult: any[] = [];
+    let finalResult: unknown[] = [];
     let totalRows = 0;
-    let resolvedPlayerNames: string[] = [];
+    const resolvedPlayerNames: string[] = [];
 
     try {
       // Execute queries sequentially, using results from previous queries
@@ -83,7 +81,7 @@ export class CricketQueryService {
         if (this.isPlayerNameResolutionQuery(query)) {
           // Extract resolved player names - check multiple possible field names
           if (result.data.length > 0) {
-            const firstRow = result.data[0];
+            const firstRow = result.data[0] as Record<string, unknown>;
             const resolvedName =
               firstRow.player_name ||
               firstRow.playername ||
@@ -127,11 +125,10 @@ export class CricketQueryService {
         rowCount: totalRows,
         executionTime,
       };
-    } catch (error) {
-      const executionTime = Date.now() - startTime;
-      console.error('Sequential query execution error:', error);
-      throw error; // Re-throw the error from executeQuery
-    }
+      } catch (error) {
+        console.error('Sequential query execution error:', error);
+        throw error; // Re-throw the error from executeQuery
+      }
   }
 
   /**
@@ -208,16 +205,16 @@ export class CricketQueryService {
   /**
    * Formats query results for consistent API response
    */
-  formatResults(queryResult: QueryResult): any[] {
+  formatResults(queryResult: QueryResult): unknown[] {
     if (!queryResult.data || queryResult.data.length === 0) {
       return [];
     }
 
     // Convert BigInt values to numbers for JSON serialization
     return queryResult.data.map((row) => {
-      const formattedRow: any = {};
+      const formattedRow: Record<string, unknown> = {};
 
-      for (const [key, value] of Object.entries(row)) {
+      for (const [key, value] of Object.entries(row as Record<string, unknown>)) {
         if (typeof value === 'bigint') {
           formattedRow[key] = Number(value);
         } else if (value instanceof Date) {
