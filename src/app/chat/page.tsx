@@ -227,8 +227,8 @@ export default function TextToSqlPage() {
               disabled={!isValid || isPending || !selectedLeague}
               className={`px-6 py-3 font-black border-4 border-black transition-all shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] ${
                 !isValid || !selectedLeague || isPending
-            ? 'bg-gray-300 cursor-not-allowed text-black'
-              : 'bg-[#FF5E5B] text-black hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
+                  ? 'bg-gray-300 cursor-not-allowed text-black'
+                  : 'bg-[#FF5E5B] text-black hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
               }`}
             >
               {isPending ? 'Fetching...' : 'Get Stats'}
