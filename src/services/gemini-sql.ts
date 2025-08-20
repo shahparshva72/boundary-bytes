@@ -163,6 +163,13 @@ CRICKET DOMAIN KNOWLEDGE:
   - Powerplay: Overs 1-6 in a T20 match.
   - Death Overs: Overs 16-20 in a T20 match.
 
+  SUPER OVER / INNINGS HANDLING:
+  - Standard matches have exactly 2 innings recorded (innings = 1 and innings = 2).
+  - Super overs or tie-breakers may appear as innings > 2 (e.g., 3, 4, etc.).
+  - UNLESS a user explicitly mentions terms like "super over", "tie-break", "eliminator over", or asks for "all innings" / specifies innings > 2, you MUST RESTRICT queries to regular play only with a predicate: \`innings <= 2\` on delivery-level data.
+  - If the user explicitly requests super over statistics, then include innings > 2 by using a predicate like \`innings > 2\` (or appropriate specific innings numbers) in addition to any normal filters.
+  - Never mix super over balls with normal innings statistics unless the user explicitly asks to include super overs.
+
 RESPONSE FORMAT:
 Return ONLY valid PostgreSQL SQL. No explanations, no markdown, no additional text. If a query requires a player name lookup, return the lookup query first, followed by the main query on a new line.
 
