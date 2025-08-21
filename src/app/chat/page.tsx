@@ -70,7 +70,8 @@ export default function TextToSqlPage() {
         >
           <h3 className="text-2xl font-black text-black">Unable to fetch stats</h3>
           <p className="font-mono text-black">
-            Something went wrong while processing that question. Please try again or tweak your phrasing.
+            Something went wrong while processing that question. Please try again or tweak your
+            phrasing.
           </p>
           {structured?.code === 'RATE_LIMIT_ERROR' && (
             <span className="inline-block bg-[#FFED66] px-3 py-1 font-bold border-2 border-black w-fit">
