@@ -57,6 +57,11 @@ export default function TextToSqlPage() {
 
     if (error) {
       const structured = (error as any)?.success === false ? (error as any) : null;
+      // Log the full error details for debugging but avoid surfacing internal / validation specifics to the user
+      if (typeof window !== 'undefined') {
+        // eslint-disable-next-line no-console
+        console.error('Text-to-SQL error:', error);
+      }
       return (
         <div
           className="p-8 bg-[#FF5E5B] border-4 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4"
@@ -65,7 +70,7 @@ export default function TextToSqlPage() {
         >
           <h3 className="text-2xl font-black text-black">Unable to fetch stats</h3>
           <p className="font-mono text-black">
-            {structured ? structured.error : (error as Error).message}
+            Something went wrong while processing that question. Please try again or tweak your phrasing.
           </p>
           {structured?.code === 'RATE_LIMIT_ERROR' && (
             <span className="inline-block bg-[#FFED66] px-3 py-1 font-bold border-2 border-black w-fit">
@@ -175,7 +180,7 @@ export default function TextToSqlPage() {
         <header className="flex flex-col gap-4 items-center">
           <div className="bg-[#FF5E5B] p-6 sm:p-8 w-full text-center border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
             <h1 className="text-4xl md:text-5xl font-black text-black tracking-tight">
-              Cricket Query Chat
+              Ask Boundary Bytes
             </h1>
           </div>
           <p className="font-bold text-black bg-[#4ECDC4] px-4 py-2 border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] text-center">
