@@ -3,6 +3,8 @@
 import { useMatches } from '@/lib/useMatches';
 import { MoonLoader } from 'react-spinners';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import Pagination from './Pagination';
 
 function redirectToCricinfoScorecard(matchId: number) {
   const scorecardUrl = 'http://www.espncricinfo.com/matches/engine/match/' + matchId + '.html';
@@ -28,6 +30,7 @@ interface Match {
 
 export default function Matches({ initialPage, initialSeason }: MatchesProps) {
   const { data, isLoading, error } = useMatches(initialPage, initialSeason);
+  const router = useRouter();
 
   if (isLoading) {
     return (
@@ -144,21 +147,17 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
 
         {/* Pagination */}
         {pagination.pages > 1 && (
-          <div className="flex gap-4 justify-center flex-wrap">
-            {Array.from({ length: pagination.pages }, (_, i) => i + 1).map((page) => (
-              <a
-                key={page}
-                href={`/?page=${page}${initialSeason ? `&season=${initialSeason}` : ''}`}
-                className={`px-6 py-3 font-bold border-2 border-black text-black ${
-                  initialPage === page
-                    ? 'bg-[#FF5E5B] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
-                    : 'bg-white hover:bg-[#FF5E5B] transition-colors'
-                }`}
-              >
-                {page}
-              </a>
-            ))}
-          </div>
+          <Pagination
+            currentPage={initialPage}
+            totalPages={pagination.pages}
+            skipSize={10}
+            onPageChange={(page) => {
+              const params = new URLSearchParams();
+              params.set('page', String(page));
+              if (initialSeason) params.set('season', initialSeason);
+              router.push(`/?${params.toString()}`);
+            }}
+          />
         )}
       </main>
     </div>
