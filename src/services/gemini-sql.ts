@@ -1,5 +1,11 @@
-import { generateText } from 'ai';
+import { generateObject } from 'ai';
 import { google } from '@ai-sdk/google';
+import { z } from 'zod';
+import {
+  hasPlayerNameResolution as utilHasPlayerNameResolution,
+  extractHeadToHeadQueries,
+  applyResolvedNames,
+} from './sql-utils';
 
 // Hardcoded master prompt from master_prompt.md
 // Hardcoded master prompt from master_prompt.md
@@ -167,10 +173,17 @@ SUPER OVER / INNINGS HANDLING:
 - UNLESS a user explicitly asks for "super over", "tie-breaker", or "eliminator" stats, you MUST RESTRICT queries to regular play only with a predicate: \`innings <= 2\`.
 - Never mix Super Over data with regular innings data unless specifically requested.
 
-RESPONSE FORMAT:
-Return ONLY valid PostgreSQL SQL.
-CRITICAL: Your entire response must be ONLY raw SQL text. Do NOT include any Markdown, explanations, or code fences like \`\`\`sql ... \`\`\`. Your output will be executed directly and must not contain any non-SQL characters.
-If a query requires a player name lookup, return the lookup query first, followed by the main query on a new line.`;
+RESPONSE FORMAT (STRICT JSON):
+Return a single JSON object with the following shape:
+{
+  "queries": ["SQL_SELECT_1", "SQL_SELECT_2", ...],
+  "meta": { "requiresSequentialExecution": true|false, "type": "single"|"headToHead"|"team" }
+}
+Rules:
+- The value of "queries" MUST be an array of one or more valid PostgreSQL SELECT statements that adhere to all rules above.
+- If a player name lookup is required (e.g., for a specific player or head-to-head), include the lookup query first in the array, followed by the dependent statistical query.
+- Do NOT include any Markdown, comments, or explanations; ONLY return the JSON object.
+- If "meta" is not applicable, you may omit it; otherwise set "requiresSequentialExecution" accordingly.`;
 
 // Initialize Gemini model
 const model = google('gemini-2.5-flash');
@@ -188,20 +201,34 @@ export class GeminiSqlService {
     try {
       console.log('Generating SQL with Gemini for question:', question);
 
-      const { text } = await generateText({
-        model: model,
-        system: MASTER_PROMPT,
-        prompt: question,
-        temperature: 0.1, // Low temperature for consistent, deterministic responses
+      // Define a structured response schema to avoid brittle string parsing
+      const SqlResponseSchema = z.object({
+        // Array of SQL SELECT queries in execution order
+        queries: z.array(z.string()).min(1),
+        // Optional meta for future routing/logic
+        meta: z
+          .object({
+            requiresSequentialExecution: z.boolean().default(false),
+            type: z.enum(['single', 'headToHead', 'team']).optional(),
+          })
+          .optional(),
       });
 
-      console.log('Gemini AI response:', text);
+      const { object } = await generateObject({
+        model,
+        system: MASTER_PROMPT,
+        prompt: question,
+        temperature: 0.1,
+        schema: SqlResponseSchema,
+      });
 
-      // Parse the response to extract SQL queries
-      const queries = this.parseAiResponse(text);
-      console.log('Parsed queries:', queries);
+      console.log('Gemini structured response:', object);
 
-      return queries;
+      // Validate and minimally normalize each query
+      const validated = object.queries.map((q) => this.minimalValidateAndNormalize(q));
+      console.log('Validated queries:', validated);
+
+      return validated;
     } catch (error) {
       console.error('Error generating SQL with Gemini:', error);
       console.error('Error details:', {
@@ -214,43 +241,78 @@ export class GeminiSqlService {
   }
 
   /**
-   * Parses AI response to extract SQL queries
+   * High-level helper: generate queries from a question, then resolve any player lookups
+   * and return a single final executable SQL (e.g., for head-to-head stats).
+   *
+   * Provide a `runQuery` function that executes a single SELECT and returns rows.
    */
-  private parseAiResponse(response: string): string[] {
-    if (!response || response.trim().length === 0) {
-      throw new Error('Empty response from AI model');
+  async generateExecutableSql(
+    question: string,
+    runQuery: (sql: string) => Promise<Array<Record<string, any>>>,
+  ): Promise<string> {
+    const queries = await this.generateSql(question);
+    const built = await this.buildExecutableQueries(queries, runQuery);
+    // Return the final (possibly single) query to execute
+    return built[built.length - 1];
+  }
+
+  /**
+   * Minimal SQL validator/enforcer (Phase 1):
+   * - Enforce SELECT-only
+   * - Allowlist tables (wpl_*)
+   * - Ensure LIMIT <= 1000 (inject if missing)
+   * Note: This is a lightweight guard. Replace/augment with AST-based validation in Phase 2.
+   */
+  private minimalValidateAndNormalize(sql: string): string {
+    if (!sql || !sql.trim()) throw new Error('Empty SQL from AI');
+
+    const s = sql.trim();
+
+    // Must start with SELECT
+    if (!/^select\s/i.test(s)) {
+      throw new Error('All queries must be SELECT statements');
     }
 
-    // Split by lines and filter out empty lines and comments
-    const lines = response
-      .split('\n')
-      .map((line) => line.trim())
-      .filter((line) => line.length > 0 && !line.startsWith('--') && !line.startsWith('/*'));
+    // Disallow dangerous keywords/functions even if inside comments (assume clean SQL)
+    const forbidden = /(insert|update|delete|drop|create|alter|truncate|grant|revoke|copy|do|pg_sleep|set\s+role|set\s+search_path)\b/i;
+    if (forbidden.test(s)) {
+      throw new Error('Forbidden SQL keyword/function detected');
+    }
 
-    // Join lines that are part of the same query
-    const queries: string[] = [];
-    let currentQuery = '';
+    // Allowlist: only wpl_* tables (basic regex check)
+    const tableRefs = s.match(/\bfrom\b|\bjoin\b/gi)
+      ? Array.from(s.matchAll(/\bfrom\s+([^\s;]+)|\bjoin\s+([^\s;]+)/gi))
+      : [];
+    const invalidRef = tableRefs.some((m) => {
+      const ref = (m[1] || m[2] || '').replace(/[,()]/g, '');
+      // ignore aliases like wpl_delivery wd -> only check the first token
+      const first = ref.split(/\s+/)[0].replace(/"/g, '');
+      // Permit subqueries and CTEs implicitly (cannot detect here), focus on explicit table names
+      if (/^\(/.test(first)) return false;
+      // Permit schema-qualified like public.wpl_delivery
+      const base = first.includes('.') ? first.split('.')[1] : first;
+      return !/^wpl_/.test(base);
+    });
+    if (invalidRef) {
+      throw new Error('Only wpl_* tables are allowed in queries');
+    }
 
-    for (const line of lines) {
-      currentQuery += line + ' ';
-
-      // If line ends with semicolon, it's the end of a query
-      if (line.endsWith(';')) {
-        queries.push(currentQuery.trim());
-        currentQuery = '';
+    // Ensure LIMIT <= 1000 (inject if missing or if higher)
+    const limitMatch = s.match(/\blimit\s+(\d+)/i);
+    if (!limitMatch) {
+      // Inject LIMIT 1000 at the end (respect ending semicolon)
+      const hasSemicolon = /;\s*$/.test(s);
+      const withLimit = s.replace(/;?\s*$/, '') + ' LIMIT 1000';
+      return withLimit + (hasSemicolon ? ';' : '');
+    } else {
+      const current = parseInt(limitMatch[1], 10);
+      if (Number.isFinite(current) && current > 1000) {
+        // Lower the limit to 1000
+        return s.replace(/\blimit\s+\d+/i, 'LIMIT 1000');
       }
     }
 
-    // Add any remaining query (in case it doesn't end with semicolon)
-    if (currentQuery.trim().length > 0) {
-      queries.push(currentQuery.trim());
-    }
-
-    if (queries.length === 0) {
-      throw new Error('No valid SQL queries found in AI response');
-    }
-
-    return queries;
+    return s;
   }
 
   /**
@@ -266,11 +328,7 @@ export class GeminiSqlService {
    * Detects if the queries include player name resolution
    */
   hasPlayerNameResolution(queries: string[]): boolean {
-    return queries.some(
-      (query) =>
-        query.toLowerCase().includes('select player_name from wpl_player') &&
-        query.toLowerCase().includes('ilike'),
-    );
+    return utilHasPlayerNameResolution(queries);
   }
 
   /**
@@ -294,6 +352,63 @@ export class GeminiSqlService {
         throw new Error('All queries must be SELECT statements');
       }
     }
+  }
+
+  /**
+   * Given generated queries and a function capable of executing a single SQL SELECT
+   * and returning rows, resolve any player lookup(s) and return the final
+   * executable stats query with placeholders replaced.
+   *
+   * Contract for runQuery:
+   *  - Input: SQL string (SELECT)
+   *  - Output: Promise of array of row objects; for lookup queries must contain a
+   *    'player_name' field on the first row if a match exists.
+   */
+  async buildExecutableQueries(
+    queries: string[],
+    runQuery: (sql: string) => Promise<Array<Record<string, any>>>,
+  ): Promise<string[]> {
+    if (!queries.length) throw new Error('No queries to build');
+
+    // If no player lookup involved, just return validated queries as-is.
+    if (!this.hasPlayerNameResolution(queries)) {
+      return queries;
+    }
+
+    const { batterLookup, bowlerLookup, main } = extractHeadToHeadQueries(queries);
+
+    let batterName: string | undefined;
+    let bowlerName: string | undefined;
+
+    if (batterLookup) {
+      const rows = await runQuery(batterLookup);
+      batterName = rows?.[0]?.player_name;
+      if (!batterName) {
+        throw new Error('No matching batter found for lookup query');
+      }
+    }
+
+    if (bowlerLookup) {
+      const rows = await runQuery(bowlerLookup);
+      bowlerName = rows?.[0]?.player_name;
+      if (!bowlerName) {
+        throw new Error('No matching bowler found for lookup query');
+      }
+    }
+
+    // For single-player flows, placeholder may be RESOLVED_PLAYER_NAME.
+    let finalMain = main;
+    if (batterName) {
+      finalMain = finalMain
+        .replace(/'RESOLVED_PLAYER_NAME'/g, `'${batterName.replace(/'/g, "''")}'`)
+        .replace(/RESOLVED_PLAYER_NAME/g, `'${batterName.replace(/'/g, "''")}'`);
+    }
+
+    // For head-to-head flows use specific placeholders (already handled by util)
+    finalMain = applyResolvedNames(finalMain, { batterName, bowlerName });
+
+    // Return just the final stats query to execute
+    return [this.minimalValidateAndNormalize(finalMain)];
   }
 }
 

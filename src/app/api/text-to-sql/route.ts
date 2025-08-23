@@ -41,15 +41,62 @@ export async function POST(request: NextRequest) {
       sanitizedQuestion,
     });
 
-    // Generate SQL using Gemini AI
-    let generatedQueries: string[];
+    // Generate SQL using Gemini AI, then resolve player lookups and build final executable SQL
+    let rawGeneratedQueries: string[] = [];
+    let finalSql: string;
     try {
       logger.debug('Generating SQL with Gemini AI', { question: sanitizedQuestion });
-      generatedQueries = await geminiSqlService.generateSql(sanitizedQuestion);
-      logger.info('SQL generated successfully', { queries: generatedQueries });
+      rawGeneratedQueries = await geminiSqlService.generateSql(sanitizedQuestion);
+      logger.info('SQL generated successfully', { queries: rawGeneratedQueries });
+
+      // If multiple queries, validate sequential structure
+      if (rawGeneratedQueries.length > 1) {
+        try {
+          geminiSqlService.validateSequentialQueries(rawGeneratedQueries);
+          logger.debug('Sequential queries validation passed');
+        } catch (error) {
+          logger.warn('Sequential queries validation failed', { error: (error as Error).message });
+          return NextResponse.json(
+            responseFormatter.formatError(error as Error, 'SQL_ERROR'),
+            { status: 400 },
+          );
+        }
+      }
+
+      // Provide a runQuery function for lookups that returns rows (array of objects)
+      const runQuery = async (sql: string) => {
+        // Validate lookup SQL before executing
+        const validation = sqlValidator.validateSql(sql);
+        if (!validation.isValid) {
+          logger.warn('Lookup SQL failed validation', { sql, errors: validation.errors });
+          throw new Error(
+            `Generated lookup query failed security validation: ${validation.errors.join(', ')}`,
+          );
+        }
+
+        const result = await cricketQueryService.executeQuery(sql);
+        return (result.data as Array<Record<string, unknown>>) || [];
+      };
+
+      // Build final executable SQL with placeholders resolved when needed
+      const built = await geminiSqlService.buildExecutableQueries(rawGeneratedQueries, runQuery);
+      finalSql = built[built.length - 1];
+
+      // Validate the final SQL for safety
+      const sqlValidation = sqlValidator.validateSql(finalSql);
+      if (!sqlValidation.isValid) {
+        logger.warn('Final SQL validation failed', { finalSql, errors: sqlValidation.errors });
+        return NextResponse.json(
+          responseFormatter.formatError(
+            `Generated query failed security validation: ${sqlValidation.errors.join(', ')}`,
+            'SQL_ERROR',
+          ),
+          { status: 400 },
+        );
+      }
     } catch (error) {
       const errorMessage = (error as Error).message;
-      logger.error('Gemini AI generation failed', {
+      logger.error('SQL generation/building failed', {
         error: errorMessage,
         question: sanitizedQuestion,
       });
@@ -73,45 +120,12 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    // Validate each generated SQL query
-    logger.debug('Validating generated SQL queries', { queryCount: generatedQueries.length });
-    for (const query of generatedQueries) {
-      const sqlValidation = sqlValidator.validateSql(query);
-      if (!sqlValidation.isValid) {
-        logger.warn('SQL validation failed', { query, errors: sqlValidation.errors });
-        return NextResponse.json(
-          responseFormatter.formatError(
-            `Generated query failed security validation: ${sqlValidation.errors.join(', ')}`,
-            'SQL_ERROR',
-          ),
-          { status: 400 },
-        );
-      }
-    }
-
-    // Validate sequential queries structure if multiple queries
-    if (generatedQueries.length > 1) {
-      try {
-        geminiSqlService.validateSequentialQueries(generatedQueries);
-        logger.debug('Sequential queries validation passed');
-      } catch (error) {
-        logger.warn('Sequential queries validation failed', { error: (error as Error).message });
-        return NextResponse.json(responseFormatter.formatError(error as Error, 'SQL_ERROR'), {
-          status: 400,
-        });
-      }
-    }
-
-    // Execute the queries
+    // Execute only the final, fully-resolved SQL
     let queryResult;
     try {
-      logger.debug('Executing database queries', { queryCount: generatedQueries.length });
-      if (generatedQueries.length === 1) {
-        queryResult = await cricketQueryService.executeQuery(generatedQueries[0]);
-      } else {
-        queryResult = await cricketQueryService.executeSequentialQueries(generatedQueries);
-      }
-      logger.info('Database queries executed successfully', {
+      logger.debug('Executing final database query');
+      queryResult = await cricketQueryService.executeQuery(finalSql);
+      logger.info('Database query executed successfully', {
         rowCount: queryResult.rowCount,
         executionTime: queryResult.executionTime,
       });
@@ -119,7 +133,7 @@ export async function POST(request: NextRequest) {
       const errorMessage = (error as Error).message;
       logger.error('Database query execution failed', {
         error: errorMessage,
-        queries: generatedQueries,
+        query: finalSql,
       });
 
       // Handle specific database errors
@@ -150,7 +164,7 @@ export async function POST(request: NextRequest) {
     // Return successful response
     const response = responseFormatter.formatResults(
       formattedData,
-      generatedQueries.join('; '),
+      finalSql,
       totalExecutionTime,
     );
 
