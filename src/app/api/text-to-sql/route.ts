@@ -56,10 +56,9 @@ export async function POST(request: NextRequest) {
           logger.debug('Sequential queries validation passed');
         } catch (error) {
           logger.warn('Sequential queries validation failed', { error: (error as Error).message });
-          return NextResponse.json(
-            responseFormatter.formatError(error as Error, 'SQL_ERROR'),
-            { status: 400 },
-          );
+          return NextResponse.json(responseFormatter.formatError(error as Error, 'SQL_ERROR'), {
+            status: 400,
+          });
         }
       }
 
@@ -162,11 +161,7 @@ export async function POST(request: NextRequest) {
     const totalExecutionTime = Date.now() - startTime;
 
     // Return successful response
-    const response = responseFormatter.formatResults(
-      formattedData,
-      finalSql,
-      totalExecutionTime,
-    );
+    const response = responseFormatter.formatResults(formattedData, finalSql, totalExecutionTime);
 
     logger.info('Text-to-SQL request completed successfully', {
       question: sanitizedQuestion,

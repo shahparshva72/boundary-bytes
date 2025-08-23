@@ -23,7 +23,9 @@ export function extractHeadToHeadQueries(queries: string[]): {
   const main = queries[queries.length - 1];
 
   // Identify lookup queries by shape
-  const lookups = queries.slice(0, -1).filter((q) => /select\s+player_name\s+from\s+wpl_player/i.test(q));
+  const lookups = queries
+    .slice(0, -1)
+    .filter((q) => /select\s+player_name\s+from\s+wpl_player/i.test(q));
 
   if (lookups.length === 0) {
     return { main };
@@ -47,20 +49,16 @@ export function sqlQuoteLiteral(value: string): string {
  */
 export function applyResolvedNames(
   mainQuery: string,
-  names: { batterName?: string; bowlerName?: string }
+  names: { batterName?: string; bowlerName?: string },
 ): string {
   let sql = mainQuery;
   if (names.batterName) {
     const q = sqlQuoteLiteral(names.batterName);
-    sql = sql
-      .replace(/'RESOLVED_BATTER_NAME'/g, q)
-      .replace(/RESOLVED_BATTER_NAME/g, q);
+    sql = sql.replace(/'RESOLVED_BATTER_NAME'/g, q).replace(/RESOLVED_BATTER_NAME/g, q);
   }
   if (names.bowlerName) {
     const q = sqlQuoteLiteral(names.bowlerName);
-    sql = sql
-      .replace(/'RESOLVED_BOWLER_NAME'/g, q)
-      .replace(/RESOLVED_BOWLER_NAME/g, q);
+    sql = sql.replace(/'RESOLVED_BOWLER_NAME'/g, q).replace(/RESOLVED_BOWLER_NAME/g, q);
   }
   return sql;
 }
@@ -70,7 +68,7 @@ export function applyResolvedNames(
  */
 export function buildFinalHeadToHeadSql(
   queries: string[],
-  names: { batterName?: string; bowlerName?: string }
+  names: { batterName?: string; bowlerName?: string },
 ): string {
   const { main } = extractHeadToHeadQueries(queries);
   return applyResolvedNames(main, names);

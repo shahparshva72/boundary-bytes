@@ -274,7 +274,8 @@ export class GeminiSqlService {
     }
 
     // Disallow dangerous keywords/functions even if inside comments (assume clean SQL)
-    const forbidden = /(insert|update|delete|drop|create|alter|truncate|grant|revoke|copy|do|pg_sleep|set\s+role|set\s+search_path)\b/i;
+    const forbidden =
+      /(insert|update|delete|drop|create|alter|truncate|grant|revoke|copy|do|pg_sleep|set\s+role|set\s+search_path)\b/i;
     if (forbidden.test(s)) {
       throw new Error('Forbidden SQL keyword/function detected');
     }
