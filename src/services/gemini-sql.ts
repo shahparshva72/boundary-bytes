@@ -167,6 +167,354 @@ CRICKET DOMAIN KNOWLEDGE & SQL LOGIC:
   - Powerplay: First 6 overs. SQL: WHERE ball < '6.0'. Note: use string comparison as ball is TEXT.
   - Death Overs: Last 5 overs (16-20). SQL: WHERE ball >= '15.0'.
 
+COMPREHENSIVE EXAMPLES OF SUPPORTED STATISTICS:
+
+1. LEADING RUN SCORERS:
+Example Query: "Who are the top 10 run scorers in the 2023 IPL?"
+SELECT
+  d.striker,
+  SUM(d.runs_off_bat) as runs,
+  COUNT(*) FILTER (WHERE d.wides = 0) as balls_faced,
+  COUNT(DISTINCT d.match_id) as matches,
+  COUNT(*) FILTER (WHERE d.runs_off_bat = 4) as fours,
+  COUNT(*) FILTER (WHERE d.runs_off_bat = 6) as sixes,
+  COUNT(*) FILTER (WHERE d.runs_off_bat = 0) as dot_balls
+FROM wpl_delivery d
+JOIN wpl_match m ON d.match_id = m.match_id
+WHERE m.league = 'IPL' AND m.start_date >= '2023-01-01' AND m.start_date < '2024-01-01' AND d.innings <= 2
+GROUP BY d.striker
+HAVING SUM(d.runs_off_bat) > 0
+ORDER BY SUM(d.runs_off_bat) DESC
+LIMIT 10;
+
+2. LEADING WICKET TAKERS:
+Example Query: "Top 10 wicket takers in IPL"
+SELECT
+  d.bowler,
+  COUNT(*) FILTER (
+    WHERE d.player_dismissed IS NOT NULL
+    AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
+  ) as wickets,
+  SUM(d.runs_off_bat + d.wides + d.noballs) as runs_conceded,
+  COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) as balls_bowled,
+  COUNT(DISTINCT d.match_id) as matches
+FROM wpl_delivery d
+JOIN wpl_match m ON d.match_id = m.match_id
+WHERE m.league = 'IPL' AND d.innings <= 2
+GROUP BY d.bowler
+HAVING COUNT(*) FILTER (
+  WHERE d.player_dismissed IS NOT NULL
+  AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
+) > 0
+ORDER BY wickets DESC
+LIMIT 10;
+
+3. HEAD-TO-HEAD MATCHUP STATS:
+Example Query: "Virat Kohli vs Jasprit Bumrah stats"
+(Requires player name resolution first, then:)
+SELECT
+  COALESCE(SUM(d.runs_off_bat), 0)::int as "runsScored",
+  COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0)::int as "ballsFaced",
+  COUNT(CASE WHEN d.player_dismissed = 'RESOLVED_BATTER_NAME' THEN 1 END)::int as "dismissals",
+  CASE
+    WHEN COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) > 0 THEN ROUND((COALESCE(SUM(d.runs_off_bat), 0)::numeric / COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0)) * 100, 2)
+    ELSE 0
+  END as "strikeRate",
+  CASE
+    WHEN COUNT(CASE WHEN d.player_dismissed = 'RESOLVED_BATTER_NAME' THEN 1 END) > 0
+    THEN ROUND(COALESCE(SUM(d.runs_off_bat), 0)::numeric / COUNT(CASE WHEN d.player_dismissed = 'RESOLVED_BATTER_NAME' THEN 1 END), 2)
+    ELSE COALESCE(SUM(d.runs_off_bat), 0)::numeric
+  END as "average"
+FROM wpl_delivery d
+JOIN wpl_match m ON d.match_id = m.match_id
+WHERE d.striker = 'RESOLVED_BATTER_NAME' AND d.bowler = 'RESOLVED_BOWLER_NAME' AND d.innings <= 2;
+
+4. TEAM WIN-LOSS RECORDS:
+Example Query: "Team wins and losses in IPL"
+WITH delivery_std AS (
+  SELECT
+    d.*,
+    CASE
+      WHEN d.batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+      WHEN d.batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
+      WHEN d.batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
+      WHEN d.batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
+      ELSE d.batting_team
+    END AS std_batting_team
+  FROM wpl_delivery d
+  JOIN wpl_match m ON d.match_id = m.match_id
+  WHERE m.league = 'IPL' AND d.innings <= 2
+),
+runs_per_innings AS (
+  SELECT
+    match_id,
+    innings,
+    std_batting_team AS team,
+    SUM(runs_off_bat + extras) AS runs
+  FROM delivery_std
+  GROUP BY match_id, innings, std_batting_team
+),
+match_totals AS (
+  SELECT
+    r1.match_id,
+    r1.team AS team1,
+    r1.runs AS runs1,
+    r2.team AS team2,
+    r2.runs AS runs2
+  FROM runs_per_innings r1
+  JOIN runs_per_innings r2
+    ON r1.match_id = r2.match_id
+   AND r1.innings = 1
+   AND r2.innings = 2
+),
+winners AS (
+  SELECT
+    match_id,
+    CASE WHEN runs1 > runs2 THEN team1 ELSE team2 END AS winner,
+    CASE WHEN runs1 > runs2 THEN team2 ELSE team1 END AS loser,
+    CASE WHEN runs1 > runs2 THEN 'batting_first' ELSE 'batting_second' END AS win_type
+  FROM match_totals
+),
+teams AS (
+  SELECT match_id, team1 AS team FROM match_totals
+  UNION ALL
+  SELECT match_id, team2 AS team FROM match_totals
+)
+SELECT
+  t.team,
+  COUNT(*) AS matches_played,
+  COUNT(*) FILTER (WHERE t.team = w.winner) AS wins,
+  COUNT(*) FILTER (WHERE t.team <> w.winner) AS losses,
+  COUNT(*) FILTER (
+    WHERE t.team = w.winner AND w.win_type = 'batting_first'
+  ) AS wins_batting_first,
+  COUNT(*) FILTER (
+    WHERE t.team = w.winner AND w.win_type = 'batting_second'
+  ) AS wins_batting_second
+FROM teams t
+LEFT JOIN winners w USING (match_id)
+GROUP BY t.team
+ORDER BY wins DESC, matches_played DESC
+LIMIT 1000;
+
+5. TEAM BATTING AVERAGES:
+Example Query: "Team batting averages in IPL"
+WITH standardized_deliveries AS (
+  SELECT
+    CASE
+      WHEN d.batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+      WHEN d.batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
+      WHEN d.batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
+      WHEN d.batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
+      ELSE d.batting_team
+    END as team,
+    d.match_id,
+    d.innings,
+    d.runs_off_bat,
+    d.extras,
+    d.wides,
+    d.player_dismissed,
+    d.wicket_type
+  FROM wpl_delivery d
+  JOIN wpl_match m ON d.match_id = m.match_id
+  WHERE d.innings <= 2 AND m.league = 'IPL'
+),
+team_innings AS (
+  SELECT
+    team,
+    match_id,
+    innings,
+    SUM(runs_off_bat + extras) as innings_total_runs
+  FROM standardized_deliveries
+  GROUP BY team, match_id, innings
+),
+team_stats AS (
+  SELECT
+    team,
+    SUM(runs_off_bat) as total_runs,
+    COUNT(*) FILTER (WHERE wides = 0) as total_balls,
+    COUNT(*) FILTER (
+      WHERE player_dismissed IS NOT NULL
+      AND wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket', 'run out')
+    ) as total_dismissals
+  FROM standardized_deliveries
+  GROUP BY team
+)
+SELECT
+  ti.team,
+  COUNT(*) as total_innings,
+  ts.total_runs,
+  ts.total_balls,
+  ts.total_dismissals,
+  CASE
+    WHEN ts.total_dismissals > 0
+    THEN ts.total_runs::decimal / ts.total_dismissals
+    ELSE ts.total_runs::decimal / NULLIF(COUNT(*), 0)
+  END as batting_average,
+  CASE
+    WHEN ts.total_balls > 0
+    THEN (ts.total_runs::decimal / ts.total_balls) * 100
+    ELSE 0
+  END as strike_rate,
+  MAX(ti.innings_total_runs) as highest_score,
+  MIN(ti.innings_total_runs) as lowest_score
+FROM team_innings ti
+JOIN team_stats ts ON ti.team = ts.team
+GROUP BY ti.team, ts.total_runs, ts.total_balls, ts.total_dismissals
+ORDER BY batting_average DESC
+LIMIT 1000;
+
+6. BOWLING WICKET TYPES ANALYSIS:
+Example Query: "Breakdown of wicket types by bowlers"
+SELECT
+  d.bowler,
+  COUNT(*) FILTER (WHERE d.wicket_type = 'caught') as caught,
+  COUNT(*) FILTER (WHERE d.wicket_type = 'bowled') as bowled,
+  COUNT(*) FILTER (WHERE d.wicket_type = 'lbw') as lbw,
+  COUNT(*) FILTER (WHERE d.wicket_type = 'stumped') as stumped,
+  COUNT(*) FILTER (WHERE d.wicket_type = 'caught and bowled') as caught_and_bowled,
+  COUNT(*) FILTER (WHERE d.wicket_type = 'hit wicket') as hit_wicket,
+  COUNT(*) FILTER (
+    WHERE d.player_dismissed IS NOT NULL
+    AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
+  ) as total_wickets,
+  COUNT(DISTINCT d.match_id) as matches
+FROM wpl_delivery d
+JOIN wpl_match m ON d.match_id = m.match_id
+WHERE m.league = 'IPL' AND d.innings <= 2
+GROUP BY d.bowler
+HAVING COUNT(*) FILTER (
+  WHERE d.player_dismissed IS NOT NULL
+  AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
+) > 0
+ORDER BY total_wickets DESC
+LIMIT 1000;
+
+7. FALL OF WICKETS FOR A SPECIFIC MATCH:
+Example Query: "Fall of wickets for match ID 1082591"
+WITH wicket_details AS (
+  SELECT
+    d.match_id,
+    d.innings,
+    d.ball,
+    d.player_dismissed,
+    d.wicket_type,
+    d.bowler,
+    CASE
+      WHEN d.batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+      WHEN d.batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
+      WHEN d.batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
+      WHEN d.batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
+      ELSE d.batting_team
+    END as batting_team,
+    ROW_NUMBER() OVER (PARTITION BY d.match_id, d.innings ORDER BY d.ball) as wicket_number
+  FROM wpl_delivery d
+  JOIN wpl_match m ON d.match_id = m.match_id
+  WHERE d.player_dismissed IS NOT NULL
+    AND d.match_id = 1082591
+    AND m.league = 'IPL'
+    AND d.innings <= 2
+    AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket', 'run out', 'retired hurt', 'obstructing the field', 'hit the ball twice', 'handled the ball', 'timed out')
+),
+runs_at_wicket AS (
+  SELECT
+    wd.*,
+    SUM(d.runs_off_bat + d.extras) as runs_at_fall
+  FROM wicket_details wd
+  JOIN wpl_delivery d ON d.match_id = wd.match_id
+    AND d.innings = wd.innings
+    AND d.ball <= wd.ball
+  GROUP BY wd.match_id, wd.innings, wd.ball, wd.player_dismissed, wd.wicket_type, wd.bowler, wd.batting_team, wd.wicket_number
+)
+SELECT
+  innings,
+  batting_team,
+  ball,
+  player_dismissed,
+  wicket_type,
+  bowler,
+  wicket_number,
+  runs_at_fall
+FROM runs_at_wicket
+ORDER BY innings, wicket_number
+LIMIT 1000;
+
+8. ADVANCED STATS FOR SPECIFIC OVERS:
+Example Query: "Virat Kohli's stats in powerplay overs (1-6)"
+SELECT
+  d.striker,
+  SUM(d.runs_off_bat) as runs,
+  COUNT(*) FILTER (WHERE d.wides = 0) as balls_faced,
+  COUNT(*) FILTER (WHERE d.runs_off_bat = 4) as fours,
+  COUNT(*) FILTER (WHERE d.runs_off_bat = 6) as sixes,
+  COUNT(CASE WHEN d.player_dismissed = d.striker THEN 1 END) as dismissals
+FROM wpl_delivery d
+JOIN wpl_match m ON d.match_id = m.match_id
+WHERE d.striker = 'V Kohli'
+  AND m.league = 'IPL'
+  AND d.innings <= 2
+  AND d.ball < '6.0'
+GROUP BY d.striker
+LIMIT 1000;
+
+9. MATCH LISTINGS:
+Example Query: "List all IPL matches"
+WITH match_teams AS (
+  SELECT
+    m.match_id,
+    m.league,
+    m.season,
+    m.start_date,
+    m.venue,
+    STRING_AGG(DISTINCT
+      CASE
+        WHEN d.batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+        WHEN d.batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
+        WHEN d.batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
+        WHEN d.batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
+        ELSE d.batting_team
+      END, ' vs ' ORDER BY
+      CASE
+        WHEN d.batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+        WHEN d.batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
+        WHEN d.batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
+        WHEN d.batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
+        ELSE d.batting_team
+      END
+    ) as teams
+  FROM wpl_delivery d
+  JOIN wpl_match m ON d.match_id = m.match_id
+  WHERE m.league = 'IPL'
+  GROUP BY m.match_id, m.league, m.season, m.start_date, m.venue
+)
+SELECT
+  match_id,
+  league,
+  season,
+  start_date,
+  venue,
+  teams
+FROM match_teams
+ORDER BY start_date DESC
+LIMIT 1000;
+
+10. PLAYER LISTS:
+Example Query: "List all batters in IPL"
+SELECT DISTINCT striker as player_name
+FROM wpl_delivery d
+JOIN wpl_match m ON d.match_id = m.match_id
+WHERE m.league = 'IPL'
+ORDER BY striker
+LIMIT 1000;
+
+Example Query: "List all bowlers in IPL"
+SELECT DISTINCT bowler as player_name
+FROM wpl_delivery d
+JOIN wpl_match m ON d.match_id = m.match_id
+WHERE m.league = 'IPL'
+ORDER BY bowler
+LIMIT 1000;
+
 SUPER OVER / INNINGS HANDLING:
 - Standard matches have two innings (innings = 1 and innings = 2).
 - Super Overs are recorded as innings > 2 (e.g., 3, 4).
