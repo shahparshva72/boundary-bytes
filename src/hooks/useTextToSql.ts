@@ -12,7 +12,7 @@ interface TextToSqlSuccess {
   };
 }
 
-interface TextToSqlError {
+export interface TextToSqlError {
   success: false;
   error: string;
   code: 'VALIDATION_ERROR' | 'AI_ERROR' | 'SQL_ERROR' | 'DATABASE_ERROR' | 'RATE_LIMIT_ERROR';
@@ -33,7 +33,7 @@ export function useTextToSql() {
       let json: TextToSqlResponse;
       try {
         json = (await res.json()) as TextToSqlResponse;
-      } catch (e) {
+      } catch {
         throw new Error('Invalid server response');
       }
 

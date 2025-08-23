@@ -56,7 +56,10 @@ export default function TextToSqlPage() {
     }
 
     if (error) {
-      const structured = (error as any)?.success === false ? (error as any) : null;
+      const structured =
+        (error as unknown as import('@/hooks/useTextToSql').TextToSqlError)?.success === false
+          ? (error as import('@/hooks/useTextToSql').TextToSqlError)
+          : null;
       // Log the full error details for debugging but avoid surfacing internal / validation specifics to the user
       if (typeof window !== 'undefined') {
         // eslint-disable-next-line no-console
@@ -87,7 +90,7 @@ export default function TextToSqlPage() {
                   onClick={() => setQuestion(s)}
                   className="text-sm bg-white px-3 py-2 border-2 border-black font-bold hover:bg-[#4ECDC4] transition-colors"
                 >
-                  {s}
+                  {s.replace(/"/g, '&quot;')}
                 </button>
               ))}
             </div>
@@ -119,7 +122,7 @@ export default function TextToSqlPage() {
           </div>
           {data.metadata.rowCount === 0 ? (
             <p className="font-mono text-black">
-              No stats found – try another angle (e.g. "Top run scorers in WPL 2023").
+              No stats found – try another angle (e.g. &quot;Top run scorers in WPL 2023&quot;).
             </p>
           ) : (
             <div
@@ -246,7 +249,7 @@ export default function TextToSqlPage() {
                     onClick={() => setQuestion(query)}
                     className="text-left text-sm bg-white px-3 py-2 border-2 border-black font-mono hover:bg-[#FFFEE0] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-none shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all"
                   >
-                    "{query}"
+                    {`"${query.replace(/"/g, '&quot;')}"`}
                   </button>
                 ))}
               </div>
@@ -256,8 +259,8 @@ export default function TextToSqlPage() {
 
         <div className="bg-[#FFFEE0] border-2 border-black p-4">
           <p className="font-bold text-black text-sm text-center">
-            🏏 Pro Tip: Try asking about specific seasons (e.g., "IPL 2023"), player comparisons, or
-            team performance!
+            🏏 Pro Tip: Try asking about specific seasons (e.g., &quot;IPL 2023&quot;), player
+            comparisons, or team performance!
           </p>
         </div>
       </div>

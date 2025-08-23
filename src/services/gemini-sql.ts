@@ -248,7 +248,7 @@ export class GeminiSqlService {
    */
   async generateExecutableSql(
     question: string,
-    runQuery: (sql: string) => Promise<Array<Record<string, any>>>,
+    runQuery: (sql: string) => Promise<Array<Record<string, unknown>>>,
   ): Promise<string> {
     const queries = await this.generateSql(question);
     const built = await this.buildExecutableQueries(queries, runQuery);
@@ -367,7 +367,7 @@ export class GeminiSqlService {
    */
   async buildExecutableQueries(
     queries: string[],
-    runQuery: (sql: string) => Promise<Array<Record<string, any>>>,
+    runQuery: (sql: string) => Promise<Array<Record<string, unknown>>>,
   ): Promise<string[]> {
     if (!queries.length) throw new Error('No queries to build');
 
@@ -382,7 +382,7 @@ export class GeminiSqlService {
     let bowlerName: string | undefined;
 
     if (batterLookup) {
-      const rows = await runQuery(batterLookup);
+      const rows = (await runQuery(batterLookup)) as Array<{ player_name?: string }>;
       batterName = rows?.[0]?.player_name;
       if (!batterName) {
         throw new Error('No matching batter found for lookup query');
@@ -390,7 +390,7 @@ export class GeminiSqlService {
     }
 
     if (bowlerLookup) {
-      const rows = await runQuery(bowlerLookup);
+      const rows = (await runQuery(bowlerLookup)) as Array<{ player_name?: string }>;
       bowlerName = rows?.[0]?.player_name;
       if (!bowlerName) {
         throw new Error('No matching bowler found for lookup query');
