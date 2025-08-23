@@ -55,11 +55,18 @@ export default function TextToSqlPage() {
       );
     }
 
+    // Type guard function for better type safety
+    function isTextToSqlError(e: unknown): e is import('@/hooks/useTextToSql').TextToSqlError {
+      return (
+        typeof e === 'object' &&
+        e !== null &&
+        'success' in e &&
+        (e as { success: unknown }).success === false
+      );
+    }
+
     if (error) {
-      const structured =
-        (error as unknown as import('@/hooks/useTextToSql').TextToSqlError)?.success === false
-          ? (error as import('@/hooks/useTextToSql').TextToSqlError)
-          : null;
+      const structured = isTextToSqlError(error) ? error : null;
       // Log the full error details for debugging but avoid surfacing internal / validation specifics to the user
       if (typeof window !== 'undefined') {
         // eslint-disable-next-line no-console

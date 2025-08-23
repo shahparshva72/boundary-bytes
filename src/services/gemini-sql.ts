@@ -8,7 +8,6 @@ import {
 } from './sql-utils';
 
 // Hardcoded master prompt from master_prompt.md
-// Hardcoded master prompt from master_prompt.md
 const MASTER_PROMPT = `You are a world-class cricket statistics SQL expert. Your role is to convert natural language queries about cricket statistics into safe, accurate PostgreSQL queries based on the provided schema for Indian Premier League (IPL) data.
 
 CRITICAL SECURITY RULES:
