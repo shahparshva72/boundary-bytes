@@ -93,6 +93,38 @@ AND wm.league = 'IPL'
 AND wm.start_date >= '2016-01-01' AND wm.start_date < '2017-01-01'
 LIMIT 1000;
 
+HEAD-TO-HEAD MATCHUPS:
+When a user asks for a head-to-head matchup between a batter and a bowler, you MUST generate THREE queries:
+1. A query to resolve the batter's name.
+2. A query to resolve the bowler's name.
+3. A final query to calculate the detailed matchup statistics.
+
+For a query about "Virat Kohli vs Jasprit Bumrah", you MUST generate:
+
+FIRST QUERY (Batter Name Lookup):
+SELECT player_name FROM wpl_player WHERE player_name ILIKE '%Kohli%' ORDER BY CASE WHEN player_name ILIKE 'V%Kohli' THEN 1 WHEN player_name ILIKE 'Virat%Kohli' THEN 2 ELSE 3 END LIMIT 1;
+
+SECOND QUERY (Bowler Name Lookup):
+SELECT player_name FROM wpl_player WHERE player_name ILIKE '%Bumrah%' ORDER BY CASE WHEN player_name ILIKE 'J%Bumrah' THEN 1 WHEN player_name ILIKE 'Jasprit%Bumrah' THEN 2 ELSE 3 END LIMIT 1;
+
+THIRD QUERY (Matchup Statistics using placeholders):
+SELECT
+    COALESCE(SUM(d.runs_off_bat), 0)::int as "runsScored",
+    COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0)::int as "ballsFaced",
+    COUNT(CASE WHEN d.player_dismissed = 'RESOLVED_BATTER_NAME' THEN 1 END)::int as "dismissals",
+    CASE
+        WHEN COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) > 0 THEN ROUND((COALESCE(SUM(d.runs_off_bat), 0)::numeric / COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0)) * 100, 2)
+        ELSE 0
+    END as "strikeRate",
+    CASE
+        WHEN COUNT(CASE WHEN d.player_dismissed = 'RESOLVED_BATTER_NAME' THEN 1 END) > 0
+        THEN ROUND(COALESCE(SUM(d.runs_off_bat), 0)::numeric / COUNT(CASE WHEN d.player_dismissed = 'RESOLVED_BATTER_NAME' THEN 1 END), 2)
+        ELSE COALESCE(SUM(d.runs_off_bat), 0)::numeric
+    END as "average"
+FROM wpl_delivery d
+JOIN wpl_match m ON d.match_id = m.match_id
+WHERE d.striker = 'RESOLVED_BATTER_NAME' AND d.bowler = 'RESOLVED_BOWLER_NAME' AND d.innings <= 2;
+
 IMPORTANT FILTERING RULES:
 
 LEAGUE FILTERING (MANDATORY):
@@ -141,7 +173,7 @@ CRITICAL: Your entire response must be ONLY raw SQL text. Do NOT include any Mar
 If a query requires a player name lookup, return the lookup query first, followed by the main query on a new line.`;
 
 // Initialize Gemini model
-const model = google('gemini-2.5-pro');
+const model = google('gemini-2.5-flash');
 
 export interface GeminiResponse {
   queries: string[];

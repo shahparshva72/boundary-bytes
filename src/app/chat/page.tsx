@@ -175,6 +175,94 @@ export default function TextToSqlPage() {
     return null;
   };
 
+  const renderSuggestions = () => {
+    const suggestions = [
+      {
+        category: "Player Stats",
+        color: "bg-[#4ECDC4]",
+        queries: [
+          "Virat Kohli runs in IPL 2023",
+          "MS Dhoni strike rate in IPL",
+          "Jasprit Bumrah economy rate in IPL 2022",
+          "Rohit Sharma sixes in IPL",
+          "Smriti Mandhana runs in WPL 2023"
+        ]
+      },
+      {
+        category: "Leaderboards", 
+        color: "bg-[#FF9F1C]",
+        queries: [
+          "Top 10 run scorers in IPL",
+          "Top 5 wicket takers in WPL", 
+          "Most sixes in IPL 2023",
+          "Best economy rate in IPL 2022",
+          "Highest strike rates in WPL"
+        ]
+      },
+      {
+        category: "Team Performance",
+        color: "bg-[#FFED66]", 
+        queries: [
+          "Which team has most wins in IPL",
+          "Mumbai Indians vs Chennai Super Kings head to head",
+          "Royal Challengers Bangalore wins in IPL 2023",
+          "Team with most boundaries in IPL",
+          "Delhi Capitals vs Mumbai Indians comparison"
+        ]
+      },
+      {
+        category: "Head-to-Head",
+        color: "bg-[#FF5E5B]",
+        queries: [
+          "Virat Kohli vs Jasprit Bumrah matchup",
+          "MS Dhoni vs Rashid Khan stats", 
+          "Rohit Sharma vs Khaleel Ahmed stats",
+          "David Warner vs R Ashwin stats",
+          "Alyssa Healy batting record vs Renuka Singh"
+        ]
+      }
+    ];
+
+    return (
+      <div className="p-6 bg-white border-4 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-6">
+        <h3 className="text-2xl font-black text-black text-center">
+          💡 Query Suggestions
+        </h3>
+        <p className="font-mono text-black text-center text-sm">
+          Click any suggestion to try it out, or use them as inspiration for your own questions!
+        </p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {suggestions.map((section, sectionIdx) => (
+            <div key={sectionIdx} className="flex flex-col gap-3">
+              <h4 className={`${section.color} px-4 py-2 border-2 border-black font-black text-black text-center`}>
+                {section.category}
+              </h4>
+              <div className="flex flex-col gap-2">
+                {section.queries.map((query, queryIdx) => (
+                  <button
+                    key={queryIdx}
+                    type="button"
+                    onClick={() => setQuestion(query)}
+                    className="text-left text-sm bg-white px-3 py-2 border-2 border-black font-mono hover:bg-[#FFFEE0] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-none shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all"
+                  >
+                    "{query}"
+                  </button>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+        
+        <div className="bg-[#FFFEE0] border-2 border-black p-4">
+          <p className="font-bold text-black text-sm text-center">
+            🏏 Pro Tip: Try asking about specific seasons (e.g., "IPL 2023"), player comparisons, or team performance!
+          </p>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div className="min-h-screen bg-[#FFFEE0] p-4 sm:p-8 flex flex-col gap-8 text-black">
       <div className="max-w-4xl w-full mx-auto flex flex-col gap-10">
@@ -251,6 +339,8 @@ export default function TextToSqlPage() {
         </form>
 
         {renderResult()}
+
+        {renderSuggestions()}
       </div>
     </div>
   );
