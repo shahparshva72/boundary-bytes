@@ -732,7 +732,7 @@ export class GeminiSqlService {
       const rows = (await runQuery(batterLookup)) as Array<{ player_name?: string }>;
       batterName = rows?.[0]?.player_name;
       if (!batterName) {
-        throw new Error('No matching batter found for lookup query');
+        throw new Error('Player not found. Please check the name and try again.');
       }
     }
 
