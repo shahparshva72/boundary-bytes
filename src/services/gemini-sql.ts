@@ -90,7 +90,7 @@ LIMIT 1;
 
 SECOND QUERY (Statistics Query using placeholder):
 -- Example: Strike rate for Virat Kohli in the 2016 IPL season.
-SELECT (SUM(runs_off_bat)::DECIMAL * 100) / NULLIF(COUNT(CASE WHEN wides = 0 THEN 1 END), 0) AS strike_rate
+SELECT (SUM(runs_off_bat)::DECIMAL * 100) / NULLIF(COUNT(*) FILTER (WHERE wides = 0), 0) AS strike_rate
 FROM wpl_delivery wd
 JOIN wpl_match wm ON wd.match_id = wm.match_id
 WHERE striker = 'RESOLVED_PLAYER_NAME'
@@ -147,12 +147,12 @@ CRICKET DOMAIN KNOWLEDGE & SQL LOGIC:
 
 - Batting:
   - Runs: SUM(runs_off_bat).
-  - Balls Faced: Number of deliveries a batsman faces, excluding wides. Calculated as COUNT(id) WHERE wides = 0.
-  - Strike Rate: (Total Runs / Total Balls Faced) * 100. SQL: (SUM(runs_off_bat)::DECIMAL * 100) / NULLIF(COUNT(CASE WHEN wides = 0 THEN 1 END), 0).
-  - 4s: COUNT(id) WHERE runs_off_bat = 4.
-  - 6s: COUNT(id) WHERE runs_off_bat = 6.
-  - Boundaries: COUNT(id) WHERE runs_off_bat IN (4, 6).
-  - Dot Balls: COUNT(id) WHERE runs_off_bat = 0 AND extras = 0.
+  - Balls Faced: Deliveries a batter faces excluding wides only (no-balls DO count as a ball faced). SQL: COUNT(*) FILTER (WHERE wides = 0).
+  - Strike Rate: (Total Runs / Total Balls Faced) * 100. SQL: (SUM(runs_off_bat)::DECIMAL * 100) / NULLIF(COUNT(*) FILTER (WHERE wides = 0), 0).
+  - 4s: COUNT(*) FILTER (WHERE runs_off_bat = 4).
+  - 6s: COUNT(*) FILTER (WHERE runs_off_bat = 6).
+  - Boundaries: COUNT(*) FILTER (WHERE runs_off_bat IN (4, 6)).
+  - Dot Balls: COUNT(*) FILTER (WHERE runs_off_bat = 0 AND extras = 0).
 
 - Bowling:
   - Runs Conceded: SUM(runs_off_bat + wides + noballs).
@@ -162,9 +162,11 @@ CRICKET DOMAIN KNOWLEDGE & SQL LOGIC:
   - Maiden Over: An over where a bowler concedes zero runs (from bat or extras). Requires complex window functions to calculate.
   - Hat-trick: Three wickets in three consecutive balls by the same bowler in the same match.
 
-- Match Phases (T20):
-  - Powerplay: First 6 overs. SQL: WHERE ball < '6.0'. Note: use string comparison as ball is TEXT.
-  - Death Overs: Last 5 overs (16-20). SQL: WHERE ball >= '15.0'.
+- Match Phases (T20) using over index (not string comparison):
+  - Extract the over index from the ball value using: CAST(SPLIT_PART(d.ball, '.', 1) AS INTEGER).
+  - Powerplay: overs 0-5 (first 6 overs). Predicate: CAST(SPLIT_PART(d.ball, '.', 1) AS INTEGER) BETWEEN 0 AND 5.
+  - Middle Overs: overs 6-14. Predicate: CAST(SPLIT_PART(d.ball, '.', 1) AS INTEGER) BETWEEN 6 AND 14.
+  - Death Overs: overs 15-19 (last 5 overs). Predicate: CAST(SPLIT_PART(d.ball, '.', 1) AS INTEGER) BETWEEN 15 AND 19.
 
 COMPREHENSIVE EXAMPLES OF SUPPORTED STATISTICS:
 
@@ -177,7 +179,7 @@ SELECT
   COUNT(DISTINCT d.match_id) as matches,
   COUNT(*) FILTER (WHERE d.runs_off_bat = 4) as fours,
   COUNT(*) FILTER (WHERE d.runs_off_bat = 6) as sixes,
-  COUNT(*) FILTER (WHERE d.runs_off_bat = 0) as dot_balls
+  COUNT(*) FILTER (WHERE d.runs_off_bat = 0 AND d.extras = 0) as dot_balls
 FROM wpl_delivery d
 JOIN wpl_match m ON d.match_id = m.match_id
 WHERE m.league = 'IPL' AND m.start_date >= '2023-01-01' AND m.start_date < '2024-01-01' AND d.innings <= 2
@@ -213,10 +215,10 @@ Example Query: "Virat Kohli vs Jasprit Bumrah stats"
 (Requires player name resolution first, then:)
 SELECT
   COALESCE(SUM(d.runs_off_bat), 0)::int as "runsScored",
-  COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0)::int as "ballsFaced",
+  COUNT(*) FILTER (WHERE d.wides = 0)::int as "ballsFaced",
   COUNT(CASE WHEN d.player_dismissed = 'RESOLVED_BATTER_NAME' THEN 1 END)::int as "dismissals",
   CASE
-    WHEN COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) > 0 THEN ROUND((COALESCE(SUM(d.runs_off_bat), 0)::numeric / COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0)) * 100, 2)
+    WHEN COUNT(*) FILTER (WHERE d.wides = 0) > 0 THEN ROUND((COALESCE(SUM(d.runs_off_bat), 0)::numeric / COUNT(*) FILTER (WHERE d.wides = 0)) * 100, 2)
     ELSE 0
   END as "strikeRate",
   CASE
@@ -439,7 +441,7 @@ ORDER BY innings, wicket_number
 LIMIT 1000;
 
 8. ADVANCED STATS FOR SPECIFIC OVERS:
-Example Query: "Virat Kohli's stats in powerplay overs (1-6)"
+Example Query: "Virat Kohli's stats in powerplay overs (first 6 overs)"
 SELECT
   d.striker,
   SUM(d.runs_off_bat) as runs,
@@ -452,7 +454,7 @@ JOIN wpl_match m ON d.match_id = m.match_id
 WHERE d.striker = 'V Kohli'
   AND m.league = 'IPL'
   AND d.innings <= 2
-  AND d.ball < '6.0'
+  AND CAST(SPLIT_PART(d.ball, '.', 1) AS INTEGER) BETWEEN 0 AND 5
 GROUP BY d.striker
 LIMIT 1000;
 
