@@ -123,9 +123,9 @@ export default function TextToSqlPage() {
             <span className="bg-[#4ECDC4] px-4 py-2 border-2 border-black font-black text-black">
               Rows: {data.metadata.rowCount}
             </span>
-            <span className="bg-[#FFED66] px-4 py-2 border-2 border-black font-black text-black">
+            {/* <span className="bg-[#FFED66] px-4 py-2 border-2 border-black font-black text-black">
               Time: {data.metadata.executionTime}ms
-            </span>
+            </span> */}
           </div>
           {data.metadata.rowCount === 0 ? (
             <p className="font-mono text-black">
