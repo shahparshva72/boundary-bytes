@@ -56,7 +56,7 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
         {/* Header */}
         <div className="flex flex-col items-center gap-6 mb-4 w-full">
           <div className="bg-[#FF5E5B] p-8 rounded-none shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] border-4 border-black transition-all hover:translate-y-[2px] hover:translate-x-[2px] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] w-full max-w-2xl">
-            <h1 className="text-5xl md:text-6xl font-black text-black text-center tracking-tight">
+            <h1 className="text-4xl md:text-5xl font-black text-black text-center tracking-tight">
               BOUNDARY BYTES
             </h1>
           </div>
@@ -93,11 +93,11 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
         </div>
 
         {/* Match cards */}
-        <div className="w-full grid grid-cols-3 gap-12">
+        <div className="w-full grid grid-cols-6 gap-12">
           {matches.map((match: Match) => (
             <div
               key={match.id}
-              className="p-8 bg-white rounded-none border-4 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[4px] hover:translate-y-[4px] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all"
+              className="p-6 col-span-3 bg-white rounded-none border-4 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[4px] hover:translate-y-[4px] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all"
             >
               <div className="flex flex-col md:flex-row justify-between items-start gap-4 mb-6">
                 <div>

@@ -18,6 +18,12 @@
     "vercel-build": "prisma generate && prisma migrate deploy && next build",
     "prepare": "husky"
   },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --check",
+      "git add"
+    ]
+  },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
   },
@@ -49,6 +55,7 @@
     "eslint-config-next": "15.3.2",
     "husky": "^9.1.7",
     "prettier": "^3.6.2",
+    "lint-staged": "^14.0.0",
     "prisma": "^6.13.0",
     "tailwindcss": "^4",
     "tsx": "^4.19.4",
