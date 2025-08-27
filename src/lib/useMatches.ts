@@ -39,7 +39,7 @@ export function useMatches(page = 1, season?: string) {
     queryFn: async () => {
       const searchParams = new URLSearchParams({
         page: page.toString(),
-        limit: '5',
+        limit: '6',
       });
       if (season) searchParams.append('season', season);
 

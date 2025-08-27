@@ -40,6 +40,18 @@ export default function TextToSqlPage() {
     setTouched(false);
   };
 
+  // Formats any cell value to integer or two decimal places
+  const formatDisplayValue = (v: unknown): string => {
+    if (typeof v === 'number') {
+      return v % 1 === 0 ? v.toString() : v.toFixed(2);
+    } else if (!isNaN(Number(v as string))) {
+      const num = Number(v as string);
+      return num % 1 === 0 ? num.toString() : num.toFixed(2);
+    } else {
+      return String(v);
+    }
+  };
+
   const renderResult = () => {
     if (isPending) {
       return (
@@ -160,7 +172,7 @@ export default function TextToSqlPage() {
                           className="px-4 py-2 border-2 border-black font-mono text-sm text-black whitespace-nowrap max-w-[240px] overflow-hidden text-ellipsis"
                           title={String(v)}
                         >
-                          {String(v)}
+                          {formatDisplayValue(v)}
                         </td>
                       ))}
                     </tr>

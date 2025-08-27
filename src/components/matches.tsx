@@ -93,7 +93,7 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
         </div>
 
         {/* Match cards */}
-        <div className="w-full grid gap-12">
+        <div className="w-full grid grid-cols-3 gap-12">
           {matches.map((match: Match) => (
             <div
               key={match.id}

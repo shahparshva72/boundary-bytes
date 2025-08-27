@@ -76,8 +76,8 @@ export class SqlValidator {
       errors.push('Query contains dangerous keywords. Only SELECT statements are allowed.');
     }
 
-    // Check if query starts with SELECT
-    if (!normalizedSql.startsWith('SELECT')) {
+    // Check if query starts with SELECT or WITH
+    if (!(normalizedSql.startsWith('SELECT') || normalizedSql.startsWith('WITH'))) {
       errors.push('Only SELECT queries are allowed');
     }
 
@@ -123,14 +123,17 @@ export class SqlValidator {
     const errors: string[] = [];
     const warnings: string[] = [];
 
-    // Extract potential table names (basic regex approach)
-    // This is a simplified approach - in production you might want a proper SQL parser
+    const cteNames = Array.from(sql.matchAll(/\b([A-Za-z_"][A-Za-z0-9_".]*)\s+AS\s*\(/gi)).map((m) => (m[1] || '').replace(/"/g, '').split('.').pop()!.toLowerCase());
+    const cteSet = new Set(cteNames);
+
     const tableMatches = sql.match(/(?:FROM|JOIN)\s+(\w+)/gi);
 
     if (tableMatches) {
       for (const match of tableMatches) {
         const tableName = match.replace(/(?:FROM|JOIN)\s+/i, '').trim();
-        if (!this.isAllowedTable(tableName)) {
+        const base = tableName.includes('.') ? tableName.split('.')[tableName.split('.').length - 1] : tableName;
+        const baseLower = base.toLowerCase();
+        if (!(cteSet.has(baseLower) || this.isAllowedTable(baseLower))) {
           errors.push(
             `Table '${tableName}' is not allowed. Only WPL cricket tables are accessible.`,
           );
@@ -149,7 +152,9 @@ export class SqlValidator {
    * Checks if a table name is in the allowed list
    */
   isAllowedTable(tableName: string): boolean {
-    return ALLOWED_TABLES.includes(tableName.toLowerCase());
+    const cleaned = tableName.replace(/"/g, '');
+    const base = cleaned.includes('.') ? cleaned.split('.')[cleaned.split('.').length - 1] : cleaned;
+    return ALLOWED_TABLES.includes(base.toLowerCase());
   }
 
   /**

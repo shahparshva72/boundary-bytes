@@ -60,6 +60,13 @@ BATTING:
 - Dot Balls: COUNT(*) FILTER (WHERE runs_off_bat = 0 AND extras = 0)
 - Matches: COUNT(DISTINCT match_id)
 
+DUCKS AND SPECIAL DISMISSALS (PER BATTER-INNINGS):
+- Balls Faced: COUNT(*) FILTER (WHERE striker = batter AND wides = 0)
+- Dismissed: BOOL_OR(player_dismissed = striker)
+- Duck: For each (match_id, innings, striker as batter) group, WHERE dismissed AND SUM(runs_off_bat) = 0
+- Golden Duck: Duck AND Balls Faced = 1
+- Diamond Duck: Dismissed AND Balls Faced = 0 (often run out without facing; may require checking player_dismissed not appearing as striker)
+
 BOWLING:
 - Wickets: COUNT(*) FILTER (WHERE player_dismissed IS NOT NULL AND wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket'))
 - Runs Conceded: SUM(runs_off_bat + wides + noballs)
@@ -80,7 +87,7 @@ MATCH PHASES (T20):
 - Middle: overs 6-14  
 - Death: overs 15-19
 
-TEAM NAME STANDARDIZATION:
+TEAM NAME NORMALIZATION:
 Use CASE statements for team name variations:
 - 'Royal Challengers Bengaluru' → 'Royal Challengers Bangalore'
 - 'Delhi Daredevils' → 'Delhi Capitals'
@@ -104,6 +111,40 @@ GROUP BY bowler ORDER BY wickets DESC LIMIT 10;
 Player vs Bowler:
 SELECT SUM(runs_off_bat) as runs, COUNT(*) FILTER (WHERE wides = 0) as balls, COUNT(CASE WHEN player_dismissed = striker THEN 1 END) as dismissals
 FROM wpl_delivery d WHERE striker = 'RESOLVED_BATTER_NAME' AND bowler = 'RESOLVED_BOWLER_NAME' AND innings <= 2;
+  
+Duck Leaderboard (correct per match/innings counting):
+WITH batter_innings AS (
+  SELECT
+    d.match_id,
+    d.innings,
+    d.striker AS batter,
+    SUM(d.runs_off_bat) AS runs,
+    COUNT(*) FILTER (WHERE d.wides = 0) AS balls_faced,
+    BOOL_OR(d.player_dismissed = d.striker) AS dismissed
+  FROM wpl_delivery d
+  JOIN wpl_match m ON m.match_id = d.match_id
+  WHERE m.league = 'IPL' AND d.innings <= 2
+  GROUP BY d.match_id, d.innings, d.striker
+)
+SELECT batter AS striker, COUNT(*) AS ducks
+FROM batter_innings
+WHERE dismissed AND runs = 0
+GROUP BY batter
+ORDER BY ducks DESC
+LIMIT 10;
+  
+CRICKET TERMINOLOGY:
+- Duck: A batsman dismissed without scoring (0).
+- Golden Duck: Dismissed on the first ball faced.
+- Diamond Duck: Dismissed without facing a ball (e.g., run out first ball).
+- Pair: Dismissed twice without scoring in the match.
+- Maiden Over: An over with no runs conceded (runs_off_bat + extras = 0).
+- Hat-trick: Three wickets in three consecutive deliveries.
+- Fifer: A bowler taking five wickets in an innings.
+- Byes/Legbyes: Runs awarded to the batting team not credited to the batsman.
+- Net Run Rate: (Total runs scored/total overs faced) - (Total runs conceded/total overs bowled).
+- Required Run Rate: Runs needed per over to reach a target.
+- Synonyms: 4s (Boundaries), 6s (Sixes).
 
 RESPONSE FORMAT:
 Return JSON only: {"queries": ["SQL1", "SQL2"], "meta": {"requiresSequentialExecution": boolean, "type": "single|headToHead|team"}}`;
@@ -185,15 +226,14 @@ export class GeminiSqlService {
    * - Enforce SELECT-only
    * - Allowlist tables (wpl_*)
    * - Ensure LIMIT <= 1000 (inject if missing)
-   * Note: This is a lightweight guard. Replace/augment with AST-based validation in Phase 2.
    */
   private minimalValidateAndNormalize(sql: string): string {
     if (!sql || !sql.trim()) throw new Error('Empty SQL from AI');
 
     const s = sql.trim();
 
-    // Must start with SELECT
-    if (!/^select\s/i.test(s)) {
+    // Must start with SELECT or WITH (for CTEs)
+    if (!/^(select|with)\s/i.test(s)) {
       throw new Error('All queries must be SELECT statements');
     }
 
@@ -204,7 +244,10 @@ export class GeminiSqlService {
       throw new Error('Forbidden SQL keyword/function detected');
     }
 
-    // Allowlist: only wpl_* tables (basic regex check)
+    const cteNames = Array.from(s.matchAll(/\b([A-Za-z_"][A-Za-z0-9_".]*)\s+as\s*\(/gi)).map((m) => (m[1] || '').replace(/"/g, '').split('.').pop()!.toLowerCase());
+    const cteSet = new Set(cteNames);
+    
+    // Allowlist: only wpl_* tables or CTEs (basic regex check)
     const tableRefs = s.match(/\bfrom\b|\bjoin\b/gi)
       ? Array.from(s.matchAll(/\bfrom\s+([^\s;]+)|\bjoin\s+([^\s;]+)/gi))
       : [];
@@ -216,6 +259,7 @@ export class GeminiSqlService {
       if (/^\(/.test(first)) return false;
       // Permit schema-qualified like public.wpl_delivery
       const base = first.includes('.') ? first.split('.')[1] : first;
+      if (cteSet.has(base.toLowerCase())) return false;
       return !/^wpl_/.test(base);
     });
     if (invalidRef) {
@@ -225,15 +269,15 @@ export class GeminiSqlService {
     // Ensure LIMIT <= 1000 (inject if missing or if higher)
     const limitMatch = s.match(/\blimit\s+(\d+)/i);
     if (!limitMatch) {
-      // Inject LIMIT 1000 at the end (respect ending semicolon)
+      // Inject LIMIT 100 at the end (respect ending semicolon)
       const hasSemicolon = /;\s*$/.test(s);
-      const withLimit = s.replace(/;?\s*$/, '') + ' LIMIT 1000';
+      const withLimit = s.replace(/;?\s*$/, '') + ' LIMIT 100';
       return withLimit + (hasSemicolon ? ';' : '');
     } else {
       const current = parseInt(limitMatch[1], 10);
-      if (Number.isFinite(current) && current > 1000) {
-        // Lower the limit to 1000
-        return s.replace(/\blimit\s+\d+/i, 'LIMIT 1000');
+      if (Number.isFinite(current) && current > 100) {
+        // Lower the limit to 100
+        return s.replace(/\blimit\s+\d+/i, 'LIMIT 100');
       }
     }
 
