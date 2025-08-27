@@ -32,12 +32,12 @@ GLOBAL FILTER MACROS:
   {{LEAGUE_FILTER}}   -> m.league = 'IPL'         -- set when the question is about IPL
   {{DATE_FILTER}}     -> valid SQL predicate on m.start_date per the rules above
   {{INNINGS_FILTER}}  -> d.innings <= 2           -- regular play only (exclude Super Overs)
-  {{LIMIT_FILTER}}    -> LIMIT 1000               -- always enforce if missing
+  {{LIMIT_FILTER}}    -> LIMIT 20                  -- always enforce if missing
 
 SECURITY RULES (HARD REQUIREMENTS):
 1) Generate ONLY SELECT statements. No INSERT/UPDATE/DELETE/TRUNCATE/ALTER/DROP/CREATE.
 2) Only use these tables: wpl_match m, wpl_delivery d, wpl_match_info mi, wpl_player p.
-3) Enforce LIMIT ≤ 1000 if not present.
+3) Enforce LIMIT ≤ 20 if not present.
 4) No system catalogs, no volatile/dangerous functions.
 
 SCHEMA (COLUMNS):
@@ -210,7 +210,7 @@ Return JSON only:
 POST-GENERATION VALIDATION (MUST PASS):
 - Each SQL is a single SELECT.
 - Only tables {wpl_match, wpl_delivery, wpl_match_info, wpl_player} appear with allowed aliases {m,d,mi,p}.
-- LIMIT exists and ≤ 1000 (add LIMIT 1000 if missing).
+- LIMIT exists and ≤ 20 (add LIMIT 20 if missing).  
 - If batting-oriented, ensure strike_rate column exists.
 - If bowling-oriented, ensure economy_rate column exists.
 `;
@@ -337,15 +337,15 @@ export class GeminiSqlService {
     // Ensure LIMIT <= 1000 (inject if missing or if higher)
     const limitMatch = s.match(/\blimit\s+(\d+)/i);
     if (!limitMatch) {
-      // Inject LIMIT 100 at the end (respect ending semicolon)
+      // Inject LIMIT 20 at the end (respect ending semicolon)
       const hasSemicolon = /;\s*$/.test(s);
-      const withLimit = s.replace(/;?\s*$/, '') + ' LIMIT 100';
+      const withLimit = s.replace(/;?\s*$/, '') + ' LIMIT 20';
       return withLimit + (hasSemicolon ? ';' : '');
     } else {
       const current = parseInt(limitMatch[1], 10);
       if (Number.isFinite(current) && current > 100) {
         // Lower the limit to 100
-        return s.replace(/\blimit\s+\d+/i, 'LIMIT 100');
+        return s.replace(/\blimit\s+\d+/i, 'LIMIT 20');
       }
     }
 
