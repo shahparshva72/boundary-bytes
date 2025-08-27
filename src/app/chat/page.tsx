@@ -100,6 +100,13 @@ export default function TextToSqlPage() {
               Rate limit – give it a moment ⚡
             </span>
           )}
+          {structured?.tips && structured.tips.length > 0 && (
+            <ul className="list-disc list-inside bg-[#FFFEE0] border-2 border-black p-3 font-mono text-sm text-black">
+              {structured.tips.map((t: string, idx: number) => (
+                <li key={idx}>{t}</li>
+              ))}
+            </ul>
+          )}
           {structured?.suggestions && structured.suggestions.length > 0 && (
             <div className="flex flex-wrap gap-2 mt-2">
               {structured.suggestions.slice(0, 4).map((s: string, idx: number) => (

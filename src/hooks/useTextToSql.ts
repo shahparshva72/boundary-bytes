@@ -17,6 +17,7 @@ export interface TextToSqlError {
   error: string;
   code: 'VALIDATION_ERROR' | 'AI_ERROR' | 'SQL_ERROR' | 'DATABASE_ERROR' | 'RATE_LIMIT_ERROR';
   suggestions?: string[];
+  tips?: string[];
 }
 
 export type TextToSqlResponse = TextToSqlSuccess | TextToSqlError;
