@@ -123,7 +123,9 @@ export class SqlValidator {
     const errors: string[] = [];
     const warnings: string[] = [];
 
-    const cteNames = Array.from(sql.matchAll(/\b([A-Za-z_"][A-Za-z0-9_".]*)\s+AS\s*\(/gi)).map((m) => (m[1] || '').replace(/"/g, '').split('.').pop()!.toLowerCase());
+    const cteNames = Array.from(sql.matchAll(/\b([A-Za-z_"][A-Za-z0-9_".]*)\s+AS\s*\(/gi)).map(
+      (m) => (m[1] || '').replace(/"/g, '').split('.').pop()!.toLowerCase(),
+    );
     const cteSet = new Set(cteNames);
 
     const tableMatches = sql.match(/(?:FROM|JOIN)\s+(\w+)/gi);
@@ -131,7 +133,9 @@ export class SqlValidator {
     if (tableMatches) {
       for (const match of tableMatches) {
         const tableName = match.replace(/(?:FROM|JOIN)\s+/i, '').trim();
-        const base = tableName.includes('.') ? tableName.split('.')[tableName.split('.').length - 1] : tableName;
+        const base = tableName.includes('.')
+          ? tableName.split('.')[tableName.split('.').length - 1]
+          : tableName;
         const baseLower = base.toLowerCase();
         if (!(cteSet.has(baseLower) || this.isAllowedTable(baseLower))) {
           errors.push(
@@ -153,7 +157,9 @@ export class SqlValidator {
    */
   isAllowedTable(tableName: string): boolean {
     const cleaned = tableName.replace(/"/g, '');
-    const base = cleaned.includes('.') ? cleaned.split('.')[cleaned.split('.').length - 1] : cleaned;
+    const base = cleaned.includes('.')
+      ? cleaned.split('.')[cleaned.split('.').length - 1]
+      : cleaned;
     return ALLOWED_TABLES.includes(base.toLowerCase());
   }
 

@@ -244,9 +244,11 @@ export class GeminiSqlService {
       throw new Error('Forbidden SQL keyword/function detected');
     }
 
-    const cteNames = Array.from(s.matchAll(/\b([A-Za-z_"][A-Za-z0-9_".]*)\s+as\s*\(/gi)).map((m) => (m[1] || '').replace(/"/g, '').split('.').pop()!.toLowerCase());
+    const cteNames = Array.from(s.matchAll(/\b([A-Za-z_"][A-Za-z0-9_".]*)\s+as\s*\(/gi)).map((m) =>
+      (m[1] || '').replace(/"/g, '').split('.').pop()!.toLowerCase(),
+    );
     const cteSet = new Set(cteNames);
-    
+
     // Allowlist: only wpl_* tables or CTEs (basic regex check)
     const tableRefs = s.match(/\bfrom\b|\bjoin\b/gi)
       ? Array.from(s.matchAll(/\bfrom\s+([^\s;]+)|\bjoin\s+([^\s;]+)/gi))
