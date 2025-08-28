@@ -4,6 +4,7 @@ import { sqlValidator } from '@/lib/sql-validator';
 import { geminiSqlService } from '@/services/gemini-sql';
 import { cricketQueryService } from '@/services/cricket-query';
 import { responseFormatter } from '@/lib/response-formatter';
+import { normalizeTeamResults } from '@/lib/result-normalizer';
 import { logger } from '@/lib/logger';
 
 export async function POST(request: NextRequest) {
@@ -157,7 +158,16 @@ export async function POST(request: NextRequest) {
     }
 
     // Format the results
-    const formattedData = cricketQueryService.formatResults(queryResult);
+    let formattedData = cricketQueryService.formatResults(queryResult);
+    const lowerSql = (finalSql || '').toLowerCase();
+    if (
+      /\bmi\.winner\b/.test(lowerSql) ||
+      /\bd\.(batting_team|bowling_team)\b/.test(lowerSql) ||
+      /\bp\.team_name\b/.test(lowerSql) ||
+      /\bwins\b/.test(lowerSql)
+    ) {
+      formattedData = normalizeTeamResults(formattedData);
+    }
     const totalExecutionTime = Date.now() - startTime;
 
     // Return successful response

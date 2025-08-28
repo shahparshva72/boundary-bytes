@@ -46,8 +46,8 @@ SCHEMA (COLUMNS):
 - wpl_match_info mi(match_id, city, toss_winner, toss_decision, player_of_match, winner)
 - wpl_player p(match_id, team_name, player_name)
 
-TEAM NAME NORMALIZATION (OPTIONAL CTE):
-- Prefer a lightweight mapping CTE once per query rather than repeating CASE in many expressions:
+TEAM NAME NORMALIZATION (REQUIRED WHEN A TEAM NAME IS SELECTED OR GROUPED):
+Use a lightweight mapping CTE once per query rather than repeating CASE in many expressions.
 WITH team_map AS (
   SELECT *
   FROM (VALUES
@@ -57,7 +57,7 @@ WITH team_map AS (
     ('Rising Pune Supergiants',     'Rising Pune Supergiant')
   ) AS t(variant, canonical)
 )
--- Use via LEFT JOIN team_map to coalesce(team_map.canonical, d.batting_team) where needed.
+Join this CTE and always select COALESCE(tm.canonical, <team_field>) for any returned team name and GROUP BY the same expression, so variants are combined.
 
 MATCH PHASES (T20):
 - Over Number: CAST(SPLIT_PART(d.ball, '.', 1) AS INTEGER) AS over_number
@@ -90,6 +90,11 @@ BOWLING:
 TEAM STATS:
 - team_runs: SUM(d.runs_off_bat + d.extras) GROUP BY d.batting_team, d.match_id, d.innings
 - team_wickets: COUNT(*) FILTER (WHERE d.player_dismissed IS NOT NULL)
+
+WINS BY TEAM RULES:
+- When returning wins grouped by team from mi.winner, add mi.winner IS NOT NULL in WHERE.
+- Use COUNT(*) AS total_wins, not COUNT(mi.winner).
+- Normalize the returned team name with team_map: COALESCE(tm.canonical, mi.winner) AS winner.
 
 DUCKS (PER BATTER-INNINGS):
 - Use a batter-innings CTE that groups by (match_id, innings, striker) to detect runs=0 and dismissed, with balls_faced defined as COUNT(*) FILTER (WHERE d.wides = 0).
@@ -327,7 +332,9 @@ export class GeminiSqlService {
       if (/^\(/.test(first)) return false;
       // Permit schema-qualified like public.wpl_delivery
       const base = first.includes('.') ? first.split('.')[1] : first;
-      if (cteSet.has(base.toLowerCase())) return false;
+      const baseLower = base.toLowerCase();
+      if (cteSet.has(baseLower)) return false;
+      if (baseLower === 'team_map' || baseLower === 't' || baseLower === 'values') return false;
       return !/^wpl_/.test(base);
     });
     if (invalidRef) {
