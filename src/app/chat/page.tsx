@@ -323,7 +323,9 @@ export default function TextToSqlPage() {
                       <ul className="list-disc list-inside">
                         <li>This chat does not support very complex queries yet.</li>
                         <li>For matchup stats, try batter vs bowler format.</li>
-                        <li>Example: "Virat Kohli vs Jasprit Bumrah stats in IPL"</li>
+                        <li>
+                          Example: {'"'}Virat Kohli vs Jasprit Bumrah stats in IPL{'"'}
+                        </li>
                         <li>Stats for specific bowling styles are not yet supported.</li>
                       </ul>
                     </div>
