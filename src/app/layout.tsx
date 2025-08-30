@@ -4,16 +4,21 @@ import './globals.css';
 import { Providers } from './providers';
 import Header from '../components/Header';
 import AppWithLeagueSelection from '../components/AppWithLeagueSelection';
+import Footer from '../components/Footer';
 import { Analytics } from '@vercel/analytics/next';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
+  display: 'swap',
+  adjustFontFallback: false,
 });
 
 const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
   subsets: ['latin'],
+  display: 'swap',
+  adjustFontFallback: false,
 });
 
 export const metadata: Metadata = {
@@ -32,6 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {children}
           </AppWithLeagueSelection>
         </Providers>
+        <Footer />
         <Analytics />
       </body>
     </html>

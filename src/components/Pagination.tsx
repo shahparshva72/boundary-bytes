@@ -1,44 +1,110 @@
 'use client';
+
 interface PaginationProps {
   currentPage: number;
   totalPages: number;
   onPageChange: (page: number) => void;
+  // optional: how many pages to skip with double arrow
+  skipSize?: number;
 }
 
-export default function Pagination({ currentPage, totalPages, onPageChange }: PaginationProps) {
+function getPageItems(totalPages: number, currentPage: number): Array<number | 'dots'> {
+  const items: Array<number | 'dots'> = [];
+
+  if (totalPages <= 7) {
+    for (let i = 1; i <= totalPages; i++) items.push(i);
+    return items;
+  }
+
+  const left = Math.max(2, currentPage - 2);
+  const right = Math.min(totalPages - 1, currentPage + 2);
+
+  items.push(1);
+
+  if (left > 2) {
+    items.push('dots');
+  } else {
+    for (let i = 2; i < left; i++) items.push(i);
+  }
+
+  for (let i = left; i <= right; i++) items.push(i);
+
+  if (right < totalPages - 1) {
+    items.push('dots');
+  } else {
+    for (let i = right + 1; i < totalPages; i++) items.push(i);
+  }
+
+  items.push(totalPages);
+  return items;
+}
+
+export default function Pagination({
+  currentPage,
+  totalPages,
+  onPageChange,
+  skipSize = 10,
+}: PaginationProps) {
   const handlePageChange = (page: number) => {
-    if (page > 0 && page <= totalPages) {
+    if (page > 0 && page <= totalPages && page !== currentPage) {
       onPageChange(page);
     }
   };
 
+  const skipLeft = Math.max(1, currentPage - skipSize);
+  const skipRight = Math.min(totalPages, currentPage + skipSize);
+
   return (
-    <div className="flex justify-center items-center space-x-2 mt-4">
-      <div className="flex justify-center items-center space-x-4 p-4">
+    <div className="flex gap-4 justify-center flex-wrap items-center my-4">
+      {/* skip left */}
+      {currentPage === 1 || skipLeft === currentPage ? (
+        <span className="px-4 py-3 font-bold text-black opacity-50">««</span>
+      ) : (
         <button
-          onClick={() => handlePageChange(currentPage - 1)}
-          disabled={currentPage === 1}
-          className={`px-6 py-3 bg-[#FFED66] border-4 border-black rounded-none shadow-[4px_4px_0_#000]
-            hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all duration-150
-            disabled:bg-gray-400 disabled:opacity-50 disabled:cursor-not-allowed disabled:shadow-none disabled:translate-x-0 disabled:translate-y-0`}
+          onClick={() => handlePageChange(skipLeft)}
+          className="px-4 py-3 font-bold border-2 border-black text-black bg-white hover:bg-[#FF5E5B] transition-colors"
         >
-          <span className="text-xl font-black text-black uppercase tracking-wide">Previous</span>
+          ««
         </button>
-        <div className="px-6 py-3 bg-white border-4 border-black rounded-none">
-          <span className="text-xl font-black text-black uppercase tracking-wide">
-            Page {currentPage} of {totalPages}
-          </span>
-        </div>
+      )}
+
+      {getPageItems(totalPages, currentPage).map((item, idx) => {
+        if (item === 'dots') {
+          return (
+            <span key={`dots-${idx}`} className="px-4 py-3 font-bold text-black">
+              ...
+            </span>
+          );
+        }
+
+        const page = item as number;
+        const isActive = page === currentPage;
+        return (
+          <button
+            key={page}
+            onClick={() => handlePageChange(page)}
+            className={`px-6 py-3 font-bold border-2 border-black text-black ${
+              isActive
+                ? 'bg-[#FF5E5B] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
+                : 'bg-white hover:bg-[#FF5E5B] transition-colors'
+            }`}
+          >
+            {page}
+          </button>
+        );
+      })}
+
+      {/* skip right */}
+      {currentPage === totalPages || skipRight === currentPage ? (
+        <span className="px-4 py-3 font-bold text-black opacity-50">»»</span>
+      ) : (
         <button
-          onClick={() => handlePageChange(currentPage + 1)}
-          disabled={currentPage === totalPages}
-          className={`px-6 py-3 bg-[#FFED66] border-4 border-black rounded-none shadow-[4px_4px_0_#000]
-            hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all duration-150
-            disabled:bg-gray-400 disabled:opacity-50 disabled:cursor-not-allowed disabled:shadow-none disabled:translate-x-0 disabled:translate-y-0`}
+          onClick={() => handlePageChange(skipRight)}
+          className="px-4 py-3 font-bold border-2 border-black text-black bg-white hover:bg-[#FF5E5B] transition-colors"
         >
-          <span className="text-xl font-black text-black uppercase tracking-wide">Next</span>
+          »»
         </button>
-      </div>
+      )}
     </div>
   );
 }

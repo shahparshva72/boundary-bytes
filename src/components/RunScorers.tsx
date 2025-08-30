@@ -117,6 +117,7 @@ export default function RunScorers() {
             <Pagination
               currentPage={currentPage}
               totalPages={totalPages}
+              skipSize={10}
               onPageChange={setCurrentPage}
             />
           </div>

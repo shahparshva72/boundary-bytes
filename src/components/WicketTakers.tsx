@@ -110,6 +110,7 @@ export default function WicketTakers() {
             <Pagination
               currentPage={currentPage}
               totalPages={totalPages}
+              skipSize={10}
               onPageChange={setCurrentPage}
             />
           </div>
