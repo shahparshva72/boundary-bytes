@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useTextToSql } from '@/hooks/useTextToSql';
 import { MoonLoader } from 'react-spinners';
+import Tooltip from '@/components/Tooltip';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 
 export default function TextToSqlPage() {
@@ -309,9 +310,26 @@ export default function TextToSqlPage() {
               className="flex flex-col gap-4 p-6 md:p-8 bg-white border-2 border-black shadow-[4px_4px_0_#000] "
               aria-label="Cricket stats question form"
             >
-              <label htmlFor="question" className={`text-xl font-bold mb-2`}>
-                Your Question
-              </label>
+              <div className="flex items-center gap-2 mb-2">
+                <label htmlFor="question" className={`text-xl font-bold`}>
+                  Your Question
+                </label>
+                <Tooltip
+                  side="top"
+                  ariaLabel="Guidance for chat questions"
+                  content={
+                    <div className="space-y-1">
+                      <p className="font-semibold">Quick Info</p>
+                      <ul className="list-disc list-inside">
+                        <li>This chat does not support very complex queries yet.</li>
+                        <li>For matchup stats, try batter vs bowler format.</li>
+                        <li>Example: "Virat Kohli vs Jasprit Bumrah stats in IPL"</li>
+                        <li>Stats for specific bowling styles are not yet supported.</li>
+                      </ul>
+                    </div>
+                  }
+                />
+              </div>
               <textarea
                 id="question"
                 value={question}
