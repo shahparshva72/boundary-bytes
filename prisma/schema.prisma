@@ -25,6 +25,8 @@ model WplMatch {
 
   @@index([league])
   @@index([league, season])
+  @@index([startDate])
+  @@index([league, startDate])
   @@map("wpl_match")
 }
 
@@ -53,6 +55,20 @@ model WplDelivery {
 
   @@index([matchId])
   @@index([matchId, innings, ball])
+  @@index([striker])
+  @@index([bowler])
+  @@index([matchId, striker])
+  @@index([matchId, bowler])
+  @@index([battingTeam])
+  @@index([bowlingTeam])
+  @@index([matchId, innings])
+  @@index([playerDismissed])
+  @@index([striker, ball])
+  @@index([bowler, ball])
+  @@index([matchId, battingTeam])
+  @@index([matchId, bowlingTeam])
+  @@index([striker, matchId, innings])
+  @@index([bowler, matchId, innings])
   @@map("wpl_delivery")
 }
 
@@ -82,6 +98,8 @@ model WplMatchInfo {
 
   @@index([league])
   @@index([league, season])
+  @@index([winner])
+  @@index([date, winner])
   @@map("wpl_match_info")
 }
 
@@ -92,6 +110,7 @@ model WplTeam {
   teamName    String         @map("team_name")
   matchInfo   WplMatchInfo   @relation(fields: [matchId], references: [id])
 
+  @@index([matchId, teamName])
   @@map("wpl_team")
 }
 
@@ -103,6 +122,9 @@ model WplPlayer {
   playerName  String         @map("player_name")
   matchInfo   WplMatchInfo   @relation(fields: [matchId], references: [id])
 
+  @@index([matchId, teamName])
+  @@index([playerName])
+  @@index([teamName, playerName])
   @@map("wpl_player")
 }
 
@@ -114,6 +136,7 @@ model WplOfficial {
   officialName String        @map("official_name")
   matchInfo   WplMatchInfo   @relation(fields: [matchId], references: [id])
 
+  @@index([matchId, officialType])
   @@map("wpl_official")
 }
 
@@ -125,5 +148,7 @@ model WplPersonRegistry {
   registryId  String         @map("registry_id")
   matchInfo   WplMatchInfo   @relation(fields: [matchId], references: [id])
 
+  @@index([matchId, personName])
+  @@index([registryId])
   @@map("wpl_person_registry")
 }
