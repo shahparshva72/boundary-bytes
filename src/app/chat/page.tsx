@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useTextToSql } from '@/hooks/useTextToSql';
 import { MoonLoader } from 'react-spinners';
