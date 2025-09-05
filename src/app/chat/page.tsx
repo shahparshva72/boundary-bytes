@@ -1,25 +1,38 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { useTextToSql } from '@/hooks/useTextToSql';
 import { MoonLoader } from 'react-spinners';
 import Tooltip from '@/components/Tooltip';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 
+const cricketStatusMessages = [
+  'Taking guard and analyzing your request...',
+  'Consulting with the third umpire for the query...',
+  'Bowling the delivery to fetch your stats...',
+];
+
 export default function TextToSqlPage() {
   const { selectedLeague } = useLeagueContext();
-  const { mutate, data, error, isPending, reset } = useTextToSql();
+  const { mutate, data, error, isPending, streamMessage, reset } = useTextToSql();
   const [question, setQuestion] = useState('');
   const [touched, setTouched] = useState(false);
-  const [showSlowMsg, setShowSlowMsg] = useState(false);
+
+  const searchParams = useSearchParams();
+  const mode = searchParams.get('mode');
+
+  const [singleRandomMessage, setSingleRandomMessage] = useState('');
 
   useEffect(() => {
-    if (isPending) {
-      const id = setTimeout(() => setShowSlowMsg(true), 2000);
-      return () => clearTimeout(id);
+    if (isPending && !data && !error) {
+      if (mode !== 'cycle') {
+        setSingleRandomMessage(
+          cricketStatusMessages[Math.floor(Math.random() * cricketStatusMessages.length)],
+        );
+      }
     }
-    setShowSlowMsg(false);
-  }, [isPending]);
+  }, [isPending, data, error, mode]);
 
   const charLimit = 500;
   const validationRegex = /^[a-zA-Z0-9\s?.,'"-]+$/;
@@ -52,16 +65,20 @@ export default function TextToSqlPage() {
   };
 
   const renderResult = () => {
-    if (isPending) {
+    const stillPending = isPending && !data && !error;
+
+    if (stillPending) {
+      let message = 'Crunching the numbers...';
+      if (mode === 'cycle') {
+        message = streamMessage || message;
+      } else {
+        message = singleRandomMessage || message;
+      }
+
       return (
         <div className="flex flex-col items-center gap-4 p-8 bg-white border-2 border-black shadow-[4px_4px_0_#000] ">
           <MoonLoader color="#1a202c" size={48} />
-          <p className="font-bold text-black text-center text-lg">Crunching the numbers...</p>
-          {showSlowMsg && (
-            <p className="text-sm font-mono bg-[#FFED66] px-3 py-2 border-2 border-black ">
-              Big over of data – hang tight!
-            </p>
-          )}
+          <p className="font-bold text-black text-center text-lg">{message}</p>
         </div>
       );
     }
