@@ -55,8 +55,8 @@ export const LEAGUE_CONFIGS: Record<League, LeagueConfig> = {
     },
     stats: {
       teams: 8,
-      matches: 650,
-      players: 400,
+      matches: 618,
+      players: 512,
       seasons: ['2011-2025'],
     },
     icon: '🔥',
