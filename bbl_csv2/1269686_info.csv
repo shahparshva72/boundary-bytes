@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2021/22
+info,date,2022/01/14
+info,event,Big Bash League
+info,match_number,47
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Adelaide Strikers
+info,toss_decision,field
+info,player_of_match,Fawad Ahmed
+info,umpire,BNJ Oxenford
+info,umpire,MW Graham-Smith
+info,reserve_umpire,C Grant
+info,tv_umpire,D Taylor
+info,match_referee,RW Stratford
+info,winner,Adelaide Strikers
+info,winner_wickets,6
+info,player,Perth Scorchers,KR Patterson
+info,player,Perth Scorchers,NR Hobson
+info,player,Perth Scorchers,LJ Evans
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,CJM Sabburg
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,P Hatzoglou
+info,player,Perth Scorchers,DJM Moody
+info,player,Perth Scorchers,LR Morris
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,HJ Hunt
+info,player,Adelaide Strikers,IA Cockbain
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,HTRY Thornton
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,Fawad Ahmed
+info,player,Adelaide Strikers,HNA Conway
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Grant,876ed858
+info,registry,people,CJM Sabburg,9fc73711
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DJM Moody,e1a867df
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,HJ Hunt,62ef4abe
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HNA Conway,272fc5ad
+info,registry,people,HTRY Thornton,055be93a
+info,registry,people,IA Cockbain,542fd5a6
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,LJ Evans,1c513d54
+info,registry,people,LR Morris,b08e58e2
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,MW Short,a90e53ec
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RW Stratford,85489579
+info,registry,people,T Kelly,6ceb94d0

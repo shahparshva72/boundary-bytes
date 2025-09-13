@@ -1,0 +1,72 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2020/21
+info,date,2021/01/06
+info,event,Big Bash League
+info,match_number,30
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,MR Marsh
+info,umpire,DM Koch
+info,umpire,MW Graham-Smith
+info,reserve_umpire,NR Johnstone
+info,tv_umpire,SA Lightbody
+info,match_referee,SD Fry
+info,winner,Perth Scorchers
+info,winner_runs,86
+info,player,Perth Scorchers,JJ Roy
+info,player,Perth Scorchers,LS Livingstone
+info,player,Perth Scorchers,C Munro
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,Fawad Ahmed
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,CR Brathwaite
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,JM Bird
+info,player,Sydney Sixers,JT Ball
+info,player,Sydney Sixers,L Pope
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,C Munro,af2c687b
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,DM Koch,6d10c034
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JR Philippe,39086549
+info,registry,people,JT Ball,3d0ed2f9
+info,registry,people,L Pope,616a8149
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SNJ O'Keefe,3540beff

@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Melbourne Stars
+info,gender,male
+info,season,2023/24
+info,date,2023/12/28
+info,event,Big Bash League
+info,match_number,17
+info,venue,"Bellerive Oval, Hobart"
+info,city,Hobart
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,GJ Maxwell
+info,umpire,BC Treloar
+info,umpire,SJ Nogajski
+info,reserve_umpire,Simon Burns
+info,tv_umpire,P Wilson
+info,match_referee,RL Parry
+info,winner,Melbourne Stars
+info,winner_wickets,7
+info,method,D/L
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,M Wright
+info,player,Hobart Hurricanes,SR Hain
+info,player,Hobart Hurricanes,CJ Anderson
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,Nikhil Chaudhary
+info,player,Hobart Hurricanes,CJ Jordan
+info,player,Hobart Hurricanes,PG Dooley
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Melbourne Stars,SB Harper
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,Imad Wasim
+info,player,Melbourne Stars,J Merlo
+info,player,Melbourne Stars,Usama Mir
+info,player,Melbourne Stars,Haris Rauf
+info,player,Melbourne Stars,JS Paris
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,CJ Anderson,8abdf100
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Haris Rauf,24bb1c2f
+info,registry,people,Imad Wasim,9cb8d7a6
+info,registry,people,J Merlo,02ba80a0
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,M Wright,bd920a2c
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,Nikhil Chaudhary,1f84183a
+info,registry,people,P Wilson,68304a36
+info,registry,people,PG Dooley,5e3054d0
+info,registry,people,RL Parry,86d151dc
+info,registry,people,RP Meredith,64775749
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SR Hain,67b9536c
+info,registry,people,Simon Burns,c0741b3f
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,TH David,f1f99156
+info,registry,people,Usama Mir,6dd8b88c

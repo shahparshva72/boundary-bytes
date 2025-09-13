@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2016/17
+info,date,2017/01/06
+info,event,Big Bash League
+info,match_number,18
+info,venue,Adelaide Oval
+info,city,
+info,toss_winner,Adelaide Strikers
+info,toss_decision,field
+info,player_of_match,BR Dunk
+info,umpire,SD Fry
+info,umpire,MW Graham-Smith
+info,reserve_umpire,L Uthenwoldt
+info,tv_umpire,GA Abood
+info,match_referee,DJ Harper
+info,winner,Adelaide Strikers
+info,winner_wickets,5
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,BR Dunk
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,BJ Hodge
+info,player,Adelaide Strikers,KA Pollard
+info,player,Adelaide Strikers,JR Dean
+info,player,Adelaide Strikers,CJ Jordan
+info,player,Adelaide Strikers,TD Andrews
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,B Stanlake
+info,player,Adelaide Strikers,LN O'Connor
+info,player,Hobart Hurricanes,TD Paine
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,KC Sangakkara
+info,player,Hobart Hurricanes,GJ Bailey
+info,player,Hobart Hurricanes,DT Christian
+info,player,Hobart Hurricanes,JW Wells
+info,player,Hobart Hurricanes,BJ Webster
+info,player,Hobart Hurricanes,HP Kingston
+info,player,Hobart Hurricanes,CJ Boyce
+info,player,Hobart Hurricanes,CA Rose
+info,player,Hobart Hurricanes,SCJ Broad
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CA Rose,7517d134
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,HP Kingston,c89e4c9f
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JR Dean,97188292
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,L Uthenwoldt,021223ce
+info,registry,people,LN O'Connor,5456bd0c
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,SCJ Broad,eba6a852
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,TD Andrews,a0f612b6
+info,registry,people,TD Paine,5748e866
+info,registry,people,TM Head,12b610c2

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Perth Scorchers
+info,gender,male
+info,season,2017/18
+info,date,2018/01/11
+info,event,Big Bash League
+info,match_number,25
+info,venue,Sydney Showground Stadium
+info,city,Sydney
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,UT Khawaja
+info,umpire,PJ Gillespie
+info,umpire,AK Wilds
+info,reserve_umpire,Troy Penman
+info,tv_umpire,NR Johnstone
+info,match_referee,D Talalla
+info,winner,Sydney Thunder
+info,winner_runs,3
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,KR Patterson
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,BJ Rohrer
+info,player,Sydney Thunder,AJ Nair
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,JS Lenton
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,Fawad Ahmed
+info,player,Sydney Thunder,MJ McClenaghan
+info,player,Perth Scorchers,WG Bosisto
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,HWR Cartwright
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,TT Bresnan
+info,player,Perth Scorchers,M Kelly
+info,player,Perth Scorchers,JS Paris
+info,player,Perth Scorchers,MG Johnson
+info,registry,people,AC Agar,a2421394
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Nair,4ba2c04d
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JS Lenton,8820c9ef
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,M Kelly,68e26ec9
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,TT Bresnan,58043739
+info,registry,people,Troy Penman,0aa42c26
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,WG Bosisto,04ef663a

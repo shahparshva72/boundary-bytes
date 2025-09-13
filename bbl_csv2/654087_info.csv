@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2013/14
+info,date,2014/01/22
+info,event,Big Bash League
+info,venue,Adelaide Oval
+info,city,
+info,toss_winner,Melbourne Renegades
+info,toss_decision,bat
+info,player_of_match,DJ Bravo
+info,umpire,DB Mealey
+info,umpire,AP Ward
+info,reserve_umpire,L Uthenwoldt
+info,tv_umpire,P Wilson
+info,match_referee,PL Marshall
+info,winner,Melbourne Renegades
+info,winner_runs,1
+info,player,Adelaide Strikers,M Klinger
+info,player,Adelaide Strikers,AD Hales
+info,player,Adelaide Strikers,JR Dean
+info,player,Adelaide Strikers,NJ Reardon
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,J Botha
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,JM Holland
+info,player,Adelaide Strikers,SW Tait
+info,player,Melbourne Renegades,DJ Harris
+info,player,Melbourne Renegades,MW Hill
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,BJ Rohrer
+info,player,Melbourne Renegades,SF Mire
+info,player,Melbourne Renegades,PM Nevill
+info,player,Melbourne Renegades,PM Siddle
+info,player,Melbourne Renegades,AW O'Brien
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,MG Gale
+info,player,Melbourne Renegades,M Muralitharan
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AP Ward,196a3809
+info,registry,people,AW O'Brien,d29be810
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,DB Mealey,2199afd4
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Harris,39f82db3
+info,registry,people,J Botha,7c503806
+info,registry,people,JM Holland,70c4f525
+info,registry,people,JR Dean,97188292
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,L Uthenwoldt,021223ce
+info,registry,people,M Klinger,b970a03f
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MG Gale,9ef8ebb9
+info,registry,people,MG Neser,0164b064
+info,registry,people,MW Hill,1952e660
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,P Wilson,68304a36
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,SF Mire,3300d23c
+info,registry,people,SW Tait,addfb70e
+info,registry,people,TM Head,12b610c2
+info,registry,people,TP Ludeman,c3f7898b

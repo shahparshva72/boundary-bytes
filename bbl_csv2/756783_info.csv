@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2014/15
+info,date,2015/01/12
+info,event,Big Bash League
+info,venue,Adelaide Oval
+info,city,
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,umpire,SD Fry
+info,umpire,BNJ Oxenford
+info,reserve_umpire,C Thomas
+info,tv_umpire,MD Martell
+info,match_referee,PL Marshall
+info,outcome,no result
+info,player,Adelaide Strikers,CJ Simmons
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,JR Dean
+info,player,Adelaide Strikers,RN ten Doeschate
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,J Botha
+info,player,Adelaide Strikers,AI Ross
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,A Zampa
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,SW Tait
+info,player,Sydney Thunder,JJ Roy
+info,player,Sydney Thunder,JH Kallis
+info,player,Sydney Thunder,AC Blizzard
+info,player,Sydney Thunder,NM Hauritz
+info,player,Sydney Thunder,DP Hughes
+info,player,Sydney Thunder,CD Hartley
+info,player,Sydney Thunder,JK Lalor
+info,player,Sydney Thunder,IA Moran
+info,player,Sydney Thunder,AR Beadle
+info,player,Sydney Thunder,CP Tremain
+info,player,Sydney Thunder,GS Sandhu
+info,registry,people,A Zampa,14f96089
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AR Beadle,bb1c1950
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Thomas,68664af7
+info,registry,people,CD Hartley,9a06679d
+info,registry,people,CJ Simmons,0095ce38
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,IA Moran,5ce5204c
+info,registry,people,J Botha,7c503806
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JR Dean,97188292
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MD Martell,487c072e
+info,registry,people,NM Hauritz,8ea6e670
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SW Tait,addfb70e
+info,registry,people,TM Head,12b610c2
+info,registry,people,TP Ludeman,c3f7898b

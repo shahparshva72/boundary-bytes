@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Perth Scorchers
+info,gender,male
+info,season,2019/20
+info,date,2020/01/26
+info,event,Big Bash League
+info,match_number,54
+info,venue,Sydney Showground Stadium
+info,city,Sydney
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,AD Hales
+info,umpire,GJ Davidson
+info,umpire,SD Fry
+info,reserve_umpire,Berend du Plessis
+info,tv_umpire,GA Abood
+info,match_referee,SR Bernard
+info,winner,Sydney Thunder
+info,winner_wickets,7
+info,method,D/L
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,LS Livingstone
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,TH David
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,M Kelly
+info,player,Perth Scorchers,M Morkel
+info,player,Perth Scorchers,Fawad Ahmed
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,CH Morris
+info,player,Sydney Thunder,JD Cook
+info,player,Sydney Thunder,JS Lenton
+info,player,Sydney Thunder,AJ Nair
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,CP Tremain
+info,registry,people,AC Agar,a2421394
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Nair,4ba2c04d
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,Berend du Plessis,b0b8fec6
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CP Tremain,96824e68
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JD Cook,45f56920
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JS Lenton,8820c9ef
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Kelly,68e26ec9
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SR Bernard,800187dc
+info,registry,people,TH David,f1f99156
+info,registry,people,UT Khawaja,331ea488

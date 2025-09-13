@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Sydney Sixers
+info,gender,male
+info,season,2017/18
+info,date,2018/01/03
+info,event,Big Bash League
+info,match_number,16
+info,venue,"Simonds Stadium, South Geelong, Victoria"
+info,city,Geelong
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,AJ Finch
+info,umpire,GJ Davidson
+info,umpire,SD Fry
+info,reserve_umpire,D Brigham
+info,tv_umpire,SA Lightbody
+info,match_referee,RL Parry
+info,winner,Melbourne Renegades
+info,winner_wickets,8
+info,player,Sydney Sixers,JJ Roy
+info,player,Sydney Sixers,PM Nevill
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,SW Billings
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,DR Sams
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,MW Edwards
+info,player,Sydney Sixers,WER Somerville
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,BJ Hodge
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,TP Ludeman
+info,player,Melbourne Renegades,JD Wildermuth
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,GB Hogg
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CL White,d0513f63
+info,registry,people,D Brigham,464daf41
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,J Botha,7c503806
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MW Edwards,5f222a64
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SW Billings,c16d4035
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TP Ludeman,c3f7898b
+info,registry,people,WER Somerville,74a1c1e3

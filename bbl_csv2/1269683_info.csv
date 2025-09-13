@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2021/22
+info,date,2022/01/12
+info,event,Big Bash League
+info,match_number,44
+info,venue,"Brisbane Cricket Ground, Woolloongabba, Brisbane"
+info,city,Brisbane
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,Rashid Khan
+info,umpire,PJ Gillespie
+info,umpire,SA Lightbody
+info,reserve_umpire,D Brigham
+info,tv_umpire,NR Johnstone
+info,match_referee,Kent Hannam
+info,winner,Adelaide Strikers
+info,winner_runs,71
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,HJ Hunt
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,L Scott
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,HTRY Thornton
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,HNA Conway
+info,player,Brisbane Heat,NA McSweeney
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,LD Pfeffer
+info,player,Brisbane Heat,BM Duckett
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,JS Lehmann
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,W Prestwidge
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,player,Brisbane Heat,L Guthrie
+info,registry,people,BM Duckett,5f26f677
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,D Brigham,464daf41
+info,registry,people,HJ Hunt,62ef4abe
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HNA Conway,272fc5ad
+info,registry,people,HTRY Thornton,055be93a
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,JW Wells,8bdac857
+info,registry,people,Kent Hannam,8cc171e7
+info,registry,people,L Guthrie,b03303ca
+info,registry,people,L Scott,0ebb3444
+info,registry,people,LD Pfeffer,dd86ec0b
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MW Short,a90e53ec
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NA McSweeney,e94d2d50
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,W Prestwidge,bdf7a718
+info,registry,people,XC Bartlett,3b53243a

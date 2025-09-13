@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2021/22
+info,date,2022/01/08
+info,event,Big Bash League
+info,match_number,41
+info,venue,"Brisbane Cricket Ground, Woolloongabba, Brisbane"
+info,city,Brisbane
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,BR McDermott
+info,umpire,D Taylor
+info,umpire,GA Abood
+info,reserve_umpire,Steven Farrell
+info,tv_umpire,Troy Penman
+info,match_referee,Kepler Wessels
+info,winner,Hobart Hurricanes
+info,winner_wickets,8
+info,player,Brisbane Heat,JS Lehmann
+info,player,Brisbane Heat,J Clayton
+info,player,Brisbane Heat,LD Pfeffer
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,TLW Cooper
+info,player,Brisbane Heat,JP Wood
+info,player,Brisbane Heat,S McGiffin
+info,player,Brisbane Heat,W Prestwidge
+info,player,Brisbane Heat,PG Dooley
+info,player,Brisbane Heat,DMK Grant
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,TA Lammonby
+info,player,Hobart Hurricanes,MJ Owen
+info,player,Hobart Hurricanes,TS Rogers
+info,player,Hobart Hurricanes,W Sanders
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,S Lamichhane
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DMK Grant,5390f178
+info,registry,people,GA Abood,a4af5528
+info,registry,people,J Clayton,c56fc66d
+info,registry,people,JP Wood,3c3adfce
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,Kepler Wessels,3bedaff0
+info,registry,people,LD Pfeffer,dd86ec0b
+info,registry,people,MJ Owen,f2c936d7
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,PG Dooley,5e3054d0
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,S McGiffin,0dde7f22
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,Steven Farrell,512226fb
+info,registry,people,TA Lammonby,73f1f6b0
+info,registry,people,TH David,f1f99156
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,Troy Penman,0aa42c26
+info,registry,people,W Prestwidge,bdf7a718
+info,registry,people,W Sanders,068fe71c

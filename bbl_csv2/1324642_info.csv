@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Brisbane Heat
+info,gender,male
+info,season,2022/23
+info,date,2022/12/29
+info,event,Big Bash League
+info,match_number,19
+info,venue,Carrara Oval
+info,city,Carrara
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,DR Sams
+info,umpire,BNJ Oxenford
+info,umpire,SA Lightbody
+info,reserve_umpire,N James
+info,tv_umpire,DM Koch
+info,match_referee,Kepler Wessels
+info,winner,Sydney Thunder
+info,winner_runs,11
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,RR Rossouw
+info,player,Sydney Thunder,O Davies
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,B Doggett
+info,player,Sydney Thunder,Usman Qadir
+info,player,Brisbane Heat,C Munro
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,SW Billings
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,RA Whiteley
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Brisbane Heat,MJ Swepson
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,B Doggett,898e628d
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Munro,af2c687b
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DM Koch,6d10c034
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,Kepler Wessels,3bedaff0
+info,registry,people,M Bryant,f32012f4
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MT Steketee,903560ed
+info,registry,people,N James,3de4511d
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,O Davies,0ea54eca
+info,registry,people,RA Whiteley,d346d939
+info,registry,people,RR Rossouw,cad00a4d
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SW Billings,c16d4035
+info,registry,people,TW Gray,5e365152
+info,registry,people,Usman Qadir,33742f04

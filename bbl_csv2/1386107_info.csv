@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2023/24
+info,date,2023/12/26
+info,event,Big Bash League
+info,match_number,14
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,HWR Cartwright
+info,umpire,GA Abood
+info,umpire,P Wilson
+info,reserve_umpire,Sharad Patel
+info,tv_umpire,CA Polosak
+info,match_referee,RW Stratford
+info,winner,Melbourne Stars
+info,winner_wickets,4
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,JA Davies
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,JM Bird
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,SB Harper
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,Imad Wasim
+info,player,Melbourne Stars,J Merlo
+info,player,Melbourne Stars,Usama Mir
+info,player,Melbourne Stars,JS Paris
+info,player,Melbourne Stars,Haris Rauf
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Haris Rauf,24bb1c2f
+info,registry,people,Imad Wasim,9cb8d7a6
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,J Merlo,02ba80a0
+info,registry,people,JA Davies,5cdf8304
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,P Wilson,68304a36
+info,registry,people,RW Stratford,85489579
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,Sharad Patel,8e6dd3ba
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,Usama Mir,6dd8b88c

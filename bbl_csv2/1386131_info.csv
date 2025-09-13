@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Melbourne Stars
+info,gender,male
+info,season,2023/24
+info,date,2024/01/15
+info,event,Big Bash League
+info,match_number,38
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,NT Ellis
+info,umpire,BC Treloar
+info,umpire,SAJ Craig
+info,reserve_umpire,L McCabe
+info,tv_umpire,BNJ Oxenford
+info,match_referee,David Johnston
+info,winner,Hobart Hurricanes
+info,winner_runs,7
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,M Wright
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,Nikhil Chaudhary
+info,player,Hobart Hurricanes,CJ Jordan
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,MJ Owen
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,P Hatzoglou
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,DW Lawrence
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,Imad Wasim
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,JS Paris
+info,player,Melbourne Stars,SM Boland
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,DW Lawrence,4b685e2d
+info,registry,people,David Johnston,92cef862
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Imad Wasim,9cb8d7a6
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,L McCabe,1dbc4a64
+info,registry,people,M Wright,bd920a2c
+info,registry,people,MJ Owen,f2c936d7
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,Nikhil Chaudhary,1f84183a
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RP Meredith,64775749
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,TH David,f1f99156

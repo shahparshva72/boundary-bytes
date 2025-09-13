@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2013/14
+info,date,2014/01/09
+info,event,Big Bash League
+info,venue,Melbourne Cricket Ground
+info,city,
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,JP Faulkner
+info,umpire,MW Graham-Smith
+info,umpire,GC Joshua
+info,reserve_umpire,SAJ Craig
+info,tv_umpire,AJ Barrow
+info,match_referee,SR Bernard
+info,winner,Melbourne Stars
+info,winner_wickets,8
+info,player,Adelaide Strikers,M Klinger
+info,player,Adelaide Strikers,AD Hales
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,PJ Hughes
+info,player,Adelaide Strikers,NJ Reardon
+info,player,Adelaide Strikers,Shakib Al Hasan
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,JM Holland
+info,player,Adelaide Strikers,GD Putland
+info,player,Adelaide Strikers,SW Tait
+info,player,Melbourne Stars,CL White
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,MS Wade
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,BJ Hodge
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,JM Muirhead
+info,player,Melbourne Stars,JM Bird
+info,player,Melbourne Stars,SL Malinga
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GD Putland,9f54ae00
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Holland,70c4f525
+info,registry,people,JM Muirhead,52f08be8
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JW Hastings,012829ff
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MG Neser,0164b064
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,PJ Hughes,004c9e85
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SR Bernard,800187dc
+info,registry,people,SW Tait,addfb70e
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,TP Ludeman,c3f7898b

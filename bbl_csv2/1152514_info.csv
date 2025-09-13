@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Perth Scorchers
+info,gender,male
+info,season,2018/19
+info,date,2018/12/22
+info,event,Big Bash League
+info,match_number,4
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Sydney Sixers
+info,toss_decision,bat
+info,player_of_match,SNJ O'Keefe
+info,umpire,GJ Davidson
+info,umpire,MW Graham-Smith
+info,reserve_umpire,Ryan Nelson
+info,tv_umpire,GA Abood
+info,match_referee,SR Bernard
+info,winner,Sydney Sixers
+info,winner_runs,17
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,JL Denly
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,L Pope
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,DJ Willey
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,HWR Cartwright
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,WG Bosisto
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,DJ Willey,7f048519
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JL Denly,bdadf7da
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JR Philippe,39086549
+info,registry,people,L Pope,616a8149
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,Ryan Nelson,b51347e8
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SR Bernard,800187dc
+info,registry,people,TK Curran,e86754b2
+info,registry,people,WG Bosisto,04ef663a

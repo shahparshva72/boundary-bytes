@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2023/24
+info,date,2024/01/03
+info,event,Big Bash League
+info,match_number,24
+info,venue,"International Sports Stadium, Coffs Harbour"
+info,city,Coffs Harbour
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,PI Walter
+info,umpire,P Wilson
+info,umpire,SA Lightbody
+info,reserve_umpire,Troy Penman
+info,tv_umpire,D Taylor
+info,match_referee,Dave Gilbert
+info,winner,Brisbane Heat
+info,winner_runs,3
+info,method,D/L
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,KR Patterson
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,T Murphy
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Brisbane Heat,J Brown
+info,player,Brisbane Heat,C Munro
+info,player,Brisbane Heat,NA McSweeney
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,SW Billings
+info,player,Brisbane Heat,PI Walter
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,SH Johnson
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,MP Kuhnemann
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,C Munro,af2c687b
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,Dave Gilbert,aa782370
+info,registry,people,J Brown,647e7d44
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,NA McSweeney,e94d2d50
+info,registry,people,P Wilson,68304a36
+info,registry,people,PI Walter,57590dbb
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SH Johnson,83c3e8e3
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SW Billings,c16d4035
+info,registry,people,T Murphy,ac2e7ec0
+info,registry,people,TK Curran,e86754b2
+info,registry,people,Troy Penman,0aa42c26
+info,registry,people,XC Bartlett,3b53243a

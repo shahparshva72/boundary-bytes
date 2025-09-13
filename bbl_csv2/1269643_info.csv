@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2021/22
+info,date,2021/12/09
+info,event,Big Bash League
+info,match_number,6
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,WA Agar
+info,umpire,BC Treloar
+info,umpire,MW Graham-Smith
+info,reserve_umpire,Eloise Sheridan
+info,tv_umpire,PJ Gillespie
+info,match_referee,SJ Davis
+info,winner,Adelaide Strikers
+info,winner_runs,49
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,DR Drew
+info,player,Adelaide Strikers,L Scott
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,GHS Garton
+info,player,Adelaide Strikers,DJ Worrall
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,PM Siddle
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,J Seymour
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,J Merlo
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,JL Pattinson
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,RJW Topley
+info,player,Melbourne Renegades,Zahir Khan
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,DR Drew,88684a42
+info,registry,people,Eloise Sheridan,d8d43840
+info,registry,people,GHS Garton,be869ccf
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,J Merlo,02ba80a0
+info,registry,people,J Seymour,cb54a1d6
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,L Scott,0ebb3444
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,MW Short,a90e53ec
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RJW Topley,8db7f47f
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,WA Agar,15de1f5d
+info,registry,people,Zahir Khan,786b7fe8

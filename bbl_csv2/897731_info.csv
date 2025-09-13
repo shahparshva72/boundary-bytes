@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2015/16
+info,date,2016/01/04
+info,event,Big Bash League
+info,match_number,19
+info,venue,Bellerive Oval
+info,city,Hobart
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,CP Tremain
+info,umpire,SJ Nogajski
+info,umpire,P Wilson
+info,reserve_umpire,M Qureshi
+info,tv_umpire,GC Joshua
+info,match_referee,D Talalla
+info,winner,Melbourne Renegades
+info,winner_wickets,5
+info,player,Hobart Hurricanes,TD Paine
+info,player,Hobart Hurricanes,BR Dunk
+info,player,Hobart Hurricanes,KC Sangakkara
+info,player,Hobart Hurricanes,GJ Bailey
+info,player,Hobart Hurricanes,DT Christian
+info,player,Hobart Hurricanes,JW Wells
+info,player,Hobart Hurricanes,DJG Sammy
+info,player,Hobart Hurricanes,SL Rainbird
+info,player,Hobart Hurricanes,CJ Boyce
+info,player,Hobart Hurricanes,JK Reed
+info,player,Hobart Hurricanes,SW Tait
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,CH Gayle
+info,player,Melbourne Renegades,TM Beaton
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,MS Wade
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,CJ Gannon
+info,player,Melbourne Renegades,CP Tremain
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,XJ Doherty
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CJ Gannon,519c30cb
+info,registry,people,CL White,d0513f63
+info,registry,people,CP Tremain,96824e68
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJG Sammy,c03c6200
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,JK Reed,a8ad6e80
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,M Qureshi,cf34fbef
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,P Wilson,68304a36
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SL Rainbird,e7dd5eca
+info,registry,people,SW Tait,addfb70e
+info,registry,people,TD Paine,5748e866
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TM Beaton,f0ec8597
+info,registry,people,XJ Doherty,502b2c81

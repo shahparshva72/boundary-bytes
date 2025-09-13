@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2020/21
+info,date,2021/01/22
+info,event,Big Bash League
+info,match_number,47
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,JA Richardson
+info,umpire,PJ Gillespie
+info,umpire,SAJ Craig
+info,reserve_umpire,D Taylor
+info,tv_umpire,SJ Nogajski
+info,match_referee,Kent Hannam
+info,winner,Perth Scorchers
+info,winner_runs,22
+info,player,Perth Scorchers,JJ Roy
+info,player,Perth Scorchers,LS Livingstone
+info,player,Perth Scorchers,C Munro
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,Fawad Ahmed
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,DJ Malan
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,WG Jacks
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,SM Boland
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,S Lamichhane
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,C Munro,af2c687b
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DJ Malan,ad9c32a2
+info,registry,people,DJM Short,1a156c88
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,Kent Hannam,8cc171e7
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TH David,f1f99156
+info,registry,people,WG Jacks,9caf69a1

@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2011/12
+info,date,2011/12/18
+info,event,Big Bash League
+info,venue,Adelaide Oval
+info,city,
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,M Klinger
+info,umpire,AJ Barrow
+info,umpire,BNJ Oxenford
+info,tv_umpire,PR Reiffel
+info,match_referee,RW Stratford
+info,winner,Adelaide Strikers
+info,winner_runs,67
+info,player,Adelaide Strikers,DJ Harris
+info,player,Adelaide Strikers,M Klinger
+info,player,Adelaide Strikers,CJ Ferguson
+info,player,Adelaide Strikers,AC Blizzard
+info,player,Adelaide Strikers,AJ Crosthwaite
+info,player,Adelaide Strikers,CJ Borgas
+info,player,Adelaide Strikers,J Botha
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,AW O'Brien
+info,player,Adelaide Strikers,AC Thomas
+info,player,Adelaide Strikers,NM Lyon
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,MJ Buchanan
+info,player,Melbourne Renegades,GJ Maxwell
+info,player,Melbourne Renegades,Shahid Afridi
+info,player,Melbourne Renegades,AB McDonald
+info,player,Melbourne Renegades,NJ Reardon
+info,player,Melbourne Renegades,Abdul Razzaq
+info,player,Melbourne Renegades,GA Manou
+info,player,Melbourne Renegades,AK Heal
+info,player,Melbourne Renegades,DP Nannes
+info,player,Melbourne Renegades,SW Tait
+info,registry,people,AB McDonald,16043342
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AJ Crosthwaite,0c8836b6
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Heal,78ba5d1b
+info,registry,people,AW O'Brien,d29be810
+info,registry,people,Abdul Razzaq,390ff45b
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CJ Borgas,d901964b
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,DJ Harris,39f82db3
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,GA Manou,f58839ad
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,J Botha,7c503806
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MJ Buchanan,1e0d5c4d
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,RW Stratford,85489579
+info,registry,people,SW Tait,addfb70e
+info,registry,people,Shahid Afridi,0dc00542

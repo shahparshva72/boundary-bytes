@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2020/21
+info,date,2021/01/09
+info,event,Big Bash League
+info,match_number,34
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,JA Richardson
+info,umpire,DM Koch
+info,umpire,MW Graham-Smith
+info,reserve_umpire,NR Johnstone
+info,tv_umpire,SA Lightbody
+info,match_referee,SD Fry
+info,winner,Perth Scorchers
+info,winner_runs,17
+info,player,Perth Scorchers,JJ Roy
+info,player,Perth Scorchers,LS Livingstone
+info,player,Perth Scorchers,C Munro
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,Fawad Ahmed
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,SW Billings
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,BCJ Cutting
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,AF Milne
+info,player,Sydney Thunder,B Doggett
+info,player,Sydney Thunder,T Sangha
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AF Milne,350bb1b1
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,B Doggett,898e628d
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,C Munro,af2c687b
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,DM Koch,6d10c034
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SW Billings,c16d4035
+info,registry,people,T Sangha,52c952d9
+info,registry,people,UT Khawaja,331ea488

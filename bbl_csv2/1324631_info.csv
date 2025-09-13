@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Perth Scorchers
+info,gender,male
+info,season,2022/23
+info,date,2022/12/19
+info,event,Big Bash League
+info,match_number,8
+info,venue,"University of Tasmania Stadium, Launceston"
+info,city,Launceston
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,bat
+info,player_of_match,PG Dooley
+info,umpire,GJ Davidson
+info,umpire,MW Graham-Smith
+info,reserve_umpire,M Qureshi
+info,tv_umpire,CA Polosak
+info,match_referee,Kent Hannam
+info,winner,Hobart Hurricanes
+info,winner_runs,8
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,Shadab Khan
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,JDS Neesham
+info,player,Hobart Hurricanes,Asif Ali
+info,player,Hobart Hurricanes,JS Paris
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,PG Dooley
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Perth Scorchers,A Lyth
+info,player,Perth Scorchers,F du Plessis
+info,player,Perth Scorchers,NR Hobson
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,P Hatzoglou
+info,registry,people,A Lyth,70b8fd28
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,Asif Ali,0a4736eb
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,DJM Short,1a156c88
+info,registry,people,F du Plessis,3355b542
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JDS Neesham,9219eff0
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,Kent Hannam,8cc171e7
+info,registry,people,M Qureshi,cf34fbef
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,PG Dooley,5e3054d0
+info,registry,people,RP Meredith,64775749
+info,registry,people,Shadab Khan,9de62878
+info,registry,people,TH David,f1f99156

@@ -1,0 +1,72 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2020/21
+info,date,2021/01/21
+info,event,Big Bash League
+info,match_number,46
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,AT Carey
+info,umpire,GA Abood
+info,umpire,GJ Davidson
+info,reserve_umpire,SA Lightbody
+info,tv_umpire,NR Johnstone
+info,match_referee,SD Fry
+info,winner,Adelaide Strikers
+info,winner_runs,82
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,PD Salt
+info,player,Adelaide Strikers,RJ Gibson
+info,player,Adelaide Strikers,MT Renshaw
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,DR Briggs
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,LN O'Connor
+info,player,Brisbane Heat,M Morkel
+info,player,Brisbane Heat,M Labuschagne
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,JL Denly
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,L Gregory
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JD Wildermuth
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,XC Bartlett
+info,registry,people,AT Carey,69d03465
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,DR Briggs,f3abd0c9
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JL Denly,bdadf7da
+info,registry,people,L Gregory,06c2de82
+info,registry,people,LN O'Connor,5456bd0c
+info,registry,people,M Bryant,f32012f4
+info,registry,people,M Labuschagne,fa433be6
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MT Steketee,903560ed
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RJ Gibson,50636767
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,TM Head,12b610c2
+info,registry,people,WA Agar,15de1f5d
+info,registry,people,XC Bartlett,3b53243a

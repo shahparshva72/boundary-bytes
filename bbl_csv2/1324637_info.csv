@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2022/23
+info,date,2022/12/24
+info,event,Big Bash League
+info,match_number,14
+info,venue,"Bellerive Oval, Hobart"
+info,city,Hobart
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,bat
+info,player_of_match,RP Meredith
+info,umpire,SJ Nogajski
+info,umpire,SAJ Craig
+info,reserve_umpire,M Qureshi
+info,tv_umpire,MW Graham-Smith
+info,match_referee,David Johnston
+info,winner,Hobart Hurricanes
+info,winner_runs,8
+info,player,Hobart Hurricanes,JDS Neesham
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,Shadab Khan
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,TD Paine
+info,player,Hobart Hurricanes,Asif Ali
+info,player,Hobart Hurricanes,JS Paris
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,PG Dooley
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Melbourne Renegades,NJ Maddinson
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,JW Wells
+info,player,Melbourne Renegades,AD Russell
+info,player,Melbourne Renegades,AJ Hosein
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,TS Rogers
+info,player,Melbourne Renegades,Mujeeb Ur Rahman
+info,player,Melbourne Renegades,DJM Moody
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Hosein,4d7f517e
+info,registry,people,Asif Ali,0a4736eb
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,DJM Moody,e1a867df
+info,registry,people,DJM Short,1a156c88
+info,registry,people,David Johnston,92cef862
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,JDS Neesham,9219eff0
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,JW Wells,8bdac857
+info,registry,people,M Qureshi,cf34fbef
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,PG Dooley,5e3054d0
+info,registry,people,RP Meredith,64775749
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,Shadab Khan,9de62878
+info,registry,people,TD Paine,5748e866
+info,registry,people,TH David,f1f99156
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,W Sutherland,bc2d4f2e

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Brisbane Heat
+info,gender,male
+info,season,2015/16
+info,date,2016/01/14
+info,event,Big Bash League
+info,match_number,29
+info,venue,Melbourne Cricket Ground
+info,city,
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,S Badree
+info,umpire,GJ Davidson
+info,umpire,SJ Nogajski
+info,reserve_umpire,AJ Sammartino
+info,tv_umpire,AJ Barrow
+info,match_referee,D Talalla
+info,winner,Brisbane Heat
+info,winner_runs,56
+info,player,Brisbane Heat,LMP Simmons
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,NJ Reardon
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JR Hopes
+info,player,Brisbane Heat,JK Lalor
+info,player,Brisbane Heat,AL Fekete
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,S Badree
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,BW Hilfenhaus
+info,player,Melbourne Stars,DJ Worrall
+info,player,Melbourne Stars,MA Beer
+info,registry,people,A Zampa,14f96089
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AJ Sammartino,284d6015
+info,registry,people,AL Fekete,029c4618
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JR Hopes,2498e163
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,LMP Simmons,89f64c19
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,S Badree,76388dc8
+info,registry,people,SJ Nogajski,9b3f9323

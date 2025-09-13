@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Perth Scorchers
+info,gender,male
+info,season,2019/20
+info,date,2019/12/18
+info,event,Big Bash League
+info,match_number,2
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,JR Philippe
+info,umpire,PJ Gillespie
+info,umpire,SD Fry
+info,reserve_umpire,BC Treloar
+info,tv_umpire,JD Ward
+info,match_referee,PL Marshall
+info,winner,Sydney Sixers
+info,winner_wickets,8
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,LS Livingstone
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,C Green
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,CJ Jordan
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,M Kelly
+info,player,Perth Scorchers,Fawad Ahmed
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,BAD Manenti
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,BAD Manenti,ab21795b
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,C Green,eaa76d3c
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,H Kerr,f422728b
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JD Ward,511299c1
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JR Philippe,39086549
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Kelly,68e26ec9
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,TK Curran,e86754b2

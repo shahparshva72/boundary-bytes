@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Brisbane Heat
+info,gender,male
+info,season,2017/18
+info,date,2017/12/23
+info,event,Big Bash League
+info,match_number,6
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,JD Wildermuth
+info,umpire,P Wilson
+info,umpire,JD Ward
+info,reserve_umpire,S Brne
+info,tv_umpire,SAJ Craig
+info,match_referee,RW Stratford
+info,winner,Melbourne Renegades
+info,winner_wickets,7
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,M Labuschagne
+info,player,Brisbane Heat,AI Ross
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,Shadab Khan
+info,player,Brisbane Heat,JK Lalor
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,B Doggett
+info,player,Brisbane Heat,MJ Swepson
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,BJ Hodge
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,TP Ludeman
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,GB Hogg
+info,player,Melbourne Renegades,JD Wildermuth
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,B Doggett,898e628d
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,JD Ward,511299c1
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,M Labuschagne,fa433be6
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MT Steketee,903560ed
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,P Wilson,68304a36
+info,registry,people,RW Stratford,85489579
+info,registry,people,S Brne,f552dfcb
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,Shadab Khan,9de62878
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TP Ludeman,c3f7898b

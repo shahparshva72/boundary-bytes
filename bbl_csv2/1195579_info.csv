@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2019/20
+info,date,2019/12/21
+info,event,Big Bash League
+info,match_number,7
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,MR Marsh
+info,umpire,GA Abood
+info,umpire,SAJ Craig
+info,reserve_umpire,T Steenholdt
+info,tv_umpire,SD Fry
+info,match_referee,PL Marshall
+info,winner,Perth Scorchers
+info,winner_runs,11
+info,player,Perth Scorchers,LS Livingstone
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,C Green
+info,player,Perth Scorchers,CJ Jordan
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,JS Paris
+info,player,Perth Scorchers,Fawad Ahmed
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,DT Christian
+info,player,Melbourne Renegades,JD Wildermuth
+info,player,Melbourne Renegades,CJ Boyce
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,RJ Gleeson
+info,player,Melbourne Renegades,HF Gurney
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,C Green,eaa76d3c
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GA Abood,a4af5528
+info,registry,people,HF Gurney,e412cb64
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,RJ Gleeson,402f8494
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,T Steenholdt,715959cd
+info,registry,people,TLW Cooper,2318ba22

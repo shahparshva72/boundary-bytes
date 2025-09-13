@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Sydney Sixers
+info,gender,male
+info,season,2022/23
+info,date,2023/01/08
+info,event,Big Bash League
+info,match_number,34
+info,venue,Sydney Showground Stadium
+info,city,Sydney
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,SA Abbott
+info,umpire,PJ Gillespie
+info,umpire,SAJ Craig
+info,reserve_umpire,Bede Sajowitz
+info,tv_umpire,GJ Davidson
+info,match_referee,Dave Gilbert
+info,winner,Sydney Sixers
+info,winner_wickets,7
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,SM Whiteman
+info,player,Sydney Thunder,O Davies
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,BCJ Cutting
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,B Doggett
+info,player,Sydney Thunder,Usman Qadir
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,KR Patterson
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,CJ Jordan
+info,player,Sydney Sixers,T Murphy
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,B Doggett,898e628d
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,Bede Sajowitz,14fb95ae
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,Dave Gilbert,aa782370
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,H Kerr,f422728b
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,O Davies,0ea54eca
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,T Murphy,ac2e7ec0
+info,registry,people,Usman Qadir,33742f04

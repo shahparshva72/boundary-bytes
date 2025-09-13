@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Sydney Thunder
+info,gender,male
+info,season,2015/16
+info,date,2016/01/03
+info,event,Big Bash League
+info,match_number,18
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,CA Lynn
+info,umpire,SD Fry
+info,umpire,MW Graham-Smith
+info,reserve_umpire,MS Branch
+info,tv_umpire,GA Abood
+info,match_referee,PL Marshall
+info,winner,Brisbane Heat
+info,winner_wickets,6
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,LMP Simmons
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,NJ Reardon
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,JR Hopes
+info,player,Brisbane Heat,JS Floros
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,JK Lalor
+info,player,Brisbane Heat,S Badree
+info,player,Sydney Thunder,JH Kallis
+info,player,Sydney Thunder,AC Blizzard
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,MEK Hussey
+info,player,Sydney Thunder,AD Russell
+info,player,Sydney Thunder,BJ Rohrer
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,CD Hartley
+info,player,Sydney Thunder,CJ McKay
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,Fawad Ahmed
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AD Russell,bbd41817
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CD Hartley,9a06679d
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CJ McKay,94eac556
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JR Hopes,2498e163
+info,registry,people,JS Floros,79765f6f
+info,registry,people,LMP Simmons,89f64c19
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MS Branch,6f06b264
+info,registry,people,MT Steketee,903560ed
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,S Badree,76388dc8
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,SR Watson,4329fbb5

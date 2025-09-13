@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2015/16
+info,date,2016/01/02
+info,event,Big Bash League
+info,match_number,16
+info,venue,Melbourne Cricket Ground
+info,city,
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,LJ Wright
+info,umpire,SAJ Craig
+info,umpire,SJ Nogajski
+info,reserve_umpire,D Ireland
+info,tv_umpire,P Wilson
+info,match_referee,RW Stratford
+info,winner,Melbourne Stars
+info,winner_wickets,7
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,CH Gayle
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,MS Wade
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,TM Beaton
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,CJ Gannon
+info,player,Melbourne Renegades,CP Tremain
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,XJ Doherty
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,BW Hilfenhaus
+info,player,Melbourne Stars,MA Beer
+info,registry,people,A Zampa,14f96089
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Gannon,519c30cb
+info,registry,people,CL White,d0513f63
+info,registry,people,CP Tremain,96824e68
+info,registry,people,D Ireland,9b4fc7b9
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JW Hastings,012829ff
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,P Wilson,68304a36
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RW Stratford,85489579
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TM Beaton,f0ec8597
+info,registry,people,XJ Doherty,502b2c81

@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Sydney Thunder
+info,gender,male
+info,season,2016/17
+info,date,2016/12/22
+info,event,Big Bash League
+info,match_number,3
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,AJ Finch
+info,umpire,GA Abood
+info,umpire,MW Graham-Smith
+info,reserve_umpire,S Brne
+info,tv_umpire,SD Fry
+info,match_referee,DJ Harper
+info,winner,Melbourne Renegades
+info,winner_runs,49
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,CJ Ferguson
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,PM Nevill
+info,player,Melbourne Renegades,CP Tremain
+info,player,Melbourne Renegades,SP Narine
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,GB Hogg
+info,player,Sydney Thunder,KR Patterson
+info,player,Sydney Thunder,RJ Gibson
+info,player,Sydney Thunder,EJG Morgan
+info,player,Sydney Thunder,BJ Rohrer
+info,player,Sydney Thunder,AD Russell
+info,player,Sydney Thunder,PJ Cummins
+info,player,Sydney Thunder,AJ Nair
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,JR Doran
+info,player,Sydney Thunder,CJ McKay
+info,player,Sydney Thunder,Fawad Ahmed
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Nair,4ba2c04d
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CJ McKay,94eac556
+info,registry,people,CL White,d0513f63
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,JR Doran,9cebb612
+info,registry,people,K White,d60a26db
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,RJ Gibson,50636767
+info,registry,people,S Brne,f552dfcb
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SP Narine,9d430b40
+info,registry,people,TLW Cooper,2318ba22

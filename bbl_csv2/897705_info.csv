@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2015/16
+info,date,2015/12/21
+info,event,Big Bash League
+info,match_number,6
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,AU Rashid
+info,umpire,GA Abood
+info,umpire,MD Martell
+info,reserve_umpire,NR Johnstone
+info,tv_umpire,GC Joshua
+info,match_referee,RW Stratford
+info,winner,Adelaide Strikers
+info,winner_wickets,4
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,CJ Simmons
+info,player,Adelaide Strikers,DPMD Jayawardene
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,BJ Hodge
+info,player,Adelaide Strikers,AI Ross
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,AU Rashid
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,JM Holland
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,MA Carberry
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,DJ Willey
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,JS Paris
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,GB Hogg
+info,registry,people,AC Agar,a2421394
+info,registry,people,AC Voges,864c199e
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AU Rashid,249d60c9
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CJ Simmons,0095ce38
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,DJ Willey,7f048519
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,JM Holland,70c4f525
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MA Carberry,8305580c
+info,registry,people,MD Martell,487c072e
+info,registry,people,MG Neser,0164b064
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,RW Stratford,85489579
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,TM Head,12b610c2
+info,registry,people,TP Ludeman,c3f7898b

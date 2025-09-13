@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2018/19
+info,date,2019/01/20
+info,event,Big Bash League
+info,match_number,36
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,JM Vince
+info,umpire,JD Ward
+info,umpire,SAJ Craig
+info,reserve_umpire,BC Treloar
+info,tv_umpire,CA Polosak
+info,match_referee,RW Stratford
+info,winner,Sydney Sixers
+info,winner_runs,79
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,L Pope
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,AI Ross
+info,player,Brisbane Heat,JA Prestwidge
+info,player,Brisbane Heat,JK Lalor
+info,player,Brisbane Heat,B Doggett
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,B Doggett,898e628d
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,JA Prestwidge,5f317fd4
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JD Ward,511299c1
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,L Pope,616a8149
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,RW Stratford,85489579
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,TK Curran,e86754b2

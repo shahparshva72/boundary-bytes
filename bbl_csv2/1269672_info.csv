@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2021/22
+info,date,2022/01/05
+info,event,Big Bash League
+info,match_number,35
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Adelaide Strikers
+info,toss_decision,field
+info,player_of_match,MW Short
+info,umpire,PJ Gillespie
+info,umpire,AK Wilds
+info,reserve_umpire,D Bhatt
+info,tv_umpire,SJ Nogajski
+info,match_referee,SJ Davis
+info,winner,Adelaide Strikers
+info,winner_wickets,7
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,M Wright
+info,player,Hobart Hurricanes,MJ Owen
+info,player,Hobart Hurricanes,TS Rogers
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,S Lamichhane
+info,player,Hobart Hurricanes,W Parker
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,HJ Hunt
+info,player,Adelaide Strikers,MT Renshaw
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,HNA Conway
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,PM Siddle
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,D Bhatt,b34f743c
+info,registry,people,DJM Short,1a156c88
+info,registry,people,HJ Hunt,62ef4abe
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HNA Conway,272fc5ad
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JW Wells,8bdac857
+info,registry,people,M Wright,bd920a2c
+info,registry,people,MJ Owen,f2c936d7
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MW Short,a90e53ec
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RP Meredith,64775749
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,TH David,f1f99156
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,W Parker,607c846c
+info,registry,people,WA Agar,15de1f5d

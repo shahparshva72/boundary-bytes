@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Sydney Sixers
+info,gender,male
+info,season,2019/20
+info,date,2020/01/02
+info,event,Big Bash League
+info,match_number,20
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,bat
+info,player_of_match,JM Vince
+info,umpire,JD Ward
+info,umpire,SD Fry
+info,reserve_umpire,Mattis van Eck
+info,tv_umpire,GC Joshua
+info,match_referee,D Talalla
+info,winner,Sydney Sixers
+info,winner_wickets,6
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,DT Christian
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,CJ Boyce
+info,player,Melbourne Renegades,TD Andrews
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,RJ Gleeson
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,BAD Manenti
+info,player,Sydney Sixers,JM Bird
+info,player,Sydney Sixers,L Pope
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BAD Manenti,ab21795b
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JD Ward,511299c1
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,L Pope,616a8149
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MS Harris,9e85455c
+info,registry,people,Mattis van Eck,bf1a68c1
+info,registry,people,RJ Gleeson,402f8494
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,TD Andrews,a0f612b6
+info,registry,people,TK Curran,e86754b2
+info,registry,people,W Sutherland,bc2d4f2e

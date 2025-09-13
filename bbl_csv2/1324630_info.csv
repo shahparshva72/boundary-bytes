@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2022/23
+info,date,2022/12/18
+info,event,Big Bash League
+info,match_number,7
+info,venue,"Docklands Stadium, Melbourne"
+info,city,Melbourne
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,AJ Finch
+info,umpire,BC Treloar
+info,umpire,SJ Nogajski
+info,reserve_umpire,Greg Azzopardi
+info,tv_umpire,NR Johnstone
+info,match_referee,RW Stratford
+info,winner,Melbourne Renegades
+info,winner_wickets,4
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,RR Rossouw
+info,player,Sydney Thunder,JJS Sangha
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,O Davies
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,B Doggett
+info,player,Sydney Thunder,Fazalhaq Farooqi
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,NJ Maddinson
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,JW Wells
+info,player,Melbourne Renegades,AD Russell
+info,player,Melbourne Renegades,AJ Hosein
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,TS Rogers
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,Mujeeb Ur Rahman
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Hosein,4d7f517e
+info,registry,people,B Doggett,898e628d
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,Fazalhaq Farooqi,e9c7f0d0
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,Greg Azzopardi,e950350e
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,JJS Sangha,8e3cb0e9
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,O Davies,0ea54eca
+info,registry,people,RR Rossouw,cad00a4d
+info,registry,people,RW Stratford,85489579
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,W Sutherland,bc2d4f2e

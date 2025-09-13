@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2012/13
+info,date,2012/12/19
+info,event,Big Bash League
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,MN Samuels
+info,umpire,SJ Nogajski
+info,umpire,JD Ward
+info,tv_umpire,P Wilson
+info,match_referee,RW Stratford
+info,winner,Melbourne Renegades
+info,winner_wickets,7
+info,player,Hobart Hurricanes,TD Paine
+info,player,Hobart Hurricanes,RT Ponting
+info,player,Hobart Hurricanes,TR Birt
+info,player,Hobart Hurricanes,OA Shah
+info,player,Hobart Hurricanes,GJ Bailey
+info,player,Hobart Hurricanes,SB Styris
+info,player,Hobart Hurricanes,JJ Krejza
+info,player,Hobart Hurricanes,B Laughlin
+info,player,Hobart Hurricanes,MG Hogan
+info,player,Hobart Hurricanes,XJ Doherty
+info,player,Hobart Hurricanes,DE Bollinger
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,DJ Harris
+info,player,Melbourne Renegades,MN Samuels
+info,player,Melbourne Renegades,BJ Rohrer
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,PM Nevill
+info,player,Melbourne Renegades,WD Sheridan
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,AW O'Brien
+info,player,Melbourne Renegades,DJ Pattinson
+info,player,Melbourne Renegades,M Muralitharan
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AW O'Brien,d29be810
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DJ Harris,39f82db3
+info,registry,people,DJ Pattinson,3fe2db87
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,JD Ward,511299c1
+info,registry,people,JJ Krejza,047d9032
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MG Hogan,5da34add
+info,registry,people,MN Samuels,f846de6a
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,OA Shah,7bf96684
+info,registry,people,P Wilson,68304a36
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,RT Ponting,7d415ea5
+info,registry,people,RW Stratford,85489579
+info,registry,people,SB Styris,57efa3be
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,TD Paine,5748e866
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TR Birt,d2d4bb0a
+info,registry,people,WD Sheridan,25d12bb4
+info,registry,people,XJ Doherty,502b2c81

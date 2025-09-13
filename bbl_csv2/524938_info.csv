@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Brisbane Heat
+info,gender,male
+info,season,2011/12
+info,date,2012/01/12
+info,event,Big Bash League
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,DL Vettori
+info,umpire,IH Lock
+info,umpire,AP Ward
+info,tv_umpire,RL Parry
+info,match_referee,D Levens
+info,winner,Brisbane Heat
+info,winner_runs,12
+info,player,Brisbane Heat,AW Robinson
+info,player,Brisbane Heat,ML Hayden
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,DT Christian
+info,player,Brisbane Heat,PJ Forrest
+info,player,Brisbane Heat,RE van der Merwe
+info,player,Brisbane Heat,DL Vettori
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,CD Hartley
+info,player,Brisbane Heat,NM Hauritz
+info,player,Brisbane Heat,AC McDermott
+info,player,Melbourne Renegades,Shahid Afridi
+info,player,Melbourne Renegades,BJ Hodge
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,AB McDonald
+info,player,Melbourne Renegades,NJ Reardon
+info,player,Melbourne Renegades,Abdul Razzaq
+info,player,Melbourne Renegades,GJ Maxwell
+info,player,Melbourne Renegades,GA Manou
+info,player,Melbourne Renegades,SM Harwood
+info,player,Melbourne Renegades,AK Heal
+info,player,Melbourne Renegades,DP Nannes
+info,registry,people,AB McDonald,16043342
+info,registry,people,AC McDermott,956887b2
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Heal,78ba5d1b
+info,registry,people,AP Ward,196a3809
+info,registry,people,AW Robinson,7001dee4
+info,registry,people,Abdul Razzaq,390ff45b
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CD Hartley,9a06679d
+info,registry,people,D Levens,8fc718ea
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GA Manou,f58839ad
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,IH Lock,a1b1e3c2
+info,registry,people,MG Neser,0164b064
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,NM Hauritz,8ea6e670
+info,registry,people,PJ Forrest,56c205b7
+info,registry,people,RE van der Merwe,05c2ca46
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SM Harwood,63bff7f9
+info,registry,people,Shahid Afridi,0dc00542

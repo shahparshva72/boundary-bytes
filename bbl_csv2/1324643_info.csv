@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Perth Scorchers
+info,gender,male
+info,season,2022/23
+info,date,2022/12/29
+info,event,Big Bash League
+info,match_number,20
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Melbourne Stars
+info,toss_decision,bat
+info,player_of_match,JA Richardson
+info,umpire,BC Treloar
+info,umpire,SJ Nogajski
+info,reserve_umpire,Ashlee Gibbons
+info,tv_umpire,NR Johnstone
+info,match_referee,SR Bernard
+info,winner,Perth Scorchers
+info,winner_wickets,6
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,C Kellaway
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,L Wood
+info,player,Melbourne Stars,TA Boult
+info,player,Melbourne Stars,A Zampa
+info,player,Perth Scorchers,A Lyth
+info,player,Perth Scorchers,F du Plessis
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,NR Hobson
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,P Hatzoglou
+info,registry,people,A Lyth,70b8fd28
+info,registry,people,A Zampa,14f96089
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,Ashlee Gibbons,b81712f7
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,C Kellaway,60c28835
+info,registry,people,F du Plessis,3355b542
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,L Wood,65b6943c
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SR Bernard,800187dc
+info,registry,people,TA Boult,a818c1be
+info,registry,people,TF Rogers,7f232d46

@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Perth Scorchers
+info,gender,male
+info,season,2011/12
+info,date,2011/12/22
+info,event,Big Bash League
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,bat
+info,player_of_match,SE Marsh
+info,umpire,GA Abood
+info,umpire,RL Parry
+info,tv_umpire,AP Ward
+info,match_referee,D Levens
+info,winner,Perth Scorchers
+info,winner_wickets,8
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,AB McDonald
+info,player,Melbourne Renegades,GJ Maxwell
+info,player,Melbourne Renegades,NJ Reardon
+info,player,Melbourne Renegades,Abdul Razzaq
+info,player,Melbourne Renegades,Shahid Afridi
+info,player,Melbourne Renegades,GA Manou
+info,player,Melbourne Renegades,WD Sheridan
+info,player,Melbourne Renegades,AK Heal
+info,player,Melbourne Renegades,SM Harwood
+info,player,Melbourne Renegades,SW Tait
+info,player,Perth Scorchers,HH Gibbs
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,L Ronchi
+info,player,Perth Scorchers,PD Collingwood
+info,player,Perth Scorchers,MJ North
+info,player,Perth Scorchers,SM Katich
+info,player,Perth Scorchers,GB Hogg
+info,player,Perth Scorchers,NJ Rimmington
+info,player,Perth Scorchers,MA Beer
+info,player,Perth Scorchers,BM Edmondson
+info,registry,people,AB McDonald,16043342
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Heal,78ba5d1b
+info,registry,people,AP Ward,196a3809
+info,registry,people,Abdul Razzaq,390ff45b
+info,registry,people,BM Edmondson,b0b320a0
+info,registry,people,D Levens,8fc718ea
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GA Manou,f58839ad
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,L Ronchi,0fa5042b
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MJ North,99464591
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,PD Collingwood,a386e91b
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SM Harwood,63bff7f9
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,SW Tait,addfb70e
+info,registry,people,Shahid Afridi,0dc00542
+info,registry,people,WD Sheridan,25d12bb4

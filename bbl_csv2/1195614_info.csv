@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Sydney Sixers
+info,gender,male
+info,season,2019/20
+info,date,2020/01/18
+info,event,Big Bash League
+info,match_number,42
+info,venue,Sydney Showground Stadium
+info,city,Sydney
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,CH Morris
+info,umpire,GA Abood
+info,umpire,AK Wilds
+info,reserve_umpire,CA Polosak
+info,tv_umpire,MW Graham-Smith
+info,match_referee,SR Bernard
+info,winner,Sydney Thunder
+info,winner_runs,4
+info,method,D/L
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,J Avendano
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,NM Lyon
+info,player,Sydney Sixers,JM Bird
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,CH Morris
+info,player,Sydney Thunder,JS Lenton
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,B Doggett
+info,player,Sydney Thunder,L Bowe
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AK Wilds,de412f40
+info,registry,people,B Doggett,898e628d
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,J Avendano,0af4a90b
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,JS Lenton,8820c9ef
+info,registry,people,L Bowe,a5b71472
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SR Bernard,800187dc
+info,registry,people,TK Curran,e86754b2
+info,registry,people,UT Khawaja,331ea488

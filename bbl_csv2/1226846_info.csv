@@ -1,0 +1,72 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Sixers
+info,gender,male
+info,season,2020/21
+info,date,2020/12/26
+info,event,Big Bash League
+info,match_number,15
+info,venue,Carrara Oval
+info,city,Carrara
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,DP Hughes
+info,umpire,PJ Gillespie
+info,umpire,SJ Nogajski
+info,reserve_umpire,D Taylor
+info,tv_umpire,AK Wilds
+info,match_referee,Kepler Wessels
+info,winner,Sydney Sixers
+info,winner_wickets,1
+info,player,Melbourne Stars,ADS Fletcher
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,N Pooran
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,LC Hatcher
+info,player,Melbourne Stars,B Stanlake
+info,player,Melbourne Stars,Zahir Khan
+info,player,Sydney Sixers,BAD Manenti
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,JO Holder
+info,player,Sydney Sixers,CR Brathwaite
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,GS Sandhu
+info,registry,people,A Zampa,14f96089
+info,registry,people,ADS Fletcher,1bae756b
+info,registry,people,AK Wilds,de412f40
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BAD Manenti,ab21795b
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JO Holder,0f721006
+info,registry,people,JR Philippe,39086549
+info,registry,people,Kepler Wessels,3bedaff0
+info,registry,people,LC Hatcher,8f3fde65
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,Zahir Khan,786b7fe8

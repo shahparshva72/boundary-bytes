@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2020/21
+info,date,2021/01/11
+info,event,Big Bash League
+info,match_number,36
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Melbourne Stars
+info,toss_decision,bat
+info,player_of_match,WA Agar
+info,umpire,D Taylor
+info,umpire,SJ Nogajski
+info,reserve_umpire,Eloise Sheridan
+info,tv_umpire,DR Close
+info,match_referee,SJ Davis
+info,winner,Adelaide Strikers
+info,winner_wickets,5
+info,player,Melbourne Stars,ADS Fletcher
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,NJ Maddinson
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,SE Gotch
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,SL Rainbird
+info,player,Melbourne Stars,LC Hatcher
+info,player,Melbourne Stars,Haris Rauf
+info,player,Adelaide Strikers,MT Renshaw
+info,player,Adelaide Strikers,PD Salt
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,RJ Gibson
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,DJ Worrall
+info,player,Adelaide Strikers,DR Briggs
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,HNA Conway
+info,registry,people,A Zampa,14f96089
+info,registry,people,ADS Fletcher,1bae756b
+info,registry,people,AT Carey,69d03465
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,DR Briggs,f3abd0c9
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,Eloise Sheridan,d8d43840
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HNA Conway,272fc5ad
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Haris Rauf,24bb1c2f
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JW Wells,8bdac857
+info,registry,people,LC Hatcher,8f3fde65
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,RJ Gibson,50636767
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SE Gotch,9a0e4ca5
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SL Rainbird,e7dd5eca
+info,registry,people,WA Agar,15de1f5d

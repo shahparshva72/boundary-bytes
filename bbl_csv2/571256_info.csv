@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2012/13
+info,date,2013/01/04
+info,event,Big Bash League
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,JP Behrendorff
+info,umpire,DB Mealey
+info,umpire,JD Ward
+info,tv_umpire,BNJ Oxenford
+info,match_referee,RJ Evans (2)
+info,winner,Perth Scorchers
+info,winner_wickets,9
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,HH Gibbs
+info,player,Perth Scorchers,MJ North
+info,player,Perth Scorchers,SM Katich
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,TIF Triffitt
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,AC Thomas
+info,player,Perth Scorchers,GB Hogg
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,MA Beer
+info,player,Sydney Thunder,CH Gayle
+info,player,Sydney Thunder,SJC Keen
+info,player,Sydney Thunder,MJ Prior
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,RGL Carters
+info,player,Sydney Thunder,MJ Cosgrove
+info,player,Sydney Thunder,CJ Borgas
+info,player,Sydney Thunder,SJ Coyte (2)
+info,player,Sydney Thunder,A Zampa
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,DP Nannes
+info,registry,people,A Zampa,14f96089
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AC Voges,864c199e
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Borgas,d901964b
+info,registry,people,DB Mealey,2199afd4
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,JD Ward,511299c1
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MJ Cosgrove,be768595
+info,registry,people,MJ North,99464591
+info,registry,people,MJ Prior,1200550f
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,RGL Carters,f54c8804
+info,registry,people,RJ Evans (2),d5fc9e42
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Coyte (2),36769c31
+info,registry,people,SJC Keen,e3882f9a
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,TIF Triffitt,593513d5
+info,registry,people,UT Khawaja,331ea488

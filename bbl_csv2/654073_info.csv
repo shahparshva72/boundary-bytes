@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Melbourne Stars
+info,gender,male
+info,season,2013/14
+info,date,2014/01/11
+info,event,Big Bash League
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,LJ Wright
+info,umpire,AJ Barrow
+info,umpire,P Wilson
+info,reserve_umpire,MS Branch
+info,tv_umpire,MW Graham-Smith
+info,match_referee,RW Stratford
+info,winner,Melbourne Stars
+info,winner_wickets,3
+info,player,Brisbane Heat,C Kieswetter
+info,player,Brisbane Heat,LA Pomersbach
+info,player,Brisbane Heat,PJ Forrest
+info,player,Brisbane Heat,DT Christian
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,JR Hopes
+info,player,Brisbane Heat,CJM Sabburg
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,CJ Gannon
+info,player,Brisbane Heat,AC McDermott
+info,player,Brisbane Heat,MT Steketee
+info,player,Melbourne Stars,CL White
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,MS Wade
+info,player,Melbourne Stars,BJ Hodge
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,JM Muirhead
+info,player,Melbourne Stars,SL Malinga
+info,player,Melbourne Stars,JM Bird
+info,registry,people,AC McDermott,956887b2
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,C Kieswetter,1e960f2a
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Gannon,519c30cb
+info,registry,people,CJM Sabburg,9fc73711
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Muirhead,52f08be8
+info,registry,people,JR Hopes,2498e163
+info,registry,people,JW Hastings,012829ff
+info,registry,people,LA Pomersbach,b63ab531
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MS Branch,6f06b264
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MT Steketee,903560ed
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,P Wilson,68304a36
+info,registry,people,PJ Forrest,56c205b7
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,RW Stratford,85489579
+info,registry,people,SL Malinga,a12e1d51

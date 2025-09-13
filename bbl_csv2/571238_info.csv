@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2012/13
+info,date,2012/12/14
+info,event,Big Bash League
+info,venue,Stadium Australia
+info,city,Sydney
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,AW O'Brien
+info,umpire,AJ Barrow
+info,umpire,AP Ward
+info,tv_umpire,GA Abood
+info,match_referee,RJ Evans (2)
+info,winner,Melbourne Renegades
+info,winner_wickets,5
+info,player,Melbourne Renegades,DJ Harris
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,MN Samuels
+info,player,Melbourne Renegades,BJ Rohrer
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,PM Nevill
+info,player,Melbourne Renegades,WD Sheridan
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,AW O'Brien
+info,player,Melbourne Renegades,DJ Pattinson
+info,player,Melbourne Renegades,M Muralitharan
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,CH Gayle
+info,player,Sydney Thunder,MJ Cosgrove
+info,player,Sydney Thunder,CJL Rogers
+info,player,Sydney Thunder,Azhar Mahmood
+info,player,Sydney Thunder,SA Abbott
+info,player,Sydney Thunder,CJ Borgas
+info,player,Sydney Thunder,RGL Carters
+info,player,Sydney Thunder,CP Tremain
+info,player,Sydney Thunder,LA Doran
+info,player,Sydney Thunder,DP Nannes
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AP Ward,196a3809
+info,registry,people,AW O'Brien,d29be810
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Borgas,d901964b
+info,registry,people,CJL Rogers,d8360178
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DJ Harris,39f82db3
+info,registry,people,DJ Pattinson,3fe2db87
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,GA Abood,a4af5528
+info,registry,people,LA Doran,f201593c
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MJ Cosgrove,be768595
+info,registry,people,MN Samuels,f846de6a
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,RGL Carters,f54c8804
+info,registry,people,RJ Evans (2),d5fc9e42
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,WD Sheridan,25d12bb4

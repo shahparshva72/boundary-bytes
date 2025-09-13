@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2011/12
+info,date,2011/12/23
+info,event,Big Bash League
+info,venue,Stadium Australia
+info,city,Sydney
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,CH Gayle
+info,umpire,MD Martell
+info,umpire,P Wilson
+info,tv_umpire,AJ Barrow
+info,match_referee,PL Marshall
+info,winner,Sydney Thunder
+info,winner_wickets,6
+info,player,Adelaide Strikers,M Klinger
+info,player,Adelaide Strikers,DJ Harris
+info,player,Adelaide Strikers,AC Blizzard
+info,player,Adelaide Strikers,CJ Ferguson
+info,player,Adelaide Strikers,CJ Borgas
+info,player,Adelaide Strikers,J Botha
+info,player,Adelaide Strikers,AJ Crosthwaite
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,AW O'Brien
+info,player,Adelaide Strikers,AC Thomas
+info,player,Adelaide Strikers,BE McGain
+info,player,Sydney Thunder,DLR Smith
+info,player,Sydney Thunder,CH Gayle
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,BR Dunk
+info,player,Sydney Thunder,CA Philipson
+info,player,Sydney Thunder,JS Floros
+info,player,Sydney Thunder,SA Abbott
+info,player,Sydney Thunder,SJ Coyte (2)
+info,player,Sydney Thunder,FH Edwards
+info,player,Sydney Thunder,LA Doran
+info,player,Sydney Thunder,DE Bollinger
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AJ Crosthwaite,0c8836b6
+info,registry,people,AW O'Brien,d29be810
+info,registry,people,BE McGain,6d62117a
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CA Philipson,32866fe7
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Borgas,d901964b
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DJ Harris,39f82db3
+info,registry,people,DLR Smith,0c5c3a87
+info,registry,people,FH Edwards,a7c226e1
+info,registry,people,J Botha,7c503806
+info,registry,people,JS Floros,79765f6f
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,LA Doran,f201593c
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MD Martell,487c072e
+info,registry,people,P Wilson,68304a36
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SJ Coyte (2),36769c31
+info,registry,people,UT Khawaja,331ea488

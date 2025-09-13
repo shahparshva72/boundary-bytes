@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Sydney Thunder
+info,gender,male
+info,season,2011/12
+info,date,2012/01/17
+info,event,Big Bash League
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,DT Christian
+info,umpire,SD Fry
+info,umpire,JD Ward
+info,tv_umpire,GC Joshua
+info,match_referee,DJ Burns
+info,winner,Brisbane Heat
+info,winner_runs,91
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,ML Hayden
+info,player,Brisbane Heat,AW Robinson
+info,player,Brisbane Heat,DT Christian
+info,player,Brisbane Heat,PJ Forrest
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,DL Vettori
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,NM Hauritz
+info,player,Brisbane Heat,CR Swan
+info,player,Brisbane Heat,AC McDermott
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,CH Gayle
+info,player,Sydney Thunder,TD Cruickshank
+info,player,Sydney Thunder,BR Dunk
+info,player,Sydney Thunder,DLR Smith
+info,player,Sydney Thunder,TJ Armstrong
+info,player,Sydney Thunder,SA Abbott
+info,player,Sydney Thunder,MR Day
+info,player,Sydney Thunder,SJ Coyte (2)
+info,player,Sydney Thunder,LA Doran
+info,player,Sydney Thunder,ND Bills
+info,registry,people,AC McDermott,956887b2
+info,registry,people,AW Robinson,7001dee4
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CR Swan,2a236847
+info,registry,people,DJ Burns,49d422bf
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,DLR Smith,0c5c3a87
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,JD Ward,511299c1
+info,registry,people,LA Doran,f201593c
+info,registry,people,MG Neser,0164b064
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,MR Day,aba0412a
+info,registry,people,ND Bills,c9078a9a
+info,registry,people,NM Hauritz,8ea6e670
+info,registry,people,PJ Forrest,56c205b7
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SJ Coyte (2),36769c31
+info,registry,people,TD Cruickshank,c8d0314b
+info,registry,people,TJ Armstrong,30811a4b
+info,registry,people,UT Khawaja,331ea488

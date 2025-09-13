@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2014/15
+info,date,2015/01/08
+info,event,Big Bash League
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,MA Carberry
+info,umpire,MD Martell
+info,umpire,SJ Nogajski
+info,reserve_umpire,J Hewitt
+info,tv_umpire,GC Joshua
+info,match_referee,SR Bernard
+info,winner,Perth Scorchers
+info,winner_wickets,8
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,PJ Forrest
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,S Milenko
+info,player,Brisbane Heat,NJ Reardon
+info,player,Brisbane Heat,A Flintoff
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JR Hopes
+info,player,Brisbane Heat,DL Vettori
+info,player,Brisbane Heat,RM Duffield
+info,player,Brisbane Heat,MT Steketee
+info,player,Perth Scorchers,MS Harris
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,MA Carberry
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,Yasir Arafat
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,GB Hogg
+info,registry,people,A Flintoff,ddc0828d
+info,registry,people,AC Agar,a2421394
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,J Hewitt,bfe1c25f
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JR Hopes,2498e163
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MA Carberry,8305580c
+info,registry,people,MD Martell,487c072e
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MT Steketee,903560ed
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,PJ Forrest,56c205b7
+info,registry,people,RM Duffield,7da44536
+info,registry,people,S Milenko,479f9b04
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,SR Bernard,800187dc
+info,registry,people,Yasir Arafat,3cf5ae43

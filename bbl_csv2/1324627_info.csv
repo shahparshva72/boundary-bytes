@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2022/23
+info,date,2022/12/16
+info,event,Big Bash League
+info,match_number,4
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,JM Clarke
+info,umpire,MW Graham-Smith
+info,umpire,NR Johnstone
+info,reserve_umpire,Greg Azzopardi
+info,tv_umpire,Troy Penman
+info,match_referee,Kent Hannam
+info,winner,Melbourne Stars
+info,winner_runs,38
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,L Wood
+info,player,Melbourne Stars,C Kellaway
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,TA Boult
+info,player,Melbourne Stars,A Zampa
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,Shadab Khan
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,Asif Ali
+info,player,Hobart Hurricanes,JDS Neesham
+info,player,Hobart Hurricanes,JS Paris
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,PG Dooley
+info,player,Hobart Hurricanes,RP Meredith
+info,registry,people,A Zampa,14f96089
+info,registry,people,Asif Ali,0a4736eb
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,C Kellaway,60c28835
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,DJM Short,1a156c88
+info,registry,people,Greg Azzopardi,e950350e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JDS Neesham,9219eff0
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,Kent Hannam,8cc171e7
+info,registry,people,L Wood,65b6943c
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,PG Dooley,5e3054d0
+info,registry,people,RP Meredith,64775749
+info,registry,people,Shadab Khan,9de62878
+info,registry,people,TA Boult,a818c1be
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,TH David,f1f99156
+info,registry,people,TL O'Connell,859d95bb
+info,registry,people,Troy Penman,0aa42c26

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2018/19
+info,date,2019/01/13
+info,event,Big Bash League
+info,match_number,30
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Perth Scorchers
+info,toss_decision,field
+info,player_of_match,CT Bancroft
+info,umpire,GC Joshua
+info,umpire,SD Fry
+info,reserve_umpire,J Hewitt
+info,tv_umpire,NR Johnstone
+info,match_referee,RW Stratford
+info,winner,Perth Scorchers
+info,winner_wickets,7
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,BAD Manenti
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,HWR Cartwright
+info,player,Perth Scorchers,C Green
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,DJ Willey
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,M Kelly
+info,player,Perth Scorchers,Usman Qadir
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,BAD Manenti,ab21795b
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,C Green,eaa76d3c
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,DJ Willey,7f048519
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,J Hewitt,bfe1c25f
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,M Kelly,68e26ec9
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,RW Stratford,85489579
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,TK Curran,e86754b2
+info,registry,people,Usman Qadir,33742f04

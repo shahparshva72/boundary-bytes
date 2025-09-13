@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2020/21
+info,date,2021/01/03
+info,event,Big Bash League
+info,match_number,25
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,JP Inglis
+info,umpire,MW Graham-Smith
+info,umpire,SA Lightbody
+info,reserve_umpire,Ashlee Gibbons
+info,tv_umpire,DM Koch
+info,match_referee,SD Fry
+info,winner,Perth Scorchers
+info,winner_runs,96
+info,player,Perth Scorchers,JJ Roy
+info,player,Perth Scorchers,LS Livingstone
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,C Munro
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,Fawad Ahmed
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,RR Rossouw
+info,player,Melbourne Renegades,JA Prestwidge
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,JK Lalor
+info,player,Melbourne Renegades,P Hatzoglou
+info,player,Melbourne Renegades,Noor Ahmad
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,Ashlee Gibbons,b81712f7
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,C Munro,af2c687b
+info,registry,people,DM Koch,6d10c034
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,JA Prestwidge,5f317fd4
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Noor Ahmad,efc04be7
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,RR Rossouw,cad00a4d
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SE Marsh,508a1ea7

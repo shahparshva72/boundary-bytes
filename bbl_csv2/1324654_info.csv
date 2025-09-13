@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Sixers
+info,gender,male
+info,season,2022/23
+info,date,2023/01/06
+info,event,Big Bash League
+info,match_number,31
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,JM Vince
+info,umpire,MW Graham-Smith
+info,umpire,SAJ Craig
+info,reserve_umpire,Mattis van Eck
+info,tv_umpire,PJ Gillespie
+info,match_referee,Dave Gilbert
+info,winner,Sydney Sixers
+info,winner_wickets,6
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,C Kellaway
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,L Wood
+info,player,Melbourne Stars,TA Boult
+info,player,Melbourne Stars,A Zampa
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,CJ Jordan
+info,player,Sydney Sixers,T Murphy
+info,player,Sydney Sixers,Izharulhaq Naveed
+info,registry,people,A Zampa,14f96089
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,C Kellaway,60c28835
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,Dave Gilbert,aa782370
+info,registry,people,H Kerr,f422728b
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Izharulhaq Naveed,2cbdd22f
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,L Wood,65b6943c
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,Mattis van Eck,bf1a68c1
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,T Murphy,ac2e7ec0
+info,registry,people,TA Boult,a818c1be
+info,registry,people,TF Rogers,7f232d46

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2019/20
+info,date,2020/01/20
+info,event,Big Bash League
+info,match_number,46
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,LS Livingstone
+info,umpire,PJ Gillespie
+info,umpire,GC Joshua
+info,reserve_umpire,T Steenholdt
+info,tv_umpire,NR Johnstone
+info,match_referee,SR Bernard
+info,winner,Perth Scorchers
+info,winner_wickets,8
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,AJ Nair
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,CH Morris
+info,player,Sydney Thunder,JS Lenton
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,B Doggett
+info,player,Sydney Thunder,L Bowe
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,LS Livingstone
+info,player,Perth Scorchers,KR Patterson
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,C Green
+info,player,Perth Scorchers,TH David
+info,player,Perth Scorchers,CJ Jordan
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,M Kelly
+info,player,Perth Scorchers,Fawad Ahmed
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Nair,4ba2c04d
+info,registry,people,B Doggett,898e628d
+info,registry,people,C Green,eaa76d3c
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JS Lenton,8820c9ef
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,L Bowe,a5b71472
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Kelly,68e26ec9
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,SR Bernard,800187dc
+info,registry,people,T Steenholdt,715959cd
+info,registry,people,TH David,f1f99156
+info,registry,people,UT Khawaja,331ea488

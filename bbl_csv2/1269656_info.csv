@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Melbourne Stars
+info,gender,male
+info,season,2021/22
+info,date,2021/12/24
+info,event,Big Bash League
+info,match_number,19
+info,venue,"Bellerive Oval, Hobart"
+info,city,Hobart
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,bat
+info,player_of_match,NT Ellis
+info,umpire,DR Close
+info,umpire,MW Graham-Smith
+info,reserve_umpire,TJ Matibiri
+info,tv_umpire,GA Abood
+info,match_referee,SJ Davis
+info,winner,Hobart Hurricanes
+info,winner_runs,24
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,HC Brook
+info,player,Hobart Hurricanes,JA Thompson
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,TS Rogers
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,S Lamichhane
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,JA Burns
+info,player,Melbourne Stars,AD Russell
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,CD Hinchliffe
+info,player,Melbourne Stars,Qais Ahmad
+info,player,Melbourne Stars,BL Couch
+info,registry,people,AD Russell,bbd41817
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BL Couch,be69e09d
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HC Brook,4ae1755b
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JA Thompson,1d2f290a
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,Qais Ahmad,8d5d991e
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,TH David,f1f99156
+info,registry,people,TJ Matibiri,4a3132b1
+info,registry,people,TS Rogers,1b04e02b

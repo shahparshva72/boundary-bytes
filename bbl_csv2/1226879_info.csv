@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2020/21
+info,date,2021/01/04
+info,event,Big Bash League
+info,match_number,27
+info,venue,Bellerive Oval
+info,city,Hobart
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,MP Stoinis
+info,umpire,GA Abood
+info,umpire,NR Johnstone
+info,tv_umpire,TJ Matibiri
+info,match_referee,David Johnston
+info,winner,Melbourne Stars
+info,winner_runs,10
+info,player,Melbourne Stars,ADS Fletcher
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,N Pooran
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,SE Gotch
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,LC Hatcher
+info,player,Melbourne Stars,SL Rainbird
+info,player,Melbourne Stars,B Stanlake
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,DJ Malan
+info,player,Hobart Hurricanes,CA Ingram
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,J Botha
+info,player,Hobart Hurricanes,SM Boland
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,S Lamichhane
+info,registry,people,A Zampa,14f96089
+info,registry,people,ADS Fletcher,1bae756b
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CA Ingram,c995d726
+info,registry,people,DJ Malan,ad9c32a2
+info,registry,people,DJM Short,1a156c88
+info,registry,people,David Johnston,92cef862
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,J Botha,7c503806
+info,registry,people,LC Hatcher,8f3fde65
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,N Pooran,3241e3fd
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SE Gotch,9a0e4ca5
+info,registry,people,SL Rainbird,e7dd5eca
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TH David,f1f99156
+info,registry,people,TJ Matibiri,4a3132b1

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2018/19
+info,date,2019/01/11
+info,event,Big Bash League
+info,match_number,27
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,CA Ingram
+info,umpire,JD Ward
+info,umpire,AK Wilds
+info,reserve_umpire,Eloise Sheridan
+info,tv_umpire,MW Graham-Smith
+info,match_referee,DJ Harper
+info,winner,Adelaide Strikers
+info,winner_runs,41
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,CA Ingram
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,LN O'Connor
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,NJ Maddinson
+info,player,Melbourne Stars,SE Gotch
+info,player,Melbourne Stars,DJ Bravo
+info,player,Melbourne Stars,J Merlo
+info,player,Melbourne Stars,LE Plunkett
+info,player,Melbourne Stars,JM Bird
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,L Bowe
+info,registry,people,AK Wilds,de412f40
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CA Ingram,c995d726
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,Eloise Sheridan,d8d43840
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,J Merlo,02ba80a0
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JD Ward,511299c1
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JW Wells,8bdac857
+info,registry,people,L Bowe,a5b71472
+info,registry,people,LE Plunkett,9a963804
+info,registry,people,LN O'Connor,5456bd0c
+info,registry,people,MG Neser,0164b064
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,MW Short,a90e53ec
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SE Gotch,9a0e4ca5
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TM Head,12b610c2
+info,registry,people,WA Agar,15de1f5d

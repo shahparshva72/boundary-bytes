@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Sydney Sixers
+info,gender,male
+info,season,2015/16
+info,date,2015/12/23
+info,event,Big Bash League
+info,match_number,8
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,MJ Lumb
+info,umpire,SD Fry
+info,umpire,SJ Nogajski
+info,reserve_umpire,S Brne
+info,tv_umpire,GA Abood
+info,match_referee,PL Marshall
+info,winner,Sydney Sixers
+info,winner_wickets,3
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,CH Gayle
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,MS Wade
+info,player,Melbourne Renegades,TM Beaton
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,CP Tremain
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,XJ Doherty
+info,player,Melbourne Renegades,CAH Stevenson
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,BJ Haddin
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,TL Lawford
+info,player,Sydney Sixers,DE Bollinger
+info,player,Sydney Sixers,JM Bird
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BJ Haddin,b0c772ee
+info,registry,people,CAH Stevenson,7239b60d
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CL White,d0513f63
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,GA Abood,a4af5528
+info,registry,people,J Botha,7c503806
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,S Brne,f552dfcb
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,TL Lawford,e01b6c44
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TM Beaton,f0ec8597
+info,registry,people,XJ Doherty,502b2c81

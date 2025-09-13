@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2018/19
+info,date,2018/12/31
+info,event,Big Bash League
+info,match_number,14
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,PM Siddle
+info,umpire,GJ Davidson
+info,umpire,GA Abood
+info,reserve_umpire,C Thomas
+info,tv_umpire,SA Lightbody
+info,match_referee,D Talalla
+info,winner,Adelaide Strikers
+info,winner_runs,20
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,CA Ingram
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,JS Lehmann
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,B Stanlake
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,JC Buttler
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,JE Root
+info,player,Sydney Thunder,JJS Sangha
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,AJ Nair
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,SL Rainbird
+info,player,Sydney Thunder,JD Cook
+info,player,Sydney Thunder,Fawad Ahmed
+info,registry,people,AJ Nair,4ba2c04d
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,C Thomas,68664af7
+info,registry,people,CA Ingram,c995d726
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Cook,45f56920
+info,registry,people,JE Root,a343262c
+info,registry,people,JJS Sangha,8e3cb0e9
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,JW Wells,8bdac857
+info,registry,people,MG Neser,0164b064
+info,registry,people,MW Short,a90e53ec
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SL Rainbird,e7dd5eca
+info,registry,people,SR Watson,4329fbb5

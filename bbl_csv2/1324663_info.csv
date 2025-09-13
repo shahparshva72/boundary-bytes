@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2022/23
+info,date,2023/01/14
+info,event,Big Bash League
+info,match_number,40
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Adelaide Strikers
+info,toss_decision,field
+info,player_of_match,MP Kuhnemann
+info,umpire,PJ Gillespie
+info,umpire,SAJ Craig
+info,reserve_umpire,D Bhatt
+info,tv_umpire,BNJ Oxenford
+info,match_referee,SJ Davis
+info,winner,Brisbane Heat
+info,winner_runs,17
+info,player,Brisbane Heat,J Brown
+info,player,Brisbane Heat,UT Khawaja
+info,player,Brisbane Heat,M Labuschagne
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,SR Hain
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,SH Johnson
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,CA Lynn
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,AJ Hose
+info,player,Adelaide Strikers,C de Grandhomme
+info,player,Adelaide Strikers,BAD Manenti
+info,player,Adelaide Strikers,CJ Boyce
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,HNA Conway
+info,player,Adelaide Strikers,PM Siddle
+info,registry,people,AJ Hose,104e88a4
+info,registry,people,AT Carey,69d03465
+info,registry,people,BAD Manenti,ab21795b
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,D Bhatt,b34f743c
+info,registry,people,HNA Conway,272fc5ad
+info,registry,people,J Brown,647e7d44
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,M Labuschagne,fa433be6
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MW Short,a90e53ec
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SH Johnson,83c3e8e3
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SR Hain,67b9536c
+info,registry,people,TM Head,12b610c2
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,WA Agar,15de1f5d

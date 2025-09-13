@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2020/21
+info,date,2021/01/20
+info,event,Big Bash League
+info,match_number,45
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Melbourne Stars
+info,toss_decision,bat
+info,player_of_match,MW Harvey
+info,umpire,SJ Nogajski
+info,umpire,SAJ Craig
+info,reserve_umpire,PJ Gillespie
+info,tv_umpire,MW Graham-Smith
+info,match_referee,RW Stratford
+info,winner,Melbourne Renegades
+info,winner_wickets,5
+info,player,Melbourne Stars,ADS Fletcher
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,NJ Maddinson
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,SE Gotch
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,LC Hatcher
+info,player,Melbourne Stars,Zahir Khan
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,JA Prestwidge
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,Imad Wasim
+info,player,Melbourne Renegades,JK Lalor
+info,player,Melbourne Renegades,Z Evans
+info,player,Melbourne Renegades,P Hatzoglou
+info,registry,people,A Zampa,14f96089
+info,registry,people,ADS Fletcher,1bae756b
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Imad Wasim,9cb8d7a6
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,JA Prestwidge,5f317fd4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,LC Hatcher,8f3fde65
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,RW Stratford,85489579
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SE Gotch,9a0e4ca5
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,Z Evans,8528effb
+info,registry,people,Zahir Khan,786b7fe8

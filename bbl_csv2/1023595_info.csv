@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Brisbane Heat
+info,gender,male
+info,season,2016/17
+info,date,2016/12/28
+info,event,Big Bash League
+info,match_number,8
+info,venue,Sydney Showground Stadium
+info,city,
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,CA Lynn
+info,umpire,SAJ Craig
+info,umpire,DB Mealey
+info,reserve_umpire,AK Wilds
+info,tv_umpire,GC Joshua
+info,match_referee,SR Bernard
+info,winner,Brisbane Heat
+info,winner_wickets,3
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,AI Ross
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JS Floros
+info,player,Brisbane Heat,JD Wildermuth
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,S Badree
+info,player,Sydney Thunder,KR Patterson
+info,player,Sydney Thunder,RJ Gibson
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,EJG Morgan
+info,player,Sydney Thunder,AD Russell
+info,player,Sydney Thunder,BJ Rohrer
+info,player,Sydney Thunder,PJ Cummins
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,CJ McKay
+info,player,Sydney Thunder,JR Doran
+info,player,Sydney Thunder,Fawad Ahmed
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CJ McKay,94eac556
+info,registry,people,DB Mealey,2199afd4
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JR Doran,9cebb612
+info,registry,people,JS Floros,79765f6f
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MT Steketee,903560ed
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,RJ Gibson,50636767
+info,registry,people,S Badree,76388dc8
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SR Bernard,800187dc
+info,registry,people,SR Watson,4329fbb5

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Melbourne Stars
+info,gender,male
+info,season,2017/18
+info,date,2017/12/20
+info,event,Big Bash League
+info,match_number,2
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,MP Stoinis
+info,umpire,JD Ward
+info,umpire,SAJ Craig
+info,reserve_umpire,D Taylor
+info,tv_umpire,DM Koch
+info,match_referee,RW Stratford
+info,winner,Brisbane Heat
+info,winner_runs,15
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,AI Ross
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,Shadab Khan
+info,player,Brisbane Heat,JK Lalor
+info,player,Brisbane Heat,B Doggett
+info,player,Brisbane Heat,MJ Swepson
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,MA Beer
+info,registry,people,A Zampa,14f96089
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,B Doggett,898e628d
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BR Dunk,272d796e
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DM Koch,6d10c034
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JD Ward,511299c1
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JW Hastings,012829ff
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MT Steketee,903560ed
+info,registry,people,RW Stratford,85489579
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,SM Boland,d167edd3
+info,registry,people,Shadab Khan,9de62878

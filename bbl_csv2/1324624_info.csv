@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Thunder
+info,gender,male
+info,season,2022/23
+info,date,2022/12/13
+info,event,Big Bash League
+info,match_number,1
+info,venue,"Manuka Oval, Canberra"
+info,city,Canberra
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,GS Sandhu
+info,umpire,GA Abood
+info,umpire,P Wilson
+info,reserve_umpire,Dinusha Bandara
+info,tv_umpire,SAJ Craig
+info,match_referee,RW Stratford
+info,winner,Sydney Thunder
+info,winner_wickets,1
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,JA Burns
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,L Wood
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,TA Boult
+info,player,Melbourne Stars,A Zampa
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,RR Rossouw
+info,player,Sydney Thunder,JJS Sangha
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,O Davies
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,Fazalhaq Farooqi
+info,player,Sydney Thunder,B Doggett
+info,registry,people,A Zampa,14f96089
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,B Doggett,898e628d
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BL Couch,be69e09d
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,Dinusha Bandara,98bbc5a2
+info,registry,people,Fazalhaq Farooqi,e9c7f0d0
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JJS Sangha,8e3cb0e9
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,L Wood,65b6943c
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,O Davies,0ea54eca
+info,registry,people,P Wilson,68304a36
+info,registry,people,RR Rossouw,cad00a4d
+info,registry,people,RW Stratford,85489579
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,TA Boult,a818c1be
+info,registry,people,TF Rogers,7f232d46

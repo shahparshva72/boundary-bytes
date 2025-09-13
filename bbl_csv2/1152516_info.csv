@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2018/19
+info,date,2018/12/23
+info,event,Big Bash League
+info,match_number,6
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,DT Christian
+info,umpire,GC Joshua
+info,umpire,SD Fry
+info,reserve_umpire,C Thomas
+info,tv_umpire,DJ Shepard
+info,match_referee,DJ Harper
+info,winner,Melbourne Renegades
+info,winner_wickets,5
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,CA Ingram
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,JS Lehmann
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,C Valente
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,B Stanlake
+info,player,Adelaide Strikers,B Laughlin
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,TP Ludeman
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,KR Smith
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,DT Christian
+info,player,Melbourne Renegades,JD Wildermuth
+info,player,Melbourne Renegades,CJ Boyce
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,Usman Shinwari
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,C Thomas,68664af7
+info,registry,people,C Valente,137e7065
+info,registry,people,CA Ingram,c995d726
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Shepard,d3533ba5
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KR Smith,b816c2a5
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MG Neser,0164b064
+info,registry,people,MW Short,a90e53ec
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TP Ludeman,c3f7898b
+info,registry,people,Usman Shinwari,f0e722e0

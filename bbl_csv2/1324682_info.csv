@@ -1,0 +1,69 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Brisbane Heat
+info,gender,male
+info,season,2022/23
+info,date,2023/01/29
+info,event,Big Bash League
+info,venue,"Docklands Stadium, Melbourne"
+info,city,Melbourne
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,XC Bartlett
+info,umpire,BNJ Oxenford
+info,umpire,PJ Gillespie
+info,reserve_umpire,BC Treloar
+info,tv_umpire,GA Abood
+info,match_referee,David Johnston
+info,winner,Brisbane Heat
+info,winner_wickets,7
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,MJ Guptill
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,MJJ Critchley
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,JW Wells
+info,player,Melbourne Renegades,TS Rogers
+info,player,Melbourne Renegades,CJ Rocchiccioli
+info,player,Melbourne Renegades,DJM Moody
+info,player,Melbourne Renegades,Fawad Ahmed
+info,player,Brisbane Heat,UT Khawaja
+info,player,Brisbane Heat,J Brown
+info,player,Brisbane Heat,M Labuschagne
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,SR Hain
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,SH Johnson
+info,player,Brisbane Heat,MP Kuhnemann
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CJ Rocchiccioli,aa3c7a7a
+info,registry,people,DJM Moody,e1a867df
+info,registry,people,David Johnston,92cef862
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GA Abood,a4af5528
+info,registry,people,J Brown,647e7d44
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JW Wells,8bdac857
+info,registry,people,M Labuschagne,fa433be6
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Guptill,2be41edb
+info,registry,people,MJJ Critchley,c5cc48bc
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SH Johnson,83c3e8e3
+info,registry,people,SR Hain,67b9536c
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,XC Bartlett,3b53243a

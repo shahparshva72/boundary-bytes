@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2021/22
+info,date,2021/12/22
+info,event,Big Bash League
+info,match_number,17
+info,venue,"Docklands Stadium, Melbourne"
+info,city,Melbourne
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,MR Marsh
+info,umpire,BC Treloar
+info,umpire,DM Koch
+info,reserve_umpire,D Brigham
+info,tv_umpire,SAJ Craig
+info,match_referee,RL Parry
+info,winner,Perth Scorchers
+info,winner_runs,21
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,C Munro
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,LJ Evans
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,P Hatzoglou
+info,player,Perth Scorchers,TS Mills
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,NJ Maddinson
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,JL Pattinson
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,RJW Topley
+info,player,Melbourne Renegades,Zahir Khan
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,C Munro,af2c687b
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,D Brigham,464daf41
+info,registry,people,DM Koch,6d10c034
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,LJ Evans,1c513d54
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,RJW Topley,8db7f47f
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SB Harper,a756e61a
+info,registry,people,TS Mills,245c97cb
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,Zahir Khan,786b7fe8

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2016/17
+info,date,2017/01/20
+info,event,Big Bash League
+info,match_number,30
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,AJ Finch
+info,umpire,SAJ Craig
+info,umpire,SJ Nogajski
+info,reserve_umpire,D Taylor
+info,tv_umpire,GC Joshua
+info,match_referee,SR Bernard
+info,winner,Melbourne Renegades
+info,winner_runs,1
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,AI Ross
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,M Labuschagne
+info,player,Brisbane Heat,JD Wildermuth
+info,player,Brisbane Heat,ND Buchanan
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MJ Swepson
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,CJ Ferguson
+info,player,Melbourne Renegades,NLTC Perera
+info,player,Melbourne Renegades,SP Narine
+info,player,Melbourne Renegades,AG Harriott
+info,player,Melbourne Renegades,JL Pattinson
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,GB Hogg
+info,registry,people,AG Harriott,cf4e0e15
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CL White,d0513f63
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,M Labuschagne,fa433be6
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MT Steketee,903560ed
+info,registry,people,ND Buchanan,9a211e08
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SR Bernard,800187dc
+info,registry,people,TLW Cooper,2318ba22

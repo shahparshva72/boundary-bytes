@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2013/14
+info,date,2014/01/03
+info,event,Big Bash League
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,SM Katich
+info,umpire,GC Joshua
+info,umpire,DB Mealey
+info,reserve_umpire,NR Johnstone
+info,tv_umpire,SJ Nogajski
+info,match_referee,RW Stratford
+info,winner,Perth Scorchers
+info,winner_wickets,6
+info,player,Perth Scorchers,CJ Simmons
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,SM Katich
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,Yasir Arafat
+info,player,Perth Scorchers,GB Hogg
+info,player,Perth Scorchers,AC Thomas
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Sydney Thunder,DP Hughes
+info,player,Sydney Thunder,TM Dilshan
+info,player,Sydney Thunder,MEK Hussey
+info,player,Sydney Thunder,EJG Morgan
+info,player,Sydney Thunder,KR Patterson
+info,player,Sydney Thunder,JS Floros
+info,player,Sydney Thunder,RGL Carters
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,CP Tremain
+info,player,Sydney Thunder,LW Feldman
+info,player,Sydney Thunder,DP Nannes
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,CJ Simmons,0095ce38
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DB Mealey,2199afd4
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JS Floros,79765f6f
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,LW Feldman,da13a0fc
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,RGL Carters,f54c8804
+info,registry,people,RW Stratford,85489579
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,Yasir Arafat,3cf5ae43

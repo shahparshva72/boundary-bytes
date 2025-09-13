@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2022/23
+info,date,2023/01/12
+info,event,Big Bash League
+info,match_number,38
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,LC Hatcher
+info,umpire,D Taylor
+info,umpire,DM Koch
+info,reserve_umpire,D Brigham
+info,tv_umpire,BC Treloar
+info,match_referee,RL Parry
+info,winner,Melbourne Stars
+info,winner_wickets,9
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,RJ Gibson
+info,player,Adelaide Strikers,CA Lynn
+info,player,Adelaide Strikers,AJ Hose
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,BAD Manenti
+info,player,Adelaide Strikers,CJ Boyce
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,HTRY Thornton
+info,player,Adelaide Strikers,PM Siddle
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,J Seymour
+info,player,Melbourne Stars,CD Hinchliffe
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,L Wood
+info,player,Melbourne Stars,LC Hatcher
+info,player,Melbourne Stars,A Zampa
+info,registry,people,A Zampa,14f96089
+info,registry,people,AJ Hose,104e88a4
+info,registry,people,BAD Manenti,ab21795b
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,D Brigham,464daf41
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DM Koch,6d10c034
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HTRY Thornton,055be93a
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,J Seymour,cb54a1d6
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,L Wood,65b6943c
+info,registry,people,LC Hatcher,8f3fde65
+info,registry,people,MW Short,a90e53ec
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RJ Gibson,50636767
+info,registry,people,RL Parry,86d151dc
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,WA Agar,15de1f5d

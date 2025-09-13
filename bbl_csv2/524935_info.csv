@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Melbourne Stars
+info,gender,male
+info,season,2011/12
+info,date,2012/01/09
+info,event,Big Bash League
+info,venue,Bellerive Oval
+info,city,Hobart
+info,toss_winner,Melbourne Stars
+info,toss_decision,bat
+info,player_of_match,LJ Wright
+info,umpire,GC Joshua
+info,umpire,JD Ward
+info,tv_umpire,SD Fry
+info,match_referee,DJ Burns
+info,winner,Melbourne Stars
+info,winner_runs,19
+info,player,Hobart Hurricanes,PA Jaques
+info,player,Hobart Hurricanes,RJG Lockyear
+info,player,Hobart Hurricanes,TR Birt
+info,player,Hobart Hurricanes,OA Shah
+info,player,Hobart Hurricanes,TIF Triffitt
+info,player,Hobart Hurricanes,MJ Johnston
+info,player,Hobart Hurricanes,JW Wells
+info,player,Hobart Hurricanes,Naved-ul-Hasan
+info,player,Hobart Hurricanes,MG Hogan
+info,player,Hobart Hurricanes,XJ Doherty
+info,player,Hobart Hurricanes,B Laughlin
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,CL White
+info,player,Melbourne Stars,MS Wade
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,GJ Bailey
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,CP Simpson
+info,player,Melbourne Stars,CJ McKay
+info,player,Melbourne Stars,JM Bird
+info,player,Melbourne Stars,SK Warne
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,CJ McKay,94eac556
+info,registry,people,CL White,d0513f63
+info,registry,people,CP Simpson,a5c2ef8c
+info,registry,people,DJ Burns,49d422bf
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,JD Ward,511299c1
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JW Wells,8bdac857
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MG Hogan,5da34add
+info,registry,people,MJ Johnston,db2114f1
+info,registry,people,MS Wade,afa7e784
+info,registry,people,Naved-ul-Hasan,33f28243
+info,registry,people,OA Shah,7bf96684
+info,registry,people,PA Jaques,03252e44
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,RJG Lockyear,c8e7c983
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SK Warne,bb18be76
+info,registry,people,TIF Triffitt,593513d5
+info,registry,people,TR Birt,d2d4bb0a
+info,registry,people,XJ Doherty,502b2c81

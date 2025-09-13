@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Melbourne Stars
+info,gender,male
+info,season,2022/23
+info,date,2023/01/03
+info,event,Big Bash League
+info,match_number,27
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,TS Rogers
+info,umpire,GA Abood
+info,umpire,PJ Gillespie
+info,reserve_umpire,Mattis van Eck
+info,tv_umpire,SAJ Craig
+info,match_referee,RW Stratford
+info,winner,Melbourne Renegades
+info,winner_runs,33
+info,player,Melbourne Renegades,MJ Guptill
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,JW Wells
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,AJ Hosein
+info,player,Melbourne Renegades,TS Rogers
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,Mujeeb Ur Rahman
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,C Kellaway
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,L Wood
+info,player,Melbourne Stars,TA Boult
+info,player,Melbourne Stars,A Zampa
+info,registry,people,A Zampa,14f96089
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Hosein,4d7f517e
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,C Kellaway,60c28835
+info,registry,people,GA Abood,a4af5528
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,L Wood,65b6943c
+info,registry,people,MJ Guptill,2be41edb
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mattis van Eck,bf1a68c1
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,RW Stratford,85489579
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,TA Boult,a818c1be
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,W Sutherland,bc2d4f2e

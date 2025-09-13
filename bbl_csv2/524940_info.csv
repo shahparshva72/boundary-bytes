@@ -1,0 +1,65 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2011/12
+info,date,2012/01/18
+info,event,Big Bash League
+info,venue,Bellerive Oval
+info,city,Hobart
+info,toss_winner,Melbourne Renegades
+info,toss_decision,bat
+info,player_of_match,OA Shah
+info,umpire,GA Abood
+info,umpire,AJ Barrow
+info,match_referee,D Levens
+info,winner,Hobart Hurricanes
+info,winner_wickets,7
+info,player,Hobart Hurricanes,JW Wells
+info,player,Hobart Hurricanes,MJ Cosgrove
+info,player,Hobart Hurricanes,TR Birt
+info,player,Hobart Hurricanes,OA Shah
+info,player,Hobart Hurricanes,PA Jaques
+info,player,Hobart Hurricanes,TIF Triffitt
+info,player,Hobart Hurricanes,JJ Krejza
+info,player,Hobart Hurricanes,Naved-ul-Hasan
+info,player,Hobart Hurricanes,XJ Doherty
+info,player,Hobart Hurricanes,MG Hogan
+info,player,Hobart Hurricanes,B Laughlin
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,BJ Hodge
+info,player,Melbourne Renegades,NJ Reardon
+info,player,Melbourne Renegades,Shahid Afridi
+info,player,Melbourne Renegades,AB McDonald
+info,player,Melbourne Renegades,WD Sheridan
+info,player,Melbourne Renegades,GA Manou
+info,player,Melbourne Renegades,BG McDonald
+info,player,Melbourne Renegades,JM Herrick
+info,player,Melbourne Renegades,AK Heal
+info,player,Melbourne Renegades,DP Nannes
+info,registry,people,AB McDonald,16043342
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Heal,78ba5d1b
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BG McDonald,0a3049c5
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,D Levens,8fc718ea
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GA Manou,f58839ad
+info,registry,people,JJ Krejza,047d9032
+info,registry,people,JM Herrick,44ec8c4a
+info,registry,people,JW Wells,8bdac857
+info,registry,people,MG Hogan,5da34add
+info,registry,people,MJ Cosgrove,be768595
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,Naved-ul-Hasan,33f28243
+info,registry,people,OA Shah,7bf96684
+info,registry,people,PA Jaques,03252e44
+info,registry,people,Shahid Afridi,0dc00542
+info,registry,people,TIF Triffitt,593513d5
+info,registry,people,TR Birt,d2d4bb0a
+info,registry,people,WD Sheridan,25d12bb4
+info,registry,people,XJ Doherty,502b2c81

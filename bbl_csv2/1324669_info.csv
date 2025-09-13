@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Perth Scorchers
+info,gender,male
+info,season,2022/23
+info,date,2023/01/18
+info,event,Big Bash League
+info,match_number,46
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,bat
+info,player_of_match,AM Hardie
+info,umpire,GJ Davidson
+info,umpire,PJ Gillespie
+info,reserve_umpire,Ashlee Gibbons
+info,tv_umpire,SJ Nogajski
+info,match_referee,SD Fry
+info,winner,Perth Scorchers
+info,winner_wickets,7
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,Z Crawley
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,Faheem Ashraf
+info,player,Hobart Hurricanes,TD Andrews
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,PG Dooley
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Perth Scorchers,SS Eskinazi
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,NR Hobson
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,M Kelly
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,LR Morris
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,Ashlee Gibbons,b81712f7
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,DJM Short,1a156c88
+info,registry,people,Faheem Ashraf,bd4ea627
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,LR Morris,b08e58e2
+info,registry,people,M Kelly,68e26ec9
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,PG Dooley,5e3054d0
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,RP Meredith,64775749
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SS Eskinazi,75cbed9b
+info,registry,people,TD Andrews,a0f612b6
+info,registry,people,TH David,f1f99156
+info,registry,people,Z Crawley,922e1b19

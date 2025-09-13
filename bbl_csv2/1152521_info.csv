@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Sydney Thunder
+info,gender,male
+info,season,2018/19
+info,date,2018/12/28
+info,event,Big Bash League
+info,match_number,11
+info,venue,Bellerive Oval
+info,city,Hobart
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,MS Wade
+info,umpire,SD Fry
+info,umpire,MW Graham-Smith
+info,reserve_umpire,DR Close
+info,tv_umpire,AK Wilds
+info,match_referee,DJ Harper
+info,winner,Hobart Hurricanes
+info,winner_wickets,7
+info,player,Sydney Thunder,JC Buttler
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,JE Root
+info,player,Sydney Thunder,JJS Sangha
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,SL Rainbird
+info,player,Sydney Thunder,JD Cook
+info,player,Sydney Thunder,Fawad Ahmed
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,GJ Bailey
+info,player,Hobart Hurricanes,S Milenko
+info,player,Hobart Hurricanes,AJ Doolan
+info,player,Hobart Hurricanes,JP Faulkner
+info,player,Hobart Hurricanes,J Botha
+info,player,Hobart Hurricanes,JC Archer
+info,player,Hobart Hurricanes,CA Rose
+info,player,Hobart Hurricanes,RP Meredith
+info,registry,people,AJ Doolan,36eafb02
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CA Rose,7517d134
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,J Botha,7c503806
+info,registry,people,JC Archer,5574750c
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JD Cook,45f56920
+info,registry,people,JE Root,a343262c
+info,registry,people,JJS Sangha,8e3cb0e9
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Milenko,479f9b04
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SL Rainbird,e7dd5eca
+info,registry,people,SR Watson,4329fbb5

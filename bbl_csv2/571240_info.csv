@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Perth Scorchers
+info,gender,male
+info,season,2012/13
+info,date,2012/12/16
+info,event,Big Bash League
+info,venue,Sydney Cricket Ground
+info,city,
+info,toss_winner,Perth Scorchers
+info,toss_decision,field
+info,player_of_match,MA Beer
+info,umpire,GA Abood
+info,umpire,AP Ward
+info,tv_umpire,AJ Barrow
+info,match_referee,RJ Evans (2)
+info,winner,Perth Scorchers
+info,winner_wickets,7
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,HH Gibbs
+info,player,Perth Scorchers,MJ North
+info,player,Perth Scorchers,HWR Cartwright
+info,player,Perth Scorchers,SM Katich
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,TIF Triffitt
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,AC Thomas
+info,player,Perth Scorchers,GB Hogg
+info,player,Perth Scorchers,MA Beer
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,DLR Smith
+info,player,Sydney Sixers,BJ Haddin
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,BMAJ Mendis
+info,player,Sydney Sixers,DJ Thornely
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,IA Moran
+info,player,Sydney Sixers,B Lee
+info,player,Sydney Sixers,SP Narine
+info,player,Sydney Sixers,LW Feldman
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AP Ward,196a3809
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BJ Haddin,b0c772ee
+info,registry,people,BMAJ Mendis,9868bc75
+info,registry,people,DJ Thornely,7d3937ed
+info,registry,people,DLR Smith,0c5c3a87
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,IA Moran,5ce5204c
+info,registry,people,LW Feldman,da13a0fc
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ North,99464591
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,RJ Evans (2),d5fc9e42
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,TIF Triffitt,593513d5

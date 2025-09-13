@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2020/21
+info,date,2021/01/18
+info,event,Big Bash League
+info,match_number,43
+info,venue,Manuka Oval
+info,city,Canberra
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,BR McDermott
+info,umpire,GJ Davidson
+info,umpire,AK Wilds
+info,reserve_umpire,SA Lightbody
+info,tv_umpire,GA Abood
+info,match_referee,RW Stratford
+info,winner,Hobart Hurricanes
+info,winner_wickets,6
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,O Davies
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,SW Billings
+info,player,Sydney Thunder,BCJ Cutting
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,AF Milne
+info,player,Sydney Thunder,T Sangha
+info,player,Hobart Hurricanes,WG Jacks
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,DJ Malan
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,MJ Owen
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,SM Boland
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,S Lamichhane
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AF Milne,350bb1b1
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DJ Malan,ad9c32a2
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,MJ Owen,f2c936d7
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,O Davies,0ea54eca
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RP Meredith,64775749
+info,registry,people,RW Stratford,85489579
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SM Boland,d167edd3
+info,registry,people,SW Billings,c16d4035
+info,registry,people,T Sangha,52c952d9
+info,registry,people,TH David,f1f99156
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,WG Jacks,9caf69a1

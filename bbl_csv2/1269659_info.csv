@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2021/22
+info,date,2021/12/27
+info,event,Big Bash League
+info,match_number,22
+info,venue,"Bellerive Oval, Hobart"
+info,city,Hobart
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,BR McDermott
+info,umpire,SJ Nogajski
+info,umpire,SA Lightbody
+info,reserve_umpire,TJ Matibiri
+info,tv_umpire,MW Graham-Smith
+info,match_referee,SJ Davis
+info,winner,Hobart Hurricanes
+info,winner_wickets,7
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,MT Renshaw
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,GHS Garton
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,Fawad Ahmed
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,HC Brook
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,JA Thompson
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,TS Rogers
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,S Lamichhane
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,DJM Short,1a156c88
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GHS Garton,be869ccf
+info,registry,people,HC Brook,4ae1755b
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JA Thompson,1d2f290a
+info,registry,people,JW Wells,8bdac857
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,MW Short,a90e53ec
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RP Meredith,64775749
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,TH David,f1f99156
+info,registry,people,TJ Matibiri,4a3132b1
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,WA Agar,15de1f5d

@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2021/22
+info,date,2022/01/18
+info,event,Big Bash League
+info,match_number,53
+info,venue,"Docklands Stadium, Melbourne"
+info,city,Melbourne
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,bat
+info,player_of_match,AJ Finch
+info,umpire,SAJ Craig
+info,umpire,AK Wilds
+info,reserve_umpire,Steven Farrell
+info,tv_umpire,SA Lightbody
+info,match_referee,SJ Davis
+info,winner,Hobart Hurricanes
+info,winner_runs,6
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,JA Thompson
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,J Kann
+info,player,Hobart Hurricanes,TS Rogers
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,S Lamichhane
+info,player,Melbourne Renegades,J Seymour
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,UBT Chand
+info,player,Melbourne Renegades,J Merlo
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,CJ Boyce
+info,player,Melbourne Renegades,Z Evans
+info,player,Melbourne Renegades,JK Lalor
+info,player,Melbourne Renegades,Zahir Khan
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,DJM Short,1a156c88
+info,registry,people,J Kann,cccea5bc
+info,registry,people,J Merlo,02ba80a0
+info,registry,people,J Seymour,cb54a1d6
+info,registry,people,JA Thompson,1d2f290a
+info,registry,people,JK Lalor,88209c84
+info,registry,people,MS Wade,afa7e784
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,Steven Farrell,512226fb
+info,registry,people,TH David,f1f99156
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,UBT Chand,0c94f480
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,Z Evans,8528effb
+info,registry,people,Zahir Khan,786b7fe8

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2018/19
+info,date,2019/01/01
+info,event,Big Bash League
+info,match_number,16
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,MP Stoinis
+info,umpire,JD Ward
+info,umpire,SAJ Craig
+info,reserve_umpire,Mattis van Eck
+info,tv_umpire,DJ Shepard
+info,match_referee,RW Stratford
+info,winner,Melbourne Stars
+info,winner_wickets,7
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,DT Christian
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,JD Wildermuth
+info,player,Melbourne Renegades,CJ Boyce
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,Usman Shinwari
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,SE Gotch
+info,player,Melbourne Stars,DJ Bravo
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,J Merlo
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,S Lamichhane
+info,player,Melbourne Stars,SM Boland
+info,registry,people,A Zampa,14f96089
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Shepard,d3533ba5
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,J Merlo,02ba80a0
+info,registry,people,JD Ward,511299c1
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mattis van Eck,bf1a68c1
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,RW Stratford,85489579
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SE Gotch,9a0e4ca5
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,Usman Shinwari,f0e722e0

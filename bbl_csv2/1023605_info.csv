@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2016/17
+info,date,2017/01/01
+info,event,Big Bash League
+info,match_number,13
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,MR Marsh
+info,umpire,GA Abood
+info,umpire,MW Graham-Smith
+info,reserve_umpire,NR Johnstone
+info,tv_umpire,SD Fry
+info,match_referee,DJ Harper
+info,winner,Perth Scorchers
+info,winner_runs,50
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,IR Bell
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,DJ Willey
+info,player,Perth Scorchers,MG Johnson
+info,player,Sydney Thunder,RJ Gibson
+info,player,Sydney Thunder,KR Patterson
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,EJG Morgan
+info,player,Sydney Thunder,BJ Rohrer
+info,player,Sydney Thunder,AD Russell
+info,player,Sydney Thunder,PJ Cummins
+info,player,Sydney Thunder,JS Lenton
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,CJ McKay
+info,player,Sydney Thunder,Fawad Ahmed
+info,registry,people,AC Voges,864c199e
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CJ McKay,94eac556
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Willey,7f048519
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GA Abood,a4af5528
+info,registry,people,IR Bell,33155d1b
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JS Lenton,8820c9ef
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,RJ Gibson,50636767
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,SR Watson,4329fbb5

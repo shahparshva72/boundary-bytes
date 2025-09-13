@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2023/24
+info,date,2024/01/16
+info,event,Big Bash League
+info,match_number,39
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,DP Hughes
+info,umpire,NR Johnstone
+info,umpire,SJ Nogajski
+info,reserve_umpire,J Thomas
+info,tv_umpire,SA Lightbody
+info,match_referee,J Chikange
+info,winner,Sydney Sixers
+info,winner_wickets,3
+info,player,Perth Scorchers,SS Eskinazi
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,LJ Evans
+info,player,Perth Scorchers,C Connolly
+info,player,Perth Scorchers,NR Hobson
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,LR Morris
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,JM Bird
+info,player,Sydney Sixers,T Murphy
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,C Connolly,fe366f34
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,H Kerr,f422728b
+info,registry,people,J Chikange,767e305a
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,J Thomas,118c3b91
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JR Philippe,39086549
+info,registry,people,LJ Evans,1c513d54
+info,registry,people,LR Morris,b08e58e2
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,SS Eskinazi,75cbed9b
+info,registry,people,T Murphy,ac2e7ec0

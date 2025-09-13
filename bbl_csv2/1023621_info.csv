@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2016/17
+info,date,2017/01/09
+info,event,Big Bash League
+info,match_number,21
+info,venue,Sydney Cricket Ground
+info,city,
+info,toss_winner,Melbourne Renegades
+info,toss_decision,bat
+info,player_of_match,BJ Haddin
+info,umpire,SAJ Craig
+info,umpire,AK Wilds
+info,reserve_umpire,SA Lightbody
+info,tv_umpire,GC Joshua
+info,match_referee,SR Bernard
+info,winner,Sydney Sixers
+info,winner_wickets,6
+info,player,Melbourne Renegades,SP Narine
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,CJ Ferguson
+info,player,Melbourne Renegades,NLTC Perera
+info,player,Melbourne Renegades,MW Short
+info,player,Melbourne Renegades,JL Pattinson
+info,player,Melbourne Renegades,CP Tremain
+info,player,Melbourne Renegades,PM Nevill
+info,player,Melbourne Renegades,GB Hogg
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,BJ Haddin
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,JM Bird
+info,player,Sydney Sixers,NM Lyon
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BJ Haddin,b0c772ee
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CL White,d0513f63
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,J Botha,7c503806
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,MW Short,a90e53ec
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SR Bernard,800187dc
+info,registry,people,TLW Cooper,2318ba22

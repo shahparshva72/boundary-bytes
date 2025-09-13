@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2017/18
+info,date,2017/12/28
+info,event,Big Bash League
+info,match_number,9
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,AT Carey
+info,umpire,P Wilson
+info,umpire,SAJ Craig
+info,reserve_umpire,BC Treloar
+info,tv_umpire,JD Ward
+info,match_referee,PL Marshall
+info,winner,Adelaide Strikers
+info,winner_runs,6
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,CA Ingram
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,JS Lehmann
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,B Stanlake
+info,player,Sydney Sixers,JJ Roy
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,SW Billings
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,DR Sams
+info,player,Sydney Sixers,WER Somerville
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,CA Ingram,c995d726
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,J Botha,7c503806
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JD Ward,511299c1
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,JW Wells,8bdac857
+info,registry,people,MG Neser,0164b064
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,P Wilson,68304a36
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SW Billings,c16d4035
+info,registry,people,TM Head,12b610c2
+info,registry,people,WER Somerville,74a1c1e3

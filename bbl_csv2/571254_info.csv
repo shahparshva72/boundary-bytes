@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2012/13
+info,date,2013/01/02
+info,event,Big Bash League
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Adelaide Strikers
+info,toss_decision,field
+info,player_of_match,M Muralitharan
+info,umpire,SJ Nogajski
+info,umpire,P Wilson
+info,tv_umpire,SD Fry
+info,match_referee,DJ Burns
+info,winner,Melbourne Renegades
+info,winner_runs,48
+info,player,Adelaide Strikers,M Klinger
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,CJ Ferguson
+info,player,Adelaide Strikers,NJ Reardon
+info,player,Adelaide Strikers,J Botha
+info,player,Adelaide Strikers,KA Pollard
+info,player,Adelaide Strikers,TP Doropoulos
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,BE Young
+info,player,Adelaide Strikers,GD Putland
+info,player,Melbourne Renegades,MW Hill
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,MN Samuels
+info,player,Melbourne Renegades,BJ Rohrer
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,PM Nevill
+info,player,Melbourne Renegades,WD Sheridan
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,AW O'Brien
+info,player,Melbourne Renegades,DJ Pattinson
+info,player,Melbourne Renegades,M Muralitharan
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AW O'Brien,d29be810
+info,registry,people,BE Young,278fd5ff
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,DJ Burns,49d422bf
+info,registry,people,DJ Pattinson,3fe2db87
+info,registry,people,GD Putland,9f54ae00
+info,registry,people,J Botha,7c503806
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,M Klinger,b970a03f
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MG Neser,0164b064
+info,registry,people,MN Samuels,f846de6a
+info,registry,people,MW Hill,1952e660
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,P Wilson,68304a36
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TP Doropoulos,d87404b4
+info,registry,people,TP Ludeman,c3f7898b
+info,registry,people,WD Sheridan,25d12bb4

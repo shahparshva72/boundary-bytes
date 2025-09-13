@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2021/22
+info,date,2022/01/03
+info,event,Big Bash League
+info,match_number,33
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Melbourne Stars
+info,toss_decision,bat
+info,player_of_match,KW Richardson
+info,umpire,BNJ Oxenford
+info,umpire,Geoff Davidson
+info,reserve_umpire,Greg Azzopardi
+info,tv_umpire,PJ Gillespie
+info,match_referee,RW Stratford
+info,winner,Melbourne Renegades
+info,winner_wickets,5
+info,player,Melbourne Stars,TJ Dean
+info,player,Melbourne Stars,J Avendano
+info,player,Melbourne Stars,CA Wakim
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,P Rowe
+info,player,Melbourne Stars,TL O'Connell
+info,player,Melbourne Stars,Qais Ahmad
+info,player,Melbourne Stars,BL Couch
+info,player,Melbourne Stars,Haris Rauf
+info,player,Melbourne Stars,Ahmed Daniyal
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,NJ Maddinson
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,J Seymour
+info,player,Melbourne Renegades,JA Prestwidge
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,RJW Topley
+info,player,Melbourne Renegades,Zahir Khan
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,Ahmed Daniyal,9656afbf
+info,registry,people,BL Couch,be69e09d
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CA Wakim,c5e415aa
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,Geoff Davidson,b33a1559
+info,registry,people,Greg Azzopardi,e950350e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Haris Rauf,24bb1c2f
+info,registry,people,J Avendano,0af4a90b
+info,registry,people,J Seymour,cb54a1d6
+info,registry,people,JA Prestwidge,5f317fd4
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,P Rowe,34ba03c3
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,Qais Ahmad,8d5d991e
+info,registry,people,RJW Topley,8db7f47f
+info,registry,people,RW Stratford,85489579
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,TJ Dean,666936de
+info,registry,people,TL O'Connell,859d95bb
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,Zahir Khan,786b7fe8

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2015/16
+info,date,2015/12/18
+info,event,Big Bash League
+info,match_number,2
+info,venue,Adelaide Oval
+info,city,
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,AI Ross
+info,umpire,GA Abood
+info,umpire,MW Graham-Smith
+info,reserve_umpire,C Black
+info,tv_umpire,MD Martell
+info,match_referee,DJ Harper
+info,winner,Adelaide Strikers
+info,winner_runs,19
+info,player,Adelaide Strikers,CJ Simmons
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,DPMD Jayawardene
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,BJ Hodge
+info,player,Adelaide Strikers,AI Ross
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,AU Rashid
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,JM Holland
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,MA Beer
+info,player,Melbourne Stars,SM Boland
+info,registry,people,A Zampa,14f96089
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AU Rashid,249d60c9
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,C Black,75b42f71
+info,registry,people,CJ Simmons,0095ce38
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JM Holland,70c4f525
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JW Hastings,012829ff
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MD Martell,487c072e
+info,registry,people,MG Neser,0164b064
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TM Head,12b610c2
+info,registry,people,TP Ludeman,c3f7898b

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2016/17
+info,date,2017/01/14
+info,event,Big Bash League
+info,match_number,26
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,MA Beer
+info,umpire,GC Joshua
+info,umpire,DB Mealey
+info,reserve_umpire,J Hewitt
+info,tv_umpire,SAJ Craig
+info,match_referee,SR Bernard
+info,winner,Melbourne Stars
+info,winner_wickets,7
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,BW Hilfenhaus
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,MA Beer
+info,player,Melbourne Stars,CJ Gannon
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,IR Bell
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,HWR Cartwright
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,TT Bresnan
+info,player,Perth Scorchers,MG Johnson
+info,player,Perth Scorchers,JA Richardson
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,CJ Gannon,519c30cb
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,DB Mealey,2199afd4
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,IR Bell,33155d1b
+info,registry,people,J Hewitt,bfe1c25f
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SM Boland,d167edd3
+info,registry,people,SR Bernard,800187dc
+info,registry,people,TT Bresnan,58043739

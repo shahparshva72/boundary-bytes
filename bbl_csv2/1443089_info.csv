@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Perth Scorchers
+info,gender,male
+info,season,2024/25
+info,date,2025/01/13
+info,event,Big Bash League
+info,match_number,33
+info,venue,Sydney Showground Stadium
+info,city,Sydney
+info,toss_winner,Perth Scorchers
+info,toss_decision,field
+info,player_of_match,TD Andrews
+info,umpire,D Taylor
+info,umpire,MW Graham-Smith
+info,reserve_umpire,ME Claydon
+info,tv_umpire,Troy Penman
+info,match_referee,SJ Davis
+info,winner,Sydney Thunder
+info,winner_runs,61
+info,player,Sydney Thunder,S Konstas
+info,player,Sydney Thunder,DA Warner
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,SW Billings
+info,player,Sydney Thunder,GHS Garton
+info,player,Sydney Thunder,HD Weibgen
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,TD Andrews
+info,player,Sydney Thunder,T Sangha
+info,player,Sydney Thunder,Mohammad Hasnain
+info,player,Perth Scorchers,S Fanning
+info,player,Perth Scorchers,FH Allen
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,C Connolly
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,NR Hobson
+info,player,Perth Scorchers,M Spoors
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,LR Morris
+info,player,Perth Scorchers,M Beardman
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,C Connolly,fe366f34
+info,registry,people,CJ Green,19b9f399
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,FH Allen,bf74b130
+info,registry,people,GHS Garton,be869ccf
+info,registry,people,HD Weibgen,2535b30f
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,LR Morris,b08e58e2
+info,registry,people,M Beardman,b5a12740
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,M Spoors,da4a1e46
+info,registry,people,ME Claydon,15101f12
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,Mohammad Hasnain,8596fe80
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,S Fanning,a9d2dab9
+info,registry,people,S Konstas,3c34c9e1
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SW Billings,c16d4035
+info,registry,people,T Sangha,52c952d9
+info,registry,people,TD Andrews,a0f612b6
+info,registry,people,Troy Penman,0aa42c26

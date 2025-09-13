@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2020/21
+info,date,2021/01/08
+info,event,Big Bash League
+info,match_number,33
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,Mohammad Nabi
+info,umpire,DR Close
+info,umpire,D Taylor
+info,reserve_umpire,Eloise Sheridan
+info,tv_umpire,SJ Nogajski
+info,match_referee,SJ Davis
+info,winner,Melbourne Renegades
+info,winner_wickets,6
+info,player,Adelaide Strikers,MT Renshaw
+info,player,Adelaide Strikers,PD Salt
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,RJ Gibson
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,DR Briggs
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,HNA Conway
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,JA Prestwidge
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,Imad Wasim
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,P Hatzoglou
+info,player,Melbourne Renegades,Noor Ahmad
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AT Carey,69d03465
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DR Briggs,f3abd0c9
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,Eloise Sheridan,d8d43840
+info,registry,people,HNA Conway,272fc5ad
+info,registry,people,Imad Wasim,9cb8d7a6
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JA Prestwidge,5f317fd4
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Noor Ahmad,efc04be7
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RJ Gibson,50636767
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,WA Agar,15de1f5d

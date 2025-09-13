@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2018/19
+info,date,2018/12/27
+info,event,Big Bash League
+info,match_number,10
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,PSP Handscomb
+info,umpire,SA Lightbody
+info,umpire,SAJ Craig
+info,reserve_umpire,BC Treloar
+info,match_referee,SR Bernard
+info,winner,Melbourne Stars
+info,winner_wickets,5
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,JL Denly
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,GA West
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,DJ Bravo
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,S Lamichhane
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,JR Coleman
+info,registry,people,A Zampa,14f96089
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BR Dunk,272d796e
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,GA West,9dfd54a5
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JL Denly,bdadf7da
+info,registry,people,JR Coleman,de6efa4a
+info,registry,people,JR Philippe,39086549
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SM Boland,d167edd3
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SR Bernard,800187dc
+info,registry,people,TK Curran,e86754b2

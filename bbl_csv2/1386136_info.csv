@@ -1,0 +1,69 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2023/24
+info,date,2024/01/22
+info,event,Big Bash League
+info,venue,Carrara Oval
+info,city,Carrara
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,J Brown
+info,umpire,GA Abood
+info,umpire,SJ Nogajski
+info,reserve_umpire,BC Treloar
+info,tv_umpire,SAJ Craig
+info,match_referee,RW Stratford
+info,winner,Brisbane Heat
+info,winner_runs,54
+info,player,Brisbane Heat,J Brown
+info,player,Brisbane Heat,CA Wakim
+info,player,Brisbane Heat,NA McSweeney
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,PI Walter
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,SH Johnson
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,DJM Short
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,BAD Manenti
+info,player,Adelaide Strikers,JJ Bazley
+info,player,Adelaide Strikers,HTRY Thornton
+info,player,Adelaide Strikers,DA Payne
+info,player,Adelaide Strikers,CJ Boyce
+info,player,Adelaide Strikers,L Pope
+info,registry,people,BAD Manenti,ab21795b
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,CA Wakim,c5e415aa
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,DA Payne,6c79c098
+info,registry,people,DJM Short,1a156c88
+info,registry,people,GA Abood,a4af5528
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HTRY Thornton,055be93a
+info,registry,people,J Brown,647e7d44
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,L Pope,616a8149
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MG Neser,0164b064
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MW Short,a90e53ec
+info,registry,people,NA McSweeney,e94d2d50
+info,registry,people,PI Walter,57590dbb
+info,registry,people,RW Stratford,85489579
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SH Johnson,83c3e8e3
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,XC Bartlett,3b53243a

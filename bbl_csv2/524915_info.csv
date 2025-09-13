@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2011/12
+info,date,2011/12/16
+info,event,Big Bash League
+info,venue,Sydney Cricket Ground
+info,city,
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,BJ Haddin
+info,umpire,BNJ Oxenford
+info,umpire,PR Reiffel
+info,tv_umpire,IH Lock
+info,match_referee,PL Marshall
+info,winner,Sydney Sixers
+info,winner_wickets,7
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,ML Hayden
+info,player,Brisbane Heat,JR Hopes
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,DT Christian
+info,player,Brisbane Heat,AW Robinson
+info,player,Brisbane Heat,PJ Forrest
+info,player,Brisbane Heat,CD Hartley
+info,player,Brisbane Heat,ND Buchanan
+info,player,Brisbane Heat,NM Hauritz
+info,player,Brisbane Heat,AC McDermott
+info,player,Sydney Sixers,BJ Haddin
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,B Lee
+info,player,Sydney Sixers,DJ Bravo
+info,player,Sydney Sixers,EJM Cowan
+info,player,Sydney Sixers,JR Hazlewood
+info,player,Sydney Sixers,MA Starc
+info,player,Sydney Sixers,SCG MacGill
+info,registry,people,AC McDermott,956887b2
+info,registry,people,AW Robinson,7001dee4
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BJ Haddin,b0c772ee
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CD Hartley,9a06679d
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,EJM Cowan,fee3c48a
+info,registry,people,IH Lock,a1b1e3c2
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,JR Hopes,2498e163
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,ML Hayden,d8699ab7
+info,registry,people,ND Buchanan,9a211e08
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Hauritz,8ea6e670
+info,registry,people,PJ Forrest,56c205b7
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,SCG MacGill,60dac349
+info,registry,people,SPD Smith,30a45b23

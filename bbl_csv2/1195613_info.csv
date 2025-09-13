@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Perth Scorchers
+info,gender,male
+info,season,2019/20
+info,date,2020/01/18
+info,event,Big Bash League
+info,match_number,41
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Melbourne Stars
+info,toss_decision,bat
+info,player_of_match,GJ Maxwell
+info,umpire,P Wilson
+info,umpire,DR Close
+info,reserve_umpire,D Ireland
+info,tv_umpire,GC Joshua
+info,match_referee,RW Stratford
+info,winner,Melbourne Stars
+info,winner_runs,10
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,NJ Maddinson
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,SE Gotch
+info,player,Melbourne Stars,CD Hinchliffe
+info,player,Melbourne Stars,DJ Worrall
+info,player,Melbourne Stars,LR Morris
+info,player,Melbourne Stars,S Lamichhane
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,LS Livingstone
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,KR Patterson
+info,player,Perth Scorchers,TH David
+info,player,Perth Scorchers,C Green
+info,player,Perth Scorchers,CJ Jordan
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,M Kelly
+info,player,Perth Scorchers,Fawad Ahmed
+info,registry,people,C Green,eaa76d3c
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,D Ireland,9b4fc7b9
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JP Inglis,989889ff
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,LR Morris,b08e58e2
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Kelly,68e26ec9
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,P Wilson,68304a36
+info,registry,people,RW Stratford,85489579
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SE Gotch,9a0e4ca5
+info,registry,people,TH David,f1f99156

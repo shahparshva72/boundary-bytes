@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2021/22
+info,date,2022/01/08
+info,event,Big Bash League
+info,match_number,40
+info,venue,"Docklands Stadium, Melbourne"
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,DR Sams
+info,umpire,BC Treloar
+info,umpire,BNJ Oxenford
+info,reserve_umpire,Greg Azzopardi
+info,tv_umpire,NR Johnstone
+info,match_referee,RL Parry
+info,winner,Sydney Thunder
+info,winner_runs,129
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,JJS Sangha
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,O Davies
+info,player,Sydney Thunder,BCJ Cutting
+info,player,Sydney Thunder,BJ Holt
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,T Sangha
+info,player,Sydney Thunder,Mohammad Hasnain
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,NJ Maddinson
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,J Seymour
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,JK Lalor
+info,player,Melbourne Renegades,Z Evans
+info,player,Melbourne Renegades,Zahir Khan
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Holt,f05d1564
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,Greg Azzopardi,e950350e
+info,registry,people,J Seymour,cb54a1d6
+info,registry,people,JJS Sangha,8e3cb0e9
+info,registry,people,JK Lalor,88209c84
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mohammad Hasnain,8596fe80
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,O Davies,0ea54eca
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,T Sangha,52c952d9
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,Z Evans,8528effb
+info,registry,people,Zahir Khan,786b7fe8

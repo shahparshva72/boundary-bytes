@@ -1,4 +1,4 @@
-export type League = 'WPL' | 'IPL';
+export type League = 'WPL' | 'IPL' | 'BBL';
 
 export interface LeagueConfig {
   id: League;

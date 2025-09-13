@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Sydney Thunder
+info,gender,male
+info,season,2021/22
+info,date,2021/12/06
+info,event,Big Bash League
+info,match_number,2
+info,venue,"Manuka Oval, Canberra"
+info,city,Canberra
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,AI Ross
+info,umpire,GJ Davidson
+info,umpire,AK Wilds
+info,reserve_umpire,SA Lightbody
+info,tv_umpire,D Taylor
+info,match_referee,SR Bernard
+info,winner,Sydney Thunder
+info,winner_wickets,7
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,BM Duckett
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,JD Wildermuth
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Brisbane Heat,L Guthrie
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,SM Whiteman
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,SW Billings
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,BCJ Cutting
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,T Sangha
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BM Duckett,5f26f677
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,L Guthrie,b03303ca
+info,registry,people,M Bryant,f32012f4
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,SR Bernard,800187dc
+info,registry,people,SW Billings,c16d4035
+info,registry,people,T Sangha,52c952d9
+info,registry,people,XC Bartlett,3b53243a

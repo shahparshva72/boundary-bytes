@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2018/19
+info,date,2018/12/26
+info,event,Big Bash League
+info,match_number,9
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Perth Scorchers
+info,toss_decision,field
+info,player_of_match,JA Richardson
+info,umpire,PJ Gillespie
+info,umpire,GC Joshua
+info,reserve_umpire,J Hewitt
+info,tv_umpire,JD Ward
+info,match_referee,D Talalla
+info,winner,Perth Scorchers
+info,winner_wickets,7
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,CA Ingram
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,JS Lehmann
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,C Valente
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,B Stanlake
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,WG Bosisto
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,HWR Cartwright
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,DJ Willey
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,JP Behrendorff
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,C Valente,137e7065
+info,registry,people,CA Ingram,c995d726
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DJ Willey,7f048519
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,J Hewitt,bfe1c25f
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JD Ward,511299c1
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,JW Wells,8bdac857
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MG Neser,0164b064
+info,registry,people,MW Short,a90e53ec
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,WG Bosisto,04ef663a

@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2023/24
+info,date,2024/01/13
+info,event,Big Bash League
+info,match_number,36
+info,venue,"Docklands Stadium, Melbourne"
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,SE Marsh
+info,umpire,GA Abood
+info,umpire,GJ Davidson
+info,reserve_umpire,Mattis van Eck
+info,tv_umpire,SJ Nogajski
+info,match_referee,RL Parry
+info,winner,Melbourne Renegades
+info,winner_wickets,6
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,DW Lawrence
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,Imad Wasim
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,JS Paris
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,JM Cox
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,JW Wells
+info,player,Melbourne Renegades,AJ Hosein
+info,player,Melbourne Renegades,TS Rogers
+info,player,Melbourne Renegades,F O'Neill
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,A Zampa
+info,registry,people,A Zampa,14f96089
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Hosein,4d7f517e
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,DW Lawrence,4b685e2d
+info,registry,people,F O'Neill,39d608d4
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Imad Wasim,9cb8d7a6
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,JM Cox,ff154ecd
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mattis van Eck,bf1a68c1
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,W Sutherland,bc2d4f2e

@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Sydney Thunder
+info,gender,male
+info,season,2013/14
+info,date,2014/01/14
+info,event,Big Bash League
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,bat
+info,player_of_match,GS Sandhu
+info,umpire,GC Joshua
+info,umpire,AP Ward
+info,reserve_umpire,AJ Sammartino
+info,tv_umpire,JD Ward
+info,match_referee,DJ Harper
+info,winner,Sydney Thunder
+info,winner_wickets,9
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,DJ Harris
+info,player,Melbourne Renegades,AJ Doolan
+info,player,Melbourne Renegades,BJ Rohrer
+info,player,Melbourne Renegades,MW Hill
+info,player,Melbourne Renegades,PM Nevill
+info,player,Melbourne Renegades,AW O'Brien
+info,player,Melbourne Renegades,JL Pattinson
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,Fawad Ahmed
+info,player,Melbourne Renegades,M Muralitharan
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,TM Dilshan
+info,player,Sydney Thunder,MEK Hussey
+info,player,Sydney Thunder,KR Patterson
+info,player,Sydney Thunder,JS Floros
+info,player,Sydney Thunder,RGL Carters
+info,player,Sydney Thunder,AJ Tye
+info,player,Sydney Thunder,CP Tremain
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,BAW Mendis
+info,player,Sydney Thunder,DP Nannes
+info,registry,people,AJ Doolan,36eafb02
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Sammartino,284d6015
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AP Ward,196a3809
+info,registry,people,AW O'Brien,d29be810
+info,registry,people,BAW Mendis,ea0cdc12
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Harris,39f82db3
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,JD Ward,511299c1
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,JS Floros,79765f6f
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MW Hill,1952e660
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,RGL Carters,f54c8804
+info,registry,people,TM Dilshan,5bdcdb72
+info,registry,people,UT Khawaja,331ea488

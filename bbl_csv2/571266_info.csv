@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2012/13
+info,date,2013/01/19
+info,event,Big Bash League
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,NM Hauritz
+info,umpire,SD Fry
+info,umpire,MD Martell
+info,tv_umpire,P Wilson
+info,match_referee,PL Marshall
+info,winner,Brisbane Heat
+info,winner_runs,34
+info,player,Brisbane Heat,LA Pomersbach
+info,player,Brisbane Heat,PJ Forrest
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,DT Christian
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,CD Hartley
+info,player,Brisbane Heat,CJM Sabburg
+info,player,Brisbane Heat,NM Hauritz
+info,player,Brisbane Heat,KAJ Roach
+info,player,Brisbane Heat,AC McDermott
+info,player,Perth Scorchers,MP Stoinis
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,MJ North
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,MEK Hussey
+info,player,Perth Scorchers,SM Katich
+info,player,Perth Scorchers,AC Thomas
+info,player,Perth Scorchers,GB Hogg
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,MA Beer
+info,registry,people,AC McDermott,956887b2
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AC Voges,864c199e
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CD Hartley,9a06679d
+info,registry,people,CJM Sabburg,9fc73711
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,KAJ Roach,78eb4223
+info,registry,people,LA Pomersbach,b63ab531
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MD Martell,487c072e
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MJ North,99464591
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NM Hauritz,8ea6e670
+info,registry,people,P Wilson,68304a36
+info,registry,people,PJ Forrest,56c205b7
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SM Katich,fdedb37c

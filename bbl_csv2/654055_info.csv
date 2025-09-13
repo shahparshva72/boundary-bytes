@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Sydney Sixers
+info,gender,male
+info,season,2013/14
+info,date,2014/01/02
+info,event,Big Bash League
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,B Lee
+info,umpire,AJ Barrow
+info,umpire,JD Ward
+info,reserve_umpire,SE Dionysius
+info,tv_umpire,SD Fry
+info,match_referee,DJ Harper
+info,winner,Sydney Sixers
+info,winner_runs,4
+info,player,Brisbane Heat,LA Pomersbach
+info,player,Brisbane Heat,C Kieswetter
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,DT Christian
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,CJM Sabburg
+info,player,Brisbane Heat,JR Hopes
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,DL Vettori
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,CJ Gannon
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,MJ North
+info,player,Sydney Sixers,RS Bopara
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DLR Smith
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,B Lee
+info,player,Sydney Sixers,JK Lalor
+info,player,Sydney Sixers,JR Hazlewood
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,C Kieswetter,1e960f2a
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Gannon,519c30cb
+info,registry,people,CJM Sabburg,9fc73711
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,DLR Smith,0c5c3a87
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JD Ward,511299c1
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,JR Hopes,2498e163
+info,registry,people,LA Pomersbach,b63ab531
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,MJ North,99464591
+info,registry,people,MT Steketee,903560ed
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SE Dionysius,ac886e6f
+info,registry,people,SNJ O'Keefe,3540beff

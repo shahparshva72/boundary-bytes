@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Sydney Thunder
+info,gender,male
+info,season,2013/14
+info,date,2014/01/11
+info,event,Big Bash League
+info,venue,Bellerive Oval
+info,city,Hobart
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,bat
+info,player_of_match,BR Dunk
+info,umpire,DB Mealey
+info,umpire,SJ Nogajski
+info,reserve_umpire,JM Mitchell
+info,tv_umpire,GC Joshua
+info,match_referee,PL Marshall
+info,winner,Hobart Hurricanes
+info,winner_runs,73
+info,player,Hobart Hurricanes,TD Paine
+info,player,Hobart Hurricanes,BR Dunk
+info,player,Hobart Hurricanes,TR Birt
+info,player,Hobart Hurricanes,AC Blizzard
+info,player,Hobart Hurricanes,OA Shah
+info,player,Hobart Hurricanes,Shoaib Malik
+info,player,Hobart Hurricanes,JW Wells
+info,player,Hobart Hurricanes,B Laughlin
+info,player,Hobart Hurricanes,BW Hilfenhaus
+info,player,Hobart Hurricanes,CJ Boyce
+info,player,Hobart Hurricanes,DE Bollinger
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,DP Hughes
+info,player,Sydney Thunder,MEK Hussey
+info,player,Sydney Thunder,CJ Borgas
+info,player,Sydney Thunder,JS Floros
+info,player,Sydney Thunder,KR Patterson
+info,player,Sydney Thunder,RGL Carters
+info,player,Sydney Thunder,AJ Tye
+info,player,Sydney Thunder,BAW Mendis
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,DP Nannes
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BAW Mendis,ea0cdc12
+info,registry,people,BR Dunk,272d796e
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,CJ Borgas,d901964b
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,DB Mealey,2199afd4
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,JM Mitchell,b1b4ab36
+info,registry,people,JS Floros,79765f6f
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,OA Shah,7bf96684
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,RGL Carters,f54c8804
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,Shoaib Malik,64c34cd0
+info,registry,people,TD Paine,5748e866
+info,registry,people,TR Birt,d2d4bb0a
+info,registry,people,UT Khawaja,331ea488

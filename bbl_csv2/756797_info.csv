@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2014/15
+info,date,2015/01/15
+info,event,Big Bash League
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,CA Lynn
+info,umpire,GA Abood
+info,umpire,P Wilson
+info,reserve_umpire,MS Branch
+info,tv_umpire,AJ Barrow
+info,match_referee,D Talalla
+info,winner,Brisbane Heat
+info,winner_runs,18
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,PJ Forrest
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,DT Christian
+info,player,Brisbane Heat,NJ Reardon
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,A Flintoff
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JR Hopes
+info,player,Brisbane Heat,SD Parry
+info,player,Brisbane Heat,MT Steketee
+info,player,Hobart Hurricanes,BR Dunk
+info,player,Hobart Hurricanes,TD Paine
+info,player,Hobart Hurricanes,MW Hill
+info,player,Hobart Hurricanes,EP Gulbis
+info,player,Hobart Hurricanes,TR Birt
+info,player,Hobart Hurricanes,Shoaib Malik
+info,player,Hobart Hurricanes,JW Wells
+info,player,Hobart Hurricanes,TT Bresnan
+info,player,Hobart Hurricanes,BW Hilfenhaus
+info,player,Hobart Hurricanes,CJ Boyce
+info,player,Hobart Hurricanes,JK Reed
+info,registry,people,A Flintoff,ddc0828d
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BR Dunk,272d796e
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DP Michael,9815de17
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,GA Abood,a4af5528
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Reed,a8ad6e80
+info,registry,people,JR Hopes,2498e163
+info,registry,people,JW Wells,8bdac857
+info,registry,people,MS Branch,6f06b264
+info,registry,people,MT Steketee,903560ed
+info,registry,people,MW Hill,1952e660
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,P Wilson,68304a36
+info,registry,people,PJ Forrest,56c205b7
+info,registry,people,SD Parry,fdb8ed0d
+info,registry,people,Shoaib Malik,64c34cd0
+info,registry,people,TD Paine,5748e866
+info,registry,people,TR Birt,d2d4bb0a
+info,registry,people,TT Bresnan,58043739

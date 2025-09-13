@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Sixers
+info,gender,male
+info,season,2023/24
+info,date,2024/01/06
+info,event,Big Bash League
+info,match_number,28
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,JM Vince
+info,umpire,BC Treloar
+info,umpire,GJ Davidson
+info,reserve_umpire,D Brigham
+info,tv_umpire,P Wilson
+info,match_referee,David Johnston
+info,winner,Sydney Sixers
+info,winner_wickets,7
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,DW Lawrence
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,Imad Wasim
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,J Merlo
+info,player,Melbourne Stars,JS Paris
+info,player,Melbourne Stars,SM Boland
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,T Murphy
+info,player,Sydney Sixers,SNJ O'Keefe
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,D Brigham,464daf41
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DW Lawrence,4b685e2d
+info,registry,people,David Johnston,92cef862
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Imad Wasim,9cb8d7a6
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,J Merlo,02ba80a0
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,P Wilson,68304a36
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SM Boland,d167edd3
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,T Murphy,ac2e7ec0
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,TK Curran,e86754b2

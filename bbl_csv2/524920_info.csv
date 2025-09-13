@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Sydney Sixers
+info,gender,male
+info,season,2011/12
+info,date,2011/12/21
+info,event,Big Bash League
+info,venue,Bellerive Oval
+info,city,Hobart
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,bat
+info,player_of_match,TR Birt
+info,umpire,SD Fry
+info,umpire,GC Joshua
+info,tv_umpire,P Wilson
+info,match_referee,RW Stratford
+info,winner,Hobart Hurricanes
+info,winner_runs,42
+info,player,Hobart Hurricanes,JW Wells
+info,player,Hobart Hurricanes,PA Jaques
+info,player,Hobart Hurricanes,TR Birt
+info,player,Hobart Hurricanes,OA Shah
+info,player,Hobart Hurricanes,TIF Triffitt
+info,player,Hobart Hurricanes,RJG Lockyear
+info,player,Hobart Hurricanes,JJ Krejza
+info,player,Hobart Hurricanes,Naved-ul-Hasan
+info,player,Hobart Hurricanes,XJ Doherty
+info,player,Hobart Hurricanes,BW Hilfenhaus
+info,player,Hobart Hurricanes,B Laughlin
+info,player,Sydney Sixers,PM Nevill
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,DJ Bravo
+info,player,Sydney Sixers,DJ Thornely
+info,player,Sydney Sixers,B Lee
+info,player,Sydney Sixers,MA Starc
+info,player,Sydney Sixers,JR Hazlewood
+info,player,Sydney Sixers,SCG MacGill
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Thornely,7d3937ed
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,JJ Krejza,047d9032
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,JW Wells,8bdac857
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,Naved-ul-Hasan,33f28243
+info,registry,people,OA Shah,7bf96684
+info,registry,people,P Wilson,68304a36
+info,registry,people,PA Jaques,03252e44
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,RJG Lockyear,c8e7c983
+info,registry,people,RW Stratford,85489579
+info,registry,people,SCG MacGill,60dac349
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,TIF Triffitt,593513d5
+info,registry,people,TR Birt,d2d4bb0a
+info,registry,people,XJ Doherty,502b2c81

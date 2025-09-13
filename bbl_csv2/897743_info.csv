@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Perth Scorchers
+info,gender,male
+info,season,2015/16
+info,date,2016/01/10
+info,event,Big Bash League
+info,match_number,25
+info,venue,Bellerive Oval
+info,city,Hobart
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,MA Carberry
+info,umpire,AJ Barrow
+info,umpire,P Wilson
+info,reserve_umpire,W Stewart
+info,tv_umpire,SJ Nogajski
+info,match_referee,SR Bernard
+info,winner,Perth Scorchers
+info,winner_runs,1
+info,player,Hobart Hurricanes,BR Dunk
+info,player,Hobart Hurricanes,TD Paine
+info,player,Hobart Hurricanes,KC Sangakkara
+info,player,Hobart Hurricanes,DT Christian
+info,player,Hobart Hurricanes,MW Hill
+info,player,Hobart Hurricanes,JW Wells
+info,player,Hobart Hurricanes,DJG Sammy
+info,player,Hobart Hurricanes,CA Rose
+info,player,Hobart Hurricanes,CJ Boyce
+info,player,Hobart Hurricanes,SL Rainbird
+info,player,Hobart Hurricanes,SW Tait
+info,player,Perth Scorchers,MS Harris
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,MA Carberry
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,DJ Willey
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,GB Hogg
+info,registry,people,AC Agar,a2421394
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CA Rose,7517d134
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,DJ Willey,7f048519
+info,registry,people,DJG Sammy,c03c6200
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MA Carberry,8305580c
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MW Hill,1952e660
+info,registry,people,P Wilson,68304a36
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SL Rainbird,e7dd5eca
+info,registry,people,SR Bernard,800187dc
+info,registry,people,SW Tait,addfb70e
+info,registry,people,TD Paine,5748e866
+info,registry,people,W Stewart,7e5bfcd1

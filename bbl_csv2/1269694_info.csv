@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2021/22
+info,date,2022/01/19
+info,event,Big Bash League
+info,match_number,55
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,CJ Boyce
+info,umpire,SA Lightbody
+info,umpire,AK Wilds
+info,reserve_umpire,C Grant
+info,tv_umpire,SAJ Craig
+info,match_referee,SJ Davis
+info,winner,Sydney Thunder
+info,winner_runs,1
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,JJS Sangha
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,BCJ Cutting
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,T Sangha
+info,player,Melbourne Renegades,J Seymour
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,UBT Chand
+info,player,Melbourne Renegades,J Merlo
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,CJ Boyce
+info,player,Melbourne Renegades,Z Evans
+info,player,Melbourne Renegades,JK Lalor
+info,player,Melbourne Renegades,Zahir Khan
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,C Grant,876ed858
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,J Merlo,02ba80a0
+info,registry,people,J Seymour,cb54a1d6
+info,registry,people,JJS Sangha,8e3cb0e9
+info,registry,people,JK Lalor,88209c84
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,T Sangha,52c952d9
+info,registry,people,UBT Chand,0c94f480
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,Z Evans,8528effb
+info,registry,people,Zahir Khan,786b7fe8

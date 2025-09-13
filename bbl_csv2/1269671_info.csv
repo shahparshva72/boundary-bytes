@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2021/22
+info,date,2022/01/21
+info,event,Big Bash League
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,MW Short
+info,umpire,DM Koch
+info,umpire,PJ Gillespie
+info,reserve_umpire,BC Treloar
+info,tv_umpire,DR Close
+info,match_referee,SJ Davis
+info,winner,Adelaide Strikers
+info,winner_runs,22
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,IA Cockbain
+info,player,Adelaide Strikers,MT Renshaw
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,HTRY Thornton
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,HNA Conway
+info,player,Adelaide Strikers,Fawad Ahmed
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,JA Thompson
+info,player,Hobart Hurricanes,TS Rogers
+info,player,Hobart Hurricanes,W Parker
+info,player,Hobart Hurricanes,SM Boland
+info,player,Hobart Hurricanes,RP Meredith
+info,registry,people,AT Carey,69d03465
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DM Koch,6d10c034
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,HNA Conway,272fc5ad
+info,registry,people,HTRY Thornton,055be93a
+info,registry,people,IA Cockbain,542fd5a6
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JA Thompson,1d2f290a
+info,registry,people,JW Wells,8bdac857
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MW Short,a90e53ec
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RP Meredith,64775749
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SM Boland,d167edd3
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,TH David,f1f99156
+info,registry,people,TM Head,12b610c2
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,W Parker,607c846c

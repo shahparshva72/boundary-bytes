@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Perth Scorchers
+info,gender,male
+info,season,2013/14
+info,date,2014/01/27
+info,event,Big Bash League
+info,venue,Melbourne Cricket Ground
+info,city,
+info,toss_winner,Melbourne Stars
+info,toss_decision,bat
+info,player_of_match,JW Hastings
+info,umpire,GA Abood
+info,umpire,GC Joshua
+info,reserve_umpire,PJ Gillespie
+info,tv_umpire,SJ Nogajski
+info,match_referee,DJ Harper
+info,winner,Melbourne Stars
+info,winner_runs,20
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,BJ Hodge
+info,player,Melbourne Stars,Mohammad Hafeez
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,AR Keath
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,CA Rose
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,DJ Worrall
+info,player,Perth Scorchers,CJ Simmons
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,SM Katich
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,PJ Cummins
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,AC Thomas
+info,player,Perth Scorchers,GB Hogg
+info,player,Perth Scorchers,MA Beer
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AR Keath,439083c2
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CA Rose,7517d134
+info,registry,people,CJ Simmons,0095ce38
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JW Hastings,012829ff
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,Mohammad Hafeez,9ab63e7b
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SM Boland,d167edd3
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,SM Whiteman,f4427cc6

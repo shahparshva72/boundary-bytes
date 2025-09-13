@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Sixers
+info,gender,male
+info,season,2017/18
+info,date,2018/01/16
+info,event,Big Bash League
+info,match_number,30
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,NM Lyon
+info,umpire,JD Ward
+info,umpire,SAJ Craig
+info,reserve_umpire,S Brne
+info,tv_umpire,DM Koch
+info,match_referee,SR Bernard
+info,winner,Sydney Sixers
+info,winner_wickets,8
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,JR Coleman
+info,player,Melbourne Stars,DJ Worrall
+info,player,Melbourne Stars,D Fallins
+info,player,Sydney Sixers,JL Denly
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,CR Brathwaite
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,PM Nevill
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,NM Lyon
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,D Fallins,46fca863
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,DM Koch,6d10c034
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,J Botha,7c503806
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JD Ward,511299c1
+info,registry,people,JL Denly,bdadf7da
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JR Coleman,de6efa4a
+info,registry,people,JW Hastings,012829ff
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,S Brne,f552dfcb
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SR Bernard,800187dc

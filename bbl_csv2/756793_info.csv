@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2014/15
+info,date,2015/01/19
+info,event,Big Bash League
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,TM Head
+info,umpire,GA Abood
+info,umpire,GJ Davidson
+info,reserve_umpire,AJ Sammartino
+info,tv_umpire,GC Joshua
+info,match_referee,D Talalla
+info,winner,Adelaide Strikers
+info,winner_runs,22
+info,player,Adelaide Strikers,CJ Simmons
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,RN ten Doeschate
+info,player,Adelaide Strikers,KR Smith
+info,player,Adelaide Strikers,J Botha
+info,player,Adelaide Strikers,AI Ross
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,A Zampa
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,GD Putland
+info,player,Melbourne Renegades,MS Wade
+info,player,Melbourne Renegades,AJ Doolan
+info,player,Melbourne Renegades,CJ Ferguson
+info,player,Melbourne Renegades,BA Stokes
+info,player,Melbourne Renegades,BJ Rohrer
+info,player,Melbourne Renegades,Shakib Al Hasan
+info,player,Melbourne Renegades,TM Beaton
+info,player,Melbourne Renegades,JL Pattinson
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,PM Siddle
+info,player,Melbourne Renegades,Fawad Ahmed
+info,registry,people,A Zampa,14f96089
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Doolan,36eafb02
+info,registry,people,AJ Sammartino,284d6015
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BA Stokes,e087956b
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Simmons,0095ce38
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GD Putland,9f54ae00
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,J Botha,7c503806
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,KR Smith,b816c2a5
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RN ten Doeschate,4ec07775
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,TM Beaton,f0ec8597
+info,registry,people,TM Head,12b610c2
+info,registry,people,TP Ludeman,c3f7898b

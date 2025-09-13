@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2020/21
+info,date,2020/12/26
+info,event,Big Bash League
+info,match_number,14
+info,venue,Manuka Oval
+info,city,Canberra
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,O Davies
+info,umpire,DM Koch
+info,umpire,NR Johnstone
+info,reserve_umpire,Andrew Crozier
+info,tv_umpire,SA Lightbody
+info,match_referee,Kent Hannam
+info,winner,Sydney Thunder
+info,winner_runs,129
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,O Davies
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,BCJ Cutting
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,BJ Holt
+info,player,Sydney Thunder,AF Milne
+info,player,Sydney Thunder,T Sangha
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,RR Rossouw
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,Imad Wasim
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,Z Evans
+info,player,Melbourne Renegades,P Hatzoglou
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AF Milne,350bb1b1
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,Andrew Crozier,00d07580
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Holt,f05d1564
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DM Koch,6d10c034
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,Imad Wasim,9cb8d7a6
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,Kent Hannam,8cc171e7
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,O Davies,0ea54eca
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,RR Rossouw,cad00a4d
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,T Sangha,52c952d9
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,Z Evans,8528effb

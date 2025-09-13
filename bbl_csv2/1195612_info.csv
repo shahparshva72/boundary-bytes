@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2019/20
+info,date,2020/01/17
+info,event,Big Bash League
+info,match_number,40
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,LN O'Connor
+info,umpire,PJ Gillespie
+info,umpire,SAJ Craig
+info,reserve_umpire,C Thomas
+info,tv_umpire,JD Ward
+info,match_referee,PL Marshall
+info,winner,Adelaide Strikers
+info,winner_wickets,10
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,AB de Villiers
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JK Lalor
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,B Laughlin
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,player,Adelaide Strikers,PD Salt
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,LN O'Connor
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,C Thomas,68664af7
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JD Ward,511299c1
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JW Wells,8bdac857
+info,registry,people,LN O'Connor,5456bd0c
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MW Short,a90e53ec
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,TM Head,12b610c2
+info,registry,people,WA Agar,15de1f5d

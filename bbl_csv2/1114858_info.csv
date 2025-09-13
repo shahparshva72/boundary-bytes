@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2017/18
+info,date,2017/12/21
+info,event,Big Bash League
+info,match_number,3
+info,venue,Bellerive Oval
+info,city,Hobart
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,DJ Bravo
+info,umpire,SJ Nogajski
+info,umpire,MW Graham-Smith
+info,reserve_umpire,DR Close
+info,tv_umpire,GC Joshua
+info,match_referee,D Talalla
+info,winner,Melbourne Renegades
+info,winner_wickets,7
+info,player,Hobart Hurricanes,AJ Doolan
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,GJ Bailey
+info,player,Hobart Hurricanes,DT Christian
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,JC Archer
+info,player,Hobart Hurricanes,CJ Boyce
+info,player,Hobart Hurricanes,CA Rose
+info,player,Hobart Hurricanes,TS Mills
+info,player,Hobart Hurricanes,AW Summers
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,BJ Hodge
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,TP Ludeman
+info,player,Melbourne Renegades,JD Wildermuth
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,GB Hogg
+info,registry,people,AJ Doolan,36eafb02
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AW Summers,a35c119e
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CA Rose,7517d134
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CL White,d0513f63
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,JC Archer,5574750c
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TP Ludeman,c3f7898b
+info,registry,people,TS Mills,245c97cb

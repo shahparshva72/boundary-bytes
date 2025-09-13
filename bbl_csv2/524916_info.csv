@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Thunder
+info,gender,male
+info,season,2011/12
+info,date,2011/12/17
+info,event,Big Bash League
+info,venue,Melbourne Cricket Ground
+info,city,
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,DA Warner
+info,umpire,SD Fry
+info,umpire,P Wilson
+info,tv_umpire,GC Joshua
+info,match_referee,D Levens
+info,winner,Sydney Thunder
+info,winner_wickets,6
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,MS Wade
+info,player,Melbourne Stars,GJ Bailey
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,CL White
+info,player,Melbourne Stars,AC Voges
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,CJ McKay
+info,player,Melbourne Stars,SK Warne
+info,player,Melbourne Stars,JW Dernbach
+info,player,Sydney Thunder,DA Warner
+info,player,Sydney Thunder,CH Gayle
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,DLR Smith
+info,player,Sydney Thunder,CA Philipson
+info,player,Sydney Thunder,BR Dunk
+info,player,Sydney Thunder,SJ Coyte (2)
+info,player,Sydney Thunder,SA Abbott
+info,player,Sydney Thunder,LA Doran
+info,player,Sydney Thunder,DE Bollinger
+info,player,Sydney Thunder,FH Edwards
+info,registry,people,AC Voges,864c199e
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CA Philipson,32866fe7
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ McKay,94eac556
+info,registry,people,CL White,d0513f63
+info,registry,people,D Levens,8fc718ea
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DLR Smith,0c5c3a87
+info,registry,people,FH Edwards,a7c226e1
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JW Dernbach,7be8a0ed
+info,registry,people,LA Doran,f201593c
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MS Wade,afa7e784
+info,registry,people,P Wilson,68304a36
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SJ Coyte (2),36769c31
+info,registry,people,SK Warne,bb18be76
+info,registry,people,UT Khawaja,331ea488

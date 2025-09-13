@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Melbourne Stars
+info,gender,male
+info,season,2019/20
+info,date,2020/01/02
+info,event,Big Bash League
+info,match_number,19
+info,venue,Sydney Showground Stadium
+info,city,Sydney
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,NCR Larkin
+info,umpire,NR Johnstone
+info,umpire,MW Graham-Smith
+info,reserve_umpire,Berend du Plessis
+info,tv_umpire,P Wilson
+info,match_referee,SR Bernard
+info,winner,Melbourne Stars
+info,winner_wickets,3
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,CH Morris
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,AJ Nair
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,B Doggett
+info,player,Melbourne Stars,NJ Maddinson
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,CD Hinchliffe
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,DW Steyn
+info,player,Melbourne Stars,Haris Rauf
+info,registry,people,A Zampa,14f96089
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Nair,4ba2c04d
+info,registry,people,B Doggett,898e628d
+info,registry,people,BR Dunk,272d796e
+info,registry,people,Berend du Plessis,b0b8fec6
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,Haris Rauf,24bb1c2f
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,P Wilson,68304a36
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,SR Bernard,800187dc
+info,registry,people,UT Khawaja,331ea488

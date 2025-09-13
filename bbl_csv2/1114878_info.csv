@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2017/18
+info,date,2018/01/09
+info,event,Big Bash League
+info,match_number,23
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Melbourne Stars
+info,toss_decision,bat
+info,player_of_match,TM Head
+info,umpire,PJ Gillespie
+info,umpire,AK Wilds
+info,reserve_umpire,L Uthenwoldt
+info,tv_umpire,NR Johnstone
+info,match_referee,DJ Harper
+info,winner,Adelaide Strikers
+info,winner_wickets,8
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,SE Gotch
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,JR Coleman
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,CA Ingram
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,JS Lehmann
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,B Stanlake
+info,registry,people,A Zampa,14f96089
+info,registry,people,AK Wilds,de412f40
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CA Ingram,c995d726
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JR Coleman,de6efa4a
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,JW Hastings,012829ff
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,L Uthenwoldt,021223ce
+info,registry,people,MG Neser,0164b064
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SE Gotch,9a0e4ca5
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TM Head,12b610c2

@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Sydney Sixers
+info,gender,male
+info,season,2011/12
+info,date,2012/01/02
+info,event,Big Bash League
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Sydney Sixers
+info,toss_decision,bat
+info,player_of_match,AB McDonald
+info,umpire,MD Martell
+info,umpire,PR Reiffel
+info,tv_umpire,RL Parry
+info,match_referee,PL Marshall
+info,winner,Melbourne Renegades
+info,winner_wickets,8
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,BJ Hodge
+info,player,Melbourne Renegades,GJ Maxwell
+info,player,Melbourne Renegades,AB McDonald
+info,player,Melbourne Renegades,Shahid Afridi
+info,player,Melbourne Renegades,NJ Reardon
+info,player,Melbourne Renegades,Abdul Razzaq
+info,player,Melbourne Renegades,GA Manou
+info,player,Melbourne Renegades,SM Harwood
+info,player,Melbourne Renegades,DP Nannes
+info,player,Melbourne Renegades,SW Tait
+info,player,Sydney Sixers,DJ Bravo
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,BJ Rohrer
+info,player,Sydney Sixers,PM Nevill
+info,player,Sydney Sixers,DJ Thornely
+info,player,Sydney Sixers,B Lee
+info,player,Sydney Sixers,JR Hazlewood
+info,player,Sydney Sixers,SCG MacGill
+info,registry,people,AB McDonald,16043342
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,Abdul Razzaq,390ff45b
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Thornely,7d3937ed
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,GA Manou,f58839ad
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MD Martell,487c072e
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SCG MacGill,60dac349
+info,registry,people,SM Harwood,63bff7f9
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SW Tait,addfb70e
+info,registry,people,Shahid Afridi,0dc00542

@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2022/23
+info,date,2023/01/02
+info,event,Big Bash League
+info,match_number,26
+info,venue,"Bellerive Oval, Hobart"
+info,city,Hobart
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,CP Jewell
+info,umpire,MW Graham-Smith
+info,umpire,SJ Nogajski
+info,reserve_umpire,M Qureshi
+info,tv_umpire,P Wilson
+info,match_referee,David Johnston
+info,winner,Hobart Hurricanes
+info,winner_wickets,7
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,HJ Hunt
+info,player,Adelaide Strikers,CA Lynn
+info,player,Adelaide Strikers,AJ Hose
+info,player,Adelaide Strikers,C de Grandhomme
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,HNA Conway
+info,player,Adelaide Strikers,PM Siddle
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,Asif Ali
+info,player,Hobart Hurricanes,MJ Owen
+info,player,Hobart Hurricanes,Faheem Ashraf
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,PG Dooley
+info,player,Hobart Hurricanes,RP Meredith
+info,registry,people,AJ Hose,104e88a4
+info,registry,people,Asif Ali,0a4736eb
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,DJM Short,1a156c88
+info,registry,people,David Johnston,92cef862
+info,registry,people,Faheem Ashraf,bd4ea627
+info,registry,people,HJ Hunt,62ef4abe
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HNA Conway,272fc5ad
+info,registry,people,M Qureshi,cf34fbef
+info,registry,people,MJ Owen,f2c936d7
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,MW Short,a90e53ec
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,P Wilson,68304a36
+info,registry,people,PG Dooley,5e3054d0
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RP Meredith,64775749
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,TH David,f1f99156
+info,registry,people,WA Agar,15de1f5d

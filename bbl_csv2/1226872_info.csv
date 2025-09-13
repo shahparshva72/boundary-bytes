@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Melbourne Stars
+info,gender,male
+info,season,2020/21
+info,date,2020/12/11
+info,event,Big Bash League
+info,match_number,2
+info,venue,Manuka Oval
+info,city,Canberra
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,NM Coulter-Nile
+info,umpire,PJ Gillespie
+info,umpire,SAJ Craig
+info,reserve_umpire,BC Treloar
+info,tv_umpire,GJ Davidson
+info,match_referee,RL Parry
+info,winner,Melbourne Stars
+info,winner_wickets,6
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,DW Lawrence
+info,player,Brisbane Heat,TLW Cooper
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,S Milenko
+info,player,Brisbane Heat,JP Wood
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Brisbane Heat,B Laughlin
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,ADS Fletcher
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,CD Hinchliffe
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,B Stanlake
+info,player,Melbourne Stars,Dilbar Hussain
+info,registry,people,A Zampa,14f96089
+info,registry,people,ADS Fletcher,1bae756b
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,DW Lawrence,4b685e2d
+info,registry,people,Dilbar Hussain,a968d8eb
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JP Wood,3c3adfce
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,RL Parry,86d151dc
+info,registry,people,S Milenko,479f9b04
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,XC Bartlett,3b53243a

@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Brisbane Heat
+info,gender,male
+info,season,2024/25
+info,date,2024/12/18
+info,event,Big Bash League
+info,match_number,4
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,JJ Peirson
+info,umpire,BC Treloar
+info,umpire,Troy Penman
+info,reserve_umpire,D Brigham
+info,tv_umpire,SJ Nogajski
+info,match_referee,RW Stratford
+info,winner,Brisbane Heat
+info,winner_wickets,8
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,SB Harper
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,TK Curran
+info,player,Melbourne Stars,H McKenzie
+info,player,Melbourne Stars,C Kellaway
+info,player,Melbourne Stars,AF Milne
+info,player,Melbourne Stars,BL Couch
+info,player,Brisbane Heat,JP Wood
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,DR Drew
+info,player,Brisbane Heat,PI Walter
+info,player,Brisbane Heat,W Prestwidge
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,T Whitney
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,MP Kuhnemann
+info,registry,people,AF Milne,350bb1b1
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BL Couch,be69e09d
+info,registry,people,C Kellaway,60c28835
+info,registry,people,D Brigham,464daf41
+info,registry,people,DR Drew,88684a42
+info,registry,people,H McKenzie,5222f5fa
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,JP Wood,3c3adfce
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,PI Walter,57590dbb
+info,registry,people,RW Stratford,85489579
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,T Whitney,97af3515
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,TK Curran,e86754b2
+info,registry,people,Troy Penman,0aa42c26
+info,registry,people,W Prestwidge,bdf7a718
+info,registry,people,XC Bartlett,3b53243a

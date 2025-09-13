@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Sydney Sixers
+info,gender,male
+info,season,2018/19
+info,date,2019/01/01
+info,event,Big Bash League
+info,match_number,15
+info,venue,Carrara Oval
+info,city,Carrara
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,CA Lynn
+info,umpire,PJ Gillespie
+info,umpire,DM Koch
+info,reserve_umpire,D Taylor
+info,tv_umpire,GC Joshua
+info,match_referee,RL Parry
+info,winner,Sydney Sixers
+info,winner_wickets,5
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JL Pattinson
+info,player,Brisbane Heat,JK Lalor
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,player,Sydney Sixers,JL Denly
+info,player,Sydney Sixers,J Avendano
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,BAD Manenti
+info,registry,people,BAD Manenti,ab21795b
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DM Koch,6d10c034
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,J Avendano,0af4a90b
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JL Denly,bdadf7da
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,JR Philippe,39086549
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,TK Curran,e86754b2

@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2022/23
+info,date,2023/01/21
+info,event,Big Bash League
+info,match_number,50
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Sydney Sixers
+info,toss_decision,bat
+info,player_of_match,SPD Smith
+info,umpire,GJ Davidson
+info,umpire,PJ Gillespie
+info,reserve_umpire,Roberto Howard
+info,tv_umpire,SJ Nogajski
+info,match_referee,SR Bernard
+info,winner,Sydney Sixers
+info,winner_runs,125
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,KR Patterson
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,T Murphy
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,DA Warner
+info,player,Sydney Thunder,B Nikitaras
+info,player,Sydney Thunder,O Davies
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,BCJ Cutting
+info,player,Sydney Thunder,JA Davies
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,Usman Qadir
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,B Nikitaras,d4e39566
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,H Kerr,f422728b
+info,registry,people,JA Davies,5cdf8304
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JR Philippe,39086549
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,O Davies,0ea54eca
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,Roberto Howard,eec90c4b
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SR Bernard,800187dc
+info,registry,people,T Murphy,ac2e7ec0
+info,registry,people,Usman Qadir,33742f04

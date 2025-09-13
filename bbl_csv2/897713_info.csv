@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2015/16
+info,date,2015/12/27
+info,event,Big Bash League
+info,match_number,10
+info,venue,Sydney Cricket Ground
+info,city,
+info,toss_winner,Sydney Sixers
+info,toss_decision,bat
+info,player_of_match,GJ Maxwell
+info,umpire,GC Joshua
+info,umpire,SJ Nogajski
+info,reserve_umpire,SA Lightbody
+info,tv_umpire,SD Fry
+info,match_referee,DJ Harper
+info,winner,Melbourne Stars
+info,winner_wickets,5
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,TIF Triffitt
+info,player,Melbourne Stars,MA Beer
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,BW Hilfenhaus
+info,player,Melbourne Stars,A Zampa
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,BJ Haddin
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,TL Lawford
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,DE Bollinger
+info,player,Sydney Sixers,JM Bird
+info,registry,people,A Zampa,14f96089
+info,registry,people,BJ Haddin,b0c772ee
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,J Botha,7c503806
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SM Boland,d167edd3
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,TIF Triffitt,593513d5
+info,registry,people,TL Lawford,e01b6c44

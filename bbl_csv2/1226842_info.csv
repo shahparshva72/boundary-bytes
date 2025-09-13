@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2020/21
+info,date,2021/01/03
+info,event,Big Bash League
+info,match_number,26
+info,venue,Carrara Oval
+info,city,Carrara
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,JR Philippe
+info,umpire,GJ Davidson
+info,umpire,AK Wilds
+info,reserve_umpire,Steven Farrell
+info,tv_umpire,D Taylor
+info,match_referee,Kepler Wessels
+info,winner,Sydney Sixers
+info,winner_wickets,7
+info,player,Adelaide Strikers,PD Salt
+info,player,Adelaide Strikers,MT Renshaw
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,RJ Gibson
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,DJ Worrall
+info,player,Adelaide Strikers,DR Briggs
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,PM Siddle
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,CR Brathwaite
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,BAD Manenti
+info,player,Sydney Sixers,JT Ball
+info,player,Sydney Sixers,L Pope
+info,registry,people,AK Wilds,de412f40
+info,registry,people,AT Carey,69d03465
+info,registry,people,BAD Manenti,ab21795b
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DR Briggs,f3abd0c9
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,JT Ball,3d0ed2f9
+info,registry,people,JW Wells,8bdac857
+info,registry,people,Kepler Wessels,3bedaff0
+info,registry,people,L Pope,616a8149
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RJ Gibson,50636767
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,Steven Farrell,512226fb
+info,registry,people,WA Agar,15de1f5d

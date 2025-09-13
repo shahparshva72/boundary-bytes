@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Sydney Sixers
+info,gender,male
+info,season,2012/13
+info,date,2012/12/30
+info,event,Big Bash League
+info,venue,Stadium Australia
+info,city,Sydney
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,DP Hughes
+info,umpire,GA Abood
+info,umpire,AJ Barrow
+info,tv_umpire,AP Ward
+info,match_referee,DJ Burns
+info,winner,Sydney Sixers
+info,winner_wickets,4
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,BJ Haddin
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,B Lee
+info,player,Sydney Sixers,JK Lalor
+info,player,Sydney Sixers,SP Narine
+info,player,Sydney Sixers,LW Feldman
+info,player,Sydney Thunder,CH Gayle
+info,player,Sydney Thunder,CJL Rogers
+info,player,Sydney Thunder,MJ Prior
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,SA Abbott
+info,player,Sydney Thunder,RGL Carters
+info,player,Sydney Thunder,SJC Keen
+info,player,Sydney Thunder,SJ Coyte (2)
+info,player,Sydney Thunder,CP Tremain
+info,player,Sydney Thunder,DP Nannes
+info,player,Sydney Thunder,A Zampa
+info,registry,people,A Zampa,14f96089
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AP Ward,196a3809
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BJ Haddin,b0c772ee
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJL Rogers,d8360178
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DJ Burns,49d422bf
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,GA Abood,a4af5528
+info,registry,people,JK Lalor,88209c84
+info,registry,people,LW Feldman,da13a0fc
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,MJ Prior,1200550f
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,RGL Carters,f54c8804
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SJ Coyte (2),36769c31
+info,registry,people,SJC Keen,e3882f9a
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,UT Khawaja,331ea488

@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2011/12
+info,date,2012/01/21
+info,event,Big Bash League
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,MR Marsh
+info,umpire,SD Fry
+info,umpire,JD Ward
+info,tv_umpire,P Wilson
+info,match_referee,RJ Evans (2)
+info,winner,Perth Scorchers
+info,winner_runs,11
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,AC Voges
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,CL White
+info,player,Melbourne Stars,GJ Bailey
+info,player,Melbourne Stars,MS Wade
+info,player,Melbourne Stars,CJ McKay
+info,player,Melbourne Stars,JM Bird
+info,player,Melbourne Stars,SK Warne
+info,player,Perth Scorchers,HH Gibbs
+info,player,Perth Scorchers,MJ North
+info,player,Perth Scorchers,PD Collingwood
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,L Ronchi
+info,player,Perth Scorchers,SM Katich
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,NJ Rimmington
+info,player,Perth Scorchers,GB Hogg
+info,player,Perth Scorchers,MA Beer
+info,player,Perth Scorchers,BM Edmondson
+info,registry,people,AC Voges,864c199e
+info,registry,people,BM Edmondson,b0b320a0
+info,registry,people,CJ McKay,94eac556
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,JD Ward,511299c1
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,L Ronchi,0fa5042b
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MJ North,99464591
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,P Wilson,68304a36
+info,registry,people,PD Collingwood,a386e91b
+info,registry,people,RJ Evans (2),d5fc9e42
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SM Katich,fdedb37c

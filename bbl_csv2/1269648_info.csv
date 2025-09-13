@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Brisbane Heat
+info,gender,male
+info,season,2021/22
+info,date,2021/12/13
+info,event,Big Bash League
+info,match_number,11
+info,venue,Carrara Oval
+info,city,Carrara
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,JJ Bazley
+info,umpire,BNJ Oxenford
+info,umpire,D Taylor
+info,reserve_umpire,NR Johnstone
+info,tv_umpire,AK Wilds
+info,match_referee,SR Bernard
+info,winner,Brisbane Heat
+info,winner_wickets,5
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,NJ Maddinson
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,J Seymour
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,JA Prestwidge
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,RJW Topley
+info,player,Melbourne Renegades,Zahir Khan
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,BM Duckett
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,TB Abell
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,player,Brisbane Heat,L Guthrie
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BM Duckett,5f26f677
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,J Seymour,cb54a1d6
+info,registry,people,JA Prestwidge,5f317fd4
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,L Guthrie,b03303ca
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,RJW Topley,8db7f47f
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,SR Bernard,800187dc
+info,registry,people,TB Abell,ba9258a7
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,XC Bartlett,3b53243a
+info,registry,people,Zahir Khan,786b7fe8

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2019/20
+info,date,2020/01/12
+info,event,Big Bash League
+info,match_number,33
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,JW Wells
+info,umpire,GA Abood
+info,umpire,SAJ Craig
+info,reserve_umpire,MV Waldron
+info,tv_umpire,SD Fry
+info,match_referee,D Talalla
+info,winner,Adelaide Strikers
+info,winner_runs,63
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,PD Salt
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,HNA Conway
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,DT Christian
+info,player,Melbourne Renegades,SR Patel
+info,player,Melbourne Renegades,JD Wildermuth
+info,player,Melbourne Renegades,CJ Boyce
+info,player,Melbourne Renegades,JM Mennie
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GA Abood,a4af5528
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HNA Conway,272fc5ad
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JM Mennie,f048bb41
+info,registry,people,JW Wells,8bdac857
+info,registry,people,MG Neser,0164b064
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MV Waldron,2e4f11e9
+info,registry,people,MW Short,a90e53ec
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SR Patel,18fac429
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TM Head,12b610c2
+info,registry,people,WA Agar,15de1f5d

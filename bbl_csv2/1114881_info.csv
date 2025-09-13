@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Melbourne Stars
+info,gender,male
+info,season,2017/18
+info,date,2018/01/12
+info,event,Big Bash League
+info,match_number,26
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,KP Pietersen
+info,umpire,GC Joshua
+info,umpire,MW Graham-Smith
+info,reserve_umpire,D Brigham
+info,tv_umpire,DJ Shepard
+info,match_referee,DJ Harper
+info,winner,Melbourne Stars
+info,winner_runs,23
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,SE Gotch
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,JR Coleman
+info,player,Melbourne Stars,DJ Worrall
+info,player,Melbourne Stars,D Fallins
+info,player,Melbourne Renegades,TP Ludeman
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,MW Short
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,JD Wildermuth
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,JM Holland
+info,player,Melbourne Renegades,GB Hogg
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BR Dunk,272d796e
+info,registry,people,D Brigham,464daf41
+info,registry,people,D Fallins,46fca863
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Shepard,d3533ba5
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JM Holland,70c4f525
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JR Coleman,de6efa4a
+info,registry,people,JW Hastings,012829ff
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,MW Short,a90e53ec
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,SE Gotch,9a0e4ca5
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TP Ludeman,c3f7898b

@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2011/12
+info,date,2012/01/08
+info,event,Big Bash League
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,GB Hogg
+info,umpire,RL Parry
+info,umpire,AP Ward
+info,tv_umpire,IH Lock
+info,match_referee,RJ Evans (2)
+info,winner,Perth Scorchers
+info,winner_runs,42
+info,player,Adelaide Strikers,DJ Harris
+info,player,Adelaide Strikers,M Klinger
+info,player,Adelaide Strikers,AJ Crosthwaite
+info,player,Adelaide Strikers,CJ Ferguson
+info,player,Adelaide Strikers,TLW Cooper
+info,player,Adelaide Strikers,CJ Borgas
+info,player,Adelaide Strikers,BG Drew
+info,player,Adelaide Strikers,DR Salpietro
+info,player,Adelaide Strikers,AW O'Brien
+info,player,Adelaide Strikers,AC Thomas
+info,player,Adelaide Strikers,JM Muirhead
+info,player,Perth Scorchers,HH Gibbs
+info,player,Perth Scorchers,MJ North
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,PD Collingwood
+info,player,Perth Scorchers,SM Katich
+info,player,Perth Scorchers,L Ronchi
+info,player,Perth Scorchers,NJ Rimmington
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,GB Hogg
+info,player,Perth Scorchers,MA Beer
+info,player,Perth Scorchers,BM Edmondson
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AJ Crosthwaite,0c8836b6
+info,registry,people,AP Ward,196a3809
+info,registry,people,AW O'Brien,d29be810
+info,registry,people,BG Drew,751f4b9b
+info,registry,people,BM Edmondson,b0b320a0
+info,registry,people,CJ Borgas,d901964b
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,DJ Harris,39f82db3
+info,registry,people,DR Salpietro,a6ae5f7f
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,IH Lock,a1b1e3c2
+info,registry,people,JM Muirhead,52f08be8
+info,registry,people,L Ronchi,0fa5042b
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MJ North,99464591
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,PD Collingwood,a386e91b
+info,registry,people,RJ Evans (2),d5fc9e42
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,TLW Cooper,2318ba22

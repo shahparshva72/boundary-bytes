@@ -1,0 +1,72 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2020/21
+info,date,2020/12/19
+info,event,Big Bash League
+info,match_number,10
+info,venue,Bellerive Oval
+info,city,Hobart
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,BR McDermott
+info,umpire,DR Close
+info,umpire,P Wilson
+info,reserve_umpire,SJ Nogajski
+info,tv_umpire,NR Johnstone
+info,match_referee,Dave Gilbert
+info,winner,Hobart Hurricanes
+info,winner_wickets,6
+info,player,Melbourne Renegades,P Hatzoglou
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,RR Rossouw
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,JK Lalor
+info,player,Melbourne Renegades,Noor Ahmad
+info,player,Melbourne Renegades,MW Harvey
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,WG Jacks
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,CA Ingram
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,KMA Paul
+info,player,Hobart Hurricanes,JP Faulkner
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,SM Boland
+info,player,Hobart Hurricanes,RP Meredith
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CA Ingram,c995d726
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,Dave Gilbert,aa782370
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KMA Paul,75224f22
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,Noor Ahmad,efc04be7
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,P Wilson,68304a36
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RP Meredith,64775749
+info,registry,people,RR Rossouw,cad00a4d
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TH David,f1f99156
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,WG Jacks,9caf69a1

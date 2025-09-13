@@ -1,0 +1,69 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2023/24
+info,date,2024/01/19
+info,event,Big Bash League
+info,venue,Carrara Oval
+info,city,Carrara
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,BJ Dwarshuis
+info,umpire,MW Graham-Smith
+info,umpire,SJ Nogajski
+info,reserve_umpire,SA Lightbody
+info,tv_umpire,BNJ Oxenford
+info,match_referee,Kepler Wessels
+info,winner,Sydney Sixers
+info,winner_runs,39
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,JA Davies
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,T Murphy
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Brisbane Heat,J Brown
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,NA McSweeney
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,PI Walter
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,SH Johnson
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,MP Kuhnemann
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,H Kerr,f422728b
+info,registry,people,J Brown,647e7d44
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,JA Davies,5cdf8304
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JR Philippe,39086549
+info,registry,people,Kepler Wessels,3bedaff0
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NA McSweeney,e94d2d50
+info,registry,people,PI Walter,57590dbb
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SH Johnson,83c3e8e3
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,T Murphy,ac2e7ec0
+info,registry,people,XC Bartlett,3b53243a

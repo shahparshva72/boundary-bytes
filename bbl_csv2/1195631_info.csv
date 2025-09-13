@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2019/20
+info,date,2020/02/01
+info,event,Big Bash League
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Adelaide Strikers
+info,toss_decision,field
+info,player_of_match,AD Hales
+info,umpire,P Wilson
+info,umpire,SAJ Craig
+info,reserve_umpire,GC Joshua
+info,tv_umpire,JD Ward
+info,match_referee,RL Parry
+info,winner,Sydney Thunder
+info,winner_runs,8
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,AJ Nair
+info,player,Sydney Thunder,CH Morris
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,JS Lenton
+info,player,Sydney Thunder,CP Tremain
+info,player,Sydney Thunder,JD Cook
+info,player,Sydney Thunder,B Doggett
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,PD Salt
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,B Stanlake
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Nair,4ba2c04d
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Doggett,898e628d
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JD Cook,45f56920
+info,registry,people,JD Ward,511299c1
+info,registry,people,JS Lenton,8820c9ef
+info,registry,people,JW Wells,8bdac857
+info,registry,people,MG Neser,0164b064
+info,registry,people,MW Short,a90e53ec
+info,registry,people,P Wilson,68304a36
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RL Parry,86d151dc
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,TM Head,12b610c2
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,WA Agar,15de1f5d

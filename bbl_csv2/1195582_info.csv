@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Perth Scorchers
+info,gender,male
+info,season,2019/20
+info,date,2019/12/23
+info,event,Big Bash League
+info,match_number,10
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Perth Scorchers
+info,toss_decision,field
+info,player_of_match,J Weatherald
+info,umpire,GC Joshua
+info,umpire,AK Wilds
+info,reserve_umpire,C Thomas
+info,match_referee,DJ Harper
+info,winner,Adelaide Strikers
+info,winner_runs,15
+info,method,D/L
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,PD Salt
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,CL White
+info,player,Adelaide Strikers,C Valente
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,HNA Conway
+info,player,Adelaide Strikers,B Stanlake
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,LS Livingstone
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,C Green
+info,player,Perth Scorchers,CJ Jordan
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,JS Paris
+info,player,Perth Scorchers,Fawad Ahmed
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AK Wilds,de412f40
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,C Green,eaa76d3c
+info,registry,people,C Thomas,68664af7
+info,registry,people,C Valente,137e7065
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CL White,d0513f63
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,HNA Conway,272fc5ad
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,JW Wells,8bdac857
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MW Short,a90e53ec
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,WA Agar,15de1f5d

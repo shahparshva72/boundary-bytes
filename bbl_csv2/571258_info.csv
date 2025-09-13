@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2012/13
+info,date,2013/01/06
+info,event,Big Bash League
+info,venue,Melbourne Cricket Ground
+info,city,
+info,toss_winner,Melbourne Stars
+info,toss_decision,bat
+info,player_of_match,AJ Finch
+info,umpire,SD Fry
+info,umpire,SJ Nogajski
+info,tv_umpire,P Wilson
+info,match_referee,RW Stratford
+info,winner,Melbourne Renegades
+info,winner_wickets,9
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,AJ Doolan
+info,player,Melbourne Renegades,MN Samuels
+info,player,Melbourne Renegades,PM Nevill
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,MW Hill
+info,player,Melbourne Renegades,WD Sheridan
+info,player,Melbourne Renegades,AW O'Brien
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,DJ Pattinson
+info,player,Melbourne Renegades,M Muralitharan
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,BJ Hodge
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,CL White
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,CJ McKay
+info,player,Melbourne Stars,SL Malinga
+info,player,Melbourne Stars,SK Warne
+info,registry,people,AJ Doolan,36eafb02
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AW O'Brien,d29be810
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CJ McKay,94eac556
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DJ Pattinson,3fe2db87
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JW Hastings,012829ff
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MN Samuels,f846de6a
+info,registry,people,MW Hill,1952e660
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,P Wilson,68304a36
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,RW Stratford,85489579
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,WD Sheridan,25d12bb4

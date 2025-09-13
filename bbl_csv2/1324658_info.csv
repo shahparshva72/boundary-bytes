@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2022/23
+info,date,2023/01/09
+info,event,Big Bash League
+info,match_number,35
+info,venue,"Bellerive Oval, Hobart"
+info,city,Hobart
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,NT Ellis
+info,umpire,BC Treloar
+info,umpire,NR Johnstone
+info,reserve_umpire,TJ Matibiri
+info,tv_umpire,MW Graham-Smith
+info,match_referee,SJ Davis
+info,winner,Hobart Hurricanes
+info,winner_wickets,2
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,J Seymour
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,CD Hinchliffe
+info,player,Melbourne Stars,L Wood
+info,player,Melbourne Stars,LC Hatcher
+info,player,Melbourne Stars,A Zampa
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,Z Crawley
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,Asif Ali
+info,player,Hobart Hurricanes,MJ Owen
+info,player,Hobart Hurricanes,Faheem Ashraf
+info,player,Hobart Hurricanes,TD Andrews
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,RP Meredith
+info,registry,people,A Zampa,14f96089
+info,registry,people,Asif Ali,0a4736eb
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,DJM Short,1a156c88
+info,registry,people,Faheem Ashraf,bd4ea627
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,J Seymour,cb54a1d6
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,L Wood,65b6943c
+info,registry,people,LC Hatcher,8f3fde65
+info,registry,people,MJ Owen,f2c936d7
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,RP Meredith,64775749
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,TD Andrews,a0f612b6
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,TH David,f1f99156
+info,registry,people,TJ Matibiri,4a3132b1
+info,registry,people,Z Crawley,922e1b19

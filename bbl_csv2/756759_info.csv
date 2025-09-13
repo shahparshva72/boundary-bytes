@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2014/15
+info,date,2015/01/01
+info,event,Big Bash League
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,JH Kallis
+info,umpire,SAJ Craig
+info,umpire,MW Graham-Smith
+info,tv_umpire,P Wilson
+info,match_referee,DJ Harper
+info,winner,Sydney Thunder
+info,winner_runs,20
+info,player,Perth Scorchers,MS Harris
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,MA Carberry
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,Yasir Arafat
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,MW Dixon
+info,player,Sydney Thunder,JH Kallis
+info,player,Sydney Thunder,AB McDonald
+info,player,Sydney Thunder,AC Blizzard
+info,player,Sydney Thunder,MEK Hussey
+info,player,Sydney Thunder,EJG Morgan
+info,player,Sydney Thunder,CD Hartley
+info,player,Sydney Thunder,DP Hughes
+info,player,Sydney Thunder,PJ Cummins
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,NM Hauritz
+info,player,Sydney Thunder,JK Lalor
+info,registry,people,AB McDonald,16043342
+info,registry,people,AC Agar,a2421394
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,CD Hartley,9a06679d
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MA Carberry,8305580c
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MW Dixon,314ed7e6
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NM Hauritz,8ea6e670
+info,registry,people,P Wilson,68304a36
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,Yasir Arafat,3cf5ae43

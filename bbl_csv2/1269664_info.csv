@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2021/22
+info,date,2022/01/11
+info,event,Big Bash League
+info,match_number,42
+info,venue,"GMHBA Stadium, South Geelong, Victoria"
+info,city,Geelong
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,LJ Evans
+info,umpire,PJ Gillespie
+info,umpire,SA Lightbody
+info,reserve_umpire,NR Johnstone
+info,tv_umpire,DM Koch
+info,match_referee,SJ Davis
+info,winner,Perth Scorchers
+info,winner_runs,47
+info,player,Perth Scorchers,KR Patterson
+info,player,Perth Scorchers,NR Hobson
+info,player,Perth Scorchers,LJ Evans
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,CJM Sabburg
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,M Kelly
+info,player,Perth Scorchers,P Hatzoglou
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Melbourne Stars,BL Couch
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,JA Burns
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,CD Hinchliffe
+info,player,Melbourne Stars,Qais Ahmad
+info,player,Melbourne Stars,SL Rainbird
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,Haris Rauf
+info,registry,people,A Zampa,14f96089
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BL Couch,be69e09d
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,CJM Sabburg,9fc73711
+info,registry,people,DM Koch,6d10c034
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Haris Rauf,24bb1c2f
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,LJ Evans,1c513d54
+info,registry,people,M Kelly,68e26ec9
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,Qais Ahmad,8d5d991e
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SL Rainbird,e7dd5eca

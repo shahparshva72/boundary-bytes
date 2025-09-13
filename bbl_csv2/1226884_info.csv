@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2020/21
+info,date,2021/01/30
+info,event,Big Bash League
+info,venue,Manuka Oval
+info,city,Canberra
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,JM Vince
+info,umpire,P Wilson
+info,umpire,SJ Nogajski
+info,reserve_umpire,GA Abood
+info,tv_umpire,SAJ Craig
+info,match_referee,RW Stratford
+info,winner,Sydney Sixers
+info,winner_wickets,9
+info,player,Perth Scorchers,JJ Roy
+info,player,Perth Scorchers,LS Livingstone
+info,player,Perth Scorchers,C Munro
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,Fawad Ahmed
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,CR Brathwaite
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,JM Bird
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,C Munro,af2c687b
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GA Abood,a4af5528
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JR Philippe,39086549
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,P Wilson,68304a36
+info,registry,people,RW Stratford,85489579
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SNJ O'Keefe,3540beff

@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2022/23
+info,date,2022/12/31
+info,event,Big Bash League
+info,match_number,23
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Melbourne Stars
+info,toss_decision,bat
+info,player_of_match,MP Stoinis
+info,umpire,BC Treloar
+info,umpire,SA Lightbody
+info,reserve_umpire,Harsimran Singh
+info,tv_umpire,CA Polosak
+info,match_referee,SD Fry
+info,winner,Melbourne Stars
+info,winner_runs,8
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,C Kellaway
+info,player,Melbourne Stars,L Wood
+info,player,Melbourne Stars,TA Boult
+info,player,Melbourne Stars,LC Hatcher
+info,player,Melbourne Stars,A Zampa
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,HJ Hunt
+info,player,Adelaide Strikers,CA Lynn
+info,player,Adelaide Strikers,AJ Hose
+info,player,Adelaide Strikers,C de Grandhomme
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,HTRY Thornton
+info,player,Adelaide Strikers,PM Siddle
+info,registry,people,A Zampa,14f96089
+info,registry,people,AJ Hose,104e88a4
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,C Kellaway,60c28835
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,HJ Hunt,62ef4abe
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HTRY Thornton,055be93a
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Harsimran Singh,bf4720ce
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,L Wood,65b6943c
+info,registry,people,LC Hatcher,8f3fde65
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MW Short,a90e53ec
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,TA Boult,a818c1be
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,TL O'Connell,859d95bb
+info,registry,people,WA Agar,15de1f5d

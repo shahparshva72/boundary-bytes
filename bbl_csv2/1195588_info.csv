@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Melbourne Stars
+info,gender,male
+info,season,2019/20
+info,date,2019/12/30
+info,event,Big Bash League
+info,match_number,16
+info,venue,Aurora Stadium
+info,city,Launceston
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,NM Coulter-Nile
+info,umpire,PJ Gillespie
+info,umpire,AK Wilds
+info,reserve_umpire,DR Close
+info,tv_umpire,P Wilson
+info,match_referee,D Talalla
+info,winner,Melbourne Stars
+info,winner_runs,4
+info,method,D/L
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,S Milenko
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,DA Miller
+info,player,Hobart Hurricanes,GJ Bailey
+info,player,Hobart Hurricanes,JP Faulkner
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,CA Rose
+info,player,Hobart Hurricanes,Qais Ahmad
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,NJ Maddinson
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,DJ Worrall
+info,player,Melbourne Stars,DW Steyn
+info,player,Melbourne Stars,S Lamichhane
+info,registry,people,A Zampa,14f96089
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BR Dunk,272d796e
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CA Rose,7517d134
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,DW Steyn,8fd1a8f5
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,P Wilson,68304a36
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,Qais Ahmad,8d5d991e
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,S Milenko,479f9b04

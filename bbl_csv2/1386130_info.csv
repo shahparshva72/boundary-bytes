@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2023/24
+info,date,2024/01/14
+info,event,Big Bash League
+info,match_number,37
+info,venue,"Manuka Oval, Canberra"
+info,city,Canberra
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,L Pope
+info,umpire,P Wilson
+info,umpire,SA Lightbody
+info,reserve_umpire,D Taylor
+info,tv_umpire,Sharad Patel
+info,match_referee,SD Fry
+info,winner,Adelaide Strikers
+info,winner_wickets,9
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,DA Warner
+info,player,Sydney Thunder,CT Bancroft
+info,player,Sydney Thunder,O Davies
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,LC Hatcher
+info,player,Sydney Thunder,T Sangha
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,DJM Short
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,AJ Hose
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,J Overton
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,HTRY Thornton
+info,player,Adelaide Strikers,DA Payne
+info,player,Adelaide Strikers,CJ Boyce
+info,player,Adelaide Strikers,L Pope
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Hose,104e88a4
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DA Payne,6c79c098
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HTRY Thornton,055be93a
+info,registry,people,J Overton,59559bc2
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,L Pope,616a8149
+info,registry,people,LC Hatcher,8f3fde65
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MW Short,a90e53ec
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,O Davies,0ea54eca
+info,registry,people,P Wilson,68304a36
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,Sharad Patel,8e6dd3ba
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,T Sangha,52c952d9

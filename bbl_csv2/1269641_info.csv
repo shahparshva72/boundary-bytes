@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2021/22
+info,date,2021/12/08
+info,event,Big Bash League
+info,match_number,4
+info,venue,"Aurora Stadium, Launceston"
+info,city,Launceston
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,MC Henriques
+info,umpire,BNJ Oxenford
+info,umpire,DR Close
+info,reserve_umpire,Roberto Howard
+info,tv_umpire,AK Wilds
+info,match_referee,Dave Gilbert
+info,winner,Sydney Sixers
+info,winner_runs,14
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,CJ Jordan
+info,player,Sydney Sixers,BAD Manenti
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,TA Lammonby
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,JM Cox
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,TS Rogers
+info,player,Hobart Hurricanes,JS Paris
+info,player,Hobart Hurricanes,S Lamichhane
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BAD Manenti,ab21795b
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,Dave Gilbert,aa782370
+info,registry,people,H Kerr,f422728b
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Cox,ff154ecd
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,Roberto Howard,eec90c4b
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,TA Lammonby,73f1f6b0
+info,registry,people,TH David,f1f99156
+info,registry,people,TK Curran,e86754b2
+info,registry,people,TS Rogers,1b04e02b

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2019/20
+info,date,2020/01/19
+info,event,Big Bash League
+info,match_number,43
+info,venue,Aurora Stadium
+info,city,Launceston
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,TM Head
+info,umpire,JD Ward
+info,umpire,SD Fry
+info,reserve_umpire,TJ Matibiri
+info,tv_umpire,SAJ Craig
+info,match_referee,RL Parry
+info,winner,Adelaide Strikers
+info,winner_runs,10
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,PD Salt
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,LN O'Connor
+info,player,Adelaide Strikers,WA Agar
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,JR Doran
+info,player,Hobart Hurricanes,DA Miller
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,GJ Bailey
+info,player,Hobart Hurricanes,CA Rose
+info,player,Hobart Hurricanes,TS Rogers
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,Qais Ahmad
+info,player,Hobart Hurricanes,SM Boland
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CA Rose,7517d134
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,DA Miller,d67d5f00
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JD Ward,511299c1
+info,registry,people,JR Doran,9cebb612
+info,registry,people,JW Wells,8bdac857
+info,registry,people,LN O'Connor,5456bd0c
+info,registry,people,MG Neser,0164b064
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Short,a90e53ec
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,Qais Ahmad,8d5d991e
+info,registry,people,RL Parry,86d151dc
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TJ Matibiri,4a3132b1
+info,registry,people,TM Head,12b610c2
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,WA Agar,15de1f5d

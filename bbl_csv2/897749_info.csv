@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2015/16
+info,date,2016/01/13
+info,event,Big Bash League
+info,match_number,28
+info,venue,Adelaide Oval
+info,city,
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,bat
+info,player_of_match,AU Rashid
+info,umpire,SAJ Craig
+info,umpire,P Wilson
+info,reserve_umpire,C Kemp
+info,tv_umpire,GA Abood
+info,match_referee,PL Marshall
+info,winner,Adelaide Strikers
+info,winner_wickets,6
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,JR Dean
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,BJ Hodge
+info,player,Adelaide Strikers,AI Ross
+info,player,Adelaide Strikers,JS Lehmann
+info,player,Adelaide Strikers,AU Rashid
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,JM Holland
+info,player,Adelaide Strikers,GA West
+info,player,Hobart Hurricanes,KC Sangakkara
+info,player,Hobart Hurricanes,TD Paine
+info,player,Hobart Hurricanes,BR Dunk
+info,player,Hobart Hurricanes,MW Hill
+info,player,Hobart Hurricanes,DT Christian
+info,player,Hobart Hurricanes,JW Wells
+info,player,Hobart Hurricanes,S Milenko
+info,player,Hobart Hurricanes,CA Rose
+info,player,Hobart Hurricanes,CJ Boyce
+info,player,Hobart Hurricanes,SL Rainbird
+info,player,Hobart Hurricanes,SW Tait
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AU Rashid,249d60c9
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BR Dunk,272d796e
+info,registry,people,C Kemp,4ba47d5a
+info,registry,people,CA Rose,7517d134
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GA West,9dfd54a5
+info,registry,people,JM Holland,70c4f525
+info,registry,people,JR Dean,97188292
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KC Sangakkara,6b71e6cf
+info,registry,people,MG Neser,0164b064
+info,registry,people,MW Hill,1952e660
+info,registry,people,P Wilson,68304a36
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,S Milenko,479f9b04
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SL Rainbird,e7dd5eca
+info,registry,people,SW Tait,addfb70e
+info,registry,people,TD Paine,5748e866
+info,registry,people,TM Head,12b610c2
+info,registry,people,TP Ludeman,c3f7898b

@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Sixers
+info,gender,male
+info,season,2019/20
+info,date,2020/01/31
+info,event,Big Bash League
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,SNJ O'Keefe
+info,umpire,PJ Gillespie
+info,umpire,GA Abood
+info,reserve_umpire,MW Graham-Smith
+info,tv_umpire,SD Fry
+info,match_referee,PL Marshall
+info,winner,Sydney Sixers
+info,winner_runs,43
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,NM Lyon
+info,player,Sydney Sixers,JR Hazlewood
+info,player,Melbourne Stars,NJ Maddinson
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,SE Gotch
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,CD Hinchliffe
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,DJ Worrall
+info,player,Melbourne Stars,Haris Rauf
+info,registry,people,A Zampa,14f96089
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,Haris Rauf,24bb1c2f
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,JR Philippe,39086549
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SE Gotch,9a0e4ca5
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SPD Smith,30a45b23

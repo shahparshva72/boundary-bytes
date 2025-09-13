@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Thunder
+info,gender,male
+info,season,2022/23
+info,date,2023/01/25
+info,event,Big Bash League
+info,match_number,56
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,CJ Green
+info,umpire,BNJ Oxenford
+info,umpire,NR Johnstone
+info,reserve_umpire,D Brigham
+info,tv_umpire,SA Lightbody
+info,match_referee,RW Stratford
+info,winner,Sydney Thunder
+info,winner_wickets,3
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,C Kellaway
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,L Wood
+info,player,Melbourne Stars,LC Hatcher
+info,player,Melbourne Stars,A Zampa
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,DA Warner
+info,player,Sydney Thunder,JJS Sangha
+info,player,Sydney Thunder,O Davies
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,BCJ Cutting
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,Usman Qadir
+info,registry,people,A Zampa,14f96089
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Kellaway,60c28835
+info,registry,people,CJ Green,19b9f399
+info,registry,people,D Brigham,464daf41
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JA Davies,5cdf8304
+info,registry,people,JJS Sangha,8e3cb0e9
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,L Wood,65b6943c
+info,registry,people,LC Hatcher,8f3fde65
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,O Davies,0ea54eca
+info,registry,people,RW Stratford,85489579
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,Usman Qadir,33742f04

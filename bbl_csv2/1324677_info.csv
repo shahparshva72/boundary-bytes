@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2022/23
+info,date,2023/01/24
+info,event,Big Bash League
+info,match_number,54
+info,venue,"Docklands Stadium, Melbourne"
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,AJ Finch
+info,umpire,BC Treloar
+info,umpire,PJ Gillespie
+info,reserve_umpire,D Brigham
+info,tv_umpire,GJ Davidson
+info,match_referee,Kent Hannam
+info,winner,Melbourne Renegades
+info,winner_wickets,6
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,AJ Hose
+info,player,Adelaide Strikers,C de Grandhomme
+info,player,Adelaide Strikers,RJ Gibson
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,CJ Boyce
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,HNA Conway
+info,player,Adelaide Strikers,PM Siddle
+info,player,Melbourne Renegades,MJ Guptill
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,MJJ Critchley
+info,player,Melbourne Renegades,JW Wells
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,TS Rogers
+info,player,Melbourne Renegades,CJ Rocchiccioli
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,Fawad Ahmed
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Hose,104e88a4
+info,registry,people,AT Carey,69d03465
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CJ Rocchiccioli,aa3c7a7a
+info,registry,people,D Brigham,464daf41
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HNA Conway,272fc5ad
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,Kent Hannam,8cc171e7
+info,registry,people,MJ Guptill,2be41edb
+info,registry,people,MJJ Critchley,c5cc48bc
+info,registry,people,MW Short,a90e53ec
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RJ Gibson,50636767
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,TM Head,12b610c2
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,WA Agar,15de1f5d

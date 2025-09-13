@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Sydney Thunder
+info,gender,male
+info,season,2017/18
+info,date,2017/12/27
+info,event,Big Bash League
+info,match_number,8
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,AI Ross
+info,umpire,GA Abood
+info,umpire,AK Wilds
+info,reserve_umpire,D Taylor
+info,tv_umpire,PJ Gillespie
+info,match_referee,SR Bernard
+info,winner,Brisbane Heat
+info,winner_wickets,6
+info,method,D/L
+info,player,Sydney Thunder,JC Buttler
+info,player,Sydney Thunder,KR Patterson
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,BJ Rohrer
+info,player,Sydney Thunder,AJ Nair
+info,player,Sydney Thunder,RJ Gibson
+info,player,Sydney Thunder,Fawad Ahmed
+info,player,Sydney Thunder,AL Fekete
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,MJ McClenaghan
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,AI Ross
+info,player,Brisbane Heat,Shadab Khan
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,JK Lalor
+info,player,Brisbane Heat,B Doggett
+info,player,Brisbane Heat,MJ Swepson
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Nair,4ba2c04d
+info,registry,people,AK Wilds,de412f40
+info,registry,people,AL Fekete,029c4618
+info,registry,people,B Doggett,898e628d
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GA Abood,a4af5528
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MT Steketee,903560ed
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,RJ Gibson,50636767
+info,registry,people,SR Bernard,800187dc
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,Shadab Khan,9de62878

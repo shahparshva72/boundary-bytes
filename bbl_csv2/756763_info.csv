@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Melbourne Stars
+info,gender,male
+info,season,2014/15
+info,date,2015/01/03
+info,event,Big Bash League
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,MA Beer
+info,umpire,GC Joshua
+info,umpire,P Wilson
+info,tv_umpire,GJ Davidson
+info,match_referee,PL Marshall
+info,winner,Melbourne Stars
+info,winner_runs,112
+info,player,Melbourne Renegades,MS Wade
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,CJ Ferguson
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,BJ Rohrer
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,AD Russell
+info,player,Melbourne Renegades,JL Pattinson
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,Fawad Ahmed
+info,player,Melbourne Renegades,NP Winter
+info,player,Melbourne Stars,CL White
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,TIF Triffitt
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,JM Bird
+info,player,Melbourne Stars,MA Beer
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AR Keath,439083c2
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JW Hastings,012829ff
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,NP Winter,6c87f1df
+info,registry,people,P Wilson,68304a36
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TIF Triffitt,593513d5
+info,registry,people,TLW Cooper,2318ba22
