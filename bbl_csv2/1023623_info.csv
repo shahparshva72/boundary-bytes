@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2016/17
+info,date,2017/01/10
+info,event,Big Bash League
+info,match_number,22
+info,venue,Melbourne Cricket Ground
+info,city,
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,BW Hilfenhaus
+info,umpire,JD Ward
+info,umpire,P Wilson
+info,reserve_umpire,SA Lightbody
+info,tv_umpire,PJ Gillespie
+info,match_referee,PL Marshall
+info,winner,Melbourne Stars
+info,winner_wickets,2
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,BR Dunk
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,BJ Hodge
+info,player,Adelaide Strikers,KA Pollard
+info,player,Adelaide Strikers,JR Dean
+info,player,Adelaide Strikers,KR Smith
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,IS Sodhi
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,B Laughlin
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,BW Hilfenhaus
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,MA Beer
+info,player,Melbourne Stars,L Bowe
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BR Dunk,272d796e
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,IS Sodhi,641ac5ff
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JD Ward,511299c1
+info,registry,people,JR Dean,97188292
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,KR Smith,b816c2a5
+info,registry,people,L Bowe,a5b71472
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MG Neser,0164b064
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,P Wilson,68304a36
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TP Ludeman,c3f7898b
+info,registry,people,WA Agar,15de1f5d

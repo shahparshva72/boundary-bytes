@@ -27,7 +27,7 @@ export const useLocalStorage = () => {
       }
 
       // Check if it's a valid league
-      if (!['WPL', 'IPL'].includes(preference.league)) {
+      if (!['WPL', 'IPL', 'BBL'].includes(preference.league)) {
         localStorage.removeItem(LEAGUE_STORAGE_KEY);
         return null;
       }

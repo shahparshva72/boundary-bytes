@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Perth Scorchers
+info,gender,male
+info,season,2021/22
+info,date,2022/01/17
+info,event,Big Bash League
+info,match_number,52
+info,venue,"Docklands Stadium, Melbourne"
+info,city,Melbourne
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,MR Marsh
+info,umpire,BC Treloar
+info,umpire,SAJ Craig
+info,reserve_umpire,D Brigham
+info,tv_umpire,AK Wilds
+info,match_referee,RW Stratford
+info,winner,Perth Scorchers
+info,winner_wickets,6
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,BM Duckett
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,NA McSweeney
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Brisbane Heat,MJ Swepson
+info,player,Perth Scorchers,KR Patterson
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,C Munro
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,P Hatzoglou
+info,player,Perth Scorchers,LR Morris
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AK Wilds,de412f40
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BM Duckett,5f26f677
+info,registry,people,C Munro,af2c687b
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,D Brigham,464daf41
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,LR Morris,b08e58e2
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MT Steketee,903560ed
+info,registry,people,NA McSweeney,e94d2d50
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,RW Stratford,85489579
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SD Heazlett,e00a9155

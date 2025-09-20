@@ -1,0 +1,72 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2020/21
+info,date,2021/01/26
+info,event,Big Bash League
+info,match_number,55
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,Z Evans
+info,umpire,DR Close
+info,umpire,MW Graham-Smith
+info,reserve_umpire,Mattis van Eck
+info,tv_umpire,P Wilson
+info,match_referee,Kent Hannam
+info,winner,Melbourne Renegades
+info,winner_runs,11
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,Imad Wasim
+info,player,Melbourne Renegades,JA Prestwidge
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,Z Evans
+info,player,Melbourne Renegades,P Hatzoglou
+info,player,Hobart Hurricanes,NP Winter
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,DJ Malan
+info,player,Hobart Hurricanes,WG Jacks
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,SM Boland
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,S Lamichhane
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,DJ Malan,ad9c32a2
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,Imad Wasim,9cb8d7a6
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,JA Prestwidge,5f317fd4
+info,registry,people,Kent Hannam,8cc171e7
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mattis van Eck,bf1a68c1
+info,registry,people,NP Winter,6c87f1df
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,P Wilson,68304a36
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TH David,f1f99156
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,WG Jacks,9caf69a1
+info,registry,people,Z Evans,8528effb

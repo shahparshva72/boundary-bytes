@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Perth Scorchers
+info,gender,male
+info,season,2018/19
+info,date,2019/02/09
+info,event,Big Bash League
+info,match_number,54
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,JW Wells
+info,umpire,DJ Shepard
+info,umpire,JD Ward
+info,reserve_umpire,C Thomas
+info,tv_umpire,PJ Gillespie
+info,match_referee,SR Bernard
+info,winner,Adelaide Strikers
+info,winner_wickets,5
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,NR Hobson
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,SP Terry
+info,player,Perth Scorchers,CD Hinchliffe
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,M Kelly
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,C Valente
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,B Stanlake
+info,player,Adelaide Strikers,LN O'Connor
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,C Thomas,68664af7
+info,registry,people,C Valente,137e7065
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,DJ Shepard,d3533ba5
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JD Ward,511299c1
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JW Wells,8bdac857
+info,registry,people,LN O'Connor,5456bd0c
+info,registry,people,M Kelly,68e26ec9
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SP Terry,7f87204d
+info,registry,people,SR Bernard,800187dc
+info,registry,people,TM Head,12b610c2

@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Sixers
+info,gender,male
+info,season,2024/25
+info,date,2024/12/26
+info,event,Big Bash League
+info,match_number,11
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,JM Vince
+info,umpire,GA Abood
+info,umpire,MW Graham-Smith
+info,reserve_umpire,CA Polosak
+info,tv_umpire,D Taylor
+info,match_referee,Dave Gilbert
+info,winner,Sydney Sixers
+info,winner_wickets,8
+info,player,Melbourne Stars,BM Duckett
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,SB Harper
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,TK Curran
+info,player,Melbourne Stars,J Merlo
+info,player,Melbourne Stars,Usama Mir
+info,player,Melbourne Stars,D Warren
+info,player,Melbourne Stars,PM Siddle
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,L Shaw
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,AJ Hosein
+info,player,Sydney Sixers,T Murphy
+info,player,Sydney Sixers,JM Bird
+info,registry,people,AJ Hosein,4d7f517e
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BM Duckett,5f26f677
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,D Warren,ef55b38c
+info,registry,people,Dave Gilbert,aa782370
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,H Kerr,f422728b
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,J Merlo,02ba80a0
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,L Shaw,b34e4b15
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,SB Harper,a756e61a
+info,registry,people,T Murphy,ac2e7ec0
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,TK Curran,e86754b2
+info,registry,people,Usama Mir,6dd8b88c

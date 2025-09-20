@@ -25,12 +25,35 @@ CURRENT DATE AND RELATIVE TIME:
   - If the user specifies fixed years (e.g., 2018–2020), use: m.start_date >= '2018-01-01' AND m.start_date <= '2020-12-31'
   - Use m.start_date (never season text) for date filters.
 
+BBL SEASON HANDLING (ONLY when league = 'BBL'):
+BBL seasons span calendar years, use season field instead of date filters:
+  - "this season": Use current BBL season based on current date:
+    - If current month is Nov-Dec: current BBL season is current year + "/" + (current year + 1) format
+    - If current month is Jan-Oct: current BBL season is (current year - 1) + "/" + current year format
+    - Formula: CASE WHEN EXTRACT(MONTH FROM CURRENT_DATE) >= 11
+              THEN m.season = EXTRACT(YEAR FROM CURRENT_DATE)::text || '/' || (EXTRACT(YEAR FROM CURRENT_DATE) + 1)::text
+              ELSE m.season = (EXTRACT(YEAR FROM CURRENT_DATE) - 1)::text || '/' || EXTRACT(YEAR FROM CURRENT_DATE)::text
+              END
+  - For specific BBL seasons:
+    - "BBL 2023-24" or "BBL 2024" -> m.season = '2023/24'
+    - "BBL 2024-25" or "BBL 2025" -> m.season = '2024/25'
+    - Always use format 'YYYY/YY' (e.g., '2023/24', '2024/25')
+
+LEAGUE DETECTION (MANDATORY):
+Automatically detect the target league from the user's question and set {{LEAGUE_FILTER}} accordingly:
+  - If query mentions "IPL", "Indian Premier League": {{LEAGUE_FILTER}} = m.league = 'IPL'
+  - If query mentions "WPL", "Women's Premier League": {{LEAGUE_FILTER}} = m.league = 'WPL'
+  - If query mentions "BBL", "Big Bash League", "Big Bash": {{LEAGUE_FILTER}} = m.league = 'BBL'
+  - If query mentions specific BBL teams (Sydney Sixers, Perth Scorchers, etc.): {{LEAGUE_FILTER}} = m.league = 'BBL'
+  - If query mentions specific IPL teams (Mumbai Indians, CSK, etc.): {{LEAGUE_FILTER}} = m.league = 'IPL'
+  - If no league is explicitly mentioned, default to IPL: {{LEAGUE_FILTER}} = m.league = 'IPL'
+
 GLOBAL FILTER MACROS:
 - Always join deliveries to matches for league/time filters.
 - Always exclude Super Overs unless explicitly requested.
 - Define reusable filters/macros to inject into queries:
-  {{LEAGUE_FILTER}}   -> m.league = 'IPL'         -- set when the question is about IPL
-  {{DATE_FILTER}}     -> valid SQL predicate on m.start_date per the rules above
+  {{LEAGUE_FILTER}}   -> Set based on LEAGUE DETECTION rules above
+  {{DATE_FILTER}}     -> valid SQL predicate on m.start_date per the rules above (for BBL, use season field instead of dates)
   {{INNINGS_FILTER}}  -> d.innings <= 2           -- regular play only (exclude Super Overs)
   {{LIMIT_FILTER}}    -> LIMIT 20                  -- always enforce if missing
 
@@ -51,10 +74,20 @@ Use a lightweight mapping CTE once per query rather than repeating CASE in many 
 WITH team_map AS (
   SELECT *
   FROM (VALUES
+    -- IPL team mappings
     ('Royal Challengers Bengaluru', 'Royal Challengers Bangalore'),
     ('Delhi Daredevils',            'Delhi Capitals'),
     ('Kings XI Punjab',             'Punjab Kings'),
-    ('Rising Pune Supergiants',     'Rising Pune Supergiant')
+    ('Rising Pune Supergiants',     'Rising Pune Supergiant'),
+    -- BBL team mappings
+    ('Adelaide Strikers',           'Adelaide Strikers'),
+    ('Brisbane Heat',               'Brisbane Heat'),
+    ('Hobart Hurricanes',           'Hobart Hurricanes'),
+    ('Melbourne Renegades',         'Melbourne Renegades'),
+    ('Melbourne Stars',             'Melbourne Stars'),
+    ('Perth Scorchers',             'Perth Scorchers'),
+    ('Sydney Sixers',               'Sydney Sixers'),
+    ('Sydney Thunder',              'Sydney Thunder')
   ) AS t(variant, canonical)
 )
 Join this CTE and always select COALESCE(tm.canonical, <team_field>) for any returned team name and GROUP BY the same expression, so variants are combined.
@@ -195,9 +228,15 @@ ALWAYS-ON METRIC REQUIREMENTS:
 - If the user asks for bowling stats, include economy_rate AS economy_rate in SELECT.
 
 DISAMBIGUATION RULES:
-- “season”/“this season” → use calendar year via CURRENT_DATE year window unless the user explicitly states a tournament-defined season.
-- “since YEAR” → m.start_date >= 'YEAR-01-01' AND m.start_date <= CURRENT_DATE
+- "season"/"this season" → use calendar year via CURRENT_DATE year window unless the user explicitly states a tournament-defined season.
+- For BBL: "this season" uses BBL season field logic (seasons span years)
+- BBL season examples:
+  * "BBL 2023-24" → m.season = '2023/24'
+  * "BBL 2024" → m.season = '2024/25' (assuming they mean the 2024-25 season starting in 2024)
+  * "current BBL season" → apply BBL SEASON HANDLING logic from above
+- "since YEAR" → m.start_date >= 'YEAR-01-01' AND m.start_date <= CURRENT_DATE
 - If no time is specified, omit {{DATE_FILTER}}.
+- Always apply LEAGUE DETECTION rules to determine the correct {{LEAGUE_FILTER}}
 
 SUPER OVER HANDLING:
 - Default exclude (d.innings <= 2). Only include if the user explicitly asks (e.g., “include Super Overs”), then remove {{INNINGS_FILTER}}.
@@ -215,7 +254,7 @@ Return JSON only:
 POST-GENERATION VALIDATION (MUST PASS):
 - Each SQL is a single SELECT.
 - Only tables {wpl_match, wpl_delivery, wpl_match_info, wpl_player} appear with allowed aliases {m,d,mi,p}.
-- LIMIT exists and ≤ 20 (add LIMIT 20 if missing).  
+- LIMIT exists and ≤ 20 (add LIMIT 20 if missing).
 - If batting-oriented, ensure strike_rate column exists.
 - If bowling-oriented, ensure economy_rate column exists.
 `;

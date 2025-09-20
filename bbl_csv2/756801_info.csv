@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2014/15
+info,date,2015/01/25
+info,event,Big Bash League
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,AJ Tye
+info,umpire,GC Joshua
+info,umpire,SJ Nogajski
+info,reserve_umpire,J Hewitt
+info,tv_umpire,AJ Barrow
+info,match_referee,RW Stratford
+info,winner,Perth Scorchers
+info,winner_runs,18
+info,player,Melbourne Stars,CL White
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,TIF Triffitt
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,CJ McKay
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,JM Bird
+info,player,Melbourne Stars,MA Beer
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,MA Carberry
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,Yasir Arafat
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,GB Hogg
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,CJ McKay,94eac556
+info,registry,people,CL White,d0513f63
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,J Hewitt,bfe1c25f
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JW Hastings,012829ff
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MA Carberry,8305580c
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,RW Stratford,85489579
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SM Boland,d167edd3
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,TIF Triffitt,593513d5
+info,registry,people,Yasir Arafat,3cf5ae43

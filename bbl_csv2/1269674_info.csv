@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2021/22
+info,date,2022/01/06
+info,event,Big Bash League
+info,match_number,37
+info,venue,"GMHBA Stadium, South Geelong, Victoria"
+info,city,Geelong
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,SE Marsh
+info,umpire,BC Treloar
+info,umpire,BNJ Oxenford
+info,reserve_umpire,Greg Azzopardi
+info,tv_umpire,Geoff Davidson
+info,match_referee,Kent Hannam
+info,winner,Melbourne Renegades
+info,winner_wickets,5
+info,player,Brisbane Heat,JS Lehmann
+info,player,Brisbane Heat,J Clayton
+info,player,Brisbane Heat,Fakhar Zaman
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,TLW Cooper
+info,player,Brisbane Heat,LD Pfeffer
+info,player,Brisbane Heat,S McGiffin
+info,player,Brisbane Heat,W Prestwidge
+info,player,Brisbane Heat,RH McDonald
+info,player,Brisbane Heat,DMK Grant
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,player,Melbourne Renegades,JL Pattinson
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,NJ Maddinson
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,J Seymour
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,Z Evans
+info,player,Melbourne Renegades,Zahir Khan
+info,player,Melbourne Renegades,Mohammad Nabi
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,DMK Grant,5390f178
+info,registry,people,Fakhar Zaman,1777c020
+info,registry,people,Geoff Davidson,b33a1559
+info,registry,people,Greg Azzopardi,e950350e
+info,registry,people,J Clayton,c56fc66d
+info,registry,people,J Seymour,cb54a1d6
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,Kent Hannam,8cc171e7
+info,registry,people,LD Pfeffer,dd86ec0b
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,RH McDonald,8bdbb608
+info,registry,people,S McGiffin,0dde7f22
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,W Prestwidge,bdf7a718
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,Z Evans,8528effb
+info,registry,people,Zahir Khan,786b7fe8

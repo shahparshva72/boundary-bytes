@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Sydney Sixers
+info,gender,male
+info,season,2021/22
+info,date,2021/12/29
+info,event,Big Bash League
+info,match_number,25
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,SA Abbott
+info,umpire,DR Close
+info,umpire,SJ Nogajski
+info,reserve_umpire,CA Polosak
+info,tv_umpire,BNJ Oxenford
+info,match_referee,Dave Gilbert
+info,winner,Sydney Sixers
+info,winner_wickets,2
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,TLW Cooper
+info,player,Brisbane Heat,BM Duckett
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,JD Wildermuth
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,Shadab Khan
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,L Pope
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BM Duckett,5f26f677
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,Dave Gilbert,aa782370
+info,registry,people,H Kerr,f422728b
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,L Pope,616a8149
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Steketee,903560ed
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,Shadab Khan,9de62878
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,XC Bartlett,3b53243a

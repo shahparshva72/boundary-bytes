@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2015/16
+info,date,2015/12/31
+info,event,Big Bash League
+info,match_number,14
+info,venue,Adelaide Oval
+info,city,
+info,toss_winner,Adelaide Strikers
+info,toss_decision,field
+info,player_of_match,TM Head
+info,umpire,SD Fry
+info,umpire,P Wilson
+info,reserve_umpire,C Thomas
+info,tv_umpire,MD Martell
+info,match_referee,DJ Harper
+info,winner,Adelaide Strikers
+info,winner_wickets,5
+info,player,Adelaide Strikers,CJ Simmons
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,DPMD Jayawardene
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,BJ Hodge
+info,player,Adelaide Strikers,AI Ross
+info,player,Adelaide Strikers,AU Rashid
+info,player,Adelaide Strikers,HP Kingston
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,JM Holland
+info,player,Sydney Sixers,EJM Cowan
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,BJ Haddin
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,RGL Carters
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,JM Bird
+info,player,Sydney Sixers,DE Bollinger
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AU Rashid,249d60c9
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BJ Haddin,b0c772ee
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,C Thomas,68664af7
+info,registry,people,CJ Simmons,0095ce38
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,EJM Cowan,fee3c48a
+info,registry,people,HP Kingston,c89e4c9f
+info,registry,people,J Botha,7c503806
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Holland,70c4f525
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MD Martell,487c072e
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,P Wilson,68304a36
+info,registry,people,RGL Carters,f54c8804
+info,registry,people,RR Ayre,0539e735
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,TM Head,12b610c2
+info,registry,people,TP Ludeman,c3f7898b

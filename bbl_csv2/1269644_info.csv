@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Thunder
+info,gender,male
+info,season,2021/22
+info,date,2021/12/10
+info,event,Big Bash League
+info,match_number,7
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,NCR Larkin
+info,umpire,DR Close
+info,umpire,GJ Davidson
+info,reserve_umpire,Mattis van Eck
+info,tv_umpire,Troy Penman
+info,match_referee,RW Stratford
+info,winner,Melbourne Stars
+info,winner_runs,4
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,AD Russell
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,Qais Ahmad
+info,player,Melbourne Stars,BL Couch
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,SM Whiteman
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,SW Billings
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,BCJ Cutting
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,T Sangha
+info,registry,people,A Zampa,14f96089
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BL Couch,be69e09d
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mattis van Eck,bf1a68c1
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,Qais Ahmad,8d5d991e
+info,registry,people,RW Stratford,85489579
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,SW Billings,c16d4035
+info,registry,people,T Sangha,52c952d9
+info,registry,people,Troy Penman,0aa42c26

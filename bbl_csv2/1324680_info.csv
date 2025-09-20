@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Sydney Thunder
+info,gender,male
+info,season,2022/23
+info,date,2023/01/27
+info,event,Big Bash League
+info,venue,Sydney Showground Stadium
+info,city,Sydney
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,UT Khawaja
+info,umpire,GA Abood
+info,umpire,PJ Gillespie
+info,reserve_umpire,BC Treloar
+info,tv_umpire,BNJ Oxenford
+info,match_referee,SJ Davis
+info,winner,Brisbane Heat
+info,winner_runs,8
+info,method,D/L
+info,player,Brisbane Heat,J Brown
+info,player,Brisbane Heat,UT Khawaja
+info,player,Brisbane Heat,M Labuschagne
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,SR Hain
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,SH Johnson
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Sydney Thunder,DA Warner
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,JJS Sangha
+info,player,Sydney Thunder,O Davies
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,BCJ Cutting
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,RR Pawson
+info,player,Sydney Thunder,Usman Qadir
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,GA Abood,a4af5528
+info,registry,people,J Brown,647e7d44
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JJS Sangha,8e3cb0e9
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,M Labuschagne,fa433be6
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,O Davies,0ea54eca
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,RR Pawson,016188b4
+info,registry,people,SH Johnson,83c3e8e3
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SR Hain,67b9536c
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,Usman Qadir,33742f04

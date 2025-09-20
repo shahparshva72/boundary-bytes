@@ -1,0 +1,73 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2021/22
+info,date,2021/12/20
+info,event,Big Bash League
+info,match_number,15
+info,venue,"Bellerive Oval, Hobart"
+info,city,Hobart
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,KR Patterson
+info,umpire,GA Abood
+info,umpire,AK Wilds
+info,reserve_umpire,Bede Sajowitz
+info,tv_umpire,NR Johnstone
+info,match_referee,Dave Gilbert
+info,winner,Perth Scorchers
+info,winner_runs,42
+info,player,Perth Scorchers,KR Patterson
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,C Munro
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,LJ Evans
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,P Hatzoglou
+info,player,Perth Scorchers,TS Mills
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,HC Brook
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,JA Thompson
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,TS Rogers
+info,player,Hobart Hurricanes,W Parker
+info,player,Hobart Hurricanes,S Lamichhane
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,Bede Sajowitz,14fb95ae
+info,registry,people,C Munro,af2c687b
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,DJM Short,1a156c88
+info,registry,people,Dave Gilbert,aa782370
+info,registry,people,GA Abood,a4af5528
+info,registry,people,HC Brook,4ae1755b
+info,registry,people,JA Thompson,1d2f290a
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,LJ Evans,1c513d54
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,TH David,f1f99156
+info,registry,people,TS Mills,245c97cb
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,W Parker,607c846c

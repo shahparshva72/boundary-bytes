@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Sydney Sixers
+info,gender,male
+info,season,2016/17
+info,date,2016/12/20
+info,event,Big Bash League
+info,match_number,1
+info,venue,Sydney Showground Stadium
+info,city,
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,MC Henriques
+info,umpire,JD Ward
+info,umpire,P Wilson
+info,reserve_umpire,SA Lightbody
+info,tv_umpire,PJ Gillespie
+info,match_referee,PL Marshall
+info,winner,Sydney Sixers
+info,winner_wickets,9
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JJ Roy
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,DE Bollinger
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,BJ Haddin
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,JM Mennie
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,SW Billings
+info,player,Sydney Thunder,KR Patterson
+info,player,Sydney Thunder,RJ Gibson
+info,player,Sydney Thunder,EJG Morgan
+info,player,Sydney Thunder,BJ Rohrer
+info,player,Sydney Thunder,JR Doran
+info,player,Sydney Thunder,AD Russell
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,PJ Cummins
+info,player,Sydney Thunder,CJ McKay
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,Fawad Ahmed
+info,registry,people,AD Russell,bbd41817
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BJ Haddin,b0c772ee
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CJ McKay,94eac556
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,J Botha,7c503806
+info,registry,people,JD Ward,511299c1
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,JM Mennie,f048bb41
+info,registry,people,JR Doran,9cebb612
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,P Wilson,68304a36
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,RJ Gibson,50636767
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SW Billings,c16d4035

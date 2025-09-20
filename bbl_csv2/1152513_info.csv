@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Melbourne Stars
+info,gender,male
+info,season,2018/19
+info,date,2018/12/21
+info,event,Big Bash League
+info,match_number,3
+info,venue,Manuka Oval
+info,city,Canberra
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,DR Sams
+info,umpire,SA Lightbody
+info,umpire,AK Wilds
+info,reserve_umpire,Andrew Crozier
+info,tv_umpire,P Wilson
+info,match_referee,PL Marshall
+info,winner,Sydney Thunder
+info,winner_runs,15
+info,method,D/L
+info,player,Sydney Thunder,JC Buttler
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,JE Root
+info,player,Sydney Thunder,JJS Sangha
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,SL Rainbird
+info,player,Sydney Thunder,Fawad Ahmed
+info,player,Melbourne Stars,TJ Dean
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,DJ Bravo
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,S Lamichhane
+info,player,Melbourne Stars,JR Coleman
+info,player,Melbourne Stars,MA Beer
+info,registry,people,A Zampa,14f96089
+info,registry,people,AK Wilds,de412f40
+info,registry,people,Andrew Crozier,00d07580
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JE Root,a343262c
+info,registry,people,JJS Sangha,8e3cb0e9
+info,registry,people,JR Coleman,de6efa4a
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,P Wilson,68304a36
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SL Rainbird,e7dd5eca
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,TJ Dean,666936de

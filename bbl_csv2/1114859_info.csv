@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2017/18
+info,date,2017/12/22
+info,event,Big Bash League
+info,match_number,4
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,Rashid Khan
+info,umpire,GJ Davidson
+info,umpire,SA Lightbody
+info,reserve_umpire,C Thomas
+info,tv_umpire,SD Fry
+info,match_referee,DJ Harper
+info,winner,Adelaide Strikers
+info,winner_runs,53
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,CA Ingram
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,JS Lehmann
+info,player,Adelaide Strikers,JR Dean
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,B Stanlake
+info,player,Sydney Thunder,JC Buttler
+info,player,Sydney Thunder,KR Patterson
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,RJ Gibson
+info,player,Sydney Thunder,BJ Rohrer
+info,player,Sydney Thunder,AJ Nair
+info,player,Sydney Thunder,AC Blizzard
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,MJ McClenaghan
+info,player,Sydney Thunder,Fawad Ahmed
+info,player,Sydney Thunder,AL Fekete
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AJ Nair,4ba2c04d
+info,registry,people,AL Fekete,029c4618
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,C Thomas,68664af7
+info,registry,people,CA Ingram,c995d726
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JR Dean,97188292
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RJ Gibson,50636767
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,TM Head,12b610c2

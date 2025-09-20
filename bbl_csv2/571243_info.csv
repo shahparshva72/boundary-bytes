@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2012/13
+info,date,2012/12/20
+info,event,Big Bash League
+info,venue,Stadium Australia
+info,city,Sydney
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,KW Richardson
+info,umpire,BNJ Oxenford
+info,umpire,PR Reiffel
+info,tv_umpire,DB Mealey
+info,match_referee,PL Marshall
+info,winner,Adelaide Strikers
+info,winner_runs,51
+info,player,Adelaide Strikers,M Klinger
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,NJ Reardon
+info,player,Adelaide Strikers,KA Pollard
+info,player,Adelaide Strikers,TP Doropoulos
+info,player,Adelaide Strikers,J Botha
+info,player,Adelaide Strikers,CJ Ferguson
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,CJ Boyce
+info,player,Adelaide Strikers,GD Putland
+info,player,Adelaide Strikers,SW Tait
+info,player,Sydney Thunder,MJ Cosgrove
+info,player,Sydney Thunder,CH Gayle
+info,player,Sydney Thunder,Azhar Mahmood
+info,player,Sydney Thunder,CJL Rogers
+info,player,Sydney Thunder,SA Abbott
+info,player,Sydney Thunder,CJ Borgas
+info,player,Sydney Thunder,RGL Carters
+info,player,Sydney Thunder,SJ Coyte (2)
+info,player,Sydney Thunder,CP Tremain
+info,player,Sydney Thunder,A Zampa
+info,player,Sydney Thunder,DP Nannes
+info,registry,people,A Zampa,14f96089
+info,registry,people,Azhar Mahmood,9a158001
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Borgas,d901964b
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJL Rogers,d8360178
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DB Mealey,2199afd4
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,GD Putland,9f54ae00
+info,registry,people,J Botha,7c503806
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MJ Cosgrove,be768595
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,RGL Carters,f54c8804
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SJ Coyte (2),36769c31
+info,registry,people,SW Tait,addfb70e
+info,registry,people,TP Doropoulos,d87404b4
+info,registry,people,TP Ludeman,c3f7898b

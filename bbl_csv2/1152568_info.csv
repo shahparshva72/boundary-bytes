@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Sydney Sixers
+info,gender,male
+info,season,2018/19
+info,date,2019/02/15
+info,event,Big Bash League
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,DT Christian
+info,umpire,PJ Gillespie
+info,umpire,GA Abood
+info,reserve_umpire,GC Joshua
+info,tv_umpire,JD Ward
+info,match_referee,PL Marshall
+info,winner,Melbourne Renegades
+info,winner_wickets,3
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,NM Lyon
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,MW Edwards
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,DT Christian
+info,player,Melbourne Renegades,CJ Boyce
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,CP Tremain
+info,player,Melbourne Renegades,HF Gurney
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CL White,d0513f63
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,HF Gurney,e412cb64
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JD Ward,511299c1
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MW Edwards,5f222a64
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,TLW Cooper,2318ba22

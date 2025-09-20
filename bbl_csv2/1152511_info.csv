@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2018/19
+info,date,2018/12/19
+info,event,Big Bash League
+info,match_number,1
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Adelaide Strikers
+info,toss_decision,field
+info,player_of_match,Rashid Khan
+info,umpire,P Wilson
+info,umpire,SD Fry
+info,reserve_umpire,DM Koch
+info,tv_umpire,GJ Davidson
+info,match_referee,RW Stratford
+info,winner,Adelaide Strikers
+info,winner_wickets,5
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JL Pattinson
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,CA Ingram
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,JS Lehmann
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,B Stanlake
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,CA Ingram,c995d726
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,DM Koch,6d10c034
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,JW Wells,8bdac857
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MT Steketee,903560ed
+info,registry,people,MW Short,a90e53ec
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,P Wilson,68304a36
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RW Stratford,85489579
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SD Heazlett,e00a9155

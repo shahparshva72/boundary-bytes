@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2014/15
+info,date,2015/01/07
+info,event,Big Bash League
+info,venue,Bellerive Oval
+info,city,Hobart
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,BA Stokes
+info,umpire,SAJ Craig
+info,umpire,JD Ward
+info,reserve_umpire,JM Mitchell
+info,tv_umpire,AJ Barrow
+info,match_referee,PL Marshall
+info,winner,Melbourne Renegades
+info,winner_runs,37
+info,player,Hobart Hurricanes,BR Dunk
+info,player,Hobart Hurricanes,TD Paine
+info,player,Hobart Hurricanes,AD Hales
+info,player,Hobart Hurricanes,GJ Bailey
+info,player,Hobart Hurricanes,JW Wells
+info,player,Hobart Hurricanes,TT Bresnan
+info,player,Hobart Hurricanes,TR Birt
+info,player,Hobart Hurricanes,BW Hilfenhaus
+info,player,Hobart Hurricanes,CJ Boyce
+info,player,Hobart Hurricanes,XJ Doherty
+info,player,Hobart Hurricanes,JK Reed
+info,player,Melbourne Renegades,MS Wade
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,BA Stokes
+info,player,Melbourne Renegades,CJ Ferguson
+info,player,Melbourne Renegades,Shakib Al Hasan
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,TM Beaton
+info,player,Melbourne Renegades,PM Siddle
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,Fawad Ahmed
+info,player,Melbourne Renegades,NP Winter
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BA Stokes,e087956b
+info,registry,people,BR Dunk,272d796e
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,JD Ward,511299c1
+info,registry,people,JK Reed,a8ad6e80
+info,registry,people,JM Mitchell,b1b4ab36
+info,registry,people,JW Wells,8bdac857
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,NP Winter,6c87f1df
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,TD Paine,5748e866
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TM Beaton,f0ec8597
+info,registry,people,TR Birt,d2d4bb0a
+info,registry,people,TT Bresnan,58043739
+info,registry,people,XJ Doherty,502b2c81

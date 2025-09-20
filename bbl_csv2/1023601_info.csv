@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2016/17
+info,date,2016/12/31
+info,event,Big Bash League
+info,match_number,11
+info,venue,Adelaide Oval
+info,city,
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,SA Abbott
+info,umpire,AJ Barrow
+info,umpire,GJ Davidson
+info,reserve_umpire,C Thomas
+info,tv_umpire,MD Martell
+info,match_referee,D Talalla
+info,winner,Adelaide Strikers
+info,winner_runs,48
+info,player,Adelaide Strikers,BJ Hodge
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,BR Dunk
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,KA Pollard
+info,player,Adelaide Strikers,JS Lehmann
+info,player,Adelaide Strikers,CJ Jordan
+info,player,Adelaide Strikers,TD Andrews
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,B Stanlake
+info,player,Adelaide Strikers,LN O'Connor
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JJ Roy
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,BJ Haddin
+info,player,Sydney Sixers,SW Billings
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,WER Somerville
+info,player,Sydney Sixers,DE Bollinger
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BJ Haddin,b0c772ee
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BR Dunk,272d796e
+info,registry,people,C Thomas,68664af7
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,J Botha,7c503806
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,LN O'Connor,5456bd0c
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MD Martell,487c072e
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SW Billings,c16d4035
+info,registry,people,TD Andrews,a0f612b6
+info,registry,people,TM Head,12b610c2
+info,registry,people,WER Somerville,74a1c1e3

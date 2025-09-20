@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2019/20
+info,date,2020/01/15
+info,event,Big Bash League
+info,match_number,37
+info,venue,Manuka Oval
+info,city,Canberra
+info,toss_winner,Melbourne Renegades
+info,toss_decision,bat
+info,player_of_match,SB Harper
+info,umpire,SD Fry
+info,umpire,DM Koch
+info,reserve_umpire,Troy Penman
+info,tv_umpire,PJ Gillespie
+info,match_referee,SR Bernard
+info,winner,Melbourne Renegades
+info,winner_runs,12
+info,method,D/L
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,DT Christian
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,SR Patel
+info,player,Melbourne Renegades,JD Wildermuth
+info,player,Melbourne Renegades,CJ Boyce
+info,player,Melbourne Renegades,AL Fekete
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,CH Morris
+info,player,Sydney Thunder,JS Lenton
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,JD Cook
+info,player,Sydney Thunder,B Doggett
+info,player,Sydney Thunder,L Bowe
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AL Fekete,029c4618
+info,registry,people,B Doggett,898e628d
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,DM Koch,6d10c034
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,JD Cook,45f56920
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JS Lenton,8820c9ef
+info,registry,people,L Bowe,a5b71472
+info,registry,people,MS Harris,9e85455c
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SR Bernard,800187dc
+info,registry,people,SR Patel,18fac429
+info,registry,people,Troy Penman,0aa42c26
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,W Sutherland,bc2d4f2e

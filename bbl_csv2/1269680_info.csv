@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2021/22
+info,date,2022/01/10
+info,event,Big Bash League
+info,match_number,44
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,JM Clarke
+info,umpire,NR Johnstone
+info,umpire,Troy Penman
+info,reserve_umpire,D Brigham
+info,tv_umpire,SA Lightbody
+info,match_referee,Kent Hannam
+info,winner,Melbourne Stars
+info,winner_wickets,5
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,HJ Hunt
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,RJ Gibson
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,HNA Conway
+info,player,Adelaide Strikers,Fawad Ahmed
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,CD Hinchliffe
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,JA Burns
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,Qais Ahmad
+info,player,Melbourne Stars,XA Crone
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,Haris Rauf
+info,player,Melbourne Stars,BL Couch
+info,registry,people,A Zampa,14f96089
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BL Couch,be69e09d
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,D Brigham,464daf41
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,HJ Hunt,62ef4abe
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HNA Conway,272fc5ad
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Haris Rauf,24bb1c2f
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,JW Wells,8bdac857
+info,registry,people,Kent Hannam,8cc171e7
+info,registry,people,MW Short,a90e53ec
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,Qais Ahmad,8d5d991e
+info,registry,people,RJ Gibson,50636767
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,Troy Penman,0aa42c26
+info,registry,people,XA Crone,e5ee7c83

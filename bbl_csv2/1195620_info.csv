@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2019/20
+info,date,2020/01/22
+info,event,Big Bash League
+info,match_number,48
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,JW Wells
+info,umpire,GJ Davidson
+info,umpire,DM Koch
+info,reserve_umpire,Harsimran Singh
+info,tv_umpire,GA Abood
+info,match_referee,PL Marshall
+info,winner,Adelaide Strikers
+info,winner_runs,11
+info,player,Adelaide Strikers,PD Salt
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,B Stanlake
+info,player,Melbourne Stars,NJ Maddinson
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,SE Gotch
+info,player,Melbourne Stars,CD Hinchliffe
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,DJ Worrall
+info,player,Melbourne Stars,LR Morris
+info,player,Melbourne Stars,S Lamichhane
+info,registry,people,A Zampa,14f96089
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,DM Koch,6d10c034
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,Harsimran Singh,bf4720ce
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JW Wells,8bdac857
+info,registry,people,LR Morris,b08e58e2
+info,registry,people,MG Neser,0164b064
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MW Short,a90e53ec
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SE Gotch,9a0e4ca5
+info,registry,people,TM Head,12b610c2
+info,registry,people,WA Agar,15de1f5d

@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2022/23
+info,date,2022/12/22
+info,event,Big Bash League
+info,match_number,11
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Sydney Sixers
+info,toss_decision,bat
+info,player_of_match,JR Philippe
+info,umpire,CA Polosak
+info,umpire,MW Graham-Smith
+info,reserve_umpire,Troy Penman
+info,tv_umpire,BC Treloar
+info,match_referee,RW Stratford
+info,winner,Sydney Sixers
+info,winner_runs,6
+info,player,Sydney Sixers,KR Patterson
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,Naveen-ul-Haq
+info,player,Sydney Sixers,T Murphy
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,Shadab Khan
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,JDS Neesham
+info,player,Hobart Hurricanes,Asif Ali
+info,player,Hobart Hurricanes,JS Paris
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,PG Dooley
+info,player,Hobart Hurricanes,RP Meredith
+info,registry,people,Asif Ali,0a4736eb
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,H Kerr,f422728b
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JDS Neesham,9219eff0
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,Naveen-ul-Haq,c0c411cb
+info,registry,people,PG Dooley,5e3054d0
+info,registry,people,RP Meredith,64775749
+info,registry,people,RW Stratford,85489579
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,Shadab Khan,9de62878
+info,registry,people,T Murphy,ac2e7ec0
+info,registry,people,TH David,f1f99156
+info,registry,people,Troy Penman,0aa42c26

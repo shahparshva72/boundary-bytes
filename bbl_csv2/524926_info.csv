@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2011/12
+info,date,2011/12/30
+info,event,Big Bash League
+info,venue,Stadium Australia
+info,city,Sydney
+info,toss_winner,Melbourne Renegades
+info,toss_decision,bat
+info,player_of_match,Shahid Afridi
+info,umpire,IH Lock
+info,umpire,AP Ward
+info,tv_umpire,RL Parry
+info,match_referee,PL Marshall
+info,winner,Melbourne Renegades
+info,winner_runs,6
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,BJ Hodge
+info,player,Melbourne Renegades,GJ Maxwell
+info,player,Melbourne Renegades,Shahid Afridi
+info,player,Melbourne Renegades,NJ Reardon
+info,player,Melbourne Renegades,Abdul Razzaq
+info,player,Melbourne Renegades,AB McDonald
+info,player,Melbourne Renegades,GA Manou
+info,player,Melbourne Renegades,SM Harwood
+info,player,Melbourne Renegades,DP Nannes
+info,player,Melbourne Renegades,SW Tait
+info,player,Sydney Thunder,TD Cruickshank
+info,player,Sydney Thunder,CH Gayle
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,DLR Smith
+info,player,Sydney Thunder,BR Dunk
+info,player,Sydney Thunder,JS Floros
+info,player,Sydney Thunder,LR Butterworth
+info,player,Sydney Thunder,SA Abbott
+info,player,Sydney Thunder,SJ Coyte (2)
+info,player,Sydney Thunder,LA Doran
+info,player,Sydney Thunder,FH Edwards
+info,registry,people,AB McDonald,16043342
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AP Ward,196a3809
+info,registry,people,Abdul Razzaq,390ff45b
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DLR Smith,0c5c3a87
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,FH Edwards,a7c226e1
+info,registry,people,GA Manou,f58839ad
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,IH Lock,a1b1e3c2
+info,registry,people,JS Floros,79765f6f
+info,registry,people,LA Doran,f201593c
+info,registry,people,LR Butterworth,ff6707cc
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SJ Coyte (2),36769c31
+info,registry,people,SM Harwood,63bff7f9
+info,registry,people,SW Tait,addfb70e
+info,registry,people,Shahid Afridi,0dc00542
+info,registry,people,TD Cruickshank,c8d0314b
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,WD Sheridan,25d12bb4

@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2012/13
+info,date,2012/12/08
+info,event,Big Bash League
+info,venue,Sydney Cricket Ground
+info,city,
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,BJ Haddin
+info,umpire,AJ Barrow
+info,umpire,AP Ward
+info,tv_umpire,SD Fry
+info,match_referee,PL Marshall
+info,winner,Sydney Sixers
+info,winner_wickets,7
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,DA Warner
+info,player,Sydney Sixers,BJ Haddin
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,BMAJ Mendis
+info,player,Sydney Sixers,DJ Thornely
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,MA Starc
+info,player,Sydney Sixers,B Lee
+info,player,Sydney Sixers,LW Feldman
+info,player,Sydney Thunder,MJ Guptill
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,CJL Rogers
+info,player,Sydney Thunder,CJ Borgas
+info,player,Sydney Thunder,RJG Lockyear
+info,player,Sydney Thunder,RGL Carters
+info,player,Sydney Thunder,SA Abbott
+info,player,Sydney Thunder,DP Nannes
+info,player,Sydney Thunder,CP Tremain
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,LA Doran
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AP Ward,196a3809
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BJ Haddin,b0c772ee
+info,registry,people,BMAJ Mendis,9868bc75
+info,registry,people,CJ Borgas,d901964b
+info,registry,people,CJL Rogers,d8360178
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DJ Thornely,7d3937ed
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,LA Doran,f201593c
+info,registry,people,LW Feldman,da13a0fc
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Guptill,2be41edb
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,RGL Carters,f54c8804
+info,registry,people,RJG Lockyear,c8e7c983
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,UT Khawaja,331ea488

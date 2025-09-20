@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2015/16
+info,date,2015/12/19
+info,event,Big Bash League
+info,match_number,3
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,AJ Finch
+info,umpire,AJ Barrow
+info,umpire,SJ Nogajski
+info,reserve_umpire,BR Farrell
+info,tv_umpire,GC Joshua
+info,match_referee,PL Marshall
+info,winner,Melbourne Renegades
+info,winner_wickets,7
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,LMP Simmons
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,NJ Reardon
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JR Hopes
+info,player,Brisbane Heat,JK Lalor
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,S Badree
+info,player,Brisbane Heat,AL Fekete
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,CH Gayle
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,MS Wade
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,TM Beaton
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,GL Walker
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,CP Tremain
+info,player,Melbourne Renegades,XJ Doherty
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AL Fekete,029c4618
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BR Farrell,751a026b
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CL White,d0513f63
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GL Walker,78158fc6
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JR Hopes,2498e163
+info,registry,people,LMP Simmons,89f64c19
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MT Steketee,903560ed
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,S Badree,76388dc8
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TM Beaton,f0ec8597
+info,registry,people,XJ Doherty,502b2c81

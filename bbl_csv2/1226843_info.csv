@@ -1,0 +1,72 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Brisbane Heat
+info,gender,male
+info,season,2020/21
+info,date,2021/01/14
+info,event,Big Bash League
+info,match_number,39
+info,venue,Manuka Oval
+info,city,Canberra
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,JA Burns
+info,umpire,GA Abood
+info,umpire,GJ Davidson
+info,reserve_umpire,Andrew Crozier
+info,tv_umpire,AK Wilds
+info,match_referee,RW Stratford
+info,winner,Brisbane Heat
+info,winner_wickets,5
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,JA Prestwidge
+info,player,Melbourne Renegades,Imad Wasim
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,P Hatzoglou
+info,player,Melbourne Renegades,Noor Ahmad
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,JL Denly
+info,player,Brisbane Heat,L Gregory
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JD Wildermuth
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Brisbane Heat,M Morkel
+info,player,Brisbane Heat,XC Bartlett
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Wilds,de412f40
+info,registry,people,Andrew Crozier,00d07580
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,Imad Wasim,9cb8d7a6
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JA Prestwidge,5f317fd4
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JL Denly,bdadf7da
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,L Gregory,06c2de82
+info,registry,people,M Bryant,f32012f4
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Steketee,903560ed
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Noor Ahmad,efc04be7
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,RW Stratford,85489579
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,XC Bartlett,3b53243a

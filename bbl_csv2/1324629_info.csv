@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2022/23
+info,date,2022/12/17
+info,event,Big Bash League
+info,match_number,6
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,JA Richardson
+info,umpire,BNJ Oxenford
+info,umpire,SAJ Craig
+info,reserve_umpire,Ashlee Gibbons
+info,tv_umpire,PJ Gillespie
+info,match_referee,RL Parry
+info,winner,Perth Scorchers
+info,winner_runs,38
+info,player,Perth Scorchers,A Lyth
+info,player,Perth Scorchers,F du Plessis
+info,player,Perth Scorchers,NR Hobson
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,M Kelly
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Sydney Sixers,KR Patterson
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,JM Bird
+info,player,Sydney Sixers,Naveen-ul-Haq
+info,player,Sydney Sixers,Izharulhaq Naveed
+info,registry,people,A Lyth,70b8fd28
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,Ashlee Gibbons,b81712f7
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,F du Plessis,3355b542
+info,registry,people,H Kerr,f422728b
+info,registry,people,Izharulhaq Naveed,2cbdd22f
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JR Philippe,39086549
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,M Kelly,68e26ec9
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,Naveen-ul-Haq,c0c411cb
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SAJ Craig,689f2eed

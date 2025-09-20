@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Sixers
+info,gender,male
+info,season,2021/22
+info,date,2021/12/15
+info,event,Big Bash League
+info,match_number,13
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,JR Philippe
+info,umpire,BNJ Oxenford
+info,umpire,SAJ Craig
+info,reserve_umpire,Mattis van Eck
+info,tv_umpire,SA Lightbody
+info,match_referee,RL Parry
+info,winner,Sydney Sixers
+info,winner_wickets,7
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,AD Russell
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,Qais Ahmad
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,BL Couch
+info,player,Sydney Sixers,L Pope
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,CJ Jordan
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,H Kerr
+info,registry,people,A Zampa,14f96089
+info,registry,people,AD Russell,bbd41817
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BL Couch,be69e09d
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,H Kerr,f422728b
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,L Pope,616a8149
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,Mattis van Eck,bf1a68c1
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,Qais Ahmad,8d5d991e
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,TK Curran,e86754b2

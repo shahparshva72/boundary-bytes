@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2014/15
+info,date,2014/12/18
+info,event,Big Bash League
+info,venue,Adelaide Oval
+info,city,
+info,toss_winner,Melbourne Stars
+info,toss_decision,bat
+info,player_of_match,TP Ludeman
+info,umpire,MW Graham-Smith
+info,umpire,JD Ward
+info,tv_umpire,SJ Nogajski
+info,match_referee,DJ Harper
+info,winner,Adelaide Strikers
+info,winner_wickets,8
+info,player,Adelaide Strikers,CJ Simmons
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,BJ Hodge
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,KA Pollard
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,AI Ross
+info,player,Adelaide Strikers,J Botha
+info,player,Adelaide Strikers,SW Tait
+info,player,Adelaide Strikers,A Zampa
+info,player,Melbourne Stars,CL White
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,TIF Triffitt
+info,player,Melbourne Stars,CA Rose
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,JM Bird
+info,player,Melbourne Stars,MA Beer
+info,registry,people,A Zampa,14f96089
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CA Rose,7517d134
+info,registry,people,CJ Simmons,0095ce38
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HP Kingston,c89e4c9f
+info,registry,people,J Botha,7c503806
+info,registry,people,JD Ward,511299c1
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JW Hastings,012829ff
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SW Tait,addfb70e
+info,registry,people,TIF Triffitt,593513d5
+info,registry,people,TM Head,12b610c2
+info,registry,people,TP Ludeman,c3f7898b

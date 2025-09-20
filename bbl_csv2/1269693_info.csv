@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2021/22
+info,date,2022/01/19
+info,event,Big Bash League
+info,match_number,56
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,GJ Maxwell
+info,umpire,DM Koch
+info,umpire,GA Abood
+info,reserve_umpire,D Brigham
+info,tv_umpire,BC Treloar
+info,match_referee,RW Stratford
+info,winner,Melbourne Stars
+info,winner_runs,106
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,CD Hinchliffe
+info,player,Melbourne Stars,TL O'Connell
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,SM Elliott
+info,player,Melbourne Stars,BL Couch
+info,player,Hobart Hurricanes,W Sanders
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,JA Thompson
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,MJ Owen
+info,player,Hobart Hurricanes,J Kann
+info,player,Hobart Hurricanes,W Parker
+info,player,Hobart Hurricanes,S Lamichhane
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BL Couch,be69e09d
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,D Brigham,464daf41
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DM Koch,6d10c034
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,J Kann,cccea5bc
+info,registry,people,JA Thompson,1d2f290a
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,MJ Owen,f2c936d7
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RW Stratford,85489579
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SM Elliott,00cda8e4
+info,registry,people,TH David,f1f99156
+info,registry,people,TL O'Connell,859d95bb
+info,registry,people,W Parker,607c846c
+info,registry,people,W Sanders,068fe71c

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Perth Scorchers
+info,gender,male
+info,season,2014/15
+info,date,2015/01/11
+info,event,Big Bash League
+info,venue,Bellerive Oval
+info,city,Hobart
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,JP Behrendorff
+info,umpire,AJ Barrow
+info,umpire,MW Graham-Smith
+info,reserve_umpire,H Wolff
+info,tv_umpire,SJ Nogajski
+info,match_referee,RW Stratford
+info,winner,Perth Scorchers
+info,winner_runs,18
+info,player,Hobart Hurricanes,BR Dunk
+info,player,Hobart Hurricanes,TD Paine
+info,player,Hobart Hurricanes,MW Hill
+info,player,Hobart Hurricanes,Shoaib Malik
+info,player,Hobart Hurricanes,GJ Bailey
+info,player,Hobart Hurricanes,JW Wells
+info,player,Hobart Hurricanes,TT Bresnan
+info,player,Hobart Hurricanes,BW Hilfenhaus
+info,player,Hobart Hurricanes,CJ Boyce
+info,player,Hobart Hurricanes,XJ Doherty
+info,player,Hobart Hurricanes,JK Reed
+info,player,Perth Scorchers,MS Harris
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,MA Carberry
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,Yasir Arafat
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,GB Hogg
+info,registry,people,AC Agar,a2421394
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,BR Dunk,272d796e
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,H Wolff,e44c17f1
+info,registry,people,JK Reed,a8ad6e80
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JW Wells,8bdac857
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MA Carberry,8305580c
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,MW Hill,1952e660
+info,registry,people,RW Stratford,85489579
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,Shoaib Malik,64c34cd0
+info,registry,people,TD Paine,5748e866
+info,registry,people,TT Bresnan,58043739
+info,registry,people,XJ Doherty,502b2c81
+info,registry,people,Yasir Arafat,3cf5ae43

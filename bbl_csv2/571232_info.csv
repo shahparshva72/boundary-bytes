@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Melbourne Stars
+info,gender,male
+info,season,2012/13
+info,date,2012/12/07
+info,event,Big Bash League
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Melbourne Stars
+info,toss_decision,bat
+info,player_of_match,AJ Finch
+info,umpire,SD Fry
+info,umpire,PR Reiffel
+info,tv_umpire,JD Ward
+info,match_referee,RW Stratford
+info,winner,Melbourne Renegades
+info,winner_wickets,8
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,DJ Harris
+info,player,Melbourne Renegades,F du Plessis
+info,player,Melbourne Renegades,BJ Rohrer
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,PM Nevill
+info,player,Melbourne Renegades,WD Sheridan
+info,player,Melbourne Renegades,AW O'Brien
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,DJ Pattinson
+info,player,Melbourne Renegades,M Muralitharan
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,BJ Hodge
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,CL White
+info,player,Melbourne Stars,MS Wade
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,SK Warne
+info,player,Melbourne Stars,CJ McKay
+info,player,Melbourne Stars,SL Malinga
+info,player,Melbourne Stars,JM Bird
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AW O'Brien,d29be810
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CJ McKay,94eac556
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Harris,39f82db3
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DJ Pattinson,3fe2db87
+info,registry,people,F du Plessis,3355b542
+info,registry,people,JD Ward,511299c1
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,RW Stratford,85489579
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SK Warne,bb18be76
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,WD Sheridan,25d12bb4

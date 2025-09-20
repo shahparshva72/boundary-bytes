@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Perth Scorchers
+info,gender,male
+info,season,2018/19
+info,date,2019/01/09
+info,event,Big Bash League
+info,match_number,25
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Perth Scorchers
+info,toss_decision,field
+info,player_of_match,AJ Tye
+info,umpire,SD Fry
+info,umpire,SJ Nogajski
+info,reserve_umpire,D Brigham
+info,tv_umpire,PJ Gillespie
+info,match_referee,D Talalla
+info,winner,Perth Scorchers
+info,winner_wickets,6
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,NJ Maddinson
+info,player,Melbourne Stars,SE Gotch
+info,player,Melbourne Stars,DJ Bravo
+info,player,Melbourne Stars,J Merlo
+info,player,Melbourne Stars,LE Plunkett
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,MA Beer
+info,player,Melbourne Stars,L Bowe
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,HWR Cartwright
+info,player,Perth Scorchers,WG Bosisto
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,DJ Willey
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,Usman Qadir
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,D Brigham,464daf41
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Willey,7f048519
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,J Merlo,02ba80a0
+info,registry,people,L Bowe,a5b71472
+info,registry,people,LE Plunkett,9a963804
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SE Gotch,9a0e4ca5
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SM Boland,d167edd3
+info,registry,people,Usman Qadir,33742f04
+info,registry,people,WG Bosisto,04ef663a

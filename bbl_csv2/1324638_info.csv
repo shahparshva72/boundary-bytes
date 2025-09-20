@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Sixers
+info,gender,male
+info,season,2022/23
+info,date,2022/12/26
+info,event,Big Bash League
+info,match_number,15
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,MC Henriques
+info,umpire,BC Treloar
+info,umpire,GJ Davidson
+info,reserve_umpire,D Taylor
+info,tv_umpire,CA Polosak
+info,match_referee,Dave Gilbert
+info,winner,Sydney Sixers
+info,winner_wickets,7
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,J Seymour
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,C Kellaway
+info,player,Melbourne Stars,L Wood
+info,player,Melbourne Stars,LC Hatcher
+info,player,Melbourne Stars,TA Boult
+info,player,Melbourne Stars,A Zampa
+info,player,Sydney Sixers,KR Patterson
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,JM Bird
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,Izharulhaq Naveed
+info,registry,people,A Zampa,14f96089
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,C Kellaway,60c28835
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,Dave Gilbert,aa782370
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,H Kerr,f422728b
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Izharulhaq Naveed,2cbdd22f
+info,registry,people,J Seymour,cb54a1d6
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,L Wood,65b6943c
+info,registry,people,LC Hatcher,8f3fde65
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,TA Boult,a818c1be
+info,registry,people,TF Rogers,7f232d46

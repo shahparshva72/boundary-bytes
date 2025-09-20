@@ -1,0 +1,72 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Sydney Sixers
+info,gender,male
+info,season,2020/21
+info,date,2021/01/24
+info,event,Big Bash League
+info,match_number,52
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,MS Wade
+info,umpire,DR Close
+info,umpire,SAJ Craig
+info,reserve_umpire,D Taylor
+info,tv_umpire,CA Polosak
+info,match_referee,Kent Hannam
+info,winner,Hobart Hurricanes
+info,winner_runs,7
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,DJ Malan
+info,player,Hobart Hurricanes,WG Jacks
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,NP Winter
+info,player,Hobart Hurricanes,SM Boland
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,S Lamichhane
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,CR Brathwaite
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,BAD Manenti
+info,player,Sydney Sixers,JT Ball
+info,registry,people,BAD Manenti,ab21795b
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DJ Malan,ad9c32a2
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,JT Ball,3d0ed2f9
+info,registry,people,Kent Hannam,8cc171e7
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NP Winter,6c87f1df
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TH David,f1f99156
+info,registry,people,WG Jacks,9caf69a1

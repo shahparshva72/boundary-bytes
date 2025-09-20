@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2019/20
+info,date,2020/01/08
+info,event,Big Bash League
+info,match_number,27
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,TK Curran
+info,umpire,SD Fry
+info,umpire,MW Graham-Smith
+info,reserve_umpire,Harsimran Singh
+info,tv_umpire,BC Treloar
+info,match_referee,DJ Harper
+info,winner,Sydney Sixers
+info,winner_wickets,2
+info,player,Adelaide Strikers,PD Salt
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,C Valente
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,HNA Conway
+info,player,Adelaide Strikers,B Stanlake
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,J Avendano
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,JM Bird
+info,player,Sydney Sixers,JR Hazlewood
+info,player,Sydney Sixers,L Pope
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,C Valente,137e7065
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,HNA Conway,272fc5ad
+info,registry,people,Harsimran Singh,bf4720ce
+info,registry,people,J Avendano,0af4a90b
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,JR Philippe,39086549
+info,registry,people,JW Wells,8bdac857
+info,registry,people,L Pope,616a8149
+info,registry,people,MG Neser,0164b064
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,MW Short,a90e53ec
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,TK Curran,e86754b2

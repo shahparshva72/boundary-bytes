@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Perth Scorchers
+info,gender,male
+info,season,2016/17
+info,date,2016/12/27
+info,event,Big Bash League
+info,match_number,7
+info,venue,Sydney Cricket Ground
+info,city,
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,J Botha
+info,umpire,SD Fry
+info,umpire,MW Graham-Smith
+info,reserve_umpire,AK Wilds
+info,tv_umpire,GA Abood
+info,match_referee,DJ Harper
+info,winner,Sydney Sixers
+info,winner_wickets,6
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,IR Bell
+info,player,Perth Scorchers,DJ Willey
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Sydney Sixers,SW Billings
+info,player,Sydney Sixers,BJ Haddin
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,RGL Carters
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,DE Bollinger
+info,player,Sydney Sixers,WER Somerville
+info,registry,people,AC Agar,a2421394
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BJ Haddin,b0c772ee
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Willey,7f048519
+info,registry,people,GA Abood,a4af5528
+info,registry,people,IR Bell,33155d1b
+info,registry,people,J Botha,7c503806
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,RGL Carters,f54c8804
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SW Billings,c16d4035
+info,registry,people,WER Somerville,74a1c1e3

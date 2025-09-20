@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2016/17
+info,date,2017/01/18
+info,event,Big Bash League
+info,match_number,29
+info,venue,Sydney Showground Stadium
+info,city,
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,IS Sodhi
+info,umpire,AJ Barrow
+info,umpire,MD Martell
+info,reserve_umpire,CA Polosak
+info,tv_umpire,GJ Davidson
+info,match_referee,RW Stratford
+info,winner,Adelaide Strikers
+info,winner_runs,77
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,BR Dunk
+info,player,Adelaide Strikers,BJ Hodge
+info,player,Adelaide Strikers,KA Pollard
+info,player,Adelaide Strikers,JS Lehmann
+info,player,Adelaide Strikers,JR Dean
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,IS Sodhi
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,LN O'Connor
+info,player,Sydney Thunder,KR Patterson
+info,player,Sydney Thunder,JM Vince
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,BJ Rohrer
+info,player,Sydney Thunder,CR Brathwaite
+info,player,Sydney Thunder,RJ Gibson
+info,player,Sydney Thunder,JS Lenton
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,AJ Nair
+info,player,Sydney Thunder,CJ McKay
+info,player,Sydney Thunder,Fawad Ahmed
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AJ Nair,4ba2c04d
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CJ McKay,94eac556
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,IS Sodhi,641ac5ff
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Dean,97188292
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,JS Lenton,8820c9ef
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,LN O'Connor,5456bd0c
+info,registry,people,MD Martell,487c072e
+info,registry,people,MG Neser,0164b064
+info,registry,people,RJ Gibson,50636767
+info,registry,people,RW Stratford,85489579
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,TP Ludeman,c3f7898b

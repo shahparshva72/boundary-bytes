@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2023/24
+info,date,2024/01/13
+info,event,Big Bash League
+info,match_number,35
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,NR Hobson
+info,umpire,BNJ Oxenford
+info,umpire,NR Johnstone
+info,reserve_umpire,J Thomas
+info,tv_umpire,Troy Penman
+info,match_referee,RW Stratford
+info,winner,Perth Scorchers
+info,winner_runs,35
+info,player,Perth Scorchers,SS Eskinazi
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,LJ Evans
+info,player,Perth Scorchers,C Connolly
+info,player,Perth Scorchers,NR Hobson
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,LR Morris
+info,player,Brisbane Heat,J Brown
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,NA McSweeney
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,PI Walter
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,SH Johnson
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,MP Kuhnemann
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Connolly,fe366f34
+info,registry,people,J Brown,647e7d44
+info,registry,people,J Thomas,118c3b91
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,LJ Evans,1c513d54
+info,registry,people,LR Morris,b08e58e2
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,NA McSweeney,e94d2d50
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,PI Walter,57590dbb
+info,registry,people,RW Stratford,85489579
+info,registry,people,SH Johnson,83c3e8e3
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,SS Eskinazi,75cbed9b
+info,registry,people,Troy Penman,0aa42c26
+info,registry,people,XC Bartlett,3b53243a

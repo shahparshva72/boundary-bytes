@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Perth Scorchers
+info,gender,male
+info,season,2012/13
+info,date,2013/01/10
+info,event,Big Bash League
+info,venue,Adelaide Oval
+info,city,
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,SE Marsh
+info,umpire,MD Martell
+info,umpire,P Wilson
+info,tv_umpire,SJ Nogajski
+info,match_referee,DJ Burns
+info,winner,Perth Scorchers
+info,winner_runs,98
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,M Klinger
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,CJ Ferguson
+info,player,Adelaide Strikers,NJ Reardon
+info,player,Adelaide Strikers,J Botha
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,CJ Boyce
+info,player,Adelaide Strikers,NM Lyon
+info,player,Adelaide Strikers,BE Young
+info,player,Adelaide Strikers,SW Tait
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,HH Gibbs
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,TIF Triffitt
+info,player,Perth Scorchers,MJ North
+info,player,Perth Scorchers,SM Katich
+info,player,Perth Scorchers,AC Thomas
+info,player,Perth Scorchers,GB Hogg
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,MA Beer
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AC Voges,864c199e
+info,registry,people,BE Young,278fd5ff
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,DJ Burns,49d422bf
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,J Botha,7c503806
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MD Martell,487c072e
+info,registry,people,MJ North,99464591
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,P Wilson,68304a36
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,SW Tait,addfb70e
+info,registry,people,TIF Triffitt,593513d5
+info,registry,people,TM Head,12b610c2
+info,registry,people,TP Ludeman,c3f7898b

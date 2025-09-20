@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2019/20
+info,date,2019/12/28
+info,event,Big Bash League
+info,match_number,14
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,TK Curran
+info,umpire,AK Wilds
+info,umpire,MW Graham-Smith
+info,reserve_umpire,Troy Penman
+info,tv_umpire,SA Lightbody
+info,match_referee,RL Parry
+info,outcome,tie
+info,eliminator,Sydney Sixers
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,CH Morris
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,AJ Nair
+info,player,Sydney Thunder,CP Tremain
+info,player,Sydney Thunder,JD Cook
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,L Pope
+info,player,Sydney Sixers,JM Bird
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Nair,4ba2c04d
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,H Kerr,f422728b
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JD Cook,45f56920
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JR Philippe,39086549
+info,registry,people,L Pope,616a8149
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,TK Curran,e86754b2
+info,registry,people,Troy Penman,0aa42c26
+info,registry,people,UT Khawaja,331ea488

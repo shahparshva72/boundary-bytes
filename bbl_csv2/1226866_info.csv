@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Sydney Thunder
+info,gender,male
+info,season,2020/21
+info,date,2020/12/14
+info,event,Big Bash League
+info,match_number,7
+info,venue,Manuka Oval
+info,city,Canberra
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,DR Sams
+info,umpire,GJ Davidson
+info,umpire,SAJ Craig
+info,reserve_umpire,BC Treloar
+info,tv_umpire,PJ Gillespie
+info,match_referee,RL Parry
+info,winner,Sydney Thunder
+info,winner_wickets,4
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,DW Lawrence
+info,player,Brisbane Heat,TLW Cooper
+info,player,Brisbane Heat,JD Wildermuth
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Brisbane Heat,B Laughlin
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,BJ Holt
+info,player,Sydney Thunder,BCJ Cutting
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,JD Cook
+info,player,Sydney Thunder,T Sangha
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Holt,f05d1564
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,DW Lawrence,4b685e2d
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,JD Cook,45f56920
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Steketee,903560ed
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,T Sangha,52c952d9
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,UT Khawaja,331ea488

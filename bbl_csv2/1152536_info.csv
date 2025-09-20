@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2018/19
+info,date,2019/01/10
+info,event,Big Bash League
+info,match_number,26
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,SB Harper
+info,umpire,GC Joshua
+info,umpire,SA Lightbody
+info,reserve_umpire,Steven Farrell
+info,tv_umpire,DM Koch
+info,match_referee,PL Marshall
+info,winner,Melbourne Renegades
+info,winner_wickets,8
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,JL Pattinson
+info,player,Brisbane Heat,B Doggett
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,DT Christian
+info,player,Melbourne Renegades,JD Wildermuth
+info,player,Melbourne Renegades,CJ Boyce
+info,player,Melbourne Renegades,JM Mennie
+info,player,Melbourne Renegades,Usman Shinwari
+info,registry,people,B Doggett,898e628d
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,DM Koch,6d10c034
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,JM Mennie,f048bb41
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SB Harper,a756e61a
+info,registry,people,Steven Farrell,512226fb
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,Usman Shinwari,f0e722e0

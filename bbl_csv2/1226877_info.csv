@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Sydney Sixers
+info,gender,male
+info,season,2020/21
+info,date,2020/12/29
+info,event,Big Bash League
+info,match_number,18
+info,venue,Carrara Oval
+info,city,Carrara
+info,toss_winner,Melbourne Renegades
+info,toss_decision,bat
+info,player_of_match,JO Holder
+info,umpire,PJ Gillespie
+info,umpire,AK Wilds
+info,reserve_umpire,Steven Farrell
+info,tv_umpire,D Taylor
+info,match_referee,Kepler Wessels
+info,winner,Sydney Sixers
+info,winner_wickets,2
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,SE Marsh
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,RR Rossouw
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,Imad Wasim
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,Z Evans
+info,player,Melbourne Renegades,P Hatzoglou
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,JO Holder
+info,player,Sydney Sixers,CR Brathwaite
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,BAD Manenti
+info,player,Sydney Sixers,SNJ O'Keefe
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BAD Manenti,ab21795b
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,Imad Wasim,9cb8d7a6
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JO Holder,0f721006
+info,registry,people,JR Philippe,39086549
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,Kepler Wessels,3bedaff0
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,RR Rossouw,cad00a4d
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,Steven Farrell,512226fb
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,Z Evans,8528effb

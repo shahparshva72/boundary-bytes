@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Sydney Thunder
+info,gender,male
+info,season,2019/20
+info,date,2020/01/30
+info,event,Big Bash League
+info,venue,Bellerive Oval
+info,city,Hobart
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,JD Cook
+info,umpire,P Wilson
+info,umpire,SAJ Craig
+info,reserve_umpire,GC Joshua
+info,tv_umpire,JD Ward
+info,match_referee,RL Parry
+info,winner,Sydney Thunder
+info,winner_runs,57
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,CH Morris
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,AJ Nair
+info,player,Sydney Thunder,JS Lenton
+info,player,Sydney Thunder,JD Cook
+info,player,Sydney Thunder,CP Tremain
+info,player,Sydney Thunder,B Doggett
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,M Wright
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,GJ Bailey
+info,player,Hobart Hurricanes,S Milenko
+info,player,Hobart Hurricanes,CA Rose
+info,player,Hobart Hurricanes,JP Faulkner
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,Qais Ahmad
+info,player,Hobart Hurricanes,SM Boland
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Nair,4ba2c04d
+info,registry,people,B Doggett,898e628d
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CA Rose,7517d134
+info,registry,people,CH Morris,fb66ce1f
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,JD Cook,45f56920
+info,registry,people,JD Ward,511299c1
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JS Lenton,8820c9ef
+info,registry,people,M Wright,bd920a2c
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,P Wilson,68304a36
+info,registry,people,Qais Ahmad,8d5d991e
+info,registry,people,RL Parry,86d151dc
+info,registry,people,S Milenko,479f9b04
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SM Boland,d167edd3
+info,registry,people,UT Khawaja,331ea488

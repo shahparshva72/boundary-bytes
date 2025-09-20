@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2015/16
+info,date,2016/01/11
+info,event,Big Bash League
+info,match_number,27
+info,venue,Sydney Showground Stadium
+info,city,
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,CL White
+info,umpire,GA Abood
+info,umpire,SAJ Craig
+info,reserve_umpire,CA Polosak
+info,tv_umpire,GJ Davidson
+info,match_referee,PL Marshall
+info,winner,Melbourne Renegades
+info,winner_wickets,5
+info,player,Melbourne Renegades,CH Gayle
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,TM Beaton
+info,player,Melbourne Renegades,PM Nevill
+info,player,Melbourne Renegades,BR McDermott
+info,player,Melbourne Renegades,CJ Gannon
+info,player,Melbourne Renegades,CP Tremain
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,XJ Doherty
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,JH Kallis
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,AD Russell
+info,player,Sydney Thunder,MEK Hussey
+info,player,Sydney Thunder,BJ Rohrer
+info,player,Sydney Thunder,AC Blizzard
+info,player,Sydney Thunder,CD Hartley
+info,player,Sydney Thunder,CJ McKay
+info,player,Sydney Thunder,Fawad Ahmed
+info,player,Sydney Thunder,GS Sandhu
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AD Russell,bbd41817
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,CD Hartley,9a06679d
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Gannon,519c30cb
+info,registry,people,CJ McKay,94eac556
+info,registry,people,CL White,d0513f63
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TM Beaton,f0ec8597
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,XJ Doherty,502b2c81

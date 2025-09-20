@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Perth Scorchers
+info,gender,male
+info,season,2023/24
+info,date,2024/01/10
+info,event,Big Bash League
+info,match_number,32
+info,venue,"Brisbane Cricket Ground, Woolloongabba, Brisbane"
+info,city,Brisbane
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,MG Neser
+info,umpire,D Taylor
+info,umpire,GJ Davidson
+info,reserve_umpire,SE Dionysius
+info,tv_umpire,P Wilson
+info,match_referee,Kepler Wessels
+info,winner,Brisbane Heat
+info,winner_runs,23
+info,player,Brisbane Heat,UT Khawaja
+info,player,Brisbane Heat,C Munro
+info,player,Brisbane Heat,M Labuschagne
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,SW Billings
+info,player,Brisbane Heat,PI Walter
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,SH Johnson
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Perth Scorchers,Z Crawley
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,LJ Evans
+info,player,Perth Scorchers,C Connolly
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,H McKenzie
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,LR Morris
+info,registry,people,AC Agar,a2421394
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,C Connolly,fe366f34
+info,registry,people,C Munro,af2c687b
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,H McKenzie,5222f5fa
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,Kepler Wessels,3bedaff0
+info,registry,people,LJ Evans,1c513d54
+info,registry,people,LR Morris,b08e58e2
+info,registry,people,M Labuschagne,fa433be6
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,P Wilson,68304a36
+info,registry,people,PI Walter,57590dbb
+info,registry,people,SE Dionysius,ac886e6f
+info,registry,people,SH Johnson,83c3e8e3
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,SW Billings,c16d4035
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,XC Bartlett,3b53243a
+info,registry,people,Z Crawley,922e1b19

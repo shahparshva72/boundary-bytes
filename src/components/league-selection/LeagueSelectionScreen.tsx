@@ -68,7 +68,7 @@ const LeagueSelectionScreen: React.FC<LeagueSelectionScreenProps> = ({
       </motion.div>
 
       {/* League Cards Container */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 w-full max-w-4xl">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 w-full max-w-6xl">
         <LeagueCard
           league="WPL"
           config={LEAGUE_CONFIGS.WPL}
@@ -80,6 +80,12 @@ const LeagueSelectionScreen: React.FC<LeagueSelectionScreenProps> = ({
           config={LEAGUE_CONFIGS.IPL}
           onSelect={() => onLeagueSelect('IPL')}
           delay={0.35}
+        />
+        <LeagueCard
+          league="BBL"
+          config={LEAGUE_CONFIGS.BBL}
+          onSelect={() => onLeagueSelect('BBL')}
+          delay={0.5}
         />
       </div>
 

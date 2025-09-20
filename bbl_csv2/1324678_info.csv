@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Brisbane Heat
+info,gender,male
+info,season,2022/23
+info,date,2023/01/25
+info,event,Big Bash League
+info,match_number,55
+info,venue,"University of Tasmania Stadium, Launceston"
+info,city,Launceston
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,NT Ellis
+info,umpire,DM Koch
+info,umpire,SJ Nogajski
+info,reserve_umpire,TJ Matibiri
+info,tv_umpire,P Wilson
+info,match_referee,SJ Davis
+info,winner,Hobart Hurricanes
+info,winner_runs,2
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,Z Crawley
+info,player,Hobart Hurricanes,M Wright
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,Faheem Ashraf
+info,player,Hobart Hurricanes,JS Paris
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,W Parker
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Brisbane Heat,UT Khawaja
+info,player,Brisbane Heat,J Brown
+info,player,Brisbane Heat,M Labuschagne
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,SR Hain
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Brisbane Heat,SH Johnson
+info,player,Brisbane Heat,MJ Swepson
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,DM Koch,6d10c034
+info,registry,people,Faheem Ashraf,bd4ea627
+info,registry,people,J Brown,647e7d44
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,M Labuschagne,fa433be6
+info,registry,people,M Wright,bd920a2c
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,P Wilson,68304a36
+info,registry,people,RP Meredith,64775749
+info,registry,people,SH Johnson,83c3e8e3
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SR Hain,67b9536c
+info,registry,people,TH David,f1f99156
+info,registry,people,TJ Matibiri,4a3132b1
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,W Parker,607c846c
+info,registry,people,Z Crawley,922e1b19

@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2013/14
+info,date,2014/01/07
+info,event,Big Bash League
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,NM Coulter-Nile
+info,umpire,IH Lock
+info,umpire,JD Ward
+info,reserve_umpire,NR Johnstone
+info,tv_umpire,DB Mealey
+info,match_referee,DJ Harper
+info,winner,Perth Scorchers
+info,winner_runs,6
+info,player,Hobart Hurricanes,BR Dunk
+info,player,Hobart Hurricanes,TD Paine
+info,player,Hobart Hurricanes,TR Birt
+info,player,Hobart Hurricanes,Shoaib Malik
+info,player,Hobart Hurricanes,OA Shah
+info,player,Hobart Hurricanes,JW Wells
+info,player,Hobart Hurricanes,AC Blizzard
+info,player,Hobart Hurricanes,B Laughlin
+info,player,Hobart Hurricanes,BW Hilfenhaus
+info,player,Hobart Hurricanes,XJ Doherty
+info,player,Hobart Hurricanes,DE Bollinger
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,SM Katich
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,CJ Simmons
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,Yasir Arafat
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,GB Hogg
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BR Dunk,272d796e
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,CJ Simmons,0095ce38
+info,registry,people,DB Mealey,2199afd4
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,IH Lock,a1b1e3c2
+info,registry,people,JD Ward,511299c1
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JW Wells,8bdac857
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,OA Shah,7bf96684
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,Shoaib Malik,64c34cd0
+info,registry,people,TD Paine,5748e866
+info,registry,people,TR Birt,d2d4bb0a
+info,registry,people,XJ Doherty,502b2c81
+info,registry,people,Yasir Arafat,3cf5ae43

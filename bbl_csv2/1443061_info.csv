@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2024/25
+info,date,2024/12/19
+info,event,Big Bash League
+info,match_number,5
+info,venue,"GMHBA Stadium, South Geelong, Victoria"
+info,city,Geelong
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,TS Rogers
+info,umpire,CA Polosak
+info,umpire,PJ Gillespie
+info,reserve_umpire,C Grant
+info,tv_umpire,SAJ Craig
+info,match_referee,Kent Hannam
+info,winner,Melbourne Renegades
+info,winner_wickets,6
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,MJ Owen
+info,player,Hobart Hurricanes,SD Hope
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,Nikhil Chaudhary
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,CJ Jordan
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,B Stanlake
+info,player,Hobart Hurricanes,Waqar Salamkheil
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,J Brown
+info,player,Melbourne Renegades,TL Seifert
+info,player,Melbourne Renegades,JG Bethell
+info,player,Melbourne Renegades,LJ Evans
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,F O'Neill
+info,player,Melbourne Renegades,TS Rogers
+info,player,Melbourne Renegades,A Zampa
+info,player,Melbourne Renegades,KW Richardson
+info,registry,people,A Zampa,14f96089
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,C Grant,876ed858
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,F O'Neill,39d608d4
+info,registry,people,J Brown,647e7d44
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,JG Bethell,3c55c703
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,Kent Hannam,8cc171e7
+info,registry,people,LJ Evans,1c513d54
+info,registry,people,MJ Owen,f2c936d7
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,Nikhil Chaudhary,1f84183a
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,RP Meredith,64775749
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SD Hope,1fc6ef83
+info,registry,people,TH David,f1f99156
+info,registry,people,TL Seifert,4663bd23
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,Waqar Salamkheil,3f1066d0

@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Sydney Sixers
+info,gender,male
+info,season,2012/13
+info,date,2013/01/07
+info,event,Big Bash League
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,MJ Lumb
+info,umpire,DB Mealey
+info,umpire,BNJ Oxenford
+info,tv_umpire,GA Abood
+info,match_referee,D Levens
+info,winner,Sydney Sixers
+info,winner_wickets,5
+info,player,Brisbane Heat,JR Hopes
+info,player,Brisbane Heat,LA Pomersbach
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,DT Christian
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,PJ Forrest
+info,player,Brisbane Heat,CD Hartley
+info,player,Brisbane Heat,NM Hauritz
+info,player,Brisbane Heat,KAJ Roach
+info,player,Brisbane Heat,AC McDermott
+info,player,Sydney Sixers,BJ Haddin
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,B Lee
+info,player,Sydney Sixers,SMSM Senanayake
+info,player,Sydney Sixers,JR Hazlewood
+info,player,Sydney Sixers,LW Feldman
+info,registry,people,AC McDermott,956887b2
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Haddin,b0c772ee
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CD Hartley,9a06679d
+info,registry,people,D Levens,8fc718ea
+info,registry,people,DB Mealey,2199afd4
+info,registry,people,DLR Smith,0c5c3a87
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GA Abood,a4af5528
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,JR Hopes,2498e163
+info,registry,people,KAJ Roach,78eb4223
+info,registry,people,LA Pomersbach,b63ab531
+info,registry,people,LW Feldman,da13a0fc
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Hauritz,8ea6e670
+info,registry,people,PJ Forrest,56c205b7
+info,registry,people,SMSM Senanayake,4c4fa80b
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SPD Smith,30a45b23

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2017/18
+info,date,2018/01/13
+info,event,Big Bash League
+info,match_number,28
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,CJ Green
+info,umpire,GJ Davidson
+info,umpire,SA Lightbody
+info,reserve_umpire,Troy Penman
+info,tv_umpire,CA Polosak
+info,match_referee,PL Marshall
+info,winner,Sydney Sixers
+info,winner_wickets,8
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,JM Vince
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,AJ Nair
+info,player,Sydney Thunder,BJ Rohrer
+info,player,Sydney Thunder,JS Lenton
+info,player,Sydney Thunder,MJ McClenaghan
+info,player,Sydney Thunder,Fawad Ahmed
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Sixers,JL Denly
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,CR Brathwaite
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,PM Nevill
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,NM Lyon
+info,registry,people,AJ Nair,4ba2c04d
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,J Botha,7c503806
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JL Denly,bdadf7da
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JS Lenton,8820c9ef
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,Troy Penman,0aa42c26
+info,registry,people,UT Khawaja,331ea488

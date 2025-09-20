@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Sydney Thunder
+info,gender,male
+info,season,2018/19
+info,date,2019/01/30
+info,event,Big Bash League
+info,match_number,46
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,bat
+info,player_of_match,CJ Boyce
+info,umpire,PJ Gillespie
+info,umpire,GC Joshua
+info,reserve_umpire,D Brigham
+info,tv_umpire,DJ Shepard
+info,match_referee,D Talalla
+info,winner,Melbourne Renegades
+info,winner_runs,27
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,DT Christian
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,CJ Boyce
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,HF Gurney
+info,player,Melbourne Renegades,CP Tremain
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,JJS Sangha
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,AP Devcich
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,BJ Holt
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,CJ Jordan
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,JD Cook
+info,player,Sydney Thunder,Fawad Ahmed
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AP Devcich,ed90abe4
+info,registry,people,BJ Holt,f05d1564
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CP Tremain,96824e68
+info,registry,people,D Brigham,464daf41
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DJ Shepard,d3533ba5
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,HF Gurney,e412cb64
+info,registry,people,JD Cook,45f56920
+info,registry,people,JJS Sangha,8e3cb0e9
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,TLW Cooper,2318ba22

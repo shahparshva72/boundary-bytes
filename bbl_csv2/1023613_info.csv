@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2016/17
+info,date,2017/01/05
+info,event,Big Bash League
+info,match_number,17
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,CA Lynn
+info,umpire,PJ Gillespie
+info,umpire,JD Ward
+info,reserve_umpire,J Hewitt
+info,tv_umpire,SA Lightbody
+info,match_referee,PL Marshall
+info,winner,Brisbane Heat
+info,winner_wickets,9
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,AI Ross
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,NJ Reardon
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JD Wildermuth
+info,player,Brisbane Heat,ND Buchanan
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MJ Swepson
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,IR Bell
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,DJ Willey
+info,player,Perth Scorchers,MG Johnson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JA Richardson
+info,registry,people,AC Agar,a2421394
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,DJ Willey,7f048519
+info,registry,people,IR Bell,33155d1b
+info,registry,people,J Hewitt,bfe1c25f
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JD Ward,511299c1
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MT Steketee,903560ed
+info,registry,people,ND Buchanan,9a211e08
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SM Whiteman,f4427cc6

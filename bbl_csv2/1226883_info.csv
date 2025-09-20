@@ -1,0 +1,73 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2020/21
+info,date,2021/01/29
+info,event,Big Bash League
+info,venue,Brisbane Cricket Ground
+info,city,Brisbane
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,JJ Peirson
+info,umpire,DM Koch
+info,umpire,MW Graham-Smith
+info,reserve_umpire,AK Wilds
+info,tv_umpire,PJ Gillespie
+info,match_referee,SJ Davis
+info,winner,Brisbane Heat
+info,winner_wickets,6
+info,player,Adelaide Strikers,DJ Worrall
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,PD Salt
+info,player,Adelaide Strikers,MT Renshaw
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,DR Briggs
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,LN O'Connor
+info,player,Adelaide Strikers,PM Siddle
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,JL Denly
+info,player,Brisbane Heat,M Labuschagne
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,L Gregory
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,B Laughlin
+info,player,Brisbane Heat,M Morkel
+info,registry,people,AK Wilds,de412f40
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,DM Koch,6d10c034
+info,registry,people,DR Briggs,f3abd0c9
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JL Denly,bdadf7da
+info,registry,people,JW Wells,8bdac857
+info,registry,people,L Gregory,06c2de82
+info,registry,people,LN O'Connor,5456bd0c
+info,registry,people,M Labuschagne,fa433be6
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MT Steketee,903560ed
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,PD Salt,3d284ca3
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,TM Head,12b610c2
+info,registry,people,WA Agar,15de1f5d
+info,registry,people,XC Bartlett,3b53243a

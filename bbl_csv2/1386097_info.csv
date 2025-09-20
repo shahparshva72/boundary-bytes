@@ -1,0 +1,66 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2023/24
+info,date,2023/12/10
+info,event,Big Bash League
+info,match_number,4
+info,venue,"GMHBA Stadium, South Geelong, Victoria"
+info,city,Geelong
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,umpire,BC Treloar
+info,umpire,SA Lightbody
+info,reserve_umpire,C Grant
+info,match_referee,Kent Hannam
+info,outcome,no result
+info,player,Perth Scorchers,SS Eskinazi
+info,player,Perth Scorchers,C Connolly
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,LJ Evans
+info,player,Perth Scorchers,NR Hobson
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,H McKenzie
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Melbourne Renegades,Q de Kock
+info,player,Melbourne Renegades,JM Clarke
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,NJ Maddinson
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,JW Wells
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,TS Rogers
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,PM Siddle
+info,player,Melbourne Renegades,Mujeeb Ur Rahman
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,C Connolly,fe366f34
+info,registry,people,C Grant,876ed858
+info,registry,people,H McKenzie,5222f5fa
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,Kent Hannam,8cc171e7
+info,registry,people,LJ Evans,1c513d54
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,Q de Kock,372455c4
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SS Eskinazi,75cbed9b
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,W Sutherland,bc2d4f2e

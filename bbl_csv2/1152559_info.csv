@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2018/19
+info,date,2019/02/02
+info,event,Big Bash League
+info,match_number,49
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,DP Hughes
+info,umpire,P Wilson
+info,umpire,SD Fry
+info,reserve_umpire,Ryan Nelson
+info,tv_umpire,AK Wilds
+info,match_referee,PL Marshall
+info,winner,Sydney Sixers
+info,winner_wickets,9
+info,method,D/L
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,JJS Sangha
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,AP Devcich
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,CJ Jordan
+info,player,Sydney Thunder,BJ Holt
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,JD Cook
+info,player,Sydney Thunder,Fawad Ahmed
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,L Pope
+info,registry,people,AK Wilds,de412f40
+info,registry,people,AP Devcich,ed90abe4
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BJ Holt,f05d1564
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JD Cook,45f56920
+info,registry,people,JJS Sangha,8e3cb0e9
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,L Pope,616a8149
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,P Wilson,68304a36
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,Ryan Nelson,b51347e8
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,TK Curran,e86754b2

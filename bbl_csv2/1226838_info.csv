@@ -1,0 +1,72 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2020/21
+info,date,2021/01/19
+info,event,Big Bash League
+info,match_number,44
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,C Munro
+info,umpire,DR Close
+info,umpire,MW Graham-Smith
+info,reserve_umpire,DM Koch
+info,tv_umpire,SAJ Craig
+info,match_referee,RL Parry
+info,winner,Perth Scorchers
+info,winner_runs,59
+info,player,Perth Scorchers,JJ Roy
+info,player,Perth Scorchers,LS Livingstone
+info,player,Perth Scorchers,C Munro
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,Fawad Ahmed
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,JL Denly
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,L Gregory
+info,player,Brisbane Heat,JD Wildermuth
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Brisbane Heat,M Morkel
+info,player,Brisbane Heat,XC Bartlett
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,C Munro,af2c687b
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,DM Koch,6d10c034
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,JL Denly,bdadf7da
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,L Gregory,06c2de82
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Bryant,f32012f4
+info,registry,people,M Morkel,5bb5a915
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Steketee,903560ed
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,XC Bartlett,3b53243a

@@ -1,0 +1,68 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Sydney Sixers
+info,gender,male
+info,season,2024/25
+info,date,2025/01/17
+info,event,Big Bash League
+info,match_number,37
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,umpire,SJ Nogajski
+info,umpire,AR Crafter
+info,reserve_umpire,Troy Penman
+info,tv_umpire,GA Abood
+info,match_referee,RW Stratford
+info,outcome,no result
+info,player,Sydney Thunder,S Konstas
+info,player,Sydney Thunder,DA Warner
+info,player,Sydney Thunder,HD Weibgen
+info,player,Sydney Thunder,SW Billings
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,GHS Garton
+info,player,Sydney Thunder,DT Christian
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,TD Andrews
+info,player,Sydney Thunder,Mohammad Hasnain
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,L Shaw
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,JA Chohan
+info,player,Sydney Sixers,T Murphy
+info,registry,people,AR Crafter,737820de
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GHS Garton,be869ccf
+info,registry,people,H Kerr,f422728b
+info,registry,people,HD Weibgen,2535b30f
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,JA Chohan,58be5e46
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JR Philippe,39086549
+info,registry,people,L Shaw,b34e4b15
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,Mohammad Hasnain,8596fe80
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,RW Stratford,85489579
+info,registry,people,S Konstas,3c34c9e1
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SW Billings,c16d4035
+info,registry,people,T Murphy,ac2e7ec0
+info,registry,people,TD Andrews,a0f612b6
+info,registry,people,Troy Penman,0aa42c26

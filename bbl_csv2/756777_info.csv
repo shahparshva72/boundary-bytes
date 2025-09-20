@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2014/15
+info,date,2015/01/10
+info,event,Big Bash League
+info,venue,Melbourne Cricket Ground
+info,city,
+info,toss_winner,Melbourne Renegades
+info,toss_decision,bat
+info,player_of_match,GJ Maxwell
+info,umpire,SAJ Craig
+info,umpire,MD Martell
+info,reserve_umpire,AJ Sammartino
+info,tv_umpire,GC Joshua
+info,match_referee,D Talalla
+info,winner,Melbourne Stars
+info,winner_wickets,3
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,MS Wade
+info,player,Melbourne Renegades,CJ Ferguson
+info,player,Melbourne Renegades,BA Stokes
+info,player,Melbourne Renegades,TM Beaton
+info,player,Melbourne Renegades,Shakib Al Hasan
+info,player,Melbourne Renegades,BJ Rohrer
+info,player,Melbourne Renegades,JL Pattinson
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,PM Siddle
+info,player,Melbourne Renegades,Fawad Ahmed
+info,player,Melbourne Stars,CL White
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,TIF Triffitt
+info,player,Melbourne Stars,AR Keath
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,JM Bird
+info,player,Melbourne Stars,MA Beer
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Sammartino,284d6015
+info,registry,people,AR Keath,439083c2
+info,registry,people,BA Stokes,e087956b
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CL White,d0513f63
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JW Hastings,012829ff
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MD Martell,487c072e
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SM Boland,d167edd3
+info,registry,people,Shakib Al Hasan,7dc35884
+info,registry,people,TIF Triffitt,593513d5
+info,registry,people,TM Beaton,f0ec8597

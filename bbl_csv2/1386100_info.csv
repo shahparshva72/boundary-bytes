@@ -1,0 +1,68 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Perth Scorchers
+info,gender,male
+info,season,2023/24
+info,date,2023/12/13
+info,event,Big Bash League
+info,match_number,7
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Perth Scorchers
+info,toss_decision,field
+info,player_of_match,H McKenzie
+info,umpire,PJ Gillespie
+info,umpire,SAJ Craig
+info,reserve_umpire,D Brigham
+info,match_referee,Kent Hannam
+info,winner,Perth Scorchers
+info,winner_wickets,7
+info,player,Melbourne Stars,SB Harper
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,J Merlo
+info,player,Melbourne Stars,LA Dawson
+info,player,Melbourne Stars,Usama Mir
+info,player,Melbourne Stars,JS Paris
+info,player,Melbourne Stars,Haris Rauf
+info,player,Perth Scorchers,C Connolly
+info,player,Perth Scorchers,SS Eskinazi
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,LJ Evans
+info,player,Perth Scorchers,NR Hobson
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,H McKenzie
+info,player,Perth Scorchers,JP Behrendorff
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,C Connolly,fe366f34
+info,registry,people,D Brigham,464daf41
+info,registry,people,H McKenzie,5222f5fa
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Haris Rauf,24bb1c2f
+info,registry,people,J Merlo,02ba80a0
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,Kent Hannam,8cc171e7
+info,registry,people,LA Dawson,4a461c24
+info,registry,people,LJ Evans,1c513d54
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SS Eskinazi,75cbed9b
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,Usama Mir,6dd8b88c

@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Sydney Sixers
+info,gender,male
+info,season,2011/12
+info,date,2012/01/08
+info,event,Big Bash League
+info,venue,Stadium Australia
+info,city,Sydney
+info,toss_winner,Sydney Sixers
+info,toss_decision,bat
+info,player_of_match,MA Starc
+info,umpire,BNJ Oxenford
+info,umpire,PR Reiffel
+info,tv_umpire,GA Abood
+info,match_referee,RW Stratford
+info,winner,Sydney Sixers
+info,winner_runs,17
+info,method,D/L
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,BJ Rohrer
+info,player,Sydney Sixers,DJ Thornely
+info,player,Sydney Sixers,PM Nevill
+info,player,Sydney Sixers,IA Moran
+info,player,Sydney Sixers,B Lee
+info,player,Sydney Sixers,MA Starc
+info,player,Sydney Sixers,SCG MacGill
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,CH Gayle
+info,player,Sydney Thunder,DLR Smith
+info,player,Sydney Thunder,BR Dunk
+info,player,Sydney Thunder,JS Floros
+info,player,Sydney Thunder,LR Butterworth
+info,player,Sydney Thunder,SA Abbott
+info,player,Sydney Thunder,TJ Armstrong
+info,player,Sydney Thunder,SJ Coyte (2)
+info,player,Sydney Thunder,LA Doran
+info,player,Sydney Thunder,FH Edwards
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CH Gayle,db584dad
+info,registry,people,DJ Thornely,7d3937ed
+info,registry,people,DLR Smith,0c5c3a87
+info,registry,people,FH Edwards,a7c226e1
+info,registry,people,GA Abood,a4af5528
+info,registry,people,IA Moran,5ce5204c
+info,registry,people,JS Floros,79765f6f
+info,registry,people,LA Doran,f201593c
+info,registry,people,LR Butterworth,ff6707cc
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,RW Stratford,85489579
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SCG MacGill,60dac349
+info,registry,people,SJ Coyte (2),36769c31
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,TJ Armstrong,30811a4b
+info,registry,people,UT Khawaja,331ea488

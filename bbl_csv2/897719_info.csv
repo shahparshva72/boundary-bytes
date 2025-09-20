@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Perth Scorchers
+info,gender,male
+info,season,2015/16
+info,date,2015/12/30
+info,event,Big Bash League
+info,match_number,13
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Perth Scorchers
+info,toss_decision,field
+info,player_of_match,M Klinger
+info,umpire,GA Abood
+info,umpire,PJ Gillespie
+info,reserve_umpire,D Brigham
+info,tv_umpire,SAJ Craig
+info,match_referee,RW Stratford
+info,winner,Perth Scorchers
+info,winner_wickets,10
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,CH Gayle
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,MS Wade
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,TM Beaton
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,CJ Gannon
+info,player,Melbourne Renegades,CP Tremain
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,NM Hauritz
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,MS Harris
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,DJ Willey
+info,player,Perth Scorchers,JS Paris
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,GB Hogg
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ Gannon,519c30cb
+info,registry,people,CL White,d0513f63
+info,registry,people,CP Tremain,96824e68
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,D Brigham,464daf41
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Willey,7f048519
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,NM Hauritz,8ea6e670
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,RW Stratford,85489579
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TM Beaton,f0ec8597

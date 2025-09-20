@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2015/16
+info,date,2016/01/08
+info,event,Big Bash League
+info,match_number,23
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Adelaide Strikers
+info,toss_decision,field
+info,player_of_match,DPMD Jayawardene
+info,umpire,AJ Barrow
+info,umpire,PJ Gillespie
+info,reserve_umpire,J Ruddick-Collins
+info,tv_umpire,SD Fry
+info,match_referee,PL Marshall
+info,winner,Adelaide Strikers
+info,winner_wickets,8
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,DPMD Jayawardene
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,BJ Hodge
+info,player,Adelaide Strikers,B Stanlake
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,JS Lehmann
+info,player,Adelaide Strikers,JM Holland
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,AU Rashid
+info,player,Adelaide Strikers,AI Ross
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,LMP Simmons
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,NJ Reardon
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JS Floros
+info,player,Brisbane Heat,JR Hopes
+info,player,Brisbane Heat,AL Fekete
+info,player,Brisbane Heat,JK Lalor
+info,player,Brisbane Heat,S Badree
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AL Fekete,029c4618
+info,registry,people,AU Rashid,249d60c9
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,DPMD Jayawardene,d18f9182
+info,registry,people,J Ruddick-Collins,c7abd522
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JM Holland,70c4f525
+info,registry,people,JR Hopes,2498e163
+info,registry,people,JS Floros,79765f6f
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,LMP Simmons,89f64c19
+info,registry,people,MG Neser,0164b064
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,S Badree,76388dc8
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,TM Head,12b610c2
+info,registry,people,TP Ludeman,c3f7898b

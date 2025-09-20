@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2022/23
+info,date,2023/01/23
+info,event,Big Bash League
+info,match_number,53
+info,venue,"Bellerive Oval, Hobart"
+info,city,Hobart
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,SPD Smith
+info,umpire,SJ Nogajski
+info,umpire,SA Lightbody
+info,reserve_umpire,TJ Matibiri
+info,tv_umpire,D Taylor
+info,match_referee,SJ Davis
+info,winner,Sydney Sixers
+info,winner_runs,24
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,KR Patterson
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,JM Bird
+info,player,Sydney Sixers,Izharulhaq Naveed
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,Z Crawley
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,Faheem Ashraf
+info,player,Hobart Hurricanes,JS Paris
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,PG Dooley
+info,player,Hobart Hurricanes,RP Meredith
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,Faheem Ashraf,bd4ea627
+info,registry,people,H Kerr,f422728b
+info,registry,people,Izharulhaq Naveed,2cbdd22f
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JR Philippe,39086549
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MS Wade,afa7e784
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,PG Dooley,5e3054d0
+info,registry,people,RP Meredith,64775749
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,TH David,f1f99156
+info,registry,people,TJ Matibiri,4a3132b1
+info,registry,people,Z Crawley,922e1b19

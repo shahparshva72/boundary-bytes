@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2023/24
+info,date,2024/01/07
+info,event,Big Bash League
+info,match_number,29
+info,venue,"Brisbane Cricket Ground, Woolloongabba, Brisbane"
+info,city,Brisbane
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,XC Bartlett
+info,umpire,SJ Nogajski
+info,umpire,SAJ Craig
+info,reserve_umpire,J Adie
+info,tv_umpire,GA Abood
+info,match_referee,Kepler Wessels
+info,winner,Brisbane Heat
+info,winner_runs,1
+info,method,D/L
+info,player,Brisbane Heat,J Brown
+info,player,Brisbane Heat,C Munro
+info,player,Brisbane Heat,NA McSweeney
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,SW Billings
+info,player,Brisbane Heat,PI Walter
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,SH Johnson
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,M Wright
+info,player,Hobart Hurricanes,SR Hain
+info,player,Hobart Hurricanes,CJ Anderson
+info,player,Hobart Hurricanes,Nikhil Chaudhary
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,CJ Jordan
+info,player,Hobart Hurricanes,PG Dooley
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,RP Meredith
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,C Munro,af2c687b
+info,registry,people,CJ Anderson,8abdf100
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,GA Abood,a4af5528
+info,registry,people,J Adie,259c0030
+info,registry,people,J Brown,647e7d44
+info,registry,people,Kepler Wessels,3bedaff0
+info,registry,people,M Wright,bd920a2c
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,NA McSweeney,e94d2d50
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,Nikhil Chaudhary,1f84183a
+info,registry,people,PG Dooley,5e3054d0
+info,registry,people,PI Walter,57590dbb
+info,registry,people,RP Meredith,64775749
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SH Johnson,83c3e8e3
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SR Hain,67b9536c
+info,registry,people,SW Billings,c16d4035
+info,registry,people,TH David,f1f99156
+info,registry,people,XC Bartlett,3b53243a

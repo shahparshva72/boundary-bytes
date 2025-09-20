@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2016/17
+info,date,2016/12/23
+info,event,Big Bash League
+info,match_number,5
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Adelaide Strikers
+info,toss_decision,field
+info,player_of_match,AJ Turner
+info,umpire,GJ Davidson
+info,umpire,MD Martell
+info,reserve_umpire,NR Johnstone
+info,tv_umpire,AJ Barrow
+info,match_referee,D Talalla
+info,winner,Perth Scorchers
+info,winner_runs,48
+info,player,Adelaide Strikers,BR Dunk
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,BJ Hodge
+info,player,Adelaide Strikers,KA Pollard
+info,player,Adelaide Strikers,JS Lehmann
+info,player,Adelaide Strikers,CJ Jordan
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,LN O'Connor
+info,player,Adelaide Strikers,B Stanlake
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,IR Bell
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,DJ Willey
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,MG Johnson
+info,player,Perth Scorchers,AJ Tye
+info,registry,people,AC Agar,a2421394
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DJ Willey,7f048519
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,IR Bell,33155d1b
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,LN O'Connor,5456bd0c
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MD Martell,487c072e
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,MG Neser,0164b064
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,TM Head,12b610c2

@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Perth Scorchers
+info,gender,male
+info,season,2017/18
+info,date,2018/01/05
+info,event,Big Bash League
+info,match_number,18
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Perth Scorchers
+info,toss_decision,field
+info,player_of_match,BCJ Cutting
+info,umpire,PJ Gillespie
+info,umpire,AK Wilds
+info,reserve_umpire,SE Dionysius
+info,tv_umpire,NR Johnstone
+info,match_referee,DJ Harper
+info,winner,Brisbane Heat
+info,winner_runs,49
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,AI Ross
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,B Doggett
+info,player,Brisbane Heat,Yasir Shah
+info,player,Brisbane Heat,MJ Swepson
+info,player,Perth Scorchers,DJ Willey
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,HWR Cartwright
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,TH David
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JS Paris
+info,registry,people,AC Agar,a2421394
+info,registry,people,AC Voges,864c199e
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AK Wilds,de412f40
+info,registry,people,B Doggett,898e628d
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Gannon,519c30cb
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Willey,7f048519
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MT Steketee,903560ed
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,SE Dionysius,ac886e6f
+info,registry,people,TH David,f1f99156
+info,registry,people,Yasir Shah,f2800ef3

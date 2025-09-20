@@ -41,9 +41,29 @@ export const LEAGUE_CONFIGS: Record<League, LeagueConfig> = {
     },
     icon: '🏆',
   },
+  BBL: {
+    id: 'BBL',
+    name: 'BBL',
+    fullName: 'Big Bash League',
+    description: "Australia's premier T20 cricket league",
+    tagline: 'BIG HITS. BIG MOMENTS.',
+    colors: {
+      primary: '#2E86AB',
+      secondary: '#F6F5AE',
+      accent: '#F26419',
+      headerBg: '#2E86AB',
+    },
+    stats: {
+      teams: 8,
+      matches: 618,
+      players: 512,
+      seasons: ['2011-2025'],
+    },
+    icon: '🔥',
+  },
 };
 
-export const VALID_LEAGUES: League[] = ['WPL', 'IPL'];
+export const VALID_LEAGUES: League[] = ['WPL', 'IPL', 'BBL'];
 
 export const getLeagueConfig = (league: League): LeagueConfig => {
   return LEAGUE_CONFIGS[league];

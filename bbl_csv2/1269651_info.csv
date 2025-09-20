@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Brisbane Heat
+info,gender,male
+info,season,2021/22
+info,date,2021/12/19
+info,event,Big Bash League
+info,match_number,14
+info,venue,"Brisbane Cricket Ground, Woolloongabba, Brisbane"
+info,city,Brisbane
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,S Mahmood
+info,umpire,DR Close
+info,umpire,DM Koch
+info,reserve_umpire,SE Dionysius
+info,tv_umpire,BC Treloar
+info,match_referee,Kepler Wessels
+info,winner,Sydney Thunder
+info,winner_runs,53
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,JJS Sangha
+info,player,Sydney Thunder,SW Billings
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,BCJ Cutting
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,S Mahmood
+info,player,Sydney Thunder,T Sangha
+info,player,Brisbane Heat,TB Abell
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,BM Duckett
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,TLW Cooper
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BM Duckett,5f26f677
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DM Koch,6d10c034
+info,registry,people,DR Close,4cae2b0c
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JJS Sangha,8e3cb0e9
+info,registry,people,Kepler Wessels,3bedaff0
+info,registry,people,M Bryant,f32012f4
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MT Steketee,903560ed
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,S Mahmood,0f6db197
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,SE Dionysius,ac886e6f
+info,registry,people,SW Billings,c16d4035
+info,registry,people,T Sangha,52c952d9
+info,registry,people,TB Abell,ba9258a7
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,XC Bartlett,3b53243a

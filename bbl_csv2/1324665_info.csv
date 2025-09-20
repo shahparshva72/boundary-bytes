@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2022/23
+info,date,2023/01/15
+info,event,Big Bash League
+info,match_number,42
+info,venue,"Bellerive Oval, Hobart"
+info,city,Hobart
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,NT Ellis
+info,umpire,NR Johnstone
+info,umpire,SJ Nogajski
+info,reserve_umpire,M Qureshi
+info,tv_umpire,Sharad Patel
+info,match_referee,SD Fry
+info,winner,Hobart Hurricanes
+info,winner_wickets,5
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,DA Warner
+info,player,Sydney Thunder,SM Whiteman
+info,player,Sydney Thunder,O Davies
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,BCJ Cutting
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,Usman Qadir
+info,player,Sydney Thunder,B Doggett
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,Z Crawley
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,Asif Ali
+info,player,Hobart Hurricanes,Faheem Ashraf
+info,player,Hobart Hurricanes,TD Andrews
+info,player,Hobart Hurricanes,PG Dooley
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,RP Meredith
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,Asif Ali,0a4736eb
+info,registry,people,B Doggett,898e628d
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,DA Warner,dcce6f09
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,Faheem Ashraf,bd4ea627
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,M Qureshi,cf34fbef
+info,registry,people,MS Wade,afa7e784
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,O Davies,0ea54eca
+info,registry,people,PG Dooley,5e3054d0
+info,registry,people,RP Meredith,64775749
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,Sharad Patel,8e6dd3ba
+info,registry,people,TD Andrews,a0f612b6
+info,registry,people,TH David,f1f99156
+info,registry,people,Usman Qadir,33742f04
+info,registry,people,Z Crawley,922e1b19

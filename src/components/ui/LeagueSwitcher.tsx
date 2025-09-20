@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { useLeagueContext } from '@/contexts/LeagueContext';
-import { LEAGUE_CONFIGS } from '@/utils/league-config';
+import { LEAGUE_CONFIGS, VALID_LEAGUES } from '@/utils/league-config';
 import { League } from '@/types/league';
 
 const LeagueSwitcher: React.FC = () => {
@@ -14,8 +14,7 @@ const LeagueSwitcher: React.FC = () => {
   if (!selectedLeague) return null;
 
   const currentConfig = LEAGUE_CONFIGS[selectedLeague];
-  const otherLeague: League = selectedLeague === 'WPL' ? 'IPL' : 'WPL';
-  const otherConfig = LEAGUE_CONFIGS[otherLeague];
+  const otherLeagues: League[] = VALID_LEAGUES.filter((l) => l !== selectedLeague);
 
   const handleLeagueChange = (league: League) => {
     if (league === selectedLeague) {
@@ -72,17 +71,23 @@ const LeagueSwitcher: React.FC = () => {
               </div>
             </div>
 
-            {/* Other League */}
-            <button
-              onClick={() => handleLeagueChange(otherLeague)}
-              className="w-full p-3 text-left hover:bg-[#4ECDC4] transition-colors border-b-2 border-black"
-            >
-              <div className="flex items-center gap-2 font-bold text-black">
-                <span>{otherConfig.icon}</span>
-                <span>{otherConfig.name}</span>
-              </div>
-              <div className="text-sm text-black mt-1">{otherConfig.description}</div>
-            </button>
+            {otherLeagues.map((l, idx) => {
+              const cfg = LEAGUE_CONFIGS[l];
+              const isLast = idx === otherLeagues.length - 1;
+              return (
+                <button
+                  key={l}
+                  onClick={() => handleLeagueChange(l)}
+                  className={`w-full p-3 text-left hover:bg-[#4ECDC4] transition-colors ${!isLast ? 'border-b-2 border-black' : ''}`}
+                >
+                  <div className="flex items-center gap-2 font-bold text-black">
+                    <span>{cfg.icon}</span>
+                    <span>{cfg.name}</span>
+                  </div>
+                  <div className="text-sm text-black mt-1">{cfg.description}</div>
+                </button>
+              );
+            })}
 
             {/* Reset Option */}
             <button

@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2023/24
+info,date,2024/01/05
+info,event,Big Bash League
+info,match_number,27
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Adelaide Strikers
+info,toss_decision,field
+info,player_of_match,MW Short
+info,umpire,Andrew Crozier
+info,umpire,MW Graham-Smith
+info,reserve_umpire,PR George
+info,tv_umpire,NR Johnstone
+info,match_referee,SD Fry
+info,winner,Adelaide Strikers
+info,winner_wickets,9
+info,player,Perth Scorchers,Z Crawley
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,LJ Evans
+info,player,Perth Scorchers,C Connolly
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,LR Morris
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,DJM Short
+info,player,Adelaide Strikers,CA Lynn
+info,player,Adelaide Strikers,AJ Hose
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,J Overton
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,HTRY Thornton
+info,player,Adelaide Strikers,DA Payne
+info,player,Adelaide Strikers,CJ Boyce
+info,player,Adelaide Strikers,L Pope
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Hose,104e88a4
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,Andrew Crozier,00d07580
+info,registry,people,C Connolly,fe366f34
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,DA Payne,6c79c098
+info,registry,people,DJM Short,1a156c88
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HTRY Thornton,055be93a
+info,registry,people,J Overton,59559bc2
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,L Pope,616a8149
+info,registry,people,LJ Evans,1c513d54
+info,registry,people,LR Morris,b08e58e2
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,MW Short,a90e53ec
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,PR George,b76e2583
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,Z Crawley,922e1b19

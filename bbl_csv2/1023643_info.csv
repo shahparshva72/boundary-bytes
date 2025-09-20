@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Sixers
+info,gender,male
+info,season,2016/17
+info,date,2017/01/21
+info,event,Big Bash League
+info,match_number,32
+info,venue,Melbourne Cricket Ground
+info,city,
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,SA Abbott
+info,umpire,AJ Barrow
+info,umpire,GJ Davidson
+info,reserve_umpire,D Ireland
+info,tv_umpire,AK Wilds
+info,match_referee,RW Stratford
+info,winner,Sydney Sixers
+info,winner_wickets,3
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,SE Gotch
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,SB Harper
+info,player,Melbourne Stars,BW Hilfenhaus
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,MA Beer
+info,player,Melbourne Stars,L Bowe
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,C Munro
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,BJ Haddin
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,NM Lyon
+info,player,Sydney Sixers,JM Bird
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BJ Haddin,b0c772ee
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,C Munro,af2c687b
+info,registry,people,CJ Gannon,519c30cb
+info,registry,people,D Ireland,9b4fc7b9
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,J Botha,7c503806
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,L Bowe,a5b71472
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,RW Stratford,85489579
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SE Gotch,9a0e4ca5
+info,registry,people,SM Boland,d167edd3

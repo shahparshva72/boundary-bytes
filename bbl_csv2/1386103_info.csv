@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Brisbane Heat
+info,gender,male
+info,season,2023/24
+info,date,2023/12/21
+info,event,Big Bash League
+info,match_number,10
+info,venue,"Docklands Stadium, Melbourne"
+info,city,Melbourne
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,PI Walter
+info,umpire,CA Polosak
+info,umpire,PJ Gillespie
+info,reserve_umpire,Mattis van Eck
+info,tv_umpire,NR Johnstone
+info,match_referee,RW Stratford
+info,winner,Brisbane Heat
+info,winner_wickets,6
+info,player,Melbourne Renegades,Q de Kock
+info,player,Melbourne Renegades,JM Clarke
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,NJ Maddinson
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,JW Wells
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,TS Rogers
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,A Zampa
+info,player,Melbourne Renegades,Mujeeb Ur Rahman
+info,player,Brisbane Heat,J Brown
+info,player,Brisbane Heat,C Munro
+info,player,Brisbane Heat,NA McSweeney
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,SW Billings
+info,player,Brisbane Heat,PI Walter
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,SH Johnson
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Brisbane Heat,MJ Swepson
+info,registry,people,A Zampa,14f96089
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,C Munro,af2c687b
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,J Brown,647e7d44
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,Mattis van Eck,bf1a68c1
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NA McSweeney,e94d2d50
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,PI Walter,57590dbb
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RW Stratford,85489579
+info,registry,people,SH Johnson,83c3e8e3
+info,registry,people,SW Billings,c16d4035
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,XC Bartlett,3b53243a

@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Melbourne Stars
+info,gender,male
+info,season,2022/23
+info,date,2023/01/14
+info,event,Big Bash League
+info,match_number,41
+info,venue,"Docklands Stadium, Melbourne"
+info,city,Melbourne
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,KW Richardson
+info,umpire,GJ Davidson
+info,umpire,MW Graham-Smith
+info,reserve_umpire,C Grant
+info,tv_umpire,DM Koch
+info,match_referee,RL Parry
+info,winner,Melbourne Renegades
+info,winner_runs,6
+info,player,Melbourne Renegades,MJ Guptill
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,MJJ Critchley
+info,player,Melbourne Renegades,JW Wells
+info,player,Melbourne Renegades,TS Rogers
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,RP Kellepotha
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,Fawad Ahmed
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,J Seymour
+info,player,Melbourne Stars,CD Hinchliffe
+info,player,Melbourne Stars,L Wood
+info,player,Melbourne Stars,BL Couch
+info,player,Melbourne Stars,LC Hatcher
+info,player,Melbourne Stars,A Zampa
+info,registry,people,A Zampa,14f96089
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BL Couch,be69e09d
+info,registry,people,C Grant,876ed858
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,DM Koch,6d10c034
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,J Seymour,cb54a1d6
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,L Wood,65b6943c
+info,registry,people,LC Hatcher,8f3fde65
+info,registry,people,MJ Guptill,2be41edb
+info,registry,people,MJJ Critchley,c5cc48bc
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,RL Parry,86d151dc
+info,registry,people,RP Kellepotha,d13d1dd0
+info,registry,people,SB Harper,a756e61a
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,W Sutherland,bc2d4f2e

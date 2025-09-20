@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2022/23
+info,date,2022/12/21
+info,event,Big Bash League
+info,match_number,10
+info,venue,"GMHBA Stadium, South Geelong, Victoria"
+info,city,Geelong
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,AD Russell
+info,umpire,D Taylor
+info,umpire,SA Lightbody
+info,reserve_umpire,L McCabe
+info,tv_umpire,PJ Gillespie
+info,match_referee,Kent Hannam
+info,winner,Melbourne Renegades
+info,winner_wickets,4
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,C Munro
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,SW Billings
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,RA Whiteley
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,NJ Maddinson
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,JW Wells
+info,player,Melbourne Renegades,AD Russell
+info,player,Melbourne Renegades,AJ Hosein
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,TS Rogers
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,Mujeeb Ur Rahman
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Hosein,4d7f517e
+info,registry,people,C Munro,af2c687b
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,Kent Hannam,8cc171e7
+info,registry,people,L McCabe,1dbc4a64
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MT Steketee,903560ed
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,RA Whiteley,d346d939
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SW Billings,c16d4035
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,W Sutherland,bc2d4f2e

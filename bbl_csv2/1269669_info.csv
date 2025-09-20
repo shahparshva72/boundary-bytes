@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2021/22
+info,date,2022/01/02
+info,event,Big Bash League
+info,match_number,32
+info,venue,Sydney Showground Stadium
+info,city,Sydney
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,M Gilkes
+info,umpire,GA Abood
+info,umpire,SA Lightbody
+info,reserve_umpire,AR Hamilton
+info,tv_umpire,Troy Penman
+info,match_referee,Kent Hannam
+info,winner,Sydney Thunder
+info,winner_runs,28
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,BCJ Cutting
+info,player,Sydney Thunder,JJS Sangha
+info,player,Sydney Thunder,SW Billings
+info,player,Sydney Thunder,O Davies
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,AJ Nair
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,Mohammad Hasnain
+info,player,Sydney Thunder,S Mahmood
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,MT Renshaw
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,HJ Hunt
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,Fawad Ahmed
+info,registry,people,AJ Nair,4ba2c04d
+info,registry,people,AR Hamilton,95d26c59
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,HJ Hunt,62ef4abe
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JD Cook,45f56920
+info,registry,people,JJS Sangha,8e3cb0e9
+info,registry,people,JW Wells,8bdac857
+info,registry,people,Kent Hannam,8cc171e7
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MW Short,a90e53ec
+info,registry,people,Mohammad Hasnain,8596fe80
+info,registry,people,O Davies,0ea54eca
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Mahmood,0f6db197
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SW Billings,c16d4035
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,Troy Penman,0aa42c26
+info,registry,people,WA Agar,15de1f5d

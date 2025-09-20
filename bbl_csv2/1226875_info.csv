@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Brisbane Heat
+info,gender,male
+info,season,2020/21
+info,date,2020/12/30
+info,event,Big Bash League
+info,match_number,20
+info,venue,Brisbane Cricket Ground
+info,city,Brisbane
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,Mujeeb Ur Rahman
+info,umpire,DM Koch
+info,umpire,AK Wilds
+info,reserve_umpire,D Taylor
+info,tv_umpire,PJ Gillespie
+info,match_referee,Kepler Wessels
+info,winner,Hobart Hurricanes
+info,winner_runs,1
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,DJ Malan
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,CA Ingram
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,KMA Paul
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,W Parker
+info,player,Hobart Hurricanes,SM Boland
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,JD Wildermuth
+info,player,Brisbane Heat,TLW Cooper
+info,player,Brisbane Heat,L Gregory
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,S Milenko
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CA Ingram,c995d726
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DJ Malan,ad9c32a2
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DM Koch,6d10c034
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,KMA Paul,75224f22
+info,registry,people,Kepler Wessels,3bedaff0
+info,registry,people,L Gregory,06c2de82
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MT Steketee,903560ed
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Milenko,479f9b04
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TH David,f1f99156
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,W Parker,607c846c
+info,registry,people,XC Bartlett,3b53243a

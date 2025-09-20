@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2017/18
+info,date,2018/01/22
+info,event,Big Bash League
+info,match_number,35
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,CA Ingram
+info,umpire,GC Joshua
+info,umpire,MW Graham-Smith
+info,reserve_umpire,S Brne
+info,tv_umpire,DJ Shepard
+info,match_referee,SR Bernard
+info,winner,Adelaide Strikers
+info,winner_runs,26
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,CA Ingram
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,JS Lehmann
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,B Stanlake
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,TP Ludeman
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,KA Pollard
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,BJ Hodge
+info,player,Melbourne Renegades,JD Wildermuth
+info,player,Melbourne Renegades,CP Tremain
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,GB Hogg
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CA Ingram,c995d726
+info,registry,people,CL White,d0513f63
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Shepard,d3533ba5
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MG Neser,0164b064
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,S Brne,f552dfcb
+info,registry,people,SR Bernard,800187dc
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TM Head,12b610c2
+info,registry,people,TP Ludeman,c3f7898b

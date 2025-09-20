@@ -1,0 +1,72 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2021/22
+info,date,2022/01/01
+info,event,Big Bash League
+info,match_number,29
+info,venue,"Bellerive Oval, Hobart"
+info,city,Hobart
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,XC Bartlett
+info,umpire,MW Graham-Smith
+info,umpire,NR Johnstone
+info,reserve_umpire,M Qureshi
+info,tv_umpire,BC Treloar
+info,match_referee,David Johnston
+info,winner,Brisbane Heat
+info,winner_runs,14
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,BM Duckett
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,JD Wildermuth
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,player,Brisbane Heat,L Guthrie
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,HC Brook
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,JA Thompson
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,TS Rogers
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,S Lamichhane
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BM Duckett,5f26f677
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,DJM Short,1a156c88
+info,registry,people,David Johnston,92cef862
+info,registry,people,HC Brook,4ae1755b
+info,registry,people,JA Thompson,1d2f290a
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,L Guthrie,b03303ca
+info,registry,people,M Bryant,f32012f4
+info,registry,people,M Qureshi,cf34fbef
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MT Steketee,903560ed
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,TH David,f1f99156
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,XC Bartlett,3b53243a

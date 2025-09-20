@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Brisbane Heat
+info,gender,male
+info,season,2021/22
+info,date,2021/12/27
+info,event,Big Bash League
+info,match_number,23
+info,venue,"Brisbane Cricket Ground, Woolloongabba, Brisbane"
+info,city,Brisbane
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,JM Clarke
+info,umpire,GA Abood
+info,umpire,AK Wilds
+info,reserve_umpire,Steven Farrell
+info,tv_umpire,Troy Penman
+info,match_referee,Kepler Wessels
+info,winner,Melbourne Stars
+info,winner_runs,20
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,JA Burns
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,AD Russell
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,Qais Ahmad
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,BL Couch
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,TLW Cooper
+info,player,Brisbane Heat,BM Duckett
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,player,Brisbane Heat,L Guthrie
+info,registry,people,A Zampa,14f96089
+info,registry,people,AD Russell,bbd41817
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BL Couch,be69e09d
+info,registry,people,BM Duckett,5f26f677
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,Kepler Wessels,3bedaff0
+info,registry,people,L Guthrie,b03303ca
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MT Steketee,903560ed
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,Qais Ahmad,8d5d991e
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,Steven Farrell,512226fb
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,Troy Penman,0aa42c26

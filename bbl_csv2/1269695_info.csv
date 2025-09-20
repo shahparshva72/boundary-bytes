@@ -1,0 +1,69 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2021/22
+info,date,2022/01/22
+info,event,Big Bash League
+info,venue,"Docklands Stadium, Melbourne"
+info,city,Melbourne
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,JP Inglis
+info,umpire,GA Abood
+info,umpire,SAJ Craig
+info,reserve_umpire,SA Lightbody
+info,tv_umpire,AK Wilds
+info,match_referee,RW Stratford
+info,winner,Perth Scorchers
+info,winner_runs,48
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,KR Patterson
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,C Munro
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,LJ Evans
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,P Hatzoglou
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,J Avendano
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,NL Bertus
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,NM Lyon
+info,player,Sydney Sixers,SNJ O'Keefe
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,C Munro,af2c687b
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GA Abood,a4af5528
+info,registry,people,H Kerr,f422728b
+info,registry,people,J Avendano,0af4a90b
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JR Philippe,39086549
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,LJ Evans,1c513d54
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,NL Bertus,ebaeab6b
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,RW Stratford,85489579
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SNJ O'Keefe,3540beff

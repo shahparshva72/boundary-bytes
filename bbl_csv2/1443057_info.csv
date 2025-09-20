@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Perth Scorchers
+info,gender,male
+info,season,2024/25
+info,date,2024/12/15
+info,event,Big Bash League
+info,match_number,1
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Melbourne Stars
+info,toss_decision,bat
+info,player_of_match,JA Richardson
+info,umpire,GA Abood
+info,umpire,SAJ Craig
+info,reserve_umpire,D Taylor
+info,tv_umpire,Andrew Crozier
+info,match_referee,SD Fry
+info,winner,Perth Scorchers
+info,winner_wickets,6
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,SB Harper
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,TK Curran
+info,player,Melbourne Stars,H McKenzie
+info,player,Melbourne Stars,AF Milne
+info,player,Melbourne Stars,BL Couch
+info,player,Melbourne Stars,PM Siddle
+info,player,Perth Scorchers,FH Allen
+info,player,Perth Scorchers,KK Jennings
+info,player,Perth Scorchers,C Connolly
+info,player,Perth Scorchers,MF Hurst
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,NR Hobson
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,LR Morris
+info,registry,people,AC Agar,a2421394
+info,registry,people,AF Milne,350bb1b1
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,Andrew Crozier,00d07580
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BL Couch,be69e09d
+info,registry,people,C Connolly,fe366f34
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,FH Allen,bf74b130
+info,registry,people,GA Abood,a4af5528
+info,registry,people,H McKenzie,5222f5fa
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,KK Jennings,8479a24a
+info,registry,people,LR Morris,b08e58e2
+info,registry,people,MF Hurst,40e4cf47
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,TK Curran,e86754b2

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Perth Scorchers
+info,gender,male
+info,season,2018/19
+info,date,2019/02/01
+info,event,Big Bash League
+info,match_number,48
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,Mujeeb Ur Rahman
+info,umpire,GJ Davidson
+info,umpire,DM Koch
+info,reserve_umpire,SE Dionysius
+info,tv_umpire,SAJ Craig
+info,match_referee,RW Stratford
+info,winner,Brisbane Heat
+info,winner_wickets,6
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,NR Hobson
+info,player,Perth Scorchers,CD Hinchliffe
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,M Kelly
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,Usman Qadir
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,AI Ross
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JA Prestwidge
+info,player,Brisbane Heat,JK Lalor
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,DM Koch,6d10c034
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,JA Prestwidge,5f317fd4
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,M Bryant,f32012f4
+info,registry,people,M Kelly,68e26ec9
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,RW Stratford,85489579
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SE Dionysius,ac886e6f
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,Usman Qadir,33742f04

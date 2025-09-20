@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Melbourne Stars
+info,gender,male
+info,season,2014/15
+info,date,2015/01/17
+info,event,Big Bash League
+info,venue,Sydney Showground Stadium
+info,city,
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,KP Pietersen
+info,umpire,DB Mealey
+info,umpire,RJ Tucker
+info,reserve_umpire,AK Wilds
+info,tv_umpire,GA Abood
+info,match_referee,SR Bernard
+info,winner,Melbourne Stars
+info,winner_wickets,8
+info,player,Melbourne Stars,CL White
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,TIF Triffitt
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,CJ McKay
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,JM Bird
+info,player,Melbourne Stars,MA Beer
+info,player,Sydney Thunder,JH Kallis
+info,player,Sydney Thunder,JJ Roy
+info,player,Sydney Thunder,DP Hughes
+info,player,Sydney Thunder,AC Blizzard
+info,player,Sydney Thunder,AB McDonald
+info,player,Sydney Thunder,CD Hartley
+info,player,Sydney Thunder,AR Beadle
+info,player,Sydney Thunder,NM Hauritz
+info,player,Sydney Thunder,CP Tremain
+info,player,Sydney Thunder,JK Lalor
+info,player,Sydney Thunder,DP Nannes
+info,registry,people,AB McDonald,16043342
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AK Wilds,de412f40
+info,registry,people,AR Beadle,bb1c1950
+info,registry,people,CD Hartley,9a06679d
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CJ McKay,94eac556
+info,registry,people,CL White,d0513f63
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DB Mealey,2199afd4
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,GA Abood,a4af5528
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JW Hastings,012829ff
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,NM Hauritz,8ea6e670
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,RJ Tucker,38810cfc
+info,registry,people,SM Boland,d167edd3
+info,registry,people,SR Bernard,800187dc
+info,registry,people,TIF Triffitt,593513d5

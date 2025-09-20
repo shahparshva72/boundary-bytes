@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Perth Scorchers
+info,gender,male
+info,season,2013/14
+info,date,2014/02/05
+info,event,Big Bash League
+info,venue,Sydney Cricket Ground
+info,city,
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,CJ Simmons
+info,umpire,MD Martell
+info,umpire,P Wilson
+info,reserve_umpire,GJ Davidson
+info,tv_umpire,GC Joshua
+info,match_referee,PL Marshall
+info,winner,Perth Scorchers
+info,winner_runs,5
+info,method,D/L
+info,player,Perth Scorchers,CJ Simmons
+info,player,Perth Scorchers,SM Katich
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,PJ Cummins
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,AC Thomas
+info,player,Perth Scorchers,GB Hogg
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,RS Bopara
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,MJ Cosgrove
+info,player,Sydney Sixers,DLR Smith
+info,player,Sydney Sixers,MJ North
+info,player,Sydney Sixers,B Lee
+info,player,Sydney Sixers,TA Copeland
+info,player,Sydney Sixers,JR Hazlewood
+info,player,Sydney Sixers,MA Starc
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,CJ Simmons,0095ce38
+info,registry,people,DLR Smith,0c5c3a87
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,MA Starc,3fb19989
+info,registry,people,MD Martell,487c072e
+info,registry,people,MJ Cosgrove,be768595
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,MJ North,99464591
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,P Wilson,68304a36
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,TA Copeland,2c7ac4b9

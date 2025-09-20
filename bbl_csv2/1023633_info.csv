@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2016/17
+info,date,2017/01/16
+info,event,Big Bash League
+info,match_number,27
+info,venue,Adelaide Oval
+info,city,
+info,toss_winner,Adelaide Strikers
+info,toss_decision,field
+info,player_of_match,MS Harris
+info,umpire,JD Ward
+info,umpire,AK Wilds
+info,reserve_umpire,C Kemp
+info,tv_umpire,PJ Gillespie
+info,match_referee,PL Marshall
+info,winner,Melbourne Renegades
+info,winner_runs,6
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,BR Dunk
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,KA Pollard
+info,player,Adelaide Strikers,BJ Hodge
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,JR Dean
+info,player,Adelaide Strikers,IS Sodhi
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,B Laughlin
+info,player,Adelaide Strikers,LN O'Connor
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,CJ Ferguson
+info,player,Melbourne Renegades,NLTC Perera
+info,player,Melbourne Renegades,SP Narine
+info,player,Melbourne Renegades,PM Nevill
+info,player,Melbourne Renegades,JL Pattinson
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,GB Hogg
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Wilds,de412f40
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,BR Dunk,272d796e
+info,registry,people,C Kemp,4ba47d5a
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CL White,d0513f63
+info,registry,people,CP Tremain,96824e68
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,IS Sodhi,641ac5ff
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JD Ward,511299c1
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,JR Dean,97188292
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,LN O'Connor,5456bd0c
+info,registry,people,MG Neser,0164b064
+info,registry,people,MS Harris,9e85455c
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,SP Narine,9d430b40
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TP Ludeman,c3f7898b
+info,registry,people,WA Agar,15de1f5d

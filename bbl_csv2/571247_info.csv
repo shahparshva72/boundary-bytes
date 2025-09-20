@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2012/13
+info,date,2012/12/23
+info,event,Big Bash League
+info,venue,Adelaide Oval
+info,city,
+info,toss_winner,Sydney Sixers
+info,toss_decision,bat
+info,player_of_match,TP Ludeman
+info,umpire,SD Fry
+info,umpire,SJ Nogajski
+info,tv_umpire,P Wilson
+info,match_referee,DJ Harper
+info,winner,Adelaide Strikers
+info,winner_wickets,9
+info,player,Adelaide Strikers,M Klinger
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,MJ Johnston
+info,player,Adelaide Strikers,NJ Reardon
+info,player,Adelaide Strikers,KA Pollard
+info,player,Adelaide Strikers,CJ Ferguson
+info,player,Adelaide Strikers,J Botha
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,CJ Boyce
+info,player,Adelaide Strikers,BE Young
+info,player,Adelaide Strikers,SW Tait
+info,player,Sydney Sixers,DLR Smith
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,BJ Haddin
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,BMAJ Mendis
+info,player,Sydney Sixers,DJ Thornely
+info,player,Sydney Sixers,B Lee
+info,player,Sydney Sixers,JK Lalor
+info,player,Sydney Sixers,SP Narine
+info,player,Sydney Sixers,LW Feldman
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BE Young,278fd5ff
+info,registry,people,BJ Haddin,b0c772ee
+info,registry,people,BMAJ Mendis,9868bc75
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Thornely,7d3937ed
+info,registry,people,DLR Smith,0c5c3a87
+info,registry,people,J Botha,7c503806
+info,registry,people,JK Lalor,88209c84
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,LW Feldman,da13a0fc
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Johnston,db2114f1
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,P Wilson,68304a36
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,SW Tait,addfb70e
+info,registry,people,TP Ludeman,c3f7898b

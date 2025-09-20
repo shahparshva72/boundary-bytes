@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2022/23
+info,date,2022/12/23
+info,event,Big Bash League
+info,match_number,12
+info,venue,"Junction Oval, Melbourne"
+info,city,Melbourne
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,JP Inglis
+info,umpire,P Wilson
+info,umpire,SA Lightbody
+info,reserve_umpire,L McCabe
+info,tv_umpire,Eloise Sheridan
+info,match_referee,RL Parry
+info,winner,Perth Scorchers
+info,winner_runs,61
+info,player,Perth Scorchers,A Lyth
+info,player,Perth Scorchers,F du Plessis
+info,player,Perth Scorchers,NR Hobson
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,P Hatzoglou
+info,player,Melbourne Stars,JM Clarke
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,NCR Larkin
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,C Kellaway
+info,player,Melbourne Stars,L Wood
+info,player,Melbourne Stars,NM Coulter-Nile
+info,player,Melbourne Stars,TA Boult
+info,player,Melbourne Stars,A Zampa
+info,registry,people,A Lyth,70b8fd28
+info,registry,people,A Zampa,14f96089
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,C Kellaway,60c28835
+info,registry,people,Eloise Sheridan,d8d43840
+info,registry,people,F du Plessis,3355b542
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,L McCabe,1dbc4a64
+info,registry,people,L Wood,65b6943c
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NCR Larkin,02bce9a8
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,P Hatzoglou,6f95e5fa
+info,registry,people,P Wilson,68304a36
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,TA Boult,a818c1be
+info,registry,people,TF Rogers,7f232d46

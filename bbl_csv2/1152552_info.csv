@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Brisbane Heat
+info,gender,male
+info,season,2018/19
+info,date,2019/01/27
+info,event,Big Bash League
+info,match_number,42
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,MP Stoinis
+info,umpire,GC Joshua
+info,umpire,SD Fry
+info,reserve_umpire,Mattis van Eck
+info,tv_umpire,PJ Gillespie
+info,match_referee,RW Stratford
+info,winner,Melbourne Stars
+info,winner_runs,5
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,NJ Maddinson
+info,player,Melbourne Stars,DJ Bravo
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,LE Plunkett
+info,player,Melbourne Stars,TL O'Connell
+info,player,Melbourne Stars,JM Bird
+info,player,Melbourne Stars,A Zampa
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,AI Ross
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JK Lalor
+info,player,Brisbane Heat,B Doggett
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,registry,people,A Zampa,14f96089
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,B Doggett,898e628d
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,LE Plunkett,9a963804
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,Mattis van Eck,bf1a68c1
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RW Stratford,85489579
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,TL O'Connell,859d95bb

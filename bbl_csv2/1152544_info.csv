@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2018/19
+info,date,2019/01/18
+info,event,Big Bash League
+info,match_number,34
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,GJ Bailey
+info,umpire,AK Wilds
+info,umpire,MW Graham-Smith
+info,reserve_umpire,T Steenholdt
+info,tv_umpire,NR Johnstone
+info,match_referee,SR Bernard
+info,winner,Hobart Hurricanes
+info,winner_wickets,4
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,HWR Cartwright
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,WG Bosisto
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,M Kelly
+info,player,Perth Scorchers,Usman Qadir
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,GJ Bailey
+info,player,Hobart Hurricanes,S Milenko
+info,player,Hobart Hurricanes,JP Faulkner
+info,player,Hobart Hurricanes,J Botha
+info,player,Hobart Hurricanes,JC Archer
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,DJM Moody
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AK Wilds,de412f40
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,DJM Moody,e1a867df
+info,registry,people,DJM Short,1a156c88
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,J Botha,7c503806
+info,registry,people,JC Archer,5574750c
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,M Kelly,68e26ec9
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NR Hobson,4312e0fd
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Milenko,479f9b04
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,SR Bernard,800187dc
+info,registry,people,T Steenholdt,715959cd
+info,registry,people,Usman Qadir,33742f04
+info,registry,people,WG Bosisto,04ef663a

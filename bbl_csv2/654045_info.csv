@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2013/14
+info,date,2013/12/29
+info,event,Big Bash League
+info,venue,Sydney Cricket Ground
+info,city,
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,GJ Maxwell
+info,umpire,AJ Barrow
+info,umpire,MW Graham-Smith
+info,reserve_umpire,AK Wilds
+info,tv_umpire,SD Fry
+info,match_referee,SR Bernard
+info,winner,Melbourne Stars
+info,winner_runs,77
+info,player,Melbourne Stars,CL White
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,MS Wade
+info,player,Melbourne Stars,BJ Hodge
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,CJ McKay
+info,player,Melbourne Stars,SL Malinga
+info,player,Melbourne Stars,JM Bird
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,MJ North
+info,player,Sydney Sixers,RS Bopara
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DLR Smith
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,B Lee
+info,player,Sydney Sixers,JK Lalor
+info,player,Sydney Sixers,JR Hazlewood
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AK Wilds,de412f40
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CJ McKay,94eac556
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DLR Smith,0c5c3a87
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,JW Hastings,012829ff
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,MJ North,99464591
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,RS Bopara,7ca5e05d
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SR Bernard,800187dc

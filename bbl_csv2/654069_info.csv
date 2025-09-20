@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Perth Scorchers
+info,gender,male
+info,season,2013/14
+info,date,2014/01/10
+info,event,Big Bash League
+info,venue,Sydney Cricket Ground
+info,city,
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,Yasir Arafat
+info,umpire,GA Abood
+info,umpire,SD Fry
+info,reserve_umpire,AK Wilds
+info,tv_umpire,AP Ward
+info,match_referee,D Talalla
+info,outcome,tie
+info,eliminator,Perth Scorchers
+info,player,Perth Scorchers,CJ Simmons
+info,player,Perth Scorchers,SM Katich
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,HWR Cartwright
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,Yasir Arafat
+info,player,Perth Scorchers,AC Thomas
+info,player,Perth Scorchers,GB Hogg
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,MJ North
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DLR Smith
+info,player,Sydney Sixers,B Lee
+info,player,Sydney Sixers,NM Lyon
+info,player,Sydney Sixers,CT Tremlett
+info,player,Sydney Sixers,JR Hazlewood
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AK Wilds,de412f40
+info,registry,people,AP Ward,196a3809
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,CJ Simmons,0095ce38
+info,registry,people,CT Tremlett,a72b14ff
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DLR Smith,0c5c3a87
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ North,99464591
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,Yasir Arafat,3cf5ae43

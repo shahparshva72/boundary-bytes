@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Melbourne Stars
+info,gender,male
+info,season,2016/17
+info,date,2017/01/04
+info,event,Big Bash League
+info,match_number,16
+info,venue,Sydney Showground Stadium
+info,city,
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,EJG Morgan
+info,umpire,GA Abood
+info,umpire,SD Fry
+info,reserve_umpire,BC Treloar
+info,tv_umpire,MW Graham-Smith
+info,match_referee,DJ Harper
+info,winner,Sydney Thunder
+info,winner_wickets,6
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,SB Harper
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,BW Hilfenhaus
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,MA Beer
+info,player,Sydney Thunder,KR Patterson
+info,player,Sydney Thunder,AC Blizzard
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,EJG Morgan
+info,player,Sydney Thunder,BJ Rohrer
+info,player,Sydney Thunder,PJ Cummins
+info,player,Sydney Thunder,AD Russell
+info,player,Sydney Thunder,JS Lenton
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,Fawad Ahmed
+info,registry,people,A Zampa,14f96089
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AD Russell,bbd41817
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JS Lenton,8820c9ef
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SM Boland,d167edd3
+info,registry,people,SR Watson,4329fbb5

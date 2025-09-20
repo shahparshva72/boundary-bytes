@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2022/23
+info,date,2022/12/23
+info,event,Big Bash League
+info,match_number,13
+info,venue,"Brisbane Cricket Ground, Woolloongabba, Brisbane"
+info,city,Brisbane
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,SW Billings
+info,umpire,GJ Davidson
+info,umpire,Sharad Patel
+info,reserve_umpire,J Adie
+info,tv_umpire,BNJ Oxenford
+info,match_referee,Kepler Wessels
+info,winner,Brisbane Heat
+info,winner_runs,6
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,C Munro
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,SW Billings
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,RA Whiteley
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Brisbane Heat,MJ Swepson
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,CA Lynn
+info,player,Adelaide Strikers,AJ Hose
+info,player,Adelaide Strikers,C de Grandhomme
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,HTRY Thornton
+info,player,Adelaide Strikers,PM Siddle
+info,registry,people,AJ Hose,104e88a4
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,C Munro,af2c687b
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HTRY Thornton,055be93a
+info,registry,people,J Adie,259c0030
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,Kepler Wessels,3bedaff0
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MT Steketee,903560ed
+info,registry,people,MW Short,a90e53ec
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RA Whiteley,d346d939
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SW Billings,c16d4035
+info,registry,people,Sharad Patel,8e6dd3ba
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,WA Agar,15de1f5d

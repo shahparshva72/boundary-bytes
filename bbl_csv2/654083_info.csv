@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Sydney Sixers
+info,gender,male
+info,season,2013/14
+info,date,2014/01/18
+info,event,Big Bash League
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,MC Henriques
+info,umpire,DB Mealey
+info,umpire,AP Ward
+info,tv_umpire,GA Abood
+info,match_referee,D Talalla
+info,winner,Sydney Sixers
+info,winner_runs,2
+info,player,Melbourne Renegades,DJ Harris
+info,player,Melbourne Renegades,MW Hill
+info,player,Melbourne Renegades,AJ Doolan
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,BJ Rohrer
+info,player,Melbourne Renegades,SF Mire
+info,player,Melbourne Renegades,PM Nevill
+info,player,Melbourne Renegades,AW O'Brien
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,MG Gale
+info,player,Melbourne Renegades,M Muralitharan
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,MJ North
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DLR Smith
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,B Lee
+info,player,Sydney Sixers,JR Hazlewood
+info,player,Sydney Sixers,NM Lyon
+info,registry,people,AJ Doolan,36eafb02
+info,registry,people,AP Ward,196a3809
+info,registry,people,AW O'Brien,d29be810
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DB Mealey,2199afd4
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Harris,39f82db3
+info,registry,people,DLR Smith,0c5c3a87
+info,registry,people,GA Abood,a4af5528
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JR Hazlewood,03806cf8
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MG Gale,9ef8ebb9
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,MJ North,99464591
+info,registry,people,MW Hill,1952e660
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,SF Mire,3300d23c
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SPD Smith,30a45b23

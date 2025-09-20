@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2011/12
+info,date,2011/12/28
+info,event,Big Bash League
+info,venue,Adelaide Oval
+info,city,
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,bat
+info,player_of_match,XJ Doherty
+info,umpire,GC Joshua
+info,umpire,JD Ward
+info,tv_umpire,SD Fry
+info,match_referee,DJ Harper
+info,winner,Hobart Hurricanes
+info,winner_runs,14
+info,player,Adelaide Strikers,AC Blizzard
+info,player,Adelaide Strikers,M Klinger
+info,player,Adelaide Strikers,AJ Crosthwaite
+info,player,Adelaide Strikers,CJ Ferguson
+info,player,Adelaide Strikers,CJ Borgas
+info,player,Adelaide Strikers,TLW Cooper
+info,player,Adelaide Strikers,J Botha
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,AW O'Brien
+info,player,Adelaide Strikers,AC Thomas
+info,player,Adelaide Strikers,BE McGain
+info,player,Hobart Hurricanes,JW Wells
+info,player,Hobart Hurricanes,PA Jaques
+info,player,Hobart Hurricanes,TR Birt
+info,player,Hobart Hurricanes,OA Shah
+info,player,Hobart Hurricanes,TIF Triffitt
+info,player,Hobart Hurricanes,MJ Johnston
+info,player,Hobart Hurricanes,RJG Lockyear
+info,player,Hobart Hurricanes,JJ Krejza
+info,player,Hobart Hurricanes,Naved-ul-Hasan
+info,player,Hobart Hurricanes,XJ Doherty
+info,player,Hobart Hurricanes,B Laughlin
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AJ Crosthwaite,0c8836b6
+info,registry,people,AW O'Brien,d29be810
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BE McGain,6d62117a
+info,registry,people,CJ Borgas,d901964b
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,J Botha,7c503806
+info,registry,people,JD Ward,511299c1
+info,registry,people,JJ Krejza,047d9032
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MJ Johnston,db2114f1
+info,registry,people,Naved-ul-Hasan,33f28243
+info,registry,people,OA Shah,7bf96684
+info,registry,people,PA Jaques,03252e44
+info,registry,people,RJG Lockyear,c8e7c983
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,TIF Triffitt,593513d5
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TR Birt,d2d4bb0a
+info,registry,people,XJ Doherty,502b2c81

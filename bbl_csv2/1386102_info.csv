@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Perth Scorchers
+info,gender,male
+info,season,2023/24
+info,date,2023/12/20
+info,event,Big Bash League
+info,match_number,9
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,bat
+info,player_of_match,JP Behrendorff
+info,umpire,MW Graham-Smith
+info,umpire,P Wilson
+info,reserve_umpire,Ashlee Gibbons
+info,tv_umpire,DM Koch
+info,match_referee,SD Fry
+info,winner,Perth Scorchers
+info,winner_wickets,9
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,SR Hain
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,CJ Anderson
+info,player,Hobart Hurricanes,Nikhil Chaudhary
+info,player,Hobart Hurricanes,MJ Owen
+info,player,Hobart Hurricanes,CJ Jordan
+info,player,Hobart Hurricanes,PG Dooley
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,B Stanlake
+info,player,Perth Scorchers,Z Crawley
+info,player,Perth Scorchers,C Connolly
+info,player,Perth Scorchers,AM Hardie
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,LJ Evans
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,LR Morris
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,AM Hardie,d405c0d5
+info,registry,people,Ashlee Gibbons,b81712f7
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,C Connolly,fe366f34
+info,registry,people,CJ Anderson,8abdf100
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,DM Koch,6d10c034
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JP Inglis,989889ff
+info,registry,people,LJ Evans,1c513d54
+info,registry,people,LR Morris,b08e58e2
+info,registry,people,MJ Owen,f2c936d7
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,Nikhil Chaudhary,1f84183a
+info,registry,people,P Wilson,68304a36
+info,registry,people,PG Dooley,5e3054d0
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SR Hain,67b9536c
+info,registry,people,TH David,f1f99156
+info,registry,people,Z Crawley,922e1b19

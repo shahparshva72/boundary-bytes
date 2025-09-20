@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2013/14
+info,date,2014/01/18
+info,event,Big Bash League
+info,venue,Adelaide Oval
+info,city,
+info,toss_winner,Brisbane Heat
+info,toss_decision,bat
+info,player_of_match,DL Vettori
+info,umpire,SJ Nogajski
+info,umpire,P Wilson
+info,reserve_umpire,L Uthenwoldt
+info,tv_umpire,IH Lock
+info,match_referee,DJ Harper
+info,winner,Brisbane Heat
+info,winner_runs,32
+info,player,Adelaide Strikers,M Klinger
+info,player,Adelaide Strikers,AD Hales
+info,player,Adelaide Strikers,JR Dean
+info,player,Adelaide Strikers,PJ Hughes
+info,player,Adelaide Strikers,NJ Reardon
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,J Botha
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,JM Holland
+info,player,Adelaide Strikers,SW Tait
+info,player,Brisbane Heat,C Kieswetter
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,LA Pomersbach
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,BR McDermott
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JR Hopes
+info,player,Brisbane Heat,DL Vettori
+info,player,Brisbane Heat,RJ Harris
+info,player,Brisbane Heat,CJ Gannon
+info,player,Brisbane Heat,MT Steketee
+info,registry,people,AD Hales,92aeac25
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,C Kieswetter,1e960f2a
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Gannon,519c30cb
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,IH Lock,a1b1e3c2
+info,registry,people,J Botha,7c503806
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JM Holland,70c4f525
+info,registry,people,JR Dean,97188292
+info,registry,people,JR Hopes,2498e163
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,L Uthenwoldt,021223ce
+info,registry,people,LA Pomersbach,b63ab531
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MG Neser,0164b064
+info,registry,people,MT Steketee,903560ed
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,P Wilson,68304a36
+info,registry,people,PJ Hughes,004c9e85
+info,registry,people,RJ Harris,12eddf28
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SW Tait,addfb70e
+info,registry,people,TP Ludeman,c3f7898b

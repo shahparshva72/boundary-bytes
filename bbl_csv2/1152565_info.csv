@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2018/19
+info,date,2019/02/09
+info,event,Big Bash League
+info,match_number,55
+info,venue,Manuka Oval
+info,city,Canberra
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,PJ Cummins
+info,umpire,P Wilson
+info,umpire,SA Lightbody
+info,reserve_umpire,Andrew Crozier
+info,tv_umpire,CA Polosak
+info,match_referee,DJ Harper
+info,winner,Sydney Thunder
+info,winner_wickets,4
+info,method,D/L
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,GJ Bailey
+info,player,Hobart Hurricanes,S Milenko
+info,player,Hobart Hurricanes,JC Archer
+info,player,Hobart Hurricanes,CA Rose
+info,player,Hobart Hurricanes,DJM Moody
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,Qais Ahmad
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,CJ Ferguson
+info,player,Sydney Thunder,AP Devcich
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,PJ Cummins
+info,player,Sydney Thunder,CJ Jordan
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,Fawad Ahmed
+info,registry,people,AP Devcich,ed90abe4
+info,registry,people,Andrew Crozier,00d07580
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,CA Rose,7517d134
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJM Moody,e1a867df
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,JC Archer,5574750c
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MS Wade,afa7e784
+info,registry,people,P Wilson,68304a36
+info,registry,people,PJ Cummins,ded9240e
+info,registry,people,Qais Ahmad,8d5d991e
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Milenko,479f9b04
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,UT Khawaja,331ea488

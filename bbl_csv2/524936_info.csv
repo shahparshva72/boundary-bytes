@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2011/12
+info,date,2012/01/10
+info,event,Big Bash League
+info,venue,Adelaide Oval
+info,city,
+info,toss_winner,Sydney Sixers
+info,toss_decision,bat
+info,player_of_match,SNJ O'Keefe
+info,umpire,AJ Barrow
+info,umpire,MD Martell
+info,tv_umpire,P Wilson
+info,match_referee,DJ Harper
+info,winner,Sydney Sixers
+info,winner_runs,64
+info,player,Adelaide Strikers,M Klinger
+info,player,Adelaide Strikers,DJ Harris
+info,player,Adelaide Strikers,AC Blizzard
+info,player,Adelaide Strikers,TLW Cooper
+info,player,Adelaide Strikers,CJ Borgas
+info,player,Adelaide Strikers,AW O'Brien
+info,player,Adelaide Strikers,AJ Crosthwaite
+info,player,Adelaide Strikers,BG Drew
+info,player,Adelaide Strikers,DR Salpietro
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,AC Thomas
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,BJ Rohrer
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,DJ Thornely
+info,player,Sydney Sixers,NL McCullum
+info,player,Sydney Sixers,PM Nevill
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,B Lee
+info,player,Sydney Sixers,SCG MacGill
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AJ Crosthwaite,0c8836b6
+info,registry,people,AW O'Brien,d29be810
+info,registry,people,B Lee,dd09ff8e
+info,registry,people,BG Drew,751f4b9b
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CJ Borgas,d901964b
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Harris,39f82db3
+info,registry,people,DJ Thornely,7d3937ed
+info,registry,people,DR Salpietro,a6ae5f7f
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MD Martell,487c072e
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NL McCullum,5673a3fc
+info,registry,people,P Wilson,68304a36
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,SCG MacGill,60dac349
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,TLW Cooper,2318ba22

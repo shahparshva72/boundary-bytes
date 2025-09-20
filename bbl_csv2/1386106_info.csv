@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2023/24
+info,date,2023/12/23
+info,event,Big Bash League
+info,match_number,13
+info,venue,"Bellerive Oval, Hobart"
+info,city,Hobart
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,MS Wade
+info,umpire,SJ Nogajski
+info,umpire,SA Lightbody
+info,reserve_umpire,Simon Burns
+info,tv_umpire,MW Graham-Smith
+info,match_referee,David Johnston
+info,winner,Hobart Hurricanes
+info,winner_wickets,6
+info,player,Melbourne Renegades,JM Clarke
+info,player,Melbourne Renegades,Q de Kock
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,NJ Maddinson
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,JW Wells
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,TS Rogers
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,A Zampa
+info,player,Melbourne Renegades,Mujeeb Ur Rahman
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,M Wright
+info,player,Hobart Hurricanes,SR Hain
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,CJ Anderson
+info,player,Hobart Hurricanes,Nikhil Chaudhary
+info,player,Hobart Hurricanes,CJ Jordan
+info,player,Hobart Hurricanes,PG Dooley
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,RP Meredith
+info,registry,people,A Zampa,14f96089
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,CJ Anderson,8abdf100
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,David Johnston,92cef862
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,JM Clarke,2eca67f5
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,M Wright,bd920a2c
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,Nikhil Chaudhary,1f84183a
+info,registry,people,PG Dooley,5e3054d0
+info,registry,people,Q de Kock,372455c4
+info,registry,people,RP Meredith,64775749
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SR Hain,67b9536c
+info,registry,people,Simon Burns,c0741b3f
+info,registry,people,TH David,f1f99156
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,W Sutherland,bc2d4f2e

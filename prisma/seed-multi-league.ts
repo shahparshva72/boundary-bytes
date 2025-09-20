@@ -7,7 +7,7 @@ const prisma = new PrismaClient();
 
 // League configuration
 interface LeagueConfig {
-  league: 'WPL' | 'IPL';
+  league: 'WPL' | 'IPL' | 'BBL';
   csvDirectory: string;
   defaultValues: {
     league: string;
@@ -27,6 +27,13 @@ const LEAGUE_CONFIGS: LeagueConfig[] = [
     csvDirectory: path.join(process.cwd(), 'ipl_csv2'),
     defaultValues: {
       league: 'IPL',
+    },
+  },
+  {
+    league: 'BBL',
+    csvDirectory: path.join(process.cwd(), 'bbl_csv2'),
+    defaultValues: {
+      league: 'BBL',
     },
   },
 ];
@@ -88,10 +95,10 @@ interface MatchInfo {
 
 async function main() {
   const args = process.argv.slice(2);
-  const targetLeague = args[0] as 'WPL' | 'IPL' | undefined;
+  const targetLeague = args[0] as 'WPL' | 'IPL' | 'BBL' | undefined;
 
-  if (targetLeague && !['WPL', 'IPL'].includes(targetLeague)) {
-    console.error('Invalid league. Use: WPL or IPL');
+  if (targetLeague && !['WPL', 'IPL', 'BBL'].includes(targetLeague)) {
+    console.error('Invalid league. Use: WPL or IPL or BBL');
     process.exit(1);
   }
 
@@ -102,6 +109,16 @@ async function main() {
   console.log('🌱 Starting multi-league seed process...');
 
   for (const config of configsToProcess) {
+    // Skip seeding for WPL/IPL/BBL if data already exists for that league
+    if (config.league === 'WPL' || config.league === 'IPL' || config.league === 'BBL') {
+      const existing = await prisma.wplMatch.findFirst({ where: { league: config.league } });
+      if (existing) {
+        console.log(
+          `⏭️  Skipping ${config.league} seeding: existing data found (match id ${existing.id}).`,
+        );
+        continue;
+      }
+    }
     console.log(`\n📊 Processing ${config.league} data from ${config.csvDirectory}`);
     await processLeague(config);
   }

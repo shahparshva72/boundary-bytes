@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2017/18
+info,date,2018/01/18
+info,event,Big Bash League
+info,match_number,32
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,SA Abbott
+info,umpire,GC Joshua
+info,umpire,MW Graham-Smith
+info,reserve_umpire,Troy Penman
+info,tv_umpire,DJ Shepard
+info,match_referee,DJ Harper
+info,winner,Sydney Sixers
+info,winner_wickets,9
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,BB McCullum
+info,player,Brisbane Heat,M Labuschagne
+info,player,Brisbane Heat,AI Ross
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JS Floros
+info,player,Brisbane Heat,JK Lalor
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,Yasir Shah
+info,player,Brisbane Heat,MJ Swepson
+info,player,Sydney Sixers,JL Denly
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,CR Brathwaite
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,PM Nevill
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,NM Lyon
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,BB McCullum,b8a55852
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Shepard,d3533ba5
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,J Botha,7c503806
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JL Denly,bdadf7da
+info,registry,people,JS Floros,79765f6f
+info,registry,people,M Labuschagne,fa433be6
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MT Steketee,903560ed
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,Troy Penman,0aa42c26
+info,registry,people,Yasir Shah,f2800ef3

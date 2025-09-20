@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Brisbane Heat
+info,gender,male
+info,season,2016/17
+info,date,2017/01/17
+info,event,Big Bash League
+info,match_number,28
+info,venue,Melbourne Cricket Ground
+info,city,
+info,toss_winner,Melbourne Stars
+info,toss_decision,bat
+info,player_of_match,MJ Swepson
+info,umpire,GA Abood
+info,umpire,MW Graham-Smith
+info,reserve_umpire,D Brigham
+info,tv_umpire,DJ Shepard
+info,match_referee,DJ Harper
+info,winner,Brisbane Heat
+info,winner_wickets,7
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,NJ Reardon
+info,player,Brisbane Heat,AI Ross
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,M Labuschagne
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JD Wildermuth
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,TS Mills
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,SE Gotch
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,BW Hilfenhaus
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,MA Beer
+info,registry,people,A Zampa,14f96089
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,D Brigham,464daf41
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DJ Shepard,d3533ba5
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,GA Abood,a4af5528
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,M Labuschagne,fa433be6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MT Steketee,903560ed
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,SE Gotch,9a0e4ca5
+info,registry,people,SM Boland,d167edd3
+info,registry,people,TS Mills,245c97cb

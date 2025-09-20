@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2021/22
+info,date,2021/12/29
+info,event,Big Bash League
+info,match_number,26
+info,venue,"Docklands Stadium, Melbourne"
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,BR McDermott
+info,umpire,MW Graham-Smith
+info,umpire,AK Wilds
+info,reserve_umpire,D Brigham
+info,tv_umpire,NR Johnstone
+info,match_referee,RL Parry
+info,winner,Hobart Hurricanes
+info,winner_runs,85
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,HC Brook
+info,player,Hobart Hurricanes,PSP Handscomb
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,JA Thompson
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,TS Rogers
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Hobart Hurricanes,S Lamichhane
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,NJ Maddinson
+info,player,Melbourne Renegades,MW Harvey
+info,player,Melbourne Renegades,J Fraser-McGurk
+info,player,Melbourne Renegades,Mohammad Nabi
+info,player,Melbourne Renegades,JA Prestwidge
+info,player,Melbourne Renegades,JL Pattinson
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,RJW Topley
+info,player,Melbourne Renegades,Zahir Khan
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,D Brigham,464daf41
+info,registry,people,DJM Short,1a156c88
+info,registry,people,HC Brook,4ae1755b
+info,registry,people,J Fraser-McGurk,9b6e1b3f
+info,registry,people,JA Prestwidge,5f317fd4
+info,registry,people,JA Thompson,1d2f290a
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,MW Harvey,47dc9794
+info,registry,people,Mohammad Nabi,62af8546
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RJW Topley,8db7f47f
+info,registry,people,RL Parry,86d151dc
+info,registry,people,RP Meredith,64775749
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SB Harper,a756e61a
+info,registry,people,TH David,f1f99156
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,Zahir Khan,786b7fe8

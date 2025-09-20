@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2018/19
+info,date,2019/01/06
+info,event,Big Bash League
+info,match_number,22
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,JL Denly
+info,umpire,MW Graham-Smith
+info,umpire,GA Abood
+info,reserve_umpire,Harsimran Singh
+info,tv_umpire,SJ Nogajski
+info,match_referee,DJ Harper
+info,winner,Sydney Sixers
+info,winner_wickets,6
+info,player,Adelaide Strikers,AT Carey
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,CA Ingram
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,C Valente
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,LN O'Connor
+info,player,Adelaide Strikers,B Stanlake
+info,player,Sydney Sixers,JL Denly
+info,player,Sydney Sixers,J Avendano
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,BAD Manenti
+info,registry,people,AT Carey,69d03465
+info,registry,people,B Stanlake,6834d1f2
+info,registry,people,BAD Manenti,ab21795b
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,C Valente,137e7065
+info,registry,people,CA Ingram,c995d726
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,GA Abood,a4af5528
+info,registry,people,Harsimran Singh,bf4720ce
+info,registry,people,J Avendano,0af4a90b
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JL Denly,bdadf7da
+info,registry,people,JR Philippe,39086549
+info,registry,people,JW Wells,8bdac857
+info,registry,people,LN O'Connor,5456bd0c
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MG Neser,0164b064
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,MW Short,a90e53ec
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,TK Curran,e86754b2

@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Renegades
+info,team,Brisbane Heat
+info,gender,male
+info,season,2013/14
+info,date,2013/12/30
+info,event,Big Bash League
+info,venue,Docklands Stadium
+info,city,Melbourne
+info,toss_winner,Melbourne Renegades
+info,toss_decision,bat
+info,player_of_match,AJ Finch
+info,umpire,GC Joshua
+info,umpire,SJ Nogajski
+info,reserve_umpire,PJ Gillespie
+info,tv_umpire,GA Abood
+info,match_referee,RW Stratford
+info,winner,Melbourne Renegades
+info,winner_runs,57
+info,player,Brisbane Heat,LA Pomersbach
+info,player,Brisbane Heat,C Kieswetter
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,DT Christian
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,PJ Forrest
+info,player,Brisbane Heat,DL Vettori
+info,player,Brisbane Heat,NM Hauritz
+info,player,Brisbane Heat,CJ Gannon
+info,player,Brisbane Heat,AC McDermott
+info,player,Melbourne Renegades,AJ Doolan
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,JC Buttler
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,BJ Rohrer
+info,player,Melbourne Renegades,PM Nevill
+info,player,Melbourne Renegades,NJ Rimmington
+info,player,Melbourne Renegades,JL Pattinson
+info,player,Melbourne Renegades,AW O'Brien
+info,player,Melbourne Renegades,AL Fekete
+info,player,Melbourne Renegades,M Muralitharan
+info,registry,people,AC McDermott,956887b2
+info,registry,people,AJ Doolan,36eafb02
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AL Fekete,029c4618
+info,registry,people,AW O'Brien,d29be810
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,C Kieswetter,1e960f2a
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Gannon,519c30cb
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,LA Pomersbach,b63ab531
+info,registry,people,M Muralitharan,4ba44e19
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,NM Hauritz,8ea6e670
+info,registry,people,PJ Forrest,56c205b7
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,RW Stratford,85489579
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,TLW Cooper,2318ba22

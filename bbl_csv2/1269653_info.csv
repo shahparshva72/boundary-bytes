@@ -1,0 +1,71 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2021/22
+info,date,2021/12/21
+info,event,Big Bash League
+info,match_number,16
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,SA Abbott
+info,umpire,BNJ Oxenford
+info,umpire,D Taylor
+info,reserve_umpire,Troy Penman
+info,tv_umpire,GJ Davidson
+info,match_referee,SR Bernard
+info,winner,Sydney Sixers
+info,winner_wickets,4
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,MT Renshaw
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,GHS Garton
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,DJ Worrall
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,Fawad Ahmed
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,CJ Jordan
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,L Pope
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GHS Garton,be869ccf
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,H Kerr,f422728b
+info,registry,people,HJ Hunt,62ef4abe
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,JW Wells,8bdac857
+info,registry,people,L Pope,616a8149
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,MW Short,a90e53ec
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SR Bernard,800187dc
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,Troy Penman,0aa42c26

@@ -1,0 +1,68 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Sydney Sixers
+info,gender,male
+info,season,2022/23
+info,date,2023/01/04
+info,event,Big Bash League
+info,match_number,28
+info,venue,"North Sydney Oval, Sydney"
+info,city,Sydney
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,umpire,SJ Nogajski
+info,umpire,Troy Penman
+info,reserve_umpire,Roberto Howard
+info,tv_umpire,SA Lightbody
+info,match_referee,Dave Gilbert
+info,outcome,no result
+info,player,Brisbane Heat,C Munro
+info,player,Brisbane Heat,J Brown
+info,player,Brisbane Heat,SW Billings
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,RA Whiteley
+info,player,Brisbane Heat,NA McSweeney
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Brisbane Heat,MJ Swepson
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,H Kerr
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,CJ Jordan
+info,player,Sydney Sixers,SNJ O'Keefe
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,C Munro,af2c687b
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,Dave Gilbert,aa782370
+info,registry,people,H Kerr,f422728b
+info,registry,people,J Brown,647e7d44
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MT Steketee,903560ed
+info,registry,people,NA McSweeney,e94d2d50
+info,registry,people,RA Whiteley,d346d939
+info,registry,people,Roberto Howard,eec90c4b
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SW Billings,c16d4035
+info,registry,people,Troy Penman,0aa42c26

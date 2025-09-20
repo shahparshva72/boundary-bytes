@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2022/23
+info,date,2023/01/10
+info,event,Big Bash League
+info,match_number,36
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Melbourne Renegades
+info,toss_decision,field
+info,player_of_match,CA Lynn
+info,umpire,CA Polosak
+info,umpire,SAJ Craig
+info,reserve_umpire,D Bhatt
+info,tv_umpire,SJ Nogajski
+info,match_referee,SD Fry
+info,winner,Adelaide Strikers
+info,winner_runs,20
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,RJ Gibson
+info,player,Adelaide Strikers,CA Lynn
+info,player,Adelaide Strikers,AJ Hose
+info,player,Adelaide Strikers,C de Grandhomme
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,BAD Manenti
+info,player,Adelaide Strikers,CJ Boyce
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,HNA Conway
+info,player,Melbourne Renegades,MJ Guptill
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,SB Harper
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,JW Wells
+info,player,Melbourne Renegades,MJJ Critchley
+info,player,Melbourne Renegades,W Sutherland
+info,player,Melbourne Renegades,RP Kellepotha
+info,player,Melbourne Renegades,TS Rogers
+info,player,Melbourne Renegades,KW Richardson
+info,player,Melbourne Renegades,DJM Moody
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,AJ Hose,104e88a4
+info,registry,people,BAD Manenti,ab21795b
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,D Bhatt,b34f743c
+info,registry,people,DJM Moody,e1a867df
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HNA Conway,272fc5ad
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,MJ Guptill,2be41edb
+info,registry,people,MJJ Critchley,c5cc48bc
+info,registry,people,MS Harris,9e85455c
+info,registry,people,MW Short,a90e53ec
+info,registry,people,RJ Gibson,50636767
+info,registry,people,RP Kellepotha,d13d1dd0
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,TS Rogers,1b04e02b
+info,registry,people,W Sutherland,bc2d4f2e
+info,registry,people,WA Agar,15de1f5d

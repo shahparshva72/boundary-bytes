@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2022/23
+info,date,2022/12/20
+info,event,Big Bash League
+info,match_number,9
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,MW Short
+info,umpire,GA Abood
+info,umpire,SAJ Craig
+info,reserve_umpire,D Bhatt
+info,tv_umpire,Eloise Sheridan
+info,match_referee,Kepler Wessels
+info,winner,Adelaide Strikers
+info,winner_wickets,6
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,RR Rossouw
+info,player,Sydney Thunder,O Davies
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,N McAndrew
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,B Doggett
+info,player,Sydney Thunder,Fazalhaq Farooqi
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,CA Lynn
+info,player,Adelaide Strikers,AJ Hose
+info,player,Adelaide Strikers,C de Grandhomme
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,HTRY Thornton
+info,player,Adelaide Strikers,PM Siddle
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Hose,104e88a4
+info,registry,people,B Doggett,898e628d
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Green,19b9f399
+info,registry,people,D Bhatt,b34f743c
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,Eloise Sheridan,d8d43840
+info,registry,people,Fazalhaq Farooqi,e9c7f0d0
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HTRY Thornton,055be93a
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,Kepler Wessels,3bedaff0
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MW Short,a90e53ec
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,O Davies,0ea54eca
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RR Rossouw,cad00a4d
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,WA Agar,15de1f5d

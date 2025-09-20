@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2023/24
+info,date,2024/01/11
+info,event,Big Bash League
+info,match_number,33
+info,venue,"Bellerive Oval, Hobart"
+info,city,Hobart
+info,toss_winner,Adelaide Strikers
+info,toss_decision,field
+info,player_of_match,J Weatherald
+info,umpire,SJ Nogajski
+info,umpire,Sharad Patel
+info,reserve_umpire,Simon Burns
+info,tv_umpire,BNJ Oxenford
+info,match_referee,David Johnston
+info,winner,Adelaide Strikers
+info,winner_wickets,8
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,MS Wade
+info,player,Hobart Hurricanes,M Wright
+info,player,Hobart Hurricanes,CP Jewell
+info,player,Hobart Hurricanes,Nikhil Chaudhary
+info,player,Hobart Hurricanes,TH David
+info,player,Hobart Hurricanes,CJ Anderson
+info,player,Hobart Hurricanes,CJ Jordan
+info,player,Hobart Hurricanes,PG Dooley
+info,player,Hobart Hurricanes,NT Ellis
+info,player,Hobart Hurricanes,RP Meredith
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,DJM Short
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,AJ Hose
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,J Overton
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,HTRY Thornton
+info,player,Adelaide Strikers,DA Payne
+info,player,Adelaide Strikers,CJ Boyce
+info,player,Adelaide Strikers,L Pope
+info,registry,people,AJ Hose,104e88a4
+info,registry,people,BNJ Oxenford,c1add349
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CJ Anderson,8abdf100
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CP Jewell,806c4e58
+info,registry,people,DA Payne,6c79c098
+info,registry,people,DJM Short,1a156c88
+info,registry,people,David Johnston,92cef862
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HTRY Thornton,055be93a
+info,registry,people,J Overton,59559bc2
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,L Pope,616a8149
+info,registry,people,M Wright,bd920a2c
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Short,a90e53ec
+info,registry,people,NT Ellis,9eb1455b
+info,registry,people,Nikhil Chaudhary,1f84183a
+info,registry,people,PG Dooley,5e3054d0
+info,registry,people,RP Meredith,64775749
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,Sharad Patel,8e6dd3ba
+info,registry,people,Simon Burns,c0741b3f
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,TH David,f1f99156

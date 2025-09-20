@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2016/17
+info,date,2017/01/01
+info,event,Big Bash League
+info,match_number,12
+info,venue,Melbourne Cricket Ground
+info,city,
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,GB Hogg
+info,umpire,SAJ Craig
+info,umpire,GC Joshua
+info,reserve_umpire,D Ireland
+info,tv_umpire,SJ Nogajski
+info,match_referee,SR Bernard
+info,winner,Melbourne Renegades
+info,winner_runs,7
+info,method,D/L
+info,player,Melbourne Renegades,SP Narine
+info,player,Melbourne Renegades,AJ Finch
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,TL Lawford
+info,player,Melbourne Renegades,CJ Ferguson
+info,player,Melbourne Renegades,PM Nevill
+info,player,Melbourne Renegades,CP Tremain
+info,player,Melbourne Renegades,CAH Stevenson
+info,player,Melbourne Renegades,GB Hogg
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,SB Harper
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,BW Hilfenhaus
+info,player,Melbourne Stars,SM Boland
+info,player,Melbourne Stars,MA Beer
+info,registry,people,A Zampa,14f96089
+info,registry,people,AJ Finch,b8d490fd
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,CAH Stevenson,7239b60d
+info,registry,people,CJ Ferguson,9b4935c8
+info,registry,people,CL White,d0513f63
+info,registry,people,CP Tremain,96824e68
+info,registry,people,D Ireland,9b4fc7b9
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MS Harris,9e85455c
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SM Boland,d167edd3
+info,registry,people,SP Narine,9d430b40
+info,registry,people,SR Bernard,800187dc
+info,registry,people,TL Lawford,e01b6c44
+info,registry,people,TLW Cooper,2318ba22

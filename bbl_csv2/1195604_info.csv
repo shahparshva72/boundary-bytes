@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Brisbane Heat
+info,gender,male
+info,season,2019/20
+info,date,2020/01/11
+info,event,Big Bash League
+info,match_number,32
+info,venue,Perth Stadium
+info,city,Perth
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,MR Marsh
+info,umpire,JD Ward
+info,umpire,GC Joshua
+info,reserve_umpire,NR Johnstone
+info,tv_umpire,GJ Davidson
+info,match_referee,SR Bernard
+info,winner,Perth Scorchers
+info,winner_runs,34
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,LS Livingstone
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,C Green
+info,player,Perth Scorchers,TH David
+info,player,Perth Scorchers,CJ Jordan
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,JS Paris
+info,player,Perth Scorchers,Fawad Ahmed
+info,player,Brisbane Heat,T Banton
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JL Pattinson
+info,player,Brisbane Heat,JK Lalor
+info,player,Brisbane Heat,B Laughlin
+info,player,Brisbane Heat,Zahir Khan
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,C Green,eaa76d3c
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Jordan,ffe699c0
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JD Ward,511299c1
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,JP Inglis,989889ff
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,LS Livingstone,50c6bc2b
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,NR Johnstone,ce274b6a
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,SR Bernard,800187dc
+info,registry,people,T Banton,25f7b7d6
+info,registry,people,TH David,f1f99156
+info,registry,people,Zahir Khan,786b7fe8

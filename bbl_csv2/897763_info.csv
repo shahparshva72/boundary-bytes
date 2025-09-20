@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Thunder
+info,gender,male
+info,season,2015/16
+info,date,2016/01/24
+info,event,Big Bash League
+info,venue,Melbourne Cricket Ground
+info,city,
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,UT Khawaja
+info,umpire,SD Fry
+info,umpire,SJ Nogajski
+info,reserve_umpire,PJ Gillespie
+info,tv_umpire,GC Joshua
+info,match_referee,RW Stratford
+info,winner,Sydney Thunder
+info,winner_wickets,3
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,KP Pietersen
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,BW Hilfenhaus
+info,player,Melbourne Stars,DJ Worrall
+info,player,Melbourne Stars,MA Beer
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,JH Kallis
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,MEK Hussey
+info,player,Sydney Thunder,AD Russell
+info,player,Sydney Thunder,BJ Rohrer
+info,player,Sydney Thunder,AC Blizzard
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,CD Hartley
+info,player,Sydney Thunder,CJ McKay
+info,player,Sydney Thunder,Fawad Ahmed
+info,registry,people,A Zampa,14f96089
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AD Russell,bbd41817
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,CD Hartley,9a06679d
+info,registry,people,CJ Green,19b9f399
+info,registry,people,CJ McKay,94eac556
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,JH Kallis,86dc8f2e
+info,registry,people,KP Pietersen,39f01cdb
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,RW Stratford,85489579
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,UT Khawaja,331ea488

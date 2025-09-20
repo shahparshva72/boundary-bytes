@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Perth Scorchers
+info,gender,male
+info,season,2016/17
+info,date,2017/01/21
+info,event,Big Bash League
+info,match_number,31
+info,venue,Bellerive Oval
+info,city,Hobart
+info,toss_winner,Perth Scorchers
+info,toss_decision,field
+info,player_of_match,SE Marsh
+info,umpire,GA Abood
+info,umpire,MW Graham-Smith
+info,reserve_umpire,DM Koch
+info,tv_umpire,DB Mealey
+info,match_referee,DJ Harper
+info,winner,Perth Scorchers
+info,winner_wickets,7
+info,player,Hobart Hurricanes,TD Paine
+info,player,Hobart Hurricanes,DJM Short
+info,player,Hobart Hurricanes,BR McDermott
+info,player,Hobart Hurricanes,GJ Bailey
+info,player,Hobart Hurricanes,DT Christian
+info,player,Hobart Hurricanes,JW Wells
+info,player,Hobart Hurricanes,BJ Webster
+info,player,Hobart Hurricanes,CA Rose
+info,player,Hobart Hurricanes,CJ Boyce
+info,player,Hobart Hurricanes,SCJ Broad
+info,player,Hobart Hurricanes,JK Reed
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,MG Johnson
+info,player,Perth Scorchers,HWR Cartwright
+info,player,Perth Scorchers,TT Bresnan
+info,player,Perth Scorchers,IR Bell
+info,registry,people,AC Agar,a2421394
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,BR McDermott,c41043e6
+info,registry,people,CA Rose,7517d134
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,DB Mealey,2199afd4
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DM Koch,6d10c034
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,IR Bell,33155d1b
+info,registry,people,JK Reed,a8ad6e80
+info,registry,people,JW Wells,8bdac857
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,SCJ Broad,eba6a852
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,TD Paine,5748e866
+info,registry,people,TT Bresnan,58043739

@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Sixers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2017/18
+info,date,2018/01/23
+info,event,Big Bash League
+info,match_number,36
+info,venue,Sydney Cricket Ground
+info,city,Sydney
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,JL Denly
+info,umpire,PJ Gillespie
+info,umpire,AK Wilds
+info,reserve_umpire,Troy Penman
+info,tv_umpire,GA Abood
+info,match_referee,RL Parry
+info,winner,Sydney Sixers
+info,winner_wickets,5
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,SE Gotch
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,EP Gulbis
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,MA Beer
+info,player,Melbourne Stars,DJ Worrall
+info,player,Melbourne Stars,L Bowe
+info,player,Sydney Sixers,JL Denly
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,CR Brathwaite
+info,player,Sydney Sixers,PM Nevill
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,NM Lyon
+info,registry,people,AK Wilds,de412f40
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,EP Gulbis,bbce4647
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,J Botha,7c503806
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JL Denly,bdadf7da
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JW Hastings,012829ff
+info,registry,people,L Bowe,a5b71472
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,RL Parry,86d151dc
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SE Gotch,9a0e4ca5
+info,registry,people,Troy Penman,0aa42c26

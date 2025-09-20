@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Sixers
+info,gender,male
+info,season,2018/19
+info,date,2019/02/10
+info,event,Big Bash League
+info,match_number,56
+info,venue,Melbourne Cricket Ground
+info,city,Melbourne
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,GJ Maxwell
+info,umpire,GA Abood
+info,umpire,SJ Nogajski
+info,reserve_umpire,D Ireland
+info,tv_umpire,GC Joshua
+info,match_referee,D Talalla
+info,winner,Melbourne Stars
+info,winner_runs,94
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,NJ Maddinson
+info,player,Melbourne Stars,DJ Bravo
+info,player,Melbourne Stars,SE Gotch
+info,player,Melbourne Stars,JM Bird
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,S Lamichhane
+info,player,Melbourne Stars,DJ Worrall
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,NM Lyon
+info,player,Sydney Sixers,L Pope
+info,registry,people,A Zampa,14f96089
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,BR Dunk,272d796e
+info,registry,people,D Ireland,9b4fc7b9
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,L Pope,616a8149
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SE Gotch,9a0e4ca5
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,TK Curran,e86754b2

@@ -1,0 +1,68 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Melbourne Stars
+info,gender,male
+info,season,2023/24
+info,date,2023/12/07
+info,event,Big Bash League
+info,match_number,1
+info,venue,"Brisbane Cricket Ground, Woolloongabba, Brisbane"
+info,city,Brisbane
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,C Munro
+info,umpire,GA Abood
+info,umpire,P Wilson
+info,tv_umpire,SAJ Craig
+info,match_referee,Kepler Wessels
+info,winner,Brisbane Heat
+info,winner_runs,103
+info,player,Brisbane Heat,UT Khawaja
+info,player,Brisbane Heat,C Munro
+info,player,Brisbane Heat,M Labuschagne
+info,player,Brisbane Heat,SW Billings
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,PI Walter
+info,player,Brisbane Heat,MG Neser
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,SH Johnson
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,MP Kuhnemann
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,SB Harper
+info,player,Melbourne Stars,JA Burns
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,LA Dawson
+info,player,Melbourne Stars,Usama Mir
+info,player,Melbourne Stars,JS Paris
+info,player,Melbourne Stars,OP Stone
+info,player,Melbourne Stars,NM Coulter-Nile
+info,registry,people,C Munro,af2c687b
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,Kepler Wessels,3bedaff0
+info,registry,people,LA Dawson,4a461c24
+info,registry,people,M Bryant,f32012f4
+info,registry,people,M Labuschagne,fa433be6
+info,registry,people,MG Neser,0164b064
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Kuhnemann,7b953689
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,OP Stone,3f659464
+info,registry,people,P Wilson,68304a36
+info,registry,people,PI Walter,57590dbb
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SH Johnson,83c3e8e3
+info,registry,people,SW Billings,c16d4035
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,UT Khawaja,331ea488
+info,registry,people,Usama Mir,6dd8b88c
+info,registry,people,XC Bartlett,3b53243a

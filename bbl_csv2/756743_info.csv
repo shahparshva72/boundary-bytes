@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Adelaide Strikers
+info,gender,male
+info,season,2014/15
+info,date,2014/12/22
+info,event,Big Bash League
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Perth Scorchers
+info,toss_decision,bat
+info,player_of_match,JP Behrendorff
+info,umpire,AJ Barrow
+info,umpire,GJ Davidson
+info,tv_umpire,MD Martell
+info,match_referee,PL Marshall
+info,winner,Adelaide Strikers
+info,winner_wickets,1
+info,player,Adelaide Strikers,TP Ludeman
+info,player,Adelaide Strikers,CJ Simmons
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,BJ Hodge
+info,player,Adelaide Strikers,KA Pollard
+info,player,Adelaide Strikers,J Botha
+info,player,Adelaide Strikers,AI Ross
+info,player,Adelaide Strikers,TL Lawford
+info,player,Adelaide Strikers,KW Richardson
+info,player,Adelaide Strikers,A Zampa
+info,player,Adelaide Strikers,B Laughlin
+info,player,Perth Scorchers,MA Carberry
+info,player,Perth Scorchers,MS Harris
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,SM Whiteman
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,Yasir Arafat
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,JM Muirhead
+info,registry,people,A Zampa,14f96089
+info,registry,people,AC Agar,a2421394
+info,registry,people,AC Voges,864c199e
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CJ Simmons,0095ce38
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,J Botha,7c503806
+info,registry,people,JM Muirhead,52f08be8
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,KW Richardson,dfc4d8b5
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MA Carberry,8305580c
+info,registry,people,MD Martell,487c072e
+info,registry,people,MS Harris,9e85455c
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,SM Whiteman,f4427cc6
+info,registry,people,TL Lawford,e01b6c44
+info,registry,people,TM Head,12b610c2
+info,registry,people,TP Ludeman,c3f7898b
+info,registry,people,Yasir Arafat,3cf5ae43

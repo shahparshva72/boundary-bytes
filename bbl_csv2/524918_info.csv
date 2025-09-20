@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Hobart Hurricanes
+info,gender,male
+info,season,2011/12
+info,date,2011/12/18
+info,event,Big Bash League
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,bat
+info,player_of_match,BW Hilfenhaus
+info,umpire,GA Abood
+info,umpire,AP Ward
+info,tv_umpire,RL Parry
+info,match_referee,RJ Evans (2)
+info,winner,Hobart Hurricanes
+info,winner_runs,31
+info,player,Hobart Hurricanes,PA Jaques
+info,player,Hobart Hurricanes,RT Ponting
+info,player,Hobart Hurricanes,TR Birt
+info,player,Hobart Hurricanes,OA Shah
+info,player,Hobart Hurricanes,TIF Triffitt
+info,player,Hobart Hurricanes,RJG Lockyear
+info,player,Hobart Hurricanes,JJ Krejza
+info,player,Hobart Hurricanes,Naved-ul-Hasan
+info,player,Hobart Hurricanes,XJ Doherty
+info,player,Hobart Hurricanes,BW Hilfenhaus
+info,player,Hobart Hurricanes,B Laughlin
+info,player,Perth Scorchers,HH Gibbs
+info,player,Perth Scorchers,MJ North
+info,player,Perth Scorchers,SM Katich
+info,player,Perth Scorchers,MEK Hussey
+info,player,Perth Scorchers,PD Collingwood
+info,player,Perth Scorchers,MR Marsh
+info,player,Perth Scorchers,L Ronchi
+info,player,Perth Scorchers,GB Hogg
+info,player,Perth Scorchers,NJ Rimmington
+info,player,Perth Scorchers,MA Beer
+info,player,Perth Scorchers,BM Edmondson
+info,registry,people,AP Ward,196a3809
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BM Edmondson,b0b320a0
+info,registry,people,BW Hilfenhaus,f3171936
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,JJ Krejza,047d9032
+info,registry,people,L Ronchi,0fa5042b
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MJ North,99464591
+info,registry,people,MR Marsh,3d8feaf8
+info,registry,people,NJ Rimmington,6042bf26
+info,registry,people,Naved-ul-Hasan,33f28243
+info,registry,people,OA Shah,7bf96684
+info,registry,people,PA Jaques,03252e44
+info,registry,people,PD Collingwood,a386e91b
+info,registry,people,RJ Evans (2),d5fc9e42
+info,registry,people,RJG Lockyear,c8e7c983
+info,registry,people,RL Parry,86d151dc
+info,registry,people,RT Ponting,7d415ea5
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,TIF Triffitt,593513d5
+info,registry,people,TR Birt,d2d4bb0a
+info,registry,people,XJ Doherty,502b2c81

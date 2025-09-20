@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2015/16
+info,date,2016/01/02
+info,event,Big Bash League
+info,match_number,17
+info,venue,Western Australia Cricket Association Ground
+info,city,Perth
+info,toss_winner,Sydney Sixers
+info,toss_decision,bat
+info,player_of_match,DJ Willey
+info,umpire,AJ Barrow
+info,umpire,P Wilson
+info,reserve_umpire,T Steenholdt
+info,tv_umpire,GJ Davidson
+info,match_referee,D Talalla
+info,winner,Perth Scorchers
+info,winner_wickets,9
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,MS Harris
+info,player,Perth Scorchers,CT Bancroft
+info,player,Perth Scorchers,AC Agar
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,DJ Willey
+info,player,Perth Scorchers,JS Paris
+info,player,Perth Scorchers,JP Behrendorff
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,GB Hogg
+info,player,Sydney Sixers,EJM Cowan
+info,player,Sydney Sixers,MJ Lumb
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,RGL Carters
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,DE Bollinger
+info,player,Sydney Sixers,JM Bird
+info,player,Sydney Sixers,WER Somerville
+info,registry,people,AC Agar,a2421394
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,CT Bancroft,399b0b94
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DJ Willey,7f048519
+info,registry,people,EJM Cowan,fee3c48a
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,J Botha,7c503806
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JP Behrendorff,4933f499
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MJ Lumb,11df3dc8
+info,registry,people,MS Harris,9e85455c
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,P Wilson,68304a36
+info,registry,people,RGL Carters,f54c8804
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,T Steenholdt,715959cd
+info,registry,people,WER Somerville,74a1c1e3

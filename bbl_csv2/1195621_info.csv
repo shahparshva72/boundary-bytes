@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Sydney Sixers
+info,gender,male
+info,season,2019/20
+info,date,2020/01/23
+info,event,Big Bash League
+info,match_number,49
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,SNJ O'Keefe
+info,umpire,PJ Gillespie
+info,umpire,GC Joshua
+info,reserve_umpire,SE Dionysius
+info,tv_umpire,SAJ Craig
+info,match_referee,D Talalla
+info,winner,Sydney Sixers
+info,winner_wickets,8
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,AB de Villiers
+info,player,Brisbane Heat,M Labuschagne
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JL Pattinson
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,B Laughlin
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,SPD Smith
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,TK Curran
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,NM Lyon
+info,player,Sydney Sixers,JM Bird
+info,player,Sydney Sixers,SNJ O'Keefe
+info,registry,people,AB de Villiers,c4487b84
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,D Talalla,dcfe6cdd
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JL Pattinson,f752db61
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,M Labuschagne,fa433be6
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,NM Lyon,96a6a7ad
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,SE Dionysius,ac886e6f
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SPD Smith,30a45b23
+info,registry,people,TK Curran,e86754b2

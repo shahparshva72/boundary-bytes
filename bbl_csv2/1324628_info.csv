@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Sydney Thunder
+info,gender,male
+info,season,2022/23
+info,date,2022/12/16
+info,event,Big Bash League
+info,match_number,5
+info,venue,Sydney Showground Stadium
+info,city,Sydney
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,HTRY Thornton
+info,umpire,SJ Nogajski
+info,umpire,SA Lightbody
+info,reserve_umpire,CA Polosak
+info,tv_umpire,D Taylor
+info,match_referee,SR Bernard
+info,winner,Adelaide Strikers
+info,winner_runs,124
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,CA Lynn
+info,player,Adelaide Strikers,AJ Hose
+info,player,Adelaide Strikers,C de Grandhomme
+info,player,Adelaide Strikers,T Kelly
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,HTRY Thornton
+info,player,Adelaide Strikers,PM Siddle
+info,player,Sydney Thunder,AD Hales
+info,player,Sydney Thunder,M Gilkes
+info,player,Sydney Thunder,RR Rossouw
+info,player,Sydney Thunder,JJS Sangha
+info,player,Sydney Thunder,AI Ross
+info,player,Sydney Thunder,DR Sams
+info,player,Sydney Thunder,O Davies
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,B Doggett
+info,player,Sydney Thunder,Fazalhaq Farooqi
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AI Ross,fb0d68b4
+info,registry,people,AJ Hose,104e88a4
+info,registry,people,B Doggett,898e628d
+info,registry,people,C de Grandhomme,94d7f855
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CA Polosak,26a360d2
+info,registry,people,CJ Green,19b9f399
+info,registry,people,D Taylor,b940a2b2
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,Fazalhaq Farooqi,e9c7f0d0
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HTRY Thornton,055be93a
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JJS Sangha,8e3cb0e9
+info,registry,people,M Gilkes,d85b0f8b
+info,registry,people,MW Short,a90e53ec
+info,registry,people,O Davies,0ea54eca
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RR Rossouw,cad00a4d
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SJ Nogajski,9b3f9323
+info,registry,people,SR Bernard,800187dc
+info,registry,people,T Kelly,6ceb94d0
+info,registry,people,WA Agar,15de1f5d

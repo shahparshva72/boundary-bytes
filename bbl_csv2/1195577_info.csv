@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Melbourne Stars
+info,gender,male
+info,season,2019/20
+info,date,2019/12/20
+info,event,Big Bash League
+info,match_number,5
+info,venue,Carrara Oval
+info,city,Carrara
+info,toss_winner,Brisbane Heat
+info,toss_decision,field
+info,player_of_match,GJ Maxwell
+info,umpire,JD Ward
+info,umpire,SA Lightbody
+info,reserve_umpire,Steven Farrell
+info,tv_umpire,PJ Gillespie
+info,match_referee,RW Stratford
+info,winner,Melbourne Stars
+info,winner_runs,22
+info,player,Melbourne Stars,NJ Maddinson
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,PSP Handscomb
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,BR Dunk
+info,player,Melbourne Stars,CD Hinchliffe
+info,player,Melbourne Stars,A Zampa
+info,player,Melbourne Stars,DJ Worrall
+info,player,Melbourne Stars,Haris Rauf
+info,player,Melbourne Stars,S Lamichhane
+info,player,Brisbane Heat,T Banton
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,MT Renshaw
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,SD Heazlett
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,JK Lalor
+info,player,Brisbane Heat,MJ Swepson
+info,player,Brisbane Heat,B Laughlin
+info,player,Brisbane Heat,Zahir Khan
+info,registry,people,A Zampa,14f96089
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CD Hinchliffe,8891669e
+info,registry,people,DJ Worrall,208f22ea
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Haris Rauf,24bb1c2f
+info,registry,people,JD Ward,511299c1
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Lalor,88209c84
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MJ Swepson,86b4bf88
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MT Renshaw,218d4d78
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PSP Handscomb,ada15e88
+info,registry,people,RW Stratford,85489579
+info,registry,people,S Lamichhane,b410bd3d
+info,registry,people,SA Lightbody,680b8cbf
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,Steven Farrell,512226fb
+info,registry,people,T Banton,25f7b7d6
+info,registry,people,Zahir Khan,786b7fe8

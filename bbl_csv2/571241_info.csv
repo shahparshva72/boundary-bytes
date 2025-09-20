@@ -1,0 +1,68 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Perth Scorchers
+info,gender,male
+info,season,2012/13
+info,date,2012/12/18
+info,event,Big Bash League
+info,venue,"Brisbane Cricket Ground, Woolloongabba"
+info,city,Brisbane
+info,toss_winner,Perth Scorchers
+info,toss_decision,field
+info,player_of_match,NM Coulter-Nile
+info,umpire,DB Mealey
+info,umpire,PR Reiffel
+info,tv_umpire,AP Ward
+info,match_referee,D Levens
+info,winner,Perth Scorchers
+info,winner_wickets,9
+info,method,D/L
+info,player,Brisbane Heat,JR Hopes
+info,player,Brisbane Heat,LA Pomersbach
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,DT Christian
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,PJ Forrest
+info,player,Brisbane Heat,NLTC Perera
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,CD Hartley
+info,player,Brisbane Heat,NM Hauritz
+info,player,Brisbane Heat,KAJ Roach
+info,player,Perth Scorchers,SE Marsh
+info,player,Perth Scorchers,HH Gibbs
+info,player,Perth Scorchers,NM Coulter-Nile
+info,player,Perth Scorchers,SM Katich
+info,player,Perth Scorchers,MP Stoinis
+info,player,Perth Scorchers,HWR Cartwright
+info,player,Perth Scorchers,TIF Triffitt
+info,player,Perth Scorchers,MJ North
+info,player,Perth Scorchers,AC Thomas
+info,player,Perth Scorchers,GB Hogg
+info,player,Perth Scorchers,MA Beer
+info,registry,people,AC Thomas,b552a935
+info,registry,people,AP Ward,196a3809
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CD Hartley,9a06679d
+info,registry,people,D Levens,8fc718ea
+info,registry,people,DB Mealey,2199afd4
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GB Hogg,f708a0bc
+info,registry,people,HH Gibbs,e1d1b294
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JR Hopes,2498e163
+info,registry,people,KAJ Roach,78eb4223
+info,registry,people,LA Pomersbach,b63ab531
+info,registry,people,MA Beer,f60dc2a5
+info,registry,people,MJ North,99464591
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,NLTC Perera,0f12f9df
+info,registry,people,NM Coulter-Nile,56ab442f
+info,registry,people,NM Hauritz,8ea6e670
+info,registry,people,PJ Forrest,56c205b7
+info,registry,people,PR Reiffel,c9354f29
+info,registry,people,SE Marsh,508a1ea7
+info,registry,people,SM Katich,fdedb37c
+info,registry,people,TIF Triffitt,593513d5

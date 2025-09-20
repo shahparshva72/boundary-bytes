@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Brisbane Heat
+info,team,Sydney Sixers
+info,gender,male
+info,season,2020/21
+info,date,2021/01/10
+info,event,Big Bash League
+info,match_number,35
+info,venue,Carrara Oval
+info,city,Carrara
+info,toss_winner,Sydney Sixers
+info,toss_decision,field
+info,player_of_match,DT Christian
+info,umpire,GJ Davidson
+info,umpire,AK Wilds
+info,reserve_umpire,PJ Gillespie
+info,tv_umpire,GA Abood
+info,match_referee,RW Stratford
+info,winner,Sydney Sixers
+info,winner_wickets,3
+info,player,Brisbane Heat,M Bryant
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,JL Denly
+info,player,Brisbane Heat,JA Burns
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,L Gregory
+info,player,Brisbane Heat,JJ Bazley
+info,player,Brisbane Heat,JD Wildermuth
+info,player,Brisbane Heat,MT Steketee
+info,player,Brisbane Heat,XC Bartlett
+info,player,Brisbane Heat,Mujeeb Ur Rahman
+info,player,Sydney Sixers,JR Philippe
+info,player,Sydney Sixers,J Edwards
+info,player,Sydney Sixers,JM Vince
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,DT Christian
+info,player,Sydney Sixers,CR Brathwaite
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,JM Bird
+info,player,Sydney Sixers,JT Ball
+info,player,Sydney Sixers,L Pope
+info,registry,people,AK Wilds,de412f40
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CR Brathwaite,e342e5fb
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,J Edwards,f787e0eb
+info,registry,people,JA Burns,7a5f232a
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JL Denly,bdadf7da
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JM Vince,a15618fe
+info,registry,people,JR Philippe,39086549
+info,registry,people,JT Ball,3d0ed2f9
+info,registry,people,L Gregory,06c2de82
+info,registry,people,L Pope,616a8149
+info,registry,people,M Bryant,f32012f4
+info,registry,people,MT Steketee,903560ed
+info,registry,people,Mujeeb Ur Rahman,7d92277a
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,RW Stratford,85489579
+info,registry,people,SD Heazlett,e00a9155
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,XC Bartlett,3b53243a

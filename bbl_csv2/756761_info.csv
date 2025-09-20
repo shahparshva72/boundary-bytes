@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Hobart Hurricanes
+info,team,Brisbane Heat
+info,gender,male
+info,season,2014/15
+info,date,2015/01/02
+info,event,Big Bash League
+info,venue,Bellerive Oval
+info,city,Hobart
+info,toss_winner,Hobart Hurricanes
+info,toss_decision,field
+info,player_of_match,TD Paine
+info,umpire,AJ Barrow
+info,umpire,JD Ward
+info,tv_umpire,SD Fry
+info,match_referee,DJ Harper
+info,winner,Hobart Hurricanes
+info,winner_wickets,6
+info,player,Brisbane Heat,JJ Peirson
+info,player,Brisbane Heat,PJ Forrest
+info,player,Brisbane Heat,CA Lynn
+info,player,Brisbane Heat,DT Christian
+info,player,Brisbane Heat,NJ Reardon
+info,player,Brisbane Heat,BCJ Cutting
+info,player,Brisbane Heat,JS Floros
+info,player,Brisbane Heat,A Flintoff
+info,player,Brisbane Heat,JR Hopes
+info,player,Brisbane Heat,DL Vettori
+info,player,Brisbane Heat,RM Duffield
+info,player,Hobart Hurricanes,BR Dunk
+info,player,Hobart Hurricanes,TD Paine
+info,player,Hobart Hurricanes,AD Hales
+info,player,Hobart Hurricanes,TR Birt
+info,player,Hobart Hurricanes,GJ Bailey
+info,player,Hobart Hurricanes,DJG Sammy
+info,player,Hobart Hurricanes,JW Wells
+info,player,Hobart Hurricanes,JM Mennie
+info,player,Hobart Hurricanes,CJ Boyce
+info,player,Hobart Hurricanes,XJ Doherty
+info,player,Hobart Hurricanes,JK Reed
+info,registry,people,A Flintoff,ddc0828d
+info,registry,people,AD Hales,92aeac25
+info,registry,people,AJ Barrow,a67aa9df
+info,registry,people,BCJ Cutting,2e11c706
+info,registry,people,BR Dunk,272d796e
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJG Sammy,c03c6200
+info,registry,people,DL Vettori,d7c6af50
+info,registry,people,DT Christian,2a2e6343
+info,registry,people,GJ Bailey,5056011d
+info,registry,people,JD Ward,511299c1
+info,registry,people,JJ Peirson,2b55c3b4
+info,registry,people,JK Reed,a8ad6e80
+info,registry,people,JM Mennie,f048bb41
+info,registry,people,JR Hopes,2498e163
+info,registry,people,JS Floros,79765f6f
+info,registry,people,JW Wells,8bdac857
+info,registry,people,NJ Reardon,c7bdb5b5
+info,registry,people,PJ Forrest,56c205b7
+info,registry,people,RM Duffield,7da44536
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,TD Paine,5748e866
+info,registry,people,TR Birt,d2d4bb0a
+info,registry,people,XJ Doherty,502b2c81

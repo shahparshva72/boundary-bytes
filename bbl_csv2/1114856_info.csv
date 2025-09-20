@@ -1,0 +1,71 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Sydney Sixers
+info,gender,male
+info,season,2017/18
+info,date,2017/12/19
+info,event,Big Bash League
+info,match_number,1
+info,venue,Sydney Showground Stadium
+info,city,Sydney
+info,toss_winner,Sydney Thunder
+info,toss_decision,field
+info,player_of_match,SR Watson
+info,umpire,PJ Gillespie
+info,umpire,GA Abood
+info,reserve_umpire,BC Treloar
+info,tv_umpire,AK Wilds
+info,match_referee,SR Bernard
+info,winner,Sydney Thunder
+info,winner_wickets,5
+info,player,Sydney Sixers,JJ Roy
+info,player,Sydney Sixers,DP Hughes
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,MC Henriques
+info,player,Sydney Sixers,SW Billings
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,PM Nevill
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,DR Sams
+info,player,Sydney Sixers,DE Bollinger
+info,player,Sydney Thunder,KR Patterson
+info,player,Sydney Thunder,JC Buttler
+info,player,Sydney Thunder,SR Watson
+info,player,Sydney Thunder,BJ Rohrer
+info,player,Sydney Thunder,RJ Gibson
+info,player,Sydney Thunder,AJ Nair
+info,player,Sydney Thunder,AC Blizzard
+info,player,Sydney Thunder,Fawad Ahmed
+info,player,Sydney Thunder,AL Fekete
+info,player,Sydney Thunder,CJ Green
+info,player,Sydney Thunder,MJ McClenaghan
+info,registry,people,AC Blizzard,1efb8a28
+info,registry,people,AJ Nair,4ba2c04d
+info,registry,people,AK Wilds,de412f40
+info,registry,people,AL Fekete,029c4618
+info,registry,people,BC Treloar,f7e8ee52
+info,registry,people,BJ Rohrer,27af6414
+info,registry,people,CJ Green,19b9f399
+info,registry,people,DE Bollinger,45c2196c
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,Fawad Ahmed,22ae3041
+info,registry,people,GA Abood,a4af5528
+info,registry,people,J Botha,7c503806
+info,registry,people,JC Buttler,99b75528
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,MC Henriques,32198ae0
+info,registry,people,MJ McClenaghan,51a3c5ef
+info,registry,people,N McAndrew,38c276e1
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,RJ Gibson,50636767
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SR Bernard,800187dc
+info,registry,people,SR Watson,4329fbb5
+info,registry,people,SW Billings,c16d4035

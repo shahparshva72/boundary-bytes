@@ -1,0 +1,67 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Melbourne Stars
+info,team,Sydney Thunder
+info,gender,male
+info,season,2012/13
+info,date,2013/01/08
+info,event,Big Bash League
+info,venue,Melbourne Cricket Ground
+info,city,
+info,toss_winner,Melbourne Stars
+info,toss_decision,bat
+info,player_of_match,CH Gayle
+info,umpire,GC Joshua
+info,umpire,MD Martell
+info,tv_umpire,IH Lock
+info,match_referee,RW Stratford
+info,winner,Melbourne Stars
+info,winner_runs,13
+info,player,Melbourne Stars,RJ Quiney
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,BJ Hodge
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,CL White
+info,player,Melbourne Stars,JP Faulkner
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,AD Mascarenhas
+info,player,Melbourne Stars,CJ McKay
+info,player,Melbourne Stars,JM Bird
+info,player,Sydney Thunder,CH Gayle
+info,player,Sydney Thunder,SJC Keen
+info,player,Sydney Thunder,MJ Prior
+info,player,Sydney Thunder,UT Khawaja
+info,player,Sydney Thunder,SA Abbott
+info,player,Sydney Thunder,MJ Cosgrove
+info,player,Sydney Thunder,RGL Carters
+info,player,Sydney Thunder,A Zampa
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,LA Doran
+info,player,Sydney Thunder,DP Nannes
+info,registry,people,A Zampa,14f96089
+info,registry,people,AD Mascarenhas,3edb58fc
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CH Gayle,db584dad
+info,registry,people,CJ McKay,94eac556
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,GC Joshua,4c47ebf2
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,IH Lock,a1b1e3c2
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JP Faulkner,808f425a
+info,registry,people,JW Hastings,012829ff
+info,registry,people,LA Doran,f201593c
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,MD Martell,487c072e
+info,registry,people,MJ Cosgrove,be768595
+info,registry,people,MJ Prior,1200550f
+info,registry,people,RGL Carters,f54c8804
+info,registry,people,RJ Quiney,23ac69e6
+info,registry,people,RW Stratford,85489579
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SJC Keen,e3882f9a
+info,registry,people,UT Khawaja,331ea488

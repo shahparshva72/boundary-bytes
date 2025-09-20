@@ -1,0 +1,70 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Perth Scorchers
+info,team,Sydney Sixers
+info,gender,male
+info,season,2017/18
+info,date,2018/01/01
+info,event,Big Bash League
+info,match_number,14
+info,venue,W.A.C.A. Ground
+info,city,Perth
+info,toss_winner,Perth Scorchers
+info,toss_decision,field
+info,player_of_match,M Klinger
+info,umpire,JD Ward
+info,umpire,DM Koch
+info,reserve_umpire,T Steenholdt
+info,tv_umpire,SAJ Craig
+info,match_referee,PL Marshall
+info,winner,Perth Scorchers
+info,winner_wickets,6
+info,player,Sydney Sixers,JJ Roy
+info,player,Sydney Sixers,PM Nevill
+info,player,Sydney Sixers,NJ Maddinson
+info,player,Sydney Sixers,JC Silk
+info,player,Sydney Sixers,SW Billings
+info,player,Sydney Sixers,BJ Dwarshuis
+info,player,Sydney Sixers,J Botha
+info,player,Sydney Sixers,SNJ O'Keefe
+info,player,Sydney Sixers,SA Abbott
+info,player,Sydney Sixers,DR Sams
+info,player,Sydney Sixers,WER Somerville
+info,player,Perth Scorchers,DJ Willey
+info,player,Perth Scorchers,M Klinger
+info,player,Perth Scorchers,HWR Cartwright
+info,player,Perth Scorchers,AJ Turner
+info,player,Perth Scorchers,TH David
+info,player,Perth Scorchers,AC Voges
+info,player,Perth Scorchers,JP Inglis
+info,player,Perth Scorchers,JA Richardson
+info,player,Perth Scorchers,AJ Tye
+info,player,Perth Scorchers,JM Muirhead
+info,player,Perth Scorchers,MG Johnson
+info,registry,people,AC Voges,864c199e
+info,registry,people,AJ Turner,ff1e12a0
+info,registry,people,AJ Tye,7c7d63a2
+info,registry,people,BJ Dwarshuis,e1b9f3a9
+info,registry,people,DJ Willey,7f048519
+info,registry,people,DM Koch,6d10c034
+info,registry,people,DR Sams,caf69bf7
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,J Botha,7c503806
+info,registry,people,JA Richardson,1ee08e9a
+info,registry,people,JC Silk,7a6dc294
+info,registry,people,JD Ward,511299c1
+info,registry,people,JJ Roy,d1c36f5c
+info,registry,people,JM Muirhead,52f08be8
+info,registry,people,JP Inglis,989889ff
+info,registry,people,M Klinger,b970a03f
+info,registry,people,MG Johnson,f5180fe6
+info,registry,people,NJ Maddinson,44afbf2d
+info,registry,people,PL Marshall,c1ca6df3
+info,registry,people,PM Nevill,a22fb7b5
+info,registry,people,SA Abbott,1a2676c5
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SNJ O'Keefe,3540beff
+info,registry,people,SW Billings,c16d4035
+info,registry,people,T Steenholdt,715959cd
+info,registry,people,TH David,f1f99156
+info,registry,people,WER Somerville,74a1c1e3

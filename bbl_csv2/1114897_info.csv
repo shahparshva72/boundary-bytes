@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Renegades
+info,gender,male
+info,season,2017/18
+info,date,2018/02/02
+info,event,Big Bash League
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Adelaide Strikers
+info,toss_decision,bat
+info,player_of_match,TM Head
+info,umpire,PJ Gillespie
+info,umpire,SAJ Craig
+info,reserve_umpire,L Uthenwoldt
+info,tv_umpire,GJ Davidson
+info,match_referee,RW Stratford
+info,winner,Adelaide Strikers
+info,winner_runs,1
+info,player,Adelaide Strikers,JR Dean
+info,player,Adelaide Strikers,J Weatherald
+info,player,Adelaide Strikers,TM Head
+info,player,Adelaide Strikers,CA Ingram
+info,player,Adelaide Strikers,JW Wells
+info,player,Adelaide Strikers,JS Lehmann
+info,player,Adelaide Strikers,MG Neser
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,Rashid Khan
+info,player,Adelaide Strikers,PM Siddle
+info,player,Adelaide Strikers,B Laughlin
+info,player,Melbourne Renegades,CL White
+info,player,Melbourne Renegades,MS Harris
+info,player,Melbourne Renegades,TP Ludeman
+info,player,Melbourne Renegades,TLW Cooper
+info,player,Melbourne Renegades,DJ Bravo
+info,player,Melbourne Renegades,KA Pollard
+info,player,Melbourne Renegades,JD Wildermuth
+info,player,Melbourne Renegades,BJ Webster
+info,player,Melbourne Renegades,CP Tremain
+info,player,Melbourne Renegades,JM Mennie
+info,player,Melbourne Renegades,JM Holland
+info,registry,people,B Laughlin,b2a79f17
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,CA Ingram,c995d726
+info,registry,people,CL White,d0513f63
+info,registry,people,CP Tremain,96824e68
+info,registry,people,DJ Bravo,87e562a9
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,J Weatherald,edc7ddb6
+info,registry,people,JD Wildermuth,f1c61793
+info,registry,people,JM Holland,70c4f525
+info,registry,people,JM Mennie,f048bb41
+info,registry,people,JR Dean,97188292
+info,registry,people,JS Lehmann,c96a215f
+info,registry,people,JW Wells,8bdac857
+info,registry,people,KA Pollard,a757b0d8
+info,registry,people,L Uthenwoldt,021223ce
+info,registry,people,MG Neser,0164b064
+info,registry,people,MS Harris,9e85455c
+info,registry,people,PJ Gillespie,3e253a50
+info,registry,people,PM Siddle,bd93fea4
+info,registry,people,RW Stratford,85489579
+info,registry,people,Rashid Khan,5f547c8b
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,TLW Cooper,2318ba22
+info,registry,people,TM Head,12b610c2
+info,registry,people,TP Ludeman,c3f7898b

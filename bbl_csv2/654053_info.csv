@@ -1,0 +1,69 @@
+version,2.1.0
+info,balls_per_over,6
+info,team,Sydney Thunder
+info,team,Melbourne Stars
+info,gender,male
+info,season,2013/14
+info,date,2014/01/01
+info,event,Big Bash League
+info,venue,Stadium Australia
+info,city,Sydney
+info,toss_winner,Sydney Thunder
+info,toss_decision,bat
+info,player_of_match,BJ Hodge
+info,umpire,GA Abood
+info,umpire,MW Graham-Smith
+info,reserve_umpire,GJ Davidson
+info,tv_umpire,SD Fry
+info,match_referee,DJ Harper
+info,winner,Melbourne Stars
+info,winner_wickets,7
+info,player,Melbourne Stars,LJ Wright
+info,player,Melbourne Stars,CL White
+info,player,Melbourne Stars,MS Wade
+info,player,Melbourne Stars,BJ Hodge
+info,player,Melbourne Stars,DJ Hussey
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,JW Hastings
+info,player,Melbourne Stars,SL Malinga
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,CJ McKay
+info,player,Melbourne Stars,JM Bird
+info,player,Sydney Thunder,DP Hughes
+info,player,Sydney Thunder,TM Dilshan
+info,player,Sydney Thunder,MEK Hussey
+info,player,Sydney Thunder,EJG Morgan
+info,player,Sydney Thunder,KR Patterson
+info,player,Sydney Thunder,JS Floros
+info,player,Sydney Thunder,RGL Carters
+info,player,Sydney Thunder,SJ Coyte (2)
+info,player,Sydney Thunder,GS Sandhu
+info,player,Sydney Thunder,LW Feldman
+info,player,Sydney Thunder,DP Nannes
+info,registry,people,BJ Hodge,b57f8a9a
+info,registry,people,CJ McKay,94eac556
+info,registry,people,CL White,d0513f63
+info,registry,people,DJ Harper,0ec08b27
+info,registry,people,DJ Hussey,fd835ab3
+info,registry,people,DP Hughes,f3982af9
+info,registry,people,DP Nannes,c404f58a
+info,registry,people,EJG Morgan,d2a6c0e6
+info,registry,people,GA Abood,a4af5528
+info,registry,people,GJ Davidson,31ad5973
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,GS Sandhu,1558d83b
+info,registry,people,JM Bird,bc773eeb
+info,registry,people,JS Floros,79765f6f
+info,registry,people,JW Hastings,012829ff
+info,registry,people,KR Patterson,e3bf8356
+info,registry,people,LJ Wright,cca50cd6
+info,registry,people,LW Feldman,da13a0fc
+info,registry,people,MEK Hussey,48fd7349
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MS Wade,afa7e784
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,RGL Carters,f54c8804
+info,registry,people,SD Fry,6b725ed1
+info,registry,people,SJ Coyte (2),36769c31
+info,registry,people,SL Malinga,a12e1d51
+info,registry,people,TM Dilshan,5bdcdb72

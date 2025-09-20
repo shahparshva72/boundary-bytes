@@ -1,0 +1,70 @@
+version,2.2.0
+info,balls_per_over,6
+info,team,Adelaide Strikers
+info,team,Melbourne Stars
+info,gender,male
+info,season,2023/24
+info,date,2023/12/31
+info,event,Big Bash League
+info,match_number,20
+info,venue,Adelaide Oval
+info,city,Adelaide
+info,toss_winner,Melbourne Stars
+info,toss_decision,field
+info,player_of_match,MP Stoinis
+info,umpire,MW Graham-Smith
+info,umpire,SAJ Craig
+info,reserve_umpire,Eloise Sheridan
+info,tv_umpire,DM Koch
+info,match_referee,SJ Davis
+info,winner,Melbourne Stars
+info,winner_wickets,7
+info,player,Adelaide Strikers,MW Short
+info,player,Adelaide Strikers,DJM Short
+info,player,Adelaide Strikers,CA Lynn
+info,player,Adelaide Strikers,AJ Hose
+info,player,Adelaide Strikers,J Overton
+info,player,Adelaide Strikers,HJ Nielsen
+info,player,Adelaide Strikers,BAD Manenti
+info,player,Adelaide Strikers,JJ Bazley
+info,player,Adelaide Strikers,WA Agar
+info,player,Adelaide Strikers,B Doggett
+info,player,Adelaide Strikers,CJ Boyce
+info,player,Melbourne Stars,TF Rogers
+info,player,Melbourne Stars,DW Lawrence
+info,player,Melbourne Stars,BJ Webster
+info,player,Melbourne Stars,GJ Maxwell
+info,player,Melbourne Stars,MP Stoinis
+info,player,Melbourne Stars,HWR Cartwright
+info,player,Melbourne Stars,Imad Wasim
+info,player,Melbourne Stars,SB Harper
+info,player,Melbourne Stars,JS Paris
+info,player,Melbourne Stars,CJ Rocchiccioli
+info,player,Melbourne Stars,MT Steketee
+info,registry,people,AJ Hose,104e88a4
+info,registry,people,B Doggett,898e628d
+info,registry,people,BAD Manenti,ab21795b
+info,registry,people,BJ Webster,56b93d46
+info,registry,people,CA Lynn,45eda7c8
+info,registry,people,CJ Boyce,51a60c16
+info,registry,people,CJ Rocchiccioli,aa3c7a7a
+info,registry,people,DJM Short,1a156c88
+info,registry,people,DM Koch,6d10c034
+info,registry,people,DW Lawrence,4b685e2d
+info,registry,people,Eloise Sheridan,d8d43840
+info,registry,people,GJ Maxwell,b681e71e
+info,registry,people,HJ Nielsen,0ea1455a
+info,registry,people,HWR Cartwright,ab965cad
+info,registry,people,Imad Wasim,9cb8d7a6
+info,registry,people,J Overton,59559bc2
+info,registry,people,JJ Bazley,003d49e6
+info,registry,people,JS Paris,7c8f533d
+info,registry,people,MP Stoinis,d9273ee7
+info,registry,people,MT Steketee,903560ed
+info,registry,people,MW Graham-Smith,18aca3ce
+info,registry,people,MW Short,a90e53ec
+info,registry,people,SAJ Craig,689f2eed
+info,registry,people,SB Harper,a756e61a
+info,registry,people,SJ Davis,bc71b0b2
+info,registry,people,TF Rogers,7f232d46
+info,registry,people,WA Agar,15de1f5d
