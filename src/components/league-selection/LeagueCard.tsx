@@ -110,19 +110,25 @@ const LeagueCard: React.FC<LeagueCardProps> = ({ league, config, onSelect, delay
 
       {/* Statistics Grid */}
       <div id={`${league}-stats`} className="grid grid-cols-3 gap-3 sm:gap-4">
-        <div className="bg-white border-2 border-black p-3 text-center">
-          <div className="text-2xl sm:text-3xl font-black text-black">{config.stats.teams}</div>
-          <div className="text-sm font-bold text-black uppercase">Teams</div>
+        <div className="bg-white border-2 border-black p-3 text-center flex flex-col items-center justify-center min-h-24">
+          <div className="text-xl sm:text-3xl md:text-4xl font-black text-black leading-none tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">
+            {config.stats.teams}
+          </div>
+          <div className="mt-1 text-[10px] sm:text-xs font-bold text-black uppercase">Teams</div>
         </div>
 
-        <div className="bg-white border-2 border-black p-3 text-center">
-          <div className="text-2xl sm:text-3xl font-black text-black">{config.stats.matches}</div>
-          <div className="text-sm font-bold text-black uppercase">Matches</div>
+        <div className="bg-white border-2 border-black p-3 text-center flex flex-col items-center justify-center min-h-24">
+          <div className="text-xl sm:text-3xl md:text-4xl font-black text-black leading-none tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">
+            {config.stats.matches}
+          </div>
+          <div className="mt-1 text-[10px] sm:text-xs font-bold text-black uppercase">Matches</div>
         </div>
 
-        <div className="bg-white border-2 border-black p-3 text-center">
-          <div className="text-2xl sm:text-3xl font-black text-black">{config.stats.players}</div>
-          <div className="text-sm font-bold text-black uppercase">Players</div>
+        <div className="bg-white border-2 border-black p-3 text-center flex flex-col items-center justify-center min-h-24">
+          <div className="text-xl sm:text-3xl md:text-4xl font-black text-black leading-none tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">
+            {config.stats.players}
+          </div>
+          <div className="mt-1 text-[10px] sm:text-xs font-bold text-black uppercase">Players</div>
         </div>
       </div>
 
