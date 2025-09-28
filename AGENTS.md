@@ -9,7 +9,7 @@
 - Format: `npm run format`
 - Database seed: `npm run db:seed` (or league-specific: `npm run seed:wpl`, `npm run seed:ipl`)
 - Database backfill: `npm run backfill` (or league-specific: `npm run backfill:wpl`, `npm run backfill:ipl`, `npm run backfill:bbl`)
-- To run a single test: Use `npm run lint` and `npm run typecheck` for code quality checks. There are no explicit unit test scripts.
+- Testing: This project does not have a dedicated test script. For code quality checks, run `npm run lint` and `npm run typecheck`.
 
 ## Code Style
 
