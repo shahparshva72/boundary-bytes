@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useQueryState } from 'nuqs';
+import { parseAsInteger } from 'nuqs';
 import { useRunScorers } from '@/hooks/useStatsAPI';
 import { MoonLoader } from 'react-spinners';
 import Pagination from './Pagination';
@@ -17,7 +18,10 @@ interface RunScorerData {
 }
 
 export default function RunScorers() {
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useQueryState(
+    'runScorersPage',
+    parseAsInteger.withDefault(1).withOptions({ clearOnDefault: true }),
+  );
 
   const { data, isLoading } = useRunScorers(currentPage);
 
