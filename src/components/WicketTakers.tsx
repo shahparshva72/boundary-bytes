@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useQueryState } from 'nuqs';
+import { parseAsInteger } from 'nuqs';
 import { useWicketTakers } from '@/hooks/useStatsAPI';
 import { MoonLoader } from 'react-spinners';
 import Pagination from './Pagination';
@@ -16,7 +17,10 @@ interface WicketTakerData {
 }
 
 export default function WicketTakers() {
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useQueryState(
+    'wicketTakersPage',
+    parseAsInteger.withDefault(1).withOptions({ clearOnDefault: true }),
+  );
 
   const { data, isLoading } = useWicketTakers(currentPage);
 

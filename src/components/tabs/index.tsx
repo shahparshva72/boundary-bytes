@@ -1,5 +1,7 @@
 'use client';
-import { useState, ReactNode } from 'react';
+import { useQueryState } from 'nuqs';
+import { parseAsString } from 'nuqs';
+import { ReactNode } from 'react';
 
 interface TabProps {
   label: string;
@@ -8,10 +10,15 @@ interface TabProps {
 
 interface TabsProps {
   children: Array<React.ReactElement<TabProps>>;
+  defaultTab?: string;
 }
 
-const Tabs = ({ children }: TabsProps) => {
-  const [activeTab, setActiveTab] = useState(children[0].props.label);
+const Tabs = ({ children, defaultTab = 'Batter vs Bowler' }: TabsProps) => {
+  const firstTabLabel = defaultTab || children[0]?.props.label || '';
+  const [activeTab, setActiveTab] = useQueryState(
+    'tab',
+    parseAsString.withDefault(firstTabLabel).withOptions({ clearOnDefault: true }),
+  );
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>, newActiveTab: string) => {
     e.preventDefault();
@@ -20,7 +27,7 @@ const Tabs = ({ children }: TabsProps) => {
 
   return (
     <div className="w-full">
-      <div className="flex border-4 border-black bg-white shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] rounded-none">
+      <div className="flex border-4 border-black bg-white shadow-[12px_0px_0px_rgba(0,0,0,1)] rounded-none">
         {children.map((child) => (
           <button
             key={child.props.label}
@@ -35,7 +42,7 @@ const Tabs = ({ children }: TabsProps) => {
           </button>
         ))}
       </div>
-      <div className="py-8 bg-white border-4 border-t-0 border-black rounded-none shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] min-h-[200px]">
+      <div className="py-8 bg-white border-4 border-t-0 border-black rounded-none shadow-[12px_0px_0px_rgba(0,0,0,1)] min-h-[200px]">
         {children.map((child) => {
           if (child.props.label === activeTab) {
             return <div key={child.props.label}>{child.props.children}</div>;

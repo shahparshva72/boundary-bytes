@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useQueryState } from 'nuqs';
+import { parseAsInteger } from 'nuqs';
 import { useBowlingWicketTypes } from '@/hooks/useStatsAPI';
 import { MoonLoader } from 'react-spinners';
 import Pagination from './Pagination';
@@ -20,7 +21,10 @@ interface BowlingWicketTypesData {
 }
 
 export default function BowlingWicketTypes() {
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useQueryState(
+    'bowlingWicketTypesPage',
+    parseAsInteger.withDefault(1).withOptions({ clearOnDefault: true }),
+  );
 
   const { data, isLoading } = useBowlingWicketTypes(currentPage);
 

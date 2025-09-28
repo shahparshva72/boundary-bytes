@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useQueryState } from 'nuqs';
+import { parseAsString } from 'nuqs';
 import { useMatchup } from '@/hooks/useStatsAPI';
 import { MoonLoader } from 'react-spinners';
 import dynamic from 'next/dynamic';
@@ -13,12 +14,22 @@ interface MatchupProps {
 }
 
 export default function Matchup({ batters, bowlers }: MatchupProps) {
-  const [selectedBatter, setSelectedBatter] = useState<{ value: string; label: string } | null>(
-    null,
+  const [selectedBatterValue, setSelectedBatterValue] = useQueryState(
+    'batter',
+    parseAsString.withOptions({ clearOnDefault: true }),
   );
-  const [selectedBowler, setSelectedBowler] = useState<{ value: string; label: string } | null>(
-    null,
+  const [selectedBowlerValue, setSelectedBowlerValue] = useQueryState(
+    'bowler',
+    parseAsString.withOptions({ clearOnDefault: true }),
   );
+
+  // Convert string values back to select options
+  const selectedBatter = selectedBatterValue
+    ? { value: selectedBatterValue, label: selectedBatterValue }
+    : null;
+  const selectedBowler = selectedBowlerValue
+    ? { value: selectedBowlerValue, label: selectedBowlerValue }
+    : null;
 
   const {
     data: matchupData,
@@ -32,11 +43,13 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
   const bowlerOptions = bowlers.map((bowler) => ({ value: bowler, label: bowler }));
 
   const handleBatterChange = (newValue: unknown) => {
-    setSelectedBatter(newValue as { value: string; label: string } | null);
+    const selected = newValue as { value: string; label: string } | null;
+    setSelectedBatterValue(selected?.value || null);
   };
 
   const handleBowlerChange = (newValue: unknown) => {
-    setSelectedBowler(newValue as { value: string; label: string } | null);
+    const selected = newValue as { value: string; label: string } | null;
+    setSelectedBowlerValue(selected?.value || null);
   };
 
   const handleFetchMatchup = () => {
