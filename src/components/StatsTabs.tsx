@@ -15,7 +15,7 @@ interface StatsTabsProps {
 
 export default function StatsTabs({ batters, bowlers }: StatsTabsProps) {
   return (
-    <Tabs defaultTab="Batter vs Bowler">
+    <Tabs>
       <Tab label="Batter vs Bowler">
         <MatchupTab batters={batters} bowlers={bowlers} />
       </Tab>
