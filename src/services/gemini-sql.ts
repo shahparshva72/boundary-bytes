@@ -260,7 +260,7 @@ POST-GENERATION VALIDATION (MUST PASS):
 `;
 
 // Initialize Gemini model
-const model = google('gemini-2.5-flash');
+const model = google('gemini-2.5-flash-lite');
 
 export interface GeminiResponse {
   queries: string[];
@@ -293,7 +293,7 @@ export class GeminiSqlService {
         system: MASTER_PROMPT,
         prompt: question,
         temperature: 0.3,
-        maxTokens: 2000,
+        maxOutputTokens: 2000,
         schema: SqlResponseSchema,
       });
 
