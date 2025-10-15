@@ -19,10 +19,16 @@ const Tabs = ({ children, defaultTab = 'Batter vs Bowler' }: TabsProps) => {
     'tab',
     parseAsString.withDefault(firstTabLabel).withOptions({ clearOnDefault: true }),
   );
+  const [, setBatter] = useQueryState('batter');
+  const [, setBowler] = useQueryState('bowler');
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>, newActiveTab: string) => {
     e.preventDefault();
     setActiveTab(newActiveTab);
+    if (newActiveTab !== 'Batter vs Bowler') {
+      setBatter(null);
+      setBowler(null);
+    }
   };
 
   return (
