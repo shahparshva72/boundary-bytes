@@ -1,5 +1,5 @@
 'use client';
-import { useQueryState } from 'nuqs';
+import { useQueryState, useQueryStates } from 'nuqs';
 import { parseAsString } from 'nuqs';
 import { ReactNode } from 'react';
 
@@ -20,9 +20,20 @@ const Tabs = ({ children, defaultTab = 'Batter vs Bowler' }: TabsProps) => {
     parseAsString.withDefault(firstTabLabel).withOptions({ clearOnDefault: true }),
   );
 
+  // Query states for batter and bowler (used in Matchup component)
+  const [, setMatchupParams] = useQueryStates({
+    batter: parseAsString.withOptions({ clearOnDefault: true }),
+    bowler: parseAsString.withOptions({ clearOnDefault: true }),
+  });
+
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>, newActiveTab: string) => {
     e.preventDefault();
     setActiveTab(newActiveTab);
+
+    // Clear batter and bowler params when switching away from "Batter vs Bowler" tab
+    if (newActiveTab !== 'Batter vs Bowler') {
+      setMatchupParams({ batter: null, bowler: null });
+    }
   };
 
   return (
