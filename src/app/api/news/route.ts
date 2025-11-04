@@ -3,6 +3,10 @@ import Parser from 'rss-parser';
 
 const parser = new Parser();
 
+// RSS feed URL - can be configured via environment variable
+const RSS_FEED_URL =
+  process.env.CRICINFO_RSS_URL || 'https://www.espncricinfo.com/rss/content/story/feeds/0.xml';
+
 // Mock data for when RSS feed is unavailable (e.g., in development/testing)
 const mockNewsData = {
   title: 'ESPN Cricinfo News',
@@ -41,9 +45,7 @@ const mockNewsData = {
 
 export async function GET() {
   try {
-    const feed = await parser.parseURL(
-      'https://www.espncricinfo.com/rss/content/story/feeds/0.xml',
-    );
+    const feed = await parser.parseURL(RSS_FEED_URL);
 
     // Transform feed items to a cleaner format
     const newsItems = feed.items.map((item) => ({
@@ -65,7 +67,11 @@ export async function GET() {
       },
     });
   } catch (error) {
-    console.error('Error fetching cricket news, using mock data:', error);
+    // Log error message only to avoid exposing sensitive information
+    console.error(
+      'Error fetching cricket news, using mock data:',
+      error instanceof Error ? error.message : 'Unknown error',
+    );
 
     // Return mock data instead of an error for demo/development purposes
     return NextResponse.json({

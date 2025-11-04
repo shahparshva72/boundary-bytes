@@ -2,7 +2,6 @@
 
 import { useQuery } from '@tanstack/react-query';
 import { MoonLoader } from 'react-spinners';
-import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 
 interface NewsItem {
   title: string;
@@ -21,8 +20,6 @@ interface NewsData {
 }
 
 export default function NewsPage() {
-  const { fetchWithLeague } = useLeagueAPI();
-
   const {
     data: newsResponse,
     isLoading,
@@ -30,7 +27,7 @@ export default function NewsPage() {
   } = useQuery({
     queryKey: ['cricketNews'],
     queryFn: async () => {
-      const response = await fetchWithLeague('/api/news');
+      const response = await fetch('/api/news');
       if (!response.ok) throw new Error('Failed to fetch news');
       return response.json();
     },
