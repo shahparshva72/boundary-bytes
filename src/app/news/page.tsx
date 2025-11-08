@@ -10,6 +10,7 @@ interface NewsItem {
   contentSnippet: string;
   content: string;
   guid: string;
+  image?: string | null;
 }
 
 interface NewsData {
@@ -77,30 +78,44 @@ export default function NewsPage() {
         )}
 
         {newsData && (
-          <div className="grid grid-cols-1 gap-6 max-w-6xl mx-auto w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto w-full">
             {newsData.items.map((item, index) => (
               <article
                 key={item.guid || index}
-                className="bg-white border-2 border-black shadow-[4px_4px_0_#000] hover:shadow-[8px_8px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all p-6"
+                className="bg-white border-2 border-black shadow-[4px_4px_0_#000] hover:shadow-[8px_8px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all overflow-hidden flex flex-col"
               >
                 <a
                   href={item.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block group"
+                  className="block group flex flex-col h-full"
                 >
-                  <h2 className="text-2xl font-black text-black mb-3 group-hover:text-[#FF5E5B] transition-colors">
-                    {item.title}
-                  </h2>
-                  <time className="text-sm font-mono text-gray-600 mb-3 block">
-                    {formatDate(item.pubDate)}
-                  </time>
-                  <p className="font-mono text-black text-sm leading-relaxed">
-                    {item.contentSnippet}
-                  </p>
-                  <div className="mt-4 inline-flex items-center gap-2 bg-black text-white px-4 py-2 font-bold border-2 border-black group-hover:bg-[#FFC700] group-hover:text-black transition-colors">
-                    Read More
-                    <span className="text-lg">→</span>
+                  {item.image && (
+                    <div className="relative w-full h-48 bg-gray-200 border-b-2 border-black overflow-hidden">
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        onError={(e) => {
+                          e.currentTarget.style.display = 'none';
+                        }}
+                      />
+                    </div>
+                  )}
+                  <div className="p-5 flex flex-col flex-grow">
+                    <h2 className="text-xl font-black text-black mb-3 group-hover:text-[#FF5E5B] transition-colors line-clamp-3">
+                      {item.title}
+                    </h2>
+                    <time className="text-xs font-mono text-gray-600 mb-3 block">
+                      {formatDate(item.pubDate)}
+                    </time>
+                    <p className="font-mono text-black text-sm leading-relaxed line-clamp-3 flex-grow">
+                      {item.contentSnippet}
+                    </p>
+                    <div className="mt-4 inline-flex items-center gap-2 bg-black text-white px-4 py-2 font-bold border-2 border-black group-hover:bg-[#FFC700] group-hover:text-black transition-colors self-start">
+                      Read More
+                      <span className="text-lg">→</span>
+                    </div>
                   </div>
                 </a>
               </article>

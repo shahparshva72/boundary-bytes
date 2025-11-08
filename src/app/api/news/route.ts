@@ -1,7 +1,11 @@
 import { NextResponse } from 'next/server';
 import Parser from 'rss-parser';
 
-const parser = new Parser();
+const parser = new Parser({
+  customFields: {
+    item: [['media:content', 'media:content', { keepArray: false }]],
+  },
+});
 
 export async function GET() {
   try {
@@ -10,13 +14,14 @@ export async function GET() {
     );
 
     // Transform feed items to a cleaner format
-    const newsItems = feed.items.map((item) => ({
+    const newsItems = feed.items.map((item: any) => ({
       title: item.title || '',
       link: item.link || '',
       pubDate: item.pubDate || '',
       contentSnippet: item.contentSnippet || '',
       content: item.content || '',
       guid: item.guid || '',
+      image: item['media:content']?.$?.url || item.enclosure?.url || null,
     }));
 
     return NextResponse.json({
