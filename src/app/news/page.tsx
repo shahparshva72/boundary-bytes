@@ -2,6 +2,7 @@
 
 import { useQuery } from '@tanstack/react-query';
 import { MoonLoader } from 'react-spinners';
+import Image from 'next/image';
 
 interface NewsItem {
   title: string;
@@ -92,13 +93,12 @@ export default function NewsPage() {
                 >
                   {item.image && (
                     <div className="relative w-full h-48 bg-gray-200 border-b-2 border-black overflow-hidden">
-                      <img
+                      <Image
                         src={item.image}
                         alt={item.title}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                        onError={(e) => {
-                          e.currentTarget.style.display = 'none';
-                        }}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       />
                     </div>
                   )}

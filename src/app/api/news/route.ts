@@ -1,6 +1,17 @@
 import { NextResponse } from 'next/server';
 import Parser from 'rss-parser';
 
+interface RSSItem {
+  title?: string;
+  link?: string;
+  pubDate?: string;
+  contentSnippet?: string;
+  content?: string;
+  guid?: string;
+  enclosure?: { url?: string };
+  'media:content'?: { $?: { url?: string } };
+}
+
 const parser = new Parser({
   customFields: {
     item: [['media:content', 'media:content', { keepArray: false }]],
@@ -14,7 +25,7 @@ export async function GET() {
     );
 
     // Transform feed items to a cleaner format
-    const newsItems = feed.items.map((item: any) => ({
+    const newsItems = feed.items.map((item: RSSItem) => ({
       title: item.title || '',
       link: item.link || '',
       pubDate: item.pubDate || '',
