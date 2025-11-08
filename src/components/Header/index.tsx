@@ -28,6 +28,7 @@ const Header = () => {
             <NavLink href="/">Home</NavLink>
             <NavLink href="/stats">Stats</NavLink>
             <NavLink href="/chat">Chat</NavLink>
+            <NavLink href="/news">News</NavLink>
             <NavLink href="/stats/advanced">Advanced Stats</NavLink>
             {/* <NavLink href="/stats/fall-of-wickets">Fall of Wickets</NavLink> */}
           </nav>
