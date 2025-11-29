@@ -45,18 +45,18 @@ export default function MatchSelector({ onMatchSelect, selectedMatchId }: MatchS
   };
 
   return (
-    <div className="relative w-full max-w-md">
+    <div className="relative w-full max-w-full sm:max-w-md">
       <div className="bg-white border-4 border-black rounded-none">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="w-full px-4 py-3 text-left text-lg font-bold text-black bg-white hover:bg-[#FFED66] transition-colors duration-150 flex justify-between items-center"
+          className="w-full px-3 sm:px-4 py-2 sm:py-3 text-left text-sm sm:text-base md:text-lg font-bold text-black bg-white hover:bg-[#FFED66] transition-colors duration-150 flex justify-between items-center"
         >
           <span className="truncate">
             {selectedMatch
               ? `${selectedMatch.teams} - ${selectedMatch.venue} (${selectedMatch.date})`
               : 'Select a match...'}
           </span>
-          <span className="ml-2 text-black">{isOpen ? '▲' : '▼'}</span>
+          <span className="ml-2 text-black flex-shrink-0">{isOpen ? '▲' : '▼'}</span>
         </button>
 
         {isOpen && (
@@ -67,7 +67,7 @@ export default function MatchSelector({ onMatchSelect, selectedMatchId }: MatchS
                 placeholder="Search matches..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full px-3 py-2 text-lg font-bold text-black bg-white border-2 border-black focus:outline-none focus:border-[#4ECDC4]"
+                className="w-full px-2 sm:px-3 py-2 text-sm sm:text-base md:text-lg font-bold text-black bg-white border-2 border-black focus:outline-none focus:border-[#4ECDC4]"
               />
             </div>
 
@@ -81,18 +81,18 @@ export default function MatchSelector({ onMatchSelect, selectedMatchId }: MatchS
                   <button
                     key={match.id}
                     onClick={() => handleMatchSelect(match)}
-                    className="w-full px-4 py-3 text-left text-sm font-bold text-black hover:bg-[#FFED66] transition-colors duration-150 border-b border-black last:border-b-0"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 text-left text-xs sm:text-sm font-bold text-black hover:bg-[#FFED66] transition-colors duration-150 border-b border-black last:border-b-0"
                   >
                     <div className="flex flex-col">
                       <span className="font-black">{match.teams}</span>
                       <span className="text-xs">
-                        {match.venue} • {match.date} • {match.season}
+                        {match.venue} - {match.date} - {match.season}
                       </span>
                     </div>
                   </button>
                 ))
               ) : (
-                <div className="px-4 py-3 text-sm font-bold text-black text-center">
+                <div className="px-3 sm:px-4 py-2 sm:py-3 text-xs sm:text-sm font-bold text-black text-center">
                   No matches found
                 </div>
               )}

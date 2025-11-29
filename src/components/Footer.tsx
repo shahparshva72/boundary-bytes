@@ -4,48 +4,19 @@ export default function Footer() {
   return (
     <footer
       aria-label="Site credits"
-      style={{
-        background: 'var(--background)',
-        color: 'var(--foreground)',
-        borderTop: '4px solid var(--foreground)',
-        padding: '1rem 0',
-      }}
+      className="bg-[var(--background)] text-[var(--foreground)] border-t-4 border-[var(--foreground)] py-3 sm:py-4"
     >
-      <div
-        style={{
-          maxWidth: 980,
-          margin: '0 auto',
-          fontSize: '0.9rem',
-          textAlign: 'center',
-          fontFamily: 'var(--font-sans, Arial, Helvetica, sans-serif)',
-        }}
-      >
-        <span
-          style={{
-            display: 'inline-block',
-            padding: '0.25rem 0.5rem',
-            background: 'var(--foreground)',
-            color: 'var(--background)',
-            fontWeight: 700,
-            borderRadius: 2,
-          }}
-        >
+      <div className="max-w-[980px] mx-auto px-4 sm:px-6 text-sm sm:text-base text-center font-sans">
+        <span className="inline-block px-2 py-1 bg-[var(--foreground)] text-[var(--background)] font-bold rounded-sm">
           Credits
         </span>
-        <div style={{ marginTop: 8 }}>
+        <div className="mt-2">
           Dataset sourced from{' '}
           <a
             href="https://cricsheet.org"
             target="_blank"
             rel="noopener noreferrer"
-            style={{
-              color: 'var(--background)',
-              background: 'var(--foreground)',
-              padding: '0.15rem 0.35rem',
-              textDecoration: 'none',
-              marginLeft: 6,
-              marginRight: 6,
-            }}
+            className="text-[var(--background)] bg-[var(--foreground)] px-1.5 py-0.5 no-underline mx-1"
           >
             CricSheet
           </a>

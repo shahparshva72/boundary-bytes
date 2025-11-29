@@ -64,12 +64,12 @@ const StatsControls = ({
 
   return (
     <div className="w-full max-w-2xl">
-      <div className="mb-4">
-        <label className="block text-lg font-bold mb-2 text-black">Player Type</label>
-        <div className="grid grid-cols-2 gap-2 mb-4">
+      <div className="mb-3 sm:mb-4">
+        <label className="block text-base sm:text-lg font-bold mb-2 text-black">Player Type</label>
+        <div className="grid grid-cols-2 gap-2 mb-3 sm:mb-4">
           <button
             onClick={() => setPlayerType({ type: 'SET_PLAYER_TYPE', payload: 'batter' })}
-            className={`p-3 rounded-none border-2 border-black font-bold ${
+            className={`p-2 sm:p-3 rounded-none border-2 border-black font-bold text-sm sm:text-base ${
               playerType === 'batter' ? 'bg-[#FFC700] text-black' : 'bg-white text-black'
             }`}
           >
@@ -77,7 +77,7 @@ const StatsControls = ({
           </button>
           <button
             onClick={() => setPlayerType({ type: 'SET_PLAYER_TYPE', payload: 'bowler' })}
-            className={`p-3 rounded-none border-2 border-black font-bold ${
+            className={`p-2 sm:p-3 rounded-none border-2 border-black font-bold text-sm sm:text-base ${
               playerType === 'bowler' ? 'bg-[#FFC700] text-black' : 'bg-white text-black'
             }`}
           >
@@ -86,8 +86,8 @@ const StatsControls = ({
         </div>
       </div>
 
-      <div className="mb-4">
-        <label className="block text-lg font-bold mb-2 text-black">
+      <div className="mb-3 sm:mb-4">
+        <label className="block text-base sm:text-lg font-bold mb-2 text-black">
           Select {playerType === 'batter' ? 'Batter' : 'Bowler'}
         </label>
         <SelectComponent
@@ -105,9 +105,11 @@ const StatsControls = ({
         />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 mb-3 sm:mb-4">
         <div>
-          <label className="block text-lg font-bold mb-2 text-black">Select Phase</label>
+          <label className="block text-base sm:text-lg font-bold mb-2 text-black">
+            Select Phase
+          </label>
           <SelectComponent
             instanceId="advanced-stats-phase-select"
             options={phaseOptions}
@@ -119,13 +121,15 @@ const StatsControls = ({
           />
         </div>
         <div>
-          <label className="block text-lg font-bold mb-2 text-black">Select Overs</label>
-          <div className="grid grid-cols-5 gap-2">
+          <label className="block text-base sm:text-lg font-bold mb-2 text-black">
+            Select Overs
+          </label>
+          <div className="grid grid-cols-5 sm:grid-cols-5 gap-1 sm:gap-2">
             {Array.from({ length: 20 }, (_, i) => i + 1).map((over) => (
               <button
                 key={over}
                 onClick={() => handleOverToggle(over)}
-                className={`p-2 rounded-none border-2 border-black font-bold ${
+                className={`p-1.5 sm:p-2 rounded-none border-2 border-black font-bold text-xs sm:text-sm md:text-base ${
                   selectedOvers.includes(over) ? 'bg-[#FFC700] text-black' : 'bg-white text-black'
                 }`}
               >
@@ -136,17 +140,17 @@ const StatsControls = ({
         </div>
       </div>
 
-      <div className="flex space-x-4">
+      <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 sm:space-x-0">
         <button
           onClick={handleFetchStats}
           disabled={!selectedPlayer || selectedOvers.length === 0 || statsLoading}
-          className="w-full bg-[#FFC700] text-black font-bold p-4 rounded-none border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] disabled:bg-gray-400 disabled:shadow-none"
+          className="w-full bg-[#FFC700] text-black font-bold p-3 sm:p-4 rounded-none border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] disabled:bg-gray-400 disabled:shadow-none text-sm sm:text-base"
         >
           {statsLoading ? 'LOADING...' : 'FETCH STATS'}
         </button>
         <button
           onClick={handleClear}
-          className="w-full bg-[#FF5E5B] text-black font-bold p-4 rounded-none border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
+          className="w-full bg-[#FF5E5B] text-black font-bold p-3 sm:p-4 rounded-none border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] text-sm sm:text-base"
         >
           CLEAR
         </button>

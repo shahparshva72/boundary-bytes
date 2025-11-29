@@ -42,32 +42,29 @@ const LeagueSwitcher: React.FC = () => {
 
   return (
     <>
-      {/* League Switcher Button */}
       <div className="relative">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="flex items-center gap-2 px-3 py-2 bg-white border-2 border-black font-bold text-black hover:bg-[#FFED66] transition-colors"
+          className="flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-1.5 sm:py-2 bg-white border-2 border-black font-bold text-black hover:bg-[#FFED66] transition-colors text-sm sm:text-base"
           style={{
             boxShadow: isOpen ? '2px 2px 0px 0px rgba(0,0,0,1)' : '4px 4px 0px 0px rgba(0,0,0,1)',
           }}
         >
-          <span className="text-lg">{currentConfig.icon}</span>
+          <span className="text-base sm:text-lg">{currentConfig.icon}</span>
           <span className="hidden sm:inline">{selectedLeague}</span>
-          <span className="text-sm">▼</span>
+          <span className="text-xs sm:text-sm">▼</span>
         </button>
 
-        {/* Dropdown */}
         {isOpen && (
           <div
-            className="absolute top-full left-0 mt-2 bg-white border-4 border-black z-50 min-w-[200px]"
+            className="absolute top-full right-0 sm:left-0 sm:right-auto mt-2 bg-white border-4 border-black z-50 min-w-[180px] sm:min-w-[200px]"
             style={{ boxShadow: '8px 8px 0px 0px rgba(0,0,0,1)' }}
           >
-            {/* Current League */}
-            <div className="p-3 border-b-2 border-black bg-[#FFED66]">
-              <div className="flex items-center gap-2 font-bold text-black">
+            <div className="p-2 sm:p-3 border-b-2 border-black bg-[#FFED66]">
+              <div className="flex items-center gap-2 font-bold text-black text-sm sm:text-base">
                 <span>{currentConfig.icon}</span>
                 <span>{currentConfig.name}</span>
-                <span className="text-sm">(Current)</span>
+                <span className="text-xs sm:text-sm">(Current)</span>
               </div>
             </div>
 
@@ -78,64 +75,61 @@ const LeagueSwitcher: React.FC = () => {
                 <button
                   key={l}
                   onClick={() => handleLeagueChange(l)}
-                  className={`w-full p-3 text-left hover:bg-[#4ECDC4] transition-colors ${!isLast ? 'border-b-2 border-black' : ''}`}
+                  className={`w-full p-2 sm:p-3 text-left hover:bg-[#4ECDC4] transition-colors ${!isLast ? 'border-b-2 border-black' : ''}`}
                 >
-                  <div className="flex items-center gap-2 font-bold text-black">
+                  <div className="flex items-center gap-2 font-bold text-black text-sm sm:text-base">
                     <span>{cfg.icon}</span>
                     <span>{cfg.name}</span>
                   </div>
-                  <div className="text-sm text-black mt-1">{cfg.description}</div>
+                  <div className="text-xs sm:text-sm text-black mt-1">{cfg.description}</div>
                 </button>
               );
             })}
 
-            {/* Reset Option */}
             <button
               onClick={() => {
                 resetLeagueSelection();
                 setIsOpen(false);
               }}
-              className="w-full p-3 text-left hover:bg-[#FF5E5B] hover:text-white transition-colors font-bold text-black"
+              className="w-full p-2 sm:p-3 text-left hover:bg-[#FF5E5B] hover:text-white transition-colors font-bold text-black text-sm sm:text-base"
             >
               🔄 Choose Again
             </button>
           </div>
         )}
 
-        {/* Click outside to close */}
         {isOpen && <div className="fixed inset-0 z-40" onClick={() => setIsOpen(false)} />}
       </div>
 
-      {/* Confirmation Modal */}
       {isConfirming && pendingLeague && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-50">
           <div
-            className="bg-white border-4 border-black p-6 max-w-md w-full"
-            style={{ boxShadow: '12px 12px 0px 0px rgba(0,0,0,1)' }}
+            className="bg-white border-4 border-black p-4 sm:p-6 max-w-md w-full mx-4"
+            style={{ boxShadow: '8px 8px 0px 0px rgba(0,0,0,1)' }}
           >
-            <h3 className="text-xl font-black text-black mb-4 text-center uppercase">
+            <h3 className="text-lg sm:text-xl font-black text-black mb-3 sm:mb-4 text-center uppercase">
               Switch League?
             </h3>
 
-            <div className="text-center mb-6">
-              <p className="text-lg font-bold text-black mb-2">
+            <div className="text-center mb-4 sm:mb-6">
+              <p className="text-base sm:text-lg font-bold text-black mb-2">
                 Switch from {currentConfig.name} to {LEAGUE_CONFIGS[pendingLeague].name}?
               </p>
-              <p className="text-sm text-black">
+              <p className="text-xs sm:text-sm text-black">
                 This will reload the page with {LEAGUE_CONFIGS[pendingLeague].fullName} data.
               </p>
             </div>
 
-            <div className="flex gap-3 justify-center">
+            <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 justify-center">
               <button
                 onClick={confirmLeagueChange}
-                className="px-6 py-2 bg-[#4ECDC4] border-2 border-black font-bold text-black hover:bg-[#4ECDC4]/80 transition-colors"
+                className="px-4 sm:px-6 py-2 bg-[#4ECDC4] border-2 border-black font-bold text-black hover:bg-[#4ECDC4]/80 transition-colors text-sm sm:text-base"
               >
                 Yes, Switch
               </button>
               <button
                 onClick={cancelLeagueChange}
-                className="px-6 py-2 bg-[#FF5E5B] border-2 border-black font-bold text-black hover:bg-[#FF5E5B]/80 transition-colors"
+                className="px-4 sm:px-6 py-2 bg-[#FF5E5B] border-2 border-black font-bold text-black hover:bg-[#FF5E5B]/80 transition-colors text-sm sm:text-base"
               >
                 Cancel
               </button>
