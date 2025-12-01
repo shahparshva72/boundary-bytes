@@ -1,4 +1,5 @@
 'use client';
+
 import { useQueryState } from 'nuqs';
 import { parseAsString } from 'nuqs';
 import { ReactNode } from 'react';
