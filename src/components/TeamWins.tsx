@@ -16,10 +16,10 @@ export default function TeamWins() {
   const { data, isLoading } = useTeamWins();
 
   return (
-    <div className="w-full mx-auto p-4">
-      <div className="bg-white border-4 border-black rounded-none overflow-hidden">
-        <div className="bg-[#4ECDC4] p-4 border-b-4 border-black">
-          <h2 className="text-2xl font-black text-black text-center uppercase tracking-wide">
+    <div className="w-full mx-auto p-0 sm:p-4">
+      <div className="bg-white border-2 sm:border-4 border-black rounded-none overflow-hidden">
+        <div className="bg-[#4ECDC4] p-2 sm:p-4 border-b-2 sm:border-b-4 border-black">
+          <h2 className="text-base sm:text-xl md:text-2xl font-black text-black text-center uppercase tracking-wide">
             Team Win Stats
           </h2>
         </div>
@@ -29,31 +29,31 @@ export default function TeamWins() {
           </div>
         ) : (
           <div className="overflow-x-auto">
-            <table className="w-full">
-              <thead className="bg-[#FFC700] border-b-4 border-black">
+            <table className="w-full min-w-[550px]">
+              <thead className="bg-[#FFC700] border-b-2 sm:border-b-4 border-black">
                 <tr>
-                  <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide border-r-4 border-black">
-                    Rank
+                  <th className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left text-xs sm:text-sm md:text-base lg:text-xl font-black text-black uppercase tracking-wide border-r-2 border-black whitespace-nowrap">
+                    #
                   </th>
-                  <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide border-r-4 border-black">
+                  <th className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left text-xs sm:text-sm md:text-base lg:text-xl font-black text-black uppercase tracking-wide border-r-2 border-black whitespace-nowrap">
                     Team
                   </th>
-                  <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide border-r-4 border-black">
-                    Matches
+                  <th className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left text-xs sm:text-sm md:text-base lg:text-xl font-black text-black uppercase tracking-wide border-r-2 border-black whitespace-nowrap">
+                    Mat
                   </th>
-                  <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide border-r-4 border-black">
-                    Wins
+                  <th className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left text-xs sm:text-sm md:text-base lg:text-xl font-black text-black uppercase tracking-wide border-r-2 border-black whitespace-nowrap">
+                    W
                   </th>
-                  <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide border-r-4 border-black">
-                    Losses
+                  <th className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left text-xs sm:text-sm md:text-base lg:text-xl font-black text-black uppercase tracking-wide border-r-2 border-black whitespace-nowrap">
+                    L
                   </th>
-                  <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide border-r-4 border-black">
-                    Wins 1st Inn
+                  <th className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left text-xs sm:text-sm md:text-base lg:text-xl font-black text-black uppercase tracking-wide border-r-2 border-black whitespace-nowrap">
+                    W 1st
                   </th>
-                  <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide border-r-4 border-black">
-                    Wins 2nd Inn
+                  <th className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left text-xs sm:text-sm md:text-base lg:text-xl font-black text-black uppercase tracking-wide border-r-2 border-black whitespace-nowrap">
+                    W 2nd
                   </th>
-                  <th className="px-6 py-4 text-left text-xl font-black text-black uppercase tracking-wide">
+                  <th className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left text-xs sm:text-sm md:text-base lg:text-xl font-black text-black uppercase tracking-wide whitespace-nowrap">
                     Win %
                   </th>
                 </tr>
@@ -68,28 +68,28 @@ export default function TeamWins() {
                         key={team.team}
                         className={`${index % 2 === 0 ? 'bg-white' : 'bg-[#FFED66]'} border-b-2 border-black hover:bg-[#FFED66] transition-colors duration-150`}
                       >
-                        <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-xs sm:text-base md:text-lg font-bold text-black border-r-2 border-black whitespace-nowrap">
                           {index + 1}
                         </td>
-                        <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-xs sm:text-base md:text-lg font-bold text-black border-r-2 border-black whitespace-nowrap">
                           {team.team}
                         </td>
-                        <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-xs sm:text-base md:text-lg font-bold text-black border-r-2 border-black whitespace-nowrap">
                           {team.matchesPlayed}
                         </td>
-                        <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-xs sm:text-base md:text-lg font-bold text-black border-r-2 border-black whitespace-nowrap">
                           {team.wins}
                         </td>
-                        <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-xs sm:text-base md:text-lg font-bold text-black border-r-2 border-black whitespace-nowrap">
                           {team.losses}
                         </td>
-                        <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-xs sm:text-base md:text-lg font-bold text-black border-r-2 border-black whitespace-nowrap">
                           {team.winsBattingFirst}
                         </td>
-                        <td className="px-6 py-4 text-lg font-bold text-black border-r-2 border-black">
+                        <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-xs sm:text-base md:text-lg font-bold text-black border-r-2 border-black whitespace-nowrap">
                           {team.winsBattingSecond}
                         </td>
-                        <td className="px-6 py-4 text-lg font-bold text-black">
+                        <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-xs sm:text-base md:text-lg font-bold text-black whitespace-nowrap">
                           {winPct.toFixed(2)}
                         </td>
                       </tr>
@@ -97,7 +97,10 @@ export default function TeamWins() {
                   })
                 ) : (
                   <tr>
-                    <td colSpan={8} className="px-6 py-8 text-lg font-bold text-black text-center">
+                    <td
+                      colSpan={8}
+                      className="px-4 sm:px-6 py-6 sm:py-8 text-sm sm:text-lg font-bold text-black text-center"
+                    >
                       No team win data available
                     </td>
                   </tr>
