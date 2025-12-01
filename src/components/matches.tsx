@@ -116,21 +116,21 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
               </div>
 
               <div className="mb-4 sm:mb-6 grid gap-4 sm:gap-6">
-                <div className="font-mono bg-white p-3 sm:p-6 rounded-none border-4 border-black">
-                  <div className="flex justify-between items-center gap-2">
-                    <span className="font-black text-lg sm:text-xl lg:text-2xl text-black truncate">
+                <div className="font-mono bg-white p-3 sm:p-6 rounded-none border-4 border-black overflow-hidden">
+                  <div className="flex justify-between items-center gap-2 min-w-0">
+                    <span className="font-black text-lg sm:text-xl lg:text-2xl text-black truncate min-w-0 flex-1">
                       {match.team1}
                     </span>
-                    <span className="font-black text-lg sm:text-xl lg:text-2xl bg-[#FF5E5B] px-2 sm:px-3 py-1 border-2 border-black text-black whitespace-nowrap">
+                    <span className="font-black text-lg sm:text-xl lg:text-2xl bg-[#FF5E5B] px-2 sm:px-3 py-1 border-2 border-black text-black whitespace-nowrap flex-shrink-0">
                       {match.innings1Score}
                     </span>
                   </div>
                   <div className="my-3 sm:my-4 border-b-4 border-dashed border-black"></div>
-                  <div className="flex justify-between items-center gap-2">
-                    <span className="font-black text-lg sm:text-xl lg:text-2xl text-black truncate">
+                  <div className="flex justify-between items-center gap-2 min-w-0">
+                    <span className="font-black text-lg sm:text-xl lg:text-2xl text-black truncate min-w-0 flex-1">
                       {match.team2}
                     </span>
-                    <span className="font-black text-lg sm:text-xl lg:text-2xl bg-[#4ECDC4] px-2 sm:px-3 py-1 border-2 border-black text-black whitespace-nowrap">
+                    <span className="font-black text-lg sm:text-xl lg:text-2xl bg-[#4ECDC4] px-2 sm:px-3 py-1 border-2 border-black text-black whitespace-nowrap flex-shrink-0">
                       {match.innings2Score}
                     </span>
                   </div>
