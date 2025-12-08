@@ -5,13 +5,12 @@
 // Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
 
 generator client {
-  provider = "prisma-client-js"
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
 }
 
 datasource db {
-  provider  = "postgresql"
-  url       = env("DATABASE_URL")
-  directUrl = env("DIRECT_URL")
+  provider = "postgresql"
 }
 
 // WPL match and delivery models
@@ -74,27 +73,27 @@ model WplDelivery {
 
 // WPL match info model for storing match metadata
 model WplMatchInfo {
-  id               Int       @id @map("match_id")
-  league           String    @default("WPL") @map("league")
-  version          String    @map("version")
-  ballsPerOver     Int       @map("balls_per_over")
-  gender           String    @map("gender")
-  season           String    @map("season")
-  date             DateTime  @map("date")
-  event            String    @map("event")
-  matchNumber      Int       @map("match_number")
-  venue            String    @map("venue")
-  city             String    @map("city")
-  tossWinner       String    @map("toss_winner")
-  tossDecision     String    @map("toss_decision")
-  playerOfMatch    String?   @map("player_of_match")
-  winner           String?   @map("winner")
-  winnerRuns       Int?      @map("winner_runs")
-  winnerWickets    Int?      @map("winner_wickets")
-  teams            WplTeam[]
-  players          WplPlayer[]
-  officials        WplOfficial[]
-  peopleRegistry   WplPersonRegistry[]
+  id             Int                 @id @map("match_id")
+  league         String              @default("WPL") @map("league")
+  version        String              @map("version")
+  ballsPerOver   Int                 @map("balls_per_over")
+  gender         String              @map("gender")
+  season         String              @map("season")
+  date           DateTime            @map("date")
+  event          String              @map("event")
+  matchNumber    Int                 @map("match_number")
+  venue          String              @map("venue")
+  city           String              @map("city")
+  tossWinner     String              @map("toss_winner")
+  tossDecision   String              @map("toss_decision")
+  playerOfMatch  String?             @map("player_of_match")
+  winner         String?             @map("winner")
+  winnerRuns     Int?                @map("winner_runs")
+  winnerWickets  Int?                @map("winner_wickets")
+  teams          WplTeam[]
+  players        WplPlayer[]
+  officials      WplOfficial[]
+  peopleRegistry WplPersonRegistry[]
 
   @@index([league])
   @@index([league, season])
@@ -105,10 +104,10 @@ model WplMatchInfo {
 
 // WPL team model
 model WplTeam {
-  id          Int            @id @default(autoincrement())
-  matchId     Int            @map("match_id")
-  teamName    String         @map("team_name")
-  matchInfo   WplMatchInfo   @relation(fields: [matchId], references: [id])
+  id        Int          @id @default(autoincrement())
+  matchId   Int          @map("match_id")
+  teamName  String       @map("team_name")
+  matchInfo WplMatchInfo @relation(fields: [matchId], references: [id])
 
   @@index([matchId, teamName])
   @@map("wpl_team")
@@ -116,11 +115,11 @@ model WplTeam {
 
 // WPL player model
 model WplPlayer {
-  id          Int            @id @default(autoincrement())
-  matchId     Int            @map("match_id")
-  teamName    String         @map("team_name")
-  playerName  String         @map("player_name")
-  matchInfo   WplMatchInfo   @relation(fields: [matchId], references: [id])
+  id         Int          @id @default(autoincrement())
+  matchId    Int          @map("match_id")
+  teamName   String       @map("team_name")
+  playerName String       @map("player_name")
+  matchInfo  WplMatchInfo @relation(fields: [matchId], references: [id])
 
   @@index([matchId, teamName])
   @@index([playerName])
@@ -130,11 +129,11 @@ model WplPlayer {
 
 // WPL official model
 model WplOfficial {
-  id          Int            @id @default(autoincrement())
-  matchId     Int            @map("match_id")
-  officialType String        @map("official_type") // umpire, reserve_umpire, tv_umpire, match_referee
-  officialName String        @map("official_name")
-  matchInfo   WplMatchInfo   @relation(fields: [matchId], references: [id])
+  id           Int          @id @default(autoincrement())
+  matchId      Int          @map("match_id")
+  officialType String       @map("official_type") // umpire, reserve_umpire, tv_umpire, match_referee
+  officialName String       @map("official_name")
+  matchInfo    WplMatchInfo @relation(fields: [matchId], references: [id])
 
   @@index([matchId, officialType])
   @@map("wpl_official")
@@ -142,11 +141,11 @@ model WplOfficial {
 
 // WPL people registry model
 model WplPersonRegistry {
-  id          Int            @id @default(autoincrement())
-  matchId     Int            @map("match_id")
-  personName  String         @map("person_name")
-  registryId  String         @map("registry_id")
-  matchInfo   WplMatchInfo   @relation(fields: [matchId], references: [id])
+  id         Int          @id @default(autoincrement())
+  matchId    Int          @map("match_id")
+  personName String       @map("person_name")
+  registryId String       @map("registry_id")
+  matchInfo  WplMatchInfo @relation(fields: [matchId], references: [id])
 
   @@index([matchId, personName])
   @@index([registryId])
