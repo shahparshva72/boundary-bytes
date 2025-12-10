@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface BatterStats {
   runsScored: number;
   ballsFaced: number;

@@ -1,13 +1,12 @@
 'use client';
 
 import { useMatches } from '@/lib/useMatches';
-import { MoonLoader } from 'react-spinners';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import Pagination from './Pagination';
 
 function redirectToCricinfoScorecard(matchId: number) {
-  const scorecardUrl = 'http://www.espncricinfo.com/matches/engine/match/' + matchId + '.html';
+  const scorecardUrl = 'https://www.espncricinfo.com/matches/engine/match/' + matchId + '.html';
   window.open(scorecardUrl, '_blank');
 }
 
@@ -32,14 +31,6 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
   const { data, isLoading, error } = useMatches(initialPage, initialSeason);
   const router = useRouter();
 
-  if (isLoading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-[#FFFEE0]">
-        <MoonLoader color="#1a202c" size={48} />
-      </div>
-    );
-  }
-
   if (error) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-[#FFFEE0]">
@@ -48,7 +39,11 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
     );
   }
 
-  const { matches, pagination, seasons } = data!;
+  const { matches, pagination, seasons } = data || {
+    matches: [],
+    pagination: { pages: 0 },
+    seasons: [],
+  };
 
   return (
     <div className="grid grid-rows-[auto_1fr_auto] min-h-screen p-3 sm:p-4 pb-20 gap-4 sm:gap-8 bg-[#FFFEE0]">
@@ -94,63 +89,101 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
 
         {/* Match cards */}
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
-          {matches.map((match: Match) => (
-            <div
-              key={match.id}
-              className="p-4 sm:p-6 bg-white rounded-none border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] sm:shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] sm:hover:translate-x-[4px] hover:translate-y-[2px] sm:hover:translate-y-[4px] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all"
-            >
-              <div className="flex flex-col gap-3 sm:gap-4 mb-4 sm:mb-6">
-                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 sm:gap-4">
-                  <div className="flex-1">
-                    <h2 className="font-black text-xl sm:text-2xl lg:text-3xl text-black">
-                      {match.venue}
-                    </h2>
-                    <p className="text-sm sm:text-lg font-bold text-black mt-1 bg-[#4ECDC4] px-2 sm:px-3 py-1 inline-block border-2 border-black">
-                      {new Date(match.startDate).toLocaleDateString('en-IN')}
-                    </p>
-                  </div>
-                  <div className="text-sm sm:text-lg bg-[#FF9F1C] px-3 sm:px-4 py-1 sm:py-2 rounded-none border-2 sm:border-3 border-black font-black text-black self-start">
-                    {match.season}
-                  </div>
-                </div>
-              </div>
-
-              <div className="mb-4 sm:mb-6 grid gap-4 sm:gap-6">
-                <div className="font-mono bg-white p-3 sm:p-6 rounded-none border-4 border-black overflow-hidden">
-                  <div className="flex justify-between items-center gap-2 min-w-0">
-                    <span className="font-black text-lg sm:text-xl lg:text-2xl text-black truncate min-w-0 flex-1">
-                      {match.team1}
-                    </span>
-                    <span className="font-black text-lg sm:text-xl lg:text-2xl bg-[#FF5E5B] px-2 sm:px-3 py-1 border-2 border-black text-black whitespace-nowrap flex-shrink-0">
-                      {match.innings1Score}
-                    </span>
-                  </div>
-                  <div className="my-3 sm:my-4 border-b-4 border-dashed border-black"></div>
-                  <div className="flex justify-between items-center gap-2 min-w-0">
-                    <span className="font-black text-lg sm:text-xl lg:text-2xl text-black truncate min-w-0 flex-1">
-                      {match.team2}
-                    </span>
-                    <span className="font-black text-lg sm:text-xl lg:text-2xl bg-[#4ECDC4] px-2 sm:px-3 py-1 border-2 border-black text-black whitespace-nowrap flex-shrink-0">
-                      {match.innings2Score}
-                    </span>
-                  </div>
-                </div>
-
-                <div className="bg-[#FFED66] p-3 sm:p-4 rounded-none border-4 border-black text-center font-bold text-base sm:text-xl text-black w-full max-w-md mx-auto">
-                  {match.result}
-                </div>
-              </div>
-
-              <div className="flex justify-end mt-3 sm:mt-4">
-                <button
-                  onClick={() => redirectToCricinfoScorecard(match.id)}
-                  className="text-sm sm:text-base bg-[#FF9F1C] px-3 sm:px-4 py-2 rounded-none border-2 sm:border-3 border-black font-black text-black cursor-pointer hover:bg-[#FF9F1C]/80 transition-colors"
+          {isLoading
+            ? // Skeleton loader for 6 cards
+              Array.from({ length: 6 }).map((_, index) => (
+                <div
+                  key={`skeleton-${index}`}
+                  className="p-4 sm:p-6 bg-white rounded-none border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] sm:shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] animate-pulse"
                 >
-                  Match #{match.id}
-                </button>
-              </div>
-            </div>
-          ))}
+                  <div className="flex flex-col gap-3 sm:gap-4 mb-4 sm:mb-6">
+                    <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 sm:gap-4">
+                      <div className="flex-1">
+                        <div className="h-6 sm:h-8 bg-gray-300 rounded w-3/4 mb-2"></div>
+                        <div className="h-6 sm:h-7 bg-[#4ECDC4]/30 w-32 border-2 border-black"></div>
+                      </div>
+                      <div className="h-6 sm:h-8 bg-[#FF9F1C]/30 w-20 border-2 border-black"></div>
+                    </div>
+                  </div>
+
+                  <div className="mb-4 sm:mb-6 grid gap-4 sm:gap-6">
+                    <div className="font-mono bg-white p-3 sm:p-6 rounded-none border-4 border-black">
+                      <div className="flex justify-between items-center gap-2">
+                        <div className="h-6 sm:h-7 bg-gray-300 rounded w-2/3"></div>
+                        <div className="h-6 sm:h-7 bg-[#FF5E5B]/30 w-20 border-2 border-black"></div>
+                      </div>
+                      <div className="my-3 sm:my-4 border-b-4 border-dashed border-black"></div>
+                      <div className="flex justify-between items-center gap-2">
+                        <div className="h-6 sm:h-7 bg-gray-300 rounded w-2/3"></div>
+                        <div className="h-6 sm:h-7 bg-[#4ECDC4]/30 w-20 border-2 border-black"></div>
+                      </div>
+                    </div>
+
+                    <div className="bg-[#FFED66]/30 p-3 sm:p-4 rounded-none border-4 border-black h-12 sm:h-14 w-full max-w-md mx-auto"></div>
+                  </div>
+
+                  <div className="flex justify-end mt-3 sm:mt-4">
+                    <div className="h-8 sm:h-10 bg-[#FF9F1C]/30 w-24 border-2 border-black"></div>
+                  </div>
+                </div>
+              ))
+            : matches.map((match: Match) => (
+                <div
+                  key={match.id}
+                  className="p-4 sm:p-6 bg-white rounded-none border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] sm:shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] sm:hover:translate-x-[4px] hover:translate-y-[2px] sm:hover:translate-y-[4px] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all"
+                >
+                  <div className="flex flex-col gap-3 sm:gap-4 mb-4 sm:mb-6">
+                    <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 sm:gap-4">
+                      <div className="flex-1">
+                        <h2 className="font-black text-xl sm:text-2xl lg:text-3xl text-black">
+                          {match.venue}
+                        </h2>
+                        <p className="text-sm sm:text-lg font-bold text-black mt-1 bg-[#4ECDC4] px-2 sm:px-3 py-1 inline-block border-2 border-black">
+                          {new Date(match.startDate).toLocaleDateString('en-IN')}
+                        </p>
+                      </div>
+                      <div className="text-sm sm:text-lg bg-[#FF9F1C] px-3 sm:px-4 py-1 sm:py-2 rounded-none border-2 sm:border-3 border-black font-black text-black self-start">
+                        {match.season}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="mb-4 sm:mb-6 grid gap-4 sm:gap-6">
+                    <div className="font-mono bg-white p-3 sm:p-6 rounded-none border-4 border-black overflow-hidden">
+                      <div className="flex justify-between items-center gap-2 min-w-0">
+                        <span className="font-black text-lg sm:text-xl lg:text-2xl text-black truncate min-w-0 flex-1">
+                          {match.team1}
+                        </span>
+                        <span className="font-black text-lg sm:text-xl lg:text-2xl bg-[#FF5E5B] px-2 sm:px-3 py-1 border-2 border-black text-black whitespace-nowrap flex-shrink-0">
+                          {match.innings1Score}
+                        </span>
+                      </div>
+                      <div className="my-3 sm:my-4 border-b-4 border-dashed border-black"></div>
+                      <div className="flex justify-between items-center gap-2 min-w-0">
+                        <span className="font-black text-lg sm:text-xl lg:text-2xl text-black truncate min-w-0 flex-1">
+                          {match.team2}
+                        </span>
+                        <span className="font-black text-lg sm:text-xl lg:text-2xl bg-[#4ECDC4] px-2 sm:px-3 py-1 border-2 border-black text-black whitespace-nowrap flex-shrink-0">
+                          {match.innings2Score}
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="bg-[#FFED66] p-3 sm:p-4 rounded-none border-4 border-black text-center font-bold text-base sm:text-xl text-black w-full max-w-md mx-auto">
+                      {match.result}
+                    </div>
+                  </div>
+
+                  <div className="flex justify-end mt-3 sm:mt-4">
+                    <button
+                      onClick={() => redirectToCricinfoScorecard(match.id)}
+                      className="text-sm sm:text-base bg-[#FF9F1C] px-3 sm:px-4 py-2 rounded-none border-2 sm:border-3 border-black font-black text-black cursor-pointer hover:bg-[#FF9F1C]/80 transition-colors"
+                    >
+                      Match #{match.id}
+                    </button>
+                  </div>
+                </div>
+              ))}
         </div>
 
         {/* Pagination */}

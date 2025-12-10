@@ -1,8 +1,8 @@
 'use client';
 
-import { useCallback } from 'react';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 import { League } from '@/types/league';
+import { useCallback } from 'react';
 
 interface UseLeagueAPIReturn {
   fetchWithLeague: (endpoint: string, options?: RequestInit) => Promise<Response>;

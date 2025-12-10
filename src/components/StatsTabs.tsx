@@ -1,12 +1,12 @@
 'use client';
 
-import { Tabs, Tab } from './tabs';
+import BowlingWicketTypes from '@/components/BowlingWicketTypes';
 import MatchupTab from '@/components/MatchupTab';
 import RunScorers from '@/components/RunScorers';
-import WicketTakers from '@/components/WicketTakers';
-import TeamWins from '@/components/TeamWins';
-import BowlingWicketTypes from '@/components/BowlingWicketTypes';
 import TeamAverages from '@/components/TeamAverages';
+import TeamWins from '@/components/TeamWins';
+import WicketTakers from '@/components/WicketTakers';
+import { Tab, Tabs } from './tabs';
 
 interface StatsTabsProps {
   batters: string[];

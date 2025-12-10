@@ -1,10 +1,10 @@
 'use client';
 
-import React from 'react';
-import { motion } from 'framer-motion';
 import { League } from '@/types/league';
-import LeagueCard from './LeagueCard';
 import { LEAGUE_CONFIGS } from '@/utils/league-config';
+import { motion } from 'framer-motion';
+import React from 'react';
+import LeagueCard from './LeagueCard';
 
 interface LeagueSelectionScreenProps {
   onLeagueSelect: (league: League) => void;

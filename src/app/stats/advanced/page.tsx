@@ -1,9 +1,9 @@
 'use client';
 
-import { useQuery } from '@tanstack/react-query';
-import { useBatters, useBowlers } from '@/hooks/usePlayersAPI';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 import { useLeagueAPI } from '@/hooks/useLeagueAPI';
+import { useBatters, useBowlers } from '@/hooks/usePlayersAPI';
+import { useQuery } from '@tanstack/react-query';
 import dynamic from 'next/dynamic';
 
 import Layout from '../components/Layout';

@@ -109,7 +109,7 @@ export class SqlValidator {
   }
 
   /**
-   * Checks if query contains dangerous keywords
+   * Checks if a query contains dangerous keywords
    */
   isDangerousQuery(sql: string): boolean {
     const normalizedSql = sql.toUpperCase();

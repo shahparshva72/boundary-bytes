@@ -1,9 +1,9 @@
 'use client';
 
-import React, { useState } from 'react';
 import { useLeagueContext } from '@/contexts/LeagueContext';
-import { LEAGUE_CONFIGS, VALID_LEAGUES } from '@/utils/league-config';
 import { League } from '@/types/league';
+import { LEAGUE_CONFIGS, VALID_LEAGUES } from '@/utils/league-config';
+import React, { useState } from 'react';
 
 const LeagueSwitcher: React.FC = () => {
   const { selectedLeague, selectLeague, resetLeagueSelection } = useLeagueContext();

@@ -1,9 +1,9 @@
-import 'dotenv/config';
 import { PrismaClient } from '@/generated/prisma/client';
 import { PrismaPg } from '@prisma/adapter-pg';
+import { parse } from 'csv-parse/sync';
+import 'dotenv/config';
 import * as fs from 'fs';
 import * as path from 'path';
-import { parse } from 'csv-parse/sync';
 
 if (!process.env.DATABASE_URL) {
   throw new Error('DATABASE_URL is not set');

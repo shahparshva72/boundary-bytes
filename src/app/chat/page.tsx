@@ -1,10 +1,10 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { useTextToSql } from '@/hooks/useTextToSql';
-import { MoonLoader } from 'react-spinners';
 import Tooltip from '@/components/Tooltip';
 import { useLeagueContext } from '@/contexts/LeagueContext';
+import { useTextToSql } from '@/hooks/useTextToSql';
+import { useEffect, useState } from 'react';
+import { MoonLoader } from 'react-spinners';
 
 export default function TextToSqlPage() {
   const { selectedLeague } = useLeagueContext();

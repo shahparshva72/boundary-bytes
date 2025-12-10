@@ -1,7 +1,6 @@
 'use client';
 
-import { useQueryState } from 'nuqs';
-import { parseAsString } from 'nuqs';
+import { parseAsString, useQueryState } from 'nuqs';
 import { ReactNode } from 'react';
 
 interface TabProps {
@@ -61,4 +60,4 @@ const Tab = ({ children }: TabProps) => {
   return <div className="hidden">{children}</div>;
 };
 
-export { Tabs, Tab };
+export { Tab, Tabs };

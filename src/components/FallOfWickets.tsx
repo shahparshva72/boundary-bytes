@@ -1,9 +1,8 @@
 'use client';
 
-import { useState } from 'react';
 import { fetchFallOfWickets } from '@/services/statsService';
 import { useQuery } from '@tanstack/react-query';
-import { MoonLoader } from 'react-spinners';
+import { useState } from 'react';
 import MatchSelector from './MatchSelector';
 
 interface WicketData {
@@ -69,8 +68,55 @@ export default function FallOfWickets() {
               </p>
             </div>
           ) : isLoading ? (
-            <div className="flex items-center justify-center p-6">
-              <MoonLoader color="#4F46E5" size={50} />
+            <div className="space-y-4 sm:space-y-6 animate-pulse">
+              {/* Match info skeleton */}
+              <div className="bg-[#4ECDC4]/30 border-4 border-black p-3 sm:p-4">
+                <div className="h-6 bg-gray-300 rounded w-3/4 mb-2"></div>
+                <div className="h-5 bg-gray-300 rounded w-1/2"></div>
+              </div>
+
+              {/* Innings skeletons (2 innings) */}
+              {Array.from({ length: 2 }).map((_, inningsIndex) => (
+                <div key={inningsIndex} className="border-4 border-black">
+                  <div className="bg-[#FFC700]/30 p-3 sm:p-4 border-b-4 border-black">
+                    <div className="h-6 bg-gray-300 rounded w-1/2"></div>
+                  </div>
+
+                  <div className="overflow-x-auto">
+                    <table className="w-full min-w-[500px]">
+                      <thead className="bg-[#4ECDC4]/30 border-b-4 border-black">
+                        <tr>
+                          {['W', 'Over', 'Runs', 'Out', 'How', 'Bowler'].map((header, i) => (
+                            <th
+                              key={i}
+                              className={`px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-left ${i < 5 ? 'border-r-2 border-black' : ''}`}
+                            >
+                              <div className="h-4 bg-gray-300 rounded w-16"></div>
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {Array.from({ length: 5 }).map((_, rowIndex) => (
+                          <tr
+                            key={rowIndex}
+                            className={`${rowIndex % 2 === 0 ? 'bg-white' : 'bg-[#FFED66]/30'} border-b-2 border-black`}
+                          >
+                            {Array.from({ length: 6 }).map((_, colIndex) => (
+                              <td
+                                key={colIndex}
+                                className={`px-2 sm:px-3 md:px-4 py-2 sm:py-3 ${colIndex < 5 ? 'border-r-2 border-black' : ''}`}
+                              >
+                                <div className="h-4 bg-gray-300 rounded w-20"></div>
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              ))}
             </div>
           ) : error ? (
             <div className="text-center py-6 sm:py-8">

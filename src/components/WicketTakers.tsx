@@ -1,8 +1,7 @@
 'use client';
 
-import { useQueryState } from 'nuqs';
-import { parseAsInteger } from 'nuqs';
 import { useWicketTakers } from '@/hooks/useStatsAPI';
+import { parseAsInteger, useQueryState } from 'nuqs';
 import { MoonLoader } from 'react-spinners';
 import Pagination from './Pagination';
 

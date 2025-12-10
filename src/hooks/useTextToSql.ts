@@ -38,7 +38,7 @@ export function useTextToSql() {
         throw new Error('Invalid server response');
       }
 
-      if (!res.ok || json.success === false) {
+      if (!res.ok || !json.success) {
         throw json as TextToSqlError;
       }
       return json as TextToSqlSuccess;

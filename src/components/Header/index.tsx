@@ -1,10 +1,10 @@
 'use client';
 
-import { useState } from 'react';
-import Link from 'next/link';
-import NavLink from './NavLink';
-import LeagueSwitcher from '../ui/LeagueSwitcher';
 import { useLeagueContext } from '@/contexts/LeagueContext';
+import Link from 'next/link';
+import { useState } from 'react';
+import LeagueSwitcher from '../ui/LeagueSwitcher';
+import NavLink from './NavLink';
 
 const Header = () => {
   const { selectedLeague, leagueConfig } = useLeagueContext();

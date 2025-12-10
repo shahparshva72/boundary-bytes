@@ -1,10 +1,10 @@
-import { generateObject } from 'ai';
 import { google } from '@ai-sdk/google';
+import { generateObject } from 'ai';
 import { z } from 'zod';
 import {
-  hasPlayerNameResolution as utilHasPlayerNameResolution,
-  extractHeadToHeadQueries,
   applyResolvedNames,
+  extractHeadToHeadQueries,
+  hasPlayerNameResolution as utilHasPlayerNameResolution,
 } from './sql-utils';
 
 // Optimized master prompt with concise formulas instead of large examples

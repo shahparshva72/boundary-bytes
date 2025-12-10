@@ -1,10 +1,10 @@
 'use client';
 
-import React, { Suspense } from 'react';
-import { AnimatePresence } from 'framer-motion';
 import { useLeagueContext } from '@/contexts/LeagueContext';
-import LeagueSelectionScreen from './league-selection/LeagueSelectionScreen';
+import { AnimatePresence } from 'framer-motion';
+import React, { Suspense } from 'react';
 import { MoonLoader } from 'react-spinners';
+import LeagueSelectionScreen from './league-selection/LeagueSelectionScreen';
 
 interface AppWithLeagueSelectionProps {
   children: React.ReactNode;

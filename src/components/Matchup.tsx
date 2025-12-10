@@ -1,10 +1,9 @@
 'use client';
 
-import { useQueryState } from 'nuqs';
-import { parseAsString } from 'nuqs';
 import { useMatchup } from '@/hooks/useStatsAPI';
-import { MoonLoader } from 'react-spinners';
 import dynamic from 'next/dynamic';
+import { parseAsString, useQueryState } from 'nuqs';
+import { MoonLoader } from 'react-spinners';
 
 const Select = dynamic(() => import('react-select'), { ssr: false });
 

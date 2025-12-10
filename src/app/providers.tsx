@@ -1,7 +1,7 @@
 'use client';
 
-import QueryProvider from '@/providers/QueryProvider';
 import { LeagueProvider } from '@/contexts/LeagueContext';
+import QueryProvider from '@/providers/QueryProvider';
 
 export function Providers({ children }: { children: React.ReactNode }) {
   return (

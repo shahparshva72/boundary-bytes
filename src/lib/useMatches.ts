@@ -1,5 +1,5 @@
-import { useQuery } from '@tanstack/react-query';
 import { useLeagueAPI } from '@/hooks/useLeagueAPI';
+import { useQuery } from '@tanstack/react-query';
 
 interface Match {
   id: number;
@@ -52,6 +52,6 @@ export function useMatches(page = 1, season?: string) {
       const data = await response.json();
       return data;
     },
-    enabled: !!selectedLeague, // Only run query when league is selected
+    enabled: !!selectedLeague, // Only run a query when league is selected
   });
 }

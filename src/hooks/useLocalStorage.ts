@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
 import { League, LeaguePreference } from '@/types/league';
+import { useEffect, useState } from 'react';
 
 const LEAGUE_STORAGE_KEY = 'boundary-bytes-league-preference';
 const STORAGE_VERSION = '1.0.0';

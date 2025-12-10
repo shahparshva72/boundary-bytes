@@ -1,7 +1,6 @@
 'use client';
 
 import { useQuery } from '@tanstack/react-query';
-import { MoonLoader } from 'react-spinners';
 import Image from 'next/image';
 
 interface NewsItem {
@@ -60,9 +59,24 @@ export default function NewsPage() {
         </header>
 
         {isLoading && (
-          <div className="flex flex-col items-center gap-4 p-8 bg-white border-2 border-black shadow-[4px_4px_0_#000] max-w-6xl mx-auto">
-            <MoonLoader color="#1a202c" size={48} />
-            <p className="font-bold text-black text-center text-lg">Loading cricket news...</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto w-full">
+            {Array.from({ length: 9 }).map((_, index) => (
+              <article
+                key={`skeleton-${index}`}
+                className="bg-white border-2 border-black shadow-[4px_4px_0_#000] overflow-hidden flex flex-col animate-pulse"
+              >
+                <div className="relative w-full h-48 bg-gray-300 border-b-2 border-black"></div>
+                <div className="p-5 flex flex-col flex-grow gap-3">
+                  <div className="h-6 bg-gray-300 rounded w-full"></div>
+                  <div className="h-6 bg-gray-300 rounded w-5/6"></div>
+                  <div className="h-4 bg-gray-200 rounded w-32 mt-1"></div>
+                  <div className="h-4 bg-gray-200 rounded w-full mt-2"></div>
+                  <div className="h-4 bg-gray-200 rounded w-full"></div>
+                  <div className="h-4 bg-gray-200 rounded w-4/5"></div>
+                  <div className="mt-4 h-10 bg-gray-300 rounded w-28"></div>
+                </div>
+              </article>
+            ))}
           </div>
         )}
 
