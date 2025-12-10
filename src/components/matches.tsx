@@ -61,31 +61,33 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
         </div>
 
         {/* Season Filter */}
-        <div className="w-full flex flex-wrap gap-2 sm:gap-4 justify-center">
-          <Link
-            href="/"
-            className={`px-3 sm:px-4 py-2 font-bold border-2 border-black text-black text-sm sm:text-base ${
-              !initialSeason
-                ? 'bg-[#FF5E5B] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
-                : 'bg-white hover:bg-[#FF5E5B] transition-colors'
-            }`}
-          >
-            All Seasons
-          </Link>
-          {seasons.map((season: string) => (
+        {seasons.length && (
+          <div className="w-full flex flex-wrap gap-2 sm:gap-4 justify-center">
             <Link
-              key={season}
-              href={`/?season=${season}`}
+              href="/"
               className={`px-3 sm:px-4 py-2 font-bold border-2 border-black text-black text-sm sm:text-base ${
-                initialSeason === season
+                !initialSeason
                   ? 'bg-[#FF5E5B] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
                   : 'bg-white hover:bg-[#FF5E5B] transition-colors'
               }`}
             >
-              {season}
+              All Seasons
             </Link>
-          ))}
-        </div>
+            {seasons.map((season: string) => (
+              <Link
+                key={season}
+                href={`/?season=${season}`}
+                className={`px-3 sm:px-4 py-2 font-bold border-2 border-black text-black text-sm sm:text-base ${
+                  initialSeason === season
+                    ? 'bg-[#FF5E5B] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
+                    : 'bg-white hover:bg-[#FF5E5B] transition-colors'
+                }`}
+              >
+                {season}
+              </Link>
+            ))}
+          </div>
+        )}
 
         {/* Match cards */}
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
