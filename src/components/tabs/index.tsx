@@ -1,6 +1,6 @@
 'use client';
 
-import { parseAsString, useQueryState } from 'nuqs';
+import { parseAsInteger, parseAsString, useQueryState } from 'nuqs';
 import { ReactNode } from 'react';
 
 interface TabProps {
@@ -20,9 +20,39 @@ const Tabs = ({ children, defaultTab = 'Batter vs Bowler' }: TabsProps) => {
     parseAsString.withDefault(firstTabLabel).withOptions({ clearOnDefault: true }),
   );
 
+  // Query states for all params that need to be cleared when switching tabs
+  const [, setBatter] = useQueryState(
+    'batter',
+    parseAsString.withOptions({ clearOnDefault: true }),
+  );
+  const [, setBowler] = useQueryState(
+    'bowler',
+    parseAsString.withOptions({ clearOnDefault: true }),
+  );
+  const [, setRunScorersPage] = useQueryState(
+    'runScorersPage',
+    parseAsInteger.withOptions({ clearOnDefault: true }),
+  );
+  const [, setWicketTakersPage] = useQueryState(
+    'wicketTakersPage',
+    parseAsInteger.withOptions({ clearOnDefault: true }),
+  );
+  const [, setBowlingWicketTypesPage] = useQueryState(
+    'bowlingWicketTypesPage',
+    parseAsInteger.withOptions({ clearOnDefault: true }),
+  );
+
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>, newActiveTab: string) => {
     e.preventDefault();
     setActiveTab(newActiveTab);
+
+    // Clear all query params when switching tabs to ensure each tab starts fresh
+    // This prevents params from one tab (like pagination) persisting when switching to another tab
+    setBatter(null);
+    setBowler(null);
+    setRunScorersPage(null);
+    setWicketTakersPage(null);
+    setBowlingWicketTypesPage(null);
   };
 
   return (
