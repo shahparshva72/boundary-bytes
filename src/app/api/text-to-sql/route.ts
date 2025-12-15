@@ -3,6 +3,7 @@ import { responseFormatter } from '@/lib/response-formatter';
 import { normalizeTeamResults } from '@/lib/result-normalizer';
 import { sqlValidator } from '@/lib/sql-validator';
 import { sanitizeInput, validateTextToSqlRequest } from '@/lib/validation/text-to-sql';
+import { aiRequestLogService } from '@/services/aiRequestLogService';
 import { cricketQueryService } from '@/services/cricket-query';
 import { geminiSqlService } from '@/services/gemini-sql';
 import { NextRequest, NextResponse } from 'next/server';
@@ -10,6 +11,7 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function POST(request: NextRequest) {
   const startTime = Date.now();
   let body: unknown = null;
+  let requestId: string | null = null;
 
   try {
     // Parse request body
@@ -29,6 +31,15 @@ export async function POST(request: NextRequest) {
     const validation = validateTextToSqlRequest(body);
     if (!validation.success) {
       logger.warn('Input validation failed', { error: validation.error, body });
+
+      // Log validation error
+      await aiRequestLogService.logRequest({
+        question: (body as { question?: string })?.question || 'unknown',
+        success: false,
+        errorCode: 'VALIDATION_ERROR',
+        errorMessage: validation.error,
+      });
+
       return NextResponse.json(
         responseFormatter.formatError(validation.error, 'VALIDATION_ERROR'),
         { status: 400 },
@@ -101,6 +112,15 @@ export async function POST(request: NextRequest) {
         question: sanitizedQuestion,
       });
 
+      // Log SQL generation error
+      await aiRequestLogService.logRequest({
+        question: validation.data.question,
+        sanitizedQuestion,
+        success: false,
+        errorCode: 'SQL_GENERATION_ERROR',
+        errorMessage,
+      });
+
       // Handle specific AI errors
       if (errorMessage.includes('rate limit') || errorMessage.includes('quota')) {
         return NextResponse.json(
@@ -134,6 +154,16 @@ export async function POST(request: NextRequest) {
       logger.error('Database query execution failed', {
         error: errorMessage,
         query: finalSql,
+      });
+
+      // Log database execution error
+      await aiRequestLogService.logRequest({
+        question: validation.data.question,
+        sanitizedQuestion,
+        generatedSql: finalSql,
+        success: false,
+        errorCode: 'DATABASE_ERROR',
+        errorMessage,
       });
 
       // Handle specific database errors
@@ -179,7 +209,24 @@ export async function POST(request: NextRequest) {
       totalExecutionTime: response.metadata.executionTime,
     });
 
-    return NextResponse.json(response, {
+    // Log the successful request (fire-and-forget)
+    // Store the request ID for potential feedback
+    requestId = await aiRequestLogService.logRequest({
+      question: validation.data.question,
+      sanitizedQuestion,
+      generatedSql: finalSql,
+      rowCount: response.metadata.rowCount,
+      executionTimeMs: queryResult.executionTime,
+      success: true,
+    });
+
+    // Add requestId to response for feedback functionality
+    const responseWithRequestId = {
+      ...response,
+      requestId,
+    };
+
+    return NextResponse.json(responseWithRequestId, {
       status: 200,
       headers: {
         'Content-Type': 'application/json',
@@ -193,6 +240,14 @@ export async function POST(request: NextRequest) {
       error: (error as Error).message,
       stack: (error as Error).stack,
       question: (body as { question?: string })?.question || 'unknown',
+    });
+
+    // Log unexpected server error
+    await aiRequestLogService.logRequest({
+      question: (body as { question?: string })?.question || 'unknown',
+      success: false,
+      errorCode: 'SERVER_ERROR',
+      errorMessage: (error as Error).message,
     });
 
     return NextResponse.json(responseFormatter.formatServerError(), { status: 500 });
