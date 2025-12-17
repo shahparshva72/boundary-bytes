@@ -96,7 +96,7 @@ export async function POST(request: NextRequest) {
 }
 
 /**
- * GET /api/ai/feedback/stats
+ * GET /api/ai/feedback
  * Get accuracy statistics for AI responses
  */
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
