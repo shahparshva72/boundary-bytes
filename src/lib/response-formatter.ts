@@ -8,6 +8,7 @@ export interface SuccessResponse {
     executionTime: number;
     generatedSql: string;
   };
+  requestId?: string; // For AI feedback tracking
 }
 
 export interface ErrorResponse {
@@ -23,7 +24,10 @@ export type ErrorCode =
   | 'AI_ERROR'
   | 'SQL_ERROR'
   | 'DATABASE_ERROR'
-  | 'RATE_LIMIT_ERROR';
+  | 'RATE_LIMIT_ERROR'
+  | 'NOT_FOUND'
+  | 'CONFLICT'
+  | 'SERVER_ERROR';
 
 export type ApiResponse = SuccessResponse | ErrorResponse;
 

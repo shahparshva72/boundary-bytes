@@ -1,5 +1,6 @@
 'use client';
 
+import AiFeedback from '@/components/AiFeedback';
 import Tooltip from '@/components/Tooltip';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 import { useTextToSql } from '@/hooks/useTextToSql';
@@ -194,6 +195,7 @@ export default function TextToSqlPage() {
               Ask Another
             </button>
           </div>
+          {data.requestId && <AiFeedback requestId={data.requestId} />}
         </div>
       );
     }

@@ -151,3 +151,39 @@ model WplPersonRegistry {
   @@index([registryId])
   @@map("wpl_person_registry")
 }
+
+// AI Chat Request logging model
+model AiChatRequest {
+  id              String    @id @default(cuid())
+
+  // Request details
+  question        String    @map("question")
+  sanitizedQuestion String? @map("sanitized_question")
+  league          String?   @map("league")
+
+  // Generated SQL
+  generatedSql    String?   @map("generated_sql") @db.Text
+
+  // Response metadata
+  rowCount        Int?      @map("row_count")
+  executionTimeMs Int?      @map("execution_time_ms")
+
+  // Error tracking
+  success         Boolean   @default(true)
+  errorCode       String?   @map("error_code")
+  errorMessage    String?   @map("error_message") @db.Text
+
+  // Accuracy feedback (optional)
+  isAccurate      Boolean?  @map("is_accurate")
+  feedbackNote    String?   @map("feedback_note") @db.Text
+  feedbackAt      DateTime? @map("feedback_at")
+
+  // Timestamps
+  createdAt       DateTime  @default(now()) @map("created_at")
+
+  @@index([league])
+  @@index([success])
+  @@index([isAccurate])
+  @@index([createdAt])
+  @@map("ai_chat_request")
+}

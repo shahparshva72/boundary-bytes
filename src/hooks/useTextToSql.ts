@@ -10,6 +10,7 @@ interface TextToSqlSuccess {
     executionTime: number;
     generatedSql: string; // retained for potential future enhancements
   };
+  requestId?: string; // For feedback tracking
 }
 
 export interface TextToSqlError {
