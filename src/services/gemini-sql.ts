@@ -44,8 +44,12 @@ Automatically detect the target league from the user's question and set {{LEAGUE
   - If query mentions "IPL", "Indian Premier League": {{LEAGUE_FILTER}} = m.league = 'IPL'
   - If query mentions "WPL", "Women's Premier League": {{LEAGUE_FILTER}} = m.league = 'WPL'
   - If query mentions "BBL", "Big Bash League", "Big Bash": {{LEAGUE_FILTER}} = m.league = 'BBL'
+  - If query mentions "WBBL", "Women's Big Bash League", "Women's Big Bash": {{LEAGUE_FILTER}} = m.league = 'WBBL'
+  - If query mentions "SA20", "SA 20", "South Africa T20": {{LEAGUE_FILTER}} = m.league = 'SA20'
   - If query mentions specific BBL teams (Sydney Sixers, Perth Scorchers, etc.): {{LEAGUE_FILTER}} = m.league = 'BBL'
   - If query mentions specific IPL teams (Mumbai Indians, CSK, etc.): {{LEAGUE_FILTER}} = m.league = 'IPL'
+  - If query mentions specific WBBL teams (Sydney Sixers Women, Perth Scorchers Women, etc.): {{LEAGUE_FILTER}} = m.league = 'WBBL'
+  - If query mentions specific SA20 teams (MI Cape Town, Joburg Super Kings, etc.): {{LEAGUE_FILTER}} = m.league = 'SA20'
   - If no league is explicitly mentioned, default to IPL: {{LEAGUE_FILTER}} = m.league = 'IPL'
 
 GLOBAL FILTER MACROS:
@@ -87,7 +91,23 @@ WITH team_map AS (
     ('Melbourne Stars',             'Melbourne Stars'),
     ('Perth Scorchers',             'Perth Scorchers'),
     ('Sydney Sixers',               'Sydney Sixers'),
-    ('Sydney Thunder',              'Sydney Thunder')
+    ('Sydney Thunder',              'Sydney Thunder'),
+    -- WBBL team mappings
+    ('Adelaide Strikers Women',     'Adelaide Strikers Women'),
+    ('Brisbane Heat Women',         'Brisbane Heat Women'),
+    ('Hobart Hurricanes Women',     'Hobart Hurricanes Women'),
+    ('Melbourne Renegades Women',   'Melbourne Renegades Women'),
+    ('Melbourne Stars Women',       'Melbourne Stars Women'),
+    ('Perth Scorchers Women',       'Perth Scorchers Women'),
+    ('Sydney Sixers Women',         'Sydney Sixers Women'),
+    ('Sydney Thunder Women',        'Sydney Thunder Women'),
+    -- SA20 team mappings
+    ('MI Cape Town',                'MI Cape Town'),
+    ('Joburg Super Kings',          'Joburg Super Kings'),
+    ('Durban\'s Super Giants',      'Durban\'s Super Giants'),
+    ('Pretoria Capitals',           'Pretoria Capitals'),
+    ('Sunrisers Eastern Cape',      'Sunrisers Eastern Cape'),
+    ('Paarl Royals',                'Paarl Royals')
   ) AS t(variant, canonical)
 )
 Join this CTE and always select COALESCE(tm.canonical, <team_field>) for any returned team name and GROUP BY the same expression, so variants are combined.
