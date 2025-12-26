@@ -57,7 +57,7 @@ const LeagueCard: React.FC<LeagueCardProps> = ({ league, config, onSelect, delay
 
   return (
     <motion.div
-      className="bg-white border-4 border-black p-6 sm:p-8 cursor-pointer focus:outline-none focus:border-6 focus:border-black"
+      className="bg-white border-4 border-black p-4 sm:p-5 cursor-pointer focus:outline-none focus:border-6 focus:border-black"
       style={{
         boxShadow: '12px 12px 0px 0px rgba(0,0,0,1)',
       }}
@@ -71,61 +71,51 @@ const LeagueCard: React.FC<LeagueCardProps> = ({ league, config, onSelect, delay
         type: 'spring',
         damping: 20,
         stiffness: 300,
-        duration: 0.5,
       }}
       onClick={handleSelect}
       onKeyDown={handleKeyDown}
       tabIndex={0}
       role="button"
-      aria-label={`Select ${config.fullName} - ${config.description}. ${config.tagline}`}
+      aria-label={`Select ${config.fullName}`}
       aria-describedby={`${league}-stats`}
     >
       {/* Card Header */}
       <div
-        className="border-3 border-black p-4 mb-6 font-black text-2xl sm:text-3xl text-black text-center uppercase tracking-wide"
+        className="border-3 border-black p-3 mb-4 font-black text-xl sm:text-2xl text-black text-center uppercase tracking-wide"
         style={{
           backgroundColor: config.colors.headerBg,
           transform: isSelected ? 'rotate(-1deg) scale(1.02)' : 'rotate(0deg)',
         }}
       >
         <div className="flex items-center justify-center gap-3">
-          <span className="text-3xl sm:text-4xl">{config.icon}</span>
+          <span className="text-2xl sm:text-3xl">{config.icon}</span>
           <span>{config.name}</span>
         </div>
       </div>
 
-      {/* League Info */}
-      <div className="text-center mb-6">
-        <h3 className="text-xl sm:text-2xl font-black text-black mb-2 uppercase">
-          {config.fullName}
-        </h3>
-        <p className="text-lg font-bold text-black mb-3">{config.description}</p>
-        <div
-          className="inline-block px-4 py-2 border-2 border-black font-black text-black uppercase tracking-wide"
-          style={{ backgroundColor: config.colors.secondary }}
-        >
-          {config.tagline}
-        </div>
+      {/* Full Name */}
+      <div className="text-center mb-4">
+        <h3 className="text-lg sm:text-xl font-black text-black uppercase">{config.fullName}</h3>
       </div>
 
       {/* Statistics Grid */}
-      <div id={`${league}-stats`} className="grid grid-cols-3 gap-3 sm:gap-4">
-        <div className="bg-white border-2 border-black p-3 text-center flex flex-col items-center justify-center min-h-24">
-          <div className="text-xl sm:text-3xl md:text-4xl font-black text-black leading-none tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">
+      <div id={`${league}-stats`} className="grid grid-cols-3 gap-2 sm:gap-3">
+        <div className="bg-white border-2 border-black p-2 text-center flex flex-col items-center justify-center min-h-20">
+          <div className="text-lg sm:text-2xl font-black text-black leading-none tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">
             {config.stats.teams}
           </div>
           <div className="mt-1 text-[10px] sm:text-xs font-bold text-black uppercase">Teams</div>
         </div>
 
-        <div className="bg-white border-2 border-black p-3 text-center flex flex-col items-center justify-center min-h-24">
-          <div className="text-xl sm:text-3xl md:text-4xl font-black text-black leading-none tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">
+        <div className="bg-white border-2 border-black p-2 text-center flex flex-col items-center justify-center min-h-20">
+          <div className="text-lg sm:text-2xl font-black text-black leading-none tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">
             {config.stats.matches}
           </div>
           <div className="mt-1 text-[10px] sm:text-xs font-bold text-black uppercase">Matches</div>
         </div>
 
-        <div className="bg-white border-2 border-black p-3 text-center flex flex-col items-center justify-center min-h-24">
-          <div className="text-xl sm:text-3xl md:text-4xl font-black text-black leading-none tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">
+        <div className="bg-white border-2 border-black p-2 text-center flex flex-col items-center justify-center min-h-20">
+          <div className="text-lg sm:text-2xl font-black text-black leading-none tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">
             {config.stats.players}
           </div>
           <div className="mt-1 text-[10px] sm:text-xs font-bold text-black uppercase">Players</div>
@@ -133,9 +123,9 @@ const LeagueCard: React.FC<LeagueCardProps> = ({ league, config, onSelect, delay
       </div>
 
       {/* Seasons Info */}
-      <div className="mt-6 text-center">
+      <div className="mt-4 text-center">
         <div
-          className="inline-block px-3 py-1 border-2 border-black font-bold text-black text-sm"
+          className="inline-block px-2 py-1 border-2 border-black font-bold text-black text-xs"
           style={{ backgroundColor: config.colors.accent }}
         >
           Seasons: {config.stats.seasons.join(', ')}

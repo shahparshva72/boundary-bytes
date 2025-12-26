@@ -2,7 +2,7 @@ import { prisma } from '@/lib/prisma';
 import { NextRequest, NextResponse } from 'next/server';
 
 // Valid league values
-const VALID_LEAGUES = ['WPL', 'IPL', 'BBL'] as const;
+const VALID_LEAGUES = ['WPL', 'IPL', 'BBL', 'WBBL', 'SA20'] as const;
 type League = (typeof VALID_LEAGUES)[number];
 
 function validateLeague(league: string | null): League {

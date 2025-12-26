@@ -61,9 +61,49 @@ export const LEAGUE_CONFIGS: Record<League, LeagueConfig> = {
     },
     icon: '🔥',
   },
+  WBBL: {
+    id: 'WBBL',
+    name: 'WBBL',
+    fullName: "Women's Big Bash League",
+    description: "Australia's premier women's T20 cricket league",
+    tagline: 'INSPIRING THE NEXT GENERATION.',
+    colors: {
+      primary: '#E91E63',
+      secondary: '#FFC107',
+      accent: '#00BCD4',
+      headerBg: '#E91E63',
+    },
+    stats: {
+      teams: 8,
+      matches: 502,
+      players: 275,
+      seasons: ['2015/16-2025/26'],
+    },
+    icon: '⭐',
+  },
+  SA20: {
+    id: 'SA20',
+    name: 'SA20',
+    fullName: 'SA20',
+    description: "South Africa's premier T20 cricket league",
+    tagline: "AFRICA'S FINEST. GLOBAL STAGE.",
+    colors: {
+      primary: '#FF5722',
+      secondary: '#FFC107',
+      accent: '#4CAF50',
+      headerBg: '#FF5722',
+    },
+    stats: {
+      teams: 6,
+      matches: 99,
+      players: 184,
+      seasons: ['2022/23-2024/25'],
+    },
+    icon: '🏏',
+  },
 };
 
-export const VALID_LEAGUES: League[] = ['WPL', 'IPL', 'BBL'];
+export const VALID_LEAGUES: League[] = ['WPL', 'IPL', 'BBL', 'WBBL', 'SA20'];
 
 export const getLeagueConfig = (league: League): LeagueConfig => {
   return LEAGUE_CONFIGS[league];
