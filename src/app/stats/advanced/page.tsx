@@ -4,14 +4,34 @@ import { useLeagueContext } from '@/contexts/LeagueContext';
 import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 import { useBatters, useBowlers } from '@/hooks/usePlayersAPI';
 import { useQuery } from '@tanstack/react-query';
-import dynamic from 'next/dynamic';
 
 import Layout from '../components/Layout';
 import StatsControls from '../components/StatsControls';
 import StatsDisplay from '../components/StatsDisplay';
 import { useAdvancedStats } from '../hooks/useAdvancedStats';
 
-const Select = dynamic(() => import('react-select'), { ssr: false });
+const fetchAdvancedStats = async (
+  selectedOvers: number[],
+  selectedPlayer: { value: string; label: string } | null,
+  playerType: 'batter' | 'bowler',
+  fetchWithLeague: (url: string) => Promise<Response>,
+) => {
+  if (!selectedPlayer || selectedOvers.length === 0) {
+    throw new Error('Player and overs are required');
+  }
+
+  const params = new URLSearchParams({
+    overs: selectedOvers.join(','),
+    playerType,
+    ...(playerType === 'batter'
+      ? { batter: selectedPlayer.value }
+      : { bowler: selectedPlayer.value }),
+  });
+
+  const response = await fetchWithLeague(`/api/stats/advanced?${params}`);
+  if (!response.ok) throw new Error('Failed to fetch advanced stats');
+  return response.json();
+};
 
 const AdvancedStatsPage = () => {
   const { state, dispatch } = useAdvancedStats();
@@ -19,11 +39,9 @@ const AdvancedStatsPage = () => {
   const { selectedLeague, leagueConfig } = useLeagueContext();
   const { fetchWithLeague } = useLeagueAPI();
 
-  // Use league-aware hooks that automatically include league parameter
   const { data: battersData, isLoading: battersLoading, isError: battersError } = useBatters();
   const { data: bowlersData, isLoading: bowlersLoading, isError: bowlersError } = useBowlers();
 
-  // Manual advanced stats fetching with league support
   const {
     data: statsResponse,
     isLoading: statsLoading,
@@ -31,28 +49,11 @@ const AdvancedStatsPage = () => {
     refetch,
   } = useQuery({
     queryKey: ['advancedStats', selectedOvers, selectedPlayer?.value, playerType, selectedLeague],
-    queryFn: async () => {
-      if (!selectedPlayer || selectedOvers.length === 0) {
-        throw new Error('Player and overs are required');
-      }
-
-      const params = new URLSearchParams({
-        overs: selectedOvers.join(','),
-        playerType,
-        ...(playerType === 'batter'
-          ? { batter: selectedPlayer.value }
-          : { bowler: selectedPlayer.value }),
-      });
-
-      const response = await fetchWithLeague(`/api/stats/advanced?${params}`);
-      if (!response.ok) throw new Error('Failed to fetch advanced stats');
-      return response.json();
-    },
-    enabled: false, // Only fetch when user clicks button
+    queryFn: () => fetchAdvancedStats(selectedOvers, selectedPlayer, playerType, fetchWithLeague),
+    enabled: false,
     retry: false,
   });
 
-  // Extract stats data from response
   const stats = statsResponse?.data || null;
 
   const handleOverToggle = (over: number) => {
@@ -90,7 +91,7 @@ const AdvancedStatsPage = () => {
     : 'Get Advanced Cricket Stats for players performance overwise.';
 
   return (
-    <Layout description={description} error={isError || statsError} loading={isLoading}>
+    <Layout description={description} error={isError || statsError}>
       <StatsControls
         playerType={playerType}
         setPlayerType={dispatch}
@@ -105,7 +106,7 @@ const AdvancedStatsPage = () => {
         handleFetchStats={handleFetchStats}
         statsLoading={statsLoading}
         handleClear={handleClear}
-        SelectComponent={Select}
+        isLoading={isLoading}
       />
       {statsError && (
         <div className="w-full max-w-2xl mt-4 p-4 bg-red-100 border-2 border-red-500 text-red-700 font-bold">

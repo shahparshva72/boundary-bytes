@@ -1,7 +1,6 @@
-import { ComponentType, Dispatch } from 'react';
-import { Props as ReactSelectProps } from 'react-select';
+import { Dispatch } from 'react';
+import Select from 'react-select';
 import { Action } from '../hooks/useAdvancedStats';
-
 interface StatsControlsProps {
   playerType: 'batter' | 'bowler';
   setPlayerType: Dispatch<Action>;
@@ -16,7 +15,7 @@ interface StatsControlsProps {
   handleFetchStats: () => void;
   statsLoading: boolean;
   handleClear: () => void;
-  SelectComponent: ComponentType<ReactSelectProps>;
+  isLoading: boolean;
 }
 
 const customStyles = {
@@ -55,7 +54,7 @@ const StatsControls = ({
   handleFetchStats,
   statsLoading,
   handleClear,
-  SelectComponent,
+  isLoading,
 }: StatsControlsProps) => {
   const playerOptions =
     playerType === 'batter'
@@ -63,13 +62,13 @@ const StatsControls = ({
       : bowlersData?.map((bowler: string) => ({ value: bowler, label: bowler })) || [];
 
   return (
-    <div className="w-full max-w-2xl">
+    <div className="w-full max-w-2xl py-2">
       <div className="mb-3 sm:mb-4">
         <label className="block text-base sm:text-lg font-bold mb-2 text-black">Player Type</label>
         <div className="grid grid-cols-2 gap-2 mb-3 sm:mb-4">
           <button
             onClick={() => setPlayerType({ type: 'SET_PLAYER_TYPE', payload: 'batter' })}
-            className={`p-2 sm:p-3 rounded-none border-2 border-black font-bold text-sm sm:text-base ${
+            className={`p-2 sm:p-3 rounded-none border-2 border-black font-bold text-sm sm:text-base transition-all duration-200 hover:bg-yellow-300 ${
               playerType === 'batter' ? 'bg-[#FFC700] text-black' : 'bg-white text-black'
             }`}
           >
@@ -77,7 +76,7 @@ const StatsControls = ({
           </button>
           <button
             onClick={() => setPlayerType({ type: 'SET_PLAYER_TYPE', payload: 'bowler' })}
-            className={`p-2 sm:p-3 rounded-none border-2 border-black font-bold text-sm sm:text-base ${
+            className={`p-2 sm:p-3 rounded-none border-2 border-black font-bold text-sm sm:text-base transition-all duration-200 hover:bg-yellow-300 ${
               playerType === 'bowler' ? 'bg-[#FFC700] text-black' : 'bg-white text-black'
             }`}
           >
@@ -90,7 +89,7 @@ const StatsControls = ({
         <label className="block text-base sm:text-lg font-bold mb-2 text-black">
           Select {playerType === 'batter' ? 'Batter' : 'Bowler'}
         </label>
-        <SelectComponent
+        <Select
           instanceId="advanced-stats-player-select"
           options={playerOptions}
           value={selectedPlayer}
@@ -101,7 +100,12 @@ const StatsControls = ({
             })
           }
           styles={customStyles}
-          placeholder={`Select ${playerType === 'batter' ? 'Batter' : 'Bowler'}`}
+          placeholder={
+            isLoading
+              ? 'Loading players...'
+              : `Select ${playerType === 'batter' ? 'Batter' : 'Bowler'}`
+          }
+          isLoading={isLoading}
         />
       </div>
 
@@ -110,7 +114,7 @@ const StatsControls = ({
           <label className="block text-base sm:text-lg font-bold mb-2 text-black">
             Select Phase
           </label>
-          <SelectComponent
+          <Select
             instanceId="advanced-stats-phase-select"
             options={phaseOptions}
             onChange={(newValue: unknown) =>
@@ -129,7 +133,7 @@ const StatsControls = ({
               <button
                 key={over}
                 onClick={() => handleOverToggle(over)}
-                className={`p-1.5 sm:p-2 rounded-none border-2 border-black font-bold text-xs sm:text-sm md:text-base ${
+                className={`p-1.5 sm:p-2 rounded-none border-2 border-black font-bold text-xs sm:text-sm md:text-base transition-all duration-200 hover:bg-yellow-300 ${
                   selectedOvers.includes(over) ? 'bg-[#FFC700] text-black' : 'bg-white text-black'
                 }`}
               >
