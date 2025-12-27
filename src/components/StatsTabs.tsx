@@ -8,16 +8,11 @@ import TeamWins from '@/components/TeamWins';
 import WicketTakers from '@/components/WicketTakers';
 import { Tab, Tabs } from './tabs';
 
-interface StatsTabsProps {
-  batters: string[];
-  bowlers: string[];
-}
-
-export default function StatsTabs({ batters, bowlers }: StatsTabsProps) {
+export default function StatsTabs() {
   return (
     <Tabs>
       <Tab label="Batter vs Bowler">
-        <MatchupTab batters={batters} bowlers={bowlers} />
+        <MatchupTab />
       </Tab>
       <Tab label="Run Scorers">
         <RunScorers />

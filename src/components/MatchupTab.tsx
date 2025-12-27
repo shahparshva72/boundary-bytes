@@ -2,12 +2,7 @@
 
 import Matchup from '@/components/Matchup';
 
-interface MatchupTabProps {
-  batters: string[];
-  bowlers: string[];
-}
-
-export default function MatchupTab({ batters, bowlers }: MatchupTabProps) {
+export default function MatchupTab() {
   return (
     <div className="w-full mx-auto p-0 sm:p-4">
       <div className="flex flex-col items-center gap-4 sm:gap-6 mb-4 w-full">
@@ -15,7 +10,7 @@ export default function MatchupTab({ batters, bowlers }: MatchupTabProps) {
           Select a batter and a bowler to see their head-to-head stats.
         </p>
       </div>
-      <Matchup batters={batters} bowlers={bowlers} />
+      <Matchup />
     </div>
   );
 }

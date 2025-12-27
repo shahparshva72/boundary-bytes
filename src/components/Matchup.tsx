@@ -1,5 +1,6 @@
 'use client';
 
+import { useBatters, useBowlers } from '@/hooks/usePlayersAPI';
 import { useMatchup } from '@/hooks/useStatsAPI';
 import dynamic from 'next/dynamic';
 import { parseAsString, useQueryState } from 'nuqs';
@@ -7,12 +8,10 @@ import { MoonLoader } from 'react-spinners';
 
 const Select = dynamic(() => import('react-select'), { ssr: false });
 
-interface MatchupProps {
-  batters: string[];
-  bowlers: string[];
-}
+export default function Matchup() {
+  const { data: batters, isLoading: battersLoading } = useBatters();
+  const { data: bowlers, isLoading: bowlersLoading } = useBowlers();
 
-export default function Matchup({ batters, bowlers }: MatchupProps) {
   const [selectedBatterValue, setSelectedBatterValue] = useQueryState(
     'batter',
     parseAsString.withOptions({ clearOnDefault: true }),
@@ -31,14 +30,14 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
 
   const {
     data: matchupData,
-    isLoading,
+    isLoading: isMatchupLoading,
     error: queryError,
   } = useMatchup(selectedBatter?.value || '', selectedBowler?.value || '');
 
   const error = queryError ? 'Failed to fetch matchup data.' : null;
 
-  const batterOptions = batters.map((batter) => ({ value: batter, label: batter }));
-  const bowlerOptions = bowlers.map((bowler) => ({ value: bowler, label: bowler }));
+  const batterOptions = batters?.map((batter: string) => ({ value: batter, label: batter })) || [];
+  const bowlerOptions = bowlers?.map((bowler: string) => ({ value: bowler, label: bowler })) || [];
 
   const handleBatterChange = (newValue: unknown) => {
     const selected = newValue as { value: string; label: string } | null;
@@ -106,7 +105,8 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
             value={selectedBatter}
             onChange={handleBatterChange}
             styles={customStyles}
-            placeholder="Select Batter"
+            placeholder={battersLoading ? 'Loading Batters...' : 'Select Batter'}
+            isLoading={battersLoading}
           />
         </div>
         <div className="w-full sm:w-1/2">
@@ -123,7 +123,8 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
             value={selectedBowler}
             onChange={handleBowlerChange}
             styles={customStyles}
-            placeholder="Select Bowler"
+            placeholder={bowlersLoading ? 'Loading Bowlers...' : 'Select Bowler'}
+            isLoading={bowlersLoading}
           />
         </div>
       </div>
@@ -131,9 +132,9 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
       <button
         onClick={handleFetchMatchup}
         className="px-4 sm:px-8 py-2 sm:py-4 font-black text-base sm:text-2xl text-black bg-[#FFED66] border-2 sm:border-4 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all disabled:opacity-50"
-        disabled={isLoading || !selectedBatter || !selectedBowler}
+        disabled={isMatchupLoading || !selectedBatter || !selectedBowler}
       >
-        {isLoading ? 'Loading...' : 'Get Stats'}
+        {isMatchupLoading ? 'Loading...' : 'Get Stats'}
       </button>
 
       {error && (
@@ -142,7 +143,7 @@ export default function Matchup({ batters, bowlers }: MatchupProps) {
         </div>
       )}
 
-      {isLoading && (
+      {isMatchupLoading && (
         <div className="mt-2 sm:mt-8">
           <MoonLoader color="#1a202c" size={48} />
         </div>
