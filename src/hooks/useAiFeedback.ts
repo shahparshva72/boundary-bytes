@@ -46,26 +46,28 @@ export function useAiFeedback() {
   };
 }
 
+const fetchAiFeedbackStats = async () => {
+  const response = await fetch('/api/ai/feedback', {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  });
+
+  if (!response.ok) {
+    throw new Error('Failed to fetch feedback statistics');
+  }
+
+  return response.json();
+};
+
 /**
  * Hook for fetching AI feedback statistics
  */
 export function useAiFeedbackStats() {
   const { data, isLoading, error } = useQuery({
     queryKey: ['ai-feedback-stats'],
-    queryFn: async () => {
-      const response = await fetch('/api/ai/feedback', {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      });
-
-      if (!response.ok) {
-        throw new Error('Failed to fetch feedback statistics');
-      }
-
-      return response.json();
-    },
+    queryFn: fetchAiFeedbackStats,
     staleTime: 5 * 60 * 1000, // 5 minutes
     gcTime: 10 * 60 * 1000, // 10 minutes
   });

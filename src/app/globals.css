@@ -30,3 +30,11 @@ body {
 html {
   overflow-x: hidden;
 }
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}

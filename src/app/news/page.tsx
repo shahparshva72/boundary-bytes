@@ -20,6 +20,12 @@ interface NewsData {
   items: NewsItem[];
 }
 
+const fetchNews = async () => {
+  const response = await fetch('/api/news');
+  if (!response.ok) throw new Error('Failed to fetch news');
+  return response.json();
+};
+
 export default function NewsPage() {
   const {
     data: newsResponse,
@@ -27,11 +33,7 @@ export default function NewsPage() {
     isError,
   } = useQuery({
     queryKey: ['cricketNews'],
-    queryFn: async () => {
-      const response = await fetch('/api/news');
-      if (!response.ok) throw new Error('Failed to fetch news');
-      return response.json();
-    },
+    queryFn: fetchNews,
     refetchInterval: 5 * 60 * 1000, // Refetch every 5 minutes
   });
 

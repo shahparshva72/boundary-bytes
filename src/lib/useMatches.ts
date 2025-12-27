@@ -31,27 +31,33 @@ interface MatchesResponse {
   };
 }
 
+export const fetchMatchesData = async (
+  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
+  page: number,
+  season?: string,
+) => {
+  const searchParams = new URLSearchParams({
+    page: page.toString(),
+    limit: '6',
+  });
+  if (season) searchParams.append('season', season);
+
+  const response = await fetchWithLeague(`/api/matches?${searchParams}`);
+
+  if (!response.ok) {
+    throw new Error(`Failed to fetch matches: ${response.statusText}`);
+  }
+
+  const data = await response.json();
+  return data;
+};
+
 export function useMatches(page = 1, season?: string) {
   const { fetchWithLeague, selectedLeague } = useLeagueAPI();
 
   return useQuery<MatchesResponse>({
     queryKey: ['matches', page, season, selectedLeague],
-    queryFn: async () => {
-      const searchParams = new URLSearchParams({
-        page: page.toString(),
-        limit: '6',
-      });
-      if (season) searchParams.append('season', season);
-
-      const response = await fetchWithLeague(`/api/matches?${searchParams}`);
-
-      if (!response.ok) {
-        throw new Error(`Failed to fetch matches: ${response.statusText}`);
-      }
-
-      const data = await response.json();
-      return data;
-    },
+    queryFn: () => fetchMatchesData(fetchWithLeague, page, season),
     enabled: !!selectedLeague, // Only run a query when league is selected
   });
 }
