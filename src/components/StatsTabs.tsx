@@ -6,7 +6,7 @@ import RunScorers from '@/components/RunScorers';
 import TeamAverages from '@/components/TeamAverages';
 import TeamWins from '@/components/TeamWins';
 import WicketTakers from '@/components/WicketTakers';
-import { Tab, Tabs } from './tabs';
+import { Tab, Tabs } from './ui/Tabs';
 
 export default function StatsTabs() {
   return (
