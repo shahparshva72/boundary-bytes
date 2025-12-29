@@ -22,14 +22,14 @@ const variantStyles: Record<CardVariant, string> = {
   flat: 'bg-white border-4 border-black',
 };
 
-const paddingStyles: Record<string, string> = {
+const paddingStyles: Record<NonNullable<CardProps['padding']>, string> = {
   none: '',
   sm: 'p-2 sm:p-3',
   md: 'p-4 sm:p-6',
   lg: 'p-6 sm:p-8',
 };
 
-const headerColorStyles: Record<string, string> = {
+const headerColorStyles: Record<NonNullable<CardHeaderProps['color']>, string> = {
   coral: 'bg-[#FF5E5B]',
   teal: 'bg-[#4ECDC4]',
   yellow: 'bg-[#FFED66]',

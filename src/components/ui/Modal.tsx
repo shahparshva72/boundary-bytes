@@ -56,7 +56,9 @@ const Modal = forwardRef<HTMLDivElement, ModalProps>(
 
       return () => {
         document.removeEventListener('keydown', handleEscape);
-        document.body.style.overflow = '';
+        if (isOpen) {
+          document.body.style.overflow = '';
+        }
       };
     }, [isOpen, handleEscape]);
 
