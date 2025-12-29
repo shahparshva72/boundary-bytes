@@ -41,7 +41,7 @@ const DataTable = forwardRef<HTMLDivElement, DataTableProps>(
   ({ minWidth = '600px', className = '', children, ...props }, ref) => {
     return (
       <div ref={ref} className={`overflow-x-auto ${className}`} {...props}>
-        <table className="w-full" style={{ minWidth }}>
+        <table className="w-full border-2 border-black" style={{ minWidth }}>
           {children}
         </table>
       </div>
