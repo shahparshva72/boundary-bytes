@@ -1,7 +1,7 @@
 'use client';
 
 import AiFeedback from '@/components/AiFeedback';
-import Tooltip from '@/components/Tooltip';
+import Tooltip from '@/components/ui/Tooltip';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 import { useTextToSql } from '@/hooks/useTextToSql';
 import { useEffect, useState } from 'react';

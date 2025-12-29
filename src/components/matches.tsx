@@ -3,7 +3,7 @@
 import { useMatches } from '@/lib/useMatches';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import Pagination from './Pagination';
+import Pagination from './ui/Pagination';
 
 function redirectToCricinfoScorecard(matchId: number) {
   const scorecardUrl = 'https://www.espncricinfo.com/matches/engine/match/' + matchId + '.html';

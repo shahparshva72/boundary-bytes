@@ -4,6 +4,16 @@ import { fetchFallOfWickets } from '@/services/statsService';
 import { useQuery } from '@tanstack/react-query';
 import { useState } from 'react';
 import MatchSelector from './MatchSelector';
+import {
+  Card,
+  DataTable,
+  DataTableBody,
+  DataTableCell,
+  DataTableHeadCell,
+  DataTableHeader,
+  DataTableRow,
+  SectionHeader,
+} from './ui';
 
 interface WicketData {
   wicketNumber: number;
@@ -44,14 +54,12 @@ export default function FallOfWickets() {
     setSelectedMatchId(matchId);
   };
 
+  const wicketHeaders = ['W', 'Over', 'Runs', 'Out', 'How', 'Bowler'];
+
   return (
     <div className="w-full mx-auto p-2 sm:p-4">
-      <div className="bg-white border-4 border-black rounded-none overflow-hidden">
-        <div className="bg-[#FF5E5B] p-3 sm:p-4 border-b-4 border-black">
-          <h2 className="text-lg sm:text-xl md:text-2xl font-black text-black text-center uppercase tracking-wide">
-            Fall of Wickets Analysis
-          </h2>
-        </div>
+      <Card variant="default" className="border-4">
+        <SectionHeader title="Fall of Wickets Analysis" color="coral" size="md" />
 
         <div className="p-3 sm:p-6">
           <div className="mb-4 sm:mb-6">
@@ -69,13 +77,11 @@ export default function FallOfWickets() {
             </div>
           ) : isLoading ? (
             <div className="space-y-4 sm:space-y-6 animate-pulse">
-              {/* Match info skeleton */}
               <div className="bg-[#4ECDC4]/30 border-4 border-black p-3 sm:p-4">
                 <div className="h-6 bg-gray-300 rounded w-3/4 mb-2"></div>
                 <div className="h-5 bg-gray-300 rounded w-1/2"></div>
               </div>
 
-              {/* Innings skeletons (2 innings) */}
               {Array.from({ length: 2 }).map((_, inningsIndex) => (
                 <div key={inningsIndex} className="border-4 border-black">
                   <div className="bg-[#FFC700]/30 p-3 sm:p-4 border-b-4 border-black">
@@ -86,7 +92,7 @@ export default function FallOfWickets() {
                     <table className="w-full min-w-[500px]">
                       <thead className="bg-[#4ECDC4]/30 border-b-4 border-black">
                         <tr>
-                          {['W', 'Over', 'Runs', 'Out', 'How', 'Bowler'].map((header, i) => (
+                          {wicketHeaders.map((header, i) => (
                             <th
                               key={i}
                               className={`px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-left ${i < 5 ? 'border-r-2 border-black' : ''}`}
@@ -144,60 +150,35 @@ export default function FallOfWickets() {
                   </div>
 
                   {innings.wickets.length > 0 ? (
-                    <div className="overflow-x-auto">
-                      <table className="w-full min-w-[500px]">
-                        <thead className="bg-[#4ECDC4] border-b-4 border-black">
-                          <tr>
-                            <th className="px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-left text-xs sm:text-sm md:text-base lg:text-lg font-black text-black uppercase tracking-wide border-r-2 border-black whitespace-nowrap">
-                              W
-                            </th>
-                            <th className="px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-left text-xs sm:text-sm md:text-base lg:text-lg font-black text-black uppercase tracking-wide border-r-2 border-black whitespace-nowrap">
-                              Over
-                            </th>
-                            <th className="px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-left text-xs sm:text-sm md:text-base lg:text-lg font-black text-black uppercase tracking-wide border-r-2 border-black whitespace-nowrap">
-                              Runs
-                            </th>
-                            <th className="px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-left text-xs sm:text-sm md:text-base lg:text-lg font-black text-black uppercase tracking-wide border-r-2 border-black whitespace-nowrap">
-                              Out
-                            </th>
-                            <th className="px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-left text-xs sm:text-sm md:text-base lg:text-lg font-black text-black uppercase tracking-wide border-r-2 border-black whitespace-nowrap">
-                              How
-                            </th>
-                            <th className="px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-left text-xs sm:text-sm md:text-base lg:text-lg font-black text-black uppercase tracking-wide whitespace-nowrap">
-                              Bowler
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {innings.wickets.map((wicket: WicketData, index: number) => (
-                            <tr
-                              key={`${innings.inningsNumber}-${wicket.wicketNumber}`}
-                              className={`${index % 2 === 0 ? 'bg-white' : 'bg-[#FFED66]'}
-                                border-b-2 border-black hover:bg-[#FFED66] transition-colors duration-150`}
+                    <DataTable minWidth="500px">
+                      <DataTableHeader color="teal">
+                        <tr>
+                          {wicketHeaders.map((header, idx) => (
+                            <DataTableHeadCell
+                              key={header}
+                              isLast={idx === wicketHeaders.length - 1}
                             >
-                              <td className="px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-xs sm:text-base md:text-lg font-bold text-black border-r-2 border-black whitespace-nowrap">
-                                {wicket.wicketNumber}
-                              </td>
-                              <td className="px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-xs sm:text-base md:text-lg font-bold text-black border-r-2 border-black whitespace-nowrap">
-                                {wicket.over}
-                              </td>
-                              <td className="px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-xs sm:text-base md:text-lg font-bold text-black border-r-2 border-black whitespace-nowrap">
-                                {wicket.runsAtFall}
-                              </td>
-                              <td className="px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-xs sm:text-base md:text-lg font-bold text-black border-r-2 border-black whitespace-nowrap">
-                                {wicket.batsmanOut}
-                              </td>
-                              <td className="px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-xs sm:text-base md:text-lg font-bold text-black border-r-2 border-black whitespace-nowrap">
-                                {wicket.dismissalType}
-                              </td>
-                              <td className="px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-xs sm:text-base md:text-lg font-bold text-black whitespace-nowrap">
-                                {wicket.bowler}
-                              </td>
-                            </tr>
+                              {header}
+                            </DataTableHeadCell>
                           ))}
-                        </tbody>
-                      </table>
-                    </div>
+                        </tr>
+                      </DataTableHeader>
+                      <DataTableBody>
+                        {innings.wickets.map((wicket: WicketData, index: number) => (
+                          <DataTableRow
+                            key={`${innings.inningsNumber}-${wicket.wicketNumber}`}
+                            index={index}
+                          >
+                            <DataTableCell>{wicket.wicketNumber}</DataTableCell>
+                            <DataTableCell>{wicket.over}</DataTableCell>
+                            <DataTableCell>{wicket.runsAtFall}</DataTableCell>
+                            <DataTableCell>{wicket.batsmanOut}</DataTableCell>
+                            <DataTableCell>{wicket.dismissalType}</DataTableCell>
+                            <DataTableCell isLast>{wicket.bowler}</DataTableCell>
+                          </DataTableRow>
+                        ))}
+                      </DataTableBody>
+                    </DataTable>
                   ) : (
                     <div className="p-4 sm:p-6 text-center">
                       <p className="text-base sm:text-lg font-bold text-black">
@@ -216,7 +197,7 @@ export default function FallOfWickets() {
             </div>
           )}
         </div>
-      </div>
+      </Card>
     </div>
   );
 }

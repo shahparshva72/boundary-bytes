@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Boundary Bytes is a cricket statistics query platform built with Next.js 15.4.7 (App Router), TypeScript, Prisma ORM, and PostgreSQL. The application allows users to query cricket statistics across IPL, WPL, and BBL leagues using natural language queries powered by AI-driven text-to-SQL generation.
+Boundary Bytes is a cricket statistics query platform built with Next.js 15.4.7 (App Router), TypeScript, Prisma ORM, and PostgreSQL. The application allows users to query cricket statistics across IPL, WPL, BBL, WBBL, and SA20 leagues using natural language queries powered by AI-driven text-to-SQL generation.
 
 ## Development Commands
 
@@ -207,3 +207,13 @@ No formal test suite currently exists. Manual testing is done via:
 - **Security**: SQL validation is critical - never bypass `sql-validator.ts` for user-generated queries.
 - **League System**: Many components depend on `LeagueContext` - always render within `LeagueProvider`.
 - **Turbopack**: Using Next.js Turbopack for faster dev builds (`--turbopack` flag in dev script).
+
+## Recent Refactoring Notes
+
+Based on recent commits:
+
+- UI components have been completely refactored with a new comprehensive library
+- API data fetching functions improved for better reusability and error handling
+- Stats controls now have better loading state handling
+- League options expanded to include WBBL and SA20
+- Simplified StatsPage and Matchup components by removing unnecessary props
