@@ -1,3 +1,4 @@
+import { Prisma } from '@/generated/prisma/client';
 import { prisma } from '@/lib/prisma';
 import { NextResponse } from 'next/server';
 
@@ -41,15 +42,15 @@ async function getMatchesAndMetadata(
   limit: number,
 ) {
   const offset = (page - 1) * limit;
-  const seasonFilter = season ? `AND season = '${season}'` : '';
-  const seasonCountFilter = season ? `AND season = '${season}'` : '';
+
+  const seasonFilter = season ? Prisma.sql`AND season = ${season}` : Prisma.empty;
 
   const [matches, seasons] = await Promise.all([
-    prisma.$queryRawUnsafe<MatchResult[]>(`
+    prisma.$queryRaw<MatchResult[]>`
       WITH paginated_matches AS (
         SELECT match_id, league, season, date, venue, winner, winner_runs, winner_wickets
         FROM wpl_match_info
-        WHERE league = '${league}' ${seasonFilter}
+        WHERE league = ${league} ${seasonFilter}
         ORDER BY date ASC
         LIMIT ${limit} OFFSET ${offset}
       ),
@@ -67,7 +68,7 @@ async function getMatchesAndMetadata(
         GROUP BY d.match_id
       ),
       total AS (
-        SELECT COUNT(*) as cnt FROM wpl_match_info WHERE league = '${league}' ${seasonCountFilter}
+        SELECT COUNT(*) as cnt FROM wpl_match_info WHERE league = ${league} ${seasonFilter}
       )
       SELECT 
         pm.match_id,
@@ -88,10 +89,10 @@ async function getMatchesAndMetadata(
       FROM paginated_matches pm
       LEFT JOIN match_scores ms ON pm.match_id = ms.match_id
       ORDER BY pm.date ASC
-    `),
-    prisma.$queryRawUnsafe<MetadataResult[]>(`
-      SELECT DISTINCT season FROM wpl_match_info WHERE league = '${league}' ORDER BY season DESC
-    `),
+    `,
+    prisma.$queryRaw<MetadataResult[]>`
+      SELECT DISTINCT season FROM wpl_match_info WHERE league = ${league} ORDER BY season DESC
+    `,
   ]);
 
   const totalCount = matches.length > 0 ? Number(matches[0].total_count) : 0;

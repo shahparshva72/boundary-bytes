@@ -3,6 +3,7 @@
 import { useMatches } from '@/lib/useMatches';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import { useRef } from 'react';
 import Pagination from './ui/Pagination';
 
 function redirectToCricinfoScorecard(matchId: number) {
@@ -31,6 +32,12 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
   const { data, isLoading, error } = useMatches(initialPage, initialSeason);
   const router = useRouter();
 
+  const cachedSeasonsRef = useRef<string[]>([]);
+
+  if (data?.seasons && data.seasons.length > 0) {
+    cachedSeasonsRef.current = data.seasons;
+  }
+
   if (error) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-[#FFFEE0]">
@@ -39,11 +46,12 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
     );
   }
 
-  const { matches, pagination, seasons } = data || {
+  const { matches, pagination } = data || {
     matches: [],
     pagination: { pages: 0 },
-    seasons: [],
   };
+
+  const seasons = cachedSeasonsRef.current;
 
   return (
     <div className="grid grid-rows-[auto_1fr_auto] min-h-screen p-3 sm:p-4 pb-20 gap-4 sm:gap-8 bg-[#FFFEE0]">
