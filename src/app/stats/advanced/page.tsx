@@ -4,7 +4,13 @@ import { useLeagueContext } from '@/contexts/LeagueContext';
 import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 import { useBatters, useBowlers } from '@/hooks/usePlayersAPI';
 import { useQuery } from '@tanstack/react-query';
-import { parseAsArrayOf, parseAsInteger, parseAsString, parseAsStringLiteral, useQueryStates } from 'nuqs';
+import {
+  parseAsArrayOf,
+  parseAsInteger,
+  parseAsString,
+  parseAsStringLiteral,
+  useQueryStates,
+} from 'nuqs';
 
 import Layout from '../components/Layout';
 import StatsControls from '../components/StatsControls';
@@ -57,12 +63,7 @@ const AdvancedStatsPage = () => {
   } = useQuery({
     queryKey: ['advancedStats', selectedOvers, selectedPlayer?.value, playerType, selectedLeague],
     queryFn: () =>
-      fetchAdvancedStats(
-        selectedOvers,
-        selectedPlayer?.value || null,
-        playerType,
-        fetchWithLeague,
-      ),
+      fetchAdvancedStats(selectedOvers, selectedPlayer?.value || null, playerType, fetchWithLeague),
     enabled: !!(selectedPlayer?.value && selectedOvers.length > 0),
     retry: false,
   });

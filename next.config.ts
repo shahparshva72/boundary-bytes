@@ -7,12 +7,10 @@ const nextConfig: NextConfig = {
       {
         protocol: 'http',
         hostname: 'p.imgci.com',
-        pathname: '/db/PICTURES/**',
       },
       {
         protocol: 'https',
         hostname: 'p.imgci.com',
-        pathname: '/db/PICTURES/**',
       },
     ],
   },
