@@ -4,7 +4,7 @@ import { useLeagueContext } from '@/contexts/LeagueContext';
 import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 import { useBatters, useBowlers } from '@/hooks/usePlayersAPI';
 import { useQuery } from '@tanstack/react-query';
-import { parseAsArrayOf, parseAsInteger, parseAsString, useQueryStates } from 'nuqs';
+import { parseAsArrayOf, parseAsInteger, parseAsString, parseAsStringLiteral, useQueryStates } from 'nuqs';
 
 import Layout from '../components/Layout';
 import StatsControls from '../components/StatsControls';
@@ -35,7 +35,7 @@ const AdvancedStatsPage = () => {
   const [queryState, setQueryState] = useQueryStates({
     overs: parseAsArrayOf(parseAsInteger).withDefault([]),
     player: parseAsString.withOptions({ clearOnDefault: true }),
-    playerType: parseAsString.withDefault('batter'),
+    playerType: parseAsStringLiteral(['batter', 'bowler'] as const).withDefault('batter'),
   });
 
   const { overs: selectedOvers, player: selectedPlayerValue, playerType } = queryState;
@@ -60,7 +60,7 @@ const AdvancedStatsPage = () => {
       fetchAdvancedStats(
         selectedOvers,
         selectedPlayer?.value || null,
-        playerType as 'batter' | 'bowler',
+        playerType,
         fetchWithLeague,
       ),
     enabled: !!(selectedPlayer?.value && selectedOvers.length > 0),
@@ -115,7 +115,7 @@ const AdvancedStatsPage = () => {
   ];
 
   const getCurrentPhase = () => {
-    const oversSet = selectedOvers.sort((a, b) => a - b).join(',');
+    const oversSet = [...selectedOvers].sort((a, b) => a - b).join(',');
     if (oversSet === '1,2,3,4,5,6') {
       return phaseOptions.find((p) => p.value === 'powerplay') || null;
     } else if (oversSet === '7,8,9,10,11,12,13,14,15') {
@@ -140,7 +140,7 @@ const AdvancedStatsPage = () => {
   return (
     <Layout description={description} error={isError || statsError}>
       <StatsControls
-        playerType={playerType as 'batter' | 'bowler'}
+        playerType={playerType}
         setPlayerType={handleSetPlayerType}
         battersData={Array.isArray(battersData) ? battersData : []}
         bowlersData={Array.isArray(bowlersData) ? bowlersData : []}
@@ -162,7 +162,7 @@ const AdvancedStatsPage = () => {
           {typeof statsError === 'string' ? statsError : 'Failed to load advanced stats'}
         </div>
       )}
-      <StatsDisplay stats={stats} playerType={playerType as 'batter' | 'bowler'} />
+      <StatsDisplay stats={stats} playerType={playerType} />
     </Layout>
   );
 };
