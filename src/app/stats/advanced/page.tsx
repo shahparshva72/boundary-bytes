@@ -4,15 +4,15 @@ import { useLeagueContext } from '@/contexts/LeagueContext';
 import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 import { useBatters, useBowlers } from '@/hooks/usePlayersAPI';
 import { useQuery } from '@tanstack/react-query';
+import { parseAsArrayOf, parseAsInteger, parseAsString, useQueryStates } from 'nuqs';
 
 import Layout from '../components/Layout';
 import StatsControls from '../components/StatsControls';
 import StatsDisplay from '../components/StatsDisplay';
-import { useAdvancedStats } from '../hooks/useAdvancedStats';
 
 const fetchAdvancedStats = async (
   selectedOvers: number[],
-  selectedPlayer: { value: string; label: string } | null,
+  selectedPlayer: string | null,
   playerType: 'batter' | 'bowler',
   fetchWithLeague: (url: string) => Promise<Response>,
 ) => {
@@ -23,9 +23,7 @@ const fetchAdvancedStats = async (
   const params = new URLSearchParams({
     overs: selectedOvers.join(','),
     playerType,
-    ...(playerType === 'batter'
-      ? { batter: selectedPlayer.value }
-      : { bowler: selectedPlayer.value }),
+    ...(playerType === 'batter' ? { batter: selectedPlayer } : { bowler: selectedPlayer }),
   });
 
   const response = await fetchWithLeague(`/api/stats/advanced?${params}`);
@@ -34,8 +32,17 @@ const fetchAdvancedStats = async (
 };
 
 const AdvancedStatsPage = () => {
-  const { state, dispatch } = useAdvancedStats();
-  const { selectedOvers, selectedPlayer, playerType } = state;
+  const [queryState, setQueryState] = useQueryStates({
+    overs: parseAsArrayOf(parseAsInteger).withDefault([]),
+    player: parseAsString.withOptions({ clearOnDefault: true }),
+    playerType: parseAsString.withDefault('batter'),
+  });
+
+  const { overs: selectedOvers, player: selectedPlayerValue, playerType } = queryState;
+  const selectedPlayer = selectedPlayerValue
+    ? { value: selectedPlayerValue, label: selectedPlayerValue }
+    : null;
+
   const { selectedLeague, leagueConfig } = useLeagueContext();
   const { fetchWithLeague } = useLeagueAPI();
 
@@ -49,19 +56,37 @@ const AdvancedStatsPage = () => {
     refetch,
   } = useQuery({
     queryKey: ['advancedStats', selectedOvers, selectedPlayer?.value, playerType, selectedLeague],
-    queryFn: () => fetchAdvancedStats(selectedOvers, selectedPlayer, playerType, fetchWithLeague),
-    enabled: false,
+    queryFn: () =>
+      fetchAdvancedStats(
+        selectedOvers,
+        selectedPlayer?.value || null,
+        playerType as 'batter' | 'bowler',
+        fetchWithLeague,
+      ),
+    enabled: !!(selectedPlayer?.value && selectedOvers.length > 0),
     retry: false,
   });
 
   const stats = statsResponse?.data || null;
 
   const handleOverToggle = (over: number) => {
-    dispatch({ type: 'TOGGLE_OVER', payload: over });
+    setQueryState((prev) => ({
+      overs: prev.overs.includes(over)
+        ? prev.overs.filter((o: number) => o !== over)
+        : [...prev.overs, over].sort((a, b) => a - b),
+    }));
   };
 
   const handlePhaseSelection = (phase: { value: string; label: string } | null) => {
-    dispatch({ type: 'SET_PHASE', payload: phase?.value || null });
+    let newOvers: number[] = [];
+    if (phase?.value === 'powerplay') {
+      newOvers = [1, 2, 3, 4, 5, 6];
+    } else if (phase?.value === 'middle') {
+      newOvers = [7, 8, 9, 10, 11, 12, 13, 14, 15];
+    } else if (phase?.value === 'death') {
+      newOvers = [16, 17, 18, 19, 20];
+    }
+    setQueryState({ overs: newOvers });
   };
 
   const handleFetchStats = () => {
@@ -71,7 +96,15 @@ const AdvancedStatsPage = () => {
   };
 
   const handleClear = () => {
-    dispatch({ type: 'CLEAR' });
+    setQueryState({ overs: [], player: null });
+  };
+
+  const handleSetPlayerType = (type: 'batter' | 'bowler') => {
+    setQueryState({ playerType: type, player: null });
+  };
+
+  const handleSetSelectedPlayer = (player: { value: string; label: string } | null) => {
+    setQueryState({ player: player?.value || null });
   };
 
   const phaseOptions = [
@@ -81,11 +114,25 @@ const AdvancedStatsPage = () => {
     { value: 'death', label: 'Death (16-20)' },
   ];
 
-  // Show loading if data is still being fetched
+  const getCurrentPhase = () => {
+    const oversSet = selectedOvers.sort((a, b) => a - b).join(',');
+    if (oversSet === '1,2,3,4,5,6') {
+      return phaseOptions.find((p) => p.value === 'powerplay') || null;
+    } else if (oversSet === '7,8,9,10,11,12,13,14,15') {
+      return phaseOptions.find((p) => p.value === 'middle') || null;
+    } else if (oversSet === '16,17,18,19,20') {
+      return phaseOptions.find((p) => p.value === 'death') || null;
+    } else if (selectedOvers.length > 0) {
+      return phaseOptions.find((p) => p.value === 'custom') || null;
+    }
+    return null;
+  };
+
+  const selectedPhase = getCurrentPhase();
+
   const isLoading = battersLoading || bowlersLoading;
   const isError = battersError || bowlersError;
 
-  // Generate dynamic description based on selected league
   const description = leagueConfig
     ? `Get Advanced ${leagueConfig.name} Stats for players performance overwise.`
     : 'Get Advanced Cricket Stats for players performance overwise.';
@@ -93,13 +140,14 @@ const AdvancedStatsPage = () => {
   return (
     <Layout description={description} error={isError || statsError}>
       <StatsControls
-        playerType={playerType}
-        setPlayerType={dispatch}
+        playerType={playerType as 'batter' | 'bowler'}
+        setPlayerType={handleSetPlayerType}
         battersData={Array.isArray(battersData) ? battersData : []}
         bowlersData={Array.isArray(bowlersData) ? bowlersData : []}
         selectedPlayer={selectedPlayer}
-        setSelectedPlayer={dispatch}
+        setSelectedPlayer={handleSetSelectedPlayer}
         phaseOptions={phaseOptions}
+        selectedPhase={selectedPhase}
         handlePhaseSelection={handlePhaseSelection}
         selectedOvers={selectedOvers}
         handleOverToggle={handleOverToggle}
@@ -114,7 +162,7 @@ const AdvancedStatsPage = () => {
           {typeof statsError === 'string' ? statsError : 'Failed to load advanced stats'}
         </div>
       )}
-      <StatsDisplay stats={stats} playerType={playerType} />
+      <StatsDisplay stats={stats} playerType={playerType as 'batter' | 'bowler'} />
     </Layout>
   );
 };
