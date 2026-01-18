@@ -5,8 +5,8 @@ import QueryProvider from '@/providers/QueryProvider';
 
 export function Providers({ children }: { children: React.ReactNode }) {
   return (
-    <LeagueProvider>
-      <QueryProvider>{children}</QueryProvider>
-    </LeagueProvider>
+    <QueryProvider>
+      <LeagueProvider>{children}</LeagueProvider>
+    </QueryProvider>
   );
 }
