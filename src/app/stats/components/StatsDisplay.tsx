@@ -25,7 +25,7 @@ const StatsDisplay = ({ stats, playerType }: StatsDisplayProps) => {
   if (!stats) return null;
 
   return (
-    <div className="w-full max-w-4xl grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-3 md:gap-4">
+    <div className="w-full max-w-4xl grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-3 md:gap-4 pb-4">
       {playerType === 'batter' ? (
         <>
           <div className="bg-[#FFC700] p-3 sm:p-4 rounded-none shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">

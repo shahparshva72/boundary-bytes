@@ -1,14 +1,14 @@
-import { Dispatch } from 'react';
 import Select from 'react-select';
-import { Action } from '../hooks/useAdvancedStats';
+
 interface StatsControlsProps {
   playerType: 'batter' | 'bowler';
-  setPlayerType: Dispatch<Action>;
+  setPlayerType: (type: 'batter' | 'bowler') => void;
   battersData: string[];
   bowlersData: string[];
   selectedPlayer: { value: string; label: string } | null;
-  setSelectedPlayer: Dispatch<Action>;
+  setSelectedPlayer: (player: { value: string; label: string } | null) => void;
   phaseOptions: { value: string; label: string }[];
+  selectedPhase: { value: string; label: string } | null;
   handlePhaseSelection: (phase: { value: string; label: string } | null) => void;
   selectedOvers: number[];
   handleOverToggle: (over: number) => void;
@@ -48,6 +48,7 @@ const StatsControls = ({
   selectedPlayer,
   setSelectedPlayer,
   phaseOptions,
+  selectedPhase,
   handlePhaseSelection,
   selectedOvers,
   handleOverToggle,
@@ -67,7 +68,7 @@ const StatsControls = ({
         <label className="block text-base sm:text-lg font-bold mb-2 text-black">Player Type</label>
         <div className="grid grid-cols-2 gap-2 mb-3 sm:mb-4">
           <button
-            onClick={() => setPlayerType({ type: 'SET_PLAYER_TYPE', payload: 'batter' })}
+            onClick={() => setPlayerType('batter')}
             className={`p-2 sm:p-3 rounded-none border-2 border-black font-bold text-sm sm:text-base transition-all duration-200 hover:bg-yellow-300 ${
               playerType === 'batter' ? 'bg-[#FFC700] text-black' : 'bg-white text-black'
             }`}
@@ -75,7 +76,7 @@ const StatsControls = ({
             BATTER
           </button>
           <button
-            onClick={() => setPlayerType({ type: 'SET_PLAYER_TYPE', payload: 'bowler' })}
+            onClick={() => setPlayerType('bowler')}
             className={`p-2 sm:p-3 rounded-none border-2 border-black font-bold text-sm sm:text-base transition-all duration-200 hover:bg-yellow-300 ${
               playerType === 'bowler' ? 'bg-[#FFC700] text-black' : 'bg-white text-black'
             }`}
@@ -94,10 +95,7 @@ const StatsControls = ({
           options={playerOptions}
           value={selectedPlayer}
           onChange={(newValue: unknown) =>
-            setSelectedPlayer({
-              type: 'SET_SELECTED_PLAYER',
-              payload: newValue as { value: string; label: string } | null,
-            })
+            setSelectedPlayer(newValue as { value: string; label: string } | null)
           }
           styles={customStyles}
           placeholder={
@@ -117,6 +115,7 @@ const StatsControls = ({
           <Select
             instanceId="advanced-stats-phase-select"
             options={phaseOptions}
+            value={selectedPhase}
             onChange={(newValue: unknown) =>
               handlePhaseSelection(newValue as { value: string; label: string } | null)
             }
