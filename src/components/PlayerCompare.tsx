@@ -101,7 +101,10 @@ export default function PlayerCompare() {
   };
 
   const error = queryError ? 'Failed to fetch comparison data.' : null;
-  const players = comparisonData?.data?.players as ComparedPlayer[] | undefined;
+  const players: ComparedPlayer[] | undefined =
+    comparisonData?.data?.players && Array.isArray(comparisonData.data.players)
+      ? comparisonData.data.players
+      : undefined;
 
   return (
     <div className="flex flex-col gap-4 sm:gap-6 w-full mx-auto my-2 sm:my-8">

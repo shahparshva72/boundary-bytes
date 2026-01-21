@@ -1,8 +1,11 @@
+import { Prisma } from '@/generated/prisma/client';
 import { prisma } from '@/lib/prisma';
 import { NextRequest, NextResponse } from 'next/server';
 
 const VALID_LEAGUES = ['WPL', 'IPL', 'BBL', 'WBBL', 'SA20'] as const;
+const VALID_STAT_TYPES = ['batting', 'bowling', 'both'] as const;
 type League = (typeof VALID_LEAGUES)[number];
+type StatType = (typeof VALID_STAT_TYPES)[number];
 
 function validateLeague(league: string | null): League {
   if (!league) return 'WPL';
@@ -10,6 +13,14 @@ function validateLeague(league: string | null): League {
     return league as League;
   }
   throw new Error(`Invalid league: ${league}. Valid leagues are: ${VALID_LEAGUES.join(', ')}`);
+}
+
+function validateStatType(statType: string | null): StatType {
+  if (!statType) return 'both';
+  if (VALID_STAT_TYPES.includes(statType as StatType)) {
+    return statType as StatType;
+  }
+  throw new Error(`Invalid statType: ${statType}. Valid types are: ${VALID_STAT_TYPES.join(', ')}`);
 }
 
 type BattingRow = {
@@ -42,115 +53,130 @@ export async function GET(request: NextRequest) {
     const seasonsParam = searchParams.get('seasons');
     const seasons = seasonsParam ? seasonsParam.split(',').map((s) => s.trim()) : [];
     const team = searchParams.get('team');
-    const statType = searchParams.get('statType') || 'both';
+    const statType = validateStatType(searchParams.get('statType'));
     const league = validateLeague(searchParams.get('league'));
 
     if (!playersParam) {
       return NextResponse.json({ error: 'Players parameter is required' }, { status: 400 });
     }
 
-    const players = playersParam.split(',').map((p) => p.trim());
+    const players = playersParam
+      .split(',')
+      .map((p) => p.trim())
+      .filter((p) => p.length > 0);
+    const uniquePlayers = [...new Set(players)];
 
-    if (players.length < 2) {
+    if (uniquePlayers.length < 2) {
       return NextResponse.json(
         { error: 'At least 2 players are required for comparison' },
         { status: 400 },
       );
     }
 
-    if (players.length > 5) {
+    if (uniquePlayers.length > 5) {
       return NextResponse.json({ error: 'Maximum 5 players can be compared' }, { status: 400 });
     }
 
-    const comparedPlayers = [];
+    if (seasons.length > 10) {
+      return NextResponse.json({ error: 'Maximum 10 seasons can be filtered' }, { status: 400 });
+    }
 
-    for (const player of players) {
-      const playerData: {
-        name: string;
-        batting?: {
-          runs: number;
-          ballsFaced: number;
-          innings: number;
-          notOuts: number;
-          highestScore: number;
-          strikeRate: number;
-          average: number;
-          fours: number;
-          sixes: number;
-          fifties: number;
-          hundreds: number;
-        };
-        bowling?: {
-          wickets: number;
-          ballsBowled: number;
-          runsConceded: number;
-          innings: number;
-          economy: number;
-          average: number;
-          strikeRate: number;
-          fourWickets: number;
-          fiveWickets: number;
-        };
-      } = { name: player };
+    type PlayerData = {
+      name: string;
+      batting?: {
+        runs: number;
+        ballsFaced: number;
+        innings: number;
+        notOuts: number;
+        highestScore: number;
+        strikeRate: number;
+        average: number;
+        fours: number;
+        sixes: number;
+        fifties: number;
+        hundreds: number;
+      };
+      bowling?: {
+        wickets: number;
+        ballsBowled: number;
+        runsConceded: number;
+        innings: number;
+        economy: number;
+        average: number;
+        strikeRate: number;
+        fourWickets: number;
+        fiveWickets: number;
+      };
+    };
 
-      if (statType === 'batting' || statType === 'both') {
-        const battingParams: (string | string[])[] = [player, league];
-        let paramIndex = 3;
+    const playerDataMap = new Map<string, PlayerData>();
+    uniquePlayers.forEach((p) => playerDataMap.set(p, { name: p }));
 
-        let seasonFilter = '';
-        if (seasons.length > 0) {
-          seasonFilter = ` AND m.season = ANY($${paramIndex}::text[])`;
-          battingParams.push(seasons);
-          paramIndex++;
-        }
+    const seasonFilter =
+      seasons.length > 0 ? Prisma.sql`AND m.season = ANY(${seasons}::text[])` : Prisma.empty;
+    const teamFilterBatting = team ? Prisma.sql`AND d.batting_team = ${team}` : Prisma.empty;
+    const teamFilterBowling = team ? Prisma.sql`AND d.bowling_team = ${team}` : Prisma.empty;
 
-        let teamFilter = '';
-        if (team) {
-          teamFilter = ` AND d.batting_team = $${paramIndex}`;
-          battingParams.push(team);
-        }
-
-        const battingQuery = `
-          WITH innings_data AS (
-            SELECT
-              d.match_id,
-              d.innings,
-              SUM(d.runs_off_bat) as innings_runs,
-              MAX(CASE WHEN d.player_dismissed = d.striker THEN 1 ELSE 0 END) as was_out
-            FROM wpl_delivery d
-            JOIN wpl_match m ON d.match_id = m.match_id
-            WHERE d.striker = $1 AND m.league = $2 AND d.innings <= 2${seasonFilter}${teamFilter}
-            GROUP BY d.match_id, d.innings
-          )
+    if (statType === 'batting' || statType === 'both') {
+      const battingStats = await prisma.$queryRaw<BattingRow[]>`
+        WITH innings_data AS (
           SELECT
-            $1 as striker,
-            COALESCE(SUM(d.runs_off_bat), 0) as runs,
-            COUNT(*) FILTER (WHERE d.wides = 0) as balls_faced,
-            (SELECT COUNT(*) FROM innings_data) as innings,
-            (SELECT COUNT(*) FROM innings_data WHERE was_out = 0) as not_outs,
-            COALESCE((SELECT MAX(innings_runs) FROM innings_data), 0) as highest_score,
-            COUNT(*) FILTER (WHERE d.runs_off_bat = 4) as fours,
-            COUNT(*) FILTER (WHERE d.runs_off_bat = 6) as sixes,
-            (SELECT COUNT(*) FROM innings_data WHERE innings_runs >= 50 AND innings_runs < 100) as fifties,
-            (SELECT COUNT(*) FROM innings_data WHERE innings_runs >= 100) as hundreds
+            d.striker,
+            d.match_id,
+            d.innings,
+            SUM(d.runs_off_bat) as innings_runs,
+            MAX(CASE WHEN d.player_dismissed = d.striker THEN 1 ELSE 0 END) as was_out
           FROM wpl_delivery d
           JOIN wpl_match m ON d.match_id = m.match_id
-          WHERE d.striker = $1 AND m.league = $2 AND d.innings <= 2${seasonFilter}${teamFilter}
-        `;
+          WHERE d.striker = ANY(${uniquePlayers}::text[]) 
+            AND m.league = ${league} 
+            AND d.innings <= 2
+            ${seasonFilter}
+            ${teamFilterBatting}
+          GROUP BY d.striker, d.match_id, d.innings
+        ),
+        innings_agg AS (
+          SELECT
+            striker,
+            COUNT(*) as innings,
+            COUNT(*) FILTER (WHERE was_out = 0) as not_outs,
+            MAX(innings_runs) as highest_score,
+            COUNT(*) FILTER (WHERE innings_runs >= 50 AND innings_runs < 100) as fifties,
+            COUNT(*) FILTER (WHERE innings_runs >= 100) as hundreds
+          FROM innings_data
+          GROUP BY striker
+        )
+        SELECT
+          d.striker,
+          COALESCE(SUM(d.runs_off_bat), 0) as runs,
+          COUNT(*) FILTER (WHERE d.wides = 0) as balls_faced,
+          COALESCE(ia.innings, 0) as innings,
+          COALESCE(ia.not_outs, 0) as not_outs,
+          COALESCE(ia.highest_score, 0) as highest_score,
+          COUNT(*) FILTER (WHERE d.runs_off_bat = 4) as fours,
+          COUNT(*) FILTER (WHERE d.runs_off_bat = 6) as sixes,
+          COALESCE(ia.fifties, 0) as fifties,
+          COALESCE(ia.hundreds, 0) as hundreds
+        FROM wpl_delivery d
+        JOIN wpl_match m ON d.match_id = m.match_id
+        LEFT JOIN innings_agg ia ON d.striker = ia.striker
+        WHERE d.striker = ANY(${uniquePlayers}::text[]) 
+          AND m.league = ${league} 
+          AND d.innings <= 2
+          ${seasonFilter}
+          ${teamFilterBatting}
+        GROUP BY d.striker, ia.innings, ia.not_outs, ia.highest_score, ia.fifties, ia.hundreds
+      `;
 
-        const battingStats = await prisma.$queryRawUnsafe<BattingRow[]>(
-          battingQuery,
-          ...battingParams,
-        );
+      for (const b of battingStats) {
+        const runs = Number(b.runs);
+        const ballsFaced = Number(b.balls_faced);
+        const innings = Number(b.innings);
+        const notOuts = Number(b.not_outs);
+        const dismissals = innings - notOuts;
 
-        if (battingStats.length > 0) {
-          const b = battingStats[0];
-          const runs = Number(b.runs);
-          const ballsFaced = Number(b.balls_faced);
-          const innings = Number(b.innings);
-          const notOuts = Number(b.not_outs);
-          const dismissals = innings - notOuts;
-
+        const playerData = playerDataMap.get(b.striker);
+        if (playerData) {
           playerData.batting = {
             runs,
             ballsFaced,
@@ -166,60 +192,67 @@ export async function GET(request: NextRequest) {
           };
         }
       }
+    }
 
-      if (statType === 'bowling' || statType === 'both') {
-        const bowlingParams: (string | string[])[] = [player, league];
-        let paramIndex = 3;
-
-        let seasonFilter = '';
-        if (seasons.length > 0) {
-          seasonFilter = ` AND m.season = ANY($${paramIndex}::text[])`;
-          bowlingParams.push(seasons);
-          paramIndex++;
-        }
-
-        let teamFilter = '';
-        if (team) {
-          teamFilter = ` AND d.bowling_team = $${paramIndex}`;
-          bowlingParams.push(team);
-        }
-
-        const bowlingQuery = `
-          WITH bowling_innings AS (
-            SELECT
-              d.match_id,
-              d.innings,
-              COUNT(*) FILTER (WHERE d.player_dismissed IS NOT NULL AND d.player_dismissed != '') as wickets_in_innings
-            FROM wpl_delivery d
-            JOIN wpl_match m ON d.match_id = m.match_id
-            WHERE d.bowler = $1 AND m.league = $2 AND d.innings <= 2${seasonFilter}${teamFilter}
-            GROUP BY d.match_id, d.innings
-          )
+    if (statType === 'bowling' || statType === 'both') {
+      const bowlingStats = await prisma.$queryRaw<BowlingRow[]>`
+        WITH bowling_innings AS (
           SELECT
-            $1 as bowler,
-            COUNT(*) FILTER (WHERE d.player_dismissed IS NOT NULL AND d.player_dismissed != '') as wickets,
-            COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) as balls_bowled,
-            COALESCE(SUM(d.runs_off_bat + d.wides + d.noballs), 0) as runs_conceded,
-            (SELECT COUNT(*) FROM bowling_innings) as innings,
-            (SELECT COUNT(*) FROM bowling_innings WHERE wickets_in_innings >= 4 AND wickets_in_innings < 5) as four_wickets,
-            (SELECT COUNT(*) FROM bowling_innings WHERE wickets_in_innings >= 5) as five_wickets
+            d.bowler,
+            d.match_id,
+            d.innings,
+            COUNT(*) FILTER (
+              WHERE d.player_dismissed IS NOT NULL 
+              AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
+            ) as wickets_in_innings
           FROM wpl_delivery d
           JOIN wpl_match m ON d.match_id = m.match_id
-          WHERE d.bowler = $1 AND m.league = $2 AND d.innings <= 2${seasonFilter}${teamFilter}
-        `;
+          WHERE d.bowler = ANY(${uniquePlayers}::text[]) 
+            AND m.league = ${league} 
+            AND d.innings <= 2
+            ${seasonFilter}
+            ${teamFilterBowling}
+          GROUP BY d.bowler, d.match_id, d.innings
+        ),
+        innings_agg AS (
+          SELECT
+            bowler,
+            COUNT(*) as innings,
+            COUNT(*) FILTER (WHERE wickets_in_innings >= 4 AND wickets_in_innings < 5) as four_wickets,
+            COUNT(*) FILTER (WHERE wickets_in_innings >= 5) as five_wickets
+          FROM bowling_innings
+          GROUP BY bowler
+        )
+        SELECT
+          d.bowler,
+          COUNT(*) FILTER (
+            WHERE d.player_dismissed IS NOT NULL 
+            AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
+          ) as wickets,
+          COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) as balls_bowled,
+          COALESCE(SUM(d.runs_off_bat + d.wides + d.noballs), 0) as runs_conceded,
+          COALESCE(ia.innings, 0) as innings,
+          COALESCE(ia.four_wickets, 0) as four_wickets,
+          COALESCE(ia.five_wickets, 0) as five_wickets
+        FROM wpl_delivery d
+        JOIN wpl_match m ON d.match_id = m.match_id
+        LEFT JOIN innings_agg ia ON d.bowler = ia.bowler
+        WHERE d.bowler = ANY(${uniquePlayers}::text[]) 
+          AND m.league = ${league} 
+          AND d.innings <= 2
+          ${seasonFilter}
+          ${teamFilterBowling}
+        GROUP BY d.bowler, ia.innings, ia.four_wickets, ia.five_wickets
+      `;
 
-        const bowlingStats = await prisma.$queryRawUnsafe<BowlingRow[]>(
-          bowlingQuery,
-          ...bowlingParams,
-        );
+      for (const bw of bowlingStats) {
+        const wickets = Number(bw.wickets);
+        const ballsBowled = Number(bw.balls_bowled);
+        const runsConceded = Number(bw.runs_conceded);
+        const overs = ballsBowled / 6;
 
-        if (bowlingStats.length > 0) {
-          const bw = bowlingStats[0];
-          const wickets = Number(bw.wickets);
-          const ballsBowled = Number(bw.balls_bowled);
-          const runsConceded = Number(bw.runs_conceded);
-          const overs = ballsBowled / 6;
-
+        const playerData = playerDataMap.get(bw.bowler);
+        if (playerData) {
           playerData.bowling = {
             wickets,
             ballsBowled,
@@ -233,9 +266,9 @@ export async function GET(request: NextRequest) {
           };
         }
       }
-
-      comparedPlayers.push(playerData);
     }
+
+    const comparedPlayers = uniquePlayers.map((p) => playerDataMap.get(p)!);
 
     return NextResponse.json({
       data: {
@@ -249,7 +282,7 @@ export async function GET(request: NextRequest) {
       league,
       metadata: {
         availableLeagues: VALID_LEAGUES,
-        playerCount: players.length,
+        playerCount: uniquePlayers.length,
       },
     });
   } catch (error) {
@@ -261,6 +294,17 @@ export async function GET(request: NextRequest) {
           error: error.message,
           code: 'INVALID_LEAGUE',
           availableLeagues: VALID_LEAGUES,
+        },
+        { status: 400 },
+      );
+    }
+
+    if (error instanceof Error && error.message.includes('Invalid statType')) {
+      return NextResponse.json(
+        {
+          error: error.message,
+          code: 'INVALID_STAT_TYPE',
+          availableStatTypes: VALID_STAT_TYPES,
         },
         { status: 400 },
       );
