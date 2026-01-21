@@ -104,7 +104,7 @@ WITH team_map AS (
     -- SA20 team mappings
     ('MI Cape Town',                'MI Cape Town'),
     ('Joburg Super Kings',          'Joburg Super Kings'),
-    ('Durban\'s Super Giants',      'Durban\'s Super Giants'),
+    ('Durban''s Super Giants',      'Durban''s Super Giants'),
     ('Pretoria Capitals',           'Pretoria Capitals'),
     ('Sunrisers Eastern Cape',      'Sunrisers Eastern Cape'),
     ('Paarl Royals',                'Paarl Royals')
@@ -388,13 +388,13 @@ export class GeminiSqlService {
       // ignore aliases like wpl_delivery wd -> only check the first token
       const first = ref.split(/\s+/)[0].replace(/"/g, '');
       // Permit subqueries and CTEs implicitly (cannot detect here), focus on explicit table names
-      if (/^\(/.test(first)) return false;
+      if (first.startsWith('(')) return false;
       // Permit schema-qualified like public.wpl_delivery
       const base = first.includes('.') ? first.split('.')[1] : first;
       const baseLower = base.toLowerCase();
       if (cteSet.has(baseLower)) return false;
       if (baseLower === 'team_map' || baseLower === 't' || baseLower === 'values') return false;
-      return !/^wpl_/.test(base);
+      return !base.startsWith('wpl_');
     });
     if (invalidRef) {
       throw new Error('Only wpl_* tables are allowed in queries');

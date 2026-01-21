@@ -7,7 +7,8 @@ export const TextToSqlRequestSchema = z.object({
     .min(1, 'Question cannot be empty')
     .max(500, 'Question is too long')
     .refine(
-      (val) => /^[a-zA-Z0-9\s\?\.\,\-\'\"\(\)\/\:\%\+\&]+$/.test(val),
+      // eslint-disable-next-line no-useless-escape
+      (val) => /^[a-zA-Z0-9\s?.,\-'"()\/:%+&]+$/.test(val),
       'Question contains invalid characters. Only letters, numbers, spaces, parentheses, and common punctuation are allowed.',
     ),
 });
@@ -17,10 +18,13 @@ export type TextToSqlRequest = z.infer<typeof TextToSqlRequestSchema>;
 
 // Input sanitization function
 export function sanitizeInput(input: string): string {
-  return input
-    .trim()
-    .replace(/[^\w\s\?\.\,\-\'\"\(\)\/\:\%\+\&]/g, '')
-    .replace(/\s+/g, ' '); // Normalize whitespace
+  return (
+    input
+      .trim()
+      // eslint-disable-next-line no-useless-escape
+      .replace(/[^\w\s?.,\-'"()\/:%+&]/g, '')
+      .replace(/\s+/g, ' ')
+  ); // Normalize whitespace
 }
 
 // Validation helper function
