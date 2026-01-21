@@ -104,7 +104,7 @@ WITH team_map AS (
     -- SA20 team mappings
     ('MI Cape Town',                'MI Cape Town'),
     ('Joburg Super Kings',          'Joburg Super Kings'),
-    ('Durban's Super Giants',      'Durban's Super Giants'),
+    ('Durban''s Super Giants',      'Durban''s Super Giants'),
     ('Pretoria Capitals',           'Pretoria Capitals'),
     ('Sunrisers Eastern Cape',      'Sunrisers Eastern Cape'),
     ('Paarl Royals',                'Paarl Royals')
