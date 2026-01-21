@@ -18,11 +18,13 @@ export type TextToSqlRequest = z.infer<typeof TextToSqlRequestSchema>;
 
 // Input sanitization function
 export function sanitizeInput(input: string): string {
-  return input
-    .trim()
-    // eslint-disable-next-line no-useless-escape
-    .replace(/[^\w\s?.,\-'"()\/:%+&]/g, '')
-    .replace(/\s+/g, ' '); // Normalize whitespace
+  return (
+    input
+      .trim()
+      // eslint-disable-next-line no-useless-escape
+      .replace(/[^\w\s?.,\-'"()\/:%+&]/g, '')
+      .replace(/\s+/g, ' ')
+  ); // Normalize whitespace
 }
 
 // Validation helper function
