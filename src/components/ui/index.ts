@@ -38,6 +38,9 @@ export { default as Pagination } from './Pagination';
 export { SectionHeader } from './SectionHeader';
 export type { SectionHeaderColor, SectionHeaderProps, SectionHeaderSize } from './SectionHeader';
 
+export { MultiSelect } from './MultiSelect';
+export type { MultiSelectProps } from './MultiSelect';
+
 export { Select, neoBrutalistStyles } from './Select';
 export type { SelectOption, SelectProps } from './Select';
 

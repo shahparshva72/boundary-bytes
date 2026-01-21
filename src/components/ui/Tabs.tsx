@@ -41,6 +41,18 @@ const Tabs = ({ children, defaultTab = 'Batter vs Bowler' }: TabsProps) => {
     'bowlingWicketTypesPage',
     parseAsInteger.withOptions({ clearOnDefault: true }),
   );
+  const [, setPlayers] = useQueryState(
+    'players',
+    parseAsString.withOptions({ clearOnDefault: true }),
+  );
+  const [, setSeasons] = useQueryState(
+    'seasons',
+    parseAsString.withOptions({ clearOnDefault: true }),
+  );
+  const [, setStatType] = useQueryState(
+    'statType',
+    parseAsString.withOptions({ clearOnDefault: true }),
+  );
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>, newActiveTab: string) => {
     e.preventDefault();
@@ -53,10 +65,13 @@ const Tabs = ({ children, defaultTab = 'Batter vs Bowler' }: TabsProps) => {
     setRunScorersPage(null);
     setWicketTakersPage(null);
     setBowlingWicketTypesPage(null);
+    setPlayers(null);
+    setSeasons(null);
+    setStatType(null);
   };
 
   return (
-    <div className="w-full max-w-full overflow-hidden">
+    <div className="w-full max-w-fit overflow-hidden">
       <div className="overflow-x-auto scrollbar-hide -mx-2 px-2 sm:mx-0 sm:px-0 md:flex md:justify-center">
         <div className="inline-flex border-2 sm:border-4 border-black bg-white rounded-none ">
           {children.map((child) => (
