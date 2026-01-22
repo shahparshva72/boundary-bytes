@@ -2,6 +2,7 @@
 
 import BowlingWicketTypes from '@/components/BowlingWicketTypes';
 import MatchupTab from '@/components/MatchupTab';
+import PlayerCompare from '@/components/PlayerCompare';
 import RunScorers from '@/components/RunScorers';
 import TeamAverages from '@/components/TeamAverages';
 import TeamWins from '@/components/TeamWins';
@@ -13,6 +14,9 @@ export default function StatsTabs() {
     <Tabs>
       <Tab label="Batter vs Bowler">
         <MatchupTab />
+      </Tab>
+      <Tab label="Compare Players">
+        <PlayerCompare />
       </Tab>
       <Tab label="Run Scorers">
         <RunScorers />

@@ -1,6 +1,6 @@
 'use client';
 
-import { parseAsInteger, parseAsString, useQueryState } from 'nuqs';
+import { parseAsInteger, parseAsString, useQueryStates } from 'nuqs';
 import { ReactNode } from 'react';
 
 interface TabProps {
@@ -15,48 +15,39 @@ interface TabsProps {
 
 const Tabs = ({ children, defaultTab = 'Batter vs Bowler' }: TabsProps) => {
   const firstTabLabel = defaultTab || children[0]?.props.label || '';
-  const [activeTab, setActiveTab] = useQueryState(
-    'tab',
-    parseAsString.withDefault(firstTabLabel).withOptions({ clearOnDefault: true }),
-  );
 
-  // Query states for all params that need to be cleared when switching tabs
-  const [, setBatter] = useQueryState(
-    'batter',
-    parseAsString.withOptions({ clearOnDefault: true }),
-  );
-  const [, setBowler] = useQueryState(
-    'bowler',
-    parseAsString.withOptions({ clearOnDefault: true }),
-  );
-  const [, setRunScorersPage] = useQueryState(
-    'runScorersPage',
-    parseAsInteger.withOptions({ clearOnDefault: true }),
-  );
-  const [, setWicketTakersPage] = useQueryState(
-    'wicketTakersPage',
-    parseAsInteger.withOptions({ clearOnDefault: true }),
-  );
-  const [, setBowlingWicketTypesPage] = useQueryState(
-    'bowlingWicketTypesPage',
-    parseAsInteger.withOptions({ clearOnDefault: true }),
+  const [{ tab: activeTab }, setQueryStates] = useQueryStates(
+    {
+      tab: parseAsString.withDefault(firstTabLabel),
+      batter: parseAsString,
+      bowler: parseAsString,
+      runScorersPage: parseAsInteger,
+      wicketTakersPage: parseAsInteger,
+      bowlingWicketTypesPage: parseAsInteger,
+      players: parseAsString,
+      seasons: parseAsString,
+      statType: parseAsString,
+    },
+    { clearOnDefault: true },
   );
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>, newActiveTab: string) => {
     e.preventDefault();
-    setActiveTab(newActiveTab);
-
-    // Clear all query params when switching tabs to ensure each tab starts fresh
-    // This prevents params from one tab (like pagination) persisting when switching to another tab
-    setBatter(null);
-    setBowler(null);
-    setRunScorersPage(null);
-    setWicketTakersPage(null);
-    setBowlingWicketTypesPage(null);
+    setQueryStates({
+      tab: newActiveTab,
+      batter: null,
+      bowler: null,
+      runScorersPage: null,
+      wicketTakersPage: null,
+      bowlingWicketTypesPage: null,
+      players: null,
+      seasons: null,
+      statType: null,
+    });
   };
 
   return (
-    <div className="w-full max-w-full overflow-hidden">
+    <div className="w-full max-w-fit overflow-hidden">
       <div className="overflow-x-auto scrollbar-hide -mx-2 px-2 sm:mx-0 sm:px-0 md:flex md:justify-center">
         <div className="inline-flex border-2 sm:border-4 border-black bg-white rounded-none ">
           {children.map((child) => (

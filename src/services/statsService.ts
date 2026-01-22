@@ -54,3 +54,21 @@ export const fetchFallOfWickets = async (matchId: number) => {
   const { data } = await api.get(`/stats/fall-of-wickets/${matchId}`);
   return data;
 };
+
+// Player comparison
+export const fetchPlayerComparison = async (
+  players: string[],
+  filters: { seasons?: string[]; team?: string; statType: string },
+) => {
+  const params = new URLSearchParams({
+    players: players.join(','),
+    statType: filters.statType,
+  });
+  if (filters.seasons && filters.seasons.length > 0) {
+    params.append('seasons', filters.seasons.join(','));
+  }
+  if (filters.team) params.append('team', filters.team);
+
+  const { data } = await api.get(`/stats/player-compare?${params}`);
+  return data;
+};
