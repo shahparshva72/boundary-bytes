@@ -149,7 +149,7 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
                           {match.venue}
                         </h2>
                         <p className="text-sm sm:text-base font-bold text-black mt-0.5 bg-[#4ECDC4] px-1.5 sm:px-2 py-0.5 inline-block border-2 border-black">
-                          {new Date(match.startDate).toLocaleDateString('en-GB', {
+                          {new Date(match.startDate).toLocaleDateString('en-IN', {
                             day: '2-digit',
                             month: 'short',
                             year: 'numeric',
