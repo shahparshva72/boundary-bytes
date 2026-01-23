@@ -47,7 +47,7 @@ export default function Tooltip({
         type="button"
         aria-label={ariaLabel}
         aria-describedby={id}
-        className={`inline-flex items-center justify-center select-none rounded-full border-2 border-black bg-white text-black w-6 h-6 text-xs font-bold shadow-[2px_2px_0_#000] focus:outline-none focus:ring-2 focus:ring-black ${
+        className={`inline-flex items-center justify-center select-none rounded-full border-2 border-black bg-white text-black w-5 h-5 text-xs font-bold shadow-[1px_1px_0_#000] focus:outline-none focus:ring-2 focus:ring-black ${
           buttonClassName || ''
         }`}
       >
@@ -59,7 +59,7 @@ export default function Tooltip({
         className={`pointer-events-none absolute ${position} z-50 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity`}
       >
         <div className="relative">
-          <div className="bg-white text-black text-sm rounded-sm px-3 py-2 border-2 border-black shadow-[4px_4px_0_#000] w-64 sm:w-72 whitespace-normal break-words leading-snug">
+          <div className="bg-white text-black text-xs rounded-sm px-2 py-1.5 border-2 border-black shadow-[2px_2px_0_#000] w-64 sm:w-72 whitespace-normal break-words leading-snug">
             {content}
           </div>
           <span

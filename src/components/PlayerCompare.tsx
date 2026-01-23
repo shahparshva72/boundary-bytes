@@ -117,10 +117,10 @@ export default function PlayerCompare() {
       : undefined;
 
   return (
-    <div className="flex flex-col gap-4 sm:gap-6 w-full mx-auto my-2 sm:my-8">
-      <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-2 sm:gap-3 w-full mx-auto my-1 sm:my-4">
+      <div className="flex flex-col gap-2 pb-12 sm:pb-16">
         <div className="w-full">
-          <label className="block text-sm sm:text-lg font-bold text-black mb-1 sm:mb-2">
+          <label className="block text-xs sm:text-sm font-bold text-black mb-0.5 sm:mb-1">
             Select Players (2-5)
           </label>
           <MultiSelect
@@ -135,9 +135,9 @@ export default function PlayerCompare() {
           />
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-4">
+        <div className="flex flex-col sm:flex-row gap-2">
           <div className="w-full sm:w-1/2">
-            <label className="block text-sm sm:text-lg font-bold text-black mb-1 sm:mb-2">
+            <label className="block text-xs sm:text-sm font-bold text-black mb-0.5 sm:mb-1">
               Seasons
             </label>
             <MultiSelect
@@ -152,10 +152,10 @@ export default function PlayerCompare() {
           </div>
 
           <div className="w-full sm:w-1/2">
-            <label className="block text-sm sm:text-lg font-bold text-black mb-1 sm:mb-2">
+            <label className="block text-xs sm:text-sm font-bold text-black mb-0.5 sm:mb-1">
               Stat Type
             </label>
-            <div className="flex gap-2">
+            <div className="flex gap-1.5">
               {STAT_TYPES.map((type) => (
                 <Button
                   key={type}
@@ -173,8 +173,8 @@ export default function PlayerCompare() {
       </div>
 
       {error && (
-        <Card className="p-3 sm:p-6">
-          <p className="text-sm sm:text-xl font-bold text-red-600">{error}</p>
+        <Card className="p-2 sm:p-3">
+          <p className="text-xs sm:text-sm font-bold text-red-600">{error}</p>
         </Card>
       )}
 

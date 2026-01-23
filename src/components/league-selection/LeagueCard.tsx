@@ -22,17 +22,17 @@ const cardVariants = {
     opacity: 1,
     y: 0,
     x: 0,
-    boxShadow: '12px 12px 0px 0px rgba(0,0,0,1)',
+    boxShadow: '6px 6px 0px 0px rgba(0,0,0,1)',
   },
   hover: {
-    x: 4,
-    y: 4,
-    boxShadow: '8px 8px 0px 0px rgba(0,0,0,1)',
+    x: 2,
+    y: 2,
+    boxShadow: '4px 4px 0px 0px rgba(0,0,0,1)',
   },
   tap: {
-    x: 6,
-    y: 6,
-    boxShadow: '6px 6px 0px 0px rgba(0,0,0,1)',
+    x: 3,
+    y: 3,
+    boxShadow: '3px 3px 0px 0px rgba(0,0,0,1)',
   },
 };
 
@@ -57,9 +57,9 @@ const LeagueCard: React.FC<LeagueCardProps> = ({ league, config, onSelect, delay
 
   return (
     <motion.div
-      className="bg-white border-4 border-black p-4 sm:p-5 cursor-pointer focus:outline-none focus:border-6 focus:border-black"
+      className="bg-white border-2 border-black p-2 sm:p-3 cursor-pointer focus:outline-none focus:border-2 focus:border-black"
       style={{
-        boxShadow: '12px 12px 0px 0px rgba(0,0,0,1)',
+        boxShadow: '6px 6px 0px 0px rgba(0,0,0,1)',
       }}
       variants={cardVariants}
       initial="hidden"
@@ -81,51 +81,55 @@ const LeagueCard: React.FC<LeagueCardProps> = ({ league, config, onSelect, delay
     >
       {/* Card Header */}
       <div
-        className="border-3 border-black p-3 mb-4 font-black text-xl sm:text-2xl text-black text-center uppercase tracking-wide"
+        className="border-2 border-black p-2 mb-2 font-black text-base sm:text-lg text-black text-center uppercase tracking-wide"
         style={{
           backgroundColor: config.colors.headerBg,
           transform: isSelected ? 'rotate(-1deg) scale(1.02)' : 'rotate(0deg)',
         }}
       >
-        <div className="flex items-center justify-center gap-3">
-          <span className="text-2xl sm:text-3xl">{config.icon}</span>
+        <div className="flex items-center justify-center gap-2">
+          <span className="text-xl sm:text-2xl">{config.icon}</span>
           <span>{config.name}</span>
         </div>
       </div>
 
       {/* Full Name */}
-      <div className="text-center mb-4">
-        <h3 className="text-lg sm:text-xl font-black text-black uppercase">{config.fullName}</h3>
+      <div className="text-center mb-2">
+        <h3 className="text-sm sm:text-base font-black text-black uppercase">{config.fullName}</h3>
       </div>
 
       {/* Statistics Grid */}
-      <div id={`${league}-stats`} className="grid grid-cols-3 gap-2 sm:gap-3">
-        <div className="bg-white border-2 border-black p-2 text-center flex flex-col items-center justify-center min-h-20">
-          <div className="text-lg sm:text-2xl font-black text-black leading-none tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">
+      <div id={`${league}-stats`} className="grid grid-cols-3 gap-1.5 sm:gap-2">
+        <div className="bg-white border-2 border-black p-1.5 text-center flex flex-col items-center justify-center min-h-16">
+          <div className="text-base sm:text-lg font-black text-black leading-none tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">
             {config.stats.teams}
           </div>
-          <div className="mt-1 text-[10px] sm:text-xs font-bold text-black uppercase">Teams</div>
+          <div className="mt-0.5 text-[10px] sm:text-xs font-bold text-black uppercase">Teams</div>
         </div>
 
-        <div className="bg-white border-2 border-black p-2 text-center flex flex-col items-center justify-center min-h-20">
-          <div className="text-lg sm:text-2xl font-black text-black leading-none tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">
+        <div className="bg-white border-2 border-black p-1.5 text-center flex flex-col items-center justify-center min-h-16">
+          <div className="text-base sm:text-lg font-black text-black leading-none tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">
             {config.stats.matches}
           </div>
-          <div className="mt-1 text-[10px] sm:text-xs font-bold text-black uppercase">Matches</div>
+          <div className="mt-0.5 text-[10px] sm:text-xs font-bold text-black uppercase">
+            Matches
+          </div>
         </div>
 
-        <div className="bg-white border-2 border-black p-2 text-center flex flex-col items-center justify-center min-h-20">
-          <div className="text-lg sm:text-2xl font-black text-black leading-none tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">
+        <div className="bg-white border-2 border-black p-1.5 text-center flex flex-col items-center justify-center min-h-16">
+          <div className="text-base sm:text-lg font-black text-black leading-none tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">
             {config.stats.players}
           </div>
-          <div className="mt-1 text-[10px] sm:text-xs font-bold text-black uppercase">Players</div>
+          <div className="mt-0.5 text-[10px] sm:text-xs font-bold text-black uppercase">
+            Players
+          </div>
         </div>
       </div>
 
       {/* Seasons Info */}
-      <div className="mt-4 text-center">
+      <div className="mt-2 text-center">
         <div
-          className="inline-block px-2 py-1 border-2 border-black font-bold text-black text-xs"
+          className="inline-block px-1.5 py-0.5 border-2 border-black font-bold text-black text-xs"
           style={{ backgroundColor: config.colors.accent }}
         >
           Seasons: {config.stats.seasons.join(', ')}
@@ -135,12 +139,12 @@ const LeagueCard: React.FC<LeagueCardProps> = ({ league, config, onSelect, delay
       {/* Selection Feedback */}
       {isSelected && (
         <motion.div
-          className="absolute inset-0 bg-black bg-opacity-10 border-4 border-black flex items-center justify-center"
+          className="absolute inset-0 bg-black bg-opacity-10 border-2 border-black flex items-center justify-center"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.2 }}
         >
-          <div className="bg-white border-4 border-black px-6 py-3 font-black text-xl text-black uppercase">
+          <div className="bg-white border-2 border-black px-3 py-2 font-black text-base text-black uppercase">
             Selected!
           </div>
         </motion.div>

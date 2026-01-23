@@ -21,14 +21,14 @@ const colorStyles: Record<SectionHeaderColor, string> = {
 
 const sizeStyles: Record<SectionHeaderSize, string> = {
   sm: 'p-2 border-b-2',
-  md: 'p-2 sm:p-4 border-b-2 sm:border-b-4',
-  lg: 'p-4 sm:p-6 border-b-4',
+  md: 'p-1.5 sm:p-2 border-b-2',
+  lg: 'p-2 sm:p-3 border-b-2',
 };
 
 const textSizeStyles: Record<SectionHeaderSize, string> = {
   sm: 'text-sm sm:text-base md:text-lg',
-  md: 'text-base sm:text-xl md:text-2xl',
-  lg: 'text-xl sm:text-2xl md:text-3xl',
+  md: 'text-sm sm:text-base md:text-lg',
+  lg: 'text-lg sm:text-xl md:text-2xl',
 };
 
 const SectionHeader = forwardRef<HTMLDivElement, SectionHeaderProps>(

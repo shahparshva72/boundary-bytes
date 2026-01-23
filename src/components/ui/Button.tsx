@@ -21,9 +21,9 @@ const variantStyles: Record<ButtonVariant, string> = {
 };
 
 const sizeStyles: Record<ButtonSize, string> = {
-  sm: 'px-2 sm:px-3 py-1.5 sm:py-2 text-xs sm:text-sm',
-  md: 'px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base',
-  lg: 'px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-xl',
+  sm: 'px-1.5 sm:px-2 py-1 sm:py-1.5 text-xs',
+  md: 'px-2 sm:px-3 py-1.5 sm:py-2 text-xs sm:text-sm',
+  lg: 'px-3 sm:px-4 py-2 sm:py-2.5 text-sm sm:text-base',
 };
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
@@ -45,7 +45,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       'font-bold transition-all duration-150 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed';
 
     const shadowStyles = shadow
-      ? 'shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] active:shadow-none active:translate-x-[4px] active:translate-y-[4px]'
+      ? 'shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[1px] hover:translate-y-[1px] active:shadow-none active:translate-x-[2px] active:translate-y-[2px]'
       : '';
 
     return (
