@@ -51,27 +51,27 @@ const LeagueSelectionScreen: React.FC<LeagueSelectionScreenProps> = ({
       animate="visible"
       exit="exit"
     >
-      <div className="min-h-screen flex flex-col items-center justify-center p-4 sm:p-8">
+      <div className="min-h-screen flex flex-col items-center justify-center p-2 sm:p-4">
         {/* Header */}
-        <motion.div className="mb-8 sm:mb-12" variants={headerVariants}>
+        <motion.div className="mb-4 sm:mb-6" variants={headerVariants}>
           <div
-            className="bg-[#FF5E5B] p-6 sm:p-8 border-4 border-black font-black text-black text-center"
+            className="bg-[#FF5E5B] p-3 sm:p-4 border-2 border-black font-black text-black text-center"
             style={{
-              boxShadow: '12px 12px 0px 0px rgba(0,0,0,1)',
+              boxShadow: '6px 6px 0px 0px rgba(0,0,0,1)',
               transform: 'rotate(-1deg)',
             }}
           >
-            <h1 className="text-3xl sm:text-4xl md:text-5xl uppercase tracking-tight">
+            <h1 className="text-xl sm:text-2xl md:text-3xl uppercase tracking-tight">
               Choose Your League
             </h1>
-            <p className="text-lg sm:text-xl mt-2 font-bold">
+            <p className="text-sm sm:text-base mt-1 font-bold">
               Select your cricket statistics experience
             </p>
           </div>
         </motion.div>
 
         {/* League Cards Container */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 sm:gap-8 w-full max-w-7xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3 sm:gap-4 w-full max-w-7xl">
           {(Object.keys(LEAGUE_CONFIGS) as League[]).map((league, index) => (
             <LeagueCard
               key={league}
@@ -85,12 +85,12 @@ const LeagueSelectionScreen: React.FC<LeagueSelectionScreenProps> = ({
 
         {/* Footer */}
         <motion.div
-          className="mt-8 sm:mt-12 text-center"
+          className="mt-4 sm:mt-6 text-center"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.4 }}
         >
-          <p className="text-lg font-bold text-black bg-[#4ECDC4] px-4 py-2 border-2 border-black inline-block">
+          <p className="text-sm font-bold text-black bg-[#4ECDC4] px-2 py-1 border-2 border-black inline-block">
             Your choice will be remembered for future visits
           </p>
         </motion.div>

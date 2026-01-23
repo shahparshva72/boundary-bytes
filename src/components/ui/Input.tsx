@@ -15,13 +15,13 @@ interface TextAreaProps extends TextareaHTMLAttributes<HTMLTextAreaElement> {
 }
 
 const sizeStyles: Record<InputSize, string> = {
-  sm: 'px-2 py-1.5 text-xs sm:text-sm',
-  md: 'px-3 sm:px-4 py-2 sm:py-3 text-sm sm:text-base',
-  lg: 'px-4 sm:px-6 py-3 sm:py-4 text-base sm:text-lg',
+  sm: 'px-1.5 py-1 text-xs',
+  md: 'px-2 sm:px-3 py-1.5 sm:py-2 text-xs sm:text-sm',
+  lg: 'px-2 sm:px-3 py-2 sm:py-2.5 text-sm sm:text-base',
 };
 
 const baseStyles =
-  'w-full bg-white border-2 border-black font-medium placeholder:text-gray-500 focus:outline-none focus:ring-0 focus:border-black focus:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-shadow duration-150';
+  'w-full bg-white border-2 border-black font-medium placeholder:text-gray-500 focus:outline-none focus:ring-0 focus:border-black focus:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-shadow duration-150';
 
 const Input = forwardRef<HTMLInputElement, InputProps>(
   ({ inputSize = 'md', error = false, className = '', ...props }, ref) => {

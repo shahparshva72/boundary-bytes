@@ -17,16 +17,16 @@ interface CardHeaderProps extends HTMLAttributes<HTMLDivElement> {
 type CardContentProps = HTMLAttributes<HTMLDivElement>;
 
 const variantStyles: Record<CardVariant, string> = {
-  default: 'bg-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]',
-  elevated: 'bg-white border-4 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)]',
-  flat: 'bg-white border-4 border-black',
+  default: 'bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]',
+  elevated: 'bg-white border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]',
+  flat: 'bg-white border-2 border-black',
 };
 
 const paddingStyles: Record<NonNullable<CardProps['padding']>, string> = {
   none: '',
-  sm: 'p-2 sm:p-3',
-  md: 'p-4 sm:p-6',
-  lg: 'p-6 sm:p-8',
+  sm: 'p-1.5 sm:p-2',
+  md: 'p-2 sm:p-3',
+  lg: 'p-3 sm:p-4',
 };
 
 const headerColorStyles: Record<NonNullable<CardHeaderProps['color']>, string> = {
@@ -50,7 +50,7 @@ const Card = forwardRef<HTMLDivElement, CardProps>(
     ref,
   ) => {
     const interactiveStyles = interactive
-      ? 'cursor-pointer hover:translate-x-[4px] hover:translate-y-[4px] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-150'
+      ? 'cursor-pointer hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all duration-150'
       : '';
 
     return (
@@ -72,7 +72,7 @@ const CardHeader = forwardRef<HTMLDivElement, CardHeaderProps>(
     return (
       <div
         ref={ref}
-        className={`${headerColorStyles[color]} p-2 sm:p-4 border-b-2 sm:border-b-4 border-black ${className}`}
+        className={`${headerColorStyles[color]} p-1.5 sm:p-2 border-b-2 border-black ${className}`}
         {...props}
       >
         {children}
@@ -86,7 +86,7 @@ CardHeader.displayName = 'CardHeader';
 const CardContent = forwardRef<HTMLDivElement, CardContentProps>(
   ({ className = '', children, ...props }, ref) => {
     return (
-      <div ref={ref} className={`p-4 sm:p-6 ${className}`} {...props}>
+      <div ref={ref} className={`p-2 sm:p-3 ${className}`} {...props}>
         {children}
       </div>
     );

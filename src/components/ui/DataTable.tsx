@@ -55,7 +55,7 @@ const DataTableHeader = forwardRef<HTMLTableSectionElement, DataTableHeaderProps
     return (
       <thead
         ref={ref}
-        className={`${headerColorStyles[color]} border-b-2 sm:border-b-4 border-black ${className}`}
+        className={`${headerColorStyles[color]} border-b-2 border-black ${className}`}
         {...props}
       >
         {children}
@@ -70,7 +70,7 @@ const DataTableHeadCell = forwardRef<HTMLTableCellElement, DataTableHeadCellProp
     return (
       <th
         ref={ref}
-        className={`px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left text-xs sm:text-sm md:text-base lg:text-xl font-black text-black uppercase tracking-wide whitespace-nowrap ${
+        className={`px-1.5 sm:px-2 md:px-3 py-1.5 sm:py-2 md:py-2.5 text-left text-xs sm:text-sm md:text-base font-black text-black uppercase tracking-wide whitespace-nowrap ${
           isLast ? '' : 'border-r-2 border-black'
         } ${className}`}
         {...props}
@@ -115,7 +115,7 @@ const DataTableCell = forwardRef<HTMLTableCellElement, DataTableCellProps>(
     return (
       <td
         ref={ref}
-        className={`px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-xs sm:text-base md:text-lg font-bold text-black whitespace-nowrap ${
+        className={`px-1.5 sm:px-2 md:px-3 py-1.5 sm:py-2 md:py-2.5 text-xs sm:text-sm md:text-base font-bold text-black whitespace-nowrap ${
           isLast ? '' : 'border-r-2 border-black'
         } ${className}`}
         {...props}
@@ -133,7 +133,7 @@ const DataTableEmpty = forwardRef<HTMLTableRowElement, DataTableEmptyProps>(
       <tr ref={ref} className={className} {...props}>
         <td
           colSpan={colSpan}
-          className="px-4 sm:px-6 py-6 sm:py-8 text-sm sm:text-lg font-bold text-black text-center"
+          className="px-2 sm:px-3 py-3 sm:py-4 text-sm sm:text-base font-bold text-black text-center"
         >
           {message}
         </td>

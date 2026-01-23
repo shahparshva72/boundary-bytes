@@ -30,19 +30,19 @@ const neoBrutalistStyles = {
     ...provided,
     border: '2px solid black',
     borderRadius: 0,
-    padding: '0.125rem',
-    boxShadow: state.isFocused ? '4px 4px 0px 0px rgba(0,0,0,1)' : 'none',
+    padding: '0.1rem',
+    boxShadow: state.isFocused ? '2px 2px 0px 0px rgba(0,0,0,1)' : 'none',
     fontSize: '14px',
-    minHeight: '40px',
+    minHeight: '32px',
     backgroundColor: 'white',
     '&:hover': {
       borderColor: 'black',
     },
     '@media (min-width: 640px)': {
-      border: '4px solid black',
-      padding: '0.25rem',
+      border: '2px solid black',
+      padding: '0.15rem',
       fontSize: '16px',
-      minHeight: '48px',
+      minHeight: '36px',
     },
   }),
   option: (provided: CSSObjectWithLabel, state: { isSelected: boolean; isFocused: boolean }) => ({
@@ -60,10 +60,10 @@ const neoBrutalistStyles = {
     ...provided,
     border: '2px solid black',
     borderRadius: 0,
-    boxShadow: '4px 4px 0px 0px rgba(0,0,0,1)',
+    boxShadow: '2px 2px 0px 0px rgba(0,0,0,1)',
     marginTop: '4px',
     '@media (min-width: 640px)': {
-      border: '4px solid black',
+      border: '2px solid black',
     },
   }),
   menuList: (provided: CSSObjectWithLabel) => ({

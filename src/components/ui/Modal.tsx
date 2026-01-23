@@ -74,7 +74,7 @@ const Modal = forwardRef<HTMLDivElement, ModalProps>(
         />
         <div
           ref={ref}
-          className={`relative bg-white border-4 border-black ${maxWidthStyles[maxWidth]} w-full mx-4 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] ${className}`}
+          className={`relative bg-white border-2 border-black ${maxWidthStyles[maxWidth]} w-full mx-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] ${className}`}
           {...props}
         >
           {children}
@@ -94,7 +94,7 @@ Modal.displayName = 'Modal';
 const ModalHeader = forwardRef<HTMLDivElement, ModalHeaderProps>(
   ({ className = '', children, ...props }, ref) => {
     return (
-      <div ref={ref} className={`p-4 sm:p-6 border-b-2 border-black ${className}`} {...props}>
+      <div ref={ref} className={`p-2 sm:p-3 border-b-2 border-black ${className}`} {...props}>
         {children}
       </div>
     );
@@ -107,7 +107,7 @@ const ModalTitle = forwardRef<HTMLHeadingElement, HTMLAttributes<HTMLHeadingElem
     return (
       <h3
         ref={ref}
-        className={`text-lg sm:text-xl font-black text-black text-center uppercase ${className}`}
+        className={`text-base sm:text-lg font-black text-black text-center uppercase ${className}`}
         {...props}
       >
         {children}
@@ -120,7 +120,7 @@ ModalTitle.displayName = 'ModalTitle';
 const ModalBody = forwardRef<HTMLDivElement, ModalBodyProps>(
   ({ className = '', children, ...props }, ref) => {
     return (
-      <div ref={ref} className={`p-4 sm:p-6 ${className}`} {...props}>
+      <div ref={ref} className={`p-2 sm:p-3 ${className}`} {...props}>
         {children}
       </div>
     );
@@ -133,7 +133,7 @@ const ModalFooter = forwardRef<HTMLDivElement, ModalFooterProps>(
     return (
       <div
         ref={ref}
-        className={`p-4 sm:p-6 border-t-2 border-black flex flex-col sm:flex-row gap-2 sm:gap-3 justify-center ${className}`}
+        className={`p-2 sm:p-3 border-t-2 border-black flex flex-col sm:flex-row gap-1.5 sm:gap-2 justify-center ${className}`}
         {...props}
       >
         {children}

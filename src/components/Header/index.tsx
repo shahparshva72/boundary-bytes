@@ -19,21 +19,21 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-[#FFC700] p-3 sm:p-4 border-b-4 border-black shadow-[0px_4px_0px_0px_rgba(0,0,0,1)]">
+    <header className="bg-[#FFC700] p-2 sm:p-2.5 border-b-2 border-black shadow-[0px_2px_0px_0px_rgba(0,0,0,1)]">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="flex items-center gap-2 sm:gap-4">
-          <Link href="/" className="text-xl sm:text-2xl font-black text-black tracking-tighter">
+        <div className="flex items-center gap-1.5 sm:gap-2">
+          <Link href="/" className="text-lg sm:text-xl font-black text-black tracking-tighter">
             Boundary Bytes
           </Link>
           {selectedLeague && leagueConfig && (
-            <div className="hidden sm:flex items-center gap-2 px-3 py-1 bg-black text-white font-bold text-sm uppercase">
+            <div className="hidden sm:flex items-center gap-2 px-2 py-0.5 bg-black text-white font-bold text-sm uppercase">
               <span>{leagueConfig.icon}</span>
               <span>{leagueConfig.name}</span>
             </div>
           )}
         </div>
 
-        <div className="flex items-center gap-2 sm:gap-4">
+        <div className="flex items-center gap-1.5 sm:gap-2">
           <nav className="hidden md:flex gap-2 lg:gap-4">
             <NavLink href="/">Home</NavLink>
             <NavLink href="/stats">Stats</NavLink>
@@ -66,8 +66,8 @@ const Header = () => {
       {isMobileMenuOpen && (
         <>
           <div className="fixed inset-0 bg-black/50 z-40 md:hidden" onClick={closeMobileMenu} />
-          <nav className="fixed top-0 right-0 h-full w-64 bg-[#FFC700] border-l-4 border-black z-50 md:hidden flex flex-col p-4 shadow-[-8px_0px_0px_0px_rgba(0,0,0,1)]">
-            <div className="flex justify-between items-center mb-6">
+          <nav className="fixed top-0 right-0 h-full w-64 bg-[#FFC700] border-l-2 border-black z-50 md:hidden flex flex-col p-2.5 shadow-[-4px_0px_0px_0px_rgba(0,0,0,1)]">
+            <div className="flex justify-between items-center mb-3">
               <span className="text-xl font-black text-black">Menu</span>
               <button
                 onClick={closeMobileMenu}

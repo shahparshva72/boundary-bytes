@@ -75,12 +75,12 @@ export default function Matchup() {
     : [];
 
   return (
-    <div className="flex flex-col gap-4 sm:gap-[40px] items-center w-full mx-auto my-2 sm:my-8">
-      <div className="w-full max-w-2xl flex flex-col gap-3 sm:gap-6 sm:flex-row items-center justify-center">
+    <div className="flex flex-col gap-2 sm:gap-5 items-center w-full mx-auto my-1 sm:my-4">
+      <div className="w-full max-w-2xl flex flex-col gap-2 sm:gap-3 sm:flex-row items-center justify-center">
         <div className="w-full sm:w-1/2">
           <label
             htmlFor="batter-select"
-            className="block text-sm sm:text-lg font-bold text-black mb-1 sm:mb-2"
+            className="block text-xs sm:text-sm font-bold text-black mb-0.5 sm:mb-1"
           >
             Batter
           </label>
@@ -97,7 +97,7 @@ export default function Matchup() {
         <div className="w-full sm:w-1/2">
           <label
             htmlFor="bowler-select"
-            className="block text-sm sm:text-lg font-bold text-black mb-1 sm:mb-2"
+            className="block text-xs sm:text-sm font-bold text-black mb-0.5 sm:mb-1"
           >
             Bowler
           </label>
@@ -118,7 +118,7 @@ export default function Matchup() {
         size="lg"
         onClick={handleFetchMatchup}
         disabled={isMatchupLoading || !selectedBatter || !selectedBowler}
-        className="font-black text-base sm:text-2xl uppercase"
+        className="font-black text-sm sm:text-base uppercase"
       >
         {isMatchupLoading ? 'Loading...' : 'Get Stats'}
       </Button>
