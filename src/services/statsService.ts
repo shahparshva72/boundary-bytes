@@ -67,7 +67,9 @@ export const fetchPlayerComparison = async (
   if (filters.seasons && filters.seasons.length > 0) {
     params.append('seasons', filters.seasons.join(','));
   }
-  if (filters.team) params.append('team', filters.team);
+  if (filters.team) {
+    params.append('team', filters.team);
+  }
 
   const { data } = await api.get(`/stats/player-compare?${params}`);
   return data;

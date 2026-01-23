@@ -1,41 +1,12 @@
 import { prisma } from '@/lib/prisma';
+import { VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
 import { NextResponse } from 'next/server';
 
-// Valid league values
-const VALID_LEAGUES = ['WPL', 'IPL', 'BBL', 'WBBL', 'SA20'] as const;
-type League = (typeof VALID_LEAGUES)[number];
-
-function validateLeague(league: string | null): League {
-  if (!league) return 'WPL'; // Default to WPL for backward compatibility
-  if (VALID_LEAGUES.includes(league as League)) {
-    return league as League;
-  }
-  throw new Error(`Invalid league: ${league}. Valid leagues are: ${VALID_LEAGUES.join(', ')}`);
-}
-
-// GET /api/stats/team-wins
-// Returns aggregated win / loss statistics for each team.
-//
-// The aggregation is calculated purely inside Postgres using a raw SQL query so
-// that we only open a single connection and avoid pulling large result sets
-// into the application layer.
-//
-// A team is considered to have won a match if it scored more runs than the
-// opposition. Runs are calculated as runs_off_bat + extras for every delivery.
-// A win is categorised as "batting_first" if the team wins while playing the
-// first innings, otherwise it is "batting_second".
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
     const league = validateLeague(searchParams.get('league'));
-    /*
-      Explanation of the SQL:
-      1. runs_per_innings – Total runs for every (match, innings, team).
-      2. match_totals      – Pivot the two innings of the same match onto the
-                             same row so that we can easily compare them.
-      3. winners           – Identify winner, loser and win_type for each match.
-      4. final SELECT      – Aggregate win / loss counts for each team.
-    */
+
     const results = await prisma.$queryRaw<
       Array<{
         team: string;

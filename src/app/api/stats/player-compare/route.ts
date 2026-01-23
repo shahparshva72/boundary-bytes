@@ -1,22 +1,15 @@
 import { Prisma } from '@/generated/prisma/client';
 import { prisma } from '@/lib/prisma';
+import { VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
 import { NextRequest, NextResponse } from 'next/server';
 
-const VALID_LEAGUES = ['WPL', 'IPL', 'BBL', 'WBBL', 'SA20'] as const;
 const VALID_STAT_TYPES = ['batting', 'bowling', 'both'] as const;
-type League = (typeof VALID_LEAGUES)[number];
 type StatType = (typeof VALID_STAT_TYPES)[number];
 
-function validateLeague(league: string | null): League {
-  if (!league) return 'WPL';
-  if (VALID_LEAGUES.includes(league as League)) {
-    return league as League;
-  }
-  throw new Error(`Invalid league: ${league}. Valid leagues are: ${VALID_LEAGUES.join(', ')}`);
-}
-
 function validateStatType(statType: string | null): StatType {
-  if (!statType) return 'both';
+  if (!statType) {
+    return 'both';
+  }
   if (VALID_STAT_TYPES.includes(statType as StatType)) {
     return statType as StatType;
   }

@@ -27,7 +27,9 @@ export default function PlayerCompare() {
   const { data: seasonsData, isLoading: seasonsLoading } = useSeasons();
 
   const seasonOptions: SelectOption[] = useMemo(() => {
-    if (!seasonsData?.seasons) return [];
+    if (!seasonsData?.seasons) {
+      return [];
+    }
     return seasonsData.seasons.map((s: string) => ({ value: s, label: s }));
   }, [seasonsData]);
 
@@ -41,7 +43,9 @@ export default function PlayerCompare() {
   );
 
   const selectedSeasons: SelectOption[] = useMemo(() => {
-    if (!seasonsParam) return [];
+    if (!seasonsParam) {
+      return [];
+    }
     return seasonsParam.split(',').map((s) => ({ value: s, label: s }));
   }, [seasonsParam]);
   const [statType, setStatType] = useQueryState(
@@ -50,14 +54,20 @@ export default function PlayerCompare() {
   );
 
   const selectedPlayers: SelectOption[] = useMemo(() => {
-    if (!playersParam) return [];
+    if (!playersParam) {
+      return [];
+    }
     return playersParam.split(',').map((p) => ({ value: p, label: p }));
   }, [playersParam]);
 
   const playerOptions: SelectOption[] = useMemo(() => {
     const allPlayers = new Set<string>();
-    if (batters) batters.forEach((b: string) => allPlayers.add(b));
-    if (bowlers) bowlers.forEach((b: string) => allPlayers.add(b));
+    if (batters) {
+      batters.forEach((b: string) => allPlayers.add(b));
+    }
+    if (bowlers) {
+      bowlers.forEach((b: string) => allPlayers.add(b));
+    }
     return Array.from(allPlayers)
       .sort()
       .map((p) => ({ value: p, label: p }));

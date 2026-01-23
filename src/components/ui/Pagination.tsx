@@ -16,7 +16,9 @@ function getPageItems(
   const maxVisible = range * 2 + 3;
 
   if (totalPages <= maxVisible) {
-    for (let i = 1; i <= totalPages; i++) items.push(i);
+    for (let i = 1; i <= totalPages; i++) {
+      items.push(i);
+    }
     return items;
   }
 
@@ -28,15 +30,21 @@ function getPageItems(
   if (left > 2) {
     items.push('dots');
   } else {
-    for (let i = 2; i < left; i++) items.push(i);
+    for (let i = 2; i < left; i++) {
+      items.push(i);
+    }
   }
 
-  for (let i = left; i <= right; i++) items.push(i);
+  for (let i = left; i <= right; i++) {
+    items.push(i);
+  }
 
   if (right < totalPages - 1) {
     items.push('dots');
   } else {
-    for (let i = right + 1; i < totalPages; i++) items.push(i);
+    for (let i = right + 1; i < totalPages; i++) {
+      items.push(i);
+    }
   }
 
   items.push(totalPages);

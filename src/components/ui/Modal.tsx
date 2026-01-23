@@ -62,7 +62,9 @@ const Modal = forwardRef<HTMLDivElement, ModalProps>(
       };
     }, [isOpen, handleEscape]);
 
-    if (!isOpen) return null;
+    if (!isOpen) {
+      return null;
+    }
 
     const modalContent = (
       <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
@@ -80,7 +82,9 @@ const Modal = forwardRef<HTMLDivElement, ModalProps>(
       </div>
     );
 
-    if (typeof window === 'undefined') return null;
+    if (typeof window === 'undefined') {
+      return null;
+    }
 
     return createPortal(modalContent, document.body);
   },

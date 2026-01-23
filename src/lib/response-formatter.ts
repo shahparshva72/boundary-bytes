@@ -60,8 +60,12 @@ export class ResponseFormatter {
     };
 
     const { suggestions, tips } = this.generateSuggestions(code, errorMessage, context);
-    if (suggestions.length > 0) response.suggestions = suggestions;
-    if (tips.length > 0) response.tips = tips;
+    if (suggestions.length > 0) {
+      response.suggestions = suggestions;
+    }
+    if (tips.length > 0) {
+      response.tips = tips;
+    }
 
     return response;
   }

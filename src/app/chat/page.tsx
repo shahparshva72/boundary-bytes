@@ -31,7 +31,9 @@ export default function TextToSqlPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setTouched(true);
-    if (!isValid || !selectedLeague) return;
+    if (!isValid || !selectedLeague) {
+      return;
+    }
     mutate(question);
   };
 

@@ -358,7 +358,9 @@ export class GeminiSqlService {
    * - Ensure LIMIT <= 1000 (inject if missing)
    */
   private minimalValidateAndNormalize(sql: string): string {
-    if (!sql || !sql.trim()) throw new Error('Empty SQL from AI');
+    if (!sql || !sql.trim()) {
+      throw new Error('Empty SQL from AI');
+    }
 
     const s = sql.trim();
 
@@ -388,12 +390,18 @@ export class GeminiSqlService {
       // ignore aliases like wpl_delivery wd -> only check the first token
       const first = ref.split(/\s+/)[0].replace(/"/g, '');
       // Permit subqueries and CTEs implicitly (cannot detect here), focus on explicit table names
-      if (first.startsWith('(')) return false;
+      if (first.startsWith('(')) {
+        return false;
+      }
       // Permit schema-qualified like public.wpl_delivery
       const base = first.includes('.') ? first.split('.')[1] : first;
       const baseLower = base.toLowerCase();
-      if (cteSet.has(baseLower)) return false;
-      if (baseLower === 'team_map' || baseLower === 't' || baseLower === 'values') return false;
+      if (cteSet.has(baseLower)) {
+        return false;
+      }
+      if (baseLower === 'team_map' || baseLower === 't' || baseLower === 'values') {
+        return false;
+      }
       return !base.startsWith('wpl_');
     });
     if (invalidRef) {
@@ -438,7 +446,9 @@ export class GeminiSqlService {
    * Validates that sequential queries are properly structured
    */
   validateSequentialQueries(queries: string[]): void {
-    if (queries.length < 2) return;
+    if (queries.length < 2) {
+      return;
+    }
 
     // Check if first query is player name resolution
     const firstQuery = queries[0].toLowerCase();
@@ -471,7 +481,9 @@ export class GeminiSqlService {
     queries: string[],
     runQuery: (sql: string) => Promise<Array<Record<string, unknown>>>,
   ): Promise<string[]> {
-    if (!queries.length) throw new Error('No queries to build');
+    if (!queries.length) {
+      throw new Error('No queries to build');
+    }
 
     // If no player lookup involved, just return validated queries as-is.
     if (!this.hasPlayerNameResolution(queries)) {

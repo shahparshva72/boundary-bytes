@@ -205,7 +205,9 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
             onPageChange={(page) => {
               const params = new URLSearchParams();
               params.set('page', String(page));
-              if (initialSeason) params.set('season', initialSeason);
+              if (initialSeason) {
+                params.set('season', initialSeason);
+              }
               router.push(`/?${params.toString()}`);
             }}
           />

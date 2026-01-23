@@ -45,7 +45,9 @@ export function useTextToSql() {
       return json as TextToSqlSuccess;
     },
     retry: (failureCount, error) => {
-      if ((error as TextToSqlError)?.success === false) return false;
+      if ((error as TextToSqlError)?.success === false) {
+        return false;
+      }
       return failureCount < 2;
     },
   });

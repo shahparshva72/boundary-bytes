@@ -1,17 +1,7 @@
 import { Prisma } from '@/generated/prisma/client';
 import { prisma } from '@/lib/prisma';
+import { League, VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
 import { NextResponse } from 'next/server';
-
-const VALID_LEAGUES = ['WPL', 'IPL', 'BBL', 'WBBL', 'SA20'] as const;
-type League = (typeof VALID_LEAGUES)[number];
-
-function validateLeague(league: string | null): League {
-  if (!league) return 'WPL';
-  if (VALID_LEAGUES.includes(league as League)) {
-    return league as League;
-  }
-  throw new Error(`Invalid league: ${league}. Valid leagues are: ${VALID_LEAGUES.join(', ')}`);
-}
 
 interface MatchResult {
   match_id: number;
