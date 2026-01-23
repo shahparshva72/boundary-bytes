@@ -51,8 +51,10 @@ async function getMatchesAndMetadata(
           MAX(CASE WHEN d.innings = 1 THEN d.bowling_team END) as team2,
           COALESCE(SUM(CASE WHEN d.innings = 1 THEN d.runs_off_bat + d.extras ELSE 0 END), 0) as innings1_score,
           COALESCE(SUM(CASE WHEN d.innings = 2 THEN d.runs_off_bat + d.extras ELSE 0 END), 0) as innings2_score,
-          COUNT(CASE WHEN d.innings = 1 AND d.wicket_type IS NOT NULL THEN 1 END) as innings1_wickets,
-          COUNT(CASE WHEN d.innings = 2 AND d.wicket_type IS NOT NULL THEN 1 END) as innings2_wickets
+          (COUNT(CASE WHEN d.innings = 1 AND d.player_dismissed IS NOT NULL THEN 1 END) +
+           COUNT(CASE WHEN d.innings = 1 AND d.other_player_dismissed IS NOT NULL THEN 1 END)) as innings1_wickets,
+          (COUNT(CASE WHEN d.innings = 2 AND d.player_dismissed IS NOT NULL THEN 1 END) +
+           COUNT(CASE WHEN d.innings = 2 AND d.other_player_dismissed IS NOT NULL THEN 1 END)) as innings2_wickets
         FROM wpl_delivery d
         WHERE d.match_id IN (SELECT match_id FROM paginated_matches)
         GROUP BY d.match_id
