@@ -22,7 +22,9 @@ interface StatsDisplayProps {
 }
 
 const StatsDisplay = ({ stats, playerType }: StatsDisplayProps) => {
-  if (!stats) return null;
+  if (!stats) {
+    return null;
+  }
 
   return (
     <div className="w-full max-w-4xl grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-3 md:gap-4 pb-4">

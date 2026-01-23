@@ -11,7 +11,9 @@ const LeagueSwitcher: React.FC = () => {
   const [isConfirming, setIsConfirming] = useState(false);
   const [pendingLeague, setPendingLeague] = useState<League | null>(null);
 
-  if (!selectedLeague) return null;
+  if (!selectedLeague) {
+    return null;
+  }
 
   const currentConfig = LEAGUE_CONFIGS[selectedLeague];
   const otherLeagues: League[] = VALID_LEAGUES.filter((l) => l !== selectedLeague);

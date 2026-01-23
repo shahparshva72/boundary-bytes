@@ -1,17 +1,6 @@
 import { prisma } from '@/lib/prisma';
+import { VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
 import { NextResponse } from 'next/server';
-
-// Valid league values
-const VALID_LEAGUES = ['WPL', 'IPL', 'BBL', 'WBBL', 'SA20'] as const;
-type League = (typeof VALID_LEAGUES)[number];
-
-function validateLeague(league: string | null): League {
-  if (!league) return 'WPL'; // Default to WPL for backward compatibility
-  if (VALID_LEAGUES.includes(league as League)) {
-    return league as League;
-  }
-  throw new Error(`Invalid league: ${league}. Valid leagues are: ${VALID_LEAGUES.join(', ')}`);
-}
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
@@ -128,8 +117,12 @@ export async function GET(request: Request) {
       for (const delivery of filteredDeliveries) {
         // Only include runsOffBat, wides, and noballs in runs conceded
         runsConceded += delivery.runsOffBat;
-        if (delivery.wides) runsConceded += delivery.wides;
-        if (delivery.noballs) runsConceded += delivery.noballs;
+        if (delivery.wides) {
+          runsConceded += delivery.wides;
+        }
+        if (delivery.noballs) {
+          runsConceded += delivery.noballs;
+        }
 
         // Only exclude wides from balls bowled (no-balls are counted)
         if (!delivery.wides || delivery.wides === 0) {

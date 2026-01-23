@@ -40,7 +40,9 @@ export const fetchMatchesData = async (
     page: page.toString(),
     limit: '6',
   });
-  if (season) searchParams.append('season', season);
+  if (season) {
+    searchParams.append('season', season);
+  }
 
   const response = await fetchWithLeague(`/api/matches?${searchParams}`);
 

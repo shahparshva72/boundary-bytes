@@ -38,7 +38,9 @@ const LeagueSelectionScreen: React.FC<LeagueSelectionScreenProps> = ({
   onLeagueSelect,
   isVisible,
 }) => {
-  if (!isVisible) return null;
+  if (!isVisible) {
+    return null;
+  }
 
   return (
     <motion.div

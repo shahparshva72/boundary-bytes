@@ -22,7 +22,9 @@ interface NewsData {
 
 const fetchNews = async () => {
   const response = await fetch('/api/news');
-  if (!response.ok) throw new Error('Failed to fetch news');
+  if (!response.ok) {
+    throw new Error('Failed to fetch news');
+  }
   return response.json();
 };
 

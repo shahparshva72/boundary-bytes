@@ -8,7 +8,9 @@ export const fetchTeamWins = async (
   fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
 ) => {
   const response = await fetchWithLeague('/api/stats/team-wins');
-  if (!response.ok) throw new Error('Failed to fetch team wins');
+  if (!response.ok) {
+    throw new Error('Failed to fetch team wins');
+  }
   return response.json();
 };
 
@@ -16,7 +18,9 @@ export const fetchTeamAverages = async (
   fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
 ) => {
   const response = await fetchWithLeague('/api/stats/team-averages');
-  if (!response.ok) throw new Error('Failed to fetch team averages');
+  if (!response.ok) {
+    throw new Error('Failed to fetch team averages');
+  }
   return response.json();
 };
 
@@ -26,7 +30,9 @@ export const fetchWicketTakers = async (
   page: number,
 ) => {
   const response = await fetchWithLeague(`/api/stats/leading-wicket-takers?page=${page}&limit=10`);
-  if (!response.ok) throw new Error('Failed to fetch wicket takers');
+  if (!response.ok) {
+    throw new Error('Failed to fetch wicket takers');
+  }
   return response.json();
 };
 
@@ -35,7 +41,9 @@ export const fetchRunScorers = async (
   page: number,
 ) => {
   const response = await fetchWithLeague(`/api/stats/leading-run-scorers?page=${page}&limit=10`);
-  if (!response.ok) throw new Error('Failed to fetch run scorers');
+  if (!response.ok) {
+    throw new Error('Failed to fetch run scorers');
+  }
   return response.json();
 };
 
@@ -44,7 +52,9 @@ export const fetchBowlingWicketTypes = async (
   page: number,
 ) => {
   const response = await fetchWithLeague(`/api/stats/bowling-wicket-types?page=${page}&limit=10`);
-  if (!response.ok) throw new Error('Failed to fetch bowling wicket types');
+  if (!response.ok) {
+    throw new Error('Failed to fetch bowling wicket types');
+  }
   return response.json();
 };
 
@@ -57,7 +67,9 @@ export const fetchMatchup = async (
   const response = await fetchWithLeague(
     `/api/stats/matchup?batter=${encodeURIComponent(batter)}&bowler=${encodeURIComponent(bowler)}`,
   );
-  if (!response.ok) throw new Error('Failed to fetch matchup');
+  if (!response.ok) {
+    throw new Error('Failed to fetch matchup');
+  }
   return response.json();
 };
 
@@ -73,7 +85,9 @@ export const fetchAdvancedStatsData = async (
     ...(playerType === 'batter' ? { batter: player } : { bowler: player }),
   });
   const response = await fetchWithLeague(`/api/stats/advanced?${params}`);
-  if (!response.ok) throw new Error('Failed to fetch advanced stats');
+  if (!response.ok) {
+    throw new Error('Failed to fetch advanced stats');
+  }
   return response.json();
 };
 
@@ -82,7 +96,9 @@ export const fetchFallOfWicketsData = async (
   matchId: number,
 ) => {
   const response = await fetchWithLeague(`/api/stats/fall-of-wickets/${matchId}`);
-  if (!response.ok) throw new Error('Failed to fetch fall of wickets');
+  if (!response.ok) {
+    throw new Error('Failed to fetch fall of wickets');
+  }
   return response.json();
 };
 
@@ -175,7 +191,9 @@ export const fetchSeasonsData = async (
   fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
 ) => {
   const response = await fetchWithLeague('/api/stats/seasons');
-  if (!response.ok) throw new Error('Failed to fetch seasons');
+  if (!response.ok) {
+    throw new Error('Failed to fetch seasons');
+  }
   return response.json();
 };
 
@@ -203,10 +221,14 @@ export const fetchPlayerComparisonData = async (
   if (filters.seasons && filters.seasons.length > 0) {
     params.append('seasons', filters.seasons.join(','));
   }
-  if (filters.team) params.append('team', filters.team);
+  if (filters.team) {
+    params.append('team', filters.team);
+  }
 
   const response = await fetchWithLeague(`/api/stats/player-compare?${params}`);
-  if (!response.ok) throw new Error('Failed to fetch player comparison');
+  if (!response.ok) {
+    throw new Error('Failed to fetch player comparison');
+  }
   return response.json();
 };
 

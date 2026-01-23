@@ -33,7 +33,9 @@ const fetchAdvancedStats = async (
   });
 
   const response = await fetchWithLeague(`/api/stats/advanced?${params}`);
-  if (!response.ok) throw new Error('Failed to fetch advanced stats');
+  if (!response.ok) {
+    throw new Error('Failed to fetch advanced stats');
+  }
   return response.json();
 };
 

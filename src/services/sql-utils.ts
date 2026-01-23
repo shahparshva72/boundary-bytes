@@ -17,7 +17,9 @@ export function extractHeadToHeadQueries(queries: string[]): {
   bowlerLookup?: string;
   main: string;
 } {
-  if (!queries.length) throw new Error('No queries provided');
+  if (!queries.length) {
+    throw new Error('No queries provided');
+  }
 
   // Heuristic: final query is the last one
   const main = queries[queries.length - 1];
