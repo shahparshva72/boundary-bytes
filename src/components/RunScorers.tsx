@@ -25,6 +25,8 @@ interface RunScorerData {
   fours: number;
   sixes: number;
   dotBallPercentage: number;
+  fifties: number;
+  hundreds: number;
 }
 
 export default function RunScorers() {
@@ -37,7 +39,7 @@ export default function RunScorers() {
 
   const totalPages = data?.pagination ? data.pagination.pages : 1;
 
-  const headers = ['#', 'Player', 'Runs', 'Balls', '4s', '6s', 'Dot %', 'SR', 'Mat'];
+  const headers = ['#', 'Player', 'Runs', 'Balls', '4s', '6s', '50s', '100s', 'Dot %', 'SR', 'Mat'];
 
   return (
     <div className="w-full mx-auto p-0 sm:p-4">
@@ -70,13 +72,15 @@ export default function RunScorers() {
                       <DataTableCell>{player.ballsFaced}</DataTableCell>
                       <DataTableCell>{player.fours}</DataTableCell>
                       <DataTableCell>{player.sixes}</DataTableCell>
+                      <DataTableCell>{player.fifties}</DataTableCell>
+                      <DataTableCell>{player.hundreds}</DataTableCell>
                       <DataTableCell>{player.dotBallPercentage.toFixed(2)}</DataTableCell>
                       <DataTableCell>{player.strikeRate.toFixed(2)}</DataTableCell>
                       <DataTableCell isLast>{player.matches}</DataTableCell>
                     </DataTableRow>
                   ))
                 ) : (
-                  <DataTableEmpty colSpan={9} message="No run scorers data available" />
+                  <DataTableEmpty colSpan={11} message="No run scorers data available" />
                 )}
               </DataTableBody>
             </DataTable>
