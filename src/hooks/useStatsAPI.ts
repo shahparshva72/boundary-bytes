@@ -245,3 +245,33 @@ export const usePlayerComparison = (
     enabled: !!selectedLeague && players.length >= 2,
   });
 };
+
+// Player progression fetcher
+export const fetchPlayerProgression = async (
+  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
+  player: string,
+  innings?: '1' | '2' | null,
+) => {
+  const params = new URLSearchParams({
+    player,
+  });
+  if (innings) {
+    params.append('innings', innings);
+  }
+  const response = await fetchWithLeague(`/api/stats/player-progression?${params}`);
+  if (!response.ok) {
+    throw new Error('Failed to fetch player progression');
+  }
+  return response.json();
+};
+
+// Player progression hook
+export const usePlayerProgression = (player: string, innings?: '1' | '2' | null) => {
+  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+
+  return useQuery({
+    queryKey: ['playerProgression', player, innings, selectedLeague],
+    queryFn: () => fetchPlayerProgression(fetchWithLeague, player, innings),
+    enabled: !!selectedLeague && !!player,
+  });
+};

@@ -40,6 +40,7 @@ const Header = () => {
             <NavLink href="/chat">Chat</NavLink>
             <NavLink href="/news">News</NavLink>
             <NavLink href="/stats/advanced">Advanced Stats</NavLink>
+            <NavLink href="/stats/player-progression">Player Progression</NavLink>
           </nav>
 
           {selectedLeague && <LeagueSwitcher />}
@@ -92,6 +93,9 @@ const Header = () => {
               </NavLink>
               <NavLink href="/stats/advanced" onClick={closeMobileMenu}>
                 Advanced Stats
+              </NavLink>
+              <NavLink href="/stats/player-progression" onClick={closeMobileMenu}>
+                Player Progression
               </NavLink>
             </div>
           </nav>
