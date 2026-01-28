@@ -11,15 +11,16 @@ export async function GET(request: NextRequest) {
     const offset = (page - 1) * limit;
 
     // Use raw SQL query to optimize performance and reduce connection usage
-    const wicketTakerData = await prisma.$queryRaw<
-      Array<{
-        bowler: string;
-        wickets: bigint;
-        runs_conceded: bigint;
-        balls_bowled: bigint;
-        matches: bigint;
-      }>
-    >`
+    const [wicketTakerData, totalWicketTakers] = await Promise.all([
+      prisma.$queryRaw<
+        Array<{
+          bowler: string;
+          wickets: bigint;
+          runs_conceded: bigint;
+          balls_bowled: bigint;
+          matches: bigint;
+        }>
+      >`
       SELECT
         d.bowler,
         COUNT(*) FILTER (
@@ -40,9 +41,8 @@ export async function GET(request: NextRequest) {
       ORDER BY wickets DESC
       LIMIT ${limit}
       OFFSET ${offset}
-    `;
-
-    const totalWicketTakers = await prisma.$queryRaw<[{ count: bigint }]>`
+    `,
+      prisma.$queryRaw<[{ count: bigint }]>`
       SELECT COUNT(T.bowler) as count
       FROM (
         SELECT d.bowler
@@ -55,7 +55,8 @@ export async function GET(request: NextRequest) {
           AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
         ) > 0
       ) AS T
-    `;
+    `,
+    ]);
 
     const processedData = wicketTakerData.map((data) => {
       const wickets = Number(data.wickets);
