@@ -275,3 +275,37 @@ export const usePlayerProgression = (player: string, innings?: '1' | '2' | null)
     enabled: !!selectedLeague && !!player,
   });
 };
+
+// Multi-matchup fetcher
+export const fetchMultiMatchup = async (
+  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
+  player: string,
+  opponents: string[],
+  mode: 'batterVsBowlers' | 'bowlerVsBatters',
+) => {
+  const params = new URLSearchParams({
+    player,
+    opponents: opponents.join(','),
+    mode,
+  });
+  const response = await fetchWithLeague(`/api/stats/multi-matchup?${params}`);
+  if (!response.ok) {
+    throw new Error('Failed to fetch multi-matchup stats');
+  }
+  return response.json();
+};
+
+// Multi-matchup hook
+export const useMultiMatchup = (
+  player: string,
+  opponents: string[],
+  mode: 'batterVsBowlers' | 'bowlerVsBatters',
+) => {
+  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+
+  return useQuery({
+    queryKey: ['multiMatchup', player, opponents, mode, selectedLeague],
+    queryFn: () => fetchMultiMatchup(fetchWithLeague, player, opponents, mode),
+    enabled: !!selectedLeague && !!player && opponents.length > 0,
+  });
+};
