@@ -102,6 +102,40 @@ export const fetchFallOfWicketsData = async (
   return response.json();
 };
 
+// Team run rate progression fetcher
+export const fetchTeamRunRateProgression = async (
+  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
+  team: string,
+  season: string,
+) => {
+  const params = new URLSearchParams({
+    team,
+    season,
+  });
+  const response = await fetchWithLeague(`/api/stats/team-runrate-progression?${params}`);
+  if (!response.ok) {
+    throw new Error('Failed to fetch team run rate progression');
+  }
+  return response.json();
+};
+
+// Run rate trend fetcher
+export const fetchRunRateTrend = async (
+  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
+  team?: string | null,
+) => {
+  const params = new URLSearchParams();
+  if (team) {
+    params.set('team', team);
+  }
+  const query = params.toString();
+  const response = await fetchWithLeague(`/api/stats/runrate-trend${query ? `?${query}` : ''}`);
+  if (!response.ok) {
+    throw new Error('Failed to fetch run rate trend');
+  }
+  return response.json();
+};
+
 // Team stats hooks
 export const useTeamWins = () => {
   const { fetchWithLeague, selectedLeague } = useLeagueAPI();
@@ -183,6 +217,28 @@ export const useFallOfWickets = (matchId: number) => {
     queryKey: ['fallOfWickets', matchId, selectedLeague],
     queryFn: () => fetchFallOfWicketsData(fetchWithLeague, matchId),
     enabled: !!selectedLeague && !!matchId,
+  });
+};
+
+// Team run rate progression hook
+export const useTeamRunRateProgression = (team: string, season: string) => {
+  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+
+  return useQuery({
+    queryKey: ['teamRunRateProgression', team, season, selectedLeague],
+    queryFn: () => fetchTeamRunRateProgression(fetchWithLeague, team, season),
+    enabled: !!selectedLeague && !!team && !!season,
+  });
+};
+
+// Run rate trend hook
+export const useRunRateTrend = (team?: string | null) => {
+  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+
+  return useQuery({
+    queryKey: ['runRateTrend', team, selectedLeague],
+    queryFn: () => fetchRunRateTrend(fetchWithLeague, team),
+    enabled: !!selectedLeague,
   });
 };
 

@@ -15,14 +15,7 @@ interface ProgressionPoint {
   phase: 'powerplay' | 'middle' | 'death';
   runs: number;
   balls: number;
-  dismissals: number;
-  strikeRate: number;
-  average: number | null;
-}
-
-interface PlayerProgressionChartProps {
-  data: ProgressionPoint[];
-  player: string;
+  runRate: number;
 }
 
 const getPhaseColor = (phase: 'powerplay' | 'middle' | 'death'): string => {
@@ -37,6 +30,12 @@ const getPhaseColor = (phase: 'powerplay' | 'middle' | 'death'): string => {
       return '#FFC700';
   }
 };
+
+interface TeamRunRateProgressionChartProps {
+  data: ProgressionPoint[];
+  team: string;
+  season: string;
+}
 
 const CustomTooltip = ({
   active,
@@ -53,11 +52,7 @@ const CustomTooltip = ({
         <p className="text-sm text-black">
           {data.runs} runs / {data.balls} balls
         </p>
-        <p className="text-sm text-black">Dismissals: {data.dismissals}</p>
-        <p className="text-sm font-bold text-black">SR: {data.strikeRate.toFixed(2)}</p>
-        <p className="text-sm text-black">
-          Avg: {data.average !== null ? data.average.toFixed(2) : '-'}
-        </p>
+        <p className="text-sm font-bold text-black">Run Rate: {data.runRate.toFixed(2)}</p>
         <p className="text-xs text-black capitalize">Phase: {data.phase}</p>
       </div>
     );
@@ -65,11 +60,17 @@ const CustomTooltip = ({
   return null;
 };
 
-export default function PlayerProgressionChart({ data, player }: PlayerProgressionChartProps) {
+export default function TeamRunRateProgressionChart({
+  data,
+  team,
+  season,
+}: TeamRunRateProgressionChartProps) {
   if (!data || data.length === 0) {
     return (
       <div className="w-full p-8 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-        <p className="text-center font-bold text-black">No data available for {player}</p>
+        <p className="text-center font-bold text-black">
+          No data available for {team} in {season}
+        </p>
       </div>
     );
   }
@@ -77,7 +78,9 @@ export default function PlayerProgressionChart({ data, player }: PlayerProgressi
   return (
     <div className="w-full bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] p-4">
       <div className="mb-4">
-        <h3 className="text-lg font-bold text-black mb-2">{player} - Strike Rate Progression</h3>
+        <h3 className="text-lg font-bold text-black mb-2">
+          {team} - Run Rate Progression ({season})
+        </h3>
         <div className="flex flex-wrap gap-2 text-xs">
           <div className="flex items-center gap-1">
             <div className="w-4 h-4 bg-[#FFC700] border border-black"></div>
@@ -95,26 +98,12 @@ export default function PlayerProgressionChart({ data, player }: PlayerProgressi
       </div>
       <ResponsiveContainer width="100%" height={400}>
         <LineChart data={data} margin={{ top: 5, right: 20, left: 0, bottom: 5 }}>
-          <defs>
-            <linearGradient id="powerplayGradient" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="#FFC700" stopOpacity={0.2} />
-              <stop offset="100%" stopColor="#FFC700" stopOpacity={0} />
-            </linearGradient>
-            <linearGradient id="middleGradient" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="#4ECDC4" stopOpacity={0.2} />
-              <stop offset="100%" stopColor="#4ECDC4" stopOpacity={0} />
-            </linearGradient>
-            <linearGradient id="deathGradient" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="#FF5E5B" stopOpacity={0.2} />
-              <stop offset="100%" stopColor="#FF5E5B" stopOpacity={0} />
-            </linearGradient>
-          </defs>
           <XAxis
             dataKey="over"
             stroke="#000"
             tick={{ fill: '#000', fontSize: 12, fontWeight: 'bold' }}
             label={{
-              value: 'Match Over',
+              value: 'Over',
               position: 'insideBottom',
               offset: -5,
               fill: '#000',
@@ -127,7 +116,7 @@ export default function PlayerProgressionChart({ data, player }: PlayerProgressi
             stroke="#000"
             tick={{ fill: '#000', fontSize: 12, fontWeight: 'bold' }}
             label={{
-              value: 'Strike Rate',
+              value: 'Run Rate',
               angle: -90,
               position: 'insideLeft',
               fill: '#000',
@@ -151,7 +140,7 @@ export default function PlayerProgressionChart({ data, player }: PlayerProgressi
           />
           <Line
             type="monotone"
-            dataKey="strikeRate"
+            dataKey="runRate"
             stroke="#000"
             strokeWidth={3}
             dot={{ fill: '#000', r: 3 }}
