@@ -25,6 +25,19 @@ interface PlayerProgressionChartProps {
   player: string;
 }
 
+const getPhaseColor = (phase: 'powerplay' | 'middle' | 'death'): string => {
+  switch (phase) {
+    case 'powerplay':
+      return '#FFC700';
+    case 'middle':
+      return '#4ECDC4';
+    case 'death':
+      return '#FF5E5B';
+    default:
+      return '#FFC700';
+  }
+};
+
 const CustomTooltip = ({
   active,
   payload,
@@ -142,7 +155,21 @@ export default function PlayerProgressionChart({ data, player }: PlayerProgressi
             stroke="#000"
             strokeWidth={3}
             dot={{ fill: '#000', r: 3 }}
-            activeDot={{ r: 6, fill: '#FFC700', stroke: '#000', strokeWidth: 2 }}
+            activeDot={(props: { cx?: number; cy?: number; payload?: ProgressionPoint }) => {
+              if (props.cx === undefined || props.cy === undefined || !props.payload) {
+                return null;
+              }
+              return (
+                <circle
+                  cx={props.cx}
+                  cy={props.cy}
+                  r={6}
+                  fill={getPhaseColor(props.payload.phase)}
+                  stroke="#000"
+                  strokeWidth={2}
+                />
+              );
+            }}
           />
         </LineChart>
       </ResponsiveContainer>
