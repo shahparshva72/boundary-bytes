@@ -8,6 +8,7 @@ export async function GET(request: NextRequest) {
     const league = validateLeague(searchParams.get('league'));
 
     // Use raw SQL query to get match list with team names, filtered by league
+    // Optimization: Query wpl_match_info and wpl_team instead of scanning wpl_delivery
     const matchListData = await prisma.$queryRaw<
       Array<{
         match_id: number;
@@ -18,43 +19,33 @@ export async function GET(request: NextRequest) {
         teams: string;
       }>
     >`
-      WITH match_teams AS (
-        SELECT
-          m.match_id,
-          m.league,
-          m.season,
-          m.start_date,
-          m.venue,
-          STRING_AGG(DISTINCT
-            CASE
-              WHEN d.batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
-              WHEN d.batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
-              WHEN d.batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
-              WHEN d.batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
-              ELSE d.batting_team
-            END, ' vs ' ORDER BY
-            CASE
-              WHEN d.batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
-              WHEN d.batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
-              WHEN d.batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
-              WHEN d.batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
-              ELSE d.batting_team
-            END
-          ) as teams
-        FROM wpl_delivery d
-        JOIN wpl_match m ON d.match_id = m.match_id
-        WHERE m.league = ${league}
-        GROUP BY m.match_id, m.league, m.season, m.start_date, m.venue
-      )
       SELECT
-        match_id,
-        league,
-        season,
-        start_date,
-        venue,
-        teams
-      FROM match_teams
-      ORDER BY start_date DESC
+        m.match_id,
+        m.league,
+        m.season,
+        m.date as start_date,
+        m.venue,
+        STRING_AGG(DISTINCT
+          CASE
+            WHEN t.team_name = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+            WHEN t.team_name = 'Delhi Daredevils' THEN 'Delhi Capitals'
+            WHEN t.team_name = 'Kings XI Punjab' THEN 'Punjab Kings'
+            WHEN t.team_name = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
+            ELSE t.team_name
+          END, ' vs ' ORDER BY
+          CASE
+            WHEN t.team_name = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+            WHEN t.team_name = 'Delhi Daredevils' THEN 'Delhi Capitals'
+            WHEN t.team_name = 'Kings XI Punjab' THEN 'Punjab Kings'
+            WHEN t.team_name = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
+            ELSE t.team_name
+          END
+        ) as teams
+      FROM wpl_match_info m
+      JOIN wpl_team t ON m.match_id = t.match_id
+      WHERE m.league = ${league}
+      GROUP BY m.match_id, m.league, m.season, m.date, m.venue
+      ORDER BY m.date DESC
     `;
 
     const processedData = matchListData.map((data) => ({
