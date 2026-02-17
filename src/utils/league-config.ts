@@ -16,7 +16,7 @@ export const LEAGUE_CONFIGS: Record<League, LeagueConfig> = {
     stats: {
       teams: 5,
       matches: 88,
-      players: 108,
+      players: 136,
       seasons: ['2023-2026'],
     },
     icon: '🏏',
@@ -36,7 +36,7 @@ export const LEAGUE_CONFIGS: Record<League, LeagueConfig> = {
     stats: {
       teams: 15,
       matches: 1169,
-      players: 704,
+      players: 773,
       seasons: ['2008-2025'],
     },
     icon: '🏆',
@@ -56,7 +56,7 @@ export const LEAGUE_CONFIGS: Record<League, LeagueConfig> = {
     stats: {
       teams: 8,
       matches: 662,
-      players: 512,
+      players: 532,
       seasons: ['2011-2026'],
     },
     icon: '🔥',
@@ -76,7 +76,7 @@ export const LEAGUE_CONFIGS: Record<League, LeagueConfig> = {
     stats: {
       teams: 8,
       matches: 519,
-      players: 275,
+      players: 281,
       seasons: ['2015/16-2025/26'],
     },
     icon: '⭐',
@@ -96,7 +96,7 @@ export const LEAGUE_CONFIGS: Record<League, LeagueConfig> = {
     stats: {
       teams: 6,
       matches: 130,
-      players: 184,
+      players: 213,
       seasons: ['2022/23-2025/26'],
     },
     icon: '🏏',
