@@ -2,6 +2,25 @@ import { prisma } from '@/lib/prisma';
 import { VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
 import { NextResponse } from 'next/server';
 
+interface BatterAggregateRow {
+  runs_scored: bigint;
+  balls_faced: bigint;
+  fours: bigint;
+  sixes: bigint;
+  dismissals: bigint;
+  total_deliveries: bigint;
+}
+
+interface BowlerAggregateRow {
+  runs_conceded: bigint;
+  balls_bowled: bigint;
+  wickets: bigint;
+  dots: bigint;
+  wides_count: bigint;
+  noballs_count: bigint;
+  total_deliveries: bigint;
+}
+
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const oversParam = searchParams.get('overs');
@@ -28,51 +47,32 @@ export async function GET(request: Request) {
   }
 
   try {
-    const deliveries = await prisma.wplDelivery.findMany({
-      where: {
-        match: {
-          league,
-        },
-        innings: { lte: 2 },
-        ...(playerType === 'batter'
-          ? { striker: batter || undefined }
-          : { bowler: bowler || undefined }),
-      },
-    });
-
-    const filteredDeliveries = deliveries.filter((delivery) => {
-      const overNumber = Math.floor(parseFloat(delivery.ball)) + 1;
-      return overs.includes(overNumber);
-    });
-
     if (playerType === 'batter') {
-      let runsScored = 0;
-      let ballsFaced = 0;
-      let fours = 0;
-      let sixes = 0;
-      let dismissals = 0;
+      const playerFilter = batter || '';
 
-      for (const delivery of filteredDeliveries) {
-        runsScored += delivery.runsOffBat;
+      const result = await prisma.$queryRaw<BatterAggregateRow[]>`
+        SELECT
+          COALESCE(SUM(d.runs_off_bat), 0) AS runs_scored,
+          COALESCE(SUM(CASE WHEN d.wides = 0 OR d.wides IS NULL THEN 1 ELSE 0 END), 0) AS balls_faced,
+          COALESCE(SUM(CASE WHEN d.runs_off_bat = 4 THEN 1 ELSE 0 END), 0) AS fours,
+          COALESCE(SUM(CASE WHEN d.runs_off_bat = 6 THEN 1 ELSE 0 END), 0) AS sixes,
+          COALESCE(SUM(CASE WHEN d.player_dismissed = ${playerFilter} THEN 1 ELSE 0 END), 0) AS dismissals,
+          COUNT(*) AS total_deliveries
+        FROM wpl_delivery d
+        JOIN wpl_match m ON d.match_id = m.match_id
+        WHERE d.striker = ${playerFilter}
+          AND m.league = ${league}
+          AND d.innings <= 2
+          AND FLOOR(CAST(d.ball AS DECIMAL(10,2)))::int + 1 = ANY(${overs}::int[])
+      `;
 
-        // Only exclude wides from balls faced (no-balls are counted)
-        if (!delivery.wides || delivery.wides === 0) {
-          ballsFaced++;
-        }
-
-        if (delivery.runsOffBat === 4) {
-          fours++;
-        }
-
-        if (delivery.runsOffBat === 6) {
-          sixes++;
-        }
-
-        // Only count as dismissal if this batter was dismissed
-        if (delivery.playerDismissed && delivery.playerDismissed === batter) {
-          dismissals++;
-        }
-      }
+      const row = result[0];
+      const runsScored = Number(row?.runs_scored ?? 0);
+      const ballsFaced = Number(row?.balls_faced ?? 0);
+      const fours = Number(row?.fours ?? 0);
+      const sixes = Number(row?.sixes ?? 0);
+      const dismissals = Number(row?.dismissals ?? 0);
+      const deliveriesAnalyzed = Number(row?.total_deliveries ?? 0);
 
       const strikeRate = ballsFaced > 0 ? (runsScored / ballsFaced) * 100 : 0;
       const average = dismissals > 0 ? runsScored / dismissals : runsScored;
@@ -93,16 +93,11 @@ export async function GET(request: Request) {
         overs,
         metadata: {
           availableLeagues: VALID_LEAGUES,
-          deliveriesAnalyzed: filteredDeliveries.length,
+          deliveriesAnalyzed,
         },
       });
     } else {
-      let runsConceded = 0;
-      let ballsBowled = 0;
-      let wickets = 0;
-      let dots = 0;
-      let wides = 0;
-      let noballs = 0;
+      const playerFilter = bowler || '';
 
       // Only these wicket types are credited to the bowler
       const bowlerWicketTypes = [
@@ -114,45 +109,34 @@ export async function GET(request: Request) {
         'hit wicket',
       ];
 
-      for (const delivery of filteredDeliveries) {
-        // Only include runsOffBat, wides, and noballs in runs conceded
-        runsConceded += delivery.runsOffBat;
-        if (delivery.wides) {
-          runsConceded += delivery.wides;
-        }
-        if (delivery.noballs) {
-          runsConceded += delivery.noballs;
-        }
+      const result = await prisma.$queryRaw<BowlerAggregateRow[]>`
+        SELECT
+          COALESCE(SUM(d.runs_off_bat + COALESCE(d.wides, 0) + COALESCE(d.noballs, 0)), 0) AS runs_conceded,
+          COALESCE(SUM(CASE WHEN d.wides = 0 OR d.wides IS NULL THEN 1 ELSE 0 END), 0) AS balls_bowled,
+          COALESCE(SUM(CASE WHEN d.player_dismissed IS NOT NULL AND d.wicket_type = ANY(${bowlerWicketTypes}::text[]) THEN 1 ELSE 0 END), 0) AS wickets,
+          COALESCE(SUM(CASE WHEN (d.wides = 0 OR d.wides IS NULL) AND d.runs_off_bat = 0 AND (d.extras = 0 OR d.extras IS NULL) THEN 1 ELSE 0 END), 0) AS dots,
+          COALESCE(SUM(CASE WHEN d.wides > 0 THEN 1 ELSE 0 END), 0) AS wides_count,
+          COALESCE(SUM(CASE WHEN d.noballs > 0 THEN 1 ELSE 0 END), 0) AS noballs_count,
+          COUNT(*) AS total_deliveries
+        FROM wpl_delivery d
+        JOIN wpl_match m ON d.match_id = m.match_id
+        WHERE d.bowler = ${playerFilter}
+          AND m.league = ${league}
+          AND d.innings <= 2
+          AND FLOOR(CAST(d.ball AS DECIMAL(10,2)))::int + 1 = ANY(${overs}::int[])
+      `;
 
-        // Only exclude wides from balls bowled (no-balls are counted)
-        if (!delivery.wides || delivery.wides === 0) {
-          ballsBowled++;
+      const row = result[0];
+      const runsConceded = Number(row?.runs_conceded ?? 0);
+      const ballsBowled = Number(row?.balls_bowled ?? 0);
+      const wickets = Number(row?.wickets ?? 0);
+      const dots = Number(row?.dots ?? 0);
+      const wides = Number(row?.wides_count ?? 0);
+      const noballs = Number(row?.noballs_count ?? 0);
+      const deliveriesAnalyzed = Number(row?.total_deliveries ?? 0);
 
-          // Dot ball: only if legal delivery and no runs/extras
-          if (delivery.runsOffBat === 0 && (!delivery.extras || delivery.extras === 0)) {
-            dots++;
-          }
-        }
-
-        // Only count as wicket if bowler-credited type
-        if (
-          delivery.playerDismissed &&
-          delivery.wicketType &&
-          bowlerWicketTypes.includes(delivery.wicketType)
-        ) {
-          wickets++;
-        }
-
-        if (delivery.wides && delivery.wides > 0) {
-          wides++;
-        }
-        if (delivery.noballs && delivery.noballs > 0) {
-          noballs++;
-        }
-      }
-
-      const overs = Math.floor(ballsBowled / 6) + (ballsBowled % 6) / 10;
-      const economyRate = overs > 0 ? runsConceded / overs : 0;
+      const oversComputed = Math.floor(ballsBowled / 6) + (ballsBowled % 6) / 10;
+      const economyRate = oversComputed > 0 ? runsConceded / oversComputed : 0;
       const average = wickets > 0 ? runsConceded / wickets : 0;
       const strikeRate = wickets > 0 ? ballsBowled / wickets : 0;
 
@@ -160,7 +144,7 @@ export async function GET(request: Request) {
         data: {
           runsConceded,
           ballsBowled,
-          overs: parseFloat(overs.toFixed(1)),
+          overs: parseFloat(oversComputed.toFixed(1)),
           wickets,
           economyRate: parseFloat(economyRate.toFixed(2)),
           average: parseFloat(average.toFixed(2)),
@@ -175,7 +159,7 @@ export async function GET(request: Request) {
         overs,
         metadata: {
           availableLeagues: VALID_LEAGUES,
-          deliveriesAnalyzed: filteredDeliveries.length,
+          deliveriesAnalyzed,
         },
       });
     }
