@@ -1,3 +1,4 @@
+import { bowlerCreditedWicketTypesSql } from '@/lib/constants/wicket-types';
 import { prisma } from '@/lib/prisma';
 import { VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
 import { NextResponse } from 'next/server';
@@ -57,7 +58,7 @@ export async function GET(request: Request) {
           COUNT(*) FILTER (WHERE wides = 0) as total_balls,
           COUNT(*) FILTER (
             WHERE player_dismissed IS NOT NULL
-            AND wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket', 'run out')
+            AND wicket_type IN (${bowlerCreditedWicketTypesSql})
           ) as total_dismissals
         FROM standardized_deliveries
         GROUP BY team

@@ -1,3 +1,4 @@
+import { allDismissalTypesSql } from '@/lib/constants/wicket-types';
 import { prisma } from '@/lib/prisma';
 import { VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
 import { NextRequest, NextResponse } from 'next/server';
@@ -112,7 +113,7 @@ export async function GET(
           AND d.match_id = ${matchIdNum}
           AND m.league = ${league}
           AND d.innings <= 2
-          AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket', 'run out', 'retired hurt', 'obstructing the field', 'hit the ball twice', 'handled the ball', 'timed out')
+          AND d.wicket_type IN (${allDismissalTypesSql})
       ),
       runs_at_wicket AS (
         SELECT

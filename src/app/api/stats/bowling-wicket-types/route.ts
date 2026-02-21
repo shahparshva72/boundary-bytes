@@ -1,3 +1,4 @@
+import { bowlerCreditedWicketTypesSql } from '@/lib/constants/wicket-types';
 import { prisma } from '@/lib/prisma';
 import { VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
 import { NextRequest, NextResponse } from 'next/server';
@@ -34,7 +35,7 @@ export async function GET(request: NextRequest) {
         COUNT(*) FILTER (WHERE d.wicket_type = 'hit wicket') as hit_wicket,
         COUNT(*) FILTER (
           WHERE d.player_dismissed IS NOT NULL
-          AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
+          AND d.wicket_type IN (${bowlerCreditedWicketTypesSql})
         ) as total_wickets,
         COUNT(DISTINCT d.match_id) as matches
       FROM wpl_delivery d
@@ -43,7 +44,7 @@ export async function GET(request: NextRequest) {
       GROUP BY d.bowler
       HAVING COUNT(*) FILTER (
         WHERE d.player_dismissed IS NOT NULL
-        AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
+        AND d.wicket_type IN (${bowlerCreditedWicketTypesSql})
       ) > 0
       ORDER BY total_wickets DESC
       LIMIT ${limit}
@@ -60,7 +61,7 @@ export async function GET(request: NextRequest) {
         GROUP BY d.bowler
         HAVING COUNT(*) FILTER (
           WHERE d.player_dismissed IS NOT NULL
-          AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
+          AND d.wicket_type IN (${bowlerCreditedWicketTypesSql})
         ) > 0
       ) AS T
     `;

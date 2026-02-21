@@ -1,4 +1,5 @@
 import { Prisma } from '@/generated/prisma/client';
+import { bowlerCreditedWicketTypesSql } from '@/lib/constants/wicket-types';
 import { prisma } from '@/lib/prisma';
 import { VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
 import { NextRequest, NextResponse } from 'next/server';
@@ -196,7 +197,7 @@ export async function GET(request: NextRequest) {
             d.innings,
             COUNT(*) FILTER (
               WHERE d.player_dismissed IS NOT NULL 
-              AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
+              AND d.wicket_type IN (${bowlerCreditedWicketTypesSql})
             ) as wickets_in_innings
           FROM wpl_delivery d
           JOIN wpl_match m ON d.match_id = m.match_id
@@ -220,7 +221,7 @@ export async function GET(request: NextRequest) {
           d.bowler,
           COUNT(*) FILTER (
             WHERE d.player_dismissed IS NOT NULL 
-            AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')
+            AND d.wicket_type IN (${bowlerCreditedWicketTypesSql})
           ) as wickets,
           COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) as balls_bowled,
           COALESCE(SUM(d.runs_off_bat + d.wides + d.noballs), 0) as runs_conceded,
