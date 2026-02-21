@@ -17,7 +17,7 @@ export const ALL_DISMISSAL_TYPES = [
   'caught and bowled',
   'hit wicket',
   'run out',
-  'retired hurt',
+  'retired out',
   'obstructing the field',
   'hit the ball twice',
   'handled the ball',
