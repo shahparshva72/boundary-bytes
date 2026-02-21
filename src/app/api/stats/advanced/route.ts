@@ -1,3 +1,4 @@
+import { bowlerCreditedWicketTypesSql } from '@/lib/constants/wicket-types';
 import { prisma } from '@/lib/prisma';
 import { VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
 import { NextResponse } from 'next/server';
@@ -99,21 +100,11 @@ export async function GET(request: Request) {
     } else {
       const playerFilter = bowler || '';
 
-      // Only these wicket types are credited to the bowler
-      const bowlerWicketTypes = [
-        'bowled',
-        'caught',
-        'lbw',
-        'stumped',
-        'caught and bowled',
-        'hit wicket',
-      ];
-
       const result = await prisma.$queryRaw<BowlerAggregateRow[]>`
         SELECT
           COALESCE(SUM(d.runs_off_bat + COALESCE(d.wides, 0) + COALESCE(d.noballs, 0)), 0) AS runs_conceded,
           COALESCE(SUM(CASE WHEN d.wides = 0 OR d.wides IS NULL THEN 1 ELSE 0 END), 0) AS balls_bowled,
-          COALESCE(SUM(CASE WHEN d.player_dismissed IS NOT NULL AND d.wicket_type = ANY(${bowlerWicketTypes}::text[]) THEN 1 ELSE 0 END), 0) AS wickets,
+          COALESCE(SUM(CASE WHEN d.player_dismissed IS NOT NULL AND d.wicket_type IN (${bowlerCreditedWicketTypesSql}) THEN 1 ELSE 0 END), 0) AS wickets,
           COALESCE(SUM(CASE WHEN (d.wides = 0 OR d.wides IS NULL) AND d.runs_off_bat = 0 AND (d.extras = 0 OR d.extras IS NULL) THEN 1 ELSE 0 END), 0) AS dots,
           COALESCE(SUM(CASE WHEN d.wides > 0 THEN 1 ELSE 0 END), 0) AS wides_count,
           COALESCE(SUM(CASE WHEN d.noballs > 0 THEN 1 ELSE 0 END), 0) AS noballs_count,
