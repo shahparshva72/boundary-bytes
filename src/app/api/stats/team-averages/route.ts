@@ -21,15 +21,9 @@ export async function GET(request: Request) {
         lowest_score: bigint;
       }>
     >`
-      WITH standardized_deliveries AS (
+      WITH raw_deliveries AS (
         SELECT
-          CASE
-            WHEN d.batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
-            WHEN d.batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
-            WHEN d.batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
-            WHEN d.batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
-            ELSE d.batting_team
-          END as team,
+          d.batting_team,
           d.match_id,
           d.innings,
           d.runs_off_bat,
@@ -42,26 +36,60 @@ export async function GET(request: Request) {
         WHERE d.innings <= 2  -- Exclude super overs (innings > 2)
           AND m.league = ${league}
       ),
-      team_innings AS (
+      raw_team_innings AS (
         SELECT
-          team,
+          batting_team,
           match_id,
           innings,
           SUM(runs_off_bat + extras) as innings_total_runs
-        FROM standardized_deliveries
-        GROUP BY team, match_id, innings
+        FROM raw_deliveries
+        GROUP BY batting_team, match_id, innings
       ),
-      team_stats AS (
+      raw_team_stats AS (
         SELECT
-          team,
+          batting_team,
           SUM(runs_off_bat) as total_runs,
           COUNT(*) FILTER (WHERE wides = 0) as total_balls,
           COUNT(*) FILTER (
             WHERE player_dismissed IS NOT NULL
             AND wicket_type IN (${allDismissalTypesSql})
           ) as total_dismissals
-        FROM standardized_deliveries
-        GROUP BY team
+        FROM raw_deliveries
+        GROUP BY batting_team
+      ),
+      standardized_team_innings AS (
+        SELECT
+          CASE
+            WHEN batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+            WHEN batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
+            WHEN batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
+            WHEN batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
+            ELSE batting_team
+          END as team,
+          innings_total_runs
+        FROM raw_team_innings
+      ),
+      aggregated_team_stats AS (
+        SELECT
+          CASE
+            WHEN batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+            WHEN batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
+            WHEN batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
+            WHEN batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
+            ELSE batting_team
+          END as team,
+          SUM(total_runs) as total_runs,
+          SUM(total_balls) as total_balls,
+          SUM(total_dismissals) as total_dismissals
+        FROM raw_team_stats
+        GROUP BY
+          CASE
+            WHEN batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+            WHEN batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
+            WHEN batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
+            WHEN batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
+            ELSE batting_team
+          END
       )
       SELECT
         ti.team,
@@ -81,8 +109,8 @@ export async function GET(request: Request) {
         END as strike_rate,
         MAX(ti.innings_total_runs) as highest_score,
         MIN(ti.innings_total_runs) as lowest_score
-      FROM team_innings ti
-      JOIN team_stats ts ON ti.team = ts.team
+      FROM standardized_team_innings ti
+      JOIN aggregated_team_stats ts ON ti.team = ts.team
       GROUP BY ti.team, ts.total_runs, ts.total_balls, ts.total_dismissals
       ORDER BY batting_average DESC
     `;
