@@ -57,39 +57,36 @@ export async function GET(request: Request) {
         FROM raw_deliveries
         GROUP BY batting_team
       ),
-      standardized_team_innings AS (
+      -- Create a mapping of raw team names to standardized names to avoid duplication
+      -- Derived from raw_team_stats to avoid scanning raw_deliveries again
+      team_mapping AS (
         SELECT
+          batting_team,
           CASE
             WHEN batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
             WHEN batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
             WHEN batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
             WHEN batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
             ELSE batting_team
-          END as team,
-          innings_total_runs
-        FROM raw_team_innings
+          END as standardized_team
+        FROM raw_team_stats
+      ),
+      standardized_team_innings AS (
+        SELECT
+          tm.standardized_team as team,
+          rti.innings_total_runs
+        FROM raw_team_innings rti
+        JOIN team_mapping tm ON rti.batting_team = tm.batting_team
       ),
       aggregated_team_stats AS (
         SELECT
-          CASE
-            WHEN batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
-            WHEN batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
-            WHEN batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
-            WHEN batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
-            ELSE batting_team
-          END as team,
-          SUM(total_runs) as total_runs,
-          SUM(total_balls) as total_balls,
-          SUM(total_dismissals) as total_dismissals
-        FROM raw_team_stats
-        GROUP BY
-          CASE
-            WHEN batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
-            WHEN batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
-            WHEN batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
-            WHEN batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
-            ELSE batting_team
-          END
+          tm.standardized_team as team,
+          SUM(rts.total_runs) as total_runs,
+          SUM(rts.total_balls) as total_balls,
+          SUM(rts.total_dismissals) as total_dismissals
+        FROM raw_team_stats rts
+        JOIN team_mapping tm ON rts.batting_team = tm.batting_team
+        GROUP BY tm.standardized_team
       )
       SELECT
         ti.team,
