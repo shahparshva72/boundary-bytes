@@ -212,7 +212,7 @@ export default function TextToSqlPage() {
         color: 'bg-[#4ECDC4]',
         queries: [
           'Virat Kohli runs in IPL 2023',
-          'MS Dhoni strike rate in IPL',
+          'David Warner strike rate in BBL',
           'Jasprit Bumrah economy rate in IPL 2022',
           'Rohit Sharma sixes in IPL',
           'Smriti Mandhana runs in WPL 2023',
@@ -225,8 +225,8 @@ export default function TextToSqlPage() {
           'Top 10 run scorers in IPL',
           'Top 5 wicket takers in WPL',
           'Most sixes in IPL 2023',
-          'Best economy rate in IPL 2022',
-          'Highest strike rates in WPL',
+          'Best economy rate in SA20',
+          'Highest strike rates in BBL',
         ],
       },
       {
