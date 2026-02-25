@@ -1,12 +1,11 @@
 import { prisma } from '@/lib/prisma';
 import { VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
+import { unstable_cache } from 'next/cache';
 import { NextResponse } from 'next/server';
 
-export async function GET(request: Request) {
-  try {
-    const { searchParams } = new URL(request.url);
-    const league = validateLeague(searchParams.get('league'));
-
+// Create a cached function to fetch batters
+const getBatters = unstable_cache(
+  async (league: string) => {
     const batters = await prisma.wplDelivery.findMany({
       where: {
         match: {
@@ -22,7 +21,22 @@ export async function GET(request: Request) {
       },
     });
 
-    const batterNames = batters.map((b) => b.striker);
+    return batters.map((b) => b.striker);
+  },
+  ['batters-list'], // Cache key prefix
+  {
+    revalidate: 3600, // Cache for 1 hour
+    tags: ['batters'], // Tag for manual revalidation
+  }
+);
+
+export async function GET(request: Request) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const league = validateLeague(searchParams.get('league'));
+
+    // Use the cached function
+    const batterNames = await getBatters(league);
 
     return NextResponse.json({
       data: batterNames,
