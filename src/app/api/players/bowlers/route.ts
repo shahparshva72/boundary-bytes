@@ -1,12 +1,11 @@
 import { prisma } from '@/lib/prisma';
 import { VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
+import { unstable_cache } from 'next/cache';
 import { NextResponse } from 'next/server';
 
-export async function GET(request: Request) {
-  try {
-    const { searchParams } = new URL(request.url);
-    const league = validateLeague(searchParams.get('league'));
-
+// Create a cached function to fetch bowlers
+const getBowlers = unstable_cache(
+  async (league: string) => {
     const bowlers = await prisma.wplDelivery.findMany({
       where: {
         match: {
@@ -22,7 +21,22 @@ export async function GET(request: Request) {
       },
     });
 
-    const bowlerNames = bowlers.map((b) => b.bowler);
+    return bowlers.map((b) => b.bowler);
+  },
+  ['bowlers-list'], // Cache key prefix
+  {
+    revalidate: 3600, // Cache for 1 hour
+    tags: ['bowlers'], // Tag for manual revalidation
+  }
+);
+
+export async function GET(request: Request) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const league = validateLeague(searchParams.get('league'));
+
+    // Use the cached function
+    const bowlerNames = await getBowlers(league);
 
     return NextResponse.json({
       data: bowlerNames,
@@ -44,6 +58,14 @@ export async function GET(request: Request) {
           availableLeagues: VALID_LEAGUES,
         },
         { status: 400 },
+      );
+    }
+
+    // Handle specific database connection errors
+    if (error instanceof Error && error.message.includes('connection pool')) {
+      return NextResponse.json(
+        { error: 'Database connection timeout. Please try again.' },
+        { status: 503 },
       );
     }
 
