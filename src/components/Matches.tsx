@@ -1,6 +1,6 @@
 'use client';
 
-import { useMatches } from '@/lib/useMatches';
+import { useMatches } from '@/hooks/useMatches';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useRef } from 'react';

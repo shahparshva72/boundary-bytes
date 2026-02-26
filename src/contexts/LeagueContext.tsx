@@ -1,8 +1,8 @@
 'use client';
 
 import { useLeagueURL } from '@/hooks/useLeagueURL';
+import { getLeagueConfig } from '@/lib/league-config';
 import { League, LeagueContextType } from '@/types/league';
-import { getLeagueConfig } from '@/utils/league-config';
 import React, { createContext, ReactNode, useContext, useState } from 'react';
 
 const LeagueContext = createContext<LeagueContextType | undefined>(undefined);

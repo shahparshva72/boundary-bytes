@@ -1,8 +1,8 @@
 'use client';
 
+import { VALID_LEAGUES } from '@/lib/league-config';
 import { useLeagueStore } from '@/stores/useLeagueStore';
 import { League } from '@/types/league';
-import { VALID_LEAGUES } from '@/utils/league-config';
 import { parseAsStringLiteral, useQueryState } from 'nuqs';
 import { useCallback, useEffect, useState } from 'react';
 

@@ -4,7 +4,7 @@ import { useLeagueContext } from '@/contexts/LeagueContext';
 import { AnimatePresence } from 'framer-motion';
 import React, { Suspense } from 'react';
 import { MoonLoader } from 'react-spinners';
-import LeagueSelectionScreen from './league-selection/LeagueSelectionScreen';
+import LeagueSelectionScreen from './LeagueSelection/LeagueSelectionScreen';
 
 interface AppWithLeagueSelectionProps {
   children: React.ReactNode;

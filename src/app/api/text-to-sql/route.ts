@@ -4,8 +4,8 @@ import { normalizeTeamResults } from '@/lib/result-normalizer';
 import { sqlValidator } from '@/lib/sql-validator';
 import { sanitizeInput, validateTextToSqlRequest } from '@/lib/validation/text-to-sql';
 import { aiRequestLogService } from '@/services/aiRequestLogService';
-import { cricketQueryService } from '@/services/cricket-query';
-import { geminiSqlService } from '@/services/gemini-sql';
+import { cricketQueryService } from '@/services/cricketQuery';
+import { geminiSqlService } from '@/services/geminiSql';
 import { NextRequest, NextResponse } from 'next/server';
 
 export async function POST(request: NextRequest) {

@@ -2,7 +2,7 @@
 
 import { useBatters, useBowlers } from '@/hooks/usePlayersAPI';
 import { usePlayerComparison, useSeasons } from '@/hooks/useStatsAPI';
-import type { ComparedPlayer } from '@/types/playerComparison';
+import type { ComparedPlayer } from '@/types/PlayerComparison';
 import { parseAsString, parseAsStringLiteral, useQueryState } from 'nuqs';
 import { useMemo } from 'react';
 import {

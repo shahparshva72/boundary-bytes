@@ -5,7 +5,7 @@ import {
   applyResolvedNames,
   extractHeadToHeadQueries,
   hasPlayerNameResolution as utilHasPlayerNameResolution,
-} from './sql-utils';
+} from './sqlUtils';
 
 // Optimized master prompt with concise formulas instead of large examples
 const MASTER_PROMPT = `You are a cricket statistics SQL expert. Convert natural language queries about cricket statistics into safe, accurate PostgreSQL queries for IPL data.
