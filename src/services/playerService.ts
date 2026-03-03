@@ -1,25 +1,20 @@
-import api from './axios';
+import api from './api';
 
 // Fetch both batters and bowlers together
 export const fetchPlayers = async () => {
-  const [battersRes, bowlersRes] = await Promise.all([
-    api.get('/players/batters'),
-    api.get('/players/bowlers'),
+  const [batters, bowlers] = await Promise.all([
+    api.get('players/batters').json(),
+    api.get('players/bowlers').json(),
   ]);
-  return {
-    batters: battersRes.data,
-    bowlers: bowlersRes.data,
-  };
+  return { batters, bowlers };
 };
 
 // Fetch only batters
 export const fetchBatters = async () => {
-  const { data } = await api.get('/players/batters');
-  return data;
+  return api.get('players/batters').json();
 };
 
 // Fetch only bowlers
 export const fetchBowlers = async () => {
-  const { data } = await api.get('/players/bowlers');
-  return data;
+  return api.get('players/bowlers').json();
 };

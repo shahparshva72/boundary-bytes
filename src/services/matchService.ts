@@ -1,6 +1,17 @@
-import api from './axios';
+import api from './api';
+
+interface MatchData {
+  id: number;
+  teams: string;
+  venue: string;
+  date: string;
+  season: string;
+}
+
+interface MatchListResponse {
+  data: MatchData[];
+}
 
 export const fetchMatches = async () => {
-  const { data } = await api.get('/matches/list');
-  return data;
+  return api.get('matches/list').json<MatchListResponse>();
 };
