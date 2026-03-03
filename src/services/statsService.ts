@@ -1,58 +1,66 @@
-import api from './axios';
+import api from './api';
 
 // Team stats
 export const fetchTeamWins = async () => {
-  const { data } = await api.get('/stats/team-wins');
-  return data;
+  return api.get('stats/team-wins').json();
 };
 
 export const fetchTeamAverages = async () => {
-  const { data } = await api.get('/stats/team-averages');
-  return data;
+  return api.get('stats/team-averages').json();
 };
 
 // Player stats
 export const fetchWicketTakers = async (page: number) => {
-  const { data } = await api.get('/stats/leading-wicket-takers', {
-    params: { page, limit: 10 },
-  });
-  return data;
+  return api.get('stats/leading-wicket-takers', { searchParams: { page, limit: 10 } }).json();
 };
 
 export const fetchRunScorers = async (page: number) => {
-  const { data } = await api.get('/stats/leading-run-scorers', {
-    params: { page, limit: 10 },
-  });
-  return data;
+  return api.get('stats/leading-run-scorers', { searchParams: { page, limit: 10 } }).json();
 };
 
 export const fetchBowlingWicketTypes = async (page: number) => {
-  const { data } = await api.get('/stats/bowling-wicket-types', {
-    params: { page, limit: 10 },
-  });
-  return data;
+  return api.get('stats/bowling-wicket-types', { searchParams: { page, limit: 10 } }).json();
 };
 
 // Matchup & advanced stats
 export const fetchMatchup = async (batter: string, bowler: string) => {
-  const { data } = await api.get(`/stats/matchup?batter=${batter}&bowler=${bowler}`);
-  return data;
+  return api.get('stats/matchup', { searchParams: { batter, bowler } }).json();
 };
 
 export const fetchAdvancedStats = async (overs: number[], player: string, playerType: string) => {
-  const params = new URLSearchParams({
+  const searchParams: Record<string, string> = {
     overs: overs.join(','),
     playerType,
     ...(playerType === 'batter' ? { batter: player } : { bowler: player }),
-  });
-  const { data } = await api.get(`/stats/advanced?${params}`);
-  return data;
+  };
+  return api.get('stats/advanced', { searchParams }).json();
 };
 
 // Fall of wickets
+interface FallOfWicketsData {
+  matchInfo: {
+    id: number;
+    teams: string[];
+    venue: string;
+    date: string;
+    season: string;
+  };
+  innings: {
+    inningsNumber: number;
+    battingTeam: string;
+    wickets: {
+      wicketNumber: number;
+      over: string;
+      runsAtFall: number;
+      batsmanOut: string;
+      dismissalType: string;
+      bowler: string;
+    }[];
+  }[];
+}
+
 export const fetchFallOfWickets = async (matchId: number) => {
-  const { data } = await api.get(`/stats/fall-of-wickets/${matchId}`);
-  return data;
+  return api.get(`stats/fall-of-wickets/${matchId}`).json<FallOfWicketsData>();
 };
 
 // Player comparison
@@ -60,17 +68,16 @@ export const fetchPlayerComparison = async (
   players: string[],
   filters: { seasons?: string[]; team?: string; statType: string },
 ) => {
-  const params = new URLSearchParams({
+  const searchParams: Record<string, string> = {
     players: players.join(','),
     statType: filters.statType,
-  });
+  };
   if (filters.seasons && filters.seasons.length > 0) {
-    params.append('seasons', filters.seasons.join(','));
+    searchParams.seasons = filters.seasons.join(',');
   }
   if (filters.team) {
-    params.append('team', filters.team);
+    searchParams.team = filters.team;
   }
 
-  const { data } = await api.get(`/stats/player-compare?${params}`);
-  return data;
+  return api.get('stats/player-compare', { searchParams }).json();
 };
