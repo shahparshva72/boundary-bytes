@@ -280,7 +280,7 @@ POST-GENERATION VALIDATION (MUST PASS):
 `;
 
 // Initialize Gemini model
-const model = google('gemini-2.5-flash');
+const model = google('gemini-3.1-flash-lite-preview');
 
 export interface GeminiResponse {
   queries: string[];
