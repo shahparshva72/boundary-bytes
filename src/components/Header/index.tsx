@@ -37,6 +37,7 @@ const Header = () => {
           <nav className="hidden md:flex gap-2 lg:gap-4">
             <NavLink href="/">Home</NavLink>
             <NavLink href="/stats">Stats</NavLink>
+            <NavLink href="/stat-explorer">Stat Explorer</NavLink>
             <NavLink href="/chat">Chat</NavLink>
             <NavLink href="/news">News</NavLink>
             <NavLink href="/stats/advanced">Advanced Stats</NavLink>
@@ -84,6 +85,9 @@ const Header = () => {
               </NavLink>
               <NavLink href="/stats" onClick={closeMobileMenu}>
                 Stats
+              </NavLink>
+              <NavLink href="/stat-explorer" onClick={closeMobileMenu}>
+                Stat Explorer
               </NavLink>
               <NavLink href="/chat" onClick={closeMobileMenu}>
                 Chat

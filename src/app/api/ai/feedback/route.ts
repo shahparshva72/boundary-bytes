@@ -128,16 +128,3 @@ export async function GET(_request: NextRequest) {
     );
   }
 }
-
-// Handle OPTIONS request for CORS
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-export async function OPTIONS(_request: NextRequest) {
-  return new NextResponse(null, {
-    status: 200,
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type',
-    },
-  });
-}

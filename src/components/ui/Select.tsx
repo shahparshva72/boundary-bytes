@@ -69,6 +69,10 @@ const neoBrutalistStyles = {
     ...provided,
     padding: 0,
   }),
+  menuPortal: (provided: CSSObjectWithLabel) => ({
+    ...provided,
+    zIndex: 9999,
+  }),
   singleValue: (provided: CSSObjectWithLabel) => ({
     ...provided,
     color: 'black',
@@ -132,6 +136,8 @@ function Select({
         id={id}
         instanceId={instanceId}
         styles={neoBrutalistStyles}
+        menuPortalTarget={typeof window !== 'undefined' ? document.body : undefined}
+        menuPosition="fixed"
       />
     </div>
   );
