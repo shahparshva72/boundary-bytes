@@ -4,7 +4,7 @@ import type {
   StatExplorerResult,
   StatExplorerRunRequest,
 } from '@/lib/stat-explorer/contracts';
-import { useMutation, useQuery } from '@tanstack/react-query';
+import { keepPreviousData, useMutation, useQuery } from '@tanstack/react-query';
 import { useLeagueAPI } from './useLeagueAPI';
 
 async function fetchStatExplorerOptions(
@@ -43,6 +43,17 @@ export function useStatExplorerOptions(reportType: StatExplorerReportType) {
     queryFn: () => fetchStatExplorerOptions(fetchWithLeague, reportType),
     enabled: !!selectedLeague,
     staleTime: 5 * 60 * 1000,
+  });
+}
+
+export function useStatExplorerQuery(request: StatExplorerRunRequest, enabled: boolean = true) {
+  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+
+  return useQuery({
+    queryKey: ['statExplorerQuery', selectedLeague, request],
+    queryFn: () => runStatExplorerQuery(fetchWithLeague, request),
+    enabled: !!selectedLeague && enabled,
+    placeholderData: keepPreviousData,
   });
 }
 

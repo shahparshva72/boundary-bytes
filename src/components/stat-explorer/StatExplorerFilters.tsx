@@ -1,6 +1,6 @@
 'use client';
 
-import { MultiSelect } from '@/components/ui';
+import { Card, CardContent, CardHeader, MultiSelect } from '@/components/ui';
 import type { SelectOption } from '@/components/ui/Select';
 import type {
   StatExplorerFilterOptions,
@@ -166,185 +166,219 @@ export default function StatExplorerFilters({
   };
 
   return (
-    <div className="space-y-4 border-2 border-black p-3 bg-white">
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div>
-          <label className="block text-xs font-black text-black uppercase mb-1">
-            Group By (Dimensions)
-          </label>
-          <MultiSelect
-            options={dimensionOptions}
-            value={dimensionValues}
-            onChange={(newVals) => onDimensionsChange(newVals.map((v) => v.value))}
-            placeholder="Select dimensions..."
-            maxSelections={3}
-            isSearchable
-            instanceId="stat-explorer-dimensions"
-          />
-        </div>
+    <div className="space-y-6">
+      <Card>
+        <CardHeader color="yellow">
+          <h3 className="text-sm font-black text-black uppercase">Report Configuration</h3>
+        </CardHeader>
+        <CardContent>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label className="block text-xs font-black text-black uppercase mb-1">
+                Group By (Dimensions)
+              </label>
+              <MultiSelect
+                options={dimensionOptions}
+                value={dimensionValues}
+                onChange={(newVals) => onDimensionsChange(newVals.map((v) => v.value))}
+                placeholder="Select dimensions..."
+                maxSelections={3}
+                isSearchable
+                instanceId="stat-explorer-dimensions"
+              />
+            </div>
 
-        <div>
-          <label className="block text-xs font-black text-black uppercase mb-1">
-            Statistics (Metrics)
-          </label>
-          <MultiSelect
-            options={metricOptions}
-            value={metricValues}
-            onChange={(newVals) => onMetricsChange(newVals.map((v) => v.value))}
-            placeholder="Select metrics..."
-            maxSelections={8}
-            isSearchable
-            instanceId="stat-explorer-metrics"
-          />
-        </div>
-
-        <div>
-          <label className="block text-xs font-black text-black uppercase mb-1">Teams</label>
-          <MultiSelect
-            options={teamOptions}
-            value={teamValues}
-            onChange={(vals) =>
-              updateFilter(
-                'teams',
-                vals.map((v) => v.value),
-              )
-            }
-            placeholder="All teams..."
-            maxSelections={5}
-            isSearchable
-            instanceId="stat-explorer-teams"
-          />
-        </div>
-
-        {reportType !== 'team' && (
-          <div>
-            <label className="block text-xs font-black text-black uppercase mb-1">Opposition</label>
-            <MultiSelect
-              options={oppositionOptions}
-              value={oppositionValues}
-              onChange={(vals) =>
-                updateFilter(
-                  'opposition',
-                  vals.map((v) => v.value),
-                )
-              }
-              placeholder="All opposition..."
-              maxSelections={5}
-              isSearchable
-              instanceId="stat-explorer-opposition"
-            />
+            <div>
+              <label className="block text-xs font-black text-black uppercase mb-1">
+                Statistics (Metrics)
+              </label>
+              <MultiSelect
+                options={metricOptions}
+                value={metricValues}
+                onChange={(newVals) => onMetricsChange(newVals.map((v) => v.value))}
+                placeholder="Select metrics..."
+                maxSelections={8}
+                isSearchable
+                instanceId="stat-explorer-metrics"
+              />
+            </div>
           </div>
-        )}
+        </CardContent>
+      </Card>
 
-        <div>
-          <label className="block text-xs font-black text-black uppercase mb-1">Seasons</label>
-          <MultiSelect
-            options={seasonOptions}
-            value={seasonValues}
-            onChange={(vals) =>
-              updateFilter(
-                'seasons',
-                vals.map((v) => v.value),
-              )
-            }
-            placeholder="All seasons..."
-            maxSelections={10}
-            isSearchable
-            instanceId="stat-explorer-seasons"
-          />
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <Card>
+          <CardHeader color="teal">
+            <h3 className="text-sm font-black text-black uppercase">Team & Opposition</h3>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <div>
+              <label className="block text-xs font-black text-black uppercase mb-1">Teams</label>
+              <MultiSelect
+                options={teamOptions}
+                value={teamValues}
+                onChange={(vals) =>
+                  updateFilter(
+                    'teams',
+                    vals.map((v) => v.value),
+                  )
+                }
+                placeholder="All teams..."
+                maxSelections={5}
+                isSearchable
+                instanceId="stat-explorer-teams"
+              />
+            </div>
 
-        <div>
-          <label className="block text-xs font-black text-black uppercase mb-1">Venue</label>
-          <MultiSelect
-            options={venueOptions}
-            value={venueValues}
-            onChange={(vals) =>
-              updateFilter(
-                'venues',
-                vals.map((v) => v.value),
-              )
-            }
-            placeholder="All venues..."
-            maxSelections={5}
-            isSearchable
-            instanceId="stat-explorer-venues"
-          />
-        </div>
+            {reportType !== 'team' && (
+              <div>
+                <label className="block text-xs font-black text-black uppercase mb-1">
+                  Opposition
+                </label>
+                <MultiSelect
+                  options={oppositionOptions}
+                  value={oppositionValues}
+                  onChange={(vals) =>
+                    updateFilter(
+                      'opposition',
+                      vals.map((v) => v.value),
+                    )
+                  }
+                  placeholder="All opposition..."
+                  maxSelections={5}
+                  isSearchable
+                  instanceId="stat-explorer-opposition"
+                />
+              </div>
+            )}
+          </CardContent>
+        </Card>
 
-        <div>
-          <label className="block text-xs font-black text-black uppercase mb-1">City</label>
-          <MultiSelect
-            options={cityOptions}
-            value={cityValues}
-            onChange={(vals) =>
-              updateFilter(
-                'cities',
-                vals.map((v) => v.value),
-              )
-            }
-            placeholder="All cities..."
-            maxSelections={5}
-            isSearchable
-            instanceId="stat-explorer-cities"
-          />
-        </div>
+        <Card>
+          <CardHeader color="coral">
+            <h3 className="text-sm font-black text-black uppercase">Match Context</h3>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <div>
+              <label className="block text-xs font-black text-black uppercase mb-1">Seasons</label>
+              <MultiSelect
+                options={seasonOptions}
+                value={seasonValues}
+                onChange={(vals) =>
+                  updateFilter(
+                    'seasons',
+                    vals.map((v) => v.value),
+                  )
+                }
+                placeholder="All seasons..."
+                maxSelections={10}
+                isSearchable
+                instanceId="stat-explorer-seasons"
+              />
+            </div>
 
-        <div>
-          <label className="block text-xs font-black text-black uppercase mb-1">Toss Winner</label>
-          <MultiSelect
-            options={tossWinnerOptions}
-            value={tossWinnerValues}
-            onChange={(vals) =>
-              updateFilter(
-                'tossWinners',
-                vals.map((v) => v.value),
-              )
-            }
-            placeholder="Any toss winner..."
-            maxSelections={5}
-            isSearchable
-            instanceId="stat-explorer-toss-winner"
-          />
-        </div>
+            <div>
+              <label className="block text-xs font-black text-black uppercase mb-1">Venue</label>
+              <MultiSelect
+                options={venueOptions}
+                value={venueValues}
+                onChange={(vals) =>
+                  updateFilter(
+                    'venues',
+                    vals.map((v) => v.value),
+                  )
+                }
+                placeholder="All venues..."
+                maxSelections={5}
+                isSearchable
+                instanceId="stat-explorer-venues"
+              />
+            </div>
 
-        <div>
-          <label className="block text-xs font-black text-black uppercase mb-1">
-            Toss Decision
-          </label>
-          <MultiSelect
-            options={tossDecisionOptions}
-            value={tossDecisionValues}
-            onChange={(vals) =>
-              updateFilter(
-                'tossDecisions',
-                vals.map((v) => v.value as 'bat' | 'field'),
-              )
-            }
-            placeholder="Any toss decision..."
-            maxSelections={2}
-            isSearchable={false}
-            instanceId="stat-explorer-toss-decision"
-          />
-        </div>
+            <div>
+              <label className="block text-xs font-black text-black uppercase mb-1">City</label>
+              <MultiSelect
+                options={cityOptions}
+                value={cityValues}
+                onChange={(vals) =>
+                  updateFilter(
+                    'cities',
+                    vals.map((v) => v.value),
+                  )
+                }
+                placeholder="All cities..."
+                maxSelections={5}
+                isSearchable
+                instanceId="stat-explorer-cities"
+              />
+            </div>
+          </CardContent>
+        </Card>
 
-        <div>
-          <label className="block text-xs font-black text-black uppercase mb-1">Innings</label>
-          <MultiSelect
-            options={inningsOptions}
-            value={inningsValues}
-            onChange={(vals) =>
-              updateFilter(
-                'innings',
-                vals.map((v) => Number(v.value) as 1 | 2),
-              )
-            }
-            placeholder="Both innings..."
-            maxSelections={2}
-            isSearchable={false}
-            instanceId="stat-explorer-innings"
-          />
-        </div>
+        <Card>
+          <CardHeader color="gold">
+            <h3 className="text-sm font-black text-black uppercase">Game Conditions</h3>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <div>
+              <label className="block text-xs font-black text-black uppercase mb-1">
+                Toss Winner
+              </label>
+              <MultiSelect
+                options={tossWinnerOptions}
+                value={tossWinnerValues}
+                onChange={(vals) =>
+                  updateFilter(
+                    'tossWinners',
+                    vals.map((v) => v.value),
+                  )
+                }
+                placeholder="Any toss winner..."
+                maxSelections={5}
+                isSearchable
+                instanceId="stat-explorer-toss-winner"
+              />
+            </div>
+
+            <div>
+              <label className="block text-xs font-black text-black uppercase mb-1">
+                Toss Decision
+              </label>
+              <MultiSelect
+                options={tossDecisionOptions}
+                value={tossDecisionValues}
+                onChange={(vals) =>
+                  updateFilter(
+                    'tossDecisions',
+                    vals.map((v) => v.value as 'bat' | 'field'),
+                  )
+                }
+                placeholder="Any toss decision..."
+                maxSelections={2}
+                isSearchable={false}
+                instanceId="stat-explorer-toss-decision"
+              />
+            </div>
+
+            <div>
+              <label className="block text-xs font-black text-black uppercase mb-1">Innings</label>
+              <MultiSelect
+                options={inningsOptions}
+                value={inningsValues}
+                onChange={(vals) =>
+                  updateFilter(
+                    'innings',
+                    vals.map((v) => Number(v.value) as 1 | 2),
+                  )
+                }
+                placeholder="Both innings..."
+                maxSelections={2}
+                isSearchable={false}
+                instanceId="stat-explorer-innings"
+              />
+            </div>
+          </CardContent>
+        </Card>
       </div>
     </div>
   );
