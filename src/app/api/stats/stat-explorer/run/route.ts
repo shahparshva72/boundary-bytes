@@ -96,12 +96,22 @@ export async function POST(request: Request) {
       winsBattingSecond: 'Batting 2nd Wins',
     };
 
+    const lowerDimensionLabels = Object.fromEntries(
+      Object.entries(dimensionLabels).map(([k, v]) => [k.toLowerCase(), v]),
+    );
+    const lowerMetricLabels = Object.fromEntries(
+      Object.entries(metricLabels).map(([k, v]) => [k.toLowerCase(), v]),
+    );
+
     const allKeys = dataRows.length > 0 ? Object.keys(dataRows[0]) : [];
-    const columns = allKeys.map((key) => ({
-      key,
-      label: dimensionLabels[key] || metricLabels[key] || key,
-      isNumeric: metricLabels[key] !== undefined,
-    }));
+    const columns = allKeys.map((key) => {
+      const lowerKey = key.toLowerCase();
+      return {
+        key,
+        label: lowerDimensionLabels[lowerKey] || lowerMetricLabels[lowerKey] || key,
+        isNumeric: lowerMetricLabels[lowerKey] !== undefined,
+      };
+    });
 
     return NextResponse.json({
       data: convertedData,

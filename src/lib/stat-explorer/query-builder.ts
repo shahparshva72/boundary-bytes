@@ -29,12 +29,20 @@ function buildWhereClause(
 
   if (filters.teams && filters.teams.length > 0) {
     const stdTeams = filters.teams.map(standardizeTeam);
-    conditions.push(Prisma.sql`${STANDARDIZED_BATTING_TEAM_SQL} = ANY(${stdTeams}::text[])`);
+    if (reportType === 'bowling') {
+      conditions.push(Prisma.sql`d.bowling_team = ANY(${stdTeams}::text[])`);
+    } else {
+      conditions.push(Prisma.sql`${STANDARDIZED_BATTING_TEAM_SQL} = ANY(${stdTeams}::text[])`);
+    }
   }
 
   if (filters.opposition && filters.opposition.length > 0) {
     const stdOpp = filters.opposition.map(standardizeTeam);
-    conditions.push(Prisma.sql`d.bowling_team = ANY(${stdOpp}::text[])`);
+    if (reportType === 'bowling') {
+      conditions.push(Prisma.sql`${STANDARDIZED_BATTING_TEAM_SQL} = ANY(${stdOpp}::text[])`);
+    } else {
+      conditions.push(Prisma.sql`d.bowling_team = ANY(${stdOpp}::text[])`);
+    }
   }
 
   if (filters.seasons && filters.seasons.length > 0) {
@@ -110,47 +118,48 @@ function buildWhereClause(
   return result;
 }
 
-function metricToSql(metric: StatExplorerMetric, _isBowling: boolean): string {
-  const map: Record<StatExplorerMetric, string> = {
-    runs: 'SUM(d.runs_off_bat)',
-    ballsFaced: 'COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0)',
-    innings: "COUNT(DISTINCT d.match_id || '-' || d.innings)",
-    notOuts:
-      'COUNT(*) FILTER (WHERE d.player_dismissed != d.striker) + COUNT(*) FILTER (WHERE d.player_dismissed IS NULL)',
-    highestScore: 'MAX(innings_runs)',
-    fours: 'COUNT(*) FILTER (WHERE d.runs_off_bat = 4)',
-    sixes: 'COUNT(*) FILTER (WHERE d.runs_off_bat = 6)',
-    fifties: 'COUNT(*) FILTER (WHERE innings_runs >= 50 AND innings_runs < 100)',
-    hundreds: 'COUNT(*) FILTER (WHERE innings_runs >= 100)',
-    strikeRate:
-      'CASE WHEN COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) > 0 THEN ROUND((SUM(d.runs_off_bat)::numeric / COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0)) * 100, 2) ELSE 0 END',
-    average:
-      'CASE WHEN (COUNT(*) FILTER (WHERE d.player_dismissed = d.striker)) > 0 THEN ROUND(SUM(d.runs_off_bat)::numeric / COUNT(*) FILTER (WHERE d.player_dismissed = d.striker), 2) ELSE SUM(d.runs_off_bat)::numeric END',
-    dismissals: 'COUNT(*) FILTER (WHERE d.player_dismissed = d.striker)',
-    dotBalls: 'COUNT(*) FILTER (WHERE d.runs_off_bat = 0 AND d.wides = 0 AND d.noballs = 0)',
-    wickets:
-      "COUNT(*) FILTER (WHERE d.player_dismissed IS NOT NULL AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket'))",
-    ballsBowled: 'COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0)',
-    runsConceded: 'SUM(d.runs_off_bat + d.wides + d.noballs)',
-    economyRate:
-      'CASE WHEN COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) > 0 THEN ROUND((SUM(d.runs_off_bat + d.wides + d.noballs)::numeric / (COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0)::numeric / 6)), 2) ELSE 0 END',
-    bowlingAverage:
-      "CASE WHEN COUNT(*) FILTER (WHERE d.player_dismissed IS NOT NULL AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')) > 0 THEN ROUND((SUM(d.runs_off_bat + d.wides + d.noballs)::numeric / COUNT(*) FILTER (WHERE d.player_dismissed IS NOT NULL AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket'))), 2) ELSE 0 END",
-    bowlingStrikeRate:
-      "CASE WHEN COUNT(*) FILTER (WHERE d.player_dismissed IS NOT NULL AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')) > 0 THEN ROUND(COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0)::numeric / COUNT(*) FILTER (WHERE d.player_dismissed IS NOT NULL AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')) * 100, 2) ELSE 0 END",
-    fourWickets: '0',
-    fiveWickets: '0',
-    matchesPlayed: 'COUNT(DISTINCT d.match_id)',
-    wins: 'COUNT(*) FILTER (WHERE mi.winner = std_team)',
-    losses: 'COUNT(*) FILTER (WHERE mi.winner IS NOT NULL AND mi.winner != std_team)',
-    winPct:
-      'CASE WHEN COUNT(*) > 0 THEN ROUND((COUNT(*) FILTER (WHERE mi.winner = std_team)::numeric / NULLIF(COUNT(*) FILTER (WHERE mi.winner IS NOT NULL), 0)) * 100, 2) ELSE 0 END',
-    winsBattingFirst: "COUNT(*) FILTER (WHERE mi.winner = std_team AND win_type = 'batting_first')",
-    winsBattingSecond:
-      "COUNT(*) FILTER (WHERE mi.winner = std_team AND win_type = 'batting_second')",
-    matches: 'COUNT(DISTINCT d.match_id)',
-  };
-  return map[metric];
+function metricToSql(metric: StatExplorerMetric, isBowling: boolean): string {
+  if (isBowling) {
+    const map: Record<string, string> = {
+      wickets: 'SUM(stats.wickets)',
+      ballsBowled: 'SUM(stats.balls_bowled)',
+      runsConceded: 'SUM(stats.runs_conceded)',
+      innings: 'COUNT(stats.match_id)',
+      economyRate:
+        'CASE WHEN SUM(stats.balls_bowled) > 0 THEN ROUND((SUM(stats.runs_conceded)::numeric / (SUM(stats.balls_bowled)::numeric / 6)), 2) ELSE 0 END',
+      bowlingAverage:
+        'CASE WHEN SUM(stats.wickets) > 0 THEN ROUND(SUM(stats.runs_conceded)::numeric / SUM(stats.wickets), 2) ELSE 0 END',
+      bowlingStrikeRate:
+        'CASE WHEN SUM(stats.wickets) > 0 THEN ROUND(SUM(stats.balls_bowled)::numeric / SUM(stats.wickets), 2) ELSE 0 END',
+      fourWickets: 'COUNT(*) FILTER (WHERE stats.wickets >= 4 AND stats.wickets < 5)',
+      fiveWickets: 'COUNT(*) FILTER (WHERE stats.wickets >= 5)',
+      dotBalls: 'SUM(stats.dot_balls)',
+      matchesPlayed: 'COUNT(DISTINCT stats.match_id)',
+      matches: 'COUNT(DISTINCT stats.match_id)',
+    };
+    return map[metric as string] || '0';
+  } else {
+    const map: Record<string, string> = {
+      runs: 'SUM(stats.runs)',
+      ballsFaced: 'SUM(stats.balls_faced)',
+      innings: 'COUNT(stats.match_id)',
+      notOuts: 'SUM(1 - stats.is_dismissed)',
+      highestScore: 'MAX(stats.runs)',
+      fours: 'SUM(stats.fours)',
+      sixes: 'SUM(stats.sixes)',
+      fifties: 'COUNT(*) FILTER (WHERE stats.runs >= 50 AND stats.runs < 100)',
+      hundreds: 'COUNT(*) FILTER (WHERE stats.runs >= 100)',
+      strikeRate:
+        'CASE WHEN SUM(stats.balls_faced) > 0 THEN ROUND((SUM(stats.runs)::numeric / SUM(stats.balls_faced)) * 100, 2) ELSE 0 END',
+      average:
+        'CASE WHEN SUM(stats.is_dismissed) > 0 THEN ROUND(SUM(stats.runs)::numeric / SUM(stats.is_dismissed), 2) ELSE SUM(stats.runs)::numeric END',
+      dismissals: 'SUM(stats.is_dismissed)',
+      dotBalls: 'SUM(stats.dot_balls)',
+      matchesPlayed: 'COUNT(DISTINCT stats.match_id)',
+      matches: 'COUNT(DISTINCT stats.match_id)',
+    };
+    return map[metric as string] || '0';
+  }
 }
 
 export function buildStatExplorerQuery(
@@ -201,37 +210,37 @@ function buildBattingBowlingQuery(
   for (const dim of dimensions) {
     switch (dim) {
       case 'season':
-        groupByParts.push('d.season');
+        groupByParts.push('stats.season');
         break;
       case 'player':
-        groupByParts.push(isBowling ? 'd.bowler' : 'd.striker');
+        groupByParts.push('stats.player');
         break;
       case 'team':
-        groupByParts.push('d.std_team');
+        groupByParts.push('stats.team');
         break;
       case 'opposition':
-        groupByParts.push('d.bowling_team');
+        groupByParts.push('stats.opposition');
         break;
       case 'venue':
-        groupByParts.push('d.venue');
+        groupByParts.push('stats.venue');
         break;
       case 'city':
-        groupByParts.push('d.city');
+        groupByParts.push('stats.city');
         break;
       case 'tossWinner':
-        groupByParts.push('d.toss_winner');
+        groupByParts.push('stats.toss_winner');
         break;
       case 'tossDecision':
-        groupByParts.push('d.toss_decision');
+        groupByParts.push('stats.toss_decision');
         break;
       case 'result':
-        groupByParts.push('d.match_winner');
+        groupByParts.push('stats.match_winner');
         break;
       case 'date':
-        groupByParts.push('d.start_date::date');
+        groupByParts.push('stats.start_date::date');
         break;
       case 'innings':
-        groupByParts.push('d.innings');
+        groupByParts.push('stats.innings');
         break;
     }
   }
@@ -240,39 +249,37 @@ function buildBattingBowlingQuery(
   for (const dim of dimensions) {
     switch (dim) {
       case 'season':
-        selectDimParts.push(Prisma.sql`d.season AS season`);
+        selectDimParts.push(Prisma.sql`stats.season AS season`);
         break;
       case 'player':
-        selectDimParts.push(
-          isBowling ? Prisma.sql`d.bowler AS player` : Prisma.sql`d.striker AS player`,
-        );
+        selectDimParts.push(Prisma.sql`stats.player AS player`);
         break;
       case 'team':
-        selectDimParts.push(Prisma.sql`d.std_team AS team`);
+        selectDimParts.push(Prisma.sql`stats.team AS team`);
         break;
       case 'opposition':
-        selectDimParts.push(Prisma.sql`d.bowling_team AS opposition`);
+        selectDimParts.push(Prisma.sql`stats.opposition AS opposition`);
         break;
       case 'venue':
-        selectDimParts.push(Prisma.sql`d.venue AS venue`);
+        selectDimParts.push(Prisma.sql`stats.venue AS venue`);
         break;
       case 'city':
-        selectDimParts.push(Prisma.sql`d.city AS city`);
+        selectDimParts.push(Prisma.sql`stats.city AS city`);
         break;
       case 'tossWinner':
-        selectDimParts.push(Prisma.sql`d.toss_winner AS tossWinner`);
+        selectDimParts.push(Prisma.sql`stats.toss_winner AS tossWinner`);
         break;
       case 'tossDecision':
-        selectDimParts.push(Prisma.sql`d.toss_decision AS tossDecision`);
+        selectDimParts.push(Prisma.sql`stats.toss_decision AS tossDecision`);
         break;
       case 'result':
-        selectDimParts.push(Prisma.sql`d.match_winner AS result`);
+        selectDimParts.push(Prisma.sql`stats.match_winner AS result`);
         break;
       case 'date':
-        selectDimParts.push(Prisma.sql`d.start_date::date AS date_col`);
+        selectDimParts.push(Prisma.sql`stats.start_date::date AS date_col`);
         break;
       case 'innings':
-        selectDimParts.push(Prisma.sql`d.innings AS innings`);
+        selectDimParts.push(Prisma.sql`stats.innings AS innings`);
         break;
     }
   }
@@ -298,8 +305,6 @@ function buildBattingBowlingQuery(
     orderBy = Prisma.sql`ORDER BY ${Prisma.raw(metrics[0])} DESC`;
   }
 
-  const playerKey = isBowling ? Prisma.sql`bowler` : Prisma.sql`striker`;
-
   const selectClause = allSelectParts.reduce((acc, part, i) => {
     if (i === 0) {
       return part;
@@ -307,75 +312,97 @@ function buildBattingBowlingQuery(
     return Prisma.sql`${acc},\n${part}`;
   }, allSelectParts[0] as Prisma.Sql);
 
-  const baseSql = Prisma.sql`
-    WITH delivery_cte AS (
-      SELECT
-        d.*,
-        m.season,
-        m.start_date,
-        m.venue,
-        mi.city,
-        mi.toss_winner,
-        mi.toss_decision,
-        mi.winner AS match_winner,
-        ${STANDARDIZED_BATTING_TEAM_SQL} AS std_team
-      FROM wpl_delivery d
-      JOIN wpl_match m ON d.match_id = m.match_id
-      LEFT JOIN wpl_match_info mi ON m.match_id = mi.match_id
-      WHERE ${whereClause}
-    ),
-    innings_stats AS (
-      SELECT
-        match_id,
-        innings,
-        ${playerKey} AS player_key,
-        SUM(runs_off_bat) AS innings_runs
-      FROM delivery_cte
-      GROUP BY match_id, innings, ${playerKey}
-    )
-    SELECT
-      ${selectClause}
-    FROM delivery_cte d
-    LEFT JOIN innings_stats ist ON d.match_id = ist.match_id AND d.innings = ist.innings AND d.${playerKey} = ist.player_key
+  const statsCTE = isBowling
+    ? Prisma.sql`
+        stats AS (
+          SELECT
+            d.match_id,
+            d.innings,
+            d.bowler AS player,
+            MAX(m.season) AS season,
+            MAX(m.start_date) AS start_date,
+            MAX(m.venue) AS venue,
+            MAX(mi.city) AS city,
+            MAX(mi.toss_winner) AS toss_winner,
+            MAX(mi.toss_decision) AS toss_decision,
+            MAX(mi.winner) AS match_winner,
+            MAX(d.bowling_team) AS team,
+            MAX(${STANDARDIZED_BATTING_TEAM_SQL}) AS opposition,
+            COUNT(*) FILTER (WHERE d.player_dismissed IS NOT NULL AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket')) AS wickets,
+            COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) AS balls_bowled,
+            SUM(d.runs_off_bat + d.wides + d.noballs) AS runs_conceded,
+            COUNT(*) FILTER (WHERE d.runs_off_bat = 0 AND d.wides = 0 AND d.noballs = 0) AS dot_balls
+          FROM wpl_delivery d
+          JOIN wpl_match m ON d.match_id = m.match_id
+          LEFT JOIN wpl_match_info mi ON m.match_id = mi.match_id
+          WHERE ${whereClause}
+          GROUP BY d.match_id, d.innings, d.bowler
+        )
+      `
+    : Prisma.sql`
+        batter_stats AS (
+          SELECT
+            d.match_id,
+            d.innings,
+            d.striker AS player,
+            MAX(m.season) AS season,
+            MAX(m.start_date) AS start_date,
+            MAX(m.venue) AS venue,
+            MAX(mi.city) AS city,
+            MAX(mi.toss_winner) AS toss_winner,
+            MAX(mi.toss_decision) AS toss_decision,
+            MAX(mi.winner) AS match_winner,
+            MAX(${STANDARDIZED_BATTING_TEAM_SQL}) AS team,
+            MAX(d.bowling_team) AS opposition,
+            SUM(d.runs_off_bat) AS runs,
+            COUNT(*) FILTER (WHERE d.wides = 0) AS balls_faced,
+            COUNT(*) FILTER (WHERE d.runs_off_bat = 4) AS fours,
+            COUNT(*) FILTER (WHERE d.runs_off_bat = 6) AS sixes,
+            COUNT(*) FILTER (WHERE d.runs_off_bat = 0 AND d.wides = 0 AND d.noballs = 0) AS dot_balls
+          FROM wpl_delivery d
+          JOIN wpl_match m ON d.match_id = m.match_id
+          LEFT JOIN wpl_match_info mi ON m.match_id = mi.match_id
+          WHERE ${whereClause}
+          GROUP BY d.match_id, d.innings, d.striker
+        ),
+        batter_dismissals AS (
+          SELECT d.match_id, d.innings, d.player_dismissed AS player, 1 AS is_dismissed
+          FROM wpl_delivery d
+          JOIN wpl_match m ON d.match_id = m.match_id
+          WHERE ${whereClause}
+            AND d.player_dismissed IS NOT NULL
+            AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket', 'run out', 'retired out', 'obstructing the field', 'hit the ball twice', 'handled the ball', 'timed out')
+        ),
+        stats AS (
+          SELECT
+            bs.*,
+            COALESCE(bd.is_dismissed, 0) AS is_dismissed
+          FROM batter_stats bs
+          LEFT JOIN batter_dismissals bd 
+            ON bs.match_id = bd.match_id AND bs.innings = bd.innings AND bs.player = bd.player
+        )
+      `;
+
+  const sql = Prisma.sql`
+    WITH ${statsCTE}
+    SELECT ${selectClause}
+    FROM stats
     ${groupByClause}
     ${orderBy}
     LIMIT ${pagination.pageSize} OFFSET ${offset}
   `;
 
-  const groupedSubquery =
-    groupByParts.length > 0
-      ? Prisma.sql`
-          SELECT 1
-          FROM delivery_cte d
-          ${groupByClause}
-        `
-      : Prisma.sql`
-          SELECT 1
-          FROM delivery_cte d
-        `;
-
   const countSql = Prisma.sql`
-    WITH delivery_cte AS (
-      SELECT
-        d.*,
-        m.season,
-        m.start_date,
-        m.venue,
-        mi.city,
-        mi.toss_winner,
-        mi.toss_decision,
-        mi.winner AS match_winner,
-        ${STANDARDIZED_BATTING_TEAM_SQL} AS std_team
-      FROM wpl_delivery d
-      JOIN wpl_match m ON d.match_id = m.match_id
-      LEFT JOIN wpl_match_info mi ON m.match_id = mi.match_id
-      WHERE ${whereClause}
-    )
+    WITH ${statsCTE}
     SELECT COUNT(*)::int AS total
-    FROM (${groupedSubquery}) grouped
+    FROM (
+      SELECT 1
+      FROM stats
+      ${groupByClause}
+    ) grouped
   `;
 
-  return { sql: baseSql, countSql };
+  return { sql, countSql };
 }
 
 function buildTeamReportQuery(
@@ -654,9 +681,7 @@ function buildMatchReportQuery(
         );
         break;
       case 'ballsFaced':
-        selectCols.push(
-          Prisma.sql`COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) AS ballsFaced`,
-        );
+        selectCols.push(Prisma.sql`COUNT(*) FILTER (WHERE d.wides = 0) AS ballsFaced`);
         break;
       case 'ballsBowled':
         selectCols.push(
@@ -670,7 +695,7 @@ function buildMatchReportQuery(
         break;
       case 'strikeRate':
         selectCols.push(
-          Prisma.sql`CASE WHEN COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) > 0 THEN ROUND((SUM(d.runs_off_bat)::numeric / COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0)) * 100, 2) ELSE 0 END AS strikeRate`,
+          Prisma.sql`CASE WHEN COUNT(*) FILTER (WHERE d.wides = 0) > 0 THEN ROUND((SUM(d.runs_off_bat)::numeric / COUNT(*) FILTER (WHERE d.wides = 0)) * 100, 2) ELSE 0 END AS strikeRate`,
         );
         break;
       default:
