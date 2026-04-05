@@ -248,12 +248,7 @@ export default function StatExplorerBuilder() {
             <Spinner size="lg" />
           </div>
         ) : resultsData ? (
-          <StatExplorerResults
-            data={resultsData}
-            page={page}
-            pageSize={pageSize}
-            onPageChange={handlePageChange}
-          />
+          <StatExplorerResults data={resultsData} page={page} onPageChange={handlePageChange} />
         ) : null}
       </div>
     </div>

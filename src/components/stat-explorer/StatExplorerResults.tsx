@@ -16,14 +16,12 @@ import { useMemo } from 'react';
 interface StatExplorerResultsProps {
   data: StatExplorerResult & { columns: Array<{ key: string; label: string; isNumeric: boolean }> };
   page: number;
-  pageSize: number;
   onPageChange: (page: number) => void;
 }
 
 export default function StatExplorerResults({
   data,
   page,
-  pageSize: _pageSize,
   onPageChange,
 }: StatExplorerResultsProps) {
   const { data: rows, columns, totalRows, totalPages } = data;

@@ -1,4 +1,4 @@
-import type { StatExplorerReportType } from '@/lib/stat-explorer/contracts';
+import { StatExplorerReportType } from '@/lib/stat-explorer/contracts';
 import { getFilterOptions } from '@/lib/stat-explorer/options';
 import { validateLeague } from '@/lib/validation/league';
 import { NextResponse } from 'next/server';
@@ -7,7 +7,19 @@ export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
     const league = validateLeague(searchParams.get('league'));
-    const reportType = (searchParams.get('reportType') || 'batting') as StatExplorerReportType;
+
+    const parsedReportType = StatExplorerReportType.safeParse(
+      searchParams.get('reportType') || 'batting',
+    );
+
+    if (!parsedReportType.success) {
+      return NextResponse.json(
+        { error: 'Invalid reportType', details: parsedReportType.error.flatten() },
+        { status: 400 },
+      );
+    }
+
+    const reportType = parsedReportType.data;
 
     const options = await getFilterOptions(league, reportType);
 

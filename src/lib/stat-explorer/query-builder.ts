@@ -94,15 +94,16 @@ function buildWhereClause(
   }
 
   if (filters.resultFilter) {
+    const teamSql =
+      reportType === 'bowling'
+        ? Prisma.sql`d.bowling_team`
+        : Prisma.sql`${STANDARDIZED_BATTING_TEAM_SQL}`;
+
     if (filters.resultFilter === 'won') {
-      conditions.push(
-        Prisma.sql`mi.winner IS NOT NULL AND ${STANDARDIZED_BATTING_TEAM_SQL} = mi.winner`,
-      );
+      conditions.push(Prisma.sql`mi.winner IS NOT NULL AND ${teamSql} = mi.winner`);
     } else if (filters.resultFilter === 'lost') {
-      conditions.push(
-        Prisma.sql`mi.winner IS NOT NULL AND ${STANDARDIZED_BATTING_TEAM_SQL} != mi.winner`,
-      );
-    } else {
+      conditions.push(Prisma.sql`mi.winner IS NOT NULL AND ${teamSql} != mi.winner`);
+    } else if (filters.resultFilter === 'noresult') {
       conditions.push(Prisma.sql`mi.winner IS NULL`);
     }
   }
@@ -369,6 +370,7 @@ function buildBattingBowlingQuery(
           SELECT d.match_id, d.innings, d.player_dismissed AS player, 1 AS is_dismissed
           FROM wpl_delivery d
           JOIN wpl_match m ON d.match_id = m.match_id
+          LEFT JOIN wpl_match_info mi ON m.match_id = mi.match_id
           WHERE ${whereClause}
             AND d.player_dismissed IS NOT NULL
             AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket', 'run out', 'retired out', 'obstructing the field', 'hit the ball twice', 'handled the ball', 'timed out')
@@ -559,12 +561,12 @@ function buildTeamReportQuery(
       WHERE ${whereClause} AND d.innings <= 2
     ),
     runs_per_innings AS (
-      SELECT match_id, innings, batting_team, SUM(runs_off_bat + extras) AS runs
-      FROM delivery_std
-      GROUP BY match_id, innings, batting_team
+      SELECT match_id, innings, ${STANDARDIZED_BATTING_TEAM_SQL} AS std_team, SUM(runs_off_bat + extras) AS runs
+      FROM delivery_std d
+      GROUP BY match_id, innings, ${STANDARDIZED_BATTING_TEAM_SQL}
     ),
     match_totals AS (
-      SELECT r1.match_id, r1.batting_team AS team1, r1.runs AS runs1, r2.batting_team AS team2, r2.runs AS runs2
+      SELECT r1.match_id, r1.std_team AS team1, r1.runs AS runs1, r2.std_team AS team2, r2.runs AS runs2
       FROM runs_per_innings r1
       JOIN runs_per_innings r2 ON r1.match_id = r2.match_id AND r1.innings = 1 AND r2.innings = 2
     ),
@@ -631,8 +633,14 @@ function buildMatchReportQuery(
   }
   if (filters.resultFilter) {
     if (filters.resultFilter === 'won') {
-      conditions.push(Prisma.sql`mi.winner IS NOT NULL`);
+      conditions.push(
+        Prisma.sql`mi.winner IS NOT NULL AND mi.winner = ${STANDARDIZED_BATTING_TEAM_SQL}`,
+      );
     } else if (filters.resultFilter === 'lost') {
+      conditions.push(
+        Prisma.sql`mi.winner IS NOT NULL AND mi.winner != ${STANDARDIZED_BATTING_TEAM_SQL}`,
+      );
+    } else if (filters.resultFilter === 'noresult') {
       conditions.push(Prisma.sql`mi.winner IS NULL`);
     }
   }
