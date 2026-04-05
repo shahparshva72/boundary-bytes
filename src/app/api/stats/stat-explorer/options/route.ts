@@ -3,14 +3,15 @@ import { getFilterOptions } from '@/lib/stat-explorer/options';
 import { validateLeague } from '@/lib/validation/league';
 import { NextResponse } from 'next/server';
 
+export const runtime = 'nodejs';
+
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
     const league = validateLeague(searchParams.get('league'));
+    const reportTypeParam = searchParams.get('reportType') ?? 'batting';
 
-    const parsedReportType = StatExplorerReportType.safeParse(
-      searchParams.get('reportType') || 'batting',
-    );
+    const parsedReportType = StatExplorerReportType.safeParse(reportTypeParam);
 
     if (!parsedReportType.success) {
       return NextResponse.json(

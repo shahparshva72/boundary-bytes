@@ -1,5 +1,5 @@
 import { prisma } from '@/lib/prisma';
-import type { StatExplorerReportType } from '@/lib/stat-explorer/contracts';
+import type { StatExplorerReportType, StatExplorerResult } from '@/lib/stat-explorer/contracts';
 import { StatExplorerRunRequestSchema } from '@/lib/stat-explorer/contracts';
 import {
   buildStatExplorerQuery,
@@ -9,6 +9,76 @@ import {
 } from '@/lib/stat-explorer/query-builder';
 import { VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
 import { NextResponse } from 'next/server';
+
+export const runtime = 'nodejs';
+
+const DIMENSION_LABELS: Record<string, string> = {
+  season: 'Season',
+  player: 'Player',
+  team: 'Team',
+  opposition: 'Opposition',
+  venue: 'Venue',
+  city: 'City',
+  tossWinner: 'Toss Winner',
+  tossDecision: 'Toss Decision',
+  result: 'Result',
+  date: 'Date',
+  innings: 'Innings',
+};
+
+const METRIC_LABELS: Record<string, string> = {
+  runs: 'Runs',
+  ballsFaced: 'Balls Faced',
+  innings: 'Innings',
+  notOuts: 'Not Outs',
+  highestScore: 'Highest Score',
+  fours: 'Fours',
+  sixes: 'Sixes',
+  fifties: '50s',
+  hundreds: '100s',
+  strikeRate: 'Strike Rate',
+  average: 'Average',
+  dismissals: 'Dismissals',
+  dotBalls: 'Dot Balls',
+  wickets: 'Wickets',
+  ballsBowled: 'Balls Bowled',
+  runsConceded: 'Runs Conceded',
+  economyRate: 'Economy Rate',
+  bowlingAverage: 'Bowling Average',
+  bowlingStrikeRate: 'Bowling SR',
+  fourWickets: '4 Wickets',
+  fiveWickets: '5 Wickets',
+  matchesPlayed: 'Matches',
+  wins: 'Wins',
+  losses: 'Losses',
+  winPct: 'Win %',
+  matches: 'Matches',
+  winsBattingFirst: 'Batting 1st Wins',
+  winsBattingSecond: 'Batting 2nd Wins',
+};
+
+function buildLowerCaseLabelMap(labels: Record<string, string>): Record<string, string> {
+  return Object.fromEntries(
+    Object.entries(labels).map(([key, label]) => [key.toLowerCase(), label]),
+  );
+}
+
+const LOWER_DIMENSION_LABELS = buildLowerCaseLabelMap(DIMENSION_LABELS);
+const LOWER_METRIC_LABELS = buildLowerCaseLabelMap(METRIC_LABELS);
+
+function buildColumns(dataRows: Record<string, unknown>[]): StatExplorerResult['columns'] {
+  const firstRowKeys = dataRows.length > 0 ? Object.keys(dataRows[0]) : [];
+
+  return firstRowKeys.map((key) => {
+    const lowerKey = key.toLowerCase();
+
+    return {
+      key,
+      label: LOWER_DIMENSION_LABELS[lowerKey] || LOWER_METRIC_LABELS[lowerKey] || key,
+      isNumeric: LOWER_METRIC_LABELS[lowerKey] !== undefined,
+    };
+  });
+}
 
 export async function POST(request: Request) {
   try {
@@ -50,68 +120,7 @@ export async function POST(request: Request) {
     const convertedData = convertBigIntRows(dataRows);
     const totalRows = countRows.length > 0 ? Number(countRows[0].total) : 0;
     const totalPages = Math.ceil(totalRows / pagination.pageSize);
-
-    const dimensionLabels: Record<string, string> = {
-      season: 'Season',
-      player: 'Player',
-      team: 'Team',
-      opposition: 'Opposition',
-      venue: 'Venue',
-      city: 'City',
-      tossWinner: 'Toss Winner',
-      tossDecision: 'Toss Decision',
-      result: 'Result',
-      date: 'Date',
-      innings: 'Innings',
-    };
-
-    const metricLabels: Record<string, string> = {
-      runs: 'Runs',
-      ballsFaced: 'Balls Faced',
-      innings: 'Innings',
-      notOuts: 'Not Outs',
-      highestScore: 'Highest Score',
-      fours: 'Fours',
-      sixes: 'Sixes',
-      fifties: '50s',
-      hundreds: '100s',
-      strikeRate: 'Strike Rate',
-      average: 'Average',
-      dismissals: 'Dismissals',
-      dotBalls: 'Dot Balls',
-      wickets: 'Wickets',
-      ballsBowled: 'Balls Bowled',
-      runsConceded: 'Runs Conceded',
-      economyRate: 'Economy Rate',
-      bowlingAverage: 'Bowling Average',
-      bowlingStrikeRate: 'Bowling SR',
-      fourWickets: '4 Wickets',
-      fiveWickets: '5 Wickets',
-      matchesPlayed: 'Matches',
-      wins: 'Wins',
-      losses: 'Losses',
-      winPct: 'Win %',
-      matches: 'Matches',
-      winsBattingFirst: 'Batting 1st Wins',
-      winsBattingSecond: 'Batting 2nd Wins',
-    };
-
-    const lowerDimensionLabels = Object.fromEntries(
-      Object.entries(dimensionLabels).map(([k, v]) => [k.toLowerCase(), v]),
-    );
-    const lowerMetricLabels = Object.fromEntries(
-      Object.entries(metricLabels).map(([k, v]) => [k.toLowerCase(), v]),
-    );
-
-    const allKeys = dataRows.length > 0 ? Object.keys(dataRows[0]) : [];
-    const columns = allKeys.map((key) => {
-      const lowerKey = key.toLowerCase();
-      return {
-        key,
-        label: lowerDimensionLabels[lowerKey] || lowerMetricLabels[lowerKey] || key,
-        isNumeric: lowerMetricLabels[lowerKey] !== undefined,
-      };
-    });
+    const columns = buildColumns(dataRows);
 
     return NextResponse.json({
       data: convertedData,

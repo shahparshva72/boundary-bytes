@@ -18,6 +18,37 @@ function standardizeTeam(team: string): string {
   return map[team] || team;
 }
 
+const NON_SORTABLE_COLUMN_KEYS = new Set(['player', 'team']);
+
+function buildOrderByClause(
+  sort: StatExplorerRunRequest['sort'],
+  allowedSortColumns: string[],
+  defaultOrderBy: Prisma.Sql,
+): Prisma.Sql {
+  if (!sort) {
+    return defaultOrderBy;
+  }
+
+  const normalizedSortKey = sort.key.toLowerCase();
+  if (NON_SORTABLE_COLUMN_KEYS.has(normalizedSortKey)) {
+    return defaultOrderBy;
+  }
+
+  let matchedSortKey: string | null = null;
+  for (const column of allowedSortColumns) {
+    if (column.toLowerCase() === normalizedSortKey) {
+      matchedSortKey = column;
+      break;
+    }
+  }
+
+  if (!matchedSortKey) {
+    return defaultOrderBy;
+  }
+
+  return Prisma.sql`ORDER BY ${Prisma.raw(matchedSortKey)} ${Prisma.raw(sort.direction === 'asc' ? 'ASC' : 'DESC')}`;
+}
+
 function buildWhereClause(
   reportType: StatExplorerReportType,
   filters: StatExplorerRunRequest['filters'],
@@ -247,40 +278,52 @@ function buildBattingBowlingQuery(
   }
 
   const selectDimParts: Prisma.Sql[] = [];
+  const dimensionSortColumns: string[] = [];
   for (const dim of dimensions) {
     switch (dim) {
       case 'season':
         selectDimParts.push(Prisma.sql`stats.season AS season`);
+        dimensionSortColumns.push('season');
         break;
       case 'player':
         selectDimParts.push(Prisma.sql`stats.player AS player`);
+        dimensionSortColumns.push('player');
         break;
       case 'team':
         selectDimParts.push(Prisma.sql`stats.team AS team`);
+        dimensionSortColumns.push('team');
         break;
       case 'opposition':
         selectDimParts.push(Prisma.sql`stats.opposition AS opposition`);
+        dimensionSortColumns.push('opposition');
         break;
       case 'venue':
         selectDimParts.push(Prisma.sql`stats.venue AS venue`);
+        dimensionSortColumns.push('venue');
         break;
       case 'city':
         selectDimParts.push(Prisma.sql`stats.city AS city`);
+        dimensionSortColumns.push('city');
         break;
       case 'tossWinner':
         selectDimParts.push(Prisma.sql`stats.toss_winner AS tossWinner`);
+        dimensionSortColumns.push('tossWinner');
         break;
       case 'tossDecision':
         selectDimParts.push(Prisma.sql`stats.toss_decision AS tossDecision`);
+        dimensionSortColumns.push('tossDecision');
         break;
       case 'result':
         selectDimParts.push(Prisma.sql`stats.match_winner AS result`);
+        dimensionSortColumns.push('result');
         break;
       case 'date':
         selectDimParts.push(Prisma.sql`stats.start_date::date AS date_col`);
+        dimensionSortColumns.push('date_col');
         break;
       case 'innings':
         selectDimParts.push(Prisma.sql`stats.innings AS innings`);
+        dimensionSortColumns.push('innings');
         break;
     }
   }
@@ -299,12 +342,9 @@ function buildBattingBowlingQuery(
     groupByClause = Prisma.sql``;
   }
 
-  let orderBy: Prisma.Sql;
-  if (sort) {
-    orderBy = Prisma.sql`ORDER BY ${Prisma.raw(sort.metric)} ${Prisma.raw(sort.direction === 'asc' ? 'ASC' : 'DESC')}`;
-  } else {
-    orderBy = Prisma.sql`ORDER BY ${Prisma.raw(metrics[0])} DESC`;
-  }
+  const allowedSortColumns = [...dimensionSortColumns, ...metrics];
+  const defaultOrderBy = Prisma.sql`ORDER BY ${Prisma.raw(metrics[0])} DESC`;
+  const orderBy = buildOrderByClause(sort, allowedSortColumns, defaultOrderBy);
 
   const selectClause = allSelectParts.reduce((acc, part, i) => {
     if (i === 0) {
@@ -465,12 +505,20 @@ function buildTeamReportQuery(
     groupByClause = Prisma.sql``;
   }
 
-  let orderBy: Prisma.Sql;
-  if (sort) {
-    orderBy = Prisma.sql`ORDER BY ${Prisma.raw(sort.metric)} ${Prisma.raw(sort.direction === 'asc' ? 'ASC' : 'DESC')}`;
-  } else {
-    orderBy = Prisma.sql`ORDER BY ${Prisma.raw(metrics[0])} DESC`;
-  }
+  const allowedSortColumns = [
+    ...(teamDim ? ['team'] : []),
+    ...(seasonDim ? ['season'] : []),
+    ...(venueDim ? ['venue'] : []),
+    ...(cityDim ? ['city'] : []),
+    'matchesPlayed',
+    'wins',
+    'losses',
+    'winPct',
+    'winsBattingFirst',
+    'winsBattingSecond',
+  ];
+  const defaultOrderBy = Prisma.sql`ORDER BY ${Prisma.raw(metrics[0])} DESC`;
+  const orderBy = buildOrderByClause(sort, allowedSortColumns, defaultOrderBy);
 
   const teamSelect = teamDim ? Prisma.sql`t.std_team AS team,` : Prisma.sql``;
   const seasonSelect = seasonDim ? Prisma.sql`m.season AS season,` : Prisma.sql``;
@@ -718,12 +766,19 @@ function buildMatchReportQuery(
     return Prisma.sql`${acc},\n${part}`;
   }, selectCols[0] as Prisma.Sql);
 
-  let orderBy: Prisma.Sql;
-  if (sort) {
-    orderBy = Prisma.sql`ORDER BY ${Prisma.raw(sort.metric)} ${Prisma.raw(sort.direction === 'asc' ? 'ASC' : 'DESC')}`;
-  } else {
-    orderBy = Prisma.sql`ORDER BY m.start_date DESC`;
-  }
+  const allowedSortColumns = [
+    'match_id',
+    'season',
+    'start_date',
+    'venue',
+    'city',
+    'toss_winner',
+    'toss_decision',
+    'winner',
+    ...metrics,
+  ];
+  const defaultOrderBy = Prisma.sql`ORDER BY m.start_date DESC`;
+  const orderBy = buildOrderByClause(sort, allowedSortColumns, defaultOrderBy);
 
   const sql = Prisma.sql`
     SELECT ${selectClause}

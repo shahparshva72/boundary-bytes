@@ -54,6 +54,12 @@ export type StatExplorerMetric = z.infer<typeof StatExplorerMetric>;
 export const StatExplorerSortDirection = z.enum(['asc', 'desc']);
 export type StatExplorerSortDirection = z.infer<typeof StatExplorerSortDirection>;
 
+export const StatExplorerSortSchema = z.object({
+  key: z.string(),
+  direction: StatExplorerSortDirection,
+});
+export type StatExplorerSort = z.infer<typeof StatExplorerSortSchema>;
+
 export const StatExplorerResultFilter = z.enum(['won', 'lost', 'noresult']);
 export type StatExplorerResultFilter = z.infer<typeof StatExplorerResultFilter>;
 
@@ -89,12 +95,7 @@ export const StatExplorerRunRequestSchema = z.object({
     minWickets: z.number().int().min(0).optional(),
     maxWickets: z.number().int().min(0).optional(),
   }),
-  sort: z
-    .object({
-      metric: StatExplorerMetric,
-      direction: StatExplorerSortDirection,
-    })
-    .optional(),
+  sort: StatExplorerSortSchema.optional(),
   pagination: z
     .object({
       page: z.number().int().min(1).default(1),

@@ -2,7 +2,11 @@
 
 import { Badge, Button, Card, CardContent, SectionHeader, Spinner } from '@/components/ui';
 import { useStatExplorerOptions, useStatExplorerQuery } from '@/hooks/useStatExplorer';
-import type { StatExplorerReportType, StatExplorerRunRequest } from '@/lib/stat-explorer/contracts';
+import type {
+  StatExplorerReportType,
+  StatExplorerRunRequest,
+  StatExplorerSortDirection,
+} from '@/lib/stat-explorer/contracts';
 import {
   DEFAULT_DIMENSIONS,
   DEFAULT_METRICS,
@@ -16,11 +20,13 @@ import {
   useQueryState,
   useQueryStates,
 } from 'nuqs';
-import { useMemo, useState } from 'react';
+import { useCallback, useMemo } from 'react';
 import StatExplorerFilters from './StatExplorerFilters';
 import StatExplorerResults from './StatExplorerResults';
+import type { StatExplorerSortState } from './sorting';
 
 const REPORT_TYPES: StatExplorerReportType[] = ['batting', 'bowling', 'team', 'match'];
+const PAGE_SIZE = 50;
 
 export default function StatExplorerBuilder() {
   const [reportType, setReportType] = useQueryState(
@@ -80,7 +86,11 @@ export default function StatExplorerBuilder() {
   }, [filters]);
 
   const [page, setPage] = useQueryState('page', parseAsInteger.withDefault(1));
-  const [pageSize] = useState(50);
+
+  const [sortParams, setSortParams] = useQueryStates({
+    sortBy: parseAsString,
+    sortDir: parseAsStringEnum<StatExplorerSortDirection>(['asc', 'desc']),
+  });
 
   const { data: optionsData, isLoading: optionsLoading } = useStatExplorerOptions(reportType);
   const options = optionsData?.options;
@@ -91,9 +101,13 @@ export default function StatExplorerBuilder() {
       dimensions: dimensions as StatExplorerRunRequest['dimensions'],
       metrics: metrics as StatExplorerRunRequest['metrics'],
       filters: cleanFilters,
-      pagination: { page, pageSize },
+      sort:
+        sortParams.sortBy && sortParams.sortDir
+          ? { key: sortParams.sortBy, direction: sortParams.sortDir }
+          : undefined,
+      pagination: { page, pageSize: PAGE_SIZE },
     }),
-    [reportType, dimensions, metrics, cleanFilters, page, pageSize],
+    [reportType, dimensions, metrics, cleanFilters, sortParams.sortBy, sortParams.sortDir, page],
   );
 
   const {
@@ -104,8 +118,7 @@ export default function StatExplorerBuilder() {
     isFetching: isResultsFetching,
   } = useStatExplorerQuery(currentRequest);
 
-  const handleReportTypeChange = (newType: StatExplorerReportType) => {
-    setReportType(newType);
+  const resetSelections = useCallback(() => {
     setDimensions(null);
     setMetrics(null);
     setFilters({
@@ -118,12 +131,67 @@ export default function StatExplorerBuilder() {
       tossDecisions: null,
       innings: null,
     });
+    setSortParams({ sortBy: null, sortDir: null });
     setPage(1);
-  };
+  }, [setDimensions, setMetrics, setFilters, setSortParams, setPage]);
 
-  const handlePageChange = (newPage: number) => {
-    setPage(newPage);
-  };
+  const handleReportTypeChange = useCallback(
+    (newType: StatExplorerReportType) => {
+      setReportType(newType);
+      resetSelections();
+    },
+    [setReportType, resetSelections],
+  );
+
+  const handlePageChange = useCallback(
+    (newPage: number) => {
+      setPage(newPage);
+    },
+    [setPage],
+  );
+
+  const handleDimensionsChange = useCallback(
+    (nextDimensions: string[]) => {
+      setDimensions(nextDimensions.length ? nextDimensions : null);
+      setPage(1);
+    },
+    [setDimensions, setPage],
+  );
+
+  const handleMetricsChange = useCallback(
+    (nextMetrics: string[]) => {
+      setMetrics(nextMetrics.length ? nextMetrics : null);
+      setPage(1);
+    },
+    [setMetrics, setPage],
+  );
+
+  const handleFiltersChange = useCallback(
+    (newFilters: StatExplorerRunRequest['filters']) => {
+      setFilters({
+        teams: newFilters.teams?.length ? newFilters.teams : null,
+        opposition: newFilters.opposition?.length ? newFilters.opposition : null,
+        seasons: newFilters.seasons?.length ? newFilters.seasons : null,
+        venues: newFilters.venues?.length ? newFilters.venues : null,
+        cities: newFilters.cities?.length ? newFilters.cities : null,
+        tossWinners: newFilters.tossWinners?.length ? newFilters.tossWinners : null,
+        tossDecisions: newFilters.tossDecisions?.length ? newFilters.tossDecisions : null,
+        innings: newFilters.innings?.length ? newFilters.innings : null,
+      });
+      setPage(1);
+    },
+    [setFilters, setPage],
+  );
+
+  const handleSortChange = useCallback(
+    (nextSortState: StatExplorerSortState) => {
+      setSortParams({
+        sortBy: nextSortState.key,
+        sortDir: nextSortState.direction,
+      });
+    },
+    [setSortParams],
+  );
 
   const activeFilterCount = useMemo(() => {
     const customDimsAndMetrics =
@@ -176,26 +244,9 @@ export default function StatExplorerBuilder() {
             dimensions={dimensions}
             metrics={metrics}
             filters={cleanFilters}
-            onDimensionsChange={(val) => {
-              setDimensions(val.length ? val : null);
-              setPage(1);
-            }}
-            onMetricsChange={(val) => {
-              setMetrics(val.length ? val : null);
-              setPage(1);
-            }}
-            onFiltersChange={(newFilters) => {
-              const updated = Object.entries(newFilters).reduce(
-                (acc, [k, v]) => {
-                  acc[k as keyof typeof newFilters] =
-                    Array.isArray(v) && v.length === 0 ? null : (v as unknown);
-                  return acc;
-                },
-                {} as Record<string, unknown>,
-              );
-              setFilters(updated);
-              setPage(1);
-            }}
+            onDimensionsChange={handleDimensionsChange}
+            onMetricsChange={handleMetricsChange}
+            onFiltersChange={handleFiltersChange}
           />
         ) : null}
 
@@ -206,21 +257,7 @@ export default function StatExplorerBuilder() {
             </div>
             <div className="flex gap-3 w-full sm:w-auto">
               <Button
-                onClick={() => {
-                  setDimensions(null);
-                  setMetrics(null);
-                  setFilters({
-                    teams: null,
-                    opposition: null,
-                    seasons: null,
-                    venues: null,
-                    cities: null,
-                    tossWinners: null,
-                    tossDecisions: null,
-                    innings: null,
-                  });
-                  setPage(1);
-                }}
+                onClick={resetSelections}
                 disabled={optionsLoading}
                 variant="outline"
                 size="md"
@@ -248,7 +285,14 @@ export default function StatExplorerBuilder() {
             <Spinner size="lg" />
           </div>
         ) : resultsData ? (
-          <StatExplorerResults data={resultsData} page={page} onPageChange={handlePageChange} />
+          <StatExplorerResults
+            data={resultsData}
+            page={page}
+            onPageChange={handlePageChange}
+            sortKey={sortParams.sortBy}
+            sortDirection={sortParams.sortDir}
+            onSortChange={handleSortChange}
+          />
         ) : null}
       </div>
     </div>

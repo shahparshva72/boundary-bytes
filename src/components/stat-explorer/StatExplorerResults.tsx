@@ -10,21 +10,39 @@ import {
   DataTableRow,
 } from '@/components/ui';
 import Pagination from '@/components/ui/Pagination';
-import type { StatExplorerResult } from '@/lib/stat-explorer/contracts';
+import type { StatExplorerResult, StatExplorerSortDirection } from '@/lib/stat-explorer/contracts';
+import { ChevronDown, ChevronUp } from 'lucide-react';
 import { useMemo } from 'react';
+import {
+  getNextSortState,
+  isColumnSortable,
+  resolveSortState,
+  type StatExplorerSortState,
+} from './sorting';
 
 interface StatExplorerResultsProps {
   data: StatExplorerResult & { columns: Array<{ key: string; label: string; isNumeric: boolean }> };
   page: number;
   onPageChange: (page: number) => void;
+  sortKey: string | null;
+  sortDirection: StatExplorerSortDirection | null;
+  onSortChange: (sortState: StatExplorerSortState) => void;
 }
 
 export default function StatExplorerResults({
   data,
   page,
   onPageChange,
+  sortKey,
+  sortDirection,
+  onSortChange,
 }: StatExplorerResultsProps) {
   const { data: rows, columns, totalRows, totalPages } = data;
+
+  const activeSortState = useMemo(
+    () => resolveSortState(columns, sortKey, sortDirection),
+    [columns, sortKey, sortDirection],
+  );
 
   const formattedRows = useMemo(() => {
     return rows.map((row) => {
@@ -46,6 +64,15 @@ export default function StatExplorerResults({
     });
   }, [rows]);
 
+  const handleSort = (columnKey: string) => {
+    if (!isColumnSortable(columnKey)) {
+      return;
+    }
+
+    const nextSortState = getNextSortState(columnKey, activeSortState);
+    onSortChange(nextSortState);
+  };
+
   const lastColumnIndex = columns.length - 1;
 
   return (
@@ -62,11 +89,54 @@ export default function StatExplorerResults({
       <DataTable minWidth="600px">
         <DataTableHeader color="teal">
           <tr>
-            {columns.map((col, i) => (
-              <DataTableHeadCell key={col.key} isLast={i === lastColumnIndex}>
-                {col.label}
-              </DataTableHeadCell>
-            ))}
+            {columns.map((col, i) => {
+              const sortable = isColumnSortable(col.key);
+              const activeSortDirection =
+                activeSortState?.key === col.key ? activeSortState.direction : null;
+
+              return (
+                <DataTableHeadCell
+                  key={col.key}
+                  isLast={i === lastColumnIndex}
+                  aria-sort={
+                    activeSortDirection === 'asc'
+                      ? 'ascending'
+                      : activeSortDirection === 'desc'
+                        ? 'descending'
+                        : 'none'
+                  }
+                >
+                  {sortable ? (
+                    <button
+                      type="button"
+                      onClick={() => handleSort(col.key)}
+                      className="flex items-center gap-1 w-full text-left cursor-pointer"
+                      aria-label={`Sort by ${col.label}`}
+                    >
+                      <span>{col.label}</span>
+                      <span className="flex flex-col leading-[0.7] text-[10px]">
+                        <ChevronUp
+                          className={`size-3 ${
+                            activeSortDirection === 'asc' ? 'text-black' : 'text-black/40'
+                          }`}
+                          strokeWidth={3}
+                          aria-hidden="true"
+                        />
+                        <ChevronDown
+                          className={`size-3 ${
+                            activeSortDirection === 'desc' ? 'text-black' : 'text-black/40'
+                          }`}
+                          strokeWidth={3}
+                          aria-hidden="true"
+                        />
+                      </span>
+                    </button>
+                  ) : (
+                    col.label
+                  )}
+                </DataTableHeadCell>
+              );
+            })}
           </tr>
         </DataTableHeader>
         <DataTableBody>
