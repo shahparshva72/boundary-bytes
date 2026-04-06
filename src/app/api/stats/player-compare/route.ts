@@ -1,5 +1,5 @@
 import { Prisma } from '@/generated/prisma/client';
-import { bowlerCreditedWicketTypesSql } from '@/lib/constants/wicket-types';
+import { allDismissalTypesSql, bowlerCreditedWicketTypesSql } from '@/lib/constants/wicket-types';
 import { prisma } from '@/lib/prisma';
 import { VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
 import { NextRequest, NextResponse } from 'next/server';
@@ -119,15 +119,47 @@ export async function GET(request: NextRequest) {
             d.match_id,
             d.innings,
             SUM(d.runs_off_bat) as innings_runs,
-            MAX(CASE WHEN d.player_dismissed = d.striker THEN 1 ELSE 0 END) as was_out
+            COUNT(*) FILTER (WHERE d.runs_off_bat = 4) as fours,
+            COUNT(*) FILTER (WHERE d.runs_off_bat = 6) as sixes,
+            COUNT(*) FILTER (WHERE d.wides = 0) as balls_faced
           FROM wpl_delivery d
           JOIN wpl_match m ON d.match_id = m.match_id
-          WHERE d.striker = ANY(${uniquePlayers}::text[]) 
-            AND m.league = ${league} 
+          WHERE d.striker = ANY(${uniquePlayers}::text[])
+            AND m.league = ${league}
             AND d.innings <= 2
             ${seasonFilter}
             ${teamFilterBatting}
           GROUP BY d.striker, d.match_id, d.innings
+        ),
+        dismissals_data AS (
+          SELECT
+            d.player_dismissed as player,
+            d.match_id,
+            d.innings,
+            1 as was_out
+          FROM wpl_delivery d
+          JOIN wpl_match m ON d.match_id = m.match_id
+          WHERE d.player_dismissed = ANY(${uniquePlayers}::text[])
+            AND m.league = ${league}
+            AND d.innings <= 2
+            AND d.wicket_type IN (${allDismissalTypesSql})
+            ${seasonFilter}
+            ${teamFilterBatting}
+          GROUP BY d.player_dismissed, d.match_id, d.innings
+        ),
+        combined_innings AS (
+          SELECT
+            i.striker,
+            i.match_id,
+            i.innings,
+            i.innings_runs,
+            i.fours,
+            i.sixes,
+            i.balls_faced,
+            COALESCE(dd.was_out, 0) as was_out
+          FROM innings_data i
+          LEFT JOIN dismissals_data dd 
+            ON i.striker = dd.player AND i.match_id = dd.match_id AND i.innings = dd.innings
         ),
         innings_agg AS (
           SELECT
@@ -137,31 +169,24 @@ export async function GET(request: NextRequest) {
             MAX(innings_runs) as highest_score,
             COUNT(*) FILTER (WHERE innings_runs >= 50 AND innings_runs < 100) as fifties,
             COUNT(*) FILTER (WHERE innings_runs >= 100) as hundreds
-          FROM innings_data
+          FROM combined_innings
           GROUP BY striker
         )
         SELECT
-          d.striker,
-          COALESCE(SUM(d.runs_off_bat), 0) as runs,
-          COUNT(*) FILTER (WHERE d.wides = 0) as balls_faced,
+          c.striker,
+          COALESCE(SUM(c.innings_runs), 0) as runs,
+          COALESCE(SUM(c.balls_faced), 0) as balls_faced,
           COALESCE(ia.innings, 0) as innings,
           COALESCE(ia.not_outs, 0) as not_outs,
           COALESCE(ia.highest_score, 0) as highest_score,
-          COUNT(*) FILTER (WHERE d.runs_off_bat = 4) as fours,
-          COUNT(*) FILTER (WHERE d.runs_off_bat = 6) as sixes,
+          COALESCE(SUM(c.fours), 0) as fours,
+          COALESCE(SUM(c.sixes), 0) as sixes,
           COALESCE(ia.fifties, 0) as fifties,
           COALESCE(ia.hundreds, 0) as hundreds
-        FROM wpl_delivery d
-        JOIN wpl_match m ON d.match_id = m.match_id
-        LEFT JOIN innings_agg ia ON d.striker = ia.striker
-        WHERE d.striker = ANY(${uniquePlayers}::text[]) 
-          AND m.league = ${league} 
-          AND d.innings <= 2
-          ${seasonFilter}
-          ${teamFilterBatting}
-        GROUP BY d.striker, ia.innings, ia.not_outs, ia.highest_score, ia.fifties, ia.hundreds
+        FROM combined_innings c
+        LEFT JOIN innings_agg ia ON c.striker = ia.striker
+        GROUP BY c.striker, ia.innings, ia.not_outs, ia.highest_score, ia.fifties, ia.hundreds
       `;
-
       for (const b of battingStats) {
         const runs = Number(b.runs);
         const ballsFaced = Number(b.balls_faced);
