@@ -1,3 +1,4 @@
+import { CACHE_TTL, getCached } from '@/lib/cache';
 import { prisma } from '@/lib/prisma';
 import { VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
 import { NextResponse } from 'next/server';
@@ -7,22 +8,18 @@ export async function GET(request: Request) {
     const { searchParams } = new URL(request.url);
     const league = validateLeague(searchParams.get('league'));
 
-    const batters = await prisma.wplDelivery.findMany({
-      where: {
-        match: {
-          league,
-        },
-      },
-      select: {
-        striker: true,
-      },
-      distinct: ['striker'],
-      orderBy: {
-        striker: 'asc',
-      },
+    // Query wpl_player table directly instead of scanning the massive wpl_delivery table.
+    // wpl_player has an index on player_name and is orders of magnitude smaller.
+    const batterNames = await getCached(`batters:${league}`, CACHE_TTL.SHORT, async () => {
+      const batters = await prisma.$queryRaw<Array<{ player_name: string }>>`
+        SELECT DISTINCT p.player_name
+        FROM wpl_player p
+        JOIN wpl_match_info mi ON p.match_id = mi.match_id
+        WHERE mi.league = ${league}
+        ORDER BY p.player_name
+      `;
+      return batters.map((b) => b.player_name);
     });
-
-    const batterNames = batters.map((b) => b.striker);
 
     return NextResponse.json({
       data: batterNames,

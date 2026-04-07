@@ -17,53 +17,43 @@ export async function GET(
       return NextResponse.json({ error: 'Invalid match ID' }, { status: 400 });
     }
 
-    // First, get match info and verify league
+    // Get match info from wpl_match_info + wpl_team (avoids scanning wpl_delivery for team names)
     const matchInfo = await prisma.$queryRaw<
       Array<{
         match_id: number;
         league: string;
         season: string;
-        start_date: Date;
+        date: Date;
         venue: string;
         teams: string;
       }>
     >`
-      WITH match_teams AS (
-        SELECT
-          m.match_id,
-          m.league,
-          m.season,
-          m.start_date,
-          m.venue,
-          STRING_AGG(DISTINCT
-            CASE
-              WHEN d.batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
-              WHEN d.batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
-              WHEN d.batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
-              WHEN d.batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
-              ELSE d.batting_team
-            END, ' vs ' ORDER BY
-            CASE
-              WHEN d.batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
-              WHEN d.batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
-              WHEN d.batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
-              WHEN d.batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
-              ELSE d.batting_team
-            END
-          ) as teams
-        FROM wpl_match m
-        JOIN wpl_delivery d ON d.match_id = m.match_id
-        WHERE m.match_id = ${matchIdNum} AND m.league = ${league}
-        GROUP BY m.match_id, m.league, m.season, m.start_date, m.venue
-      )
       SELECT
-        match_id,
-        league,
-        season,
-        start_date,
-        venue,
-        teams
-      FROM match_teams
+        mi.match_id,
+        mi.league,
+        mi.season,
+        mi.date,
+        mi.venue,
+        STRING_AGG(DISTINCT
+          CASE
+            WHEN t.team_name = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+            WHEN t.team_name = 'Delhi Daredevils' THEN 'Delhi Capitals'
+            WHEN t.team_name = 'Kings XI Punjab' THEN 'Punjab Kings'
+            WHEN t.team_name = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
+            ELSE t.team_name
+          END, ' vs ' ORDER BY
+          CASE
+            WHEN t.team_name = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
+            WHEN t.team_name = 'Delhi Daredevils' THEN 'Delhi Capitals'
+            WHEN t.team_name = 'Kings XI Punjab' THEN 'Punjab Kings'
+            WHEN t.team_name = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
+            ELSE t.team_name
+          END
+        ) as teams
+      FROM wpl_match_info mi
+      JOIN wpl_team t ON mi.match_id = t.match_id
+      WHERE mi.match_id = ${matchIdNum} AND mi.league = ${league}
+      GROUP BY mi.match_id, mi.league, mi.season, mi.date, mi.venue
     `;
 
     if (matchInfo.length === 0) {
@@ -78,7 +68,10 @@ export async function GET(
       );
     }
 
-    // Get fall of wickets data
+    // Use window function for cumulative runs instead of O(n²) self-join.
+    // The old approach joined wpl_delivery to itself (d.ball <= wd.ball) to compute
+    // cumulative runs at each wicket — this is quadratic in the number of deliveries.
+    // Window functions compute the running sum in a single pass: O(n).
     const fallOfWicketsData = await prisma.$queryRaw<
       Array<{
         innings: number;
@@ -91,39 +84,41 @@ export async function GET(
         runs_at_fall: bigint;
       }>
     >`
-      WITH wicket_details AS (
+      WITH delivery_cumulative AS (
         SELECT
-          d.match_id,
           d.innings,
           d.ball,
-          d.player_dismissed,
-          d.wicket_type,
-          d.bowler,
           CASE
             WHEN d.batting_team = 'Royal Challengers Bengaluru' THEN 'Royal Challengers Bangalore'
             WHEN d.batting_team = 'Delhi Daredevils' THEN 'Delhi Capitals'
             WHEN d.batting_team = 'Kings XI Punjab' THEN 'Punjab Kings'
             WHEN d.batting_team = 'Rising Pune Supergiants' THEN 'Rising Pune Supergiant'
             ELSE d.batting_team
-          END as batting_team,
-          ROW_NUMBER() OVER (PARTITION BY d.match_id, d.innings ORDER BY d.ball) as wicket_number
+          END AS batting_team,
+          d.player_dismissed,
+          d.wicket_type,
+          d.bowler,
+          SUM(d.runs_off_bat + d.extras) OVER (
+            PARTITION BY d.innings
+            ORDER BY d.ball
+            ROWS UNBOUNDED PRECEDING
+          ) AS cumulative_runs
         FROM wpl_delivery d
-        JOIN wpl_match m ON d.match_id = m.match_id
-        WHERE d.player_dismissed IS NOT NULL
-          AND d.match_id = ${matchIdNum}
-          AND m.league = ${league}
-          AND d.innings <= 2
-          AND d.wicket_type IN (${allDismissalTypesSql})
+        WHERE d.match_id = ${matchIdNum} AND d.innings <= 2
       ),
-      runs_at_wicket AS (
+      wickets_with_number AS (
         SELECT
-          wd.*,
-          SUM(d.runs_off_bat + d.extras) as runs_at_fall
-        FROM wicket_details wd
-        JOIN wpl_delivery d ON d.match_id = wd.match_id
-          AND d.innings = wd.innings
-          AND d.ball <= wd.ball
-        GROUP BY wd.match_id, wd.innings, wd.ball, wd.player_dismissed, wd.wicket_type, wd.bowler, wd.batting_team, wd.wicket_number
+          innings,
+          batting_team,
+          ball,
+          player_dismissed,
+          wicket_type,
+          bowler,
+          cumulative_runs AS runs_at_fall,
+          ROW_NUMBER() OVER (PARTITION BY innings ORDER BY ball) AS wicket_number
+        FROM delivery_cumulative
+        WHERE player_dismissed IS NOT NULL
+          AND wicket_type IN (${allDismissalTypesSql})
       )
       SELECT
         innings,
@@ -134,7 +129,7 @@ export async function GET(
         bowler,
         wicket_number,
         runs_at_fall
-      FROM runs_at_wicket
+      FROM wickets_with_number
       ORDER BY innings, wicket_number
     `;
 
@@ -180,7 +175,7 @@ export async function GET(
         league: matchInfo[0].league,
         teams: matchInfo[0].teams.split(' vs '),
         venue: matchInfo[0].venue,
-        date: matchInfo[0].start_date.toISOString().split('T')[0],
+        date: matchInfo[0].date.toISOString().split('T')[0],
         season: matchInfo[0].season,
       },
       innings: Object.values(inningsData),

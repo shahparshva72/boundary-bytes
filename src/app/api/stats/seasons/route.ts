@@ -1,3 +1,4 @@
+import { CACHE_TTL, getCached } from '@/lib/cache';
 import { prisma } from '@/lib/prisma';
 import { VALID_LEAGUES, validateLeague } from '@/lib/validation/league';
 import { NextRequest, NextResponse } from 'next/server';
@@ -7,19 +8,22 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url);
     const league = validateLeague(searchParams.get('league'));
 
-    const seasons = await prisma.$queryRaw<{ season: string }[]>`
-      SELECT DISTINCT season 
-      FROM wpl_match_info 
-      WHERE league = ${league} 
-      ORDER BY season DESC
-    `;
+    const seasonList = await getCached(`seasons:${league}`, CACHE_TTL.LONG, async () => {
+      const seasons = await prisma.$queryRaw<{ season: string }[]>`
+        SELECT DISTINCT season 
+        FROM wpl_match_info 
+        WHERE league = ${league} 
+        ORDER BY season DESC
+      `;
+      return seasons.map((s) => s.season);
+    });
 
     return NextResponse.json({
-      seasons: seasons.map((s) => s.season),
+      seasons: seasonList,
       league,
       metadata: {
         availableLeagues: VALID_LEAGUES,
-        totalSeasons: seasons.length,
+        totalSeasons: seasonList.length,
       },
     });
   } catch (error) {
