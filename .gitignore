@@ -48,3 +48,7 @@ next-env.d.ts
 .idea/
 .vscode/
 docs/
+
+.agents/
+
+skills-lock.json

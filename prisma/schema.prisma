@@ -187,3 +187,27 @@ model AiChatRequest {
   @@index([createdAt])
   @@map("ai_chat_request")
 }
+
+// Player style lookup model based on boundary-bytes-parser/player_styles.csv
+model PlayerStyle {
+  identifier        String  @id @map("identifier")
+  keyCricinfo       Int     @unique @map("key_cricinfo")
+  name              String  @map("name")
+  fullName          String? @map("full_name")
+  battingHand       String? @map("batting_hand")
+  bowlingHand       String? @map("bowling_hand")
+  bowlingType       String? @map("bowling_type")
+  bowlingSubType    String? @map("bowling_sub_type")
+  playingRole       String  @map("playing_role")
+  playingRoleDetail String  @map("playing_role_detail")
+  battingStyleRaw   String? @map("batting_style_raw")
+  bowlingStyleRaw   String? @map("bowling_style_raw")
+
+  @@index([name])
+  @@index([fullName])
+  @@index([playingRole])
+  @@index([playingRoleDetail])
+  @@index([battingHand])
+  @@index([bowlingType])
+  @@map("player_style")
+}
