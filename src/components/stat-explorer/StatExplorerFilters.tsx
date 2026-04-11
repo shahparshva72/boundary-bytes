@@ -1,32 +1,67 @@
 'use client';
 
-import { Card, CardContent, CardHeader, MultiSelect } from '@/components/ui';
+import { Card, CardContent, CardHeader, MultiSelect, Select } from '@/components/ui';
 import type { SelectOption } from '@/components/ui/Select';
 import type {
   StatExplorerFilterOptions,
   StatExplorerReportType,
+  StatExplorerRunRequest,
 } from '@/lib/stat-explorer/contracts';
 import { DIMENSION_LABELS, METRIC_LABELS } from '@/lib/stat-explorer/registry';
 import { useMemo } from 'react';
+
+// Label maps for player style filter display
+const battingHandLabels: Record<string, string> = {
+  right: 'Right Hand',
+  left: 'Left Hand',
+};
+
+const bowlingTypeLabels: Record<string, string> = {
+  pace: 'Pace',
+  spin: 'Spin',
+};
+
+const bowlingSubTypeLabels: Record<string, string> = {
+  fast: 'Fast',
+  'fast-medium': 'Fast-Medium',
+  'medium-fast': 'Medium-Fast',
+  medium: 'Medium',
+  offbreak: 'Off Break',
+  legbreak: 'Leg Break',
+  'left-arm-orthodox': 'Left-arm Orthodox',
+  'left-arm-wrist-spin': 'Left-arm Wrist Spin',
+  slow: 'Slow',
+};
+
+// const playingRoleLabels: Record<string, string> = {
+//   batter: 'Batter',
+//   bowler: 'Bowler',
+//   allrounder: 'Allrounder',
+//   wicketkeeper: 'Wicketkeeper',
+// };
+
+// const playingRoleDetailLabels: Record<string, string> = {
+//   opening_batter: 'Opening Batter',
+//   top_order_batter: 'Top Order Batter',
+//   middle_order_batter: 'Middle Order Batter',
+//   batter: 'Batter',
+//   batting_allrounder: 'Batting Allrounder',
+//   bowling_allrounder: 'Bowling Allrounder',
+//   allrounder: 'Allrounder',
+//   bowler: 'Bowler',
+//   wicketkeeper_batter: 'Wicketkeeper Batter',
+//   wicketkeeper: 'Wicketkeeper',
+// };
 
 interface StatExplorerFiltersProps {
   reportType: StatExplorerReportType;
   options: StatExplorerFilterOptions;
   dimensions: string[];
   metrics: string[];
-  filters: {
-    teams?: string[];
-    opposition?: string[];
-    seasons?: string[];
-    venues?: string[];
-    cities?: string[];
-    tossWinners?: string[];
-    tossDecisions?: Array<'bat' | 'field'>;
-    innings?: Array<1 | 2>;
-  };
+  filters: StatExplorerRunRequest['filters'];
   onDimensionsChange: (dims: string[]) => void;
   onMetricsChange: (metrics: string[]) => void;
-  onFiltersChange: (filters: StatExplorerFiltersProps['filters']) => void;
+  onFiltersChange: (filters: StatExplorerRunRequest['filters']) => void;
 }
 
 export default function StatExplorerFilters({
@@ -155,15 +190,55 @@ export default function StatExplorerFilters({
     [filters.innings],
   );
 
-  const updateFilter = <K extends keyof StatExplorerFiltersProps['filters']>(
+  const bowlingSubTypeValues = useMemo(
+    () =>
+      (filters.bowlingSubType || []).map((v) => ({
+        value: v,
+        label: bowlingSubTypeLabels[v] || v,
+      })),
+    [filters.bowlingSubType],
+  );
+
+  const updateFilter = <K extends keyof StatExplorerRunRequest['filters']>(
     key: K,
-    value: StatExplorerFiltersProps['filters'][K],
+    value: StatExplorerRunRequest['filters'][K],
   ) => {
     onFiltersChange({
       ...filters,
       [key]: value,
     });
   };
+
+  // Player style filter options
+  const battingHandOptions: SelectOption[] = useMemo(
+    () =>
+      (options.battingHands || []).map((v) => ({
+        value: v,
+        label: battingHandLabels[v] || v,
+      })),
+    [options.battingHands],
+  );
+
+  const bowlingTypeOptions: SelectOption[] = useMemo(
+    () =>
+      (options.bowlingTypes || []).map((v) => ({
+        value: v,
+        label: bowlingTypeLabels[v] || v,
+      })),
+    [options.bowlingTypes],
+  );
+
+  const bowlingSubTypeOptions: SelectOption[] = useMemo(
+    () =>
+      (options.bowlingSubTypes || []).map((v) => ({
+        value: v,
+        label: bowlingSubTypeLabels[v] || v,
+      })),
+    [options.bowlingSubTypes],
+  );
+
+  // Show player style filters only for batting/bowling reports
+  const showPlayerStyleFilters = reportType === 'batting' || reportType === 'bowling';
 
   return (
     <div className="space-y-6">
@@ -380,6 +455,102 @@ export default function StatExplorerFilters({
           </CardContent>
         </Card>
       </div>
+
+      {showPlayerStyleFilters && (
+        <Card>
+          <CardHeader color="yellow">
+            <h3 className="text-sm font-black text-black uppercase">Player Style</h3>
+          </CardHeader>
+          <CardContent>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+              {reportType === 'batting' && (
+                <div>
+                  <label className="block text-xs font-black text-black uppercase mb-1">
+                    Batting Hand
+                  </label>
+                  <Select
+                    options={battingHandOptions}
+                    value={
+                      filters.battingHand
+                        ? {
+                            value: filters.battingHand!,
+                            label: battingHandLabels[filters.battingHand!] || filters.battingHand!,
+                          }
+                        : null
+                    }
+                    onChange={(val) =>
+                      updateFilter(
+                        'battingHand',
+                        (val?.value as StatExplorerRunRequest['filters']['battingHand']) ||
+                          undefined,
+                      )
+                    }
+                    placeholder="Any hand..."
+                    isClearable
+                    isSearchable={false}
+                    instanceId="stat-explorer-batting-hand"
+                  />
+                </div>
+              )}
+
+              {reportType === 'bowling' && (
+                <>
+                  <div>
+                    <label className="block text-xs font-black text-black uppercase mb-1">
+                      Bowling Type
+                    </label>
+                    <Select
+                      options={bowlingTypeOptions}
+                      value={
+                        filters.bowlingType
+                          ? {
+                              value: filters.bowlingType!,
+                              label:
+                                bowlingTypeLabels[filters.bowlingType!] || filters.bowlingType!,
+                            }
+                          : null
+                      }
+                      onChange={(val) =>
+                        updateFilter(
+                          'bowlingType',
+                          (val?.value as StatExplorerRunRequest['filters']['bowlingType']) ||
+                            undefined,
+                        )
+                      }
+                      placeholder="Any type..."
+                      isClearable
+                      isSearchable={false}
+                      instanceId="stat-explorer-bowling-type"
+                    />
+                  </div>
+
+                  <div className="sm:col-span-2 md:col-span-2 lg:col-span-4">
+                    <label className="block text-xs font-black text-black uppercase mb-1">
+                      Bowling Sub-Type
+                    </label>
+                    <MultiSelect
+                      options={bowlingSubTypeOptions}
+                      value={bowlingSubTypeValues}
+                      onChange={(vals) =>
+                        updateFilter(
+                          'bowlingSubType',
+                          vals.map(
+                            (v) => v.value,
+                          ) as StatExplorerRunRequest['filters']['bowlingSubType'],
+                        )
+                      }
+                      placeholder="Any sub-type..."
+                      maxSelections={5}
+                      isSearchable
+                      instanceId="stat-explorer-bowling-sub-type"
+                    />
+                  </div>
+                </>
+              )}
+            </div>
+          </CardContent>
+        </Card>
+      )}
     </div>
   );
 }

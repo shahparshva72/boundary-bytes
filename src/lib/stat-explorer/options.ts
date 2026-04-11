@@ -49,5 +49,32 @@ export async function getFilterOptions(league: string, reportType: StatExplorerR
     innings: [1, 2] as const,
     availableMetrics: ALLOWED_METRICS[reportType],
     availableDimensions: ALLOWED_DIMENSIONS[reportType],
+    // Player style filter options (static enums from ESPNcricinfo data)
+    battingHands: ['right', 'left'],
+    bowlingTypes: ['pace', 'spin'],
+    bowlingSubTypes: [
+      'fast',
+      'fast-medium',
+      'medium-fast',
+      'medium',
+      'offbreak',
+      'legbreak',
+      'left-arm-orthodox',
+      'left-arm-wrist-spin',
+      'slow',
+    ],
+    playingRoles: ['batter', 'bowler', 'allrounder', 'wicketkeeper'],
+    playingRoleDetails: [
+      'opening_batter',
+      'top_order_batter',
+      'middle_order_batter',
+      'batter',
+      'batting_allrounder',
+      'bowling_allrounder',
+      'allrounder',
+      'bowler',
+      'wicketkeeper_batter',
+      'wicketkeeper',
+    ],
   };
 }
