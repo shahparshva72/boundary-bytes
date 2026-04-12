@@ -19,6 +19,9 @@ export const StatExplorerDimension = z.enum([
   'battingHand',
   'bowlingType',
   'bowlingSubType',
+  'opponentBattingHand',
+  'opponentBowlingType',
+  'opponentBowlingSubType',
   'playingRole',
 ]);
 export type StatExplorerDimension = z.infer<typeof StatExplorerDimension>;
@@ -102,6 +105,23 @@ export const StatExplorerRunRequestSchema = z.object({
     battingHand: z.enum(['left', 'right']).optional(),
     bowlingType: z.enum(['pace', 'spin']).optional(),
     bowlingSubType: z
+      .array(
+        z.enum([
+          'fast',
+          'fast-medium',
+          'medium-fast',
+          'medium',
+          'offbreak',
+          'legbreak',
+          'left-arm-orthodox',
+          'left-arm-wrist-spin',
+          'slow',
+        ]),
+      )
+      .optional(),
+    opponentBattingHand: z.enum(['left', 'right']).optional(),
+    opponentBowlingType: z.enum(['pace', 'spin']).optional(),
+    opponentBowlingSubType: z
       .array(
         z.enum([
           'fast',

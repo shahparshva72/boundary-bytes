@@ -3,16 +3,49 @@
 import AiFeedback from '@/components/AiFeedback';
 import Tooltip from '@/components/ui/Tooltip';
 import { useLeagueContext } from '@/contexts/LeagueContext';
+import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 import { useTextToSql } from '@/hooks/useTextToSql';
+import { useQuery } from '@tanstack/react-query';
 import { useEffect, useState } from 'react';
 import { MoonLoader } from 'react-spinners';
 
+interface LatestMatchDateResponse {
+  league: string;
+  latestDate: string | null;
+}
+
+async function fetchLatestMatchDate(
+  fetchWithLeague: (endpoint: string, options?: RequestInit) => Promise<Response>,
+): Promise<LatestMatchDateResponse> {
+  const response = await fetchWithLeague('/api/stats/latest-match-date');
+  if (!response.ok) {
+    throw new Error('Failed to fetch latest match date');
+  }
+  return response.json();
+}
+
 export default function TextToSqlPage() {
   const { selectedLeague } = useLeagueContext();
+  const { fetchWithLeague } = useLeagueAPI();
   const { mutate, data, error, isPending, reset } = useTextToSql();
   const [question, setQuestion] = useState('');
   const [touched, setTouched] = useState(false);
   const [showSlowMsg, setShowSlowMsg] = useState(false);
+
+  const { data: latestMatchDateData } = useQuery({
+    queryKey: ['chatLatestMatchDate', selectedLeague],
+    queryFn: () => fetchLatestMatchDate(fetchWithLeague),
+    enabled: !!selectedLeague,
+    staleTime: 5 * 60 * 1000,
+  });
+
+  const latestMatchDateLabel = latestMatchDateData?.latestDate
+    ? new Intl.DateTimeFormat('en-US', {
+        day: 'numeric',
+        month: 'short',
+        year: 'numeric',
+      }).format(new Date(latestMatchDateData.latestDate))
+    : null;
 
   useEffect(() => {
     if (isPending) {
@@ -318,7 +351,7 @@ export default function TextToSqlPage() {
               className="flex flex-col gap-2 sm:gap-2.5 p-2 sm:p-3 md:p-4 bg-white border-2 border-black shadow-[2px_2px_0_#000] "
               aria-label="Cricket stats question form"
             >
-              <div className="flex items-center gap-1.5 mb-1 sm:mb-1.5">
+              <div className="flex flex-wrap items-center gap-1.5 mb-1 sm:mb-1.5">
                 <label htmlFor="question" className="text-base sm:text-lg font-bold">
                   Your Question
                 </label>
@@ -339,6 +372,11 @@ export default function TextToSqlPage() {
                     </div>
                   }
                 />
+                {latestMatchDateLabel && (
+                  <span className="text-[10px] sm:text-xs font-bold uppercase tracking-wide text-black/70">
+                    Data until {latestMatchDateLabel}
+                  </span>
+                )}
               </div>
               <textarea
                 id="question"

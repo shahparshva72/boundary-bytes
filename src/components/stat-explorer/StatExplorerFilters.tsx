@@ -199,6 +199,15 @@ export default function StatExplorerFilters({
     [filters.bowlingSubType],
   );
 
+  const opponentBowlingSubTypeValues = useMemo(
+    () =>
+      (filters.opponentBowlingSubType || []).map((v) => ({
+        value: v,
+        label: bowlingSubTypeLabels[v] || v,
+      })),
+    [filters.opponentBowlingSubType],
+  );
+
   const updateFilter = <K extends keyof StatExplorerRunRequest['filters']>(
     key: K,
     value: StatExplorerRunRequest['filters'][K],
@@ -464,40 +473,95 @@ export default function StatExplorerFilters({
           <CardContent>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
               {reportType === 'batting' && (
-                <div>
-                  <label className="block text-xs font-black text-black uppercase mb-1">
-                    Batting Hand
-                  </label>
-                  <Select
-                    options={battingHandOptions}
-                    value={
-                      filters.battingHand
-                        ? {
-                            value: filters.battingHand!,
-                            label: battingHandLabels[filters.battingHand!] || filters.battingHand!,
-                          }
-                        : null
-                    }
-                    onChange={(val) =>
-                      updateFilter(
-                        'battingHand',
-                        (val?.value as StatExplorerRunRequest['filters']['battingHand']) ||
-                          undefined,
-                      )
-                    }
-                    placeholder="Any hand..."
-                    isClearable
-                    isSearchable={false}
-                    instanceId="stat-explorer-batting-hand"
-                  />
-                </div>
+                <>
+                  <div>
+                    <label className="block text-xs font-black text-black uppercase mb-1">
+                      Player Batting Hand
+                    </label>
+                    <Select
+                      options={battingHandOptions}
+                      value={
+                        filters.battingHand
+                          ? {
+                              value: filters.battingHand!,
+                              label:
+                                battingHandLabels[filters.battingHand!] || filters.battingHand!,
+                            }
+                          : null
+                      }
+                      onChange={(val) =>
+                        updateFilter(
+                          'battingHand',
+                          (val?.value as StatExplorerRunRequest['filters']['battingHand']) ||
+                            undefined,
+                        )
+                      }
+                      placeholder="Any hand..."
+                      isClearable
+                      isSearchable={false}
+                      instanceId="stat-explorer-batting-hand"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-black text-black uppercase mb-1">
+                      Opponent Bowling Type
+                    </label>
+                    <Select
+                      options={bowlingTypeOptions}
+                      value={
+                        filters.opponentBowlingType
+                          ? {
+                              value: filters.opponentBowlingType!,
+                              label:
+                                bowlingTypeLabels[filters.opponentBowlingType!] ||
+                                filters.opponentBowlingType!,
+                            }
+                          : null
+                      }
+                      onChange={(val) =>
+                        updateFilter(
+                          'opponentBowlingType',
+                          (val?.value as StatExplorerRunRequest['filters']['opponentBowlingType']) ||
+                            undefined,
+                        )
+                      }
+                      placeholder="Any type..."
+                      isClearable
+                      isSearchable={false}
+                      instanceId="stat-explorer-opponent-bowling-type"
+                    />
+                  </div>
+
+                  <div className="sm:col-span-2 md:col-span-1 lg:col-span-3">
+                    <label className="block text-xs font-black text-black uppercase mb-1">
+                      Opponent Bowling Sub-Type
+                    </label>
+                    <MultiSelect
+                      options={bowlingSubTypeOptions}
+                      value={opponentBowlingSubTypeValues}
+                      onChange={(vals) =>
+                        updateFilter(
+                          'opponentBowlingSubType',
+                          vals.map(
+                            (v) => v.value,
+                          ) as StatExplorerRunRequest['filters']['opponentBowlingSubType'],
+                        )
+                      }
+                      placeholder="Any sub-type..."
+                      maxSelections={5}
+                      isSearchable
+                      instanceId="stat-explorer-opponent-bowling-sub-type"
+                    />
+                  </div>
+                </>
               )}
 
               {reportType === 'bowling' && (
                 <>
                   <div>
                     <label className="block text-xs font-black text-black uppercase mb-1">
-                      Bowling Type
+                      Player Bowling Type
                     </label>
                     <Select
                       options={bowlingTypeOptions}
@@ -526,7 +590,7 @@ export default function StatExplorerFilters({
 
                   <div className="sm:col-span-2 md:col-span-2 lg:col-span-4">
                     <label className="block text-xs font-black text-black uppercase mb-1">
-                      Bowling Sub-Type
+                      Player Bowling Sub-Type
                     </label>
                     <MultiSelect
                       options={bowlingSubTypeOptions}
@@ -543,6 +607,36 @@ export default function StatExplorerFilters({
                       maxSelections={5}
                       isSearchable
                       instanceId="stat-explorer-bowling-sub-type"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-black text-black uppercase mb-1">
+                      Opponent Batting Hand
+                    </label>
+                    <Select
+                      options={battingHandOptions}
+                      value={
+                        filters.opponentBattingHand
+                          ? {
+                              value: filters.opponentBattingHand!,
+                              label:
+                                battingHandLabels[filters.opponentBattingHand!] ||
+                                filters.opponentBattingHand!,
+                            }
+                          : null
+                      }
+                      onChange={(val) =>
+                        updateFilter(
+                          'opponentBattingHand',
+                          (val?.value as StatExplorerRunRequest['filters']['opponentBattingHand']) ||
+                            undefined,
+                        )
+                      }
+                      placeholder="Any hand..."
+                      isClearable
+                      isSearchable={false}
+                      instanceId="stat-explorer-opponent-batting-hand"
                     />
                   </div>
                 </>

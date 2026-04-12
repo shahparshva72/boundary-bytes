@@ -24,9 +24,12 @@ const DIMENSION_LABELS: Record<string, string> = {
   result: 'Result',
   date: 'Date',
   innings: 'Innings',
-  battingHand: 'Batting Hand',
-  bowlingType: 'Bowling Type',
-  bowlingSubType: 'Bowling Sub-Type',
+  battingHand: 'Player Batting Hand',
+  bowlingType: 'Player Bowling Type',
+  bowlingSubType: 'Player Bowling Sub-Type',
+  opponentBattingHand: 'Opponent Batting Hand',
+  opponentBowlingType: 'Opponent Bowling Type',
+  opponentBowlingSubType: 'Opponent Bowling Sub-Type',
   playingRole: 'Playing Role',
 };
 
