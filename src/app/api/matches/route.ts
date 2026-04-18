@@ -41,7 +41,7 @@ async function getMatchesAndMetadata(
         SELECT match_id, league, season, date, venue, winner, winner_runs, winner_wickets
         FROM wpl_match_info
         WHERE league = ${league} ${seasonFilter}
-        ORDER BY date ASC
+        ORDER BY date DESC
         LIMIT ${limit} OFFSET ${offset}
       ),
       match_scores AS (
@@ -80,7 +80,7 @@ async function getMatchesAndMetadata(
         (SELECT cnt FROM total) as total_count
       FROM paginated_matches pm
       LEFT JOIN match_scores ms ON pm.match_id = ms.match_id
-      ORDER BY pm.date ASC
+      ORDER BY pm.date DESC
     `,
     prisma.$queryRaw<MetadataResult[]>`
       SELECT DISTINCT season FROM wpl_match_info WHERE league = ${league} ORDER BY season DESC
