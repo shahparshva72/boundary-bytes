@@ -274,6 +274,27 @@ function buildBattingBowlingQuery(
       case 'innings':
         groupByParts.push('stats.innings');
         break;
+      case 'battingHand':
+        groupByParts.push('stats.batting_hand');
+        break;
+      case 'bowlingType':
+        groupByParts.push('stats.bowling_type');
+        break;
+      case 'bowlingSubType':
+        groupByParts.push('stats.bowling_sub_type');
+        break;
+      case 'opponentBattingHand':
+        groupByParts.push('stats.opponent_batting_hand');
+        break;
+      case 'opponentBowlingType':
+        groupByParts.push('stats.opponent_bowling_type');
+        break;
+      case 'opponentBowlingSubType':
+        groupByParts.push('stats.opponent_bowling_sub_type');
+        break;
+      case 'playingRole':
+        groupByParts.push('stats.playing_role');
+        break;
     }
   }
 
@@ -325,6 +346,36 @@ function buildBattingBowlingQuery(
         selectDimParts.push(Prisma.sql`stats.innings AS innings`);
         dimensionSortColumns.push('innings');
         break;
+      case 'battingHand':
+        selectDimParts.push(Prisma.sql`stats.batting_hand AS "battingHand"`);
+        dimensionSortColumns.push('"battingHand"');
+        break;
+      case 'bowlingType':
+        selectDimParts.push(Prisma.sql`stats.bowling_type AS "bowlingType"`);
+        dimensionSortColumns.push('"bowlingType"');
+        break;
+      case 'bowlingSubType':
+        selectDimParts.push(Prisma.sql`stats.bowling_sub_type AS "bowlingSubType"`);
+        dimensionSortColumns.push('"bowlingSubType"');
+        break;
+      case 'opponentBattingHand':
+        selectDimParts.push(Prisma.sql`stats.opponent_batting_hand AS "opponentBattingHand"`);
+        dimensionSortColumns.push('"opponentBattingHand"');
+        break;
+      case 'opponentBowlingType':
+        selectDimParts.push(Prisma.sql`stats.opponent_bowling_type AS "opponentBowlingType"`);
+        dimensionSortColumns.push('"opponentBowlingType"');
+        break;
+      case 'opponentBowlingSubType':
+        selectDimParts.push(
+          Prisma.sql`stats.opponent_bowling_sub_type AS "opponentBowlingSubType"`,
+        );
+        dimensionSortColumns.push('"opponentBowlingSubType"');
+        break;
+      case 'playingRole':
+        selectDimParts.push(Prisma.sql`stats.playing_role AS "playingRole"`);
+        dimensionSortColumns.push('"playingRole"');
+        break;
     }
   }
 
@@ -353,6 +404,155 @@ function buildBattingBowlingQuery(
     return Prisma.sql`${acc},\n${part}`;
   }, allSelectParts[0] as Prisma.Sql);
 
+  // Determine if player style join is needed.
+  // Player style dimensions/filters applied to the "primary" player:
+  //   - batting report: style of the striker (batter)
+  //   - bowling report: style of the bowler
+  const PRIMARY_PLAYER_STYLE_DIMS = new Set<string>([
+    'battingHand',
+    'bowlingType',
+    'bowlingSubType',
+    'playingRole',
+  ]);
+  const OPPONENT_STYLE_DIMS = new Set<string>([
+    'opponentBattingHand',
+    'opponentBowlingType',
+    'opponentBowlingSubType',
+  ]);
+  const hasPrimaryStyleDim = dimensions.some((d) => PRIMARY_PLAYER_STYLE_DIMS.has(d));
+  const hasOpponentStyleDim = dimensions.some((d) => OPPONENT_STYLE_DIMS.has(d));
+  const hasPrimaryStyleFilter = !!(
+    filters.battingHand ||
+    filters.bowlingType ||
+    filters.bowlingSubType ||
+    filters.playingRole ||
+    filters.playingRoleDetail
+  );
+  const hasOpponentStyleFilter = !!(
+    filters.opponentBattingHand ||
+    filters.opponentBowlingType ||
+    filters.opponentBowlingSubType
+  );
+  const needsPrimaryPlayerStyle = hasPrimaryStyleDim || hasPrimaryStyleFilter;
+  const needsOpponentPlayerStyle = hasOpponentStyleDim || hasOpponentStyleFilter;
+  const needsPlayerStyle = needsPrimaryPlayerStyle || needsOpponentPlayerStyle;
+
+  // Build the player_style_lookup CTE that deduplicates person_name → style attributes
+  // via wpl_person_registry.registry_id = player_style.identifier
+  const playerStyleLookupCTE = needsPlayerStyle
+    ? Prisma.sql`
+        player_style_lookup AS (
+          SELECT DISTINCT ON (pr.person_name)
+            pr.person_name,
+            ps.batting_hand,
+            ps.bowling_hand,
+            ps.bowling_type,
+            ps.bowling_sub_type,
+            ps.playing_role,
+            ps.playing_role_detail
+          FROM wpl_person_registry pr
+          JOIN player_style ps ON ps.identifier = pr.registry_id
+          ORDER BY pr.person_name
+        ),
+      `
+    : Prisma.sql``;
+
+  // Build player style WHERE conditions for inside delivery CTEs
+  const primaryPlayerStyleConditions: Prisma.Sql[] = [];
+  if (filters.battingHand) {
+    primaryPlayerStyleConditions.push(
+      Prisma.sql`primary_psl.batting_hand = ${filters.battingHand}`,
+    );
+  }
+  if (filters.bowlingType) {
+    primaryPlayerStyleConditions.push(
+      Prisma.sql`primary_psl.bowling_type = ${filters.bowlingType}`,
+    );
+  }
+  if (filters.bowlingSubType && filters.bowlingSubType.length > 0) {
+    primaryPlayerStyleConditions.push(
+      Prisma.sql`primary_psl.bowling_sub_type = ANY(${filters.bowlingSubType}::text[])`,
+    );
+  }
+  if (filters.playingRole) {
+    primaryPlayerStyleConditions.push(
+      Prisma.sql`primary_psl.playing_role = ${filters.playingRole}`,
+    );
+  }
+  if (filters.playingRoleDetail) {
+    primaryPlayerStyleConditions.push(
+      Prisma.sql`primary_psl.playing_role_detail = ${filters.playingRoleDetail}`,
+    );
+  }
+  const opponentPlayerStyleConditions: Prisma.Sql[] = [];
+  if (filters.opponentBattingHand) {
+    opponentPlayerStyleConditions.push(
+      Prisma.sql`opponent_psl.batting_hand = ${filters.opponentBattingHand}`,
+    );
+  }
+  if (filters.opponentBowlingType) {
+    opponentPlayerStyleConditions.push(
+      Prisma.sql`opponent_psl.bowling_type = ${filters.opponentBowlingType}`,
+    );
+  }
+  if (filters.opponentBowlingSubType && filters.opponentBowlingSubType.length > 0) {
+    opponentPlayerStyleConditions.push(
+      Prisma.sql`opponent_psl.bowling_sub_type = ANY(${filters.opponentBowlingSubType}::text[])`,
+    );
+  }
+  const playerStyleConditions = [...primaryPlayerStyleConditions, ...opponentPlayerStyleConditions];
+  const playerStyleWhereClause =
+    playerStyleConditions.length > 0
+      ? playerStyleConditions.reduce((acc, cond) => Prisma.sql`${acc} AND ${cond}`)
+      : Prisma.sql``;
+  const playerStyleFilterSql =
+    playerStyleConditions.length > 0 ? Prisma.sql`AND ${playerStyleWhereClause}` : Prisma.sql``;
+
+  const primaryPlayerStyleJoinSql = needsPrimaryPlayerStyle
+    ? isBowling
+      ? Prisma.sql`LEFT JOIN player_style_lookup primary_psl ON primary_psl.person_name = d.bowler`
+      : Prisma.sql`LEFT JOIN player_style_lookup primary_psl ON primary_psl.person_name = d.striker`
+    : Prisma.sql``;
+  const opponentPlayerStyleJoinSql = needsOpponentPlayerStyle
+    ? isBowling
+      ? Prisma.sql`LEFT JOIN player_style_lookup opponent_psl ON opponent_psl.person_name = d.striker`
+      : Prisma.sql`LEFT JOIN player_style_lookup opponent_psl ON opponent_psl.person_name = d.bowler`
+    : Prisma.sql``;
+
+  const primaryPlayerStyleSelectSql = needsPrimaryPlayerStyle
+    ? Prisma.sql`,
+            MAX(primary_psl.batting_hand) AS batting_hand,
+            MAX(primary_psl.bowling_type) AS bowling_type,
+            MAX(primary_psl.bowling_sub_type) AS bowling_sub_type,
+            MAX(primary_psl.playing_role) AS playing_role`
+    : Prisma.sql``;
+
+  const opponentStyleDimensionSelectParts: string[] = [];
+  const opponentStyleDimensionGroupByParts: string[] = [];
+  if (dimensions.includes('opponentBattingHand')) {
+    opponentStyleDimensionSelectParts.push('opponent_psl.batting_hand AS opponent_batting_hand');
+    opponentStyleDimensionGroupByParts.push('opponent_psl.batting_hand');
+  }
+  if (dimensions.includes('opponentBowlingType')) {
+    opponentStyleDimensionSelectParts.push('opponent_psl.bowling_type AS opponent_bowling_type');
+    opponentStyleDimensionGroupByParts.push('opponent_psl.bowling_type');
+  }
+  if (dimensions.includes('opponentBowlingSubType')) {
+    opponentStyleDimensionSelectParts.push(
+      'opponent_psl.bowling_sub_type AS opponent_bowling_sub_type',
+    );
+    opponentStyleDimensionGroupByParts.push('opponent_psl.bowling_sub_type');
+  }
+  const opponentStyleDimensionSelectSql =
+    opponentStyleDimensionSelectParts.length > 0
+      ? Prisma.sql`,
+            ${Prisma.raw(opponentStyleDimensionSelectParts.join(',\n            '))}`
+      : Prisma.sql``;
+  const opponentStyleDimensionGroupBySql =
+    opponentStyleDimensionGroupByParts.length > 0
+      ? Prisma.sql`, ${Prisma.raw(opponentStyleDimensionGroupByParts.join(', '))}`
+      : Prisma.sql``;
+
   const statsCTE = isBowling
     ? Prisma.sql`
         stats AS (
@@ -373,15 +573,20 @@ function buildBattingBowlingQuery(
             COUNT(*) FILTER (WHERE d.wides = 0 AND d.noballs = 0) AS balls_bowled,
             SUM(d.runs_off_bat + d.wides + d.noballs) AS runs_conceded,
             COUNT(*) FILTER (WHERE d.runs_off_bat = 0 AND d.wides = 0 AND d.noballs = 0) AS dot_balls
+            ${primaryPlayerStyleSelectSql}
+            ${opponentStyleDimensionSelectSql}
           FROM wpl_delivery d
           JOIN wpl_match m ON d.match_id = m.match_id
           LEFT JOIN wpl_match_info mi ON m.match_id = mi.match_id
+          ${primaryPlayerStyleJoinSql}
+          ${opponentPlayerStyleJoinSql}
           WHERE ${whereClause}
-          GROUP BY d.match_id, d.innings, d.bowler
+            ${playerStyleFilterSql}
+          GROUP BY d.match_id, d.innings, d.bowler${opponentStyleDimensionGroupBySql}
         )
       `
     : Prisma.sql`
-        batter_stats AS (
+        stats AS (
           SELECT
             d.match_id,
             d.innings,
@@ -399,34 +604,31 @@ function buildBattingBowlingQuery(
             COUNT(*) FILTER (WHERE d.wides = 0) AS balls_faced,
             COUNT(*) FILTER (WHERE d.runs_off_bat = 4) AS fours,
             COUNT(*) FILTER (WHERE d.runs_off_bat = 6) AS sixes,
-            COUNT(*) FILTER (WHERE d.runs_off_bat = 0 AND d.wides = 0 AND d.noballs = 0) AS dot_balls
+            COUNT(*) FILTER (WHERE d.runs_off_bat = 0 AND d.wides = 0 AND d.noballs = 0) AS dot_balls,
+            MAX(
+              CASE
+                WHEN d.player_dismissed = d.striker
+                 AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket', 'run out', 'retired out', 'obstructing the field', 'hit the ball twice', 'handled the ball', 'timed out')
+                THEN 1
+                ELSE 0
+              END
+            ) AS is_dismissed
+            ${primaryPlayerStyleSelectSql}
+            ${opponentStyleDimensionSelectSql}
           FROM wpl_delivery d
           JOIN wpl_match m ON d.match_id = m.match_id
           LEFT JOIN wpl_match_info mi ON m.match_id = mi.match_id
+          ${primaryPlayerStyleJoinSql}
+          ${opponentPlayerStyleJoinSql}
           WHERE ${whereClause}
-          GROUP BY d.match_id, d.innings, d.striker
-        ),
-        batter_dismissals AS (
-          SELECT d.match_id, d.innings, d.player_dismissed AS player, 1 AS is_dismissed
-          FROM wpl_delivery d
-          JOIN wpl_match m ON d.match_id = m.match_id
-          LEFT JOIN wpl_match_info mi ON m.match_id = mi.match_id
-          WHERE ${whereClause}
-            AND d.player_dismissed IS NOT NULL
-            AND d.wicket_type IN ('caught', 'bowled', 'lbw', 'stumped', 'caught and bowled', 'hit wicket', 'run out', 'retired out', 'obstructing the field', 'hit the ball twice', 'handled the ball', 'timed out')
-        ),
-        stats AS (
-          SELECT
-            bs.*,
-            COALESCE(bd.is_dismissed, 0) AS is_dismissed
-          FROM batter_stats bs
-          LEFT JOIN batter_dismissals bd 
-            ON bs.match_id = bd.match_id AND bs.innings = bd.innings AND bs.player = bd.player
+            ${playerStyleFilterSql}
+          GROUP BY d.match_id, d.innings, d.striker${opponentStyleDimensionGroupBySql}
         )
       `;
 
   const sql = Prisma.sql`
-    WITH ${statsCTE}
+    WITH ${playerStyleLookupCTE}
+    ${statsCTE}
     SELECT ${selectClause}
     FROM stats
     ${groupByClause}
@@ -435,7 +637,8 @@ function buildBattingBowlingQuery(
   `;
 
   const countSql = Prisma.sql`
-    WITH ${statsCTE}
+    WITH ${playerStyleLookupCTE}
+    ${statsCTE}
     SELECT COUNT(*)::int AS total
     FROM (
       SELECT 1

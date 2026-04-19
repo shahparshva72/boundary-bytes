@@ -19,6 +19,13 @@ export const ALLOWED_DIMENSIONS: Record<StatExplorerReportType, StatExplorerDime
     'result',
     'date',
     'innings',
+    'battingHand',
+    'bowlingType',
+    'bowlingSubType',
+    'opponentBattingHand',
+    'opponentBowlingType',
+    'opponentBowlingSubType',
+    'playingRole',
   ],
   bowling: [
     'season',
@@ -32,6 +39,13 @@ export const ALLOWED_DIMENSIONS: Record<StatExplorerReportType, StatExplorerDime
     'result',
     'date',
     'innings',
+    'battingHand',
+    'bowlingType',
+    'bowlingSubType',
+    'opponentBattingHand',
+    'opponentBowlingType',
+    'opponentBowlingSubType',
+    'playingRole',
   ],
   team: ['season', 'team', 'venue', 'city', 'tossWinner', 'tossDecision', 'result', 'date'],
   match: [
@@ -93,6 +107,13 @@ export const DIMENSION_LABELS: Record<StatExplorerDimension, string> = {
   date: 'Date',
   innings: 'Innings',
   over: 'Over',
+  battingHand: 'Player Batting Hand',
+  bowlingType: 'Player Bowling Type',
+  bowlingSubType: 'Player Bowling Sub-Type',
+  opponentBattingHand: 'Opponent Batting Hand',
+  opponentBowlingType: 'Opponent Bowling Type',
+  opponentBowlingSubType: 'Opponent Bowling Sub-Type',
+  playingRole: 'Playing Role',
 };
 
 export const METRIC_LABELS: Record<StatExplorerMetric, string> = {

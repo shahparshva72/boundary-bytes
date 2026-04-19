@@ -54,6 +54,15 @@ export default function StatExplorerBuilder() {
     tossWinners: parseAsArrayOf(parseAsString),
     tossDecisions: parseAsArrayOf(parseAsStringEnum<'bat' | 'field'>(['bat', 'field'])),
     innings: parseAsArrayOf(parseAsInteger),
+    // Player style filters
+    battingHand: parseAsString,
+    bowlingType: parseAsString,
+    bowlingSubType: parseAsArrayOf(parseAsString),
+    opponentBattingHand: parseAsString,
+    opponentBowlingType: parseAsString,
+    opponentBowlingSubType: parseAsArrayOf(parseAsString),
+    playingRole: parseAsString,
+    playingRoleDetail: parseAsString,
   });
 
   const cleanFilters: StatExplorerRunRequest['filters'] = useMemo(() => {
@@ -81,6 +90,34 @@ export default function StatExplorerBuilder() {
     }
     if (filters.innings?.length) {
       f.innings = filters.innings as Array<1 | 2>;
+    }
+    // Player style filters
+    if (filters.battingHand) {
+      f.battingHand = filters.battingHand as 'left' | 'right';
+    }
+    if (filters.bowlingType) {
+      f.bowlingType = filters.bowlingType as 'pace' | 'spin';
+    }
+    if (filters.bowlingSubType?.length) {
+      f.bowlingSubType =
+        filters.bowlingSubType as StatExplorerRunRequest['filters']['bowlingSubType'];
+    }
+    if (filters.opponentBattingHand) {
+      f.opponentBattingHand = filters.opponentBattingHand as 'left' | 'right';
+    }
+    if (filters.opponentBowlingType) {
+      f.opponentBowlingType = filters.opponentBowlingType as 'pace' | 'spin';
+    }
+    if (filters.opponentBowlingSubType?.length) {
+      f.opponentBowlingSubType =
+        filters.opponentBowlingSubType as StatExplorerRunRequest['filters']['opponentBowlingSubType'];
+    }
+    if (filters.playingRole) {
+      f.playingRole = filters.playingRole as StatExplorerRunRequest['filters']['playingRole'];
+    }
+    if (filters.playingRoleDetail) {
+      f.playingRoleDetail =
+        filters.playingRoleDetail as StatExplorerRunRequest['filters']['playingRoleDetail'];
     }
     return f;
   }, [filters]);
@@ -130,6 +167,14 @@ export default function StatExplorerBuilder() {
       tossWinners: null,
       tossDecisions: null,
       innings: null,
+      battingHand: null,
+      bowlingType: null,
+      bowlingSubType: null,
+      opponentBattingHand: null,
+      opponentBowlingType: null,
+      opponentBowlingSubType: null,
+      playingRole: null,
+      playingRoleDetail: null,
     });
     setSortParams({ sortBy: null, sortDir: null });
     setPage(1);
@@ -177,6 +222,16 @@ export default function StatExplorerBuilder() {
         tossWinners: newFilters.tossWinners?.length ? newFilters.tossWinners : null,
         tossDecisions: newFilters.tossDecisions?.length ? newFilters.tossDecisions : null,
         innings: newFilters.innings?.length ? newFilters.innings : null,
+        battingHand: newFilters.battingHand || null,
+        bowlingType: newFilters.bowlingType || null,
+        bowlingSubType: newFilters.bowlingSubType?.length ? newFilters.bowlingSubType : null,
+        opponentBattingHand: newFilters.opponentBattingHand || null,
+        opponentBowlingType: newFilters.opponentBowlingType || null,
+        opponentBowlingSubType: newFilters.opponentBowlingSubType?.length
+          ? newFilters.opponentBowlingSubType
+          : null,
+        playingRole: newFilters.playingRole || null,
+        playingRoleDetail: newFilters.playingRoleDetail || null,
       });
       setPage(1);
     },

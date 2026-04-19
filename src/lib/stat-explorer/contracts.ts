@@ -16,6 +16,13 @@ export const StatExplorerDimension = z.enum([
   'date',
   'innings',
   'over',
+  'battingHand',
+  'bowlingType',
+  'bowlingSubType',
+  'opponentBattingHand',
+  'opponentBowlingType',
+  'opponentBowlingSubType',
+  'playingRole',
 ]);
 export type StatExplorerDimension = z.infer<typeof StatExplorerDimension>;
 
@@ -94,6 +101,56 @@ export const StatExplorerRunRequestSchema = z.object({
     maxBalls: z.number().int().min(0).optional(),
     minWickets: z.number().int().min(0).optional(),
     maxWickets: z.number().int().min(0).optional(),
+    // Player style filters
+    battingHand: z.enum(['left', 'right']).optional(),
+    bowlingType: z.enum(['pace', 'spin']).optional(),
+    bowlingSubType: z
+      .array(
+        z.enum([
+          'fast',
+          'fast-medium',
+          'medium-fast',
+          'medium',
+          'offbreak',
+          'legbreak',
+          'left-arm-orthodox',
+          'left-arm-wrist-spin',
+          'slow',
+        ]),
+      )
+      .optional(),
+    opponentBattingHand: z.enum(['left', 'right']).optional(),
+    opponentBowlingType: z.enum(['pace', 'spin']).optional(),
+    opponentBowlingSubType: z
+      .array(
+        z.enum([
+          'fast',
+          'fast-medium',
+          'medium-fast',
+          'medium',
+          'offbreak',
+          'legbreak',
+          'left-arm-orthodox',
+          'left-arm-wrist-spin',
+          'slow',
+        ]),
+      )
+      .optional(),
+    playingRole: z.enum(['batter', 'bowler', 'allrounder', 'wicketkeeper']).optional(),
+    playingRoleDetail: z
+      .enum([
+        'opening_batter',
+        'top_order_batter',
+        'middle_order_batter',
+        'batter',
+        'batting_allrounder',
+        'bowling_allrounder',
+        'allrounder',
+        'bowler',
+        'wicketkeeper_batter',
+        'wicketkeeper',
+      ])
+      .optional(),
   }),
   sort: StatExplorerSortSchema.optional(),
   pagination: z
@@ -116,6 +173,12 @@ export type StatExplorerFilterOptions = {
   innings: Array<1 | 2>;
   availableMetrics: StatExplorerMetric[];
   availableDimensions: StatExplorerDimension[];
+  // Player style filter options
+  battingHands: string[];
+  bowlingTypes: string[];
+  bowlingSubTypes: string[];
+  playingRoles: string[];
+  playingRoleDetails: string[];
 };
 
 export type StatExplorerResultRow = Record<string, string | number | null>;
