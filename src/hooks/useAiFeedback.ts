@@ -1,3 +1,4 @@
+import api from '@/services/api';
 import { useMutation, useQuery } from '@tanstack/react-query';
 
 interface SubmitFeedbackParams {
@@ -11,26 +12,29 @@ interface FeedbackResponse {
   message: string;
 }
 
+interface FeedbackStatsResponse {
+  data?: unknown;
+}
+
 /**
  * Hook for submitting AI feedback
  */
 export function useAiFeedback() {
   const submitFeedbackMutation = useMutation({
     mutationFn: async (params: SubmitFeedbackParams): Promise<FeedbackResponse> => {
-      const response = await fetch('/api/ai/feedback', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(params),
+      const response = await api.post('ai/feedback', {
+        json: params,
+        throwHttpErrors: false,
       });
 
       if (!response.ok) {
-        const errorData = await response.json();
+        const errorData: { error?: string } = await response
+          .json<{ error?: string }>()
+          .catch(() => ({}));
         throw new Error(errorData.error || 'Failed to submit feedback');
       }
 
-      return response.json();
+      return response.json<FeedbackResponse>();
     },
   });
 
@@ -47,18 +51,7 @@ export function useAiFeedback() {
 }
 
 const fetchAiFeedbackStats = async () => {
-  const response = await fetch('/api/ai/feedback', {
-    method: 'GET',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-  });
-
-  if (!response.ok) {
-    throw new Error('Failed to fetch feedback statistics');
-  }
-
-  return response.json();
+  return api.get('ai/feedback').json<FeedbackStatsResponse>();
 };
 
 /**

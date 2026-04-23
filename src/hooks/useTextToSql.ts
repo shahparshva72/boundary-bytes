@@ -1,5 +1,6 @@
 'use client';
 
+import api from '@/services/api';
 import { useMutation } from '@tanstack/react-query';
 
 interface TextToSqlSuccess {
@@ -26,20 +27,19 @@ export type TextToSqlResponse = TextToSqlSuccess | TextToSqlError;
 export function useTextToSql() {
   return useMutation<TextToSqlSuccess, TextToSqlError | Error, string>({
     mutationFn: async (question: string) => {
-      const res = await fetch('/api/text-to-sql', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question }),
-      });
-
       let json: TextToSqlResponse;
       try {
-        json = (await res.json()) as TextToSqlResponse;
+        json = await api
+          .post('text-to-sql', {
+            json: { question },
+            throwHttpErrors: false,
+          })
+          .json<TextToSqlResponse>();
       } catch {
         throw new Error('Invalid server response');
       }
 
-      if (!res.ok || !json.success) {
+      if (!json.success) {
         throw json as TextToSqlError;
       }
       return json as TextToSqlSuccess;
