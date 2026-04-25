@@ -68,7 +68,7 @@ export default function BowlingWicketTypes() {
               <DataTableBody>
                 {data?.data && data.data.length > 0 ? (
                   data.data.map((bowler: BowlingWicketTypesData, index: number) => (
-                    <DataTableRow key={bowler.player}>
+                    <DataTableRow key={bowler.player} index={index}>
                       <DataTableCell>{(currentPage - 1) * PAGE_SIZE + index + 1}</DataTableCell>
                       <DataTableCell>{bowler.player}</DataTableCell>
                       <DataTableCell>{bowler.totalWickets}</DataTableCell>
