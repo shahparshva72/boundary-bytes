@@ -54,7 +54,6 @@ export default function StatExplorerBuilder() {
     tossWinners: parseAsArrayOf(parseAsString),
     tossDecisions: parseAsArrayOf(parseAsStringEnum<'bat' | 'field'>(['bat', 'field'])),
     innings: parseAsArrayOf(parseAsInteger),
-    // Player style filters
     battingHand: parseAsString,
     bowlingType: parseAsString,
     bowlingSubType: parseAsArrayOf(parseAsString),
@@ -91,7 +90,6 @@ export default function StatExplorerBuilder() {
     if (filters.innings?.length) {
       f.innings = filters.innings as Array<1 | 2>;
     }
-    // Player style filters
     if (filters.battingHand) {
       f.battingHand = filters.battingHand as 'left' | 'right';
     }
@@ -188,13 +186,6 @@ export default function StatExplorerBuilder() {
     [setReportType, resetSelections],
   );
 
-  const handlePageChange = useCallback(
-    (newPage: number) => {
-      setPage(newPage);
-    },
-    [setPage],
-  );
-
   const handleDimensionsChange = useCallback(
     (nextDimensions: string[]) => {
       setDimensions(nextDimensions.length ? nextDimensions : null);
@@ -254,9 +245,7 @@ export default function StatExplorerBuilder() {
       metrics.length -
       (DEFAULT_DIMENSIONS[reportType].length + DEFAULT_METRICS[reportType].length);
 
-    const filterCount = Object.keys(cleanFilters).length;
-
-    return customDimsAndMetrics + filterCount;
+    return customDimsAndMetrics + Object.keys(cleanFilters).length;
   }, [dimensions, metrics, reportType, cleanFilters]);
 
   return (
@@ -343,7 +332,7 @@ export default function StatExplorerBuilder() {
           <StatExplorerResults
             data={resultsData}
             page={page}
-            onPageChange={handlePageChange}
+            onPageChange={setPage}
             sortKey={sortParams.sortBy}
             sortDirection={sortParams.sortDir}
             onSortChange={handleSortChange}

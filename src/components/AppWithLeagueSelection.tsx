@@ -2,21 +2,21 @@
 
 import { useLeagueContext } from '@/contexts/LeagueContext';
 import { AnimatePresence } from 'framer-motion';
-import React, { Suspense } from 'react';
+import { Suspense, type ReactNode } from 'react';
 import { MoonLoader } from 'react-spinners';
 import LeagueSelectionScreen from './LeagueSelection/LeagueSelectionScreen';
 
 interface AppWithLeagueSelectionProps {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
-const LoadingScreen: React.FC = () => (
+const LoadingScreen = () => (
   <div className="min-h-screen flex items-center justify-center bg-[#FFFEE0]">
     <MoonLoader color="#FF5E5B" size={48} />
   </div>
 );
 
-const AppWithLeagueSelection: React.FC<AppWithLeagueSelectionProps> = ({ children }) => {
+const AppWithLeagueSelection = ({ children }: AppWithLeagueSelectionProps) => {
   const { isFirstVisit, selectLeague, isTransitioning, selectedLeague } = useLeagueContext();
 
   // Show loading while determining first visit status

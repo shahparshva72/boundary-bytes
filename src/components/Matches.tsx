@@ -31,7 +31,6 @@ interface Match {
 export default function Matches({ initialPage, initialSeason }: MatchesProps) {
   const { data, isLoading, error } = useMatches(initialPage, initialSeason);
   const router = useRouter();
-
   const cachedSeasonsRef = useRef<string[]>([]);
 
   if (data?.seasons && data.seasons.length > 0) {
@@ -69,7 +68,7 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
         </div>
 
         {/* Season Filter */}
-        {seasons.length && (
+        {seasons.length > 0 && (
           <div className="w-full flex flex-wrap gap-2 sm:gap-4 justify-center">
             <Link
               href="/"
@@ -145,7 +144,7 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
                   <div className="flex flex-col gap-2 sm:gap-2.5 mb-2 sm:mb-3">
                     <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 sm:gap-2.5">
                       <div className="flex-1">
-                        <h2 className="font-black text-lg sm:text-xl lg:text-2xl text-black">
+                        <h2 className="font-black text-base sm:text-lg lg:text-xl text-black">
                           {match.venue}
                         </h2>
                         <p className="text-sm sm:text-base font-bold text-black mt-0.5 bg-[#4ECDC4] px-1.5 sm:px-2 py-0.5 inline-block border-2 border-black">

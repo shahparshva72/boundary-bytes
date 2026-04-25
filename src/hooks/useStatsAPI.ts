@@ -1,12 +1,9 @@
-'use client';
-
 import { useQuery } from '@tanstack/react-query';
 import { useLeagueAPI } from './useLeagueAPI';
 
-// Team stats fetchers
-export const fetchTeamWins = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
-) => {
+type FetchWithLeague = (url: string, options?: RequestInit) => Promise<Response>;
+
+export const fetchTeamWins = async (fetchWithLeague: FetchWithLeague) => {
   const response = await fetchWithLeague('/api/stats/team-wins');
   if (!response.ok) {
     throw new Error('Failed to fetch team wins');
@@ -14,9 +11,7 @@ export const fetchTeamWins = async (
   return response.json();
 };
 
-export const fetchTeamAverages = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
-) => {
+export const fetchTeamAverages = async (fetchWithLeague: FetchWithLeague) => {
   const response = await fetchWithLeague('/api/stats/team-averages');
   if (!response.ok) {
     throw new Error('Failed to fetch team averages');
@@ -24,11 +19,7 @@ export const fetchTeamAverages = async (
   return response.json();
 };
 
-// Player stats fetchers
-export const fetchWicketTakers = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
-  page: number,
-) => {
+export const fetchWicketTakers = async (fetchWithLeague: FetchWithLeague, page: number) => {
   const response = await fetchWithLeague(`/api/stats/leading-wicket-takers?page=${page}&limit=10`);
   if (!response.ok) {
     throw new Error('Failed to fetch wicket takers');
@@ -36,10 +27,7 @@ export const fetchWicketTakers = async (
   return response.json();
 };
 
-export const fetchRunScorers = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
-  page: number,
-) => {
+export const fetchRunScorers = async (fetchWithLeague: FetchWithLeague, page: number) => {
   const response = await fetchWithLeague(`/api/stats/leading-run-scorers?page=${page}&limit=10`);
   if (!response.ok) {
     throw new Error('Failed to fetch run scorers');
@@ -47,10 +35,7 @@ export const fetchRunScorers = async (
   return response.json();
 };
 
-export const fetchBowlingWicketTypes = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
-  page: number,
-) => {
+export const fetchBowlingWicketTypes = async (fetchWithLeague: FetchWithLeague, page: number) => {
   const response = await fetchWithLeague(`/api/stats/bowling-wicket-types?page=${page}&limit=10`);
   if (!response.ok) {
     throw new Error('Failed to fetch bowling wicket types');
@@ -58,9 +43,8 @@ export const fetchBowlingWicketTypes = async (
   return response.json();
 };
 
-// Matchup & advanced stats fetchers
 export const fetchMatchup = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
+  fetchWithLeague: FetchWithLeague,
   batter: string,
   bowler: string,
 ) => {
@@ -74,7 +58,7 @@ export const fetchMatchup = async (
 };
 
 export const fetchAdvancedStatsData = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
+  fetchWithLeague: FetchWithLeague,
   overs: number[],
   player: string,
   playerType: string,
@@ -91,10 +75,7 @@ export const fetchAdvancedStatsData = async (
   return response.json();
 };
 
-export const fetchFallOfWicketsData = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
-  matchId: number,
-) => {
+export const fetchFallOfWicketsData = async (fetchWithLeague: FetchWithLeague, matchId: number) => {
   const response = await fetchWithLeague(`/api/stats/fall-of-wickets/${matchId}`);
   if (!response.ok) {
     throw new Error('Failed to fetch fall of wickets');
@@ -102,16 +83,12 @@ export const fetchFallOfWicketsData = async (
   return response.json();
 };
 
-// Team run rate progression fetcher
 export const fetchTeamRunRateProgression = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
+  fetchWithLeague: FetchWithLeague,
   team: string,
   season: string,
 ) => {
-  const params = new URLSearchParams({
-    team,
-    season,
-  });
+  const params = new URLSearchParams({ team, season });
   const response = await fetchWithLeague(`/api/stats/team-runrate-progression?${params}`);
   if (!response.ok) {
     throw new Error('Failed to fetch team run rate progression');
@@ -119,11 +96,7 @@ export const fetchTeamRunRateProgression = async (
   return response.json();
 };
 
-// Run rate trend fetcher
-export const fetchRunRateTrend = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
-  team?: string | null,
-) => {
+export const fetchRunRateTrend = async (fetchWithLeague: FetchWithLeague, team?: string | null) => {
   const params = new URLSearchParams();
   if (team) {
     params.set('team', team);
@@ -136,7 +109,6 @@ export const fetchRunRateTrend = async (
   return response.json();
 };
 
-// Team stats hooks
 export const useTeamWins = () => {
   const { fetchWithLeague, selectedLeague } = useLeagueAPI();
 
@@ -157,7 +129,6 @@ export const useTeamAverages = () => {
   });
 };
 
-// Player stats hooks
 export const useWicketTakers = (page: number) => {
   const { fetchWithLeague, selectedLeague } = useLeagueAPI();
 
@@ -188,7 +159,6 @@ export const useBowlingWicketTypes = (page: number) => {
   });
 };
 
-// Matchup & advanced stats hooks
 export const useMatchup = (batter: string, bowler: string) => {
   const { fetchWithLeague, selectedLeague } = useLeagueAPI();
 
@@ -209,7 +179,6 @@ export const useAdvancedStats = (overs: number[], player: string, playerType: st
   });
 };
 
-// Fall of wickets hook
 export const useFallOfWickets = (matchId: number) => {
   const { fetchWithLeague, selectedLeague } = useLeagueAPI();
 
@@ -220,7 +189,6 @@ export const useFallOfWickets = (matchId: number) => {
   });
 };
 
-// Team run rate progression hook
 export const useTeamRunRateProgression = (team: string, season: string) => {
   const { fetchWithLeague, selectedLeague } = useLeagueAPI();
 
@@ -231,7 +199,6 @@ export const useTeamRunRateProgression = (team: string, season: string) => {
   });
 };
 
-// Run rate trend hook
 export const useRunRateTrend = (team?: string | null) => {
   const { fetchWithLeague, selectedLeague } = useLeagueAPI();
 
@@ -242,10 +209,7 @@ export const useRunRateTrend = (team?: string | null) => {
   });
 };
 
-// Seasons fetcher
-export const fetchSeasonsData = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
-) => {
+export const fetchSeasonsData = async (fetchWithLeague: FetchWithLeague) => {
   const response = await fetchWithLeague('/api/stats/seasons');
   if (!response.ok) {
     throw new Error('Failed to fetch seasons');
@@ -253,7 +217,6 @@ export const fetchSeasonsData = async (
   return response.json();
 };
 
-// Seasons hook
 export const useSeasons = () => {
   const { fetchWithLeague, selectedLeague } = useLeagueAPI();
 
@@ -264,9 +227,8 @@ export const useSeasons = () => {
   });
 };
 
-// Player comparison fetcher
 export const fetchPlayerComparisonData = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
+  fetchWithLeague: FetchWithLeague,
   players: string[],
   filters: { seasons?: string[]; team?: string; statType: string },
 ) => {
@@ -274,7 +236,7 @@ export const fetchPlayerComparisonData = async (
     players: players.join(','),
     statType: filters.statType,
   });
-  if (filters.seasons && filters.seasons.length > 0) {
+  if (filters.seasons?.length) {
     params.append('seasons', filters.seasons.join(','));
   }
   if (filters.team) {
@@ -288,7 +250,6 @@ export const fetchPlayerComparisonData = async (
   return response.json();
 };
 
-// Player comparison hook
 export const usePlayerComparison = (
   players: string[],
   filters: { seasons?: string[]; team?: string; statType: string },
@@ -302,15 +263,12 @@ export const usePlayerComparison = (
   });
 };
 
-// Player progression fetcher
 export const fetchPlayerProgression = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
+  fetchWithLeague: FetchWithLeague,
   player: string,
   innings?: '1' | '2' | null,
 ) => {
-  const params = new URLSearchParams({
-    player,
-  });
+  const params = new URLSearchParams({ player });
   if (innings) {
     params.append('innings', innings);
   }
@@ -321,7 +279,6 @@ export const fetchPlayerProgression = async (
   return response.json();
 };
 
-// Player progression hook
 export const usePlayerProgression = (player: string, innings?: '1' | '2' | null) => {
   const { fetchWithLeague, selectedLeague } = useLeagueAPI();
 
@@ -332,9 +289,8 @@ export const usePlayerProgression = (player: string, innings?: '1' | '2' | null)
   });
 };
 
-// Multi-matchup fetcher
 export const fetchMultiMatchup = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
+  fetchWithLeague: FetchWithLeague,
   player: string,
   opponents: string[],
   mode: 'batterVsBowlers' | 'bowlerVsBatters',
@@ -351,7 +307,6 @@ export const fetchMultiMatchup = async (
   return response.json();
 };
 
-// Multi-matchup hook
 export const useMultiMatchup = (
   player: string,
   opponents: string[],

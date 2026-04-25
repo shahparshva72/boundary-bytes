@@ -10,7 +10,6 @@ import type {
 import { DIMENSION_LABELS, METRIC_LABELS } from '@/lib/stat-explorer/registry';
 import { useMemo } from 'react';
 
-// Label maps for player style filter display
 const battingHandLabels: Record<string, string> = {
   right: 'Right Hand',
   left: 'Left Hand',
@@ -33,26 +32,6 @@ const bowlingSubTypeLabels: Record<string, string> = {
   slow: 'Slow',
 };
 
-// const playingRoleLabels: Record<string, string> = {
-//   batter: 'Batter',
-//   bowler: 'Bowler',
-//   allrounder: 'Allrounder',
-//   wicketkeeper: 'Wicketkeeper',
-// };
-
-// const playingRoleDetailLabels: Record<string, string> = {
-//   opening_batter: 'Opening Batter',
-//   top_order_batter: 'Top Order Batter',
-//   middle_order_batter: 'Middle Order Batter',
-//   batter: 'Batter',
-//   batting_allrounder: 'Batting Allrounder',
-//   bowling_allrounder: 'Bowling Allrounder',
-//   allrounder: 'Allrounder',
-//   bowler: 'Bowler',
-//   wicketkeeper_batter: 'Wicketkeeper Batter',
-//   wicketkeeper: 'Wicketkeeper',
-// };
-
 interface StatExplorerFiltersProps {
   reportType: StatExplorerReportType;
   options: StatExplorerFilterOptions;
@@ -64,6 +43,9 @@ interface StatExplorerFiltersProps {
   onFiltersChange: (filters: StatExplorerRunRequest['filters']) => void;
 }
 
+const toOptions = (items: string[]): SelectOption[] =>
+  items.map((item) => ({ value: item, label: item }));
+
 export default function StatExplorerFilters({
   reportType,
   options,
@@ -74,65 +56,35 @@ export default function StatExplorerFilters({
   onMetricsChange,
   onFiltersChange,
 }: StatExplorerFiltersProps) {
-  const teamOptions: SelectOption[] = useMemo(
-    () => options.teams.map((t) => ({ value: t, label: t })),
-    [options.teams],
-  );
-
-  const seasonOptions: SelectOption[] = useMemo(
-    () => options.seasons.map((s) => ({ value: s, label: s })),
-    [options.seasons],
-  );
-
-  const venueOptions: SelectOption[] = useMemo(
-    () => options.venues.map((v) => ({ value: v, label: v })),
-    [options.venues],
-  );
-
-  const cityOptions: SelectOption[] = useMemo(
-    () => options.cities.map((c) => ({ value: c, label: c })),
-    [options.cities],
-  );
-
-  const oppositionOptions: SelectOption[] = useMemo(
-    () => (options.opposition || []).map((o) => ({ value: o, label: o })),
+  const teamOptions = useMemo(() => toOptions(options.teams), [options.teams]);
+  const seasonOptions = useMemo(() => toOptions(options.seasons), [options.seasons]);
+  const venueOptions = useMemo(() => toOptions(options.venues), [options.venues]);
+  const cityOptions = useMemo(() => toOptions(options.cities), [options.cities]);
+  const oppositionOptions = useMemo(
+    () => toOptions(options.opposition || []),
     [options.opposition],
   );
-
-  const tossWinnerOptions: SelectOption[] = useMemo(
-    () => options.tossWinners.map((t) => ({ value: t, label: t })),
-    [options.tossWinners],
-  );
-
-  const tossDecisionOptions: SelectOption[] = useMemo(
+  const tossWinnerOptions = useMemo(() => toOptions(options.tossWinners), [options.tossWinners]);
+  const tossDecisionOptions = useMemo(
     () => options.tossDecisions.map((t) => ({ value: t, label: t.toUpperCase() })),
     [options.tossDecisions],
   );
-
-  const inningsOptions: SelectOption[] = useMemo(
+  const inningsOptions = useMemo(
     () => options.innings.map((i) => ({ value: String(i), label: `Innings ${i}` })),
     [options.innings],
   );
 
-  const dimensionOptions: SelectOption[] = useMemo(
-    () =>
-      options.availableDimensions.map((d) => ({
-        value: d,
-        label: DIMENSION_LABELS[d],
-      })),
+  const dimensionOptions = useMemo(
+    () => options.availableDimensions.map((d) => ({ value: d, label: DIMENSION_LABELS[d] })),
     [options.availableDimensions],
   );
 
-  const metricOptions: SelectOption[] = useMemo(
-    () =>
-      options.availableMetrics.map((m) => ({
-        value: m,
-        label: METRIC_LABELS[m],
-      })),
+  const metricOptions = useMemo(
+    () => options.availableMetrics.map((m) => ({ value: m, label: METRIC_LABELS[m] })),
     [options.availableMetrics],
   );
 
-  const dimensionValues: SelectOption[] = useMemo(
+  const dimensionValues = useMemo(
     () =>
       dimensions.map((d) => ({
         value: d,
@@ -141,7 +93,7 @@ export default function StatExplorerFilters({
     [dimensions],
   );
 
-  const metricValues: SelectOption[] = useMemo(
+  const metricValues = useMemo(
     () =>
       metrics.map((m) => ({
         value: m,
@@ -212,14 +164,10 @@ export default function StatExplorerFilters({
     key: K,
     value: StatExplorerRunRequest['filters'][K],
   ) => {
-    onFiltersChange({
-      ...filters,
-      [key]: value,
-    });
+    onFiltersChange({ ...filters, [key]: value });
   };
 
-  // Player style filter options
-  const battingHandOptions: SelectOption[] = useMemo(
+  const battingHandOptions = useMemo(
     () =>
       (options.battingHands || []).map((v) => ({
         value: v,
@@ -228,7 +176,7 @@ export default function StatExplorerFilters({
     [options.battingHands],
   );
 
-  const bowlingTypeOptions: SelectOption[] = useMemo(
+  const bowlingTypeOptions = useMemo(
     () =>
       (options.bowlingTypes || []).map((v) => ({
         value: v,
@@ -237,7 +185,7 @@ export default function StatExplorerFilters({
     [options.bowlingTypes],
   );
 
-  const bowlingSubTypeOptions: SelectOption[] = useMemo(
+  const bowlingSubTypeOptions = useMemo(
     () =>
       (options.bowlingSubTypes || []).map((v) => ({
         value: v,
@@ -246,7 +194,6 @@ export default function StatExplorerFilters({
     [options.bowlingSubTypes],
   );
 
-  // Show player style filters only for batting/bowling reports
   const showPlayerStyleFilters = reportType === 'batting' || reportType === 'bowling';
 
   return (
@@ -483,9 +430,8 @@ export default function StatExplorerFilters({
                       value={
                         filters.battingHand
                           ? {
-                              value: filters.battingHand!,
-                              label:
-                                battingHandLabels[filters.battingHand!] || filters.battingHand!,
+                              value: filters.battingHand,
+                              label: battingHandLabels[filters.battingHand] || filters.battingHand,
                             }
                           : null
                       }
@@ -512,10 +458,10 @@ export default function StatExplorerFilters({
                       value={
                         filters.opponentBowlingType
                           ? {
-                              value: filters.opponentBowlingType!,
+                              value: filters.opponentBowlingType,
                               label:
-                                bowlingTypeLabels[filters.opponentBowlingType!] ||
-                                filters.opponentBowlingType!,
+                                bowlingTypeLabels[filters.opponentBowlingType] ||
+                                filters.opponentBowlingType,
                             }
                           : null
                       }
@@ -568,9 +514,8 @@ export default function StatExplorerFilters({
                       value={
                         filters.bowlingType
                           ? {
-                              value: filters.bowlingType!,
-                              label:
-                                bowlingTypeLabels[filters.bowlingType!] || filters.bowlingType!,
+                              value: filters.bowlingType,
+                              label: bowlingTypeLabels[filters.bowlingType] || filters.bowlingType,
                             }
                           : null
                       }
@@ -619,10 +564,10 @@ export default function StatExplorerFilters({
                       value={
                         filters.opponentBattingHand
                           ? {
-                              value: filters.opponentBattingHand!,
+                              value: filters.opponentBattingHand,
                               label:
-                                battingHandLabels[filters.opponentBattingHand!] ||
-                                filters.opponentBattingHand!,
+                                battingHandLabels[filters.opponentBattingHand] ||
+                                filters.opponentBattingHand,
                             }
                           : null
                       }

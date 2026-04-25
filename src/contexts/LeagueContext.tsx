@@ -3,7 +3,7 @@
 import { useLeagueURL } from '@/hooks/useLeagueURL';
 import { getLeagueConfig } from '@/lib/league-config';
 import { League, LeagueContextType } from '@/types/league';
-import React, { createContext, ReactNode, useContext, useState } from 'react';
+import { createContext, type ReactNode, useContext, useState } from 'react';
 
 const LeagueContext = createContext<LeagueContextType | undefined>(undefined);
 
@@ -11,7 +11,7 @@ interface LeagueProviderProps {
   children: ReactNode;
 }
 
-export const LeagueProvider: React.FC<LeagueProviderProps> = ({ children }) => {
+export const LeagueProvider = ({ children }: LeagueProviderProps) => {
   const [isTransitioning, setIsTransitioning] = useState(false);
 
   const {

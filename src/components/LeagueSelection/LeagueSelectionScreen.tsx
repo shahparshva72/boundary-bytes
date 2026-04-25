@@ -3,7 +3,6 @@
 import { LEAGUE_CONFIGS } from '@/lib/league-config';
 import { League } from '@/types/league';
 import { motion } from 'framer-motion';
-import React from 'react';
 import LeagueCard from './LeagueCard';
 
 interface LeagueSelectionScreenProps {
@@ -34,10 +33,7 @@ const headerVariants = {
   },
 };
 
-const LeagueSelectionScreen: React.FC<LeagueSelectionScreenProps> = ({
-  onLeagueSelect,
-  isVisible,
-}) => {
+const LeagueSelectionScreen = ({ onLeagueSelect, isVisible }: LeagueSelectionScreenProps) => {
   if (!isVisible) {
     return null;
   }

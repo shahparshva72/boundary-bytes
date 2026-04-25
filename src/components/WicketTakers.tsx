@@ -16,6 +16,8 @@ import {
   Spinner,
 } from './ui';
 
+const PAGE_SIZE = 10;
+
 interface WicketTakerData {
   player: string;
   wickets: number;
@@ -62,8 +64,8 @@ export default function WicketTakers() {
               <DataTableBody>
                 {data?.data && data.data.length > 0 ? (
                   data.data.map((player: WicketTakerData, index: number) => (
-                    <DataTableRow key={player.player} index={index}>
-                      <DataTableCell>{(currentPage - 1) * 10 + index + 1}</DataTableCell>
+                    <DataTableRow key={player.player}>
+                      <DataTableCell>{(currentPage - 1) * PAGE_SIZE + index + 1}</DataTableCell>
                       <DataTableCell>{player.player}</DataTableCell>
                       <DataTableCell>{player.wickets}</DataTableCell>
                       <DataTableCell>{player.runsConceded}</DataTableCell>
@@ -81,7 +83,7 @@ export default function WicketTakers() {
             <Pagination
               currentPage={currentPage}
               totalPages={totalPages}
-              skipSize={10}
+              skipSize={PAGE_SIZE}
               onPageChange={setCurrentPage}
             />
           </>

@@ -76,22 +76,6 @@ export default function MultiMatchup() {
       ? bowlers?.map((b: string) => ({ value: b, label: b })) || []
       : batters?.map((b: string) => ({ value: b, label: b })) || [];
 
-  const handleModeChange = (newValue: SelectOption | null) => {
-    if (newValue) {
-      setMode(newValue.value as MatchupMode);
-      setSelectedPlayerValue(null);
-      setSelectedOpponents([]);
-    }
-  };
-
-  const handlePlayerChange = (newValue: SelectOption | null) => {
-    setSelectedPlayerValue(newValue?.value || null);
-  };
-
-  const handleOpponentsChange = (newValue: SelectOption[]) => {
-    setSelectedOpponents(newValue.map((o) => o.value));
-  };
-
   const isPlayerLoading = mode === 'batterVsBowlers' ? battersLoading : bowlersLoading;
   const isOpponentLoading = mode === 'batterVsBowlers' ? bowlersLoading : battersLoading;
 
@@ -116,7 +100,13 @@ export default function MultiMatchup() {
             instanceId="mode-select"
             options={modeOptions}
             value={modeOptions.find((o) => o.value === mode) || modeOptions[0]}
-            onChange={handleModeChange}
+            onChange={(newValue) => {
+              if (newValue) {
+                setMode(newValue.value as MatchupMode);
+                setSelectedPlayerValue(null);
+                setSelectedOpponents([]);
+              }
+            }}
             placeholder="Select Mode"
           />
         </div>
@@ -134,7 +124,7 @@ export default function MultiMatchup() {
               instanceId="player-select"
               options={playerOptions}
               value={selectedPlayer}
-              onChange={handlePlayerChange}
+              onChange={(newValue) => setSelectedPlayerValue(newValue?.value || null)}
               placeholder={isPlayerLoading ? `Loading ${playerLabel}s...` : `Select ${playerLabel}`}
               isLoading={isPlayerLoading}
               isClearable
@@ -152,7 +142,7 @@ export default function MultiMatchup() {
               instanceId="opponents-select"
               options={opponentOptions}
               value={selectedOpponentOptions}
-              onChange={handleOpponentsChange}
+              onChange={(newValue) => setSelectedOpponents(newValue.map((o) => o.value))}
               placeholder={
                 isOpponentLoading ? `Loading ${opponentLabel}...` : `Select ${opponentLabel}`
               }
@@ -184,7 +174,6 @@ export default function MultiMatchup() {
         </div>
       )}
 
-      {/* Results */}
       {hasResults && (
         <div className="w-full max-w-6xl mt-2 sm:mt-8">
           <Card variant="elevated">
@@ -202,7 +191,6 @@ export default function MultiMatchup() {
               </div>
             </CardHeader>
 
-            {/* Combined Stats Summary */}
             {matchupData.combined && matchupData.data.length > 1 && (
               <div className="bg-[#FFED66] border-b-2 border-black p-3 sm:p-4">
                 <div className="flex items-center gap-2 mb-2 sm:mb-3">
@@ -265,23 +253,20 @@ export default function MultiMatchup() {
                   </DataTableHeader>
                   <DataTableBody>
                     {matchupData.data.map(
-                      (
-                        row: {
-                          opponent: string;
-                          runsScored: number;
-                          ballsFaced: number;
-                          dismissals: number;
-                          strikeRate: number;
-                          economyRate: number;
-                          average: number;
-                          fours: number;
-                          sixes: number;
-                          dotBalls: number;
-                        },
-                        index: number,
-                      ) =>
+                      (row: {
+                        opponent: string;
+                        runsScored: number;
+                        ballsFaced: number;
+                        dismissals: number;
+                        strikeRate: number;
+                        economyRate: number;
+                        average: number;
+                        fours: number;
+                        sixes: number;
+                        dotBalls: number;
+                      }) =>
                         mode === 'batterVsBowlers' ? (
-                          <DataTableRow key={row.opponent} index={index}>
+                          <DataTableRow key={row.opponent}>
                             <DataTableCell className="font-bold">{row.opponent}</DataTableCell>
                             <DataTableCell className="text-center font-mono">
                               {row.runsScored}
@@ -306,7 +291,7 @@ export default function MultiMatchup() {
                             </DataTableCell>
                           </DataTableRow>
                         ) : (
-                          <DataTableRow key={row.opponent} index={index}>
+                          <DataTableRow key={row.opponent}>
                             <DataTableCell className="font-bold">{row.opponent}</DataTableCell>
                             <DataTableCell className="text-center font-mono font-bold bg-[#4ECDC4]/20">
                               {row.dismissals}

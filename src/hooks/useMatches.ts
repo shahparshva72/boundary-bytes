@@ -1,6 +1,8 @@
 import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 import { useQuery } from '@tanstack/react-query';
 
+type FetchWithLeague = (url: string, options?: RequestInit) => Promise<Response>;
+
 interface Match {
   id: number;
   season: string;
@@ -32,7 +34,7 @@ interface MatchesResponse {
 }
 
 export const fetchMatchesData = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
+  fetchWithLeague: FetchWithLeague,
   page: number,
   season?: string,
 ) => {
@@ -50,8 +52,7 @@ export const fetchMatchesData = async (
     throw new Error(`Failed to fetch matches: ${response.statusText}`);
   }
 
-  const data = await response.json();
-  return data;
+  return response.json();
 };
 
 export function useMatches(page = 1, season?: string) {
@@ -60,6 +61,6 @@ export function useMatches(page = 1, season?: string) {
   return useQuery<MatchesResponse>({
     queryKey: ['matches', page, season, selectedLeague],
     queryFn: () => fetchMatchesData(fetchWithLeague, page, season),
-    enabled: !!selectedLeague, // Only run a query when league is selected
+    enabled: !!selectedLeague,
   });
 }

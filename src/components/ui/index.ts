@@ -41,8 +41,9 @@ export type { SectionHeaderColor, SectionHeaderProps, SectionHeaderSize } from '
 export { MultiSelect } from './MultiSelect';
 export type { MultiSelectProps } from './MultiSelect';
 
-export { Select, neoBrutalistStyles } from './Select';
+export { Select } from './Select';
 export type { SelectOption, SelectProps } from './Select';
+export { neoBrutalistStyles } from './selectStyles';
 
 export { Spinner } from './Spinner';
 export type { SpinnerProps, SpinnerSize } from './Spinner';

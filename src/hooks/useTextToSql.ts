@@ -3,7 +3,7 @@
 import api from '@/services/api';
 import { useMutation } from '@tanstack/react-query';
 
-interface TextToSqlSuccess {
+export interface TextToSqlSuccess {
   success: true;
   data: unknown[];
   metadata: {

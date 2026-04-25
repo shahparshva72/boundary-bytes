@@ -3,9 +3,9 @@
 import { useQuery } from '@tanstack/react-query';
 import { useLeagueAPI } from './useLeagueAPI';
 
-export const fetchBattersData = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
-) => {
+type FetchWithLeague = (url: string, options?: RequestInit) => Promise<Response>;
+
+export const fetchBattersData = async (fetchWithLeague: FetchWithLeague) => {
   const response = await fetchWithLeague('/api/players/batters');
   if (!response.ok) {
     throw new Error('Failed to fetch batters');
@@ -24,9 +24,7 @@ export const useBatters = () => {
   });
 };
 
-export const fetchBowlersData = async (
-  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
-) => {
+export const fetchBowlersData = async (fetchWithLeague: FetchWithLeague) => {
   const response = await fetchWithLeague('/api/players/bowlers');
   if (!response.ok) {
     throw new Error('Failed to fetch bowlers');
