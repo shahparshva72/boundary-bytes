@@ -1,5 +1,5 @@
 import { PrismaClient } from '@/generated/prisma/client';
-import { env } from '@/lib/env';
+import { env } from '@/lib/env-server';
 import { PrismaPg } from '@prisma/adapter-pg';
 
 declare global {

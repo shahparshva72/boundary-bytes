@@ -1,4 +1,4 @@
-import { env } from '@/lib/env';
+import { env } from '@/lib/env-server';
 import { logger } from '@/lib/logger';
 import { responseFormatter } from '@/lib/response-formatter';
 import { normalizeTeamResults } from '@/lib/result-normalizer';
