@@ -1,11 +1,9 @@
-'use client';
-
 import { useLeagueContext } from '@/contexts/LeagueContext';
+import { env } from '@/lib/env';
 import { League } from '@/types/league';
 import { useCallback } from 'react';
 
-const goApiBaseUrl = (process.env.NEXT_PUBLIC_GO_API_URL ?? '').replace(/\/$/, '');
-const apiBaseUrl = goApiBaseUrl || (typeof window !== 'undefined' ? window.location.origin : '');
+const apiBaseUrl = env.NEXT_PUBLIC_GO_API_URL.replace(/\/$/, '');
 
 interface UseLeagueAPIReturn {
   fetchWithLeague: (endpoint: string, options?: RequestInit) => Promise<Response>;

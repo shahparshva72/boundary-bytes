@@ -26,13 +26,6 @@ export default function PlayerCompare() {
   const { data: bowlers, isLoading: bowlersLoading } = useBowlers();
   const { data: seasonsData, isLoading: seasonsLoading } = useSeasons();
 
-  const seasonOptions: SelectOption[] = useMemo(() => {
-    if (!seasonsData?.seasons) {
-      return [];
-    }
-    return seasonsData.seasons.map((s: string) => ({ value: s, label: s }));
-  }, [seasonsData]);
-
   const [playersParam, setPlayersParam] = useQueryState(
     'players',
     parseAsString.withOptions({ clearOnDefault: true }),
@@ -41,13 +34,6 @@ export default function PlayerCompare() {
     'seasons',
     parseAsString.withOptions({ clearOnDefault: true }),
   );
-
-  const selectedSeasons: SelectOption[] = useMemo(() => {
-    if (!seasonsParam) {
-      return [];
-    }
-    return seasonsParam.split(',').map((s) => ({ value: s, label: s }));
-  }, [seasonsParam]);
   const [statType, setStatType] = useQueryState(
     'statType',
     parseAsStringLiteral(STAT_TYPES).withDefault('both'),
@@ -60,23 +46,33 @@ export default function PlayerCompare() {
     return playersParam.split(',').map((p) => ({ value: p, label: p }));
   }, [playersParam]);
 
+  const selectedSeasons: SelectOption[] = useMemo(() => {
+    if (!seasonsParam) {
+      return [];
+    }
+    return seasonsParam.split(',').map((s) => ({ value: s, label: s }));
+  }, [seasonsParam]);
+
   const playerOptions: SelectOption[] = useMemo(() => {
     const allPlayers = new Set<string>();
-    if (batters) {
-      batters.forEach((b: string) => allPlayers.add(b));
-    }
-    if (bowlers) {
-      bowlers.forEach((b: string) => allPlayers.add(b));
-    }
+    batters?.forEach((b: string) => allPlayers.add(b));
+    bowlers?.forEach((b: string) => allPlayers.add(b));
     return Array.from(allPlayers)
       .sort()
       .map((p) => ({ value: p, label: p }));
   }, [batters, bowlers]);
 
+  const seasonOptions: SelectOption[] = useMemo(() => {
+    if (!seasonsData?.seasons) {
+      return [];
+    }
+    return seasonsData.seasons.map((s: string) => ({ value: s, label: s }));
+  }, [seasonsData]);
+
   const filters = useMemo(
     () => ({
       seasons: selectedSeasons.map((s) => s.value),
-      statType: statType,
+      statType,
     }),
     [selectedSeasons, statType],
   );
@@ -89,26 +85,6 @@ export default function PlayerCompare() {
     selectedPlayers.map((p) => p.value),
     filters,
   );
-
-  const handlePlayersChange = (newValue: SelectOption[]) => {
-    if (newValue.length === 0) {
-      setPlayersParam(null);
-    } else {
-      setPlayersParam(newValue.map((p) => p.value).join(','));
-    }
-  };
-
-  const handleSeasonsChange = (newValue: SelectOption[]) => {
-    if (newValue.length === 0) {
-      setSeasonsParam(null);
-    } else {
-      setSeasonsParam(newValue.map((s) => s.value).join(','));
-    }
-  };
-
-  const handleStatTypeChange = (type: (typeof STAT_TYPES)[number]) => {
-    setStatType(type);
-  };
 
   const error = queryError ? 'Failed to fetch comparison data.' : null;
   const players: ComparedPlayer[] | undefined =
@@ -128,7 +104,9 @@ export default function PlayerCompare() {
             instanceId="players-select"
             options={playerOptions}
             value={selectedPlayers}
-            onChange={handlePlayersChange}
+            onChange={(newValue) => {
+              setPlayersParam(newValue.length ? newValue.map((p) => p.value).join(',') : null);
+            }}
             placeholder={battersLoading || bowlersLoading ? 'Loading...' : 'Select players...'}
             isLoading={battersLoading || bowlersLoading}
             maxSelections={5}
@@ -145,7 +123,9 @@ export default function PlayerCompare() {
               instanceId="seasons-select"
               options={seasonOptions}
               value={selectedSeasons}
-              onChange={handleSeasonsChange}
+              onChange={(newValue) => {
+                setSeasonsParam(newValue.length ? newValue.map((s) => s.value).join(',') : null);
+              }}
               placeholder={seasonsLoading ? 'Loading...' : 'All seasons'}
               isLoading={seasonsLoading}
             />
@@ -161,7 +141,7 @@ export default function PlayerCompare() {
                   key={type}
                   variant={statType === type ? 'primary' : 'secondary'}
                   size="md"
-                  onClick={() => handleStatTypeChange(type)}
+                  onClick={() => setStatType(type)}
                   className="flex-1 capitalize"
                 >
                   {type}
@@ -208,8 +188,8 @@ export default function PlayerCompare() {
                     </tr>
                   </DataTableHeader>
                   <DataTableBody>
-                    {players.map((player, index) => (
-                      <DataTableRow key={player.name} index={index}>
+                    {players.map((player) => (
+                      <DataTableRow key={player.name}>
                         <DataTableCell className="font-bold">{player.name}</DataTableCell>
                         <DataTableCell className="font-mono">
                           {player.batting?.runs ?? '-'}
@@ -269,8 +249,8 @@ export default function PlayerCompare() {
                     </tr>
                   </DataTableHeader>
                   <DataTableBody>
-                    {players.map((player, index) => (
-                      <DataTableRow key={player.name} index={index}>
+                    {players.map((player) => (
+                      <DataTableRow key={player.name}>
                         <DataTableCell className="font-bold">{player.name}</DataTableCell>
                         <DataTableCell className="font-mono">
                           {player.bowling?.wickets ?? '-'}

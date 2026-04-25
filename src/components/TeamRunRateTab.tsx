@@ -61,14 +61,6 @@ export default function TeamRunRateTab() {
     error: trendError,
   } = useRunRateTrend(selectedTeam?.value || null);
 
-  const handleTeamChange = (newValue: SelectOption | null) => {
-    setSelectedTeamValue(newValue?.value || null);
-  };
-
-  const handleSeasonChange = (newValue: SelectOption | null) => {
-    setSelectedSeasonValue(newValue?.value || null);
-  };
-
   const isLoadingSelectors = teamsLoading || seasonsLoading;
   const description = leagueConfig
     ? `View ${leagueConfig.name} team run rate progression per over and seasonal trends.`
@@ -80,7 +72,6 @@ export default function TeamRunRateTab() {
         {description}
       </p>
 
-      {/* Selectors */}
       <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
         <div className="flex-1">
           <label className="block text-sm font-bold text-black mb-1">Select Team</label>
@@ -88,7 +79,7 @@ export default function TeamRunRateTab() {
             instanceId="team-runrate-team-select"
             options={teamOptions}
             value={selectedTeam}
-            onChange={handleTeamChange}
+            onChange={(newValue) => setSelectedTeamValue(newValue?.value || null)}
             placeholder={isLoadingSelectors ? 'Loading...' : 'Select a team'}
             isLoading={teamsLoading}
             isClearable
@@ -100,7 +91,7 @@ export default function TeamRunRateTab() {
             instanceId="team-runrate-season-select"
             options={seasonOptions}
             value={selectedSeason}
-            onChange={handleSeasonChange}
+            onChange={(newValue) => setSelectedSeasonValue(newValue?.value || null)}
             placeholder={isLoadingSelectors ? 'Loading...' : 'Select a season'}
             isLoading={seasonsLoading}
             isClearable
@@ -108,7 +99,6 @@ export default function TeamRunRateTab() {
         </div>
       </div>
 
-      {/* Per-Over Progression Chart */}
       <Card className="p-2 sm:p-4">
         <h2 className="text-base sm:text-lg font-black text-black mb-2 uppercase">
           Per-Over Run Rate Progression
@@ -151,7 +141,6 @@ export default function TeamRunRateTab() {
         )}
       </Card>
 
-      {/* Seasonal Trend Chart */}
       <Card className="p-2 sm:p-4">
         <h2 className="text-base sm:text-lg font-black text-black mb-2 uppercase">
           Run Rate Trend Over Seasons

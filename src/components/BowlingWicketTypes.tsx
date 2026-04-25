@@ -16,6 +16,8 @@ import {
   Spinner,
 } from './ui';
 
+const PAGE_SIZE = 10;
+
 interface BowlingWicketTypesData {
   player: string;
   totalWickets: number;
@@ -67,7 +69,7 @@ export default function BowlingWicketTypes() {
                 {data?.data && data.data.length > 0 ? (
                   data.data.map((bowler: BowlingWicketTypesData, index: number) => (
                     <DataTableRow key={bowler.player} index={index}>
-                      <DataTableCell>{(currentPage - 1) * 10 + index + 1}</DataTableCell>
+                      <DataTableCell>{(currentPage - 1) * PAGE_SIZE + index + 1}</DataTableCell>
                       <DataTableCell>{bowler.player}</DataTableCell>
                       <DataTableCell>{bowler.totalWickets}</DataTableCell>
                       <DataTableCell>{bowler.wicketTypes.caught}</DataTableCell>
@@ -87,7 +89,7 @@ export default function BowlingWicketTypes() {
             <Pagination
               currentPage={currentPage}
               totalPages={totalPages}
-              skipSize={10}
+              skipSize={PAGE_SIZE}
               onPageChange={setCurrentPage}
             />
           </>

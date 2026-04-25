@@ -50,20 +50,6 @@ export default function Matchup() {
   const bowlerOptions: SelectOption[] =
     bowlers?.map((bowler: string) => ({ value: bowler, label: bowler })) || [];
 
-  const handleBatterChange = (newValue: SelectOption | null) => {
-    setSelectedBatterValue(newValue?.value || null);
-  };
-
-  const handleBowlerChange = (newValue: SelectOption | null) => {
-    setSelectedBowlerValue(newValue?.value || null);
-  };
-
-  const handleFetchMatchup = () => {
-    if (!selectedBatter || !selectedBowler) {
-      return;
-    }
-  };
-
   const matchupMetrics = matchupData?.data
     ? [
         { metric: 'Runs Scored', value: matchupData.data.runsScored },
@@ -89,7 +75,7 @@ export default function Matchup() {
             instanceId="batter-select"
             options={batterOptions}
             value={selectedBatter}
-            onChange={handleBatterChange}
+            onChange={(newValue) => setSelectedBatterValue(newValue?.value || null)}
             placeholder={battersLoading ? 'Loading Batters...' : 'Select Batter'}
             isLoading={battersLoading}
           />
@@ -106,7 +92,7 @@ export default function Matchup() {
             instanceId="bowler-select"
             options={bowlerOptions}
             value={selectedBowler}
-            onChange={handleBowlerChange}
+            onChange={(newValue) => setSelectedBowlerValue(newValue?.value || null)}
             placeholder={bowlersLoading ? 'Loading Bowlers...' : 'Select Bowler'}
             isLoading={bowlersLoading}
           />
@@ -116,7 +102,6 @@ export default function Matchup() {
       <Button
         variant="primary"
         size="lg"
-        onClick={handleFetchMatchup}
         disabled={isMatchupLoading || !selectedBatter || !selectedBowler}
         className="font-black text-sm sm:text-base uppercase"
       >
@@ -149,8 +134,8 @@ export default function Matchup() {
                 </tr>
               </DataTableHeader>
               <DataTableBody>
-                {matchupMetrics.map((row, index) => (
-                  <DataTableRow key={row.metric} index={index}>
+                {matchupMetrics.map((row, i) => (
+                  <DataTableRow key={row.metric} index={i}>
                     <DataTableCell>{row.metric}</DataTableCell>
                     <DataTableCell isLast className="text-center font-mono">
                       {row.value}

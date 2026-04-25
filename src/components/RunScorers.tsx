@@ -16,6 +16,8 @@ import {
   Spinner,
 } from './ui';
 
+const PAGE_SIZE = 10;
+
 interface RunScorerData {
   player: string;
   runs: number;
@@ -66,7 +68,7 @@ export default function RunScorers() {
                 {data?.data && data.data.length > 0 ? (
                   data.data.map((player: RunScorerData, index: number) => (
                     <DataTableRow key={player.player} index={index}>
-                      <DataTableCell>{(currentPage - 1) * 10 + index + 1}</DataTableCell>
+                      <DataTableCell>{(currentPage - 1) * PAGE_SIZE + index + 1}</DataTableCell>
                       <DataTableCell>{player.player}</DataTableCell>
                       <DataTableCell>{player.runs}</DataTableCell>
                       <DataTableCell>{player.ballsFaced}</DataTableCell>
@@ -87,7 +89,7 @@ export default function RunScorers() {
             <Pagination
               currentPage={currentPage}
               totalPages={totalPages}
-              skipSize={10}
+              skipSize={PAGE_SIZE}
               onPageChange={setCurrentPage}
             />
           </>

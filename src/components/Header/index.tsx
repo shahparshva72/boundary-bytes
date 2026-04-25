@@ -10,14 +10,6 @@ const Header = () => {
   const { selectedLeague, leagueConfig } = useLeagueContext();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
-
-  const closeMobileMenu = () => {
-    setIsMobileMenuOpen(false);
-  };
-
   return (
     <header className="bg-[#FFC700] p-2 sm:p-2.5 border-b-2 border-black shadow-[0px_2px_0px_0px_rgba(0,0,0,1)]">
       <div className="container mx-auto flex justify-between items-center">
@@ -47,7 +39,7 @@ const Header = () => {
           {selectedLeague && <LeagueSwitcher />}
 
           <button
-            onClick={toggleMobileMenu}
+            onClick={() => setIsMobileMenuOpen((prev) => !prev)}
             className="md:hidden flex flex-col justify-center items-center w-10 h-10 bg-white border-2 border-black"
             aria-label="Toggle mobile menu"
             aria-expanded={isMobileMenuOpen}
@@ -67,12 +59,15 @@ const Header = () => {
 
       {isMobileMenuOpen && (
         <>
-          <div className="fixed inset-0 bg-black/50 z-40 md:hidden" onClick={closeMobileMenu} />
+          <div
+            className="fixed inset-0 bg-black/50 z-40 md:hidden"
+            onClick={() => setIsMobileMenuOpen(false)}
+          />
           <nav className="fixed top-0 right-0 h-full w-64 bg-[#FFC700] border-l-2 border-black z-50 md:hidden flex flex-col p-2.5 shadow-[-4px_0px_0px_0px_rgba(0,0,0,1)]">
             <div className="flex justify-between items-center mb-3">
               <span className="text-xl font-black text-black">Menu</span>
               <button
-                onClick={closeMobileMenu}
+                onClick={() => setIsMobileMenuOpen(false)}
                 className="w-10 h-10 bg-white border-2 border-black flex items-center justify-center font-black text-xl"
                 aria-label="Close menu"
               >
@@ -80,25 +75,25 @@ const Header = () => {
               </button>
             </div>
             <div className="flex flex-col gap-2">
-              <NavLink href="/" onClick={closeMobileMenu}>
+              <NavLink href="/" onClick={() => setIsMobileMenuOpen(false)}>
                 Home
               </NavLink>
-              <NavLink href="/stats" onClick={closeMobileMenu}>
+              <NavLink href="/stats" onClick={() => setIsMobileMenuOpen(false)}>
                 Stats
               </NavLink>
-              <NavLink href="/stat-explorer" onClick={closeMobileMenu}>
+              <NavLink href="/stat-explorer" onClick={() => setIsMobileMenuOpen(false)}>
                 Stat Explorer
               </NavLink>
-              <NavLink href="/chat" onClick={closeMobileMenu}>
+              <NavLink href="/chat" onClick={() => setIsMobileMenuOpen(false)}>
                 Chat
               </NavLink>
-              <NavLink href="/news" onClick={closeMobileMenu}>
+              <NavLink href="/news" onClick={() => setIsMobileMenuOpen(false)}>
                 News
               </NavLink>
-              <NavLink href="/stats/advanced" onClick={closeMobileMenu}>
+              <NavLink href="/stats/advanced" onClick={() => setIsMobileMenuOpen(false)}>
                 Advanced Stats
               </NavLink>
-              <NavLink href="/stats/player-progression" onClick={closeMobileMenu}>
+              <NavLink href="/stats/player-progression" onClick={() => setIsMobileMenuOpen(false)}>
                 Player Progression
               </NavLink>
             </div>

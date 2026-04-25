@@ -1,6 +1,8 @@
 // Simple logging utility for text-to-SQL feature
+import { env } from '@/lib/env-server';
+
 export class Logger {
-  private static isDevelopment = process.env.NODE_ENV === 'development';
+  private static isDevelopment = env.NODE_ENV === 'development';
 
   static info(message: string, data?: unknown) {
     if (this.isDevelopment) {

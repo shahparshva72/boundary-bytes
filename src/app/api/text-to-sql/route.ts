@@ -1,3 +1,4 @@
+import { env } from '@/lib/env-server';
 import { logger } from '@/lib/logger';
 import { responseFormatter } from '@/lib/response-formatter';
 import { normalizeTeamResults } from '@/lib/result-normalizer';
@@ -14,12 +15,10 @@ export async function POST(request: NextRequest) {
   let requestId: string | null = null;
 
   try {
-    // Parse request body
     body = await request.json();
     logger.debug('Received text-to-SQL request', { body });
 
-    // Quick health check - ensure all required environment variables are present
-    if (!process.env.GOOGLE_GENERATIVE_AI_API_KEY) {
+    if (!env.GOOGLE_GENERATIVE_AI_API_KEY) {
       logger.error('Missing GOOGLE_GENERATIVE_AI_API_KEY environment variable');
       return NextResponse.json(
         responseFormatter.formatError('AI service configuration error', 'AI_ERROR'),
