@@ -1,5 +1,6 @@
 'use client';
 
+import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 import { useQuery } from '@tanstack/react-query';
 import Image from 'next/image';
 
@@ -20,8 +21,10 @@ interface NewsData {
   items: NewsItem[];
 }
 
-const fetchNews = async () => {
-  const response = await fetch('/api/news');
+const fetchNews = async (
+  fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
+) => {
+  const response = await fetchWithLeague('/api/news');
   if (!response.ok) {
     throw new Error('Failed to fetch news');
   }
@@ -29,14 +32,15 @@ const fetchNews = async () => {
 };
 
 export default function NewsPage() {
+  const { fetchWithLeague } = useLeagueAPI();
   const {
     data: newsResponse,
     isLoading,
     isError,
   } = useQuery({
     queryKey: ['cricketNews'],
-    queryFn: fetchNews,
-    refetchInterval: 5 * 60 * 1000, // Refetch every 5 minutes
+    queryFn: () => fetchNews(fetchWithLeague),
+    refetchInterval: 5 * 60 * 1000,
   });
 
   const newsData: NewsData | null = newsResponse?.data || null;

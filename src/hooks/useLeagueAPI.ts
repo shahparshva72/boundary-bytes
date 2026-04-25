@@ -4,6 +4,9 @@ import { useLeagueContext } from '@/contexts/LeagueContext';
 import { League } from '@/types/league';
 import { useCallback } from 'react';
 
+const goApiBaseUrl = (process.env.NEXT_PUBLIC_GO_API_URL ?? '').replace(/\/$/, '');
+const apiBaseUrl = goApiBaseUrl || (typeof window !== 'undefined' ? window.location.origin : '');
+
 interface UseLeagueAPIReturn {
   fetchWithLeague: (endpoint: string, options?: RequestInit) => Promise<Response>;
   selectedLeague: League | null;
@@ -15,9 +18,8 @@ export const useLeagueAPI = (): UseLeagueAPIReturn => {
 
   const fetchWithLeague = useCallback(
     async (endpoint: string, options?: RequestInit): Promise<Response> => {
-      const url = new URL(endpoint, window.location.origin);
+      const url = new URL(endpoint, `${apiBaseUrl}/api`);
 
-      // Automatically add league parameter if a league is selected
       if (selectedLeague) {
         url.searchParams.set('league', selectedLeague);
       }
