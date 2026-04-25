@@ -134,8 +134,8 @@ export default function Matchup() {
                 </tr>
               </DataTableHeader>
               <DataTableBody>
-                {matchupMetrics.map((row) => (
-                  <DataTableRow key={row.metric}>
+                {matchupMetrics.map((row, i) => (
+                  <DataTableRow key={row.metric} index={i}>
                     <DataTableCell>{row.metric}</DataTableCell>
                     <DataTableCell isLast className="text-center font-mono">
                       {row.value}
