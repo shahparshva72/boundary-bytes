@@ -67,7 +67,7 @@ export default function RunScorers() {
               <DataTableBody>
                 {data?.data && data.data.length > 0 ? (
                   data.data.map((player: RunScorerData, index: number) => (
-                    <DataTableRow key={player.player}>
+                    <DataTableRow key={player.player} index={index}>
                       <DataTableCell>{(currentPage - 1) * PAGE_SIZE + index + 1}</DataTableCell>
                       <DataTableCell>{player.player}</DataTableCell>
                       <DataTableCell>{player.runs}</DataTableCell>
