@@ -34,4 +34,5 @@ export interface LeagueContextType {
   resetLeagueSelection: () => void;
   isTransitioning: boolean;
   leagueConfig: LeagueConfig | null;
+  leagueConfigs: Record<League, LeagueConfig>;
 }

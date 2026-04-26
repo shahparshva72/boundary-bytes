@@ -1,8 +1,9 @@
 'use client';
 
 import { useLeagueURL } from '@/hooks/useLeagueURL';
-import { getLeagueConfig } from '@/lib/league-config';
+import { fetchLeagueConfigs, LEAGUE_CONFIGS } from '@/lib/league-config';
 import { League, LeagueContextType } from '@/types/league';
+import { useQuery } from '@tanstack/react-query';
 import { createContext, type ReactNode, useContext, useState } from 'react';
 
 const LeagueContext = createContext<LeagueContextType | undefined>(undefined);
@@ -13,6 +14,11 @@ interface LeagueProviderProps {
 
 export const LeagueProvider = ({ children }: LeagueProviderProps) => {
   const [isTransitioning, setIsTransitioning] = useState(false);
+  const { data: leagueConfigs = LEAGUE_CONFIGS } = useQuery({
+    queryKey: ['league-configs'],
+    queryFn: fetchLeagueConfigs,
+    staleTime: 5 * 60 * 1000,
+  });
 
   const {
     selectedLeague,
@@ -37,7 +43,7 @@ export const LeagueProvider = ({ children }: LeagueProviderProps) => {
     setIsTransitioning(false);
   };
 
-  const leagueConfig = selectedLeague ? getLeagueConfig(selectedLeague) : null;
+  const leagueConfig = selectedLeague ? leagueConfigs[selectedLeague] : null;
 
   const contextValue: LeagueContextType = {
     selectedLeague,
@@ -46,6 +52,7 @@ export const LeagueProvider = ({ children }: LeagueProviderProps) => {
     resetLeagueSelection,
     isTransitioning,
     leagueConfig,
+    leagueConfigs,
   };
 
   return <LeagueContext.Provider value={contextValue}>{children}</LeagueContext.Provider>;

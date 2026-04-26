@@ -1,12 +1,12 @@
 'use client';
 
 import { useLeagueContext } from '@/contexts/LeagueContext';
-import { LEAGUE_CONFIGS, VALID_LEAGUES } from '@/lib/league-config';
+import { VALID_LEAGUES } from '@/lib/league-config';
 import { League } from '@/types/league';
 import { useState } from 'react';
 
 const LeagueSwitcher = () => {
-  const { selectedLeague, selectLeague, resetLeagueSelection } = useLeagueContext();
+  const { selectedLeague, selectLeague, resetLeagueSelection, leagueConfigs } = useLeagueContext();
   const [isOpen, setIsOpen] = useState(false);
   const [isConfirming, setIsConfirming] = useState(false);
   const [pendingLeague, setPendingLeague] = useState<League | null>(null);
@@ -15,7 +15,7 @@ const LeagueSwitcher = () => {
     return null;
   }
 
-  const currentConfig = LEAGUE_CONFIGS[selectedLeague];
+  const currentConfig = leagueConfigs[selectedLeague];
   const otherLeagues: League[] = VALID_LEAGUES.filter((l) => l !== selectedLeague);
 
   const handleLeagueChange = (league: League) => {
@@ -71,7 +71,7 @@ const LeagueSwitcher = () => {
             </div>
 
             {otherLeagues.map((l, idx) => {
-              const cfg = LEAGUE_CONFIGS[l];
+              const cfg = leagueConfigs[l];
               const isLast = idx === otherLeagues.length - 1;
               return (
                 <button
@@ -115,10 +115,10 @@ const LeagueSwitcher = () => {
 
             <div className="text-center mb-4 sm:mb-6">
               <p className="text-base sm:text-lg font-bold text-black mb-2">
-                Switch from {currentConfig.name} to {LEAGUE_CONFIGS[pendingLeague].name}?
+                Switch from {currentConfig.name} to {leagueConfigs[pendingLeague].name}?
               </p>
               <p className="text-xs sm:text-sm text-black">
-                This will reload the page with {LEAGUE_CONFIGS[pendingLeague].fullName} data.
+                This will reload the page with {leagueConfigs[pendingLeague].fullName} data.
               </p>
             </div>
 

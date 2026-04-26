@@ -1,6 +1,7 @@
 'use client';
 
-import { LEAGUE_CONFIGS } from '@/lib/league-config';
+import { useLeagueContext } from '@/contexts/LeagueContext';
+import { VALID_LEAGUES } from '@/lib/league-config';
 import { League } from '@/types/league';
 import { motion } from 'framer-motion';
 import LeagueCard from './LeagueCard';
@@ -34,6 +35,8 @@ const headerVariants = {
 };
 
 const LeagueSelectionScreen = ({ onLeagueSelect, isVisible }: LeagueSelectionScreenProps) => {
+  const { leagueConfigs } = useLeagueContext();
+
   if (!isVisible) {
     return null;
   }
@@ -68,11 +71,11 @@ const LeagueSelectionScreen = ({ onLeagueSelect, isVisible }: LeagueSelectionScr
 
         {/* League Cards Container */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3 sm:gap-4 w-full max-w-7xl">
-          {(Object.keys(LEAGUE_CONFIGS) as League[]).map((league, index) => (
+          {VALID_LEAGUES.map((league, index) => (
             <LeagueCard
               key={league}
               league={league}
-              config={LEAGUE_CONFIGS[league]}
+              config={leagueConfigs[league]}
               onSelect={() => onLeagueSelect(league)}
               delay={0.2 + index * 0.15}
             />
