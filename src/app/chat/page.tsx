@@ -86,6 +86,96 @@ function formatDisplayValue(v: unknown): string {
 
 // -- Sub-components --
 
+function splitColumns<T>(arr: T[], maxPerRow: number): T[][] {
+  const result: T[][] = [];
+  for (let i = 0; i < arr.length; i += maxPerRow) {
+    result.push(arr.slice(i, i + maxPerRow));
+  }
+  return result;
+}
+
+type ResultGridProps = {
+  data: unknown[];
+};
+
+function ResultGrid({ data }: ResultGridProps) {
+  const rows = data as Record<string, unknown>[];
+  const cols = Object.keys(rows[0]);
+  const MAX_COLS_PER_ROW = 6;
+
+  if (cols.length <= MAX_COLS_PER_ROW) {
+    return (
+      <div
+        className="overflow-x-auto border-2 border-black"
+        role="region"
+        aria-label="Cricket statistics results"
+      >
+        <table className="min-w-full border-collapse">
+          <thead>
+            <tr className="bg-[#F9A825]">
+              {cols.map((key) => (
+                <th
+                  key={key}
+                  scope="col"
+                  className="px-1.5 sm:px-2 md:px-3 py-1.5 border-2 border-black font-black text-left text-black whitespace-nowrap text-xs sm:text-sm md:text-base"
+                >
+                  {key}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((row, idx) => (
+              <tr key={idx} className={idx % 2 === 0 ? 'bg-white' : 'bg-[#FEF9C3]'}>
+                {cols.map((key) => (
+                  <td
+                    key={key}
+                    className="px-1.5 sm:px-2 md:px-3 py-1.5 border-2 border-black font-mono text-xs sm:text-sm text-black whitespace-nowrap max-w-[120px] sm:max-w-[180px] md:max-w-[240px] overflow-hidden text-ellipsis"
+                    title={String(row[key])}
+                  >
+                    {formatDisplayValue(row[key])}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    );
+  }
+
+  const colGroups = splitColumns(cols, MAX_COLS_PER_ROW);
+
+  return (
+    <div className="border-2 border-black" role="region" aria-label="Cricket statistics results">
+      <div className="flex flex-col gap-6 p-2 sm:p-3">
+        {rows.map((row, rowIdx) => (
+          <div key={rowIdx} className="flex flex-col gap-2">
+            {colGroups.map((group, gi) => (
+              <div
+                key={gi}
+                className={`grid border-2 border-black ${rowIdx % 2 === 0 ? 'bg-white' : 'bg-[#FEF9C3]'}`}
+                style={{ gridTemplateColumns: `repeat(${group.length}, minmax(0, 1fr))` }}
+              >
+                {group.map((key) => (
+                  <div key={key} className="flex flex-col border-r border-black last:border-r-0">
+                    <span className="bg-[#F9A825] px-1.5 sm:px-2 py-1 font-black text-black text-xs sm:text-sm border-b border-black">
+                      {key}
+                    </span>
+                    <span className="px-1.5 sm:px-2 py-1 font-mono text-xs sm:text-sm text-black">
+                      {formatDisplayValue(row[key])}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 type QueryResultProps = {
   isPending: boolean;
   showSlowMsg: boolean;
@@ -155,7 +245,7 @@ function QueryResult({
                 key={suggestion}
                 type="button"
                 onClick={() => onSuggestionClick(suggestion)}
-                className="text-xs sm:text-sm bg-white px-1.5 sm:px-2 py-0.5 sm:py-1 border-2 border-black font-bold shadow-[1px_1px_0_#000] hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all"
+                className="text-black text-xs sm:text-sm bg-white px-1.5 sm:px-2 py-0.5 sm:py-1 border-2 border-black font-bold shadow-[1px_1px_0_#000] hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all"
               >
                 {suggestion}
               </button>
@@ -165,7 +255,7 @@ function QueryResult({
         <button
           type="button"
           onClick={onReset}
-          className="self-start mt-1 bg-white px-2 sm:px-3 py-1.5 font-bold border-2 border-black text-xs sm:text-sm shadow-[1px_1px_0_#000] hover:bg-[#FFED66] hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all"
+          className="self-start mt-1 bg-white px-2 sm:px-3 py-1.5 font-bold border-2 border-black text-black text-xs sm:text-sm shadow-[1px_1px_0_#000] hover:bg-[#FFED66] hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all"
         >
           Clear
         </button>
@@ -189,42 +279,7 @@ function QueryResult({
             No stats found - try another angle (e.g. &quot;Top run scorers in WPL 2023&quot;).
           </p>
         ) : (
-          <div
-            className="overflow-x-auto border-2 border-black"
-            role="region"
-            aria-label="Cricket statistics results"
-          >
-            <table className="min-w-full border-collapse">
-              <thead>
-                <tr className="bg-[#F9A825]">
-                  {Object.keys(data.data[0] as Record<string, unknown>).map((key) => (
-                    <th
-                      key={key}
-                      scope="col"
-                      className="px-1.5 sm:px-2 md:px-3 py-1.5 border-2 border-black font-black text-left text-black whitespace-nowrap text-xs sm:text-sm md:text-base"
-                    >
-                      {key}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {data.data.map((row, idx) => (
-                  <tr key={idx} className={idx % 2 === 0 ? 'bg-white' : 'bg-[#FEF9C3]'}>
-                    {Object.entries(row as Record<string, unknown>).map(([k, v]) => (
-                      <td
-                        key={k}
-                        className="px-1.5 sm:px-2 md:px-3 py-1.5 border-2 border-black font-mono text-xs sm:text-sm text-black whitespace-nowrap max-w-[120px] sm:max-w-[180px] md:max-w-[240px] overflow-hidden text-ellipsis"
-                        title={String(v)}
-                      >
-                        {formatDisplayValue(v)}
-                      </td>
-                    ))}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <ResultGrid data={data.data} />
         )}
         <div className="flex gap-1.5 sm:gap-2">
           <button
