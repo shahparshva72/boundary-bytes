@@ -11,6 +11,7 @@ interface LayoutProps {
   children: ReactNode;
   loading?: boolean;
   error?: boolean;
+  showLatestMatchDate?: boolean;
 }
 
 interface LatestMatchDateResponse {
@@ -28,7 +29,14 @@ async function fetchLatestMatchDate(
   return response.json();
 }
 
-const Layout = ({ title, description, children, loading, error }: LayoutProps) => {
+const Layout = ({
+  title,
+  description,
+  children,
+  loading,
+  error,
+  showLatestMatchDate = true,
+}: LayoutProps) => {
   const { fetchWithLeague, selectedLeague } = useLeagueAPI();
 
   const { data: latestMatchDateData } = useQuery({
@@ -60,7 +68,7 @@ const Layout = ({ title, description, children, loading, error }: LayoutProps) =
         )}
         {description && (
           <div className="flex flex-col items-center gap-2 sm:gap-3 mb-1 sm:mb-2 w-full px-2 sm:px-0">
-            <div className="bg-[#FF5E5B] p-2 sm:p-3 md:p-4 rounded-none shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black w-full max-w-2xl">
+            <div className="bg-[#4ECDC4] p-2 sm:p-3 md:p-4 rounded-none shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black w-full max-w-2xl">
               <p className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-black text-center tracking-tight">
                 {description}
               </p>
@@ -68,7 +76,7 @@ const Layout = ({ title, description, children, loading, error }: LayoutProps) =
           </div>
         )}
 
-        {latestMatchDateLabel && (
+        {showLatestMatchDate && latestMatchDateLabel && (
           <div className="w-full px-2 sm:px-0">
             <p className="text-center text-xs sm:text-sm font-bold uppercase tracking-wide text-black/70">
               Data until {latestMatchDateLabel}

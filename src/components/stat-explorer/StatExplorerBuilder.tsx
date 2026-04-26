@@ -249,10 +249,8 @@ export default function StatExplorerBuilder() {
   }, [dimensions, metrics, reportType, cleanFilters]);
 
   return (
-    <div className="w-full max-w-7xl mx-auto space-y-6 px-2 sm:px-4">
+    <div className="w-full mx-auto space-y-6 px-2 sm:px-4">
       <div className="flex flex-col gap-4">
-        <SectionHeader title="Stat Explorer" color="coral" size="md" className="border-2" />
-
         <Card>
           <CardContent className="flex flex-wrap gap-3 items-center">
             <span className="text-sm font-black text-black uppercase mr-2">Report Type:</span>

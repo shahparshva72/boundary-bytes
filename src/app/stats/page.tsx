@@ -8,7 +8,7 @@ export const dynamic = 'force-dynamic';
 
 export default function StatsPage() {
   return (
-    <Layout description="" error={false}>
+    <Layout error={false}>
       <StatsTabs />
     </Layout>
   );

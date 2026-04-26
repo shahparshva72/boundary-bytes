@@ -79,7 +79,7 @@ export default function AiFeedback({ requestId, onFeedbackSubmitted }: AiFeedbac
         <button
           onClick={() => handleFeedback(true)}
           disabled={isSubmitting}
-          className="flex items-center gap-1 bg-[#4ECDC4] px-3 py-1 font-bold border-2 border-black text-sm shadow-[2px_2px_0_#000] hover:shadow-[3px_3px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all disabled:opacity-50"
+          className="flex items-center gap-1 bg-[#4ECDC4] text-black px-3 py-1 font-bold border-2 border-black text-sm shadow-[2px_2px_0_#000] hover:shadow-[3px_3px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all disabled:opacity-50"
           title="Yes, this was helpful"
         >
           <span>👍</span>
@@ -88,7 +88,7 @@ export default function AiFeedback({ requestId, onFeedbackSubmitted }: AiFeedbac
         <button
           onClick={() => handleFeedback(false)}
           disabled={isSubmitting}
-          className="flex items-center gap-1 bg-[#FF5E5B] px-3 py-1 font-bold border-2 border-black text-sm shadow-[2px_2px_0_#000] hover:shadow-[3px_3px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all disabled:opacity-50"
+          className="flex items-center gap-1 bg-[#FF5E5B] text-black px-3 py-1 font-bold border-2 border-black text-sm shadow-[2px_2px_0_#000] hover:shadow-[3px_3px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all disabled:opacity-50"
           title="No, this wasn't helpful"
         >
           <span>👎</span>

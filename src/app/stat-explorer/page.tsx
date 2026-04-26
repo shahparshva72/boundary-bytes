@@ -2,15 +2,20 @@
 
 import StatExplorerBuilder from '@/components/stat-explorer/StatExplorerBuilder';
 import { Suspense } from 'react';
+import Loading from '../loading';
 import Layout from '../stats/components/Layout';
 
 export const dynamic = 'force-dynamic';
 
-const explorerFallback = <div className="flex justify-center p-8">Loading explorer...</div>;
+const explorerFallback = (
+  <div className="flex justify-center p-8">
+    <Loading />
+  </div>
+);
 
 export default function StatExplorerPage() {
   return (
-    <Layout description="">
+    <Layout title="Stat Explorer" description="">
       <Suspense fallback={explorerFallback}>
         <StatExplorerBuilder />
       </Suspense>

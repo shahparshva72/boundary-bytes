@@ -1,18 +1,12 @@
 'use client';
 
+import Layout from '@/app/stats/components/Layout';
 import AiFeedback from '@/components/AiFeedback';
 import Tooltip from '@/components/ui/Tooltip';
 import { useLeagueContext } from '@/contexts/LeagueContext';
-import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 import { TextToSqlError, TextToSqlSuccess, useTextToSql } from '@/hooks/useTextToSql';
-import { useQuery } from '@tanstack/react-query';
 import { useEffect, useState } from 'react';
 import { MoonLoader } from 'react-spinners';
-
-interface LatestMatchDateResponse {
-  league: string;
-  latestDate: string | null;
-}
 
 type SuggestionSection = {
   category: string;
@@ -70,16 +64,6 @@ const SUGGESTIONS: SuggestionSection[] = [
   },
 ];
 
-async function fetchLatestMatchDate(
-  fetchWithLeague: (endpoint: string, options?: RequestInit) => Promise<Response>,
-): Promise<LatestMatchDateResponse> {
-  const response = await fetchWithLeague('/api/stats/latest-match-date');
-  if (!response.ok) {
-    throw new Error('Failed to fetch latest match date');
-  }
-  return response.json() as Promise<LatestMatchDateResponse>;
-}
-
 function isTextToSqlError(e: unknown): e is TextToSqlError {
   return (
     typeof e === 'object' &&
@@ -123,11 +107,11 @@ function QueryResult({
     return (
       <div className="flex flex-col items-center gap-2 sm:gap-2.5 p-2 sm:p-3 md:p-4 bg-white border-2 border-black shadow-[2px_2px_0_#000]">
         <MoonLoader color="#1a202c" size={48} />
-        <p className="font-bold text-black text-center text-base sm:text-lg">
+        <p className="font-bold text-center text-base sm:text-lg text-black">
           Crunching the numbers...
         </p>
         {showSlowMsg && (
-          <p className="text-xs sm:text-sm font-mono bg-[#FFED66] px-2 sm:px-3 py-2 border-2 border-black">
+          <p className="text-xs sm:text-sm font-mono bg-[#FFED66] px-2 sm:px-3 py-2 border-2 border-black text-black">
             Big over of data - hang tight!
           </p>
         )}
@@ -153,7 +137,7 @@ function QueryResult({
           phrasing.
         </p>
         {structured?.code === 'RATE_LIMIT_ERROR' && (
-          <span className="inline-block bg-[#FFED66] px-2 sm:px-3 py-1 font-bold border-2 border-black w-fit text-sm sm:text-base">
+          <span className="inline-block bg-[#FFED66] px-2 sm:px-3 py-1 font-bold border-2 border-black w-fit text-sm sm:text-base text-black">
             Rate limit - give it a moment
           </span>
         )}
@@ -246,7 +230,7 @@ function QueryResult({
           <button
             type="button"
             onClick={onReset}
-            className="bg-[#FF5E5B] px-2 sm:px-3 py-1.5 font-black border-2 border-black text-xs sm:text-sm shadow-[1px_1px_0_#000] hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all"
+            className="bg-[#FF5E5B] px-2 sm:px-3 py-1.5 font-black border-2 border-black text-xs sm:text-sm text-black shadow-[1px_1px_0_#000] hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all"
           >
             Ask Another
           </button>
@@ -287,7 +271,7 @@ function QuerySuggestions({ onQueryClick }: QuerySuggestionsProps) {
                   key={query}
                   type="button"
                   onClick={() => onQueryClick(query)}
-                  className="w-full text-left p-1.5 sm:p-2 bg-gray-100 border-2 border-black shadow-[1px_1px_0_#000] text-xs sm:text-sm font-mono hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all"
+                  className="w-full text-black text-left p-1.5 sm:p-2 bg-gray-100 border-2 border-black shadow-[1px_1px_0_#000] text-xs sm:text-sm font-mono hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all"
                 >
                   {`"${query}"`}
                 </button>
@@ -311,26 +295,10 @@ function QuerySuggestions({ onQueryClick }: QuerySuggestionsProps) {
 
 export default function TextToSqlPage() {
   const { selectedLeague } = useLeagueContext();
-  const { fetchWithLeague } = useLeagueAPI();
   const { mutate, data, error, isPending, reset } = useTextToSql();
   const [question, setQuestion] = useState('');
   const [touched, setTouched] = useState(false);
   const [showSlowMsg, setShowSlowMsg] = useState(false);
-
-  const { data: latestMatchDateData } = useQuery({
-    queryKey: ['chatLatestMatchDate', selectedLeague],
-    queryFn: () => fetchLatestMatchDate(fetchWithLeague),
-    enabled: !!selectedLeague,
-    staleTime: 5 * 60 * 1000,
-  });
-
-  const latestMatchDateLabel = latestMatchDateData?.latestDate
-    ? new Intl.DateTimeFormat('en-US', {
-        day: 'numeric',
-        month: 'short',
-        year: 'numeric',
-      }).format(new Date(latestMatchDateData.latestDate))
-    : null;
 
   useEffect(() => {
     if (!isPending) {
@@ -361,118 +329,104 @@ export default function TextToSqlPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FFFEE0] text-black">
-      <div className="container mx-auto p-2 sm:p-2.5 md:p-4 flex flex-col gap-2 sm:gap-3 md:gap-4 justify-center items-center">
-        <header className="text-center p-2 sm:p-3 md:p-4 mb-1 sm:mb-2 bg-[#FF5E5B] border-2 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] max-w-6xl w-full">
-          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-black text-center tracking-tight">
-            Ask Boundary Bytes
-          </h1>
-        </header>
-        <div className="text-center -mt-1 sm:-mt-2 mb-0.5 sm:mb-1 w-full px-2 sm:px-0">
-          <p className="bg-[#34D399] text-black font-bold py-1.5 sm:py-2 px-2 sm:px-3 border-2 border-black shadow-[1px_1px_0_#000] text-xs sm:text-sm md:text-base">
-            Ask a cricket stats question - get instant numbers.
-          </p>
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-6 gap-2 sm:gap-3 md:gap-4 items-start w-full">
-          <div className="lg:col-span-3 flex flex-col gap-2 sm:gap-3 md:gap-4">
-            <form
-              onSubmit={handleSubmit}
-              className="flex flex-col gap-2 sm:gap-2.5 p-2 sm:p-3 md:p-4 bg-white border-2 border-black shadow-[2px_2px_0_#000]"
-              aria-label="Cricket stats question form"
-            >
-              <div className="flex flex-wrap items-center gap-1.5 mb-1 sm:mb-1.5">
-                <label htmlFor="question" className="text-base sm:text-lg font-bold">
-                  Your Question
-                </label>
-                <Tooltip
-                  side="top"
-                  ariaLabel="Guidance for chat questions"
-                  content={
-                    <div className="space-y-1">
-                      <p className="font-semibold">Quick Info</p>
-                      <ul className="list-disc list-inside">
-                        <li>This chat does not support very complex queries yet.</li>
-                        <li>For matchup stats, try batter vs bowler format.</li>
-                        <li>
-                          Example: {'"'}Virat Kohli vs Jasprit Bumrah stats in IPL{'"'}
-                        </li>
-                        <li>Stats for specific bowling styles are not yet supported.</li>
-                      </ul>
-                    </div>
-                  }
-                />
-                {latestMatchDateLabel && (
-                  <span className="text-[10px] sm:text-xs font-bold uppercase tracking-wide text-black/70">
-                    Data until {latestMatchDateLabel}
-                  </span>
-                )}
-              </div>
-              <textarea
-                id="question"
-                value={question}
-                onChange={(e) => setQuestion(e.target.value)}
-                onBlur={() => setTouched(true)}
-                rows={4}
-                maxLength={CHAR_LIMIT}
-                placeholder="Example: Top 5 run scorers in WPL 2023"
-                className="w-full p-2 sm:p-2.5 font-mono bg-[#FEF9C3] border-2 border-black focus:outline-none focus:ring-2 focus:ring-black resize-none text-black text-sm sm:text-base"
-                disabled={isPending}
-                aria-invalid={showValidationError}
+    <Layout
+      title="Ask Boundary Bytes"
+      description="Ask a cricket stats question - get instant numbers."
+    >
+      <div className="grid grid-cols-1 lg:grid-cols-6 gap-2 sm:gap-3 md:gap-4 items-start w-full">
+        <div className="lg:col-span-3 flex flex-col gap-2 sm:gap-3 md:gap-4">
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col gap-2 sm:gap-2.5 p-2 sm:p-3 md:p-4 bg-white border-2 border-black shadow-[2px_2px_0_#000]"
+            aria-label="Cricket stats question form"
+          >
+            <div className="flex flex-wrap items-center gap-1.5 mb-1 sm:mb-1.5">
+              <label htmlFor="question" className="text-base sm:text-lg font-bold text-black">
+                Your Question
+              </label>
+              <Tooltip
+                side="top"
+                ariaLabel="Guidance for chat questions"
+                content={
+                  <div className="space-y-1 text-black">
+                    <p className="font-semibold">Quick Info</p>
+                    <ul className="list-disc list-inside">
+                      <li>This chat does not support very complex queries yet.</li>
+                      <li>For matchup stats, try batter vs bowler format.</li>
+                      <li>
+                        Example: {'"'}Virat Kohli vs Jasprit Bumrah stats in IPL{'"'}
+                      </li>
+                      <li>Stats for specific bowling styles are not yet supported.</li>
+                    </ul>
+                  </div>
+                }
               />
-              <div className="flex justify-between items-center text-xs sm:text-sm font-mono">
-                <span className={question.length > CHAR_LIMIT ? 'text-red-600' : 'text-gray-500'}>
-                  {question.length}/{CHAR_LIMIT}
-                </span>
-                {!selectedLeague && (
-                  <span className="font-bold bg-[#FF9F1C] px-2 sm:px-3 py-1 border-2 border-black text-xs sm:text-sm">
-                    Select a league first
-                  </span>
-                )}
-              </div>
-              {showValidationError && (
-                <div
-                  className="text-xs sm:text-sm font-bold text-black bg-[#FFED66] px-2 sm:px-3 py-2 border-2 border-black"
-                  role="alert"
-                >
-                  Question must be 1-500 chars and only letters, numbers & basic punctuation.
-                </div>
-              )}
-              <div className="flex gap-1.5 sm:gap-2 flex-wrap">
-                <button
-                  type="submit"
-                  disabled={!isValid || isPending || !selectedLeague}
-                  className={`py-1.5 sm:py-2 px-2 sm:px-3 md:px-4 border-2 border-black transition-all font-semibold text-xs sm:text-sm ${
-                    !isValid || !selectedLeague || isPending
-                      ? 'bg-gray-400 text-white cursor-not-allowed shadow-none'
-                      : 'bg-black text-white shadow-[1px_1px_0_#000] hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5'
-                  }`}
-                >
-                  {isPending ? 'Fetching...' : 'Get Stats'}
-                </button>
-                <button
-                  type="button"
-                  onClick={handleReset}
-                  disabled={isPending && !data && !error}
-                  className="py-1.5 sm:py-2 px-2 sm:px-3 md:px-4 border-2 border-black bg-white text-black shadow-[1px_1px_0_#000] hover:bg-[#FFED66] hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all disabled:opacity-70 text-xs sm:text-sm"
-                >
-                  Reset
-                </button>
-              </div>
-            </form>
-            <QueryResult
-              isPending={isPending}
-              showSlowMsg={showSlowMsg}
-              error={error}
-              data={data ?? null}
-              onReset={handleReset}
-              onSuggestionClick={setQuestion}
+            </div>
+            <textarea
+              id="question"
+              value={question}
+              onChange={(e) => setQuestion(e.target.value)}
+              onBlur={() => setTouched(true)}
+              rows={4}
+              maxLength={CHAR_LIMIT}
+              placeholder="Example: Top 5 run scorers in WPL 2023"
+              className="w-full p-2 sm:p-2.5 font-mono bg-[#FEF9C3] border-2 border-black focus:outline-none focus:ring-2 focus:ring-black resize-none text-black text-sm sm:text-base"
+              disabled={isPending}
+              aria-invalid={showValidationError}
             />
-          </div>
-          <div className="lg:col-span-3 lg:sticky lg:top-4">
-            <QuerySuggestions onQueryClick={setQuestion} />
-          </div>
+            <div className="flex justify-between items-center text-xs sm:text-sm font-mono">
+              <span className={question.length > CHAR_LIMIT ? 'text-red-600' : 'text-gray-500'}>
+                {question.length}/{CHAR_LIMIT}
+              </span>
+              {!selectedLeague && (
+                <span className="font-bold bg-[#FF9F1C] px-2 sm:px-3 py-1 border-2 border-black text-xs sm:text-sm text-black">
+                  Select a league first
+                </span>
+              )}
+            </div>
+            {showValidationError && (
+              <div
+                className="text-xs sm:text-sm font-bold text-black bg-[#FFED66] px-2 sm:px-3 py-2 border-2 border-black"
+                role="alert"
+              >
+                Question must be 1-500 chars and only letters, numbers & basic punctuation.
+              </div>
+            )}
+            <div className="flex gap-1.5 sm:gap-2 flex-wrap">
+              <button
+                type="submit"
+                disabled={!isValid || isPending || !selectedLeague}
+                className={`py-1.5 sm:py-2 px-2 sm:px-3 md:px-4 border-2 border-black transition-all font-semibold text-xs sm:text-sm ${
+                  !isValid || !selectedLeague || isPending
+                    ? 'bg-gray-400 text-white cursor-not-allowed shadow-none'
+                    : 'bg-black text-white shadow-[1px_1px_0_#000] hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5'
+                }`}
+              >
+                {isPending ? 'Fetching...' : 'Get Stats'}
+              </button>
+              <button
+                type="button"
+                onClick={handleReset}
+                disabled={isPending && !data && !error}
+                className="py-1.5 sm:py-2 px-2 sm:px-3 md:px-4 border-2 border-black bg-white text-black shadow-[1px_1px_0_#000] hover:bg-[#FFED66] hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all disabled:opacity-70 text-xs sm:text-sm"
+              >
+                Reset
+              </button>
+            </div>
+          </form>
+          <QueryResult
+            isPending={isPending}
+            showSlowMsg={showSlowMsg}
+            error={error}
+            data={data ?? null}
+            onReset={handleReset}
+            onSuggestionClick={setQuestion}
+          />
+        </div>
+        <div className="lg:col-span-3 lg:sticky lg:top-4">
+          <QuerySuggestions onQueryClick={setQuestion} />
         </div>
       </div>
-    </div>
+    </Layout>
   );
 }

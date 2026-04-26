@@ -141,7 +141,7 @@ const AdvancedStatsPage = () => {
     : 'Get Advanced Cricket Stats for players performance overwise.';
 
   return (
-    <Layout description={description} error={isError || statsError}>
+    <Layout title="Advanced Stats" description={description} error={isError || statsError}>
       <StatsControls
         playerType={playerType}
         setPlayerType={handleSetPlayerType}
