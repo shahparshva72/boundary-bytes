@@ -12,6 +12,14 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'p.imgci.com',
       },
+      {
+        protocol: 'http',
+        hostname: 'img1.hscicdn.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img1.hscicdn.com',
+      },
     ],
   },
   eslint: {

@@ -13,6 +13,7 @@ interface NewsItem {
   content: string;
   guid: string;
   image?: string | null;
+  images?: string[];
 }
 
 interface NewsData {
@@ -54,6 +55,8 @@ export default function NewsPage() {
       day: 'numeric',
     });
   };
+
+  const getNewsImage = (item: NewsItem) => item.images?.[0] || item.image;
 
   return (
     <Layout
@@ -97,46 +100,50 @@ export default function NewsPage() {
 
       {newsData && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 max-w-7xl mx-auto w-full">
-          {newsData.items.map((item, index) => (
-            <article
-              key={item.guid || index}
-              className="bg-white border-2 border-black shadow-[2px_2px_0_#000] hover:shadow-[4px_4px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all overflow-hidden flex flex-col"
-            >
-              <a
-                href={item.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block group flex flex-col h-full"
+          {newsData.items.map((item, index) => {
+            const imageUrl = getNewsImage(item);
+
+            return (
+              <article
+                key={item.guid || index}
+                className="bg-white border-2 border-black shadow-[2px_2px_0_#000] hover:shadow-[4px_4px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all overflow-hidden flex flex-col"
               >
-                {item.image && (
-                  <div className="relative w-full h-48 bg-gray-200 border-b-2 border-black overflow-hidden">
-                    <Image
-                      src={item.image}
-                      alt={item.title}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-300"
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    />
+                <a
+                  href={item.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block group flex flex-col h-full"
+                >
+                  {imageUrl && (
+                    <div className="relative w-full h-48 bg-gray-200 border-b-2 border-black overflow-hidden">
+                      <Image
+                        src={imageUrl}
+                        alt={item.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      />
+                    </div>
+                  )}
+                  <div className="p-3 flex flex-col flex-grow">
+                    <h2 className="text-lg font-black text-black mb-2 group-hover:text-[#FF5E5B] transition-colors line-clamp-3">
+                      {item.title}
+                    </h2>
+                    <time className="text-xs font-mono text-gray-600 mb-2 block">
+                      {formatDate(item.pubDate)}
+                    </time>
+                    <p className="font-mono text-black text-sm leading-relaxed line-clamp-3 flex-grow">
+                      {item.contentSnippet}
+                    </p>
+                    <div className="mt-2 inline-flex items-center gap-1.5 bg-black text-white px-2 py-1.5 font-bold border-2 border-black group-hover:bg-[#FFC700] group-hover:text-black transition-colors self-start">
+                      Read More
+                      <span className="text-base">→</span>
+                    </div>
                   </div>
-                )}
-                <div className="p-3 flex flex-col flex-grow">
-                  <h2 className="text-lg font-black text-black mb-2 group-hover:text-[#FF5E5B] transition-colors line-clamp-3">
-                    {item.title}
-                  </h2>
-                  <time className="text-xs font-mono text-gray-600 mb-2 block">
-                    {formatDate(item.pubDate)}
-                  </time>
-                  <p className="font-mono text-black text-sm leading-relaxed line-clamp-3 flex-grow">
-                    {item.contentSnippet}
-                  </p>
-                  <div className="mt-2 inline-flex items-center gap-1.5 bg-black text-white px-2 py-1.5 font-bold border-2 border-black group-hover:bg-[#FFC700] group-hover:text-black transition-colors self-start">
-                    Read More
-                    <span className="text-base">→</span>
-                  </div>
-                </div>
-              </a>
-            </article>
-          ))}
+                </a>
+              </article>
+            );
+          })}
         </div>
       )}
 
