@@ -14,8 +14,12 @@ export const fetchWicketTakers = async (page: number) => {
   return api.get('stats/leading-wicket-takers', { searchParams: { page, limit: 10 } }).json();
 };
 
-export const fetchRunScorers = async (page: number) => {
-  return api.get('stats/leading-run-scorers', { searchParams: { page, limit: 10 } }).json();
+export const fetchRunScorers = async (page: number, battingPositions: number[] = []) => {
+  const searchParams: Record<string, string | number> = { page, limit: 10 };
+  if (battingPositions.length) {
+    searchParams.battingPositions = battingPositions.join(',');
+  }
+  return api.get('stats/leading-run-scorers', { searchParams }).json();
 };
 
 export const fetchBowlingWicketTypes = async (page: number) => {

@@ -62,6 +62,7 @@ export default function StatExplorerBuilder() {
     opponentBowlingSubType: parseAsArrayOf(parseAsString),
     playingRole: parseAsString,
     playingRoleDetail: parseAsString,
+    battingPositions: parseAsArrayOf(parseAsInteger),
   });
 
   const cleanFilters: StatExplorerRunRequest['filters'] = useMemo(() => {
@@ -116,6 +117,9 @@ export default function StatExplorerBuilder() {
     if (filters.playingRoleDetail) {
       f.playingRoleDetail =
         filters.playingRoleDetail as StatExplorerRunRequest['filters']['playingRoleDetail'];
+    }
+    if (filters.battingPositions?.length) {
+      f.battingPositions = filters.battingPositions;
     }
     return f;
   }, [filters]);
@@ -173,6 +177,7 @@ export default function StatExplorerBuilder() {
       opponentBowlingSubType: null,
       playingRole: null,
       playingRoleDetail: null,
+      battingPositions: null,
     });
     setSortParams({ sortBy: null, sortDir: null });
     setPage(1);
@@ -223,6 +228,7 @@ export default function StatExplorerBuilder() {
           : null,
         playingRole: newFilters.playingRole || null,
         playingRoleDetail: newFilters.playingRoleDetail || null,
+        battingPositions: newFilters.battingPositions?.length ? newFilters.battingPositions : null,
       });
       setPage(1);
     },

@@ -27,8 +27,16 @@ export const fetchWicketTakers = async (fetchWithLeague: FetchWithLeague, page: 
   return response.json();
 };
 
-export const fetchRunScorers = async (fetchWithLeague: FetchWithLeague, page: number) => {
-  const response = await fetchWithLeague(`/api/stats/leading-run-scorers?page=${page}&limit=10`);
+export const fetchRunScorers = async (
+  fetchWithLeague: FetchWithLeague,
+  page: number,
+  battingPositions: number[] = [],
+) => {
+  const params = new URLSearchParams({ page: String(page), limit: '10' });
+  if (battingPositions.length) {
+    params.set('battingPositions', battingPositions.join(','));
+  }
+  const response = await fetchWithLeague(`/api/stats/leading-run-scorers?${params}`);
   if (!response.ok) {
     throw new Error('Failed to fetch run scorers');
   }
@@ -139,12 +147,12 @@ export const useWicketTakers = (page: number) => {
   });
 };
 
-export const useRunScorers = (page: number) => {
+export const useRunScorers = (page: number, battingPositions: number[] = []) => {
   const { fetchWithLeague, selectedLeague } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['runScorers', page, selectedLeague],
-    queryFn: () => fetchRunScorers(fetchWithLeague, page),
+    queryKey: ['runScorers', page, battingPositions, selectedLeague],
+    queryFn: () => fetchRunScorers(fetchWithLeague, page, battingPositions),
     enabled: !!selectedLeague,
   });
 };

@@ -23,6 +23,7 @@ export const StatExplorerDimension = z.enum([
   'opponentBowlingType',
   'opponentBowlingSubType',
   'playingRole',
+  'battingPosition',
 ]);
 export type StatExplorerDimension = z.infer<typeof StatExplorerDimension>;
 
@@ -151,6 +152,7 @@ export const StatExplorerRunRequestSchema = z.object({
         'wicketkeeper',
       ])
       .optional(),
+    battingPositions: z.array(z.number().int().min(1).max(11)).optional(),
   }),
   sort: StatExplorerSortSchema.optional(),
   pagination: z
@@ -179,6 +181,7 @@ export type StatExplorerFilterOptions = {
   bowlingSubTypes: string[];
   playingRoles: string[];
   playingRoleDetails: string[];
+  battingPositions: number[];
 };
 
 export type StatExplorerResultRow = Record<string, string | number | null>;

@@ -74,6 +74,11 @@ export default function StatExplorerFilters({
     [options.innings],
   );
 
+  const battingPositionOptions = useMemo(
+    () => (options.battingPositions || []).map((p) => ({ value: String(p), label: `No. ${p}` })),
+    [options.battingPositions],
+  );
+
   const dimensionOptions = useMemo(
     () => options.availableDimensions.map((d) => ({ value: d, label: DIMENSION_LABELS[d] })),
     [options.availableDimensions],
@@ -140,6 +145,11 @@ export default function StatExplorerFilters({
   const inningsValues = useMemo(
     () => (filters.innings || []).map((v) => ({ value: String(v), label: `Innings ${v}` })),
     [filters.innings],
+  );
+
+  const battingPositionValues = useMemo(
+    () => (filters.battingPositions || []).map((v) => ({ value: String(v), label: `No. ${v}` })),
+    [filters.battingPositions],
   );
 
   const bowlingSubTypeValues = useMemo(
@@ -418,7 +428,7 @@ export default function StatExplorerFilters({
             <h3 className="text-sm font-black text-black uppercase">Player Style</h3>
           </CardHeader>
           <CardContent>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
               {reportType === 'batting' && (
                 <>
                   <div>
@@ -446,6 +456,26 @@ export default function StatExplorerFilters({
                       isClearable
                       isSearchable={false}
                       instanceId="stat-explorer-batting-hand"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-black text-black uppercase mb-1">
+                      Batting Position
+                    </label>
+                    <MultiSelect
+                      options={battingPositionOptions}
+                      value={battingPositionValues}
+                      onChange={(vals) =>
+                        updateFilter(
+                          'battingPositions',
+                          vals.map((v) => Number(v.value)),
+                        )
+                      }
+                      placeholder="Any position..."
+                      maxSelections={11}
+                      isSearchable={false}
+                      instanceId="stat-explorer-batting-position"
                     />
                   </div>
 

@@ -26,6 +26,7 @@ export const ALLOWED_DIMENSIONS: Record<StatExplorerReportType, StatExplorerDime
     'opponentBowlingType',
     'opponentBowlingSubType',
     'playingRole',
+    'battingPosition',
   ],
   bowling: [
     'season',
@@ -114,6 +115,7 @@ export const DIMENSION_LABELS: Record<StatExplorerDimension, string> = {
   opponentBowlingType: 'Opponent Bowling Type',
   opponentBowlingSubType: 'Opponent Bowling Sub-Type',
   playingRole: 'Playing Role',
+  battingPosition: 'Batting Position',
 };
 
 export const METRIC_LABELS: Record<StatExplorerMetric, string> = {

@@ -4,13 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "bun --bun next dev --turbopack",
-    "build": "bun --bun prisma generate && bun --bun next build",
+    "build": "bun --bun prisma generate &&bun --bun next build",
     "start": "bun --bun next start",
     "lint": "oxlint",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write .",
-    "postbuild": "prisma migrate deploy",
-    "vercel-build": "prisma generate && prisma migrate deploy && next build",
+    "vercel-build": "tsc --noEmit && next build",
     "prepare": "husky"
   },
   "lint-staged": {

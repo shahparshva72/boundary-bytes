@@ -1,9 +1,10 @@
 'use client';
 
 import { useRunScorers } from '@/hooks/useStatsAPI';
-import { parseAsInteger, useQueryState } from 'nuqs';
+import { parseAsArrayOf, parseAsInteger, useQueryState } from 'nuqs';
 import {
   Card,
+  CardContent,
   DataTable,
   DataTableBody,
   DataTableCell,
@@ -11,12 +12,18 @@ import {
   DataTableHeadCell,
   DataTableHeader,
   DataTableRow,
+  MultiSelect,
   Pagination,
   SectionHeader,
   Spinner,
 } from './ui';
+import type { SelectOption } from './ui/Select';
 
 const PAGE_SIZE = 10;
+const BATTING_POSITION_OPTIONS: SelectOption[] = Array.from({ length: 11 }, (_, index) => {
+  const position = index + 1;
+  return { value: String(position), label: `No. ${position}` };
+});
 
 interface RunScorerData {
   player: string;
@@ -36,8 +43,17 @@ export default function RunScorers() {
     'runScorersPage',
     parseAsInteger.withDefault(1).withOptions({ clearOnDefault: true }),
   );
+  const [positionsParam, setPositionsParam] = useQueryState(
+    'runScorersPositions',
+    parseAsArrayOf(parseAsInteger),
+  );
+  const battingPositions = positionsParam ?? [];
+  const battingPositionValues = battingPositions.map((position) => ({
+    value: String(position),
+    label: `No. ${position}`,
+  }));
 
-  const { data, isLoading } = useRunScorers(currentPage);
+  const { data, isLoading } = useRunScorers(currentPage, battingPositions);
 
   const totalPages = data?.pagination ? data.pagination.pages : 1;
 
@@ -47,6 +63,26 @@ export default function RunScorers() {
     <div className="w-full mx-auto p-0 sm:p-4">
       <Card>
         <SectionHeader title="Leading Run Scorers" color="coral" />
+
+        <CardContent className="border-b-2 border-black">
+          <div className="max-w-xs">
+            <label className="block text-xs font-black text-black uppercase mb-1">
+              Batting Position
+            </label>
+            <MultiSelect
+              options={BATTING_POSITION_OPTIONS}
+              value={battingPositionValues}
+              onChange={(newValue) => {
+                setPositionsParam(newValue.length ? newValue.map((p) => Number(p.value)) : null);
+                setCurrentPage(1);
+              }}
+              placeholder="All positions..."
+              maxSelections={11}
+              isSearchable={false}
+              instanceId="run-scorers-batting-position"
+            />
+          </div>
+        </CardContent>
 
         {isLoading ? (
           <div className="flex items-center justify-center p-6">

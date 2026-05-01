@@ -406,7 +406,6 @@ export default function TextToSqlPage() {
                   <div className="space-y-1 text-black">
                     <p className="font-semibold">Quick Info</p>
                     <ul className="list-disc list-inside">
-                      <li>This chat does not support very complex queries yet.</li>
                       <li>For matchup stats, try batter vs bowler format.</li>
                       <li>
                         Example: {'"'}Virat Kohli vs Jasprit Bumrah stats in IPL{'"'}
