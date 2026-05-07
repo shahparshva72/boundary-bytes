@@ -96,7 +96,6 @@ export class ResponseFormatter {
     // Remove any potential sensitive information
     const sanitized = message
       .replace(/database\s+connection/gi, 'connection')
-      .replace(/prisma/gi, 'database')
       .replace(/postgresql/gi, 'database')
       .replace(/\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b/g, '[server]') // Remove IP addresses
       .replace(/password/gi, '[credentials]')

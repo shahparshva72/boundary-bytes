@@ -14,7 +14,7 @@ Cricket statistics query platform built with Next.js 15, TypeScript, and Google 
 | Category       | Technologies                               |
 | -------------- | ------------------------------------------ |
 | Framework      | Next.js 15, React 19, TypeScript 5.8       |
-| Database       | PostgreSQL, Prisma ORM 7.2                 |
+| Data Backend   | External backend APIs (Go)                 |
 | AI             | Google Gemini 2.5 Flash, Vercel AI SDK 5.0 |
 | State          | TanStack React Query 5.79, Zustand 5.0     |
 | Styling        | Tailwind CSS 4.0, Framer Motion, Recharts  |
@@ -37,37 +37,31 @@ bun install
 # Set up environment variables
 cp .env.example .env.local
 
-# Run database migrations
-bunx prisma migrate dev
-
 # Start development server
 bun run dev
 ```
 
 ## Scripts
 
-| Command              | Description                     |
-| -------------------- | ------------------------------- |
-| `bun run dev`        | Start dev server with Turbopack |
-| `bun run build`      | Production build                |
-| `bun run lint`       | Run oxlint                      |
-| `bun run typecheck`  | TypeScript type checking        |
-| `bun run format`     | Format with Prettier            |
-| `bunx prisma studio` | Browse database                 |
+| Command             | Description                     |
+| ------------------- | ------------------------------- |
+| `bun run dev`       | Start dev server with Turbopack |
+| `bun run build`     | Production build                |
+| `bun run lint`      | Run oxlint                      |
+| `bun run typecheck` | TypeScript type checking        |
+| `bun run format`    | Format with Prettier            |
 
 ## Environment Variables
 
 ```bash
-GOOGLE_GENERATIVE_AI_API_KEY=
 UPSTASH_REDIS_REST_URL=
 UPSTASH_REDIS_REST_TOKEN=
-DATABASE_URL=
-DIRECT_URL=
+NEXT_PUBLIC_GO_API_URL=
 ```
 
 ## Architecture
 
-- **Service Layer**: Business logic separated from API routes in `src/services/`
+- **Service Layer**: Business logic and API client wrappers in `src/services/`
 - **Validator Pattern**: Centralized input validation in `src/lib/validation/`
-- **Dual Database Access**: Prisma ORM for app queries, validated raw SQL for AI-generated queries
+- **External API Access**: Frontend calls backend endpoints via `NEXT_PUBLIC_GO_API_URL`
 - **Error Boundaries**: Root error handling with fallback UI
