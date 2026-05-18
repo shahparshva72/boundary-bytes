@@ -1,9 +1,9 @@
 'use client';
 
-import { fetchMatches } from '@/services/matchService';
 import { useQuery } from '@tanstack/react-query';
 import { useState } from 'react';
 import { MoonLoader } from 'react-spinners';
+import { fetchMatches } from '@/services/matchService';
 
 interface MatchData {
   id: number;

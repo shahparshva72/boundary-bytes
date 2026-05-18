@@ -1,5 +1,6 @@
 'use client';
 
+import { parseAsString, parseAsStringLiteral, useQueryState } from 'nuqs';
 import PlayerProgressionChart from '@/components/PlayerProgressionChart';
 import { Spinner } from '@/components/ui';
 import type { SelectOption } from '@/components/ui/Select';
@@ -7,7 +8,6 @@ import { Select } from '@/components/ui/Select';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 import { useBatters } from '@/hooks/usePlayersAPI';
 import { usePlayerProgression } from '@/hooks/useStatsAPI';
-import { parseAsString, parseAsStringLiteral, useQueryState } from 'nuqs';
 import Layout from '../components/Layout';
 
 export const dynamic = 'force-dynamic';

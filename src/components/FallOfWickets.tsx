@@ -1,8 +1,8 @@
 'use client';
 
-import { fetchFallOfWickets } from '@/services/statsService';
 import { useQuery } from '@tanstack/react-query';
 import { useState } from 'react';
+import { fetchFallOfWickets } from '@/services/statsService';
 import MatchSelector from './MatchSelector';
 import {
   Card,

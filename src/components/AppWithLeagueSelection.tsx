@@ -1,9 +1,9 @@
 'use client';
 
-import { useLeagueContext } from '@/contexts/LeagueContext';
 import { AnimatePresence } from 'framer-motion';
 import { Suspense, type ReactNode } from 'react';
 import { MoonLoader } from 'react-spinners';
+import { useLeagueContext } from '@/contexts/LeagueContext';
 import LeagueSelectionScreen from './LeagueSelection/LeagueSelectionScreen';
 
 interface AppWithLeagueSelectionProps {

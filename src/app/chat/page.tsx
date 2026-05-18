@@ -1,12 +1,12 @@
 'use client';
 
+import { useEffect, useState } from 'react';
+import { MoonLoader } from 'react-spinners';
 import Layout from '@/app/stats/components/Layout';
 import AiFeedback from '@/components/AiFeedback';
 import Tooltip from '@/components/ui/Tooltip';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 import { TextToSqlError, TextToSqlSuccess, useTextToSql } from '@/hooks/useTextToSql';
-import { useEffect, useState } from 'react';
-import { MoonLoader } from 'react-spinners';
 
 type SuggestionSection = {
   category: string;

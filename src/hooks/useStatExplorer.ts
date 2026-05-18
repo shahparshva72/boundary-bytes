@@ -1,10 +1,10 @@
+import { keepPreviousData, useMutation, useQuery } from '@tanstack/react-query';
 import type {
   StatExplorerFilterOptions,
   StatExplorerReportType,
   StatExplorerResult,
   StatExplorerRunRequest,
 } from '@/lib/stat-explorer/contracts';
-import { keepPreviousData, useMutation, useQuery } from '@tanstack/react-query';
 import { useLeagueAPI } from './useLeagueAPI';
 
 async function fetchStatExplorerOptions(

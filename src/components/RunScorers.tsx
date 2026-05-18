@@ -1,7 +1,7 @@
 'use client';
 
-import { useRunScorers } from '@/hooks/useStatsAPI';
 import { parseAsArrayOf, parseAsInteger, useQueryState } from 'nuqs';
+import { useRunScorers } from '@/hooks/useStatsAPI';
 import {
   Card,
   CardContent,

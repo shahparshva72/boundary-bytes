@@ -1,5 +1,14 @@
 'use client';
 
+import {
+  parseAsArrayOf,
+  parseAsInteger,
+  parseAsString,
+  parseAsStringEnum,
+  useQueryState,
+  useQueryStates,
+} from 'nuqs';
+import { useCallback, useMemo } from 'react';
 import { Badge, Button, Card, CardContent, SectionHeader, Spinner } from '@/components/ui';
 import { useStatExplorerOptions, useStatExplorerQuery } from '@/hooks/useStatExplorer';
 import type {
@@ -12,18 +21,9 @@ import {
   DEFAULT_METRICS,
   REPORT_TYPE_LABELS,
 } from '@/lib/stat-explorer/registry';
-import {
-  parseAsArrayOf,
-  parseAsInteger,
-  parseAsString,
-  parseAsStringEnum,
-  useQueryState,
-  useQueryStates,
-} from 'nuqs';
-import { useCallback, useMemo } from 'react';
+import type { StatExplorerSortState } from './sorting';
 import StatExplorerFilters from './StatExplorerFilters';
 import StatExplorerResults from './StatExplorerResults';
-import type { StatExplorerSortState } from './sorting';
 
 const REPORT_TYPES: StatExplorerReportType[] = ['batting', 'bowling', 'team', 'match'];
 const PAGE_SIZE = 50;

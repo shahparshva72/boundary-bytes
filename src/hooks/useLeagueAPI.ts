@@ -1,7 +1,7 @@
+import { useCallback } from 'react';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 import { env } from '@/lib/env';
 import { League } from '@/types/league';
-import { useCallback } from 'react';
 
 const apiBaseUrl = env.NEXT_PUBLIC_GO_API_URL.replace(/\/$/, '');
 

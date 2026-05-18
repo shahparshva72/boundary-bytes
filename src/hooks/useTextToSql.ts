@@ -1,7 +1,7 @@
 'use client';
 
-import api from '@/services/api';
 import { useMutation } from '@tanstack/react-query';
+import api from '@/services/api';
 
 export interface TextToSqlSuccess {
   success: true;

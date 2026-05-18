@@ -1,9 +1,9 @@
 'use client';
 
-import { useMatches } from '@/hooks/useMatches';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useRef } from 'react';
+import { useMatches } from '@/hooks/useMatches';
 import Pagination from './ui/Pagination';
 
 function redirectToCricinfoScorecard(matchId: number) {

@@ -1,8 +1,8 @@
 'use client';
 
-import { useLeagueContext } from '@/contexts/LeagueContext';
 import Link from 'next/link';
 import { useState } from 'react';
+import { useLeagueContext } from '@/contexts/LeagueContext';
 import LeagueSwitcher from '../ui/LeagueSwitcher';
 import NavLink from './NavLink';
 

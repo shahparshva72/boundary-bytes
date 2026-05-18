@@ -1,7 +1,7 @@
 'use client';
 
-import { useWicketTakers } from '@/hooks/useStatsAPI';
 import { parseAsInteger, useQueryState } from 'nuqs';
+import { useWicketTakers } from '@/hooks/useStatsAPI';
 import {
   Card,
   DataTable,

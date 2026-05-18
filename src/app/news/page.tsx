@@ -1,9 +1,9 @@
 'use client';
 
-import Layout from '@/app/stats/components/Layout';
-import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 import { useQuery } from '@tanstack/react-query';
 import Image from 'next/image';
+import Layout from '@/app/stats/components/Layout';
+import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 
 interface NewsItem {
   title: string;

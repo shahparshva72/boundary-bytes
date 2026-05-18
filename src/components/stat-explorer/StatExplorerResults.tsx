@@ -1,5 +1,7 @@
 'use client';
 
+import { ChevronDown, ChevronUp } from 'lucide-react';
+import { useMemo } from 'react';
 import {
   DataTable,
   DataTableBody,
@@ -11,8 +13,6 @@ import {
 } from '@/components/ui';
 import Pagination from '@/components/ui/Pagination';
 import type { StatExplorerResult, StatExplorerSortDirection } from '@/lib/stat-explorer/contracts';
-import { ChevronDown, ChevronUp } from 'lucide-react';
-import { useMemo } from 'react';
 import {
   getNextSortState,
   isColumnSortable,

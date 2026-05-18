@@ -1,5 +1,5 @@
-import { env } from '@/lib/env';
 import ky from 'ky';
+import { env } from '@/lib/env';
 
 const goApiBaseUrl = env.NEXT_PUBLIC_GO_API_URL.replace(/\/+$/, '');
 

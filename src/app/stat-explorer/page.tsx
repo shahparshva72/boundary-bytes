@@ -1,7 +1,7 @@
 'use client';
 
-import StatExplorerBuilder from '@/components/stat-explorer/StatExplorerBuilder';
 import { Suspense } from 'react';
+import StatExplorerBuilder from '@/components/stat-explorer/StatExplorerBuilder';
 import Loading from '../loading';
 import Layout from '../stats/components/Layout';
 

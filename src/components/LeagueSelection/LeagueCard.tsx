@@ -1,7 +1,7 @@
 'use client';
 
-import { League, LeagueConfig } from '@/types/league';
 import { motion } from 'framer-motion';
+import { League, LeagueConfig } from '@/types/league';
 
 interface LeagueCardProps {
   league: League;

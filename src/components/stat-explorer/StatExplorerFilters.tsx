@@ -1,5 +1,6 @@
 'use client';
 
+import { useMemo } from 'react';
 import { Card, CardContent, CardHeader, MultiSelect, Select } from '@/components/ui';
 import type { SelectOption } from '@/components/ui/Select';
 import type {
@@ -8,7 +9,6 @@ import type {
   StatExplorerRunRequest,
 } from '@/lib/stat-explorer/contracts';
 import { DIMENSION_LABELS, METRIC_LABELS } from '@/lib/stat-explorer/registry';
-import { useMemo } from 'react';
 
 const battingHandLabels: Record<string, string> = {
   right: 'Right Hand',

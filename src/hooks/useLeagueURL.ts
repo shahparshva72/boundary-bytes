@@ -1,10 +1,10 @@
 'use client';
 
+import { parseAsStringLiteral, useQueryState } from 'nuqs';
+import { useCallback, useEffect, useState } from 'react';
 import { VALID_LEAGUES } from '@/lib/league-config';
 import { useLeagueStore } from '@/stores/useLeagueStore';
 import { League } from '@/types/league';
-import { parseAsStringLiteral, useQueryState } from 'nuqs';
-import { useCallback, useEffect, useState } from 'react';
 
 // Parser that validates league values from URL
 const leagueParser = parseAsStringLiteral(VALID_LEAGUES);

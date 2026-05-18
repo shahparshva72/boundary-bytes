@@ -1,8 +1,8 @@
 'use client';
 
+import { parseAsString, useQueryState } from 'nuqs';
 import { useBatters, useBowlers } from '@/hooks/usePlayersAPI';
 import { useMatchup } from '@/hooks/useStatsAPI';
-import { parseAsString, useQueryState } from 'nuqs';
 import {
   Button,
   Card,

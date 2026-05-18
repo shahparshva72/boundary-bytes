@@ -1,9 +1,9 @@
 'use client';
 
-import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 import { useQuery } from '@tanstack/react-query';
 import { ReactNode } from 'react';
 import { MoonLoader } from 'react-spinners';
+import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 
 interface LayoutProps {
   title?: string | undefined;

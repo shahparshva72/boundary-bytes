@@ -1,5 +1,5 @@
-import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 import { useQuery } from '@tanstack/react-query';
+import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 
 type FetchWithLeague = (url: string, options?: RequestInit) => Promise<Response>;
 

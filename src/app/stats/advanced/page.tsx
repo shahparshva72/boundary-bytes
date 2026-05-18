@@ -1,8 +1,5 @@
 'use client';
 
-import { useLeagueContext } from '@/contexts/LeagueContext';
-import { useLeagueAPI } from '@/hooks/useLeagueAPI';
-import { useBatters, useBowlers } from '@/hooks/usePlayersAPI';
 import { useQuery } from '@tanstack/react-query';
 import {
   parseAsArrayOf,
@@ -11,6 +8,9 @@ import {
   parseAsStringLiteral,
   useQueryStates,
 } from 'nuqs';
+import { useLeagueContext } from '@/contexts/LeagueContext';
+import { useLeagueAPI } from '@/hooks/useLeagueAPI';
+import { useBatters, useBowlers } from '@/hooks/usePlayersAPI';
 
 import Layout from '../components/Layout';
 import StatsControls from '../components/StatsControls';

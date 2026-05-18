@@ -1,8 +1,8 @@
 'use client';
 
+import { parseAsArrayOf, parseAsString, parseAsStringLiteral, useQueryState } from 'nuqs';
 import { useBatters, useBowlers } from '@/hooks/usePlayersAPI';
 import { useMultiMatchup } from '@/hooks/useStatsAPI';
-import { parseAsArrayOf, parseAsString, parseAsStringLiteral, useQueryState } from 'nuqs';
 import {
   Badge,
   Button,

@@ -1,5 +1,7 @@
 'use client';
 
+import { parseAsString, useQueryState } from 'nuqs';
+import { useMemo } from 'react';
 import RunRateTrendChart from '@/components/RunRateTrendChart';
 import TeamRunRateProgressionChart from '@/components/TeamRunRateProgressionChart';
 import { useLeagueContext } from '@/contexts/LeagueContext';
@@ -9,8 +11,6 @@ import {
   useTeamAverages,
   useTeamRunRateProgression,
 } from '@/hooks/useStatsAPI';
-import { parseAsString, useQueryState } from 'nuqs';
-import { useMemo } from 'react';
 import { Card, Select, Spinner } from './ui';
 import type { SelectOption } from './ui/Select';
 

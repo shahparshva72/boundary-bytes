@@ -1,8 +1,8 @@
 'use client';
 
-import { League } from '@/types/league';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
+import { League } from '@/types/league';
 
 interface LeagueStore {
   lastLeague: League | null;

@@ -1,7 +1,7 @@
 'use client';
 
-import { useBowlingWicketTypes } from '@/hooks/useStatsAPI';
 import { parseAsInteger, useQueryState } from 'nuqs';
+import { useBowlingWicketTypes } from '@/hooks/useStatsAPI';
 import {
   Card,
   DataTable,

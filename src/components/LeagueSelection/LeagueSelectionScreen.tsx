@@ -1,9 +1,9 @@
 'use client';
 
+import { motion } from 'framer-motion';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 import { VALID_LEAGUES } from '@/lib/league-config';
 import { League } from '@/types/league';
-import { motion } from 'framer-motion';
 import LeagueCard from './LeagueCard';
 
 interface LeagueSelectionScreenProps {

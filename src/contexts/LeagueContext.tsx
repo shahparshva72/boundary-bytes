@@ -1,10 +1,10 @@
 'use client';
 
+import { useQuery } from '@tanstack/react-query';
+import { createContext, type ReactNode, useContext, useState } from 'react';
 import { useLeagueURL } from '@/hooks/useLeagueURL';
 import { fetchLeagueConfigs, LEAGUE_CONFIGS } from '@/lib/league-config';
 import { League, LeagueContextType } from '@/types/league';
-import { useQuery } from '@tanstack/react-query';
-import { createContext, type ReactNode, useContext, useState } from 'react';
 
 const LeagueContext = createContext<LeagueContextType | undefined>(undefined);
 
