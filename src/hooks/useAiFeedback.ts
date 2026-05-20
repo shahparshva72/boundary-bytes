@@ -1,4 +1,4 @@
-import { useMutation, useQuery } from '@tanstack/react-query';
+import { useMutation } from '@tanstack/react-query';
 import api from '@/services/api';
 
 interface SubmitFeedbackParams {
@@ -10,10 +10,6 @@ interface SubmitFeedbackParams {
 interface FeedbackResponse {
   success: boolean;
   message: string;
-}
-
-interface FeedbackStatsResponse {
-  data?: unknown;
 }
 
 /**
@@ -47,27 +43,5 @@ export function useAiFeedback() {
     isSubmitting: submitFeedbackMutation.isPending,
     isSuccess: submitFeedbackMutation.isSuccess,
     error: submitFeedbackMutation.error,
-  };
-}
-
-const fetchAiFeedbackStats = async () => {
-  return api.get('ai/feedback').json<FeedbackStatsResponse>();
-};
-
-/**
- * Hook for fetching AI feedback statistics
- */
-export function useAiFeedbackStats() {
-  const { data, isLoading, error } = useQuery({
-    queryKey: ['ai-feedback-stats'],
-    queryFn: fetchAiFeedbackStats,
-    staleTime: 5 * 60 * 1000, // 5 minutes
-    gcTime: 10 * 60 * 1000, // 10 minutes
-  });
-
-  return {
-    stats: data?.data,
-    isLoading,
-    error,
   };
 }
