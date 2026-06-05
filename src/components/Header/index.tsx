@@ -31,6 +31,7 @@ const Header = () => {
             <NavLink href="/stats">Stats</NavLink>
             <NavLink href="/stat-explorer">Stat Explorer</NavLink>
             <NavLink href="/chat">Chat</NavLink>
+            <NavLink href="/play">Play</NavLink>
             <NavLink href="/news">News</NavLink>
             <NavLink href="/stats/advanced">Advanced Stats</NavLink>
             <NavLink href="/stats/player-progression">Player Progression</NavLink>
@@ -86,6 +87,9 @@ const Header = () => {
               </NavLink>
               <NavLink href="/chat" onClick={() => setIsMobileMenuOpen(false)}>
                 Chat
+              </NavLink>
+              <NavLink href="/play" onClick={() => setIsMobileMenuOpen(false)}>
+                Play
               </NavLink>
               <NavLink href="/news" onClick={() => setIsMobileMenuOpen(false)}>
                 News
