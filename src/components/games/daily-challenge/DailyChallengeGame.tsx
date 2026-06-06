@@ -128,6 +128,23 @@ export default function DailyChallengeGame() {
   const [shareStatus, setShareStatus] = useState<string | null>(null);
   const [countdownLabel, setCountdownLabel] = useState(formatCountdownLabel);
   const buildRequestIdRef = useRef(0);
+  const challengeKeyRef = useRef(`${selectedLeague ?? ''}-${today}`);
+
+  useEffect(() => {
+    const challengeKey = `${selectedLeague ?? ''}-${today}`;
+    if (challengeKeyRef.current === challengeKey) {
+      return;
+    }
+    challengeKeyRef.current = challengeKey;
+    buildRequestIdRef.current += 1;
+    setQuestions([]);
+    setCurrentIndex(0);
+    setAnswers([]);
+    setRevealed(false);
+    setPickedSide(null);
+    setPickedOpponent(null);
+    setLoadingQuestions(true);
+  }, [selectedLeague, today]);
 
   useEffect(() => {
     const intervalId = setInterval(() => setCountdownLabel(formatCountdownLabel()), 60000);
@@ -152,11 +169,6 @@ export default function DailyChallengeGame() {
 
     const requestId = ++buildRequestIdRef.current;
     setLoadingQuestions(true);
-    setCurrentIndex(0);
-    setAnswers([]);
-    setRevealed(false);
-    setPickedSide(null);
-    setPickedOpponent(null);
 
     const rng = createSeededRandom(`${selectedLeague}-${today}`);
     const statQuestions = generateDailyQuestions(pool, selectedLeague, rng);
@@ -188,10 +200,10 @@ export default function DailyChallengeGame() {
   }, [poolLoading, pool]);
 
   useEffect(() => {
-    if (!isCompletedToday && pool) {
+    if (!isCompletedToday && pool && questions.length === 0) {
       buildQuestions();
     }
-  }, [isCompletedToday, pool, buildQuestions]);
+  }, [isCompletedToday, pool, questions.length, buildQuestions]);
 
   const currentSlot = questions[currentIndex];
 

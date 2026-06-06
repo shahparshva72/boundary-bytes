@@ -146,9 +146,13 @@ export default function StatGuesserGame() {
 
   if (loadFailed) {
     return (
-      <p className="text-center font-bold text-[#FF5E5B] py-4">
-        Could not generate a question. Try again later.
-      </p>
+      <div className="flex flex-col items-center justify-center w-full min-h-[240px]">
+        <GameResultPanel
+          title="Could not generate a question"
+          subtitle="Please try again."
+          onPlayAgain={handlePlayAgain}
+        />
+      </div>
     );
   }
 
