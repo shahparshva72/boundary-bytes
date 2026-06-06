@@ -19,8 +19,14 @@ export const fetchTeamAverages = async (fetchWithLeague: FetchWithLeague) => {
   return response.json();
 };
 
-export const fetchWicketTakers = async (fetchWithLeague: FetchWithLeague, page: number) => {
-  const response = await fetchWithLeague(`/api/stats/leading-wicket-takers?page=${page}&limit=10`);
+export const fetchWicketTakers = async (
+  fetchWithLeague: FetchWithLeague,
+  page: number,
+  limit = 10,
+) => {
+  const response = await fetchWithLeague(
+    `/api/stats/leading-wicket-takers?page=${page}&limit=${limit}`,
+  );
   if (!response.ok) {
     throw new Error('Failed to fetch wicket takers');
   }
@@ -31,8 +37,9 @@ export const fetchRunScorers = async (
   fetchWithLeague: FetchWithLeague,
   page: number,
   battingPositions: number[] = [],
+  limit = 10,
 ) => {
-  const params = new URLSearchParams({ page: String(page), limit: '10' });
+  const params = new URLSearchParams({ page: String(page), limit: String(limit) });
   if (battingPositions.length) {
     params.set('battingPositions', battingPositions.join(','));
   }
@@ -137,22 +144,22 @@ export const useTeamAverages = () => {
   });
 };
 
-export const useWicketTakers = (page: number) => {
+export const useWicketTakers = (page: number, limit = 10) => {
   const { fetchWithLeague, selectedLeague } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['wicketTakers', page, selectedLeague],
-    queryFn: () => fetchWicketTakers(fetchWithLeague, page),
+    queryKey: ['wicketTakers', page, limit, selectedLeague],
+    queryFn: () => fetchWicketTakers(fetchWithLeague, page, limit),
     enabled: !!selectedLeague,
   });
 };
 
-export const useRunScorers = (page: number, battingPositions: number[] = []) => {
+export const useRunScorers = (page: number, battingPositions: number[] = [], limit = 10) => {
   const { fetchWithLeague, selectedLeague } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['runScorers', page, battingPositions, selectedLeague],
-    queryFn: () => fetchRunScorers(fetchWithLeague, page, battingPositions),
+    queryKey: ['runScorers', page, battingPositions, limit, selectedLeague],
+    queryFn: () => fetchRunScorers(fetchWithLeague, page, battingPositions, limit),
     enabled: !!selectedLeague,
   });
 };
@@ -303,6 +310,13 @@ export const fetchMultiMatchup = async (
   opponents: string[],
   mode: 'batterVsBowlers' | 'bowlerVsBatters',
 ) => {
+  if (opponents.length === 0) {
+    throw new Error('At least one opponent is required');
+  }
+  if (opponents.length > 5) {
+    throw new Error('Maximum 5 opponents allowed');
+  }
+
   const params = new URLSearchParams({
     player,
     opponents: opponents.join(','),
@@ -311,6 +325,19 @@ export const fetchMultiMatchup = async (
   const response = await fetchWithLeague(`/api/stats/multi-matchup?${params}`);
   if (!response.ok) {
     throw new Error('Failed to fetch multi-matchup stats');
+  }
+  return response.json();
+};
+
+export const fetchMatchupRound = async (fetchWithLeague: FetchWithLeague, seed?: string) => {
+  const params = new URLSearchParams();
+  if (seed) {
+    params.set('seed', seed);
+  }
+  const query = params.toString();
+  const response = await fetchWithLeague(`/api/games/matchup-round${query ? `?${query}` : ''}`);
+  if (!response.ok) {
+    throw new Error('Failed to fetch matchup round');
   }
   return response.json();
 };
@@ -325,6 +352,6 @@ export const useMultiMatchup = (
   return useQuery({
     queryKey: ['multiMatchup', player, opponents, mode, selectedLeague],
     queryFn: () => fetchMultiMatchup(fetchWithLeague, player, opponents, mode),
-    enabled: !!selectedLeague && !!player && opponents.length > 0,
+    enabled: !!selectedLeague && !!player && opponents.length > 0 && opponents.length <= 5,
   });
 };
