@@ -29,6 +29,7 @@ export default function StatGuesserGame() {
   const [revealed, setRevealed] = useState(false);
   const [pickedSide, setPickedSide] = useState<'left' | 'right' | null>(null);
   const [gameOver, setGameOver] = useState(false);
+  const [loadFailed, setLoadFailed] = useState(false);
   const usedKeysRef = useRef(new Set<string>());
   const advanceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -42,16 +43,34 @@ export default function StatGuesserGame() {
       Math.random,
       usedKeysRef.current,
     );
+    if (!next) {
+      setLoadFailed(true);
+      return;
+    }
+    setLoadFailed(false);
     setQuestion(next);
     setRevealed(false);
     setPickedSide(null);
   }, [pool, selectedLeague]);
 
   useEffect(() => {
-    if (pool && selectedLeague && !question && !gameOver) {
+    if (advanceTimerRef.current) {
+      clearTimeout(advanceTimerRef.current);
+    }
+    usedKeysRef.current = new Set();
+    setQuestion(null);
+    setStreak(0);
+    setRevealed(false);
+    setPickedSide(null);
+    setGameOver(false);
+    setLoadFailed(false);
+  }, [selectedLeague]);
+
+  useEffect(() => {
+    if (pool && selectedLeague && !question && !gameOver && !loadFailed) {
       loadQuestion();
     }
-  }, [pool, selectedLeague, question, gameOver, loadQuestion]);
+  }, [pool, selectedLeague, question, gameOver, loadFailed, loadQuestion]);
 
   useEffect(() => {
     return () => {
@@ -91,6 +110,7 @@ export default function StatGuesserGame() {
     usedKeysRef.current = new Set();
     setStreak(0);
     setGameOver(false);
+    setLoadFailed(false);
     setRevealed(false);
     setPickedSide(null);
     setQuestion(null);
@@ -121,6 +141,14 @@ export default function StatGuesserGame() {
           onPlayAgain={handlePlayAgain}
         />
       </div>
+    );
+  }
+
+  if (loadFailed) {
+    return (
+      <p className="text-center font-bold text-[#FF5E5B] py-4">
+        Could not generate a question. Try again later.
+      </p>
     );
   }
 

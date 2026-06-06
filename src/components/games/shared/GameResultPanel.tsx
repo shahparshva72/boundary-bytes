@@ -32,12 +32,12 @@ export default function GameResultPanel({
       {children}
       <div className="flex flex-wrap gap-2 justify-center">
         {showPlayAgain && onPlayAgain && (
-          <Button variant="primary" onClick={onPlayAgain}>
+          <Button type="button" variant="primary" onClick={onPlayAgain}>
             Play again
           </Button>
         )}
         {onShare && (
-          <Button variant="secondary" onClick={onShare}>
+          <Button type="button" variant="secondary" onClick={onShare}>
             {shareLabel}
           </Button>
         )}

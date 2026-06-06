@@ -137,6 +137,10 @@ export function generateDailyQuestions(
   return questions;
 }
 
+function statQuestionKey(question: StatGuesserQuestion): string {
+  return `${question.category}-${question.metric}-${[question.playerA.name, question.playerB.name].sort().join('|')}`;
+}
+
 export function buildDailyQuestionSlots(
   statQuestions: StatGuesserQuestion[],
   matchupQuestion: MatchupShowdownQuestion | null,
@@ -154,9 +158,10 @@ export function buildDailyQuestionSlots(
   }
 
   let shuffled = rng.shuffle(slots);
+  const usedKeys = new Set(statQuestions.map(statQuestionKey));
 
   while (shuffled.length < 5 && pool && league) {
-    const extra = generateStatGuesserQuestion(pool, league, () => rng.next());
+    const extra = generateStatGuesserQuestion(pool, league, () => rng.next(), usedKeys);
     if (extra) {
       shuffled.push({ kind: 'stat', question: extra });
     } else {
