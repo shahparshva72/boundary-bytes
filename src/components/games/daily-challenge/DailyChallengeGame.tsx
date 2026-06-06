@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import GameResultPanel from '@/components/games/shared/GameResultPanel';
 import GameScoreBar from '@/components/games/shared/GameScoreBar';
 import PlayerChoiceCard from '@/components/games/shared/PlayerChoiceCard';
@@ -28,6 +28,13 @@ import type {
 import { useGameStore } from '@/stores/useGameStore';
 
 const TOTAL_QUESTIONS = 5;
+
+function formatCountdownLabel(): string {
+  const ms = getMsUntilNextLocalDay();
+  const hours = Math.floor(ms / 3600000);
+  const minutes = Math.floor((ms % 3600000) / 60000);
+  return `${hours}h ${minutes}m`;
+}
 
 async function buildSeededMatchupQuestion(
   fetchWithLeague: (url: string) => Promise<Response>,
@@ -119,6 +126,13 @@ export default function DailyChallengeGame() {
   const [pickedSide, setPickedSide] = useState<'left' | 'right' | null>(null);
   const [pickedOpponent, setPickedOpponent] = useState<string | null>(null);
   const [shareStatus, setShareStatus] = useState<string | null>(null);
+  const [countdownLabel, setCountdownLabel] = useState(formatCountdownLabel);
+  const buildRequestIdRef = useRef(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => setCountdownLabel(formatCountdownLabel()), 60000);
+    return () => clearInterval(intervalId);
+  }, []);
 
   useEffect(() => {
     if (selectedLeague) {
@@ -135,7 +149,14 @@ export default function DailyChallengeGame() {
     if (!pool || !selectedLeague) {
       return;
     }
+
+    const requestId = ++buildRequestIdRef.current;
     setLoadingQuestions(true);
+    setCurrentIndex(0);
+    setAnswers([]);
+    setRevealed(false);
+    setPickedSide(null);
+    setPickedOpponent(null);
 
     const rng = createSeededRandom(`${selectedLeague}-${today}`);
     const statQuestions = generateDailyQuestions(pool, selectedLeague, rng);
@@ -144,6 +165,10 @@ export default function DailyChallengeGame() {
       selectedLeague,
       today,
     );
+
+    if (requestId !== buildRequestIdRef.current) {
+      return;
+    }
 
     const slots = buildDailyQuestionSlots(
       statQuestions,
@@ -155,6 +180,12 @@ export default function DailyChallengeGame() {
     setQuestions(slots.slice(0, TOTAL_QUESTIONS));
     setLoadingQuestions(false);
   }, [pool, selectedLeague, today, fetchWithLeague]);
+
+  useEffect(() => {
+    if (!poolLoading && !pool) {
+      setLoadingQuestions(false);
+    }
+  }, [poolLoading, pool]);
 
   useEffect(() => {
     if (!isCompletedToday && pool) {
@@ -231,14 +262,7 @@ export default function DailyChallengeGame() {
     setTimeout(() => setShareStatus(null), 2000);
   };
 
-  const countdownLabel = useMemo(() => {
-    const ms = getMsUntilNextLocalDay();
-    const hours = Math.floor(ms / 3600000);
-    const minutes = Math.floor((ms % 3600000) / 60000);
-    return `${hours}h ${minutes}m`;
-  }, []);
-
-  if (poolLoading || loadingQuestions) {
+  if (poolLoading || (loadingQuestions && pool)) {
     return (
       <div className="flex flex-col items-center gap-3 py-8">
         <Spinner size="lg" />

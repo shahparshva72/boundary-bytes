@@ -41,11 +41,26 @@ export default function PlayerChoiceCard({
         ? 'ring-2 ring-[#FF5E5B]'
         : '';
 
+  const isInteractive = !disabled && !revealed && !!onClick;
+
   return (
     <Card
-      interactive={!disabled && !revealed && !!onClick}
+      interactive={isInteractive}
       className={`w-full ${borderClass} ${disabled ? 'opacity-60' : ''}`}
+      role={isInteractive ? 'button' : undefined}
+      tabIndex={isInteractive ? 0 : undefined}
+      aria-disabled={disabled ? true : undefined}
       onClick={disabled || revealed ? undefined : onClick}
+      onKeyDown={
+        isInteractive
+          ? (event) => {
+              if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                onClick?.();
+              }
+            }
+          : undefined
+      }
     >
       <CardHeader color={headerColor} className="p-2 sm:p-3">
         <p className="text-sm sm:text-base md:text-lg font-black text-black text-center uppercase tracking-tight break-words">

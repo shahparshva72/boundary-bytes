@@ -352,6 +352,6 @@ export const useMultiMatchup = (
   return useQuery({
     queryKey: ['multiMatchup', player, opponents, mode, selectedLeague],
     queryFn: () => fetchMultiMatchup(fetchWithLeague, player, opponents, mode),
-    enabled: !!selectedLeague && !!player && opponents.length > 0,
+    enabled: !!selectedLeague && !!player && opponents.length > 0 && opponents.length <= 5,
   });
 };

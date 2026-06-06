@@ -6,13 +6,11 @@ import MatchupShowdownGame from '@/components/games/matchup-showdown/MatchupShow
 import { PlayTab, PlayTabs } from '@/components/games/PlayTabs';
 import StatGuesserGame from '@/components/games/stat-guesser/StatGuesserGame';
 import { useLeagueContext } from '@/contexts/LeagueContext';
-import { useGamePool } from '@/hooks/useGamePool';
 
 export const dynamic = 'force-dynamic';
 
 export default function PlayPage() {
   const { selectedLeague } = useLeagueContext();
-  useGamePool();
 
   return (
     <Layout

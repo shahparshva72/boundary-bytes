@@ -35,6 +35,7 @@ export default function MatchupShowdownGame() {
   const [sessionComplete, setSessionComplete] = useState(false);
   const [loadError, setLoadError] = useState(false);
   const loadRequestIdRef = useRef(0);
+  const revealTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const loadRound = useCallback(async () => {
     if (!selectedLeague) {
@@ -77,6 +78,14 @@ export default function MatchupShowdownGame() {
     void loadRound();
   }, [round, sessionComplete, loadError, selectedLeague, loadRound]);
 
+  useEffect(() => {
+    return () => {
+      if (revealTimeoutRef.current) {
+        clearTimeout(revealTimeoutRef.current);
+      }
+    };
+  }, []);
+
   const handlePick = (opponent: string) => {
     if (!question || revealed || loadingRound) {
       return;
@@ -90,7 +99,11 @@ export default function MatchupShowdownGame() {
       setScore(nextScore);
     }
 
-    setTimeout(() => {
+    if (revealTimeoutRef.current) {
+      clearTimeout(revealTimeoutRef.current);
+    }
+    revealTimeoutRef.current = setTimeout(() => {
+      revealTimeoutRef.current = null;
       if (round >= TOTAL_ROUNDS) {
         if (selectedLeague) {
           setMatchupBestScore(selectedLeague, nextScore);
@@ -116,7 +129,6 @@ export default function MatchupShowdownGame() {
 
   const handleRetry = () => {
     setLoadError(false);
-    void loadRound();
   };
 
   const formatReveal = question?.revealLabel ?? defaultRevealLabel;
