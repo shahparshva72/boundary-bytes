@@ -1,0 +1,27 @@
+src/components/games/stat-guesser/StatGuesserGame.tsx
+  s_3dd9410da48798::t_26ff170366b45e 113
+  s_3dd9410da48798::t_13e945d3c4b8cc 46-50
+  s_3dd9410da48798::t_9f427503d84bb8 32
+  s_3dd9410da48798::t_2c94cfc96d2682 147-154
+  s_3dd9410da48798::t_7befa4b0b26baf 57-70,73
+src/components/games/shared/GameResultPanel.tsx
+  s_3dd9410da48798::t_f646aaf404ca6d 35,40
+src/lib/games/questionGenerator.ts
+  s_3dd9410da48798::t_2dccebda540d0b 140-143,161,164
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "aff5b889eaa0e1ce2e70ef396ececdcb317b1613",
+  "prompts": {},
+  "sessions": {
+    "s_3dd9410da48798": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "65153b92-7f8e-4df1-87f7-1bab7031fc62",
+        "model": "default"
+      },
+      "human_author": "Parshva Shah <shahparshva72@gmail.com>"
+    }
+  }
+}
