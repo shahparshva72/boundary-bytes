@@ -1,0 +1,24 @@
+src/components/games/daily-challenge/DailyChallengeGame.tsx
+  s_3dd9410da48798::t_c341b3fa74aef0 203,206
+  s_3dd9410da48798::t_8b26d84abaf42a 131-147
+src/components/games/stat-guesser/StatGuesserGame.tsx
+  s_3dd9410da48798::t_a80cd1c3e2975a 149-155
+src/lib/games/shareText.ts
+  s_3dd9410da48798::t_b30010e469fc5b 31,33-37,43-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "bf6aa3f9bd581d23e15453900bd241135c2b4c00",
+  "prompts": {},
+  "sessions": {
+    "s_3dd9410da48798": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "65153b92-7f8e-4df1-87f7-1bab7031fc62",
+        "model": "default"
+      },
+      "human_author": "Parshva Shah <shahparshva72@gmail.com>"
+    }
+  }
+}
