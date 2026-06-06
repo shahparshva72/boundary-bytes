@@ -1,0 +1,34 @@
+src/components/games/matchup-showdown/MatchupShowdownGame.tsx
+  s_3dd9410da48798::t_e9b1e460e2c276 81-88
+  s_3dd9410da48798::t_904a8ca85fe2c2 102-106
+  s_3dd9410da48798::t_556b326fc0460a 38
+src/hooks/useStatsAPI.ts
+  s_3dd9410da48798::t_4ab8bb010e1b8e 355
+src/lib/games/shareText.ts
+  s_3dd9410da48798::t_88f294224824c7 31-35,38,41-42
+src/components/games/daily-challenge/DailyChallengeGame.tsx
+  s_3dd9410da48798::t_ba2b4d5f1627b6 185-189
+  s_3dd9410da48798::t_91ba101cdc0fb1 265
+  s_3dd9410da48798::t_ae2e088c847b8c 129-135
+  s_3dd9410da48798::t_de969d17b0c82e 152-153,155-159,169-171
+  s_3dd9410da48798::t_cc573ead906ff1 4
+  s_3dd9410da48798::t_c41abbc6359b9d 32-38
+src/components/games/shared/PlayerChoiceCard.tsx
+  s_3dd9410da48798::t_4d884496dc4bca 44-45,48,50-52,54-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "a21afaeb591329fb3059c7cbdb3d628870143456",
+  "prompts": {},
+  "sessions": {
+    "s_3dd9410da48798": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "65153b92-7f8e-4df1-87f7-1bab7031fc62",
+        "model": "default"
+      },
+      "human_author": "Parshva Shah <shahparshva72@gmail.com>"
+    }
+  }
+}
