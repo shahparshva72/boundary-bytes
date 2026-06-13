@@ -18,14 +18,9 @@
     ]
   },
   "dependencies": {
-    "@ai-sdk/google": "^2.0.0",
     "@tanstack/react-query": "^5.79.0",
     "@tanstack/react-query-devtools": "^5.79.0",
-    "@upstash/ratelimit": "^2.0.5",
-    "@upstash/redis": "^1.35.1",
     "@vercel/analytics": "^1.5.0",
-    "ai": "^5.0.59",
-    "csv-parse": "^5.6.0",
     "framer-motion": "^12.23.9",
     "ky": "^1.14.3",
     "lucide-react": "^1.7.0",
@@ -36,7 +31,6 @@
     "react-select": "^5.10.1",
     "react-spinners": "^0.17.0",
     "recharts": "^3.7.0",
-    "rss-parser": "^3.13.0",
     "zod": "^3.25.76",
     "zustand": "^5.0.10"
   },
@@ -47,10 +41,9 @@
     "@types/react-dom": "^19",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.3",
-    "oxlint": "^1.41.0",
     "oxfmt": "^0.50.0",
+    "oxlint": "^1.41.0",
     "tailwindcss": "^4",
-    "tsx": "^4.19.4",
     "typescript": "^5.8.3"
   }
 }
