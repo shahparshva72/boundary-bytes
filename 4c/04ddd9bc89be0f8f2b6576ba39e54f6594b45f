@@ -1,0 +1,27 @@
+src/app/chat/page.tsx
+  s_8c0049a401ec06::t_ff29fe1ee20599 549
+  s_8c0049a401ec06::t_6b7bc92c101ab1 95-237
+  s_8c0049a401ec06::t_8941bfc29a9b3b 609,611,616
+  s_8c0049a401ec06::t_ce390b8a3a1680 9-15
+  s_8c0049a401ec06::t_3c0d88f22dc5b9 365-374
+  s_8c0049a401ec06::t_544e03494071b5 508,512
+  s_8c0049a401ec06::t_339ae6de09508c 530
+src/hooks/useTextToSql.ts
+  s_8c0049a401ec06::t_e71a9ae39cfd20 3,6-12,19,21-22,31,36-50,52-53,73-85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.9",
+  "base_commit_sha": "4c04ddd9bc89be0f8f2b6576ba39e54f6594b45f",
+  "prompts": {},
+  "sessions": {
+    "s_8c0049a401ec06": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "a0e713f9-42fe-4077-8591-e403bdc18600",
+        "model": "default"
+      },
+      "human_author": "Parshva Shah <shahparshva72@gmail.com>"
+    }
+  }
+}
