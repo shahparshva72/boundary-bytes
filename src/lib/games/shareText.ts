@@ -1,5 +1,26 @@
 import type { League } from '@/types/league';
 
+export function formatDailyDraftShareText(
+  league: League,
+  score: number,
+  optimalScore: number,
+  efficiencyPct: number,
+  draftStreak: number,
+): string {
+  const filled = Math.min(5, Math.round(efficiencyPct / 20));
+  const squares = Array.from({ length: 5 }, (_, i) => (i < filled ? '🟩' : '⬜')).join('');
+  const origin = typeof window !== 'undefined' ? window.location.origin : '';
+  const url = `${origin}/play?game=draft&league=${league}`;
+
+  return [
+    `Boundary Bytes Daily Draft ${league}`,
+    `${Math.round(score)}/${Math.round(optimalScore)} pts (${efficiencyPct}%)`,
+    squares,
+    `Streak: ${draftStreak}`,
+    url,
+  ].join('\n');
+}
+
 export function formatDailyShareText(
   league: League,
   score: number,

@@ -3,13 +3,14 @@
 import { parseAsStringLiteral, useQueryState } from 'nuqs';
 import { ReactNode } from 'react';
 
-const GAME_TABS = ['stat-guesser', 'matchup', 'daily'] as const;
+const GAME_TABS = ['stat-guesser', 'matchup', 'daily', 'draft'] as const;
 export type GameTab = (typeof GAME_TABS)[number];
 
 const GAME_LABELS: Record<GameTab, string> = {
   'stat-guesser': 'Stat Guesser',
   matchup: 'Matchup Showdown',
   daily: 'Daily Challenge',
+  draft: 'Daily Draft',
 };
 
 interface PlayTabProps {
