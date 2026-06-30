@@ -2,6 +2,7 @@
 
 import Layout from '@/app/stats/components/Layout';
 import DailyChallengeGame from '@/components/games/daily-challenge/DailyChallengeGame';
+import DailyDraftGame from '@/components/games/daily-draft/DailyDraftGame';
 import MatchupShowdownGame from '@/components/games/matchup-showdown/MatchupShowdownGame';
 import { PlayTab, PlayTabs } from '@/components/games/PlayTabs';
 import StatGuesserGame from '@/components/games/stat-guesser/StatGuesserGame';
@@ -30,6 +31,9 @@ export default function PlayPage() {
           </PlayTab>
           <PlayTab id="daily">
             <DailyChallengeGame />
+          </PlayTab>
+          <PlayTab id="draft">
+            <DailyDraftGame />
           </PlayTab>
         </PlayTabs>
       )}

@@ -200,7 +200,11 @@ export default function DailyChallengeGame() {
   }, [poolLoading, pool]);
 
   useEffect(() => {
-    if (!isCompletedToday && pool && questions.length === 0) {
+    if (isCompletedToday) {
+      setLoadingQuestions(false);
+      return;
+    }
+    if (pool && questions.length === 0) {
       buildQuestions();
     }
   }, [isCompletedToday, pool, questions.length, buildQuestions]);
@@ -274,7 +278,7 @@ export default function DailyChallengeGame() {
     setTimeout(() => setShareStatus(null), 2000);
   };
 
-  if (poolLoading || (loadingQuestions && pool)) {
+  if (poolLoading || (loadingQuestions && pool && !isCompletedToday)) {
     return (
       <div className="flex flex-col items-center gap-3 py-8">
         <Spinner size="lg" />

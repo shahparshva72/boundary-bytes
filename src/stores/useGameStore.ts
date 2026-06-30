@@ -2,6 +2,7 @@
 
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
+import type { DailyDraftProgress } from '@/lib/games/dailyDraft/types';
 import type { DailyProgress } from '@/lib/games/types';
 import { VALID_LEAGUES } from '@/lib/league-config';
 import type { League } from '@/types/league';
@@ -22,11 +23,17 @@ interface GameStore {
   dailyProgress: DailyProgress | null;
   dailyStreak: number;
   lastDailyDate: string | null;
+  draftProgress: DailyDraftProgress | null;
+  draftStreak: number;
+  lastDraftDate: string | null;
   setStatGuesserBestStreak: (league: League, streak: number) => void;
   setMatchupBestScore: (league: League, score: number) => void;
   setDailyProgress: (progress: DailyProgress) => void;
+  setDraftProgress: (progress: DailyDraftProgress) => void;
   clearDailyProgressIfNewDay: (today: string, league: League) => void;
+  clearDraftProgressIfNewDay: (today: string, league: League) => void;
   updateDailyStreak: (today: string, completed: boolean) => void;
+  updateDraftStreak: (today: string, completed: boolean) => void;
 }
 
 export const useGameStore = create<GameStore>()(
@@ -37,6 +44,9 @@ export const useGameStore = create<GameStore>()(
       dailyProgress: null,
       dailyStreak: 0,
       lastDailyDate: null,
+      draftProgress: null,
+      draftStreak: 0,
+      lastDraftDate: null,
       setStatGuesserBestStreak: (league, streak) =>
         set((state) => ({
           statGuesserBestStreak: {
@@ -52,10 +62,17 @@ export const useGameStore = create<GameStore>()(
           },
         })),
       setDailyProgress: (progress) => set({ dailyProgress: progress }),
+      setDraftProgress: (progress) => set({ draftProgress: progress }),
       clearDailyProgressIfNewDay: (today, league) => {
         const { dailyProgress } = get();
         if (dailyProgress && (dailyProgress.date !== today || dailyProgress.league !== league)) {
           set({ dailyProgress: null });
+        }
+      },
+      clearDraftProgressIfNewDay: (today, league) => {
+        const { draftProgress } = get();
+        if (draftProgress && (draftProgress.date !== today || draftProgress.league !== league)) {
+          set({ draftProgress: null });
         }
       },
       updateDailyStreak: (today, completed) => {
@@ -74,10 +91,26 @@ export const useGameStore = create<GameStore>()(
         const nextStreak = lastDailyDate === yesterdayISO ? dailyStreak + 1 : 1;
         set({ dailyStreak: nextStreak, lastDailyDate: today });
       },
+      updateDraftStreak: (today, completed) => {
+        if (!completed) {
+          return;
+        }
+        const { lastDraftDate, draftStreak } = get();
+        if (lastDraftDate === today) {
+          return;
+        }
+
+        const yesterday = new Date(today);
+        yesterday.setDate(yesterday.getDate() - 1);
+        const yesterdayISO = yesterday.toISOString().slice(0, 10);
+
+        const nextStreak = lastDraftDate === yesterdayISO ? draftStreak + 1 : 1;
+        set({ draftStreak: nextStreak, lastDraftDate: today });
+      },
     }),
     {
       name: 'boundary-bytes-games',
-      version: 1,
+      version: 2,
     },
   ),
 );
