@@ -111,6 +111,18 @@ export const useGameStore = create<GameStore>()(
     {
       name: 'boundary-bytes-games',
       version: 2,
+      migrate: (persistedState, version) => {
+        if (version < 2) {
+          const state = persistedState as Partial<GameStore>;
+          return {
+            ...state,
+            draftProgress: state.draftProgress ?? null,
+            draftStreak: state.draftStreak ?? 0,
+            lastDraftDate: state.lastDraftDate ?? null,
+          };
+        }
+        return persistedState as GameStore;
+      },
     },
   ),
 );

@@ -7,7 +7,7 @@ export interface DraftThemeConfig {
   score: (stats: DraftPlayerStats, role: 'batter' | 'bowler') => number;
 }
 
-function batterBase(stats: DraftPlayerStats): number {
+function bowlerBase(stats: DraftPlayerStats): number {
   return stats.wickets !== undefined ? stats.wickets * 8 : 0;
 }
 
@@ -20,7 +20,7 @@ export const DRAFT_THEMES: DraftThemeConfig[] = [
       if (role === 'batter') {
         return (stats.sixes ?? 0) * 3 + (stats.runs ?? 0) * 0.04;
       }
-      return batterBase(stats) + (stats.wickets ?? 0) * 12;
+      return bowlerBase(stats) + (stats.wickets ?? 0) * 12;
     },
   },
   {
@@ -31,7 +31,7 @@ export const DRAFT_THEMES: DraftThemeConfig[] = [
       if (role === 'batter') {
         return (stats.fours ?? 0) * 2 + (stats.runs ?? 0) * 0.03;
       }
-      return batterBase(stats) + (stats.wickets ?? 0) * 12;
+      return bowlerBase(stats) + (stats.wickets ?? 0) * 12;
     },
   },
   {
@@ -42,7 +42,7 @@ export const DRAFT_THEMES: DraftThemeConfig[] = [
       if (role === 'batter') {
         return (stats.runs ?? 0) * 0.15 + (stats.fours ?? 0) * 0.5;
       }
-      return batterBase(stats) + (stats.wickets ?? 0) * 14;
+      return bowlerBase(stats) + (stats.wickets ?? 0) * 14;
     },
   },
   {
@@ -53,7 +53,7 @@ export const DRAFT_THEMES: DraftThemeConfig[] = [
       if (role === 'batter') {
         return (stats.strikeRate ?? 0) * 0.35 + (stats.runs ?? 0) * 0.05;
       }
-      return batterBase(stats) + (stats.wickets ?? 0) * 12;
+      return bowlerBase(stats) + (stats.wickets ?? 0) * 12;
     },
   },
   {

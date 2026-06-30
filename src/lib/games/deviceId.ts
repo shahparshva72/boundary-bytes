@@ -12,12 +12,16 @@ export function getDeviceId(): string {
     return '';
   }
 
-  const existing = localStorage.getItem(DEVICE_ID_KEY);
-  if (existing) {
-    return existing;
-  }
+  try {
+    const existing = localStorage.getItem(DEVICE_ID_KEY);
+    if (existing) {
+      return existing;
+    }
 
-  const id = generateDeviceId();
-  localStorage.setItem(DEVICE_ID_KEY, id);
-  return id;
+    const id = generateDeviceId();
+    localStorage.setItem(DEVICE_ID_KEY, id);
+    return id;
+  } catch {
+    return generateDeviceId();
+  }
 }

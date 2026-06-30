@@ -49,13 +49,13 @@ export function solveOptimalLineup(
       const newBudget = budgetLeft - player.price;
       const newKey = stateKey(newBatters, newBowlers, newBudget);
 
-      if (state.lineup.includes(player.name)) {
+      if (state.lineup.includes(player.id)) {
         continue;
       }
 
       const candidate: DpState = {
         score: state.score + player.fantasyPoints,
-        lineup: [...state.lineup, player.name],
+        lineup: [...state.lineup, player.id],
       };
 
       const existing = next.get(newKey);
@@ -87,14 +87,14 @@ export function solveOptimalLineup(
   return best;
 }
 
-export function scoreLineup(players: DraftPlayer[], selectedNames: string[]): number {
-  const byName = new Map(players.map((p) => [p.name, p]));
-  return selectedNames.reduce((sum, name) => sum + (byName.get(name)?.fantasyPoints ?? 0), 0);
+export function scoreLineup(players: DraftPlayer[], selectedIds: string[]): number {
+  const byId = new Map(players.map((p) => [p.id, p]));
+  return selectedIds.reduce((sum, id) => sum + (byId.get(id)?.fantasyPoints ?? 0), 0);
 }
 
-export function lineupCost(players: DraftPlayer[], selectedNames: string[]): number {
-  const byName = new Map(players.map((p) => [p.name, p]));
-  return selectedNames.reduce((sum, name) => sum + (byName.get(name)?.price ?? 0), 0);
+export function lineupCost(players: DraftPlayer[], selectedIds: string[]): number {
+  const byId = new Map(players.map((p) => [p.id, p]));
+  return selectedIds.reduce((sum, id) => sum + (byId.get(id)?.price ?? 0), 0);
 }
 
 export function efficiencyPct(score: number, optimalScore: number): number {

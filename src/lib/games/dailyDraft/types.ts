@@ -34,7 +34,12 @@ export interface DraftPlayerStats {
   economy?: number;
 }
 
+export function draftPlayerId(role: 'batter' | 'bowler', name: string): string {
+  return `${role}:${name}`;
+}
+
 export interface DraftPlayer {
+  id: string;
   name: string;
   role: 'batter' | 'bowler';
   price: number;

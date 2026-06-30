@@ -1,7 +1,7 @@
 import { createSeededRandom } from '@/lib/games/seededRandom';
 import type { League } from '@/types/league';
 import { DRAFT_THEMES } from './themes';
-import type { DailyDraftBrief, DraftThemeId, SquadShape } from './types';
+import type { DailyDraftBrief, SquadShape } from './types';
 
 const SQUAD_SHAPES: SquadShape[] = [
   { batters: 4, bowlers: 2 },
@@ -30,7 +30,7 @@ export function buildDailyDraftBrief(league: League, date: string): DailyDraftBr
     seed,
     budget,
     squadShape,
-    themeId: theme.id as DraftThemeId,
+    themeId: theme.id,
     themeLabel: theme.label,
     themeDescription: theme.description,
   };
