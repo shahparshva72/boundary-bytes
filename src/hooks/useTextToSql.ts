@@ -1,7 +1,14 @@
 'use client';
 
-import { useMutation } from '@tanstack/react-query';
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import api from '@/services/api';
+
+export interface RateLimitInfo {
+  limit: number;
+  used: number;
+  remaining: number;
+  resetsAt: string;
+}
 
 export interface TextToSqlSuccess {
   success: true;
@@ -9,9 +16,10 @@ export interface TextToSqlSuccess {
   metadata: {
     rowCount: number;
     executionTime: number;
-    generatedSql: string; // retained for potential future enhancements
+    generatedSql: string;
   };
-  requestId?: string; // For feedback tracking
+  requestId?: string;
+  rateLimit?: RateLimitInfo;
 }
 
 export interface TextToSqlError {
@@ -20,11 +28,29 @@ export interface TextToSqlError {
   code: 'VALIDATION_ERROR' | 'AI_ERROR' | 'SQL_ERROR' | 'DATABASE_ERROR' | 'RATE_LIMIT_ERROR';
   suggestions?: string[];
   tips?: string[];
+  rateLimit?: RateLimitInfo;
 }
 
 export type TextToSqlResponse = TextToSqlSuccess | TextToSqlError;
 
+export const TEXT_TO_SQL_LIMITS_KEY = ['text-to-sql-limits'] as const;
+
+export function useTextToSqlLimits() {
+  return useQuery({
+    queryKey: TEXT_TO_SQL_LIMITS_KEY,
+    queryFn: async () => {
+      const json = await api
+        .get('text-to-sql/limits', { throwHttpErrors: false })
+        .json<{ success: boolean; rateLimit: RateLimitInfo }>();
+      return json.rateLimit;
+    },
+    staleTime: 30_000,
+  });
+}
+
 export function useTextToSql() {
+  const queryClient = useQueryClient();
+
   return useMutation<TextToSqlSuccess, TextToSqlError | Error, string>({
     mutationFn: async (question: string) => {
       let json: TextToSqlResponse;
@@ -43,6 +69,19 @@ export function useTextToSql() {
         throw json as TextToSqlError;
       }
       return json as TextToSqlSuccess;
+    },
+    onSuccess: (data) => {
+      if (data.rateLimit) {
+        queryClient.setQueryData(TEXT_TO_SQL_LIMITS_KEY, data.rateLimit);
+      } else {
+        void queryClient.invalidateQueries({ queryKey: TEXT_TO_SQL_LIMITS_KEY });
+      }
+    },
+    onError: (error) => {
+      const structured = error as TextToSqlError;
+      if (structured?.rateLimit) {
+        queryClient.setQueryData(TEXT_TO_SQL_LIMITS_KEY, structured.rateLimit);
+      }
     },
     retry: (failureCount, error) => {
       if ((error as TextToSqlError)?.success === false) {

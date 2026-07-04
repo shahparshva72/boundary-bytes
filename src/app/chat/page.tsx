@@ -6,7 +6,13 @@ import Layout from '@/app/stats/components/Layout';
 import AiFeedback from '@/components/AiFeedback';
 import Tooltip from '@/components/ui/Tooltip';
 import { useLeagueContext } from '@/contexts/LeagueContext';
-import { TextToSqlError, TextToSqlSuccess, useTextToSql } from '@/hooks/useTextToSql';
+import {
+  RateLimitInfo,
+  TextToSqlError,
+  TextToSqlSuccess,
+  useTextToSql,
+  useTextToSqlLimits,
+} from '@/hooks/useTextToSql';
 
 type SuggestionSection = {
   category: string;
@@ -85,6 +91,149 @@ function formatDisplayValue(v: unknown): string {
 }
 
 // -- Sub-components --
+
+function formatResetTime(resetsAt: string): string {
+  const reset = new Date(resetsAt);
+  if (Number.isNaN(reset.getTime())) {
+    return 'midnight UTC';
+  }
+  return reset.toLocaleString(undefined, {
+    weekday: 'short',
+    month: 'short',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+    timeZoneName: 'short',
+  });
+}
+
+type DailyQuotaBannerProps = {
+  rateLimit: RateLimitInfo | undefined;
+  isLoading: boolean;
+};
+
+function DailyQuotaBanner({ rateLimit, isLoading }: DailyQuotaBannerProps) {
+  if (isLoading || !rateLimit) {
+    return (
+      <div className="bg-[#FEF9C3] border-2 border-black px-2 sm:px-3 py-2 font-mono text-xs sm:text-sm text-black">
+        Checking your daily question allowance...
+      </div>
+    );
+  }
+
+  const usedPct = Math.min(100, Math.round((rateLimit.used / rateLimit.limit) * 100));
+  const isLow = rateLimit.remaining <= 3;
+  const isEmpty = rateLimit.remaining === 0;
+
+  return (
+    <div
+      className={`border-2 border-black px-2 sm:px-3 py-2 sm:py-2.5 shadow-[1px_1px_0_#000] ${
+        isEmpty ? 'bg-[#FF5E5B]' : isLow ? 'bg-[#FFED66]' : 'bg-[#4ECDC4]'
+      }`}
+      aria-live="polite"
+    >
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <p className="font-black text-black text-sm sm:text-base">
+          {isEmpty
+            ? 'No questions left today'
+            : `${rateLimit.remaining} of ${rateLimit.limit} questions left today`}
+        </p>
+        <span className="font-mono text-xs sm:text-sm text-black bg-white px-2 py-0.5 border-2 border-black">
+          Resets {formatResetTime(rateLimit.resetsAt)}
+        </span>
+      </div>
+      <div className="mt-2 h-2.5 sm:h-3 border-2 border-black bg-white">
+        <div
+          className={`h-full transition-all duration-300 ${isEmpty ? 'bg-black' : 'bg-black'}`}
+          style={{ width: `${usedPct}%` }}
+          role="progressbar"
+          aria-valuenow={rateLimit.used}
+          aria-valuemin={0}
+          aria-valuemax={rateLimit.limit}
+          aria-label={`${rateLimit.used} of ${rateLimit.limit} daily questions used`}
+        />
+      </div>
+    </div>
+  );
+}
+
+type DailyLimitReachedProps = {
+  error: TextToSqlError;
+  onReset: () => void;
+  onSuggestionClick: (suggestion: string) => void;
+};
+
+function DailyLimitReached({ error, onReset, onSuggestionClick }: DailyLimitReachedProps) {
+  const resetsAt = error.rateLimit?.resetsAt;
+
+  return (
+    <div
+      className="p-3 sm:p-4 md:p-5 bg-[#FFED66] border-2 border-black shadow-[3px_3px_0_#000] flex flex-col gap-3 sm:gap-4"
+      role="alert"
+      aria-live="polite"
+    >
+      <div className="flex items-start gap-3">
+        <span className="text-3xl sm:text-4xl leading-none" aria-hidden="true">
+          🏏
+        </span>
+        <div className="flex flex-col gap-1.5">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-black">
+            Daily limit reached
+          </h3>
+          <p className="font-mono text-sm sm:text-base text-black">
+            You&apos;ve used all 20 cricket questions for today. The pitch resets soon — come back
+            then to keep digging into the stats.
+          </p>
+        </div>
+      </div>
+
+      {resetsAt && (
+        <div className="bg-white border-2 border-black px-3 py-2.5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1.5">
+          <span className="font-black text-black text-sm sm:text-base">
+            Next questions unlock at
+          </span>
+          <span className="font-mono text-sm sm:text-base text-black bg-[#4ECDC4] px-2 py-1 border-2 border-black">
+            {formatResetTime(resetsAt)}
+          </span>
+        </div>
+      )}
+
+      {error.tips && error.tips.length > 0 && (
+        <ul className="list-disc list-inside bg-white border-2 border-black p-2 sm:p-3 font-mono text-xs sm:text-sm text-black">
+          {error.tips.map((tip) => (
+            <li key={tip}>{tip}</li>
+          ))}
+        </ul>
+      )}
+
+      {error.suggestions && error.suggestions.length > 0 && (
+        <div className="flex flex-col gap-2">
+          <p className="font-bold text-black text-sm sm:text-base">Save these for tomorrow:</p>
+          <div className="flex flex-wrap gap-2">
+            {error.suggestions.slice(0, 4).map((suggestion) => (
+              <button
+                key={suggestion}
+                type="button"
+                onClick={() => onSuggestionClick(suggestion)}
+                className="text-black text-xs sm:text-sm bg-white px-2 py-1 border-2 border-black font-bold shadow-[1px_1px_0_#000] hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all"
+              >
+                {suggestion}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <button
+        type="button"
+        onClick={onReset}
+        className="self-start bg-black text-white px-3 py-1.5 font-bold border-2 border-black text-xs sm:text-sm shadow-[1px_1px_0_#000] hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition-all"
+      >
+        Clear
+      </button>
+    </div>
+  );
+}
 
 function splitColumns<T>(arr: T[], maxPerRow: number): T[][] {
   const result: T[][] = [];
@@ -213,6 +362,16 @@ function QueryResult({
     const structured = isTextToSqlError(error) ? error : null;
     console.error('Text-to-SQL error:', error);
 
+    if (structured?.code === 'RATE_LIMIT_ERROR') {
+      return (
+        <DailyLimitReached
+          error={structured}
+          onReset={onReset}
+          onSuggestionClick={onSuggestionClick}
+        />
+      );
+    }
+
     return (
       <div
         className="p-2 sm:p-3 md:p-4 bg-[#FF5E5B] border-2 border-black shadow-[2px_2px_0_#000] flex flex-col gap-2 sm:gap-2.5"
@@ -226,11 +385,6 @@ function QueryResult({
           Something went wrong while processing that question. Please try again or tweak your
           phrasing.
         </p>
-        {structured?.code === 'RATE_LIMIT_ERROR' && (
-          <span className="inline-block bg-[#FFED66] px-2 sm:px-3 py-1 font-bold border-2 border-black w-fit text-sm sm:text-base text-black">
-            Rate limit - give it a moment
-          </span>
-        )}
         {structured?.tips && structured.tips.length > 0 && (
           <ul className="list-disc list-inside bg-[#FFFEE0] border-2 border-black p-2 sm:p-3 font-mono text-xs sm:text-sm text-black">
             {structured.tips.map((tip) => (
@@ -351,9 +505,11 @@ function QuerySuggestions({ onQueryClick }: QuerySuggestionsProps) {
 export default function TextToSqlPage() {
   const { selectedLeague } = useLeagueContext();
   const { mutate, data, error, isPending, reset } = useTextToSql();
+  const { data: rateLimit, isLoading: isRateLimitLoading } = useTextToSqlLimits();
   const [question, setQuestion] = useState('');
   const [touched, setTouched] = useState(false);
   const [showSlowMsg, setShowSlowMsg] = useState(false);
+  const isDailyLimitReached = rateLimit?.remaining === 0;
 
   useEffect(() => {
     if (!isPending) {
@@ -371,7 +527,7 @@ export default function TextToSqlPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setTouched(true);
-    if (!isValid || !selectedLeague) {
+    if (!isValid || !selectedLeague || isDailyLimitReached) {
       return;
     }
     mutate(question);
@@ -390,6 +546,7 @@ export default function TextToSqlPage() {
     >
       <div className="grid grid-cols-1 lg:grid-cols-6 gap-2 sm:gap-3 md:gap-4 items-start w-full">
         <div className="lg:col-span-3 flex flex-col gap-2 sm:gap-3 md:gap-4">
+          <DailyQuotaBanner rateLimit={rateLimit} isLoading={isRateLimitLoading} />
           <form
             onSubmit={handleSubmit}
             className="flex flex-col gap-2 sm:gap-2.5 p-2 sm:p-3 md:p-4 bg-white border-2 border-black shadow-[2px_2px_0_#000]"
@@ -449,14 +606,14 @@ export default function TextToSqlPage() {
             <div className="flex gap-1.5 sm:gap-2 flex-wrap">
               <button
                 type="submit"
-                disabled={!isValid || isPending || !selectedLeague}
+                disabled={!isValid || isPending || !selectedLeague || isDailyLimitReached}
                 className={`py-1.5 sm:py-2 px-2 sm:px-3 md:px-4 border-2 border-black transition-all font-semibold text-xs sm:text-sm ${
-                  !isValid || !selectedLeague || isPending
+                  !isValid || !selectedLeague || isPending || isDailyLimitReached
                     ? 'bg-gray-400 text-white cursor-not-allowed shadow-none'
                     : 'bg-black text-white shadow-[1px_1px_0_#000] hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5'
                 }`}
               >
-                {isPending ? 'Fetching...' : 'Get Stats'}
+                {isDailyLimitReached ? 'Limit reached' : isPending ? 'Fetching...' : 'Get Stats'}
               </button>
               <button
                 type="button"
