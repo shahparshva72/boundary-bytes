@@ -1,0 +1,84 @@
+src/services/playerService.ts
+  s_333236e02a9bf5::t_a367ab7133246f 64-69
+  s_5034538686d1cb::t_d2e09c7a1840b4 74
+  s_333236e02a9bf5::t_0d181b563f5dc4 77-79
+  s_5034538686d1cb::t_0519f560e9e157 61
+  s_5034538686d1cb::t_b5849d279f59cb 1
+  s_333236e02a9bf5::t_65b3992cc01453 2-60,62-63,70-73,75-76,80-82
+  s_333236e02a9bf5::t_7196c2634c69b7 83-85
+src/components/PublicHeader.tsx
+  s_333236e02a9bf5::t_f7b8666a433847 1-35
+src/components/RunScorers.tsx
+  s_333236e02a9bf5::t_4e1526303827c5 110-117
+  s_333236e02a9bf5::t_d0e86483190f3b 3
+src/app/layout.tsx
+  s_333236e02a9bf5::t_f70f83ffe24565 32
+src/app/(marketing)/layout.tsx
+  s_333236e02a9bf5::t_bf5bc15c52deac 1-10
+src/components/PlayerCompare.tsx
+  s_333236e02a9bf5::t_32d05773876e90 263-270
+  s_333236e02a9bf5::t_8520ce473be950 3
+  s_333236e02a9bf5::t_56d3f1b594a377 195-202
+src/lib/slugify.ts
+  s_333236e02a9bf5::t_3d8bcbbf66fe97 1-8
+src/app/(marketing)/players/page.tsx
+  s_333236e02a9bf5::t_9178c20dccd166 5
+  s_333236e02a9bf5::t_7866e160884188 1-4,6-14,22-33,42-62
+  s_333236e02a9bf5::t_5d972607f5765d 15-21,34-41
+  s_333236e02a9bf5::t_9be1961442d395 63-65
+src/components/Header/index.tsx
+  s_333236e02a9bf5::t_6de686a1ed5097 83-85
+  s_333236e02a9bf5::t_3573f18b7039c4 31
+src/app/(app)/layout.tsx
+  s_333236e02a9bf5::t_25d3257436dcb1 1-11
+src/app/(app)/play/page.tsx
+  s_333236e02a9bf5::t_27286fbf919f19 3
+src/components/players/PlayerProfileContent.tsx
+  s_333236e02a9bf5::t_14188a494ee94f 9-14,19-21,23-31
+  s_333236e02a9bf5::t_2be320d35564a4 1-8,15-18,22,32-249
+  s_333236e02a9bf5::t_e8f9cef3739608 250-252
+src/components/players/PlayerProfileJsonLd.tsx
+  s_333236e02a9bf5::t_b2971c2b61357a 1-58
+src/app/(app)/news/page.tsx
+  s_333236e02a9bf5::t_f25324484ae609 5
+src/app/(app)/page.tsx
+  s_333236e02a9bf5::t_3188c917a9af56 1
+src/components/PlayerProgressionChart.tsx
+  s_333236e02a9bf5::t_a7cee94ed2797d 82-90
+  s_333236e02a9bf5::t_18fa481c5e42a8 3,13
+src/components/WicketTakers.tsx
+  s_333236e02a9bf5::t_0be4ef8af1acfa 3
+  s_333236e02a9bf5::t_0baff7f3fe23aa 71-78
+src/app/(marketing)/players/[slug]/page.tsx
+  s_333236e02a9bf5::t_f70afd8dee2ebf 1-9,17-21,25-41,45-52
+  s_333236e02a9bf5::t_1671e14df1c370 22-24
+  s_333236e02a9bf5::t_0215a687b78967 42-44
+  s_333236e02a9bf5::t_0a4625faf4619b 10-16
+  s_333236e02a9bf5::t_e985c06cc0f674 53-55
+src/app/(app)/chat/page.tsx
+  s_333236e02a9bf5::t_863a79f106485c 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "8266e09a7cadb1f8914327364ad5548e040aaa94",
+  "prompts": {},
+  "sessions": {
+    "s_333236e02a9bf5": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0d40c37beffeVNalPWgAuktaAw",
+        "model": "kimi-k2.7-code"
+      },
+      "human_author": "Parshva Shah <shahparshva72@gmail.com>"
+    },
+    "s_5034538686d1cb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0d3e48118ffesvnbWKeHPNO7si",
+        "model": "qwen3.6-plus"
+      },
+      "human_author": "Parshva Shah <shahparshva72@gmail.com>"
+    }
+  }
+}
