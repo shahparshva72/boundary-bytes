@@ -28,6 +28,7 @@ const Header = () => {
         <div className="flex items-center gap-1.5 sm:gap-2">
           <nav className="hidden md:flex gap-2 lg:gap-4">
             <NavLink href="/">Home</NavLink>
+            <NavLink href="/players">Players</NavLink>
             <NavLink href="/stats">Stats</NavLink>
             <NavLink href="/stat-explorer">Stat Explorer</NavLink>
             <NavLink href="/chat">Chat</NavLink>
@@ -78,6 +79,9 @@ const Header = () => {
             <div className="flex flex-col gap-2">
               <NavLink href="/" onClick={() => setIsMobileMenuOpen(false)}>
                 Home
+              </NavLink>
+              <NavLink href="/players" onClick={() => setIsMobileMenuOpen(false)}>
+                Players
               </NavLink>
               <NavLink href="/stats" onClick={() => setIsMobileMenuOpen(false)}>
                 Stats

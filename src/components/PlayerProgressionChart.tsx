@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import {
   Line,
   LineChart,
@@ -9,6 +10,7 @@ import {
   XAxis,
   YAxis,
 } from 'recharts';
+import { slugify } from '@/lib/slugify';
 
 interface ProgressionPoint {
   over: number;
@@ -77,7 +79,15 @@ export default function PlayerProgressionChart({ data, player }: PlayerProgressi
   return (
     <div className="w-full bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] p-4">
       <div className="mb-4">
-        <h3 className="text-lg font-bold text-black mb-2">{player} - Strike Rate Progression</h3>
+        <h3 className="text-lg font-bold text-black mb-2">
+          <Link
+            href={`/players/${slugify(player)}`}
+            className="hover:text-[#FF5E5B] hover:underline"
+          >
+            {player}
+          </Link>{' '}
+          - Strike Rate Progression
+        </h3>
         <div className="flex flex-wrap gap-2 text-xs">
           <div className="flex items-center gap-1">
             <div className="w-4 h-4 bg-[#FFC700] border border-black"></div>

@@ -1,9 +1,7 @@
 import { Analytics } from '@vercel/analytics/next';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
-import AppWithLeagueSelection from '../components/AppWithLeagueSelection';
 import Footer from '../components/Footer';
-import Header from '../components/Header';
 import './globals.css';
 import { Providers } from './providers';
 
@@ -31,12 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body>
-        <Providers>
-          <AppWithLeagueSelection>
-            <Header />
-            {children}
-          </AppWithLeagueSelection>
-        </Providers>
+        <Providers>{children}</Providers>
         <Footer />
         <Analytics />
       </body>

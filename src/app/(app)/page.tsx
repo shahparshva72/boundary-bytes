@@ -1,4 +1,4 @@
-import Matches from '../components/Matches';
+import Matches from '@/components/Matches';
 
 export default async function HomePage({
   searchParams,
