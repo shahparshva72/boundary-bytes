@@ -2,7 +2,7 @@
 
 import { useQuery } from '@tanstack/react-query';
 import Image from 'next/image';
-import Layout from '@/app/stats/components/Layout';
+import Layout from '@/app/(app)/stats/components/Layout';
 import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 
 interface NewsItem {

@@ -1,6 +1,6 @@
 'use client';
 
-import Layout from '@/app/stats/components/Layout';
+import Layout from '@/app/(app)/stats/components/Layout';
 import DailyChallengeGame from '@/components/games/daily-challenge/DailyChallengeGame';
 import MatchupShowdownGame from '@/components/games/matchup-showdown/MatchupShowdownGame';
 import { PlayTab, PlayTabs } from '@/components/games/PlayTabs';

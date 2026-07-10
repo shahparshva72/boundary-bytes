@@ -1,7 +1,9 @@
 'use client';
 
+import Link from 'next/link';
 import { parseAsArrayOf, parseAsInteger, useQueryState } from 'nuqs';
 import { useRunScorers } from '@/hooks/useStatsAPI';
+import { slugify } from '@/lib/slugify';
 import {
   Card,
   CardContent,
@@ -105,7 +107,14 @@ export default function RunScorers() {
                   data.data.map((player: RunScorerData, index: number) => (
                     <DataTableRow key={player.player} index={index}>
                       <DataTableCell>{(currentPage - 1) * PAGE_SIZE + index + 1}</DataTableCell>
-                      <DataTableCell>{player.player}</DataTableCell>
+                      <DataTableCell>
+                        <Link
+                          href={`/players/${slugify(player.player)}`}
+                          className="font-bold text-black hover:text-[#FF5E5B] hover:underline"
+                        >
+                          {player.player}
+                        </Link>
+                      </DataTableCell>
                       <DataTableCell>{player.runs}</DataTableCell>
                       <DataTableCell>{player.ballsFaced}</DataTableCell>
                       <DataTableCell>{player.fours}</DataTableCell>

@@ -1,7 +1,9 @@
 'use client';
 
+import Link from 'next/link';
 import { parseAsInteger, useQueryState } from 'nuqs';
 import { useWicketTakers } from '@/hooks/useStatsAPI';
+import { slugify } from '@/lib/slugify';
 import {
   Card,
   DataTable,
@@ -66,7 +68,14 @@ export default function WicketTakers() {
                   data.data.map((player: WicketTakerData, index: number) => (
                     <DataTableRow key={player.player} index={index}>
                       <DataTableCell>{(currentPage - 1) * PAGE_SIZE + index + 1}</DataTableCell>
-                      <DataTableCell>{player.player}</DataTableCell>
+                      <DataTableCell>
+                        <Link
+                          href={`/players/${slugify(player.player)}`}
+                          className="font-bold text-black hover:text-[#FF5E5B] hover:underline"
+                        >
+                          {player.player}
+                        </Link>
+                      </DataTableCell>
                       <DataTableCell>{player.wickets}</DataTableCell>
                       <DataTableCell>{player.runsConceded}</DataTableCell>
                       <DataTableCell>{player.average.toFixed(2)}</DataTableCell>

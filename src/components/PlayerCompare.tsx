@@ -1,9 +1,11 @@
 'use client';
 
+import Link from 'next/link';
 import { parseAsString, parseAsStringLiteral, useQueryState } from 'nuqs';
 import { useMemo } from 'react';
 import { useBatters, useBowlers } from '@/hooks/usePlayersAPI';
 import { usePlayerComparison, useSeasons } from '@/hooks/useStatsAPI';
+import { slugify } from '@/lib/slugify';
 import type { ComparedPlayer } from '@/types/PlayerComparison';
 import {
   Button,
@@ -190,7 +192,14 @@ export default function PlayerCompare() {
                   <DataTableBody>
                     {players.map((player) => (
                       <DataTableRow key={player.name}>
-                        <DataTableCell className="font-bold">{player.name}</DataTableCell>
+                        <DataTableCell className="font-bold">
+                          <Link
+                            href={`/players/${slugify(player.name)}`}
+                            className="text-black hover:text-[#FF5E5B] hover:underline"
+                          >
+                            {player.name}
+                          </Link>
+                        </DataTableCell>
                         <DataTableCell className="font-mono">
                           {player.batting?.runs ?? '-'}
                         </DataTableCell>
@@ -251,7 +260,14 @@ export default function PlayerCompare() {
                   <DataTableBody>
                     {players.map((player) => (
                       <DataTableRow key={player.name}>
-                        <DataTableCell className="font-bold">{player.name}</DataTableCell>
+                        <DataTableCell className="font-bold">
+                          <Link
+                            href={`/players/${slugify(player.name)}`}
+                            className="text-black hover:text-[#FF5E5B] hover:underline"
+                          >
+                            {player.name}
+                          </Link>
+                        </DataTableCell>
                         <DataTableCell className="font-mono">
                           {player.bowling?.wickets ?? '-'}
                         </DataTableCell>
