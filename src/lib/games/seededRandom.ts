@@ -25,11 +25,13 @@ export function createSeededRandom(seed: string): SeededRandom {
     return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
   };
 
+  function nextInt(max: number) {
+    return Math.floor(next() * max);
+  }
+
   return {
     next,
-    nextInt(max: number) {
-      return Math.floor(next() * max);
-    },
+    nextInt,
     pick<T>(array: T[]): T {
       if (array.length === 0) {
         throw new Error('Cannot pick from empty array');
@@ -45,10 +47,6 @@ export function createSeededRandom(seed: string): SeededRandom {
       return copy;
     },
   };
-
-  function nextInt(max: number) {
-    return Math.floor(next() * max);
-  }
 }
 
 export function getLocalDateISO(): string {
