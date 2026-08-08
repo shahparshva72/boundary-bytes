@@ -141,6 +141,9 @@ export default function CommandPalette({ isOpen, onClose }: CommandPaletteProps)
         keywords: [
           'stat explorer',
           'explorer',
+          'query',
+          'query builder',
+          'custom query',
           'filter',
           'deep search',
           'venue',

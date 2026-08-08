@@ -91,13 +91,25 @@ const STATS_CATEGORIES = [
   },
 ];
 
-const Header = () => {
+interface HeaderProps {
+  onOpenSearch?: () => void;
+}
+
+const Header = ({ onOpenSearch }: HeaderProps = {}) => {
   const pathname = usePathname();
   const { selectedLeague, leagueConfig } = useLeagueContext();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isStatsDropdownOpen, setIsStatsDropdownOpen] = useState(false);
   const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  const handleOpenSearch = () => {
+    if (onOpenSearch) {
+      onOpenSearch();
+    } else {
+      setIsCommandPaletteOpen(true);
+    }
+  };
 
   // Is any stat page active?
   const isStatsActive =
@@ -116,8 +128,11 @@ const Header = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  // Global Cmd+K keyboard shortcut
+  // Global Cmd+K keyboard shortcut if Header is standalone
   useEffect(() => {
+    if (onOpenSearch) {
+      return;
+    }
     function handleKeyDown(event: KeyboardEvent) {
       if ((event.metaKey || event.ctrlKey) && event.key === 'k') {
         event.preventDefault();
@@ -126,7 +141,7 @@ const Header = () => {
     }
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, []);
+  }, [onOpenSearch]);
 
   return (
     <>
@@ -252,7 +267,7 @@ const Header = () => {
 
             {/* Quick Search (Cmd + K) Trigger */}
             <button
-              onClick={() => setIsCommandPaletteOpen(true)}
+              onClick={handleOpenSearch}
               className="flex items-center gap-1.5 px-2.5 lg:px-3 py-1.5 bg-white border-2 border-black font-black text-xs sm:text-sm text-black hover:bg-[#FFED66] shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all cursor-pointer"
               title="Quick Search (Cmd+K / Ctrl+K)"
             >
@@ -315,9 +330,9 @@ const Header = () => {
               <button
                 onClick={() => {
                   setIsMobileMenuOpen(false);
-                  setIsCommandPaletteOpen(true);
+                  handleOpenSearch();
                 }}
-                className="w-full flex items-center justify-between p-2.5 mb-3 bg-[#FFED66] border-2 border-black font-black text-xs uppercase shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] text-black"
+                className="w-full flex items-center justify-between p-2.5 mb-3 bg-[#FFED66] border-2 border-black font-black text-xs uppercase shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] text-black cursor-pointer"
               >
                 <span>Quick Search Stats & Players</span>
                 <span className="bg-black text-white px-1.5 py-0.5 text-[10px]">Open</span>
@@ -453,11 +468,13 @@ const Header = () => {
         )}
       </header>
 
-      {/* Universal Command Palette Modal */}
-      <CommandPalette
-        isOpen={isCommandPaletteOpen}
-        onClose={() => setIsCommandPaletteOpen(false)}
-      />
+      {/* Standalone Command Palette Modal if Header is rendered without parent wrapper */}
+      {!onOpenSearch && (
+        <CommandPalette
+          isOpen={isCommandPaletteOpen}
+          onClose={() => setIsCommandPaletteOpen(false)}
+        />
+      )}
     </>
   );
 };
