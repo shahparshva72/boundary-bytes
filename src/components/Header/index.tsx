@@ -1,107 +1,32 @@
 'use client';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 import CommandPalette from '../ui/CommandPalette';
 import LeagueSwitcher from '../ui/LeagueSwitcher';
 import NavLink from './NavLink';
 
-const STATS_CATEGORIES = [
-  {
-    title: 'Leaderboards & Records',
-    items: [
-      {
-        href: '/stats?tab=Run+Scorers',
-        label: 'Run Scorers',
-        desc: 'Top run getters and boundary records',
-      },
-      {
-        href: '/stats?tab=Wicket+Takers',
-        label: 'Wicket Takers',
-        desc: 'Most wickets and best bowling figures',
-      },
-      {
-        href: '/stats?tab=Bowling+Wicket+Types',
-        label: 'Dismissal Types',
-        desc: 'Bowled, caught, LBW, and stumped modes',
-      },
-    ],
-  },
-  {
-    title: 'Matchups & Compare',
-    items: [
-      {
-        href: '/stats?tab=Batter+vs+Bowler',
-        label: 'Batter vs Bowler',
-        desc: '1-on-1 head-to-head rivalry records',
-      },
-      {
-        href: '/stats?tab=Multi+Matchup',
-        label: 'Multi Matchup Matrix',
-        desc: 'Multi-batter versus multi-bowler matrix',
-      },
-      {
-        href: '/stats/compare',
-        label: 'Compare Players',
-        desc: 'Side-by-side batting and bowling benchmark',
-      },
-    ],
-  },
-  {
-    title: 'Phase & Trends',
-    items: [
-      {
-        href: '/stats/advanced',
-        label: 'Over Phase Stats',
-        desc: 'Powerplay (1-6), Middle (7-15), Death (16-20)',
-      },
-      {
-        href: '/stats/player-progression',
-        label: 'Innings Progression',
-        desc: 'Strike rate acceleration across 20 overs',
-      },
-      {
-        href: '/stats?tab=Team+Run+Rate',
-        label: 'Team Run Rate Trends',
-        desc: 'Over-by-over scoring pace and worm graph',
-      },
-    ],
-  },
-  {
-    title: 'Stat Explorer & Teams',
-    items: [
-      {
-        href: '/stat-explorer',
-        label: 'Stat Explorer',
-        desc: 'Custom multi-dimensional statistical query engine',
-      },
-      {
-        href: '/stats?tab=Team+Wins',
-        label: 'Team Wins & Margins',
-        desc: 'Match victories, toss impact, and margins',
-      },
-      {
-        href: '/stats?tab=Team+Averages',
-        label: 'Team Averages',
-        desc: 'Overall batting and bowling team metrics',
-      },
-    ],
-  },
-];
-
 interface HeaderProps {
   onOpenSearch?: () => void;
 }
 
+const NAV_LINKS = [
+  { href: '/', label: 'Home', exact: true },
+  { href: '/players', label: 'Players' },
+  { href: '/stats', label: 'Stats', exact: true },
+  { href: '/stat-explorer', label: 'Stat Explorer' },
+  { href: '/chat', label: 'Chat' },
+  { href: '/play', label: 'Play' },
+  { href: '/news', label: 'News' },
+  { href: '/stats/advanced', label: 'Advanced Stats' },
+  { href: '/stats/player-progression', label: 'Player Progression' },
+];
+
 const Header = ({ onOpenSearch }: HeaderProps = {}) => {
-  const pathname = usePathname();
   const { selectedLeague, leagueConfig } = useLeagueContext();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isStatsDropdownOpen, setIsStatsDropdownOpen] = useState(false);
   const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false);
-  const dropdownRef = useRef<HTMLDivElement>(null);
 
   const handleOpenSearch = () => {
     if (onOpenSearch) {
@@ -111,24 +36,7 @@ const Header = ({ onOpenSearch }: HeaderProps = {}) => {
     }
   };
 
-  // Is any stat page active?
-  const isStatsActive =
-    pathname === '/stats' ||
-    pathname.startsWith('/stats/') ||
-    pathname.startsWith('/stat-explorer');
-
-  // Close dropdown on outside click
-  useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setIsStatsDropdownOpen(false);
-      }
-    }
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, []);
-
-  // Global Cmd+K keyboard shortcut if Header is standalone
+  // Global Cmd+K keyboard shortcut if standalone
   useEffect(() => {
     if (onOpenSearch) {
       return;
@@ -145,15 +53,15 @@ const Header = ({ onOpenSearch }: HeaderProps = {}) => {
 
   return (
     <>
-      <header className="sticky top-0 z-40 bg-[#FFC700] p-2 sm:p-2.5 border-b-2 border-black shadow-[0px_2px_0px_0px_rgba(0,0,0,1)]">
+      <header className="bg-[#FFC700] p-2 sm:p-2.5 border-b-2 border-black shadow-[0px_2px_0px_0px_rgba(0,0,0,1)]">
         <div className="container mx-auto flex justify-between items-center gap-2">
-          {/* Logo + League Badge */}
-          <div className="flex items-center gap-1.5 sm:gap-2.5">
+          {/* Logo & League Badge */}
+          <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
             <Link
               href="/"
-              className="text-lg sm:text-xl lg:text-2xl font-black text-black tracking-tighter flex items-center gap-1 hover:opacity-90 transition-opacity"
+              className="text-lg sm:text-xl font-black text-black tracking-tighter hover:opacity-90 transition-opacity"
             >
-              <span>Boundary Bytes</span>
+              Boundary Bytes
             </Link>
 
             {selectedLeague && leagueConfig && (
@@ -163,116 +71,24 @@ const Header = ({ onOpenSearch }: HeaderProps = {}) => {
             )}
           </div>
 
-          {/* Core Desktop Navigation */}
-          <div className="flex items-center gap-1.5 sm:gap-2">
-            <nav className="hidden md:flex items-center gap-1.5 lg:gap-2">
-              {/* 1. Matches */}
-              <NavLink href="/" exact>
-                Matches
-              </NavLink>
-
-              {/* 2. Stats & Analytics Dropdown Button (Exact same button size & style as NavLink) */}
-              <div className="relative" ref={dropdownRef}>
-                <button
-                  type="button"
-                  onClick={() => setIsStatsDropdownOpen((prev) => !prev)}
-                  className={`text-sm sm:text-base font-black tracking-tight px-2.5 lg:px-3.5 py-1.5 border-2 border-black transition-all flex items-center gap-1.5 cursor-pointer ${
-                    isStatsActive || isStatsDropdownOpen
-                      ? 'bg-black text-white shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]'
-                      : 'bg-white text-black hover:bg-[#FFED66] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]'
-                  }`}
-                  aria-label="Toggle Stats Menu"
-                  aria-expanded={isStatsDropdownOpen}
-                >
-                  <span>Stats & Analytics</span>
-                  <span
-                    className={`text-xs font-black transition-transform duration-200 ${
-                      isStatsDropdownOpen ? 'rotate-180' : ''
-                    }`}
-                  >
-                    ▼
-                  </span>
-                </button>
-
-                {/* Dropdown Menu */}
-                {isStatsDropdownOpen && (
-                  <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[680px] bg-[#FFFEE0] border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] p-3.5 z-50 animate-in fade-in zoom-in-95 duration-150">
-                    <div className="flex items-center justify-between pb-2.5 mb-2.5 border-b-2 border-black">
-                      <h3 className="font-black text-sm uppercase text-black tracking-tight">
-                        Cricket Statistics & Analytics Hub
-                      </h3>
-                      <Link
-                        href="/stats"
-                        onClick={() => setIsStatsDropdownOpen(false)}
-                        className="text-xs font-black bg-[#FF5E5B] text-black px-2.5 py-1 border-2 border-black hover:bg-[#FFED66] transition-colors shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
-                      >
-                        Open Dashboard →
-                      </Link>
-                    </div>
-
-                    <div className="grid grid-cols-2 gap-3">
-                      {STATS_CATEGORIES.map((category) => (
-                        <div
-                          key={category.title}
-                          className="bg-white border-2 border-black p-2.5 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
-                        >
-                          <h4 className="font-black text-xs text-black mb-1.5 pb-1 border-b border-black uppercase tracking-wide">
-                            {category.title}
-                          </h4>
-                          <div className="space-y-1">
-                            {category.items.map((item) => (
-                              <Link
-                                key={item.href}
-                                href={item.href}
-                                onClick={() => setIsStatsDropdownOpen(false)}
-                                className="group block p-1 hover:bg-[#FFED66] border border-transparent hover:border-black transition-all"
-                              >
-                                <p className="font-black text-xs text-black">{item.label}</p>
-                                <p className="text-[11px] font-bold text-black truncate">
-                                  {item.desc}
-                                </p>
-                              </Link>
-                            ))}
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-
-                    {/* Bottom Deep Link to Explorer */}
-                    <div className="mt-3 pt-2 border-t-2 border-black flex justify-between items-center bg-[#FFED66] p-2 border-2 border-black">
-                      <span className="text-xs font-black text-black">
-                        Custom Multi-Dimensional Stats
-                      </span>
-                      <Link
-                        href="/stat-explorer"
-                        onClick={() => setIsStatsDropdownOpen(false)}
-                        className="text-xs font-black bg-[#4ECDC4] text-black px-2.5 py-1 border-2 border-black hover:bg-black hover:text-white transition-colors shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
-                      >
-                        Stat Explorer →
-                      </Link>
-                    </div>
-                  </div>
-                )}
-              </div>
-
-              {/* 3. Players */}
-              <NavLink href="/players">Players</NavLink>
-
-              {/* 4. Play */}
-              <NavLink href="/play">Play</NavLink>
-
-              {/* 5. AI Chat */}
-              <NavLink href="/chat">Chat</NavLink>
+          {/* Desktop Nav Links & Controls */}
+          <div className="flex items-center gap-1.5 lg:gap-2">
+            <nav className="hidden lg:flex items-center gap-1 xl:gap-1.5 overflow-x-auto scrollbar-hide py-0.5">
+              {NAV_LINKS.map((link) => (
+                <NavLink key={link.href} href={link.href} exact={link.exact}>
+                  {link.label}
+                </NavLink>
+              ))}
             </nav>
 
-            {/* Quick Search (Cmd + K) Trigger */}
+            {/* Quick Search Button */}
             <button
               onClick={handleOpenSearch}
-              className="flex items-center gap-1.5 px-2.5 lg:px-3 py-1.5 bg-white border-2 border-black font-black text-xs sm:text-sm text-black hover:bg-[#FFED66] shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all cursor-pointer"
+              className="flex items-center gap-1.5 px-2 lg:px-2.5 py-1.5 bg-white border-2 border-black font-black text-xs sm:text-sm text-black hover:bg-[#FFED66] shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all cursor-pointer whitespace-nowrap"
               title="Quick Search (Cmd+K / Ctrl+K)"
             >
               <span>Search</span>
-              <span className="hidden lg:inline text-xs font-mono bg-black text-white px-1.5 py-0.5">
+              <span className="hidden xl:inline text-[10px] font-mono bg-black text-white px-1 py-0.5">
                 ⌘K
               </span>
             </button>
@@ -283,7 +99,7 @@ const Header = ({ onOpenSearch }: HeaderProps = {}) => {
             {/* Mobile Hamburger Toggle */}
             <button
               onClick={() => setIsMobileMenuOpen((prev) => !prev)}
-              className="md:hidden flex flex-col justify-center items-center w-9 h-9 bg-white border-2 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] active:translate-x-0.5 active:translate-y-0.5"
+              className="lg:hidden flex flex-col justify-center items-center w-9 h-9 bg-white border-2 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] active:translate-x-0.5 active:translate-y-0.5 cursor-pointer shrink-0"
               aria-label="Toggle mobile menu"
               aria-expanded={isMobileMenuOpen}
             >
@@ -306,20 +122,19 @@ const Header = ({ onOpenSearch }: HeaderProps = {}) => {
           </div>
         </div>
 
-        {/* Mobile Slide-Over Menu */}
+        {/* Mobile Slide-Over Drawer */}
         {isMobileMenuOpen && (
           <>
             <div
-              className="fixed inset-0 bg-black/60 z-40 md:hidden animate-in fade-in"
+              className="fixed inset-0 bg-black/60 z-40 lg:hidden animate-in fade-in"
               onClick={() => setIsMobileMenuOpen(false)}
             />
-            <nav className="fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-[#FFFEE0] border-l-4 border-black z-50 md:hidden flex flex-col p-4 shadow-[-6px_0px_0px_0px_rgba(0,0,0,1)] overflow-y-auto">
-              {/* Header */}
+            <nav className="fixed top-0 right-0 h-full w-72 max-w-[85vw] bg-[#FFFEE0] border-l-4 border-black z-50 lg:hidden flex flex-col p-4 shadow-[-6px_0px_0px_0px_rgba(0,0,0,1)] overflow-y-auto">
               <div className="flex justify-between items-center pb-3 mb-3 border-b-2 border-black">
                 <span className="text-lg font-black text-black">Menu</span>
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="w-8 h-8 bg-[#FF5E5B] text-black border-2 border-black flex items-center justify-center font-black text-base shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
+                  className="w-8 h-8 bg-[#FF5E5B] text-black border-2 border-black flex items-center justify-center font-black text-base shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] cursor-pointer"
                   aria-label="Close menu"
                 >
                   ✕
@@ -334,125 +149,23 @@ const Header = ({ onOpenSearch }: HeaderProps = {}) => {
                 }}
                 className="w-full flex items-center justify-between p-2.5 mb-3 bg-[#FFED66] border-2 border-black font-black text-xs uppercase shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] text-black cursor-pointer"
               >
-                <span>Quick Search Stats & Players</span>
+                <span>Quick Search (Cmd+K)</span>
                 <span className="bg-black text-white px-1.5 py-0.5 text-[10px]">Open</span>
               </button>
 
-              {/* Primary Links */}
-              <div className="flex flex-col gap-2">
-                <Link
-                  href="/"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className={`p-2.5 border-2 border-black font-black text-sm uppercase transition-colors ${
-                    pathname === '/' ? 'bg-black text-white' : 'bg-white text-black'
-                  }`}
-                >
-                  Matches & Scores
-                </Link>
-
-                <Link
-                  href="/stats"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className={`p-2.5 border-2 border-black font-black text-sm uppercase transition-colors ${
-                    isStatsActive ? 'bg-black text-white' : 'bg-white text-black'
-                  }`}
-                >
-                  Stats & Analytics Hub
-                </Link>
-
-                {/* Expandable / Nested Stats Shortcuts in Mobile Menu */}
-                <div className="bg-white border-2 border-black p-2.5 space-y-1.5">
-                  <p className="text-[10px] font-black text-black uppercase tracking-widest">
-                    Quick Stat Views
-                  </p>
-                  <div className="grid grid-cols-2 gap-1.5 text-xs font-bold text-black">
-                    <Link
-                      href="/stats?tab=Run+Scorers"
-                      onClick={() => setIsMobileMenuOpen(false)}
-                      className="p-1.5 bg-[#FFFEE0] border border-black hover:bg-[#FFED66] text-black font-black"
-                    >
-                      Run Scorers
-                    </Link>
-                    <Link
-                      href="/stats?tab=Wicket+Takers"
-                      onClick={() => setIsMobileMenuOpen(false)}
-                      className="p-1.5 bg-[#FFFEE0] border border-black hover:bg-[#FFED66] text-black font-black"
-                    >
-                      Wicket Takers
-                    </Link>
-                    <Link
-                      href="/stats/advanced"
-                      onClick={() => setIsMobileMenuOpen(false)}
-                      className="p-1.5 bg-[#FFFEE0] border border-black hover:bg-[#FFED66] text-black font-black"
-                    >
-                      Phase Stats
-                    </Link>
-                    <Link
-                      href="/stats/player-progression"
-                      onClick={() => setIsMobileMenuOpen(false)}
-                      className="p-1.5 bg-[#FFFEE0] border border-black hover:bg-[#FFED66] text-black font-black"
-                    >
-                      Progression
-                    </Link>
-                    <Link
-                      href="/stats/compare"
-                      onClick={() => setIsMobileMenuOpen(false)}
-                      className="p-1.5 bg-[#FFFEE0] border border-black hover:bg-[#FFED66] text-black font-black"
-                    >
-                      Compare
-                    </Link>
-                    <Link
-                      href="/stat-explorer"
-                      onClick={() => setIsMobileMenuOpen(false)}
-                      className="p-1.5 bg-[#4ECDC4] border border-black font-black text-black"
-                    >
-                      Explorer
-                    </Link>
-                  </div>
-                </div>
-
-                <Link
-                  href="/players"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className={`p-2.5 border-2 border-black font-black text-sm uppercase transition-colors ${
-                    pathname.startsWith('/players') ? 'bg-black text-white' : 'bg-white text-black'
-                  }`}
-                >
-                  Players Directory
-                </Link>
-
-                <Link
-                  href="/play"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className={`p-2.5 border-2 border-black font-black text-sm uppercase transition-colors ${
-                    pathname.startsWith('/play') ? 'bg-black text-white' : 'bg-white text-black'
-                  }`}
-                >
-                  Play Trivia & Games
-                </Link>
-
-                <Link
-                  href="/chat"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className={`p-2.5 border-2 border-black font-black text-sm uppercase transition-colors ${
-                    pathname === '/chat' ? 'bg-black text-white' : 'bg-white text-black'
-                  }`}
-                >
-                  AI Cricket Chat
-                </Link>
-
-                <Link
-                  href="/news"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className={`p-2.5 border-2 border-black font-black text-sm uppercase transition-colors ${
-                    pathname === '/news' ? 'bg-black text-white' : 'bg-white text-black'
-                  }`}
-                >
-                  Tournament News
-                </Link>
+              <div className="flex flex-col gap-1.5">
+                {NAV_LINKS.map((link) => (
+                  <NavLink
+                    key={link.href}
+                    href={link.href}
+                    exact={link.exact}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {link.label}
+                  </NavLink>
+                ))}
               </div>
 
-              {/* League info badge in mobile menu */}
               {selectedLeague && leagueConfig && (
                 <div className="mt-auto pt-4 border-t-2 border-black">
                   <div className="bg-[#FFED66] p-2 border-2 border-black text-center">
@@ -468,7 +181,7 @@ const Header = ({ onOpenSearch }: HeaderProps = {}) => {
         )}
       </header>
 
-      {/* Standalone Command Palette Modal if Header is rendered without parent wrapper */}
+      {/* Standalone Command Palette Modal */}
       {!onOpenSearch && (
         <CommandPalette
           isOpen={isCommandPaletteOpen}

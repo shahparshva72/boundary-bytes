@@ -21,14 +21,14 @@ export default function MobileBottomNav({ onOpenSearch }: MobileBottomNavProps) 
       className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#FFC700] border-t-2 border-black shadow-[0px_-2px_0px_0px_rgba(0,0,0,1)] pb-[env(safe-area-inset-bottom)]"
     >
       <div className="grid grid-cols-5 h-12 items-center">
-        {/* Matches */}
+        {/* Home */}
         <Link
           href="/"
           className={`flex items-center justify-center h-full border-r-2 border-black font-black text-xs uppercase tracking-tight transition-colors ${
             isMatches ? 'bg-black text-white' : 'text-black hover:bg-[#FFED66]'
           }`}
         >
-          Matches
+          Home
         </Link>
 
         {/* Stats Hub */}

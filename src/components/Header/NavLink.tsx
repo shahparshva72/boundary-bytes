@@ -21,7 +21,7 @@ const NavLink = ({ href, children, onClick, exact = false, className = '' }: Nav
     <Link
       href={href}
       onClick={onClick}
-      className={`text-sm sm:text-base font-black tracking-tight px-2.5 lg:px-3.5 py-1.5 border-2 border-black transition-all ${
+      className={`text-xs lg:text-sm font-black px-2 lg:px-2.5 xl:px-3 py-1.5 border-2 border-black transition-all whitespace-nowrap ${
         isActive
           ? 'bg-black text-white shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]'
           : 'bg-white text-black hover:bg-[#FFED66] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]'
