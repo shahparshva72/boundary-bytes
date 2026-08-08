@@ -16,7 +16,6 @@ import WicketTakers from '@/components/WicketTakers';
 interface CategoryConfig {
   id: string;
   name: string;
-  icon: string;
   description: string;
   tabs: string[];
 }
@@ -25,30 +24,24 @@ const CATEGORIES: CategoryConfig[] = [
   {
     id: 'leaderboards',
     name: 'Leaderboards & Records',
-    icon: '🏆',
-    description: 'Tournament top run getters, highest wicket takers, and modes of dismissal',
+    description: 'Top run getters, highest wicket takers, and modes of dismissal',
     tabs: ['Run Scorers', 'Wicket Takers', 'Bowling Wicket Types'],
   },
   {
     id: 'matchups',
     name: 'Matchups & Compare',
-    icon: '⚔️',
-    description:
-      '1-on-1 batter vs bowler rivalries, multi-player matrix, and side-by-side benchmarking',
+    description: '1-on-1 rivalries, multi-player matrix, and side-by-side benchmarking',
     tabs: ['Batter vs Bowler', 'Multi Matchup', 'Compare Players'],
   },
   {
     id: 'trends',
     name: 'Phase & Trends',
-    icon: '📈',
-    description:
-      'Over-by-over phase breakdowns, player innings acceleration curves, and team worms',
+    description: 'Over-by-over phase stats, player progression curves, and team worms',
     tabs: ['Team Run Rate', 'Phase Stats', 'Player Progression'],
   },
   {
     id: 'teams',
     name: 'Team Insights',
-    icon: '🛡️',
     description: 'Team match records, toss impact correlation, and overall scoring rates',
     tabs: ['Team Wins', 'Team Averages'],
   },
@@ -56,35 +49,35 @@ const CATEGORIES: CategoryConfig[] = [
 
 const PRESETS = [
   {
-    label: '🏏 Top Run Scorers',
+    label: 'Top Run Scorers',
     tab: 'Run Scorers',
     category: 'leaderboards',
     color: 'bg-[#FF5E5B]',
   },
   {
-    label: '🎯 Purple Cap Wickets',
+    label: 'Wicket Takers',
     tab: 'Wicket Takers',
     category: 'leaderboards',
     color: 'bg-[#4ECDC4]',
   },
   {
-    label: '🥊 Batter vs Bowler',
+    label: 'Batter vs Bowler',
     tab: 'Batter vs Bowler',
     category: 'matchups',
     color: 'bg-[#FFED66]',
   },
   {
-    label: '⚡ Phase Stats (1-6 & 16-20)',
+    label: 'Phase Stats (1-6 & 16-20)',
     href: '/stats/advanced',
     color: 'bg-[#FF9F1C]',
   },
   {
-    label: '📈 Innings Progression',
+    label: 'Innings Progression',
     href: '/stats/player-progression',
     color: 'bg-[#4ECDC4]',
   },
   {
-    label: '🛠️ Deep Query Builder',
+    label: 'Deep Query Builder',
     href: '/stat-explorer',
     color: 'bg-[#FFC700]',
   },
@@ -141,11 +134,10 @@ export default function StatsTabs() {
   };
 
   return (
-    <div className="w-full max-w-6xl mx-auto space-y-4">
+    <div className="w-full max-w-6xl mx-auto space-y-3 sm:space-y-4">
       {/* 1. Quick Preset Insight Chips */}
       <div className="bg-white border-2 border-black p-2.5 sm:p-3 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
         <div className="flex items-center gap-2 mb-2">
-          <span className="text-sm">⚡</span>
           <span className="text-xs font-black uppercase tracking-wider text-black">
             Quick Insights & Analytics Shortcuts
           </span>
@@ -174,7 +166,7 @@ export default function StatsTabs() {
                     handleTabChange(preset.tab);
                   }
                 }}
-                className={`px-2.5 sm:px-3 py-1 text-xs font-black border-2 border-black whitespace-nowrap transition-all shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] ${
+                className={`px-2.5 sm:px-3 py-1 text-xs font-black border-2 border-black whitespace-nowrap transition-all shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] cursor-pointer ${
                   isCurrent
                     ? 'bg-black text-white'
                     : `${preset.color} text-black hover:-translate-y-0.5`
@@ -196,19 +188,14 @@ export default function StatsTabs() {
               <button
                 key={cat.id}
                 onClick={() => handleCategoryChange(cat.id)}
-                className={`p-2.5 sm:p-3 text-left border-2 border-black transition-all ${
+                className={`p-2.5 sm:p-3 text-left border-2 border-black transition-all cursor-pointer ${
                   isSelected
-                    ? 'bg-[#FF5E5B] text-white shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] -translate-y-0.5'
+                    ? 'bg-[#FF5E5B] text-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] -translate-y-0.5'
                     : 'bg-white text-black hover:bg-[#FFED66] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]'
                 }`}
               >
-                <div className="flex items-center gap-1.5 font-black text-xs sm:text-sm">
-                  <span>{cat.icon}</span>
-                  <span className="truncate">{cat.name}</span>
-                </div>
-                <p
-                  className={`text-[10px] line-clamp-1 mt-1 font-medium ${isSelected ? 'text-white/90' : 'text-black/70'}`}
-                >
+                <h3 className="font-black text-xs sm:text-sm text-black truncate">{cat.name}</h3>
+                <p className="text-[10px] sm:text-xs font-bold text-black line-clamp-1 mt-1">
                   {cat.description}
                 </p>
               </button>
@@ -219,7 +206,7 @@ export default function StatsTabs() {
         {/* 3. Tier 2: Sub-Tab Pills within the active category */}
         <div className="mt-3 pt-3 border-t-2 border-black flex flex-wrap items-center justify-between gap-2">
           <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
-            <span className="text-xs font-black uppercase text-black/70 mr-1 hidden sm:inline">
+            <span className="text-xs font-black uppercase text-black mr-1 hidden sm:inline">
               Views:
             </span>
             {activeCategoryObj.tabs.map((tabLabel) => {
@@ -228,7 +215,7 @@ export default function StatsTabs() {
                 <button
                   key={tabLabel}
                   onClick={() => handleTabChange(tabLabel)}
-                  className={`px-3 sm:px-4 py-1.5 font-black text-xs sm:text-sm border-2 border-black transition-all ${
+                  className={`px-3 sm:px-4 py-1.5 font-black text-xs sm:text-sm border-2 border-black transition-all cursor-pointer ${
                     isActive
                       ? 'bg-black text-white shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]'
                       : 'bg-white text-black hover:bg-[#4ECDC4] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]'
@@ -245,13 +232,13 @@ export default function StatsTabs() {
             href="/stat-explorer"
             className="text-xs font-black bg-[#4ECDC4] text-black px-2.5 py-1.5 border-2 border-black hover:bg-black hover:text-white transition-colors shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
           >
-            🛠️ Custom Query Explorer →
+            Custom Query Explorer →
           </Link>
         </div>
       </div>
 
       {/* 4. Active Tool Content Area */}
-      <div className="p-2 sm:p-4 bg-white border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] min-h-[360px] overflow-hidden">
+      <div className="p-2 sm:p-4 bg-white border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] min-h-[360px] overflow-hidden text-black">
         {activeTab === 'Run Scorers' && <RunScorers />}
         {activeTab === 'Wicket Takers' && <WicketTakers />}
         {activeTab === 'Bowling Wicket Types' && <BowlingWicketTypes />}
@@ -265,7 +252,6 @@ export default function StatsTabs() {
         {/* Phase stats and player progression cross-links */}
         {activeTab === 'Phase Stats' && (
           <div className="p-6 text-center space-y-4">
-            <span className="text-4xl block">⚡</span>
             <h3 className="text-xl font-black text-black">Advanced Over-by-Over Phase Stats</h3>
             <p className="text-sm font-bold text-black max-w-md mx-auto">
               Analyze Powerplay (overs 1-6), Middle (overs 7-15), and Death (overs 16-20)
@@ -273,7 +259,7 @@ export default function StatsTabs() {
             </p>
             <Link
               href="/stats/advanced"
-              className="inline-block px-6 py-2.5 bg-[#FF5E5B] text-white font-black border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:bg-black transition-colors"
+              className="inline-block px-6 py-2.5 bg-[#FF5E5B] text-black font-black border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:bg-[#FFED66] transition-colors"
             >
               Open Phase Stats Suite →
             </Link>
@@ -282,7 +268,6 @@ export default function StatsTabs() {
 
         {activeTab === 'Player Progression' && (
           <div className="p-6 text-center space-y-4">
-            <span className="text-4xl block">📈</span>
             <h3 className="text-xl font-black text-black">Player Innings Progression Curve</h3>
             <p className="text-sm font-bold text-black max-w-md mx-auto">
               Track how individual batters accelerate their strike rates and pacing across the 20
@@ -290,7 +275,7 @@ export default function StatsTabs() {
             </p>
             <Link
               href="/stats/player-progression"
-              className="inline-block px-6 py-2.5 bg-[#4ECDC4] text-black font-black border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:bg-black hover:text-white transition-colors"
+              className="inline-block px-6 py-2.5 bg-[#4ECDC4] text-black font-black border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:bg-[#FFED66] transition-colors"
             >
               Open Innings Progression Curve →
             </Link>

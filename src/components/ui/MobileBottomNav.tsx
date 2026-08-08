@@ -20,59 +20,54 @@ export default function MobileBottomNav({ onOpenSearch }: MobileBottomNavProps) 
       aria-label="Mobile bottom navigation"
       className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#FFC700] border-t-2 border-black shadow-[0px_-2px_0px_0px_rgba(0,0,0,1)] pb-[env(safe-area-inset-bottom)]"
     >
-      <div className="grid grid-cols-5 h-14 items-center">
-        {/* Matches (Home) */}
+      <div className="grid grid-cols-5 h-12 items-center">
+        {/* Matches */}
         <Link
           href="/"
-          className={`flex flex-col items-center justify-center h-full gap-0.5 border-r border-black font-black text-[10px] transition-colors ${
+          className={`flex items-center justify-center h-full border-r-2 border-black font-black text-xs uppercase tracking-tight transition-colors ${
             isMatches ? 'bg-black text-white' : 'text-black hover:bg-[#FFED66]'
           }`}
         >
-          <span className="text-base">🏟️</span>
-          <span>Matches</span>
+          Matches
         </Link>
 
         {/* Stats Hub */}
         <Link
           href="/stats"
-          className={`flex flex-col items-center justify-center h-full gap-0.5 border-r border-black font-black text-[10px] transition-colors ${
+          className={`flex items-center justify-center h-full border-r-2 border-black font-black text-xs uppercase tracking-tight transition-colors ${
             isStats ? 'bg-black text-white' : 'text-black hover:bg-[#FFED66]'
           }`}
         >
-          <span className="text-base">📊</span>
-          <span>Stats</span>
+          Stats
         </Link>
 
         {/* Search Quick Trigger */}
         <button
           onClick={onOpenSearch}
-          className="flex flex-col items-center justify-center h-full gap-0.5 border-r border-black font-black text-[10px] bg-[#4ECDC4] text-black hover:bg-[#4ECDC4]/80 active:bg-black active:text-white transition-colors"
+          className="flex items-center justify-center h-full border-r-2 border-black font-black text-xs uppercase tracking-tight bg-[#4ECDC4] text-black hover:bg-[#FFED66] active:bg-black active:text-white transition-colors cursor-pointer"
           aria-label="Quick Search"
         >
-          <span className="text-base">🔍</span>
-          <span>Search</span>
+          Search
         </button>
 
         {/* Players */}
         <Link
           href="/players"
-          className={`flex flex-col items-center justify-center h-full gap-0.5 border-r border-black font-black text-[10px] transition-colors ${
+          className={`flex items-center justify-center h-full border-r-2 border-black font-black text-xs uppercase tracking-tight transition-colors ${
             isPlayers ? 'bg-black text-white' : 'text-black hover:bg-[#FFED66]'
           }`}
         >
-          <span className="text-base">👤</span>
-          <span>Players</span>
+          Players
         </Link>
 
         {/* Play Games */}
         <Link
           href="/play"
-          className={`flex flex-col items-center justify-center h-full gap-0.5 font-black text-[10px] transition-colors ${
+          className={`flex items-center justify-center h-full font-black text-xs uppercase tracking-tight transition-colors ${
             isPlay ? 'bg-black text-white' : 'text-black hover:bg-[#FFED66]'
           }`}
         >
-          <span className="text-base">🎮</span>
-          <span>Play</span>
+          Play
         </Link>
       </div>
     </nav>

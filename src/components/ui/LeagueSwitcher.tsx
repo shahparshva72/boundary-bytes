@@ -93,9 +93,9 @@ const LeagueSwitcher = () => {
                 resetLeagueSelection();
                 setIsOpen(false);
               }}
-              className="w-full p-2 sm:p-3 text-left hover:bg-[#FF5E5B] hover:text-white transition-colors font-bold text-black text-sm sm:text-base"
+              className="w-full p-2 sm:p-3 text-left hover:bg-[#FF5E5B] hover:text-black transition-colors font-black text-black text-sm sm:text-base cursor-pointer"
             >
-              🔄 Choose Again
+              Choose League
             </button>
           </div>
         )}

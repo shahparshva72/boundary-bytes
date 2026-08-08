@@ -4,8 +4,8 @@ const navLinks = [
   { href: '/', label: 'Matches' },
   { href: '/stats', label: 'Stats & Analytics' },
   { href: '/players', label: 'Players' },
-  { href: '/play', label: 'Play 🎮' },
-  { href: '/chat', label: 'Chat 🤖' },
+  { href: '/play', label: 'Play' },
+  { href: '/chat', label: 'Chat' },
   { href: '/news', label: 'News' },
 ];
 
