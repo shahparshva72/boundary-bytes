@@ -5,6 +5,7 @@ import PlayerProgressionChart from '@/components/PlayerProgressionChart';
 import { Spinner } from '@/components/ui';
 import type { SelectOption } from '@/components/ui/Select';
 import { Select } from '@/components/ui/Select';
+import StatsSubNav from '@/components/ui/StatsSubNav';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 import { useBatters } from '@/hooks/usePlayersAPI';
 import { usePlayerProgression } from '@/hooks/useStatsAPI';
@@ -60,6 +61,7 @@ export default function PlayerProgressionPage() {
 
   return (
     <Layout title="Player Innings Progression" description={description} error={isError}>
+      <StatsSubNav current="/stats/player-progression" />
       <div className="w-full max-w-6xl px-2 sm:px-4">
         <div className="w-full max-w-2xl mx-auto mb-4 sm:mb-6 space-y-4">
           {/* Player Selection */}

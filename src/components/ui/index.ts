@@ -48,6 +48,10 @@ export { neoBrutalistStyles } from './selectStyles';
 export { Spinner } from './Spinner';
 export type { SpinnerProps, SpinnerSize } from './Spinner';
 
+export { default as CommandPalette } from './CommandPalette';
+export { default as MobileBottomNav } from './MobileBottomNav';
+export { default as StatsSubNav } from './StatsSubNav';
+
 export { Tab, Tabs } from './Tabs';
 
 export { default as Tooltip } from './Tooltip';

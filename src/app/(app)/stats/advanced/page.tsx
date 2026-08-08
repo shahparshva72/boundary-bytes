@@ -12,6 +12,7 @@ import { useLeagueContext } from '@/contexts/LeagueContext';
 import { useLeagueAPI } from '@/hooks/useLeagueAPI';
 import { useBatters, useBowlers } from '@/hooks/usePlayersAPI';
 
+import StatsSubNav from '@/components/ui/StatsSubNav';
 import Layout from '../components/Layout';
 import StatsControls from '../components/StatsControls';
 import StatsDisplay from '../components/StatsDisplay';
@@ -142,6 +143,7 @@ const AdvancedStatsPage = () => {
 
   return (
     <Layout title="Advanced Stats" description={description} error={isError || statsError}>
+      <StatsSubNav current="/stats/advanced" />
       <StatsControls
         playerType={playerType}
         setPlayerType={handleSetPlayerType}
