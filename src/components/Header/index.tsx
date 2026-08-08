@@ -70,12 +70,12 @@ const STATS_CATEGORIES = [
     ],
   },
   {
-    title: 'Deep Queries & Teams',
+    title: 'Stat Explorer & Teams',
     items: [
       {
         href: '/stat-explorer',
         label: 'Stat Explorer',
-        desc: 'Custom multi-dimensional query engine',
+        desc: 'Custom multi-dimensional statistical query engine',
       },
       {
         href: '/stats?tab=Team+Wins',
@@ -226,14 +226,14 @@ const Header = () => {
                     {/* Bottom Deep Link to Explorer */}
                     <div className="mt-3 pt-2 border-t-2 border-black flex justify-between items-center bg-[#FFED66] p-2 border-2 border-black">
                       <span className="text-xs font-black text-black">
-                        Custom Multi-Dimensional Queries
+                        Custom Multi-Dimensional Stats
                       </span>
                       <Link
                         href="/stat-explorer"
                         onClick={() => setIsStatsDropdownOpen(false)}
                         className="text-xs font-black bg-[#4ECDC4] text-black px-2.5 py-1 border-2 border-black hover:bg-black hover:text-white transition-colors shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
                       >
-                        Launch Stat Explorer
+                        Stat Explorer →
                       </Link>
                     </div>
                   </div>

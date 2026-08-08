@@ -18,7 +18,7 @@ export default function StatExplorerPage() {
   return (
     <Layout
       title="Stat Explorer"
-      description="Build granular multi-dimensional queries across overs, batting positions, toss results, match outcomes, and venues."
+      description="Explore granular multi-dimensional statistics across overs, batting positions, toss results, match outcomes, and venues."
     >
       <StatsSubNav current="/stat-explorer" />
       <Suspense fallback={explorerFallback}>

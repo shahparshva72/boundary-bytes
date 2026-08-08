@@ -41,7 +41,7 @@ const CATEGORIES: CategoryConfig[] = [
   },
   {
     id: 'teams',
-    name: 'Team Insights',
+    name: 'Stat Explorer & Teams',
     description: 'Team match records, toss impact correlation, and overall scoring rates',
     tabs: ['Team Wins', 'Team Averages'],
   },
@@ -77,7 +77,7 @@ const PRESETS = [
     color: 'bg-[#4ECDC4]',
   },
   {
-    label: 'Deep Query Builder',
+    label: 'Stat Explorer',
     href: '/stat-explorer',
     color: 'bg-[#FFC700]',
   },
@@ -232,7 +232,7 @@ export default function StatsTabs() {
             href="/stat-explorer"
             className="text-xs font-black bg-[#4ECDC4] text-black px-2.5 py-1.5 border-2 border-black hover:bg-black hover:text-white transition-colors shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
           >
-            Custom Query Explorer →
+            Stat Explorer →
           </Link>
         </div>
       </div>

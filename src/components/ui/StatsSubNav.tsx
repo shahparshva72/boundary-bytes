@@ -33,7 +33,7 @@ const STAT_LINKS: StatLink[] = [
   {
     href: '/stat-explorer',
     label: 'Stat Explorer',
-    description: 'Multi-filter deep statistical query builder',
+    description: 'Multi-filter custom statistical explorer',
   },
 ];
 
