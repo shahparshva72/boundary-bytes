@@ -1,9 +1,9 @@
-import PublicHeader from '@/components/PublicHeader';
+import Header from '@/components/Header';
 
 export default function MarketingLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <PublicHeader />
+      <Header />
       <main className="min-h-screen bg-[#FFFEE0]">{children}</main>
     </>
   );

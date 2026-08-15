@@ -87,7 +87,7 @@ export default function MultiMatchup() {
 
   return (
     <div className="flex flex-col gap-2 sm:gap-5 items-center w-full mx-auto my-1 sm:my-4">
-      <div className="w-full max-w-6xl flex flex-col gap-2 sm:gap-3">
+      <div className="w-full max-w-7xl flex flex-col gap-2 sm:gap-3">
         <div className="w-full">
           <label
             htmlFor="mode-select"
@@ -175,7 +175,7 @@ export default function MultiMatchup() {
       )}
 
       {hasResults && (
-        <div className="w-full max-w-6xl mt-2 sm:mt-8">
+        <div className="w-full max-w-7xl mt-2 sm:mt-8">
           <Card variant="elevated">
             <CardHeader color="teal">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">

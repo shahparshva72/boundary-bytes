@@ -88,7 +88,7 @@ export default function NewsPage() {
 
       {isError && (
         <div
-          className="p-3 md:p-4 bg-[#FF5E5B] border-2 border-black shadow-[2px_2px_0_#000] flex flex-col gap-2 max-w-6xl mx-auto"
+          className="p-3 md:p-4 bg-[#FF5E5B] border-2 border-black shadow-[2px_2px_0_#000] flex flex-col gap-2 max-w-7xl mx-auto w-full"
           role="alert"
         >
           <h3 className="text-2xl font-black text-black">Unable to fetch news</h3>
@@ -148,7 +148,7 @@ export default function NewsPage() {
       )}
 
       {newsData && newsData.items.length === 0 && (
-        <div className="p-3 md:p-4 bg-white border-2 border-black shadow-[2px_2px_0_#000] max-w-6xl mx-auto">
+        <div className="p-3 md:p-4 bg-white border-2 border-black shadow-[2px_2px_0_#000] max-w-7xl mx-auto w-full">
           <p className="font-mono text-black text-center">
             No cricket news available at the moment.
           </p>

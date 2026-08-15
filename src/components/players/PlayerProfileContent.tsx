@@ -167,7 +167,7 @@ export default function PlayerProfileContent({ profile }: PlayerProfileContentPr
 
   return (
     <div className="p-2 sm:p-3 md:p-4 pb-16 sm:pb-20">
-      <div className="max-w-4xl mx-auto flex flex-col gap-3 sm:gap-4 md:gap-6">
+      <div className="max-w-7xl mx-auto flex flex-col gap-3 sm:gap-4 md:gap-6 px-2 sm:px-4">
         <nav className="text-xs sm:text-sm font-bold text-black">
           <Link href="/" className="hover:underline">
             Home

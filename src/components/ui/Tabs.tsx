@@ -47,7 +47,7 @@ const Tabs = ({ children, defaultTab = 'Batter vs Bowler' }: TabsProps) => {
   };
 
   return (
-    <div className="w-full max-w-fit overflow-hidden">
+    <div className="w-full overflow-hidden">
       <div className="overflow-x-auto scrollbar-hide -mx-2 px-2 sm:mx-0 sm:px-0 md:flex md:justify-center">
         <div className="inline-flex border-2 border-black bg-white rounded-none ">
           {children.map((child) => (

@@ -28,7 +28,7 @@ const PlayTabs = ({ children, defaultTab = 'stat-guesser' }: PlayTabsProps) => {
   const [activeGame, setActiveGame] = useQueryState('game', gameParser.withDefault(defaultTab));
 
   return (
-    <div className="w-full max-w-4xl mx-auto">
+    <div className="w-full max-w-7xl mx-auto">
       <div className="overflow-x-auto scrollbar-hide -mx-2 px-2 sm:mx-0 sm:px-0 md:flex md:justify-center">
         <div className="inline-flex border-2 border-black bg-white rounded-none">
           {children.map((child) => (

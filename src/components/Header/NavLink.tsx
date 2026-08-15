@@ -11,7 +11,8 @@ interface NavLinkProps {
 
 const NavLink = ({ href, children, onClick }: NavLinkProps) => {
   const pathname = usePathname();
-  const isActive = pathname === href || (href !== '/' && pathname.startsWith(href));
+  const isActive =
+    pathname === href || (href !== '/' && href !== '/stats' && pathname.startsWith(`${href}/`));
 
   return (
     <Link

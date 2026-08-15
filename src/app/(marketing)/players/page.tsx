@@ -60,7 +60,7 @@ export default async function PlayersDirectoryPage({
 
   return (
     <div className="p-2 sm:p-3 md:p-4 pb-16 sm:pb-20">
-      <div className="max-w-4xl mx-auto flex flex-col gap-3 sm:gap-4 md:gap-6">
+      <div className="max-w-7xl mx-auto flex flex-col gap-3 sm:gap-4 md:gap-6 px-2 sm:px-4">
         <div className="bg-[#FF5E5B] border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] p-3 sm:p-4 md:p-6">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-black text-black tracking-tight text-center">
             Players Directory
