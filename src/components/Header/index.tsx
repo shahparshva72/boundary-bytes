@@ -72,7 +72,10 @@ const Header = () => {
     };
   }, [isMobileMenuOpen]);
 
-  const closeMobileMenu = () => setIsMobileMenuOpen(false);
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+    mobileTriggerRef.current?.focus();
+  };
 
   return (
     <header className="sticky top-0 z-50 border-b-2 border-black bg-[#FFC700] shadow-[0_3px_0_0_#000]">
