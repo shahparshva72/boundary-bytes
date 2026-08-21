@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import { useLeagueContext } from '@/contexts/LeagueContext';
-import { featureGroups, isExplorePath, primaryNavigation } from '@/lib/navigation';
+import { featureGroups, isExplorePath, isPathActive, primaryNavigation } from '@/lib/navigation';
 import LeagueSwitcher from '../ui/LeagueSwitcher';
 import NavLink from './NavLink';
 
@@ -266,7 +266,9 @@ const Header = () => {
                       key={item.href}
                       href={item.href}
                       onClick={closeMobileMenu}
-                      className="border-black bg-white shadow-[2px_2px_0_#000]"
+                      className={`border-black shadow-[2px_2px_0_#000] ${
+                        isPathActive(pathname, item.href) ? '' : 'bg-white'
+                      }`}
                     >
                       <Icon aria-hidden="true" className="size-4" strokeWidth={3} />
                       {item.label}
