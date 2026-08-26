@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={jetBrainsMono.variable}>
-      <body>
+      <body className={jetBrainsMono.className}>
         <Providers>{children}</Providers>
         <Footer />
         <Analytics />
