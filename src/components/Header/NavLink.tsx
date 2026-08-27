@@ -18,7 +18,7 @@ const NavLink = ({ href, children, onClick }: NavLinkProps) => {
     <Link
       href={href}
       onClick={onClick}
-      className={`text-base lg:text-lg font-bold text-black hover:text-gray-700 px-2 lg:px-3 py-2 rounded-md ${isActive ? 'bg-black text-white' : ''}`}
+      className={`text-base lg:text-lg font-bold text-black hover:bg-white hover:text-black px-2 lg:px-3 py-2 rounded-md ${isActive ? 'bg-black text-white' : ''}`}
     >
       {children}
     </Link>
