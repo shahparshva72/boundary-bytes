@@ -2,13 +2,13 @@
   "name": "boundary-bytes",
   "version": "0.1.0",
   "scripts": {
-    "dev": "bun --bun next dev",
-    "build": "bun --bun next build",
-    "start": "bun --bun next start",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "oxlint",
     "typecheck": "tsc --noEmit",
     "format": "oxfmt",
-    "vercel-build": "bun --bun tsc --noEmit && bun --bun next build",
+    "vercel-build": "tsc --noEmit && next build",
     "prepare": "husky"
   },
   "lint-staged": {
