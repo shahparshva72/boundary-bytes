@@ -1,4 +1,8 @@
-import Select from 'react-select';
+'use client';
+
+import dynamic from 'next/dynamic';
+
+const Select = dynamic(() => import('react-select'), { ssr: false });
 
 interface StatsControlsProps {
   playerType: 'batter' | 'bowler';

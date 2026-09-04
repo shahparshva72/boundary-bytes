@@ -1,10 +1,9 @@
 'use client';
 
-import { AnimatePresence } from 'framer-motion';
+import dynamic from 'next/dynamic';
 import { Suspense, type ReactNode } from 'react';
 import { MoonLoader } from 'react-spinners';
 import { useLeagueContext } from '@/contexts/LeagueContext';
-import LeagueSelectionScreen from './LeagueSelection/LeagueSelectionScreen';
 
 interface AppWithLeagueSelectionProps {
   children: ReactNode;
@@ -16,6 +15,11 @@ const LoadingScreen = () => (
   </div>
 );
 
+const LeagueSelectionScreen = dynamic(() => import('./LeagueSelection/LeagueSelectionScreen'), {
+  ssr: false,
+  loading: LoadingScreen,
+});
+
 const AppWithLeagueSelection = ({ children }: AppWithLeagueSelectionProps) => {
   const { isFirstVisit, selectLeague, isTransitioning, selectedLeague } = useLeagueContext();
 
@@ -26,15 +30,7 @@ const AppWithLeagueSelection = ({ children }: AppWithLeagueSelectionProps) => {
 
   // Show league selection for first-time visitors
   if (isFirstVisit && !isTransitioning) {
-    return (
-      <AnimatePresence mode="wait">
-        <LeagueSelectionScreen
-          key="league-selection"
-          onLeagueSelect={selectLeague}
-          isVisible={true}
-        />
-      </AnimatePresence>
-    );
+    return <LeagueSelectionScreen onLeagueSelect={selectLeague} isVisible={true} />;
   }
 
   // Show loading during transition
@@ -43,11 +39,7 @@ const AppWithLeagueSelection = ({ children }: AppWithLeagueSelectionProps) => {
   }
 
   // Show main app once league is selected
-  return (
-    <AnimatePresence mode="wait">
-      <Suspense fallback={<LoadingScreen />}>{children}</Suspense>
-    </AnimatePresence>
-  );
+  return <Suspense fallback={<LoadingScreen />}>{children}</Suspense>;
 };
 
 export default AppWithLeagueSelection;

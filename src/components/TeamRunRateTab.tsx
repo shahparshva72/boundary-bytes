@@ -1,9 +1,8 @@
 'use client';
 
+import dynamic from 'next/dynamic';
 import { parseAsString, useQueryState } from 'nuqs';
 import { useMemo } from 'react';
-import RunRateTrendChart from '@/components/RunRateTrendChart';
-import TeamRunRateProgressionChart from '@/components/TeamRunRateProgressionChart';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 import {
   useRunRateTrend,
@@ -13,6 +12,21 @@ import {
 } from '@/hooks/useStatsAPI';
 import { Card, Select, Spinner } from './ui';
 import type { SelectOption } from './ui/Select';
+
+const ChartLoading = () => (
+  <div className="flex min-h-96 items-center justify-center p-6 text-sm font-bold text-black">
+    Loading chart...
+  </div>
+);
+
+const RunRateTrendChart = dynamic(() => import('@/components/RunRateTrendChart'), {
+  ssr: false,
+  loading: ChartLoading,
+});
+const TeamRunRateProgressionChart = dynamic(
+  () => import('@/components/TeamRunRateProgressionChart'),
+  { ssr: false, loading: ChartLoading },
+);
 
 export default function TeamRunRateTab() {
   const { leagueConfig } = useLeagueContext();

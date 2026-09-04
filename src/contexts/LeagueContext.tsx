@@ -1,7 +1,7 @@
 'use client';
 
 import { useQuery } from '@tanstack/react-query';
-import { createContext, type ReactNode, useContext, useState } from 'react';
+import { createContext, type ReactNode, useCallback, useContext, useMemo, useState } from 'react';
 import { useLeagueURL } from '@/hooks/useLeagueURL';
 import { fetchLeagueConfigs, LEAGUE_CONFIGS } from '@/lib/league-config';
 import { League, LeagueContextType } from '@/types/league';
@@ -28,32 +28,47 @@ export const LeagueProvider = ({ children }: LeagueProviderProps) => {
     isHydrated,
   } = useLeagueURL();
 
-  const selectLeague = async (league: League): Promise<void> => {
-    setIsTransitioning(true);
+  const selectLeague = useCallback(
+    async (league: League): Promise<void> => {
+      setIsTransitioning(true);
 
-    // Small delay for animation
-    await new Promise((resolve) => setTimeout(resolve, 300));
+      // Small delay for animation
+      await new Promise((resolve) => setTimeout(resolve, 300));
 
-    await urlSelectLeague(league);
-    setIsTransitioning(false);
-  };
+      await urlSelectLeague(league);
+      setIsTransitioning(false);
+    },
+    [urlSelectLeague],
+  );
 
-  const resetLeagueSelection = (): void => {
+  const resetLeagueSelection = useCallback((): void => {
     urlReset();
     setIsTransitioning(false);
-  };
+  }, [urlReset]);
 
   const leagueConfig = selectedLeague ? leagueConfigs[selectedLeague] : null;
 
-  const contextValue: LeagueContextType = {
-    selectedLeague,
-    isFirstVisit: isFirstVisit && isHydrated,
-    selectLeague,
-    resetLeagueSelection,
-    isTransitioning,
-    leagueConfig,
-    leagueConfigs,
-  };
+  const contextValue = useMemo<LeagueContextType>(
+    () => ({
+      selectedLeague,
+      isFirstVisit: isFirstVisit && isHydrated,
+      selectLeague,
+      resetLeagueSelection,
+      isTransitioning,
+      leagueConfig,
+      leagueConfigs,
+    }),
+    [
+      selectedLeague,
+      isFirstVisit,
+      isHydrated,
+      selectLeague,
+      resetLeagueSelection,
+      isTransitioning,
+      leagueConfig,
+      leagueConfigs,
+    ],
+  );
 
   return <LeagueContext.Provider value={contextValue}>{children}</LeagueContext.Provider>;
 };

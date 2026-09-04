@@ -1,13 +1,30 @@
 'use client';
 
+import nextDynamic from 'next/dynamic';
 import Layout from '@/app/(app)/stats/components/Layout';
-import DailyChallengeGame from '@/components/games/daily-challenge/DailyChallengeGame';
-import MatchupShowdownGame from '@/components/games/matchup-showdown/MatchupShowdownGame';
 import { PlayTab, PlayTabs } from '@/components/games/PlayTabs';
-import StatGuesserGame from '@/components/games/stat-guesser/StatGuesserGame';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 
 export const dynamic = 'force-dynamic';
+
+const GameLoading = () => (
+  <div className="flex min-h-48 items-center justify-center p-6 text-sm font-bold text-black">
+    Loading game...
+  </div>
+);
+
+const DailyChallengeGame = nextDynamic(
+  () => import('@/components/games/daily-challenge/DailyChallengeGame'),
+  { loading: GameLoading },
+);
+const MatchupShowdownGame = nextDynamic(
+  () => import('@/components/games/matchup-showdown/MatchupShowdownGame'),
+  { loading: GameLoading },
+);
+const StatGuesserGame = nextDynamic(
+  () => import('@/components/games/stat-guesser/StatGuesserGame'),
+  { loading: GameLoading },
+);
 
 export default function PlayPage() {
   const { selectedLeague } = useLeagueContext();
