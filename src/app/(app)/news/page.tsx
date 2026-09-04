@@ -30,7 +30,8 @@ const newsDateFormatter = new Intl.DateTimeFormat('en-US', {
 });
 
 function formatNewsDate(dateString: string): string {
-  return newsDateFormatter.format(new Date(dateString));
+  const date = new Date(dateString);
+  return Number.isNaN(date.getTime()) ? 'Date unavailable' : newsDateFormatter.format(date);
 }
 
 function getNewsImage(item: NewsItem): string | undefined {
