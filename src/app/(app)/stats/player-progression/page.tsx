@@ -1,7 +1,7 @@
 'use client';
 
+import nextDynamic from 'next/dynamic';
 import { parseAsString, parseAsStringLiteral, useQueryState } from 'nuqs';
-import PlayerProgressionChart from '@/components/PlayerProgressionChart';
 import { Spinner } from '@/components/ui';
 import type { SelectOption } from '@/components/ui/Select';
 import { Select } from '@/components/ui/Select';
@@ -11,6 +11,17 @@ import { usePlayerProgression } from '@/hooks/useStatsAPI';
 import Layout from '../components/Layout';
 
 export const dynamic = 'force-dynamic';
+
+const ChartLoading = () => (
+  <div className="flex min-h-96 items-center justify-center p-6 text-sm font-bold text-black">
+    Loading chart...
+  </div>
+);
+
+const PlayerProgressionChart = nextDynamic(() => import('@/components/PlayerProgressionChart'), {
+  ssr: false,
+  loading: ChartLoading,
+});
 
 export default function PlayerProgressionPage() {
   const { leagueConfig } = useLeagueContext();

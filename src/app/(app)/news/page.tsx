@@ -23,6 +23,21 @@ interface NewsData {
   items: NewsItem[];
 }
 
+const newsDateFormatter = new Intl.DateTimeFormat('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+function formatNewsDate(dateString: string): string {
+  const date = new Date(dateString);
+  return Number.isNaN(date.getTime()) ? 'Date unavailable' : newsDateFormatter.format(date);
+}
+
+function getNewsImage(item: NewsItem): string | undefined {
+  return item.images?.[0] || item.image || undefined;
+}
+
 const fetchNews = async (
   fetchWithLeague: (url: string, options?: RequestInit) => Promise<Response>,
 ) => {
@@ -34,29 +49,20 @@ const fetchNews = async (
 };
 
 export default function NewsPage() {
-  const { fetchWithLeague } = useLeagueAPI();
+  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
   const {
     data: newsResponse,
     isLoading,
     isError,
   } = useQuery({
-    queryKey: ['cricketNews'],
+    queryKey: ['cricketNews', selectedLeague],
     queryFn: () => fetchNews(fetchWithLeague),
+    enabled: !!selectedLeague,
     refetchInterval: 5 * 60 * 1000,
+    staleTime: 5 * 60 * 1000,
   });
 
   const newsData: NewsData | null = newsResponse?.data || null;
-
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-    });
-  };
-
-  const getNewsImage = (item: NewsItem) => item.images?.[0] || item.image;
 
   return (
     <Layout
@@ -130,7 +136,7 @@ export default function NewsPage() {
                       {item.title}
                     </h2>
                     <time className="text-xs font-mono text-gray-600 mb-2 block">
-                      {formatDate(item.pubDate)}
+                      {formatNewsDate(item.pubDate)}
                     </time>
                     <p className="font-mono text-black text-sm leading-relaxed line-clamp-3 flex-grow">
                       {item.contentSnippet}

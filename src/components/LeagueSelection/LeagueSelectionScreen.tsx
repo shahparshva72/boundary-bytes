@@ -16,9 +16,6 @@ const containerVariants = {
   visible: {
     opacity: 1,
   },
-  exit: {
-    opacity: 0,
-  },
 };
 
 const headerVariants = {
@@ -48,7 +45,6 @@ const LeagueSelectionScreen = ({ onLeagueSelect, isVisible }: LeagueSelectionScr
       variants={containerVariants}
       initial="hidden"
       animate="visible"
-      exit="exit"
     >
       <div className="min-h-screen flex flex-col items-center justify-center p-2 sm:p-4">
         {/* Header */}

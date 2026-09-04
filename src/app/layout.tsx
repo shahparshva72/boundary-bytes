@@ -1,6 +1,6 @@
-import { Analytics } from '@vercel/analytics/next';
 import type { Metadata } from 'next';
 import { JetBrains_Mono } from 'next/font/google';
+import DeferredAnalytics from '../components/DeferredAnalytics';
 import Footer from '../components/Footer';
 import './globals.css';
 import { Providers } from './providers';
@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={jetBrainsMono.className}>
         <Providers>{children}</Providers>
         <Footer />
-        <Analytics />
+        <DeferredAnalytics />
       </body>
     </html>
   );

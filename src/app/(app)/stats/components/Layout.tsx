@@ -19,6 +19,12 @@ interface LatestMatchDateResponse {
   latestDate: string | null;
 }
 
+const latestMatchDateFormatter = new Intl.DateTimeFormat('en-US', {
+  day: 'numeric',
+  month: 'short',
+  year: 'numeric',
+});
+
 async function fetchLatestMatchDate(
   fetchWithLeague: (endpoint: string, options?: RequestInit) => Promise<Response>,
 ): Promise<LatestMatchDateResponse> {
@@ -42,16 +48,12 @@ const Layout = ({
   const { data: latestMatchDateData } = useQuery({
     queryKey: ['latestMatchDate', selectedLeague],
     queryFn: () => fetchLatestMatchDate(fetchWithLeague),
-    enabled: !!selectedLeague,
+    enabled: showLatestMatchDate && !!selectedLeague,
     staleTime: 5 * 60 * 1000,
   });
 
   const latestMatchDateLabel = latestMatchDateData?.latestDate
-    ? new Intl.DateTimeFormat('en-US', {
-        day: 'numeric',
-        month: 'short',
-        year: 'numeric',
-      }).format(new Date(latestMatchDateData.latestDate))
+    ? latestMatchDateFormatter.format(new Date(latestMatchDateData.latestDate))
     : null;
 
   return (
