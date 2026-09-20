@@ -17,6 +17,7 @@ export interface TextToSqlSuccess {
     rowCount: number;
     executionTime: number;
     generatedSql: string;
+    routedBy?: 'jev' | 'gemini' | string;
   };
   requestId?: string;
   rateLimit?: RateLimitInfo;
