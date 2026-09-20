@@ -427,15 +427,6 @@ function QueryResult({
           <span className="bg-[#4ECDC4] px-2 sm:px-3 py-0.5 sm:py-1 border-2 border-black font-black text-black text-xs sm:text-sm">
             Rows: {data.metadata.rowCount}
           </span>
-          {data.metadata.routedBy === 'jev' ? (
-            <span className="bg-[#A7F3D0] px-2 sm:px-3 py-0.5 sm:py-1 border-2 border-black font-black text-black text-xs sm:text-sm flex items-center gap-1">
-              ⚡ Fast-routed via Jev ({data.metadata.executionTime}ms)
-            </span>
-          ) : (
-            <span className="bg-[#FEF9C3] px-2 sm:px-3 py-0.5 sm:py-1 border-2 border-black font-black text-black text-xs sm:text-sm flex items-center gap-1">
-              🧠 Gemini Flash ({data.metadata.executionTime}ms)
-            </span>
-          )}
         </div>
         {data.metadata.rowCount === 0 ? (
           <p className="font-mono text-black text-sm sm:text-base">
