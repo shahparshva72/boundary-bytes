@@ -2,7 +2,15 @@
 
 import { useQuery } from '@tanstack/react-query';
 import { parseAsArrayOf, parseAsString, parseAsStringLiteral, useQueryStates } from 'nuqs';
-import { createContext, type ReactNode, useCallback, useContext, useEffect, useMemo } from 'react';
+import {
+  createContext,
+  type ReactNode,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useRef,
+} from 'react';
 import { FALLBACK_LEAGUE_CONFIGS, fetchLeagueConfigs } from '@/lib/league-config';
 import {
   DEFAULT_SCOPE,
@@ -94,11 +102,19 @@ export const LeagueProvider = ({ children }: LeagueProviderProps) => {
     [setQuery, setStoredScope],
   );
 
-  // Load the visit's scope from sessionStorage. This must run before the
-  // effects below read or write the store; sessionStorage is synchronous.
+  // Load the visit's scope from sessionStorage. Rehydration finishes after
+  // the effects below have run, and would overwrite a scope they just saved
+  // from the URL (a link opened in a tab with an older session), so the URL's
+  // scope is applied again once it completes.
+  const urlScopeRef = useRef(urlScope);
+  urlScopeRef.current = urlScope;
   useEffect(() => {
-    void useScopeStore.persist.rehydrate();
-  }, []);
+    void Promise.resolve(useScopeStore.persist.rehydrate()).then(() => {
+      if (urlScopeRef.current) {
+        setStoredScope(urlScopeRef.current);
+      }
+    });
+  }, [setStoredScope]);
 
   // Rewrite legacy ?league=X links to the new parameters.
   useEffect(() => {
