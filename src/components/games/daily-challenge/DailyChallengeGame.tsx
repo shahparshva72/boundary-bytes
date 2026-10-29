@@ -107,7 +107,7 @@ function StatQuestionView({
 }
 
 export default function DailyChallengeGame() {
-  const { selectedLeague } = useLeagueContext();
+  const { scope, scopeKey, scopeLabel, scopeDescription } = useLeagueContext();
   const { fetchWithLeague } = useLeagueAPI();
   const { pool, isLoading: poolLoading, isError: poolError } = useGamePool();
 
@@ -128,10 +128,10 @@ export default function DailyChallengeGame() {
   const [shareStatus, setShareStatus] = useState<string | null>(null);
   const [countdownLabel, setCountdownLabel] = useState(formatCountdownLabel);
   const buildRequestIdRef = useRef(0);
-  const challengeKeyRef = useRef(`${selectedLeague ?? ''}-${today}`);
+  const challengeKeyRef = useRef(`${scopeKey}-${today}`);
 
   useEffect(() => {
-    const challengeKey = `${selectedLeague ?? ''}-${today}`;
+    const challengeKey = `${scopeKey}-${today}`;
     if (challengeKeyRef.current === challengeKey) {
       return;
     }
@@ -144,7 +144,7 @@ export default function DailyChallengeGame() {
     setPickedSide(null);
     setPickedOpponent(null);
     setLoadingQuestions(true);
-  }, [selectedLeague, today]);
+  }, [scopeKey, today]);
 
   useEffect(() => {
     const intervalId = setInterval(() => setCountdownLabel(formatCountdownLabel()), 60000);
@@ -152,31 +152,23 @@ export default function DailyChallengeGame() {
   }, []);
 
   useEffect(() => {
-    if (selectedLeague) {
-      clearDailyProgressIfNewDay(today, selectedLeague);
-    }
-  }, [today, selectedLeague, clearDailyProgressIfNewDay]);
+    clearDailyProgressIfNewDay(today, scopeKey);
+  }, [today, scopeKey, clearDailyProgressIfNewDay]);
 
   const isCompletedToday =
-    dailyProgress?.completed &&
-    dailyProgress.date === today &&
-    dailyProgress.league === selectedLeague;
+    dailyProgress?.completed && dailyProgress.date === today && dailyProgress.league === scopeKey;
 
   const buildQuestions = useCallback(async () => {
-    if (!pool || !selectedLeague) {
+    if (!pool) {
       return;
     }
 
     const requestId = ++buildRequestIdRef.current;
     setLoadingQuestions(true);
 
-    const rng = createSeededRandom(`${selectedLeague}-${today}`);
-    const statQuestions = generateDailyQuestions(pool, selectedLeague, rng);
-    const matchupQuestion = await buildSeededMatchupQuestion(
-      fetchWithLeague,
-      selectedLeague,
-      today,
-    );
+    const rng = createSeededRandom(`${scopeKey}-${today}`);
+    const statQuestions = generateDailyQuestions(pool, scopeDescription, rng);
+    const matchupQuestion = await buildSeededMatchupQuestion(fetchWithLeague, scopeKey, today);
 
     if (requestId !== buildRequestIdRef.current) {
       return;
@@ -187,11 +179,11 @@ export default function DailyChallengeGame() {
       matchupQuestion,
       rng,
       pool,
-      selectedLeague,
+      scopeDescription,
     );
     setQuestions(slots.slice(0, TOTAL_QUESTIONS));
     setLoadingQuestions(false);
-  }, [pool, selectedLeague, today, fetchWithLeague]);
+  }, [pool, scopeKey, scopeDescription, today, fetchWithLeague]);
 
   useEffect(() => {
     if (!poolLoading && !pool) {
@@ -245,13 +237,10 @@ export default function DailyChallengeGame() {
   };
 
   const finishChallenge = (finalAnswers: boolean[]) => {
-    if (!selectedLeague) {
-      return;
-    }
     const score = finalAnswers.filter(Boolean).length;
     setDailyProgress({
       date: today,
-      league: selectedLeague,
+      league: scopeKey,
       score,
       answers: finalAnswers,
       completed: true,
@@ -260,11 +249,12 @@ export default function DailyChallengeGame() {
   };
 
   const handleShare = async () => {
-    if (!selectedLeague || !dailyProgress) {
+    if (!dailyProgress) {
       return;
     }
     const text = formatDailyShareText(
-      selectedLeague,
+      scope,
+      scopeLabel,
       dailyProgress.score,
       TOTAL_QUESTIONS,
       dailyStreak,
@@ -285,7 +275,7 @@ export default function DailyChallengeGame() {
 
   if (poolError || !pool) {
     return (
-      <p className="text-center font-bold text-[#FF5E5B] py-4">
+      <p className="text-center font-bold text-black py-4">
         Could not load data for the daily challenge.
       </p>
     );
@@ -336,7 +326,7 @@ export default function DailyChallengeGame() {
           {revealed && (
             <Link
               href={getStatsTabLink(currentSlot.question.category)}
-              className="text-sm font-bold text-black underline hover:text-[#FF5E5B]"
+              className="text-sm font-bold text-black underline hover:text-black"
             >
               See full stats →
             </Link>
@@ -378,7 +368,7 @@ export default function DailyChallengeGame() {
               {revealed && (
                 <Link
                   href={getMatchupLink(matchupQuestion.batter, matchupQuestion.correctOpponent)}
-                  className="text-sm font-bold text-black underline hover:text-[#FF5E5B]"
+                  className="text-sm font-bold text-black underline hover:text-black"
                 >
                   See full matchup →
                 </Link>

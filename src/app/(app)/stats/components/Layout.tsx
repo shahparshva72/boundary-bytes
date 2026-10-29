@@ -43,12 +43,12 @@ const Layout = ({
   error,
   showLatestMatchDate = true,
 }: LayoutProps) => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   const { data: latestMatchDateData } = useQuery({
-    queryKey: ['latestMatchDate', selectedLeague],
+    queryKey: ['latestMatchDate', scopeKey],
     queryFn: () => fetchLatestMatchDate(fetchWithLeague),
-    enabled: showLatestMatchDate && !!selectedLeague,
+    enabled: showLatestMatchDate,
     staleTime: 5 * 60 * 1000,
   });
 
@@ -95,7 +95,7 @@ const Layout = ({
         )}
         {error && (
           <div className="flex items-center justify-center p-2 sm:p-3 md:p-4">
-            <div className="text-base sm:text-lg md:text-xl font-bold text-red-500">
+            <div className="text-base sm:text-lg md:text-xl font-bold text-black">
               Error loading stats.
             </div>
           </div>

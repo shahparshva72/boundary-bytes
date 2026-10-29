@@ -55,7 +55,7 @@ const Tabs = ({ children, defaultTab = 'Batter vs Bowler' }: TabsProps) => {
               key={child.props.label}
               className={`${
                 activeTab === child.props.label
-                  ? 'bg-[#FF5E5B] text-white shadow-inset transform'
+                  ? 'bg-[#FF5E5B] text-black shadow-inset transform'
                   : 'bg-white text-black hover:bg-[#FFED66] hover:transform hover:translate-x-[1px] hover:translate-y-[1px]'
               } text-[10px] sm:text-xs md:text-sm lg:text-base font-black py-1.5 sm:py-2 md:py-2.5 px-1 sm:px-2 md:px-3 lg:px-4 border-r-2 border-black transition-all duration-150 ease-in-out uppercase tracking-wide whitespace-nowrap flex-shrink-0`}
               onClick={(e) => handleClick(e, child.props.label)}

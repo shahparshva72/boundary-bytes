@@ -156,7 +156,7 @@ export default function PlayerCompare() {
 
       {error && (
         <Card className="p-2 sm:p-3">
-          <p className="text-xs sm:text-sm font-bold text-red-600">{error}</p>
+          <p className="text-xs sm:text-sm font-bold text-black">{error}</p>
         </Card>
       )}
 
@@ -195,7 +195,7 @@ export default function PlayerCompare() {
                         <DataTableCell className="font-bold">
                           <Link
                             href={`/players/${slugify(player.name)}`}
-                            className="text-black hover:text-[#FF5E5B] hover:underline"
+                            className="text-black hover:text-black hover:underline"
                           >
                             {player.name}
                           </Link>
@@ -263,7 +263,7 @@ export default function PlayerCompare() {
                         <DataTableCell className="font-bold">
                           <Link
                             href={`/players/${slugify(player.name)}`}
-                            className="text-black hover:text-[#FF5E5B] hover:underline"
+                            className="text-black hover:text-black hover:underline"
                           >
                             {player.name}
                           </Link>
@@ -306,9 +306,7 @@ export default function PlayerCompare() {
 
       {selectedPlayers.length > 0 && selectedPlayers.length < 2 && (
         <Card className="p-4 sm:p-6">
-          <p className="text-center text-gray-600 font-medium">
-            Select at least 2 players to compare
-          </p>
+          <p className="text-center text-black font-medium">Select at least 2 players to compare</p>
         </Card>
       )}
     </div>

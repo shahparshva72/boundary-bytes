@@ -110,7 +110,7 @@ export default function Matchup() {
 
       {error && (
         <Card className="mt-2 sm:mt-8 p-3 sm:p-6">
-          <p className="text-sm sm:text-2xl font-bold text-red-600">{error}</p>
+          <p className="text-sm sm:text-2xl font-bold text-black">{error}</p>
         </Card>
       )}
 

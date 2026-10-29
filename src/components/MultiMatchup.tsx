@@ -164,7 +164,7 @@ export default function MultiMatchup() {
 
       {error && (
         <Card className="mt-2 sm:mt-8 p-3 sm:p-6">
-          <p className="text-sm sm:text-2xl font-bold text-red-600">{error}</p>
+          <p className="text-sm sm:text-2xl font-bold text-black">{error}</p>
         </Card>
       )}
 
@@ -327,7 +327,7 @@ export default function MultiMatchup() {
 
       {noResults && (
         <Card className="mt-2 sm:mt-8 p-3 sm:p-6">
-          <p className="text-sm sm:text-lg font-bold text-gray-600 text-center">
+          <p className="text-sm sm:text-lg font-bold text-black text-center">
             No matchup data found for the selected players.
           </p>
         </Card>

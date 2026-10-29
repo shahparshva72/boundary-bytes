@@ -1,5 +1,3 @@
-import type { League } from '@/types/league';
-
 export type StatMetric = 'runs' | 'strikeRate' | 'sixes' | 'fours' | 'wickets' | 'economy';
 
 export type StatCategory = 'batting' | 'bowling';
@@ -44,7 +42,8 @@ export type DailyQuestionSlot =
 
 export interface DailyProgress {
   date: string;
-  league: League;
+  // The league scope (scopeKey) the challenge was played for.
+  league: string;
   score: number;
   answers: boolean[];
   completed: boolean;

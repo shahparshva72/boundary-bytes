@@ -125,102 +125,96 @@ export const fetchRunRateTrend = async (fetchWithLeague: FetchWithLeague, team?:
 };
 
 export const useTeamWins = () => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['teamWins', selectedLeague],
+    queryKey: ['teamWins', scopeKey],
     queryFn: () => fetchTeamWins(fetchWithLeague),
-    enabled: !!selectedLeague,
   });
 };
 
 export const useTeamAverages = () => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['teamAverages', selectedLeague],
+    queryKey: ['teamAverages', scopeKey],
     queryFn: () => fetchTeamAverages(fetchWithLeague),
-    enabled: !!selectedLeague,
   });
 };
 
 export const useWicketTakers = (page: number, limit = 10) => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['wicketTakers', page, limit, selectedLeague],
+    queryKey: ['wicketTakers', page, limit, scopeKey],
     queryFn: () => fetchWicketTakers(fetchWithLeague, page, limit),
-    enabled: !!selectedLeague,
   });
 };
 
 export const useRunScorers = (page: number, battingPositions: number[] = [], limit = 10) => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['runScorers', page, battingPositions, limit, selectedLeague],
+    queryKey: ['runScorers', page, battingPositions, limit, scopeKey],
     queryFn: () => fetchRunScorers(fetchWithLeague, page, battingPositions, limit),
-    enabled: !!selectedLeague,
   });
 };
 
 export const useBowlingWicketTypes = (page: number) => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['bowlingWicketTypes', page, selectedLeague],
+    queryKey: ['bowlingWicketTypes', page, scopeKey],
     queryFn: () => fetchBowlingWicketTypes(fetchWithLeague, page),
-    enabled: !!selectedLeague,
   });
 };
 
 export const useMatchup = (batter: string, bowler: string) => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['matchup', batter, bowler, selectedLeague],
+    queryKey: ['matchup', batter, bowler, scopeKey],
     queryFn: () => fetchMatchup(fetchWithLeague, batter, bowler),
-    enabled: !!selectedLeague && !!batter && !!bowler,
+    enabled: !!batter && !!bowler,
   });
 };
 
 export const useAdvancedStats = (overs: number[], player: string, playerType: string) => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['advancedStats', overs, player, playerType, selectedLeague],
+    queryKey: ['advancedStats', overs, player, playerType, scopeKey],
     queryFn: () => fetchAdvancedStatsData(fetchWithLeague, overs, player, playerType),
-    enabled: !!selectedLeague && !!player && overs.length > 0,
+    enabled: !!player && overs.length > 0,
   });
 };
 
 export const useFallOfWickets = (matchId: number) => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['fallOfWickets', matchId, selectedLeague],
+    queryKey: ['fallOfWickets', matchId, scopeKey],
     queryFn: () => fetchFallOfWicketsData(fetchWithLeague, matchId),
-    enabled: !!selectedLeague && !!matchId,
+    enabled: !!matchId,
   });
 };
 
 export const useTeamRunRateProgression = (team: string, season: string) => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['teamRunRateProgression', team, season, selectedLeague],
+    queryKey: ['teamRunRateProgression', team, season, scopeKey],
     queryFn: () => fetchTeamRunRateProgression(fetchWithLeague, team, season),
-    enabled: !!selectedLeague && !!team && !!season,
+    enabled: !!team && !!season,
   });
 };
 
 export const useRunRateTrend = (team?: string | null) => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['runRateTrend', team, selectedLeague],
+    queryKey: ['runRateTrend', team, scopeKey],
     queryFn: () => fetchRunRateTrend(fetchWithLeague, team),
-    enabled: !!selectedLeague,
   });
 };
 
@@ -233,12 +227,11 @@ export const fetchSeasonsData = async (fetchWithLeague: FetchWithLeague) => {
 };
 
 export const useSeasons = () => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['seasons', selectedLeague],
+    queryKey: ['seasons', scopeKey],
     queryFn: () => fetchSeasonsData(fetchWithLeague),
-    enabled: !!selectedLeague,
   });
 };
 
@@ -269,12 +262,12 @@ export const usePlayerComparison = (
   players: string[],
   filters: { seasons?: string[]; team?: string; statType: string },
 ) => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['playerComparison', players, filters, selectedLeague],
+    queryKey: ['playerComparison', players, filters, scopeKey],
     queryFn: () => fetchPlayerComparisonData(fetchWithLeague, players, filters),
-    enabled: !!selectedLeague && players.length >= 2,
+    enabled: players.length >= 2,
   });
 };
 
@@ -295,12 +288,12 @@ export const fetchPlayerProgression = async (
 };
 
 export const usePlayerProgression = (player: string, innings?: '1' | '2' | null) => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['playerProgression', player, innings, selectedLeague],
+    queryKey: ['playerProgression', player, innings, scopeKey],
     queryFn: () => fetchPlayerProgression(fetchWithLeague, player, innings),
-    enabled: !!selectedLeague && !!player,
+    enabled: !!player,
   });
 };
 
@@ -347,11 +340,11 @@ export const useMultiMatchup = (
   opponents: string[],
   mode: 'batterVsBowlers' | 'bowlerVsBatters',
 ) => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['multiMatchup', player, opponents, mode, selectedLeague],
+    queryKey: ['multiMatchup', player, opponents, mode, scopeKey],
     queryFn: () => fetchMultiMatchup(fetchWithLeague, player, opponents, mode),
-    enabled: !!selectedLeague && !!player && opponents.length > 0 && opponents.length <= 5,
+    enabled: !!player && opponents.length > 0 && opponents.length <= 5,
   });
 };

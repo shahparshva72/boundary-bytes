@@ -15,12 +15,11 @@ export const fetchBattersData = async (fetchWithLeague: FetchWithLeague) => {
 };
 
 export const useBatters = () => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['batters', selectedLeague],
+    queryKey: ['batters', scopeKey],
     queryFn: () => fetchBattersData(fetchWithLeague),
-    enabled: !!selectedLeague,
   });
 };
 
@@ -34,11 +33,10 @@ export const fetchBowlersData = async (fetchWithLeague: FetchWithLeague) => {
 };
 
 export const useBowlers = () => {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['bowlers', selectedLeague],
+    queryKey: ['bowlers', scopeKey],
     queryFn: () => fetchBowlersData(fetchWithLeague),
-    enabled: !!selectedLeague,
   });
 };

@@ -6,12 +6,12 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 import { featureGroups, isExplorePath, isPathActive, primaryNavigation } from '@/lib/navigation';
-import LeagueSwitcher from '../ui/LeagueSwitcher';
+import ScopeSwitcher from '../ui/ScopeSwitcher';
 import NavLink from './NavLink';
 
 const Header = () => {
   const pathname = usePathname();
-  const { selectedLeague, leagueConfig } = useLeagueContext();
+  const { scopeLabel } = useLeagueContext();
   const [isExploreOpen, setIsExploreOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const exploreTriggerRef = useRef<HTMLButtonElement>(null);
@@ -138,7 +138,7 @@ const Header = () => {
             </NavLink>
           </div>
 
-          {selectedLeague ? <LeagueSwitcher /> : null}
+          <ScopeSwitcher />
 
           <button
             ref={mobileTriggerRef}
@@ -243,11 +243,7 @@ const Header = () => {
                 <p className="text-xl font-black tracking-tight text-black">
                   Explore Boundary Bytes
                 </p>
-                {selectedLeague && leagueConfig ? (
-                  <p className="text-xs font-black uppercase text-black/70">
-                    {leagueConfig.icon} {leagueConfig.name}
-                  </p>
-                ) : null}
+                <p className="text-xs font-black uppercase text-black/70">🏏 {scopeLabel}</p>
               </div>
               <button
                 ref={mobileCloseButtonRef}

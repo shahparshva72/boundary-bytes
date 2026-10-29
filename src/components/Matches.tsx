@@ -40,7 +40,7 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
   if (error) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-[#FFFEE0]">
-        <div className="text-2xl font-bold text-red-600">Error loading matches</div>
+        <div className="text-2xl font-bold text-black">Error loading matches</div>
       </div>
     );
   }

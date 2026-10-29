@@ -3,7 +3,6 @@
 import nextDynamic from 'next/dynamic';
 import Layout from '@/app/(app)/stats/components/Layout';
 import { PlayTab, PlayTabs } from '@/components/games/PlayTabs';
-import { useLeagueContext } from '@/contexts/LeagueContext';
 
 export const dynamic = 'force-dynamic';
 
@@ -27,29 +26,23 @@ const StatGuesserGame = nextDynamic(
 );
 
 export default function PlayPage() {
-  const { selectedLeague } = useLeagueContext();
-
   return (
     <Layout
       title="Play"
       description="Test your cricket knowledge with real stats"
       showLatestMatchDate={false}
     >
-      {!selectedLeague ? (
-        <p className="text-center font-bold text-black py-4">Select a league to start playing.</p>
-      ) : (
-        <PlayTabs>
-          <PlayTab id="stat-guesser">
-            <StatGuesserGame />
-          </PlayTab>
-          <PlayTab id="matchup">
-            <MatchupShowdownGame />
-          </PlayTab>
-          <PlayTab id="daily">
-            <DailyChallengeGame />
-          </PlayTab>
-        </PlayTabs>
-      )}
+      <PlayTabs>
+        <PlayTab id="stat-guesser">
+          <StatGuesserGame />
+        </PlayTab>
+        <PlayTab id="matchup">
+          <MatchupShowdownGame />
+        </PlayTab>
+        <PlayTab id="daily">
+          <DailyChallengeGame />
+        </PlayTab>
+      </PlayTabs>
     </Layout>
   );
 }

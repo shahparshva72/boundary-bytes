@@ -29,7 +29,7 @@ const TeamRunRateProgressionChart = dynamic(
 );
 
 export default function TeamRunRateTab() {
-  const { leagueConfig } = useLeagueContext();
+  const { scopeDescription } = useLeagueContext();
   const { data: teamsData, isLoading: teamsLoading } = useTeamAverages();
   const { data: seasonsData, isLoading: seasonsLoading } = useSeasons();
 
@@ -76,9 +76,7 @@ export default function TeamRunRateTab() {
   } = useRunRateTrend(selectedTeam?.value || null);
 
   const isLoadingSelectors = teamsLoading || seasonsLoading;
-  const description = leagueConfig
-    ? `View ${leagueConfig.name} team run rate progression per over and seasonal trends.`
-    : 'View team run rate progression per over and seasonal trends.';
+  const description = `View team run rate progression per over and seasonal trends across ${scopeDescription}.`;
 
   return (
     <div className="flex flex-col gap-4 w-full mx-auto">
@@ -123,7 +121,7 @@ export default function TeamRunRateTab() {
           </div>
         )}
         {progressionError && (
-          <p className="text-center font-bold text-red-600 py-4">Failed to load progression data</p>
+          <p className="text-center font-bold text-black py-4">Failed to load progression data</p>
         )}
         {!progressionLoading &&
         !progressionError &&
@@ -165,7 +163,7 @@ export default function TeamRunRateTab() {
           </div>
         )}
         {trendError && (
-          <p className="text-center font-bold text-red-600 py-4">Failed to load trend data</p>
+          <p className="text-center font-bold text-black py-4">Failed to load trend data</p>
         )}
         {!trendLoading && !trendError && trendData ? (
           <>

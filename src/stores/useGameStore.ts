@@ -3,37 +3,31 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { DailyProgress } from '@/lib/games/types';
-import { VALID_LEAGUES } from '@/lib/league-config';
-import type { League } from '@/types/league';
+import { FALLBACK_LEAGUE_CONFIGS } from '@/lib/league-config';
+import { scopeKey } from '@/lib/league-scope';
 
-function emptyLeagueRecord(): Record<League, number> {
-  return VALID_LEAGUES.reduce(
-    (acc, league) => {
-      acc[league] = 0;
-      return acc;
-    },
-    {} as Record<League, number>,
-  );
-}
+// Records are kept per league scope (the context's scopeKey, e.g. 'male' or
+// 'male:IPL').
+type ScopeRecord = Record<string, number>;
 
 interface GameStore {
-  statGuesserBestStreak: Record<League, number>;
-  matchupBestScore: Record<League, number>;
+  statGuesserBestStreak: ScopeRecord;
+  matchupBestScore: ScopeRecord;
   dailyProgress: DailyProgress | null;
   dailyStreak: number;
   lastDailyDate: string | null;
-  setStatGuesserBestStreak: (league: League, streak: number) => void;
-  setMatchupBestScore: (league: League, score: number) => void;
+  setStatGuesserBestStreak: (scopeKey: string, streak: number) => void;
+  setMatchupBestScore: (scopeKey: string, score: number) => void;
   setDailyProgress: (progress: DailyProgress) => void;
-  clearDailyProgressIfNewDay: (today: string, league: League) => void;
+  clearDailyProgressIfNewDay: (today: string, scopeKey: string) => void;
   updateDailyStreak: (today: string, completed: boolean) => void;
 }
 
 export const useGameStore = create<GameStore>()(
   persist(
     (set, get) => ({
-      statGuesserBestStreak: emptyLeagueRecord(),
-      matchupBestScore: emptyLeagueRecord(),
+      statGuesserBestStreak: {},
+      matchupBestScore: {},
       dailyProgress: null,
       dailyStreak: 0,
       lastDailyDate: null,
@@ -41,14 +35,14 @@ export const useGameStore = create<GameStore>()(
         set((state) => ({
           statGuesserBestStreak: {
             ...state.statGuesserBestStreak,
-            [league]: Math.max(state.statGuesserBestStreak[league], streak),
+            [league]: Math.max(state.statGuesserBestStreak[league] ?? 0, streak),
           },
         })),
       setMatchupBestScore: (league, score) =>
         set((state) => ({
           matchupBestScore: {
             ...state.matchupBestScore,
-            [league]: Math.max(state.matchupBestScore[league], score),
+            [league]: Math.max(state.matchupBestScore[league] ?? 0, score),
           },
         })),
       setDailyProgress: (progress) => set({ dailyProgress: progress }),
@@ -77,7 +71,32 @@ export const useGameStore = create<GameStore>()(
     }),
     {
       name: 'boundary-bytes-games',
-      version: 1,
+      version: 2,
+      // v1 kept records per league code ('IPL'); v2 per scope ('male:IPL').
+      migrate: (persisted, version) => {
+        const state = persisted as Partial<GameStore>;
+        if (version < 2) {
+          const toScopeKey = (league: string) => {
+            const gender = FALLBACK_LEAGUE_CONFIGS[league]?.gender ?? 'male';
+            return scopeKey({ gender, leagues: [league] });
+          };
+          const rekey = (record: ScopeRecord = {}) =>
+            Object.fromEntries(
+              Object.entries(record)
+                .filter(([, value]) => value > 0)
+                .map(([league, value]) => [toScopeKey(league), value]),
+            );
+          state.statGuesserBestStreak = rekey(state.statGuesserBestStreak);
+          state.matchupBestScore = rekey(state.matchupBestScore);
+          if (state.dailyProgress) {
+            state.dailyProgress = {
+              ...state.dailyProgress,
+              league: toScopeKey(state.dailyProgress.league),
+            };
+          }
+        }
+        return state as GameStore;
+      },
     },
   ),
 );

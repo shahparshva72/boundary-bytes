@@ -1,17 +1,21 @@
-import type { League } from '@/types/league';
+import { scopeSearchParams } from '@/lib/league-scope';
+import type { LeagueScope } from '@/types/league';
 
 export function formatDailyShareText(
-  league: League,
+  scope: LeagueScope,
+  scopeLabel: string,
   score: number,
   total: number,
   dailyStreak: number,
 ): string {
   const squares = Array.from({ length: total }, (_, i) => (i < score ? '🟩' : '⬜')).join('');
   const origin = typeof window !== 'undefined' ? window.location.origin : '';
-  const url = `${origin}/play?game=daily&league=${league}`;
+  const params = scopeSearchParams(scope);
+  params.set('game', 'daily');
+  const url = `${origin}/play?${params}`;
 
   return [
-    `Boundary Bytes Daily ${league} ${score}/${total}`,
+    `Boundary Bytes Daily (${scopeLabel}) ${score}/${total}`,
     squares,
     `Streak: ${dailyStreak}`,
     url,

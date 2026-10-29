@@ -24,7 +24,7 @@ const PlayerProgressionChart = nextDynamic(() => import('@/components/PlayerProg
 });
 
 export default function PlayerProgressionPage() {
-  const { leagueConfig } = useLeagueContext();
+  const { scopeDescription } = useLeagueContext();
   const { data: battersData, isLoading: battersLoading } = useBatters();
 
   const [selectedPlayerValue, setSelectedPlayerValue] = useQueryState(
@@ -65,9 +65,7 @@ export default function PlayerProgressionPage() {
   const isLoading = battersLoading || progressionLoading;
   const isError = !!progressionError;
 
-  const description = leagueConfig
-    ? `Track how ${leagueConfig.name} batters approach their innings with strike rate progression through powerplay, middle, and death overs.`
-    : 'Track how batters approach their innings with strike rate progression through powerplay, middle, and death overs.';
+  const description = `Track how batters in ${scopeDescription} approach their innings, with strike rate progression through powerplay, middle, and death overs.`;
 
   return (
     <Layout title="Player Innings Progression" description={description} error={isError}>

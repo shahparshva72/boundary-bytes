@@ -266,7 +266,7 @@ export default function StatExplorerBuilder() {
                 onClick={() => handleReportTypeChange(type)}
                 className={`px-4 py-2 text-xs font-black uppercase border-2 border-black transition-all ${
                   reportType === type
-                    ? 'bg-[#FF5E5B] text-white shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] translate-y-[-2px]'
+                    ? 'bg-[#FF5E5B] text-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] translate-y-[-2px]'
                     : 'bg-white text-black hover:bg-[#FFED66] hover:translate-y-[-1px]'
                 }`}
               >
@@ -300,7 +300,7 @@ export default function StatExplorerBuilder() {
 
         <Card>
           <CardContent className="flex flex-wrap justify-between items-center gap-4 bg-gray-50">
-            <div className="text-xs font-black text-gray-500 uppercase tracking-wider hidden sm:block">
+            <div className="text-xs font-black text-black uppercase tracking-wider hidden sm:block">
               {isResultsFetching ? 'Fetching new results...' : 'Results are updated automatically'}
             </div>
             <div className="flex gap-3 w-full sm:w-auto">
@@ -319,7 +319,7 @@ export default function StatExplorerBuilder() {
 
         {isResultsError && (
           <Card>
-            <CardContent className="bg-[#FF5E5B] p-4 text-sm font-bold text-white uppercase tracking-wide">
+            <CardContent className="bg-[#FF5E5B] p-4 text-sm font-bold text-black uppercase tracking-wide">
               {resultsError instanceof Error ? resultsError.message : 'An error occurred'}
             </CardContent>
           </Card>

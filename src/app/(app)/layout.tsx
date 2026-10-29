@@ -1,11 +1,12 @@
-import AppWithLeagueSelection from '@/components/AppWithLeagueSelection';
+import { Suspense } from 'react';
 import Header from '@/components/Header';
+import PageLoading from '@/components/PageLoading';
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
-    <AppWithLeagueSelection>
+    <>
       <Header />
-      {children}
-    </AppWithLeagueSelection>
+      <Suspense fallback={<PageLoading />}>{children}</Suspense>
+    </>
   );
 }
