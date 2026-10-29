@@ -96,7 +96,7 @@ export default async function PlayersDirectoryPage({
               <span className="text-sm sm:text-base font-black text-black block">
                 {player.playerName}
               </span>
-              <span className="text-xs font-bold text-black/70">{player.leagues.join(', ')}</span>
+              <span className="text-xs font-bold text-black">{player.leagues.join(', ')}</span>
             </Link>
           ))}
         </div>

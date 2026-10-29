@@ -80,7 +80,7 @@ const Layout = ({
 
         {showLatestMatchDate && latestMatchDateLabel && (
           <div className="w-full px-2 sm:px-0">
-            <p className="text-center text-xs sm:text-sm font-bold uppercase tracking-wide text-black/70">
+            <p className="text-center text-xs sm:text-sm font-bold uppercase tracking-wide text-black">
               Data until {latestMatchDateLabel}
             </p>
           </div>

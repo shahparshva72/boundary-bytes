@@ -89,7 +89,7 @@ const ScopeSwitcher = () => {
           />
           <div
             id={panelId}
-            className="absolute right-0 top-full z-50 mt-2 flex max-h-[min(70vh,560px)] w-[min(92vw,360px)] flex-col border-2 border-black bg-[#FFFEE0] shadow-[6px_6px_0_#000]"
+            className="fixed inset-x-2 top-[4.5rem] z-50 flex max-h-[calc(100dvh-6rem)] flex-col border-2 border-black bg-[#FFFEE0] text-black shadow-[6px_6px_0_#000] sm:absolute sm:inset-x-auto sm:right-0 sm:top-full sm:mt-2 sm:max-h-[min(70vh,560px)] sm:w-[360px]"
           >
             <div
               className="grid grid-cols-2 border-b-2 border-black"
@@ -171,7 +171,7 @@ const ScopeSwitcher = () => {
                       </span>
                       <span className="flex-1 font-bold leading-tight">{league.fullName}</span>
                       {league.stats.matches > 0 ? (
-                        <span className="shrink-0 text-xs font-bold text-black/60">
+                        <span className="shrink-0 text-xs font-bold text-black">
                           {league.stats.matches.toLocaleString()}
                         </span>
                       ) : null}
@@ -179,7 +179,7 @@ const ScopeSwitcher = () => {
                   );
                 })}
                 {visibleLeagues.length === 0 ? (
-                  <p className="px-2 py-3 text-sm font-bold text-black/60">
+                  <p className="px-2 py-3 text-sm font-bold text-black">
                     No leagues match “{search}”.
                   </p>
                 ) : null}

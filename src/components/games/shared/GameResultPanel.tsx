@@ -27,7 +27,7 @@ export default function GameResultPanel({
         {title}
       </h2>
       {subtitle && (
-        <p className="text-sm sm:text-base font-bold text-black/80 text-center">{subtitle}</p>
+        <p className="text-sm sm:text-base font-bold text-black text-center">{subtitle}</p>
       )}
       {children}
       <div className="flex flex-wrap gap-2 justify-center">

@@ -349,7 +349,7 @@ function StatBox({
     <div
       className={`p-2 sm:p-3 border-2 border-black text-center ${highlight ? 'bg-white shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]' : 'bg-white/50'}`}
     >
-      <div className="text-[10px] sm:text-xs font-bold text-black/60 uppercase tracking-wider mb-0.5">
+      <div className="text-[10px] sm:text-xs font-bold text-black uppercase tracking-wider mb-0.5">
         {label}
       </div>
       <div className="text-base sm:text-xl font-black text-black font-mono">{value}</div>

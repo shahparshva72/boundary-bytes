@@ -27,7 +27,7 @@ export default function ExplorePage() {
           <h1 className="max-w-4xl text-4xl font-black leading-[0.95] tracking-[-0.05em] text-black sm:text-6xl lg:text-7xl">
             Find the stat that settles the debate.
           </h1>
-          <p className="mt-5 max-w-2xl text-base font-bold text-black/75 sm:text-xl">
+          <p className="mt-5 max-w-2xl text-base font-bold text-black sm:text-xl">
             Start with a matchup, scan the leaderboards, build a custom analysis, or ask your
             question in plain English.
           </p>
@@ -43,7 +43,7 @@ export default function ExplorePage() {
                 >
                   {group.label}
                 </h2>
-                <p className="max-w-lg text-sm font-bold text-black/65 sm:text-right sm:text-base">
+                <p className="max-w-lg text-sm font-bold text-black sm:text-right sm:text-base">
                   {group.description}
                 </p>
               </div>
@@ -63,7 +63,7 @@ export default function ExplorePage() {
                         <Icon aria-hidden="true" className="size-6" strokeWidth={3} />
                       </span>
                       <h3 className="mt-5 text-xl font-black tracking-tight">{item.label}</h3>
-                      <p className="mt-2 text-sm font-bold text-black/65">{item.description}</p>
+                      <p className="mt-2 text-sm font-bold text-black">{item.description}</p>
                       <span className="mt-auto flex items-center justify-between pt-5 text-xs font-black uppercase tracking-wider">
                         Open tool
                         <ArrowRight

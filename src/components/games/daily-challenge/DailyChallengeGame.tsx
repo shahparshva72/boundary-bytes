@@ -293,7 +293,7 @@ export default function DailyChallengeGame() {
         showPlayAgain={false}
       >
         <p className="text-2xl tracking-widest">{squares}</p>
-        <p className="text-xs font-bold text-black/60">Come back tomorrow for a new challenge.</p>
+        <p className="text-xs font-bold text-black">Come back tomorrow for a new challenge.</p>
       </GameResultPanel>
     );
   }

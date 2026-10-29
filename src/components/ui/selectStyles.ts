@@ -56,7 +56,7 @@ const neoBrutalistStyles = {
   }),
   placeholder: (provided: CSSObjectWithLabel) => ({
     ...provided,
-    color: '#6b7280',
+    color: 'black',
   }),
   input: (provided: CSSObjectWithLabel) => ({
     ...provided,
