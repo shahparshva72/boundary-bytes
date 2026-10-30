@@ -1,13 +1,16 @@
 import goApi from '@/services/api';
-import { League, LeagueConfig } from '@/types/league';
+import { Gender, League, LeagueConfig } from '@/types/league';
 
-interface LeagueConfigStatsItem {
+interface LeagueConfigItem {
   league: League;
+  // name and gender come from leagues.json; older APIs omit them.
+  name?: string;
+  gender?: Gender;
   stats: LeagueConfig['stats'];
 }
 
 interface LeagueConfigsResponse {
-  data: LeagueConfigStatsItem[];
+  data: LeagueConfigItem[];
 }
 
 const EMPTY_STATS: LeagueConfig['stats'] = {
@@ -17,89 +20,66 @@ const EMPTY_STATS: LeagueConfig['stats'] = {
   seasons: [],
 };
 
-export const LEAGUE_CONFIGS: Record<League, LeagueConfig> = {
+// Badge colors and icons for the original leagues. Every other league gets a
+// color from DEFAULT_PALETTE. Names and genders always come from the API.
+const THEMES: Record<League, Pick<LeagueConfig, 'colors' | 'icon'>> = {
   WPL: {
-    id: 'WPL',
-    name: 'WPL',
-    fullName: "Women's Premier League",
-    description: "India's premier women's cricket tournament",
-    tagline: 'POWER. PASSION. PERFORMANCE.',
-    colors: {
-      primary: '#FF5E5B', // Main red from existing theme
-      secondary: '#FFED66', // Light yellow accent
-      accent: '#4ECDC4', // Teal accent
-      headerBg: '#FF5E5B', // Header background
-    },
-    stats: EMPTY_STATS,
+    colors: { primary: '#FF5E5B', secondary: '#FFED66', accent: '#4ECDC4', headerBg: '#FF5E5B' },
     icon: '🏏',
   },
   IPL: {
-    id: 'IPL',
-    name: 'IPL',
-    fullName: 'Indian Premier League',
-    description: "The world's most popular T20 cricket league",
-    tagline: 'CRICKET. ENTERTAINMENT. EXCELLENCE.',
-    colors: {
-      primary: '#FF9F1C', // Orange from existing theme
-      secondary: '#4ECDC4', // Teal accent
-      accent: '#FFC700', // Yellow accent
-      headerBg: '#FF9F1C', // Header background
-    },
-    stats: EMPTY_STATS,
+    colors: { primary: '#FF9F1C', secondary: '#4ECDC4', accent: '#FFC700', headerBg: '#FF9F1C' },
     icon: '🏆',
   },
   BBL: {
-    id: 'BBL',
-    name: 'BBL',
-    fullName: 'Big Bash League',
-    description: "Australia's premier T20 cricket league",
-    tagline: 'BIG HITS. BIG MOMENTS.',
-    colors: {
-      primary: '#2E86AB',
-      secondary: '#F6F5AE',
-      accent: '#F26419',
-      headerBg: '#2E86AB',
-    },
-    stats: EMPTY_STATS,
+    colors: { primary: '#2E86AB', secondary: '#F6F5AE', accent: '#F26419', headerBg: '#2E86AB' },
     icon: '🔥',
   },
   WBBL: {
-    id: 'WBBL',
-    name: 'WBBL',
-    fullName: "Women's Big Bash League",
-    description: "Australia's premier women's T20 cricket league",
-    tagline: 'INSPIRING THE NEXT GENERATION.',
-    colors: {
-      primary: '#E91E63',
-      secondary: '#FFC107',
-      accent: '#00BCD4',
-      headerBg: '#E91E63',
-    },
-    stats: EMPTY_STATS,
+    colors: { primary: '#E91E63', secondary: '#FFC107', accent: '#00BCD4', headerBg: '#E91E63' },
     icon: '⭐',
   },
   SA20: {
-    id: 'SA20',
-    name: 'SA20',
-    fullName: 'SA20',
-    description: "South Africa's premier T20 cricket league",
-    tagline: "AFRICA'S FINEST. GLOBAL STAGE.",
-    colors: {
-      primary: '#FF5722',
-      secondary: '#FFC107',
-      accent: '#4CAF50',
-      headerBg: '#FF5722',
-    },
-    stats: EMPTY_STATS,
+    colors: { primary: '#FF5722', secondary: '#FFC107', accent: '#4CAF50', headerBg: '#FF5722' },
     icon: '🏏',
   },
 };
 
-export const VALID_LEAGUES: League[] = ['WPL', 'IPL', 'BBL', 'WBBL', 'SA20'];
+const DEFAULT_PALETTE = [
+  '#4ECDC4',
+  '#FFC700',
+  '#FF9F1C',
+  '#2E86AB',
+  '#FF5E5B',
+  '#9B5DE5',
+  '#00BB7F',
+];
 
-export const getLeagueConfig = (league: League): LeagueConfig => {
-  return LEAGUE_CONFIGS[league];
-};
+// Used until /leagues/config answers, and if it fails: the leagues every API
+// version serves.
+const FALLBACK_LEAGUES: { league: League; name: string; gender: Gender }[] = [
+  { league: 'IPL', name: 'Indian Premier League', gender: 'male' },
+  { league: 'WPL', name: "Women's Premier League", gender: 'female' },
+  { league: 'BBL', name: 'Big Bash League', gender: 'male' },
+  { league: 'WBBL', name: "Women's Big Bash League", gender: 'female' },
+  { league: 'SA20', name: 'SA20', gender: 'male' },
+];
+
+function themeFor(league: League): Pick<LeagueConfig, 'colors' | 'icon'> {
+  const theme = THEMES[league];
+  if (theme) {
+    return theme;
+  }
+  let hash = 0;
+  for (const char of league) {
+    hash = (hash * 31 + char.charCodeAt(0)) >>> 0;
+  }
+  const color = DEFAULT_PALETTE[hash % DEFAULT_PALETTE.length];
+  return {
+    colors: { primary: color, secondary: '#FFFEE0', accent: color, headerBg: color },
+    icon: '🏏',
+  };
+}
 
 const formatSeasonRange = (seasons: string[]): string[] => {
   if (seasons.length <= 1) {
@@ -109,30 +89,41 @@ const formatSeasonRange = (seasons: string[]): string[] => {
   return [`${seasons[0]}-${seasons[seasons.length - 1]}`];
 };
 
-export const mergeLeagueConfigStats = (
-  statsItems: LeagueConfigStatsItem[],
-): Record<League, LeagueConfig> => {
-  return statsItems.reduce<Record<League, LeagueConfig>>(
-    (configs, item) => {
-      if (!VALID_LEAGUES.includes(item.league)) {
-        return configs;
-      }
+function toConfig(item: LeagueConfigItem, gender: Gender, name: string): LeagueConfig {
+  return {
+    id: item.league,
+    name: item.league,
+    fullName: name,
+    gender,
+    stats: { ...item.stats, seasons: formatSeasonRange(item.stats.seasons ?? []) },
+    ...themeFor(item.league),
+  };
+}
 
-      configs[item.league] = {
-        ...configs[item.league],
-        stats: {
-          ...item.stats,
-          seasons: formatSeasonRange(item.stats.seasons),
-        },
-      };
+export const FALLBACK_LEAGUE_CONFIGS: Record<League, LeagueConfig> = Object.fromEntries(
+  FALLBACK_LEAGUES.map(({ league, name, gender }) => [
+    league,
+    toConfig({ league, stats: EMPTY_STATS }, gender, name),
+  ]),
+);
 
-      return configs;
-    },
-    { ...LEAGUE_CONFIGS },
-  );
+// buildLeagueConfigs keeps every league the API serves, in its order. An API
+// that predates leagues.json sends no name or gender; the original leagues
+// then use their known values and any others are skipped.
+export const buildLeagueConfigs = (items: LeagueConfigItem[]): Record<League, LeagueConfig> => {
+  const configs: Record<League, LeagueConfig> = {};
+  for (const item of items) {
+    const fallback = FALLBACK_LEAGUE_CONFIGS[item.league];
+    const gender = item.gender ?? fallback?.gender;
+    if (!gender) {
+      continue;
+    }
+    configs[item.league] = toConfig(item, gender, item.name ?? fallback?.fullName ?? item.league);
+  }
+  return Object.keys(configs).length > 0 ? configs : FALLBACK_LEAGUE_CONFIGS;
 };
 
 export const fetchLeagueConfigs = async (): Promise<Record<League, LeagueConfig>> => {
   const response = await goApi.get('leagues/config').json<LeagueConfigsResponse>();
-  return mergeLeagueConfigStats(response.data);
+  return buildLeagueConfigs(response.data);
 };

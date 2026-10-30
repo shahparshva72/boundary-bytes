@@ -28,8 +28,6 @@ export type {
 export { Input, TextArea } from './Input';
 export type { InputProps, InputSize, TextAreaProps } from './Input';
 
-export { default as LeagueSwitcher } from './LeagueSwitcher';
-
 export { Modal, ModalBody, ModalFooter, ModalHeader, ModalTitle } from './Modal';
 export type { ModalBodyProps, ModalFooterProps, ModalHeaderProps, ModalProps } from './Modal';
 
@@ -51,3 +49,4 @@ export type { SpinnerProps, SpinnerSize } from './Spinner';
 export { Tab, Tabs } from './Tabs';
 
 export { default as Tooltip } from './Tooltip';
+export { default as ScopeSwitcher } from './ScopeSwitcher';

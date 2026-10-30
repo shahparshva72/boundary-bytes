@@ -177,7 +177,7 @@ export default function PlayerProfileContent({ profile }: PlayerProfileContentPr
             Players
           </Link>
           {' > '}
-          <span className="text-black/70">{profile.name}</span>
+          <span className="text-black">{profile.name}</span>
         </nav>
 
         <div className="bg-[#FFC700] border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] p-3 sm:p-4 md:p-6">
@@ -190,9 +190,7 @@ export default function PlayerProfileContent({ profile }: PlayerProfileContentPr
             </p>
           )}
           {leaguesText && (
-            <p className="mt-2 text-xs sm:text-sm font-bold text-black/80">
-              Leagues: {leaguesText}
-            </p>
+            <p className="mt-2 text-xs sm:text-sm font-bold text-black">Leagues: {leaguesText}</p>
           )}
         </div>
 
@@ -202,31 +200,31 @@ export default function PlayerProfileContent({ profile }: PlayerProfileContentPr
             <dl className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm sm:text-base">
               {profile.bio.fullName && (
                 <>
-                  <dt className="font-bold text-black/70">Full name</dt>
+                  <dt className="font-bold text-black">Full name</dt>
                   <dd className="font-mono text-black">{profile.bio.fullName}</dd>
                 </>
               )}
               {profile.bio.battingHand && (
                 <>
-                  <dt className="font-bold text-black/70">Batting hand</dt>
+                  <dt className="font-bold text-black">Batting hand</dt>
                   <dd className="font-mono text-black">{profile.bio.battingHand}</dd>
                 </>
               )}
               {profile.bio.bowlingHand && (
                 <>
-                  <dt className="font-bold text-black/70">Bowling hand</dt>
+                  <dt className="font-bold text-black">Bowling hand</dt>
                   <dd className="font-mono text-black">{profile.bio.bowlingHand}</dd>
                 </>
               )}
               {profile.bio.bowlingType && (
                 <>
-                  <dt className="font-bold text-black/70">Bowling type</dt>
+                  <dt className="font-bold text-black">Bowling type</dt>
                   <dd className="font-mono text-black">{profile.bio.bowlingType}</dd>
                 </>
               )}
               {profile.bio.playingRole && (
                 <>
-                  <dt className="font-bold text-black/70">Playing role</dt>
+                  <dt className="font-bold text-black">Playing role</dt>
                   <dd className="font-mono text-black">
                     {profile.bio.playingRole.replace(/_/g, ' ')}
                   </dd>
@@ -234,7 +232,7 @@ export default function PlayerProfileContent({ profile }: PlayerProfileContentPr
               )}
               {profile.bio.playingRoleDetail && (
                 <>
-                  <dt className="font-bold text-black/70">Role detail</dt>
+                  <dt className="font-bold text-black">Role detail</dt>
                   <dd className="font-mono text-black">
                     {profile.bio.playingRoleDetail.replace(/_/g, ' ')}
                   </dd>

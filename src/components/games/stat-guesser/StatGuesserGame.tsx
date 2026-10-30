@@ -17,12 +17,10 @@ import { useGameStore } from '@/stores/useGameStore';
 const REVEAL_DELAY_MS = 1500;
 
 export default function StatGuesserGame() {
-  const { selectedLeague } = useLeagueContext();
+  const { scopeKey, scopeDescription } = useLeagueContext();
   const { pool, isLoading, isError } = useGamePool();
   const setStatGuesserBestStreak = useGameStore((s) => s.setStatGuesserBestStreak);
-  const bestStreak = useGameStore((s) =>
-    selectedLeague ? s.statGuesserBestStreak[selectedLeague] : 0,
-  );
+  const bestStreak = useGameStore((s) => s.statGuesserBestStreak[scopeKey] ?? 0);
 
   const [question, setQuestion] = useState<StatGuesserQuestion | null>(null);
   const [streak, setStreak] = useState(0);
@@ -34,12 +32,12 @@ export default function StatGuesserGame() {
   const advanceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const loadQuestion = useCallback(() => {
-    if (!pool || !selectedLeague) {
+    if (!pool) {
       return;
     }
     const next = generateStatGuesserQuestion(
       pool,
-      selectedLeague,
+      scopeDescription,
       Math.random,
       usedKeysRef.current,
     );
@@ -51,7 +49,7 @@ export default function StatGuesserGame() {
     setQuestion(next);
     setRevealed(false);
     setPickedSide(null);
-  }, [pool, selectedLeague]);
+  }, [pool, scopeDescription]);
 
   useEffect(() => {
     if (advanceTimerRef.current) {
@@ -64,13 +62,13 @@ export default function StatGuesserGame() {
     setPickedSide(null);
     setGameOver(false);
     setLoadFailed(false);
-  }, [selectedLeague]);
+  }, [scopeKey]);
 
   useEffect(() => {
-    if (pool && selectedLeague && !question && !gameOver && !loadFailed) {
+    if (pool && !question && !gameOver && !loadFailed) {
       loadQuestion();
     }
-  }, [pool, selectedLeague, question, gameOver, loadFailed, loadQuestion]);
+  }, [pool, question, gameOver, loadFailed, loadQuestion]);
 
   useEffect(() => {
     return () => {
@@ -92,9 +90,7 @@ export default function StatGuesserGame() {
     if (correct) {
       const nextStreak = streak + 1;
       setStreak(nextStreak);
-      if (selectedLeague) {
-        setStatGuesserBestStreak(selectedLeague, nextStreak);
-      }
+      setStatGuesserBestStreak(scopeKey, nextStreak);
       advanceTimerRef.current = setTimeout(() => {
         setQuestion(null);
       }, REVEAL_DELAY_MS);
@@ -126,7 +122,7 @@ export default function StatGuesserGame() {
 
   if (isError || !pool) {
     return (
-      <p className="text-center font-bold text-[#FF5E5B] py-4">
+      <p className="text-center font-bold text-black py-4">
         Could not load player data. Try again later.
       </p>
     );
@@ -221,7 +217,7 @@ export default function StatGuesserGame() {
           />
           <Link
             href={statsLink}
-            className="text-sm font-bold text-black underline hover:text-[#FF5E5B]"
+            className="text-sm font-bold text-black underline hover:text-black"
           >
             See full stats →
           </Link>

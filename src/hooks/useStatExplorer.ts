@@ -36,23 +36,22 @@ async function runStatExplorerQuery(
 }
 
 export function useStatExplorerOptions(reportType: StatExplorerReportType) {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['statExplorerOptions', selectedLeague, reportType],
+    queryKey: ['statExplorerOptions', scopeKey, reportType],
     queryFn: () => fetchStatExplorerOptions(fetchWithLeague, reportType),
-    enabled: !!selectedLeague,
     staleTime: 5 * 60 * 1000,
   });
 }
 
 export function useStatExplorerQuery(request: StatExplorerRunRequest, enabled: boolean = true) {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery({
-    queryKey: ['statExplorerQuery', selectedLeague, request],
+    queryKey: ['statExplorerQuery', scopeKey, request],
     queryFn: () => runStatExplorerQuery(fetchWithLeague, request),
-    enabled: !!selectedLeague && enabled,
+    enabled: enabled,
     placeholderData: keepPreviousData,
   });
 }

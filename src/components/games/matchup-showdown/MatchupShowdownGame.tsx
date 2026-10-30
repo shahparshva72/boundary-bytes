@@ -21,10 +21,10 @@ function defaultRevealLabel(option: MatchupOption): string {
 }
 
 export default function MatchupShowdownGame() {
-  const { selectedLeague } = useLeagueContext();
+  const { scopeKey } = useLeagueContext();
   const { fetchWithLeague } = useLeagueAPI();
   const setMatchupBestScore = useGameStore((s) => s.setMatchupBestScore);
-  const bestScore = useGameStore((s) => (selectedLeague ? s.matchupBestScore[selectedLeague] : 0));
+  const bestScore = useGameStore((s) => s.matchupBestScore[scopeKey] ?? 0);
 
   const [round, setRound] = useState(1);
   const [score, setScore] = useState(0);
@@ -38,10 +38,6 @@ export default function MatchupShowdownGame() {
   const revealTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const loadRound = useCallback(async () => {
-    if (!selectedLeague) {
-      return;
-    }
-
     const requestId = ++loadRequestIdRef.current;
     setLoadingRound(true);
     setLoadError(false);
@@ -50,7 +46,7 @@ export default function MatchupShowdownGame() {
     setQuestion(null);
 
     try {
-      const seed = `${selectedLeague}-matchup-${round}-${Date.now()}`;
+      const seed = `${scopeKey}-matchup-${round}-${Date.now()}`;
       const response = (await fetchMatchupRound(fetchWithLeague, seed)) as MatchupRoundApiResponse;
       const next = mapMatchupRoundResponse(response);
 
@@ -69,14 +65,14 @@ export default function MatchupShowdownGame() {
         setLoadingRound(false);
       }
     }
-  }, [selectedLeague, round, fetchWithLeague]);
+  }, [scopeKey, round, fetchWithLeague]);
 
   useEffect(() => {
-    if (sessionComplete || loadError || !selectedLeague) {
+    if (sessionComplete || loadError) {
       return;
     }
     void loadRound();
-  }, [round, sessionComplete, loadError, selectedLeague, loadRound]);
+  }, [round, sessionComplete, loadError, loadRound]);
 
   useEffect(() => {
     return () => {
@@ -105,9 +101,7 @@ export default function MatchupShowdownGame() {
     revealTimeoutRef.current = setTimeout(() => {
       revealTimeoutRef.current = null;
       if (round >= TOTAL_ROUNDS) {
-        if (selectedLeague) {
-          setMatchupBestScore(selectedLeague, nextScore);
-        }
+        setMatchupBestScore(scopeKey, nextScore);
         setSessionComplete(true);
       } else {
         setRound((r) => r + 1);
@@ -155,7 +149,7 @@ export default function MatchupShowdownGame() {
   if (loadError || (!loadingRound && !question)) {
     return (
       <div className="flex flex-col items-center gap-3 py-4">
-        <p className="text-center font-bold text-[#FF5E5B]">
+        <p className="text-center font-bold text-black">
           Could not build a matchup round. Try again.
         </p>
         <Button variant="primary" onClick={handleRetry} className="!text-black">
@@ -207,7 +201,7 @@ export default function MatchupShowdownGame() {
       {revealed && (
         <Link
           href={getMatchupLink(question.batter, question.correctOpponent)}
-          className="text-sm font-bold text-black underline hover:text-[#FF5E5B]"
+          className="text-sm font-bold text-black underline hover:text-black"
         >
           See full matchup →
         </Link>

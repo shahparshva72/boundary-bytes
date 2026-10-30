@@ -37,7 +37,7 @@ const PlayTabs = ({ children, defaultTab = 'stat-guesser' }: PlayTabsProps) => {
               type="button"
               className={`${
                 activeGame === child.props.id
-                  ? 'bg-[#FF5E5B] text-white shadow-inset transform'
+                  ? 'bg-[#FF5E5B] text-black shadow-inset transform'
                   : 'bg-white text-black hover:bg-[#FFED66] hover:transform hover:translate-x-[1px] hover:translate-y-[1px]'
               } text-[10px] sm:text-xs md:text-sm lg:text-base font-black py-1.5 sm:py-2 md:py-2.5 px-2 sm:px-3 md:px-4 border-r-2 border-black last:border-r-0 transition-all duration-150 ease-in-out uppercase tracking-wide whitespace-nowrap flex-shrink-0`}
               onClick={() => setActiveGame(child.props.id)}

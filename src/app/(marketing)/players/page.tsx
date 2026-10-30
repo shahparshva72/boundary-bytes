@@ -25,7 +25,7 @@ export async function generateMetadata({
       ? `Cricket Players Directory — Page ${page} | Boundary Bytes`
       : 'Cricket Players Directory | Boundary Bytes';
   const description =
-    'Browse cricket player profiles and career statistics across WPL, IPL, BBL, WBBL and SA20.';
+    'Browse cricket player profiles and career statistics across T20 franchise and domestic leagues worldwide.';
 
   return {
     title,
@@ -66,7 +66,7 @@ export default async function PlayersDirectoryPage({
             Players Directory
           </h1>
           <p className="mt-2 text-sm sm:text-base font-bold text-black text-center">
-            Browse {totalPlayers} player profiles across WPL, IPL, BBL, WBBL and SA20.
+            Browse {totalPlayers} player profiles across T20 leagues worldwide.
           </p>
         </div>
 
@@ -96,7 +96,7 @@ export default async function PlayersDirectoryPage({
               <span className="text-sm sm:text-base font-black text-black block">
                 {player.playerName}
               </span>
-              <span className="text-xs font-bold text-black/70">{player.leagues.join(', ')}</span>
+              <span className="text-xs font-bold text-black">{player.leagues.join(', ')}</span>
             </Link>
           ))}
         </div>

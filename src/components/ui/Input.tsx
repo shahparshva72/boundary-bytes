@@ -21,7 +21,7 @@ const sizeStyles: Record<InputSize, string> = {
 };
 
 const baseStyles =
-  'w-full bg-white border-2 border-black font-medium placeholder:text-gray-500 focus:outline-none focus:ring-0 focus:border-black focus:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-shadow duration-150';
+  'w-full bg-white border-2 border-black font-medium placeholder:text-black/50 focus:outline-none focus:ring-0 focus:border-black focus:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-shadow duration-150';
 
 const Input = forwardRef<HTMLInputElement, InputProps>(
   ({ inputSize = 'md', error = false, className = '', ...props }, ref) => {

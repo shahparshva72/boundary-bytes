@@ -5,7 +5,6 @@ import { MoonLoader } from 'react-spinners';
 import Layout from '@/app/(app)/stats/components/Layout';
 import AiFeedback from '@/components/AiFeedback';
 import Tooltip from '@/components/ui/Tooltip';
-import { useLeagueContext } from '@/contexts/LeagueContext';
 import {
   RateLimitInfo,
   TextToSqlError,
@@ -30,8 +29,8 @@ const SUGGESTIONS: SuggestionSection[] = [
     queries: [
       'Virat Kohli runs in IPL 2023',
       'David Warner strike rate in BBL',
-      'Jasprit Bumrah economy rate in IPL 2022',
-      'Rohit Sharma sixes in IPL',
+      'Babar Azam runs in the PSL',
+      'How many runs has Kieron Pollard scored in his career?',
       'Smriti Mandhana runs in WPL 2023',
     ],
   },
@@ -41,9 +40,9 @@ const SUGGESTIONS: SuggestionSection[] = [
     queries: [
       'Top 10 run scorers in IPL',
       'Top 5 wicket takers in WPL',
-      'Most sixes in IPL 2023',
-      'Best economy rate in SA20',
-      'Highest strike rates in BBL',
+      'Most sixes across all T20 leagues',
+      "Most wickets in women's T20 leagues",
+      'Most wickets in the powerplay in The Hundred',
     ],
   },
   {
@@ -492,8 +491,8 @@ function QuerySuggestions({ onQueryClick }: QuerySuggestionsProps) {
       <div className="mt-1 sm:mt-2 p-2 sm:p-2.5 bg-[#FCD34D] border-2 border-black shadow-[1px_1px_0_#000] flex items-center justify-center">
         <span className="text-base sm:text-lg mr-1.5 sm:mr-2">✨</span>
         <p className="font-semibold text-black text-xs sm:text-sm text-center">
-          Pro Tip: Try asking about specific seasons (e.g., &quot;IPL 2023&quot;), player
-          comparisons, or team performance!
+          Pro Tip: Name a league and season (e.g., &quot;BBL 2023-24&quot;), or leave the league out
+          to search every men&apos;s league. Add &quot;women&apos;s&quot; for women&apos;s leagues.
         </p>
       </div>
     </div>
@@ -503,7 +502,6 @@ function QuerySuggestions({ onQueryClick }: QuerySuggestionsProps) {
 // -- Page --
 
 export default function TextToSqlPage() {
-  const { selectedLeague } = useLeagueContext();
   const { mutate, data, error, isPending, reset } = useTextToSql();
   const { data: rateLimit, isLoading: isRateLimitLoading } = useTextToSqlLimits();
   const [question, setQuestion] = useState('');
@@ -527,7 +525,7 @@ export default function TextToSqlPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setTouched(true);
-    if (!isValid || !selectedLeague || isDailyLimitReached) {
+    if (!isValid || isDailyLimitReached) {
       return;
     }
     mutate(question);
@@ -586,14 +584,11 @@ export default function TextToSqlPage() {
               aria-invalid={showValidationError}
             />
             <div className="flex justify-between items-center text-xs sm:text-sm font-mono">
-              <span className={question.length > CHAR_LIMIT ? 'text-red-600' : 'text-gray-500'}>
+              <span
+                className={question.length > CHAR_LIMIT ? 'text-black font-black' : 'text-black'}
+              >
                 {question.length}/{CHAR_LIMIT}
               </span>
-              {!selectedLeague && (
-                <span className="font-bold bg-[#FF9F1C] px-2 sm:px-3 py-1 border-2 border-black text-xs sm:text-sm text-black">
-                  Select a league first
-                </span>
-              )}
             </div>
             {showValidationError && (
               <div
@@ -606,10 +601,10 @@ export default function TextToSqlPage() {
             <div className="flex gap-1.5 sm:gap-2 flex-wrap">
               <button
                 type="submit"
-                disabled={!isValid || isPending || !selectedLeague || isDailyLimitReached}
+                disabled={!isValid || isPending || isDailyLimitReached}
                 className={`py-1.5 sm:py-2 px-2 sm:px-3 md:px-4 border-2 border-black transition-all font-semibold text-xs sm:text-sm ${
-                  !isValid || !selectedLeague || isPending || isDailyLimitReached
-                    ? 'bg-gray-400 text-white cursor-not-allowed shadow-none'
+                  !isValid || isPending || isDailyLimitReached
+                    ? 'bg-gray-400 text-black cursor-not-allowed shadow-none'
                     : 'bg-black text-white shadow-[1px_1px_0_#000] hover:shadow-[2px_2px_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 active:shadow-none active:translate-x-0.5 active:translate-y-0.5'
                 }`}
               >

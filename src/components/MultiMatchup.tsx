@@ -164,7 +164,7 @@ export default function MultiMatchup() {
 
       {error && (
         <Card className="mt-2 sm:mt-8 p-3 sm:p-6">
-          <p className="text-sm sm:text-2xl font-bold text-red-600">{error}</p>
+          <p className="text-sm sm:text-2xl font-bold text-black">{error}</p>
         </Card>
       )}
 
@@ -327,7 +327,7 @@ export default function MultiMatchup() {
 
       {noResults && (
         <Card className="mt-2 sm:mt-8 p-3 sm:p-6">
-          <p className="text-sm sm:text-lg font-bold text-gray-600 text-center">
+          <p className="text-sm sm:text-lg font-bold text-black text-center">
             No matchup data found for the selected players.
           </p>
         </Card>
@@ -349,7 +349,7 @@ function StatBox({
     <div
       className={`p-2 sm:p-3 border-2 border-black text-center ${highlight ? 'bg-white shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]' : 'bg-white/50'}`}
     >
-      <div className="text-[10px] sm:text-xs font-bold text-black/60 uppercase tracking-wider mb-0.5">
+      <div className="text-[10px] sm:text-xs font-bold text-black uppercase tracking-wider mb-0.5">
         {label}
       </div>
       <div className="text-base sm:text-xl font-black text-black font-mono">{value}</div>

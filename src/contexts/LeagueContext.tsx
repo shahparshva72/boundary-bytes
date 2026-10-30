@@ -1,73 +1,187 @@
 'use client';
 
 import { useQuery } from '@tanstack/react-query';
-import { createContext, type ReactNode, useCallback, useContext, useMemo, useState } from 'react';
-import { useLeagueURL } from '@/hooks/useLeagueURL';
-import { fetchLeagueConfigs, LEAGUE_CONFIGS } from '@/lib/league-config';
-import { League, LeagueContextType } from '@/types/league';
+import { parseAsArrayOf, parseAsString, parseAsStringLiteral, useQueryStates } from 'nuqs';
+import {
+  createContext,
+  type ReactNode,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useRef,
+} from 'react';
+import { FALLBACK_LEAGUE_CONFIGS, fetchLeagueConfigs } from '@/lib/league-config';
+import {
+  DEFAULT_SCOPE,
+  genderOfLeagues,
+  isDefaultScope,
+  sanitizeScope,
+  scopeDescription,
+  scopeKey,
+  scopeLabel,
+} from '@/lib/league-scope';
+import { useScopeStore } from '@/stores/useScopeStore';
+import { Gender, League, LeagueContextType, LeagueScope } from '@/types/league';
 
 const LeagueContext = createContext<LeagueContextType | undefined>(undefined);
+
+const scopeQueryParsers = {
+  gender: parseAsStringLiteral(['male', 'female'] as const),
+  leagues: parseAsArrayOf(parseAsString, ','),
+  // ?league=IPL links from before leagues could be combined.
+  league: parseAsString,
+};
+
+// The old league picker kept its choice here (zustand persist format).
+const LEGACY_LEAGUE_STORAGE_KEY = 'boundary-bytes-league';
+
+const readLegacyStoredLeague = (): League | null => {
+  try {
+    const raw = window.localStorage.getItem(LEGACY_LEAGUE_STORAGE_KEY);
+    if (!raw) {
+      return null;
+    }
+    window.localStorage.removeItem(LEGACY_LEAGUE_STORAGE_KEY);
+    return (JSON.parse(raw)?.state?.lastLeague as League | null) ?? null;
+  } catch {
+    return null;
+  }
+};
 
 interface LeagueProviderProps {
   children: ReactNode;
 }
 
 export const LeagueProvider = ({ children }: LeagueProviderProps) => {
-  const [isTransitioning, setIsTransitioning] = useState(false);
-  const { data: leagueConfigs = LEAGUE_CONFIGS } = useQuery({
+  const { data: fetchedConfigs, isFetched } = useQuery({
     queryKey: ['league-configs'],
     queryFn: fetchLeagueConfigs,
     staleTime: 5 * 60 * 1000,
   });
+  const leagueConfigs = fetchedConfigs ?? FALLBACK_LEAGUE_CONFIGS;
 
-  const {
-    selectedLeague,
-    selectLeague: urlSelectLeague,
-    resetLeagueSelection: urlReset,
-    isFirstVisit,
-    isHydrated,
-  } = useLeagueURL();
+  const [query, setQuery] = useQueryStates(scopeQueryParsers);
+  const storedScope = useScopeStore((s) => s.scope);
+  const setStoredScope = useScopeStore((s) => s.setScope);
 
-  const selectLeague = useCallback(
-    async (league: League): Promise<void> => {
-      setIsTransitioning(true);
+  const urlScope = useMemo<LeagueScope | null>(() => {
+    if (query.league) {
+      const gender = genderOfLeagues([query.league], leagueConfigs) ?? DEFAULT_SCOPE.gender;
+      return { gender, leagues: [query.league] };
+    }
+    if (query.gender || query.leagues?.length) {
+      const leagues = query.leagues ?? [];
+      const gender =
+        query.gender ?? genderOfLeagues(leagues, leagueConfigs) ?? DEFAULT_SCOPE.gender;
+      return { gender, leagues };
+    }
+    return null;
+  }, [query.league, query.gender, query.leagues, leagueConfigs]);
 
-      // Small delay for animation
-      await new Promise((resolve) => setTimeout(resolve, 300));
+  // Until the league list has loaded, unknown codes are kept rather than
+  // dropped, so a shared ?leagues=PSL link isn't lost on first render.
+  const scope = useMemo(() => {
+    const raw = urlScope ?? storedScope;
+    return isFetched ? sanitizeScope(raw, leagueConfigs) : raw;
+  }, [urlScope, storedScope, isFetched, leagueConfigs]);
 
-      await urlSelectLeague(league);
-      setIsTransitioning(false);
+  const writeScope = useCallback(
+    (next: LeagueScope) => {
+      setStoredScope(next);
+      void setQuery(
+        isDefaultScope(next)
+          ? { gender: null, leagues: null, league: null }
+          : {
+              gender: next.gender,
+              leagues: next.leagues.length > 0 ? next.leagues : null,
+              league: null,
+            },
+      );
     },
-    [urlSelectLeague],
+    [setQuery, setStoredScope],
   );
 
-  const resetLeagueSelection = useCallback((): void => {
-    urlReset();
-    setIsTransitioning(false);
-  }, [urlReset]);
+  // Load the visit's scope from sessionStorage. Rehydration finishes after
+  // the effects below have run, and would overwrite a scope they just saved
+  // from the URL (a link opened in a tab with an older session), so the URL's
+  // scope is applied again once it completes.
+  const urlScopeRef = useRef(urlScope);
+  urlScopeRef.current = urlScope;
+  useEffect(() => {
+    void Promise.resolve(useScopeStore.persist.rehydrate()).then(() => {
+      if (urlScopeRef.current) {
+        setStoredScope(urlScopeRef.current);
+      }
+    });
+  }, [setStoredScope]);
 
-  const leagueConfig = selectedLeague ? leagueConfigs[selectedLeague] : null;
+  // Rewrite legacy ?league=X links to the new parameters.
+  useEffect(() => {
+    if (query.league && urlScope) {
+      writeScope(urlScope);
+    }
+  }, [query.league, urlScope, writeScope]);
+
+  // Keep the visit's scope when the URL carries one (shared links, back/forward).
+  useEffect(() => {
+    if (urlScope && !query.league) {
+      setStoredScope(urlScope);
+    }
+  }, [urlScope, query.league, setStoredScope]);
+
+  // Navigation drops the query string: put the visit's scope back in the URL
+  // so the page can be shared as is.
+  useEffect(() => {
+    if (!urlScope && !isDefaultScope(storedScope)) {
+      writeScope(storedScope);
+    }
+  }, [urlScope, storedScope, writeScope]);
+
+  // Once: carry over a league chosen in the old picker.
+  useEffect(() => {
+    const legacy = readLegacyStoredLeague();
+    if (legacy && !urlScope) {
+      const gender = genderOfLeagues([legacy], FALLBACK_LEAGUE_CONFIGS) ?? DEFAULT_SCOPE.gender;
+      writeScope({ gender, leagues: [legacy] });
+    }
+    // Runs on mount only: it reads and deletes the old key.
+  }, []);
+
+  const setGender = useCallback(
+    (gender: Gender) => writeScope({ gender, leagues: [] }),
+    [writeScope],
+  );
+
+  const setLeagues = useCallback(
+    (leagues: League[]) => {
+      const gender = genderOfLeagues(leagues, leagueConfigs) ?? scope.gender;
+      writeScope({ gender, leagues: [...new Set(leagues)].sort() });
+    },
+    [leagueConfigs, scope.gender, writeScope],
+  );
+
+  const leaguesFor = useCallback(
+    (gender: Gender) =>
+      Object.values(leagueConfigs)
+        .filter((config) => config.gender === gender)
+        .sort((a, b) => a.fullName.localeCompare(b.fullName)),
+    [leagueConfigs],
+  );
 
   const contextValue = useMemo<LeagueContextType>(
     () => ({
-      selectedLeague,
-      isFirstVisit: isFirstVisit && isHydrated,
-      selectLeague,
-      resetLeagueSelection,
-      isTransitioning,
-      leagueConfig,
+      scope,
+      scopeKey: scopeKey(scope),
+      scopeLabel: scopeLabel(scope),
+      scopeDescription: scopeDescription(scope),
+      singleLeague: scope.leagues.length === 1 ? scope.leagues[0] : null,
+      setGender,
+      setLeagues,
       leagueConfigs,
+      leaguesFor,
     }),
-    [
-      selectedLeague,
-      isFirstVisit,
-      isHydrated,
-      selectLeague,
-      resetLeagueSelection,
-      isTransitioning,
-      leagueConfig,
-      leagueConfigs,
-    ],
+    [scope, setGender, setLeagues, leagueConfigs, leaguesFor],
   );
 
   return <LeagueContext.Provider value={contextValue}>{children}</LeagueContext.Provider>;

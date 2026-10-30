@@ -110,7 +110,7 @@ export default function RunScorers() {
                       <DataTableCell>
                         <Link
                           href={`/players/${slugify(player.player)}`}
-                          className="font-bold text-black hover:text-[#FF5E5B] hover:underline"
+                          className="font-bold text-black hover:text-black hover:underline"
                         >
                           {player.player}
                         </Link>

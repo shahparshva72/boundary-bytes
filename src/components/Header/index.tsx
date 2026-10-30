@@ -6,12 +6,12 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 import { featureGroups, isExplorePath, isPathActive, primaryNavigation } from '@/lib/navigation';
-import LeagueSwitcher from '../ui/LeagueSwitcher';
+import ScopeSwitcher from '../ui/ScopeSwitcher';
 import NavLink from './NavLink';
 
 const Header = () => {
   const pathname = usePathname();
-  const { selectedLeague, leagueConfig } = useLeagueContext();
+  const { scopeLabel } = useLeagueContext();
   const [isExploreOpen, setIsExploreOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const exploreTriggerRef = useRef<HTMLButtonElement>(null);
@@ -85,7 +85,7 @@ const Header = () => {
           className="group flex shrink-0 items-center gap-2 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-black"
           aria-label="Boundary Bytes home"
         >
-          <span className="grid size-10 place-items-center border-2 border-black bg-[#FF5E5B] text-base font-black shadow-[3px_3px_0_#000] transition-transform group-hover:-translate-y-0.5">
+          <span className="grid size-10 place-items-center border-2 border-black bg-[#FF5E5B] text-base font-black text-black shadow-[3px_3px_0_#000] transition-transform group-hover:-translate-y-0.5">
             BB
           </span>
           <span className="hidden font-black tracking-[-0.04em] text-black sm:block sm:text-lg xl:text-xl">
@@ -138,7 +138,7 @@ const Header = () => {
             </NavLink>
           </div>
 
-          {selectedLeague ? <LeagueSwitcher /> : null}
+          <ScopeSwitcher />
 
           <button
             ref={mobileTriggerRef}
@@ -182,7 +182,7 @@ const Header = () => {
                     }`}
                   >
                     <h2 className="font-black uppercase text-black">{group.label}</h2>
-                    <p className="mt-1 text-xs font-bold text-black/75">{group.description}</p>
+                    <p className="mt-1 text-xs font-bold text-black">{group.description}</p>
                   </div>
                   <div className="grid gap-1 p-2">
                     {group.items.map((item) => {
@@ -199,7 +199,7 @@ const Header = () => {
                           </span>
                           <span>
                             <span className="block text-sm font-black">{item.label}</span>
-                            <span className="block text-xs font-bold text-black/65">
+                            <span className="block text-xs font-bold text-black">
                               {item.description}
                             </span>
                           </span>
@@ -243,11 +243,7 @@ const Header = () => {
                 <p className="text-xl font-black tracking-tight text-black">
                   Explore Boundary Bytes
                 </p>
-                {selectedLeague && leagueConfig ? (
-                  <p className="text-xs font-black uppercase text-black/70">
-                    {leagueConfig.icon} {leagueConfig.name}
-                  </p>
-                ) : null}
+                <p className="text-xs font-black uppercase text-black">🏏 {scopeLabel}</p>
               </div>
               <button
                 ref={mobileCloseButtonRef}
@@ -295,7 +291,7 @@ const Header = () => {
               <div className="space-y-5">
                 {featureGroups.map((group) => (
                   <section key={group.label}>
-                    <h2 className="mb-2 text-xs font-black uppercase tracking-[0.16em] text-black/60">
+                    <h2 className="mb-2 text-xs font-black uppercase tracking-[0.16em] text-black">
                       {group.label}
                     </h2>
                     <div className="grid gap-1">

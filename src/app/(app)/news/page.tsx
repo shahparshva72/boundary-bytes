@@ -49,15 +49,14 @@ const fetchNews = async (
 };
 
 export default function NewsPage() {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
   const {
     data: newsResponse,
     isLoading,
     isError,
   } = useQuery({
-    queryKey: ['cricketNews', selectedLeague],
+    queryKey: ['cricketNews', scopeKey],
     queryFn: () => fetchNews(fetchWithLeague),
-    enabled: !!selectedLeague,
     refetchInterval: 5 * 60 * 1000,
     staleTime: 5 * 60 * 1000,
   });
@@ -132,10 +131,10 @@ export default function NewsPage() {
                     </div>
                   )}
                   <div className="p-3 flex flex-col flex-grow">
-                    <h2 className="text-lg font-black text-black mb-2 group-hover:text-[#FF5E5B] transition-colors line-clamp-3">
+                    <h2 className="text-lg font-black text-black mb-2 group-hover:text-black transition-colors line-clamp-3">
                       {item.title}
                     </h2>
-                    <time className="text-xs font-mono text-gray-600 mb-2 block">
+                    <time className="text-xs font-mono text-black mb-2 block">
                       {formatNewsDate(item.pubDate)}
                     </time>
                     <p className="font-mono text-black text-sm leading-relaxed line-clamp-3 flex-grow">

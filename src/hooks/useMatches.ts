@@ -56,11 +56,10 @@ export const fetchMatchesData = async (
 };
 
 export function useMatches(page = 1, season?: string) {
-  const { fetchWithLeague, selectedLeague } = useLeagueAPI();
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
   return useQuery<MatchesResponse>({
-    queryKey: ['matches', page, season, selectedLeague],
+    queryKey: ['matches', page, season, scopeKey],
     queryFn: () => fetchMatchesData(fetchWithLeague, page, season),
-    enabled: !!selectedLeague,
   });
 }

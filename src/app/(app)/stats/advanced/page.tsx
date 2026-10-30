@@ -16,6 +16,22 @@ import Layout from '../components/Layout';
 import StatsControls from '../components/StatsControls';
 import StatsDisplay from '../components/StatsDisplay';
 
+// Over sets that the phase picker produces. A request for exactly one of
+// these asks the API for the phase instead, which also covers The Hundred's
+// 5-ball sets; any other selection is 6-ball overs.
+const PHASE_OVERS: Record<'powerplay' | 'middle' | 'death', string> = {
+  powerplay: '1,2,3,4,5,6',
+  middle: '7,8,9,10,11,12,13,14,15',
+  death: '16,17,18,19,20',
+};
+
+const phaseForOvers = (overs: number[]) => {
+  const key = [...overs].sort((a, b) => a - b).join(',');
+  return (Object.keys(PHASE_OVERS) as (keyof typeof PHASE_OVERS)[]).find(
+    (phase) => PHASE_OVERS[phase] === key,
+  );
+};
+
 const fetchAdvancedStats = async (
   selectedOvers: number[],
   selectedPlayer: string | null,
@@ -26,8 +42,9 @@ const fetchAdvancedStats = async (
     throw new Error('Player and overs are required');
   }
 
+  const phase = phaseForOvers(selectedOvers);
   const params = new URLSearchParams({
-    overs: selectedOvers.join(','),
+    ...(phase ? { phase } : { overs: selectedOvers.join(',') }),
     playerType,
     ...(playerType === 'batter' ? { batter: selectedPlayer } : { bowler: selectedPlayer }),
   });
@@ -51,7 +68,7 @@ const AdvancedStatsPage = () => {
     ? { value: selectedPlayerValue, label: selectedPlayerValue }
     : null;
 
-  const { selectedLeague, leagueConfig } = useLeagueContext();
+  const { scopeKey, scopeDescription } = useLeagueContext();
   const { fetchWithLeague } = useLeagueAPI();
 
   const { data: battersData, isLoading: battersLoading, isError: battersError } = useBatters();
@@ -63,7 +80,7 @@ const AdvancedStatsPage = () => {
     isError: statsError,
     refetch,
   } = useQuery({
-    queryKey: ['advancedStats', selectedOvers, selectedPlayer?.value, playerType, selectedLeague],
+    queryKey: ['advancedStats', selectedOvers, selectedPlayer?.value, playerType, scopeKey],
     queryFn: () =>
       fetchAdvancedStats(selectedOvers, selectedPlayer?.value || null, playerType, fetchWithLeague),
     enabled: !!(selectedPlayer?.value && selectedOvers.length > 0),
@@ -82,12 +99,8 @@ const AdvancedStatsPage = () => {
 
   const handlePhaseSelection = (phase: { value: string; label: string } | null) => {
     let newOvers: number[] = [];
-    if (phase?.value === 'powerplay') {
-      newOvers = [1, 2, 3, 4, 5, 6];
-    } else if (phase?.value === 'middle') {
-      newOvers = [7, 8, 9, 10, 11, 12, 13, 14, 15];
-    } else if (phase?.value === 'death') {
-      newOvers = [16, 17, 18, 19, 20];
+    if (phase && phase.value in PHASE_OVERS) {
+      newOvers = PHASE_OVERS[phase.value as keyof typeof PHASE_OVERS].split(',').map(Number);
     }
     setQueryState({ overs: newOvers });
   };
@@ -112,19 +125,15 @@ const AdvancedStatsPage = () => {
 
   const phaseOptions = [
     { value: 'custom', label: 'Custom' },
-    { value: 'powerplay', label: 'Powerplay (1-6)' },
-    { value: 'middle', label: 'Middle (7-15)' },
-    { value: 'death', label: 'Death (16-20)' },
+    { value: 'powerplay', label: 'Powerplay' },
+    { value: 'middle', label: 'Middle overs' },
+    { value: 'death', label: 'Death overs' },
   ];
 
   const getCurrentPhase = () => {
-    const oversSet = [...selectedOvers].sort((a, b) => a - b).join(',');
-    if (oversSet === '1,2,3,4,5,6') {
-      return phaseOptions.find((p) => p.value === 'powerplay') || null;
-    } else if (oversSet === '7,8,9,10,11,12,13,14,15') {
-      return phaseOptions.find((p) => p.value === 'middle') || null;
-    } else if (oversSet === '16,17,18,19,20') {
-      return phaseOptions.find((p) => p.value === 'death') || null;
+    const phase = phaseForOvers(selectedOvers);
+    if (phase) {
+      return phaseOptions.find((p) => p.value === phase) || null;
     } else if (selectedOvers.length > 0) {
       return phaseOptions.find((p) => p.value === 'custom') || null;
     }
@@ -136,9 +145,7 @@ const AdvancedStatsPage = () => {
   const isLoading = battersLoading || bowlersLoading;
   const isError = battersError || bowlersError;
 
-  const description = leagueConfig
-    ? `Get Advanced ${leagueConfig.name} Stats for players performance overwise.`
-    : 'Get Advanced Cricket Stats for players performance overwise.';
+  const description = `Advanced stats for players by over and phase across ${scopeDescription}. Powerplay and death cover The Hundred's 5-ball sets too; specific overs count 6-ball overs.`;
 
   return (
     <Layout title="Advanced Stats" description={description} error={isError || statsError}>
@@ -160,7 +167,7 @@ const AdvancedStatsPage = () => {
         isLoading={isLoading}
       />
       {statsError && (
-        <div className="w-full max-w-2xl mt-4 p-4 bg-red-100 border-2 border-red-500 text-red-700 font-bold">
+        <div className="w-full max-w-2xl mt-4 p-4 bg-red-100 border-2 border-red-500 text-black font-bold">
           Error loading stats:{' '}
           {typeof statsError === 'string' ? statsError : 'Failed to load advanced stats'}
         </div>

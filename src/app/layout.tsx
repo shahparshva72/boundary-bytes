@@ -15,7 +15,7 @@ const jetBrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'Boundary Bytes | Cricket Stats Query Platform',
   description:
-    'Discover comprehensive cricket statistics with Boundary Bytes. Access WPL and IPL match scores, player stats, and get detailed insights',
+    "Discover comprehensive cricket statistics with Boundary Bytes. Match scores, player stats and insights from T20 franchise and domestic leagues around the world, men's and women's.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
