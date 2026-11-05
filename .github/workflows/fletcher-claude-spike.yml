@@ -6,6 +6,7 @@
 # POST /runner/v1/claim. It runs Fletcher's spike script, which builds the
 # production prompt and checks out the pull request under review. Nothing
 # is posted to the pull request; the review lands in the job summary.
+# Claude Code runs as the unmodified CLI (see the review step for why).
 name: Fletcher Claude runner spike
 
 on:
@@ -23,7 +24,6 @@ jobs:
     permissions:
       contents: read
       pull-requests: read
-      id-token: write
     env:
       # The pull request to review. Empty reviews this one instead.
       TARGET_PR: "62"
@@ -57,15 +57,9 @@ jobs:
             --workdir "$GITHUB_WORKSPACE" \
             --bundle-only
           bundle="$GITHUB_WORKSPACE.fletcher"
-          delimiter="EOF_$(openssl rand -hex 16)"
           {
             echo "pr=$pr"
             echo "bundle=$bundle"
-            echo "schema=$(jq -c . "$bundle/schema.json")"
-            echo "prompt<<$delimiter"
-            cat "$bundle/prompt.md"
-            echo
-            echo "$delimiter"
           } >> "$GITHUB_OUTPUT"
           {
             echo "### Bundle for #$pr"
@@ -74,37 +68,44 @@ jobs:
             echo "- checkout: $(git -C "$GITHUB_WORKSPACE" rev-parse HEAD)"
           } >> "$GITHUB_STEP_SUMMARY"
 
+      # The unmodified Claude Code CLI, not claude-code-action: the action
+      # passes its prompt input through the environment, and a 290 KB prompt
+      # fails with "Argument list too long" (Linux caps one variable at
+      # 128 KiB). The CLI reads the prompt on stdin instead. The token is in
+      # this step's environment only.
       - name: Review with Claude Code on the subscription
         id: claude
-        uses: anthropics/claude-code-action@v1
-        with:
-          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          github_token: ${{ github.token }}
-          prompt: ${{ steps.bundle.outputs.prompt }}
-          claude_args: |
-            --model claude-sonnet-5-5
-            --max-turns 20
-            --append-system-prompt-file ${{ steps.bundle.outputs.bundle }}/system.md
-            --allowedTools "Read,Grep,Glob"
-            --disallowedTools "Bash,Edit,Write,WebFetch,WebSearch"
-            --json-schema '${{ steps.bundle.outputs.schema }}'
+        working-directory: ${{ github.workspace }}
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC: "1"
+          BUNDLE: ${{ steps.bundle.outputs.bundle }}
+        run: |
+          npm install --global --silent @anthropic-ai/claude-code@2.1.318
+          claude -p \
+            --append-system-prompt-file "$BUNDLE/system.md" \
+            --output-format json \
+            --json-schema "$(jq -c . "$BUNDLE/schema.json")" \
+            --tools "Read,Grep,Glob" \
+            --allowedTools "Read,Grep,Glob" \
+            --permission-mode dontAsk \
+            --max-turns 20 \
+            --model claude-sonnet-5-5 \
+            --setting-sources project \
+            --strict-mcp-config \
+            --no-session-persistence \
+            < "$BUNDLE/prompt.md" > "$BUNDLE/result.json"
+          {
+            echo "### Claude Code"
+            jq -r '"- \(.subtype), \(.num_turns) turns, \(.duration_ms / 1000 | floor)s, $\(.total_cost_usd) API-equivalent"' "$BUNDLE/result.json"
+          } >> "$GITHUB_STEP_SUMMARY"
+          jq -e '.is_error == false and .structured_output != null' "$BUNDLE/result.json" > /dev/null
+          jq -c .structured_output "$BUNDLE/result.json" > "$RUNNER_TEMP/structured_output.json"
+          echo "- structured_output: $(wc -c < "$RUNNER_TEMP/structured_output.json") bytes" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Present the review as Fletcher would post it
-        if: always() && steps.bundle.outcome == 'success'
         working-directory: ${{ runner.temp }}/fletcher
-        env:
-          STRUCTURED_OUTPUT: ${{ steps.claude.outputs.structured_output }}
-          CLAUDE_OUTCOME: ${{ steps.claude.outcome }}
         run: |
-          {
-            echo "### Claude Code step: $CLAUDE_OUTCOME"
-            echo "- structured_output: ${#STRUCTURED_OUTPUT} bytes"
-          } >> "$GITHUB_STEP_SUMMARY"
-          if [ -z "$STRUCTURED_OUTPUT" ]; then
-            echo "No structured_output from the action." >> "$GITHUB_STEP_SUMMARY"
-            exit 1
-          fi
-          printf '%s' "$STRUCTURED_OUTPUT" > "$RUNNER_TEMP/structured_output.json"
           pnpm --filter @not-quite-my-tempo/api spike:claude-review \
             --pr "$GITHUB_REPOSITORY#${{ steps.bundle.outputs.pr }}" \
             --config "$RUNNER_TEMP/fletcher.json" \
