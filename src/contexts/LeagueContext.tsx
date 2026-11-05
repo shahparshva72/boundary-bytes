@@ -105,23 +105,32 @@ export const LeagueProvider = ({ children }: LeagueProviderProps) => {
   // Load the visit's scope from sessionStorage. Rehydration finishes after
   // the effects below have run, and would overwrite a scope they just saved
   // from the URL (a link opened in a tab with an older session), so the URL's
-  // scope is applied again once it completes.
+  // scope is applied again once it completes. A legacy ?league=X scope is
+  // left to the rewrite below: before the league list loads, its gender is a
+  // guess, and a navigation in that window would put the guess in the URL.
   const urlScopeRef = useRef(urlScope);
-  urlScopeRef.current = urlScope;
+  const legacyLeagueRef = useRef(query.league);
+  useEffect(() => {
+    urlScopeRef.current = urlScope;
+    legacyLeagueRef.current = query.league;
+  }, [urlScope, query.league]);
   useEffect(() => {
     void Promise.resolve(useScopeStore.persist.rehydrate()).then(() => {
-      if (urlScopeRef.current) {
+      if (urlScopeRef.current && !legacyLeagueRef.current) {
         setStoredScope(urlScopeRef.current);
       }
     });
   }, [setStoredScope]);
 
-  // Rewrite legacy ?league=X links to the new parameters.
+  // Rewrite legacy ?league=X links to the new parameters once the league
+  // list has loaded. Before that only the fallback leagues are known, so a
+  // league only the API serves would be saved under the default gender, and
+  // sanitizeScope would then drop it.
   useEffect(() => {
-    if (query.league && urlScope) {
+    if (isFetched && query.league && urlScope) {
       writeScope(urlScope);
     }
-  }, [query.league, urlScope, writeScope]);
+  }, [isFetched, query.league, urlScope, writeScope]);
 
   // Keep the visit's scope when the URL carries one (shared links, back/forward).
   useEffect(() => {
@@ -138,15 +147,21 @@ export const LeagueProvider = ({ children }: LeagueProviderProps) => {
     }
   }, [urlScope, storedScope, writeScope]);
 
-  // Once: carry over a league chosen in the old picker.
+  // Once: carry over a league chosen in the old picker, after the league list
+  // has loaded so its gender is known (see the legacy link rewrite above).
+  const legacyLeagueCarried = useRef(false);
   useEffect(() => {
+    if (!isFetched || legacyLeagueCarried.current) {
+      return;
+    }
+    legacyLeagueCarried.current = true;
+    // Reads and deletes the old key, so it must run only once.
     const legacy = readLegacyStoredLeague();
     if (legacy && !urlScope) {
-      const gender = genderOfLeagues([legacy], FALLBACK_LEAGUE_CONFIGS) ?? DEFAULT_SCOPE.gender;
+      const gender = genderOfLeagues([legacy], leagueConfigs) ?? DEFAULT_SCOPE.gender;
       writeScope({ gender, leagues: [legacy] });
     }
-    // Runs on mount only: it reads and deletes the old key.
-  }, []);
+  }, [isFetched, leagueConfigs, urlScope, writeScope]);
 
   const setGender = useCallback(
     (gender: Gender) => writeScope({ gender, leagues: [] }),
