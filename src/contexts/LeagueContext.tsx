@@ -105,12 +105,18 @@ export const LeagueProvider = ({ children }: LeagueProviderProps) => {
   // Load the visit's scope from sessionStorage. Rehydration finishes after
   // the effects below have run, and would overwrite a scope they just saved
   // from the URL (a link opened in a tab with an older session), so the URL's
-  // scope is applied again once it completes.
+  // scope is applied again once it completes. A legacy ?league=X scope is
+  // left to the rewrite below: before the league list loads, its gender is a
+  // guess, and a navigation in that window would put the guess in the URL.
   const urlScopeRef = useRef(urlScope);
-  urlScopeRef.current = urlScope;
+  const legacyLeagueRef = useRef(query.league);
+  useEffect(() => {
+    urlScopeRef.current = urlScope;
+    legacyLeagueRef.current = query.league;
+  }, [urlScope, query.league]);
   useEffect(() => {
     void Promise.resolve(useScopeStore.persist.rehydrate()).then(() => {
-      if (urlScopeRef.current) {
+      if (urlScopeRef.current && !legacyLeagueRef.current) {
         setStoredScope(urlScopeRef.current);
       }
     });
