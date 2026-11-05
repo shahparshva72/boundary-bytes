@@ -1,0 +1,113 @@
+# Spike for shahparshva72/not-quite-my-tempo#33: a Fletcher review run on the
+# repository owner's Claude subscription inside this repo's own Actions.
+# Throwaway. Don't merge.
+#
+# The "Build the review bundle" step stands in for Fletcher's future
+# POST /runner/v1/claim. It runs Fletcher's spike script, which builds the
+# production prompt and checks out the pull request under review. Nothing
+# is posted to the pull request; the review lands in the job summary.
+name: Fletcher Claude runner spike
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+concurrency:
+  group: fletcher-claude-spike-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: read
+      pull-requests: read
+      id-token: write
+    env:
+      # The pull request to review. Empty reviews this one instead.
+      TARGET_PR: "62"
+      FLETCHER_REF: claude-subscription-runner-spike
+      GH_TOKEN: ${{ github.token }}
+      GITHUB_TOKEN: ${{ github.token }}
+    steps:
+      - name: Get Fletcher
+        run: |
+          git clone --quiet --depth 1 --branch "$FLETCHER_REF" \
+            https://github.com/shahparshva72/not-quite-my-tempo.git "$RUNNER_TEMP/fletcher"
+          npm install --global --silent pnpm@12.10.1
+          cd "$RUNNER_TEMP/fletcher" && pnpm install --frozen-lockfile --silent
+
+      - name: Build the review bundle (stands in for the claim endpoint)
+        id: bundle
+        working-directory: ${{ runner.temp }}/fletcher
+        run: |
+          pr="${TARGET_PR:-${{ github.event.pull_request.number }}}"
+          cat > "$RUNNER_TEMP/fletcher.json" <<'JSON'
+          {
+            "intensity": "carnegie",
+            "tone": "ruthless",
+            "severityThreshold": "warning",
+            "ignore": ["**/*.lock", "pnpm-lock.yaml", "package-lock.json"]
+          }
+          JSON
+          pnpm --filter @not-quite-my-tempo/api spike:claude-review \
+            --pr "$GITHUB_REPOSITORY#$pr" \
+            --config "$RUNNER_TEMP/fletcher.json" \
+            --workdir "$GITHUB_WORKSPACE" \
+            --bundle-only
+          bundle="$GITHUB_WORKSPACE.fletcher"
+          delimiter="EOF_$(openssl rand -hex 16)"
+          {
+            echo "pr=$pr"
+            echo "bundle=$bundle"
+            echo "schema=$(jq -c . "$bundle/schema.json")"
+            echo "prompt<<$delimiter"
+            cat "$bundle/prompt.md"
+            echo
+            echo "$delimiter"
+          } >> "$GITHUB_OUTPUT"
+          {
+            echo "### Bundle for #$pr"
+            echo "- prompt.md: $(wc -c < "$bundle/prompt.md") bytes"
+            echo "- system.md: $(wc -c < "$bundle/system.md") bytes"
+            echo "- checkout: $(git -C "$GITHUB_WORKSPACE" rev-parse HEAD)"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Review with Claude Code on the subscription
+        id: claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: ${{ steps.bundle.outputs.prompt }}
+          claude_args: |
+            --model claude-sonnet-5-5
+            --max-turns 20
+            --append-system-prompt-file ${{ steps.bundle.outputs.bundle }}/system.md
+            --allowedTools "Read,Grep,Glob"
+            --disallowedTools "Bash,Edit,Write,WebFetch,WebSearch"
+            --json-schema '${{ steps.bundle.outputs.schema }}'
+
+      - name: Present the review as Fletcher would post it
+        if: always() && steps.bundle.outcome == 'success'
+        working-directory: ${{ runner.temp }}/fletcher
+        env:
+          STRUCTURED_OUTPUT: ${{ steps.claude.outputs.structured_output }}
+          CLAUDE_OUTCOME: ${{ steps.claude.outcome }}
+        run: |
+          {
+            echo "### Claude Code step: $CLAUDE_OUTCOME"
+            echo "- structured_output: ${#STRUCTURED_OUTPUT} bytes"
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ -z "$STRUCTURED_OUTPUT" ]; then
+            echo "No structured_output from the action." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+          printf '%s' "$STRUCTURED_OUTPUT" > "$RUNNER_TEMP/structured_output.json"
+          pnpm --filter @not-quite-my-tempo/api spike:claude-review \
+            --pr "$GITHUB_REPOSITORY#${{ steps.bundle.outputs.pr }}" \
+            --config "$RUNNER_TEMP/fletcher.json" \
+            --workdir "$GITHUB_WORKSPACE" \
+            --from-output "$RUNNER_TEMP/structured_output.json"
+          cat "${{ steps.bundle.outputs.bundle }}/review.md" >> "$GITHUB_STEP_SUMMARY"
