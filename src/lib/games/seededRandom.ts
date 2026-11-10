@@ -3,6 +3,7 @@ export interface SeededRandom {
   nextInt(max: number): number;
   pick<T>(array: T[]): T;
   shuffle<T>(array: T[]): T[];
+  sample<T>(array: T[], count: number): T[];
 }
 
 function hashSeed(seed: string): number {
@@ -46,15 +47,14 @@ export function createSeededRandom(seed: string): SeededRandom {
       }
       return copy;
     },
+    sample<T>(array: T[], count: number): T[] {
+      return array.sort(() => next() - 0.5).slice(0, count);
+    },
   };
 }
 
 export function getLocalDateISO(): string {
-  const now = new Date();
-  const year = now.getFullYear();
-  const month = String(now.getMonth() + 1).padStart(2, '0');
-  const day = String(now.getDate()).padStart(2, '0');
-  return `${year}-${month}-${day}`;
+  return new Date().toISOString().slice(0, 10);
 }
 
 export function getMsUntilNextLocalDay(): number {
