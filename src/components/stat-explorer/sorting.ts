@@ -9,10 +9,12 @@ export type StatExplorerSortState = {
 
 const NON_SORTABLE_COLUMN_KEYS = new Set(['player', 'team']);
 
+/** Whether a column offers sorting; identity columns do not. */
 export function isColumnSortable(columnKey: string): boolean {
   return !NON_SORTABLE_COLUMN_KEYS.has(columnKey.toLowerCase());
 }
 
+/** The sort state from the URL, or null when it names no sortable column. */
 export function resolveSortState(
   columns: StatExplorerColumn[],
   sortKey: string | null,
@@ -31,6 +33,7 @@ export function resolveSortState(
   return { key: normalizedSortKey, direction: sortDirection };
 }
 
+/** The sort state after a click on a column header. */
 export function getNextSortState(
   columnKey: string,
   currentSortState: StatExplorerSortState | null,
