@@ -89,7 +89,7 @@ jobs:
             --no-session-persistence \
             < "$dir/prompt.md" > "$dir/result.json" || status=$?
           # Say why there is no review: Claude Code reports it on stdout.
-          if ! jq -e '.is_error == false and .structured_output != null' "$dir/result.json" > /dev/null; then
+          if [ "$status" -ne 0 ] || ! jq -e '.is_error == false and .structured_output != null' "$dir/result.json" > /dev/null; then
             reason=$(jq -r '[.subtype, .result] | map(select(. != null)) | join(": ")' \
               "$dir/result.json" 2>/dev/null | tr '\n' ' ' | head -c 400 || true)
             echo "::error::Claude Code produced no review (exit $status). ${reason:-It printed no result.}"
