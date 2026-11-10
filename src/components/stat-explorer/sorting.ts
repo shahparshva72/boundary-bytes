@@ -28,7 +28,7 @@ export function resolveSortState(
     return null;
   }
 
-  return { key: matchedColumn.key, direction: sortDirection };
+  return { key: normalizedSortKey, direction: sortDirection };
 }
 
 export function getNextSortState(
