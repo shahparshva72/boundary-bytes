@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { parseAsArrayOf, parseAsInteger, useQueryState } from 'nuqs';
 import { useRunScorers } from '@/hooks/useStatsAPI';
-import { slugify } from '@/lib/slugify';
+import { playerProfilePath } from '@/lib/slugify';
 import {
   Card,
   CardContent,
@@ -109,7 +109,7 @@ export default function RunScorers() {
                       <DataTableCell>{(currentPage - 1) * PAGE_SIZE + index + 1}</DataTableCell>
                       <DataTableCell>
                         <Link
-                          href={`/players/${slugify(player.player)}`}
+                          href={playerProfilePath(player.player)}
                           className="font-bold text-black hover:text-black hover:underline"
                         >
                           {player.player}

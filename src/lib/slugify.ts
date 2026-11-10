@@ -6,3 +6,8 @@ export function slugify(name: string): string {
     .replace(/^-|-$/g, '')
     .toLowerCase();
 }
+
+/** The path of a player's public profile page. */
+export function playerProfilePath(name: string): string {
+  return `/players/${slugify(name)}`;
+}

@@ -10,7 +10,7 @@ import {
   XAxis,
   YAxis,
 } from 'recharts';
-import { slugify } from '@/lib/slugify';
+import { playerProfilePath } from '@/lib/slugify';
 
 interface ProgressionPoint {
   over: number;
@@ -80,7 +80,7 @@ export default function PlayerProgressionChart({ data, player }: PlayerProgressi
     <div className="w-full bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] p-4">
       <div className="mb-4">
         <h3 className="text-lg font-bold text-black mb-2">
-          <Link href={`/players/${slugify(player)}`} className="hover:text-black hover:underline">
+          <Link href={playerProfilePath(player)} className="hover:text-black hover:underline">
             {player}
           </Link>{' '}
           - Strike Rate Progression

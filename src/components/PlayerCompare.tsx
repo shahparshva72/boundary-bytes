@@ -5,7 +5,7 @@ import { parseAsString, parseAsStringLiteral, useQueryState } from 'nuqs';
 import { useMemo } from 'react';
 import { useBatters, useBowlers } from '@/hooks/usePlayersAPI';
 import { usePlayerComparison, useSeasons } from '@/hooks/useStatsAPI';
-import { slugify } from '@/lib/slugify';
+import { playerProfilePath } from '@/lib/slugify';
 import type { ComparedPlayer } from '@/types/PlayerComparison';
 import {
   Button,
@@ -194,7 +194,7 @@ export default function PlayerCompare() {
                       <DataTableRow key={player.name}>
                         <DataTableCell className="font-bold">
                           <Link
-                            href={`/players/${slugify(player.name)}`}
+                            href={playerProfilePath(player.name)}
                             className="text-black hover:text-black hover:underline"
                           >
                             {player.name}
@@ -262,7 +262,7 @@ export default function PlayerCompare() {
                       <DataTableRow key={player.name}>
                         <DataTableCell className="font-bold">
                           <Link
-                            href={`/players/${slugify(player.name)}`}
+                            href={playerProfilePath(player.name)}
                             className="text-black hover:text-black hover:underline"
                           >
                             {player.name}
