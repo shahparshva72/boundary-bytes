@@ -6,6 +6,8 @@ import {
   CircleDot,
   Gauge,
   GitCompareArrows,
+  Globe,
+  MapPin,
   Newspaper,
   Search,
   Sparkles,
@@ -126,6 +128,18 @@ export const featureGroups: NavigationGroup[] = [
         href: '/stats?tab=Team+Run+Rate',
         description: 'Track scoring pace through an innings',
         icon: Gauge,
+      },
+      {
+        label: 'Venues',
+        href: '/stats?tab=Venues',
+        description: 'Scoring and chasing records by ground',
+        icon: MapPin,
+      },
+      {
+        label: 'Leagues',
+        href: '/stats?tab=Leagues',
+        description: 'Compare how each league scores',
+        icon: Globe,
       },
       {
         label: 'Wicket Types',

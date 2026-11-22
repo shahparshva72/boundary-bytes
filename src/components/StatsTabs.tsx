@@ -17,6 +17,10 @@ const PlayerCompare = dynamic(() => import('@/components/PlayerCompare'), { load
 const RunScorers = dynamic(() => import('@/components/RunScorers'), { loading: TabLoading });
 const WicketTakers = dynamic(() => import('@/components/WicketTakers'), { loading: TabLoading });
 const PhaseLeaders = dynamic(() => import('@/components/PhaseLeaders'), { loading: TabLoading });
+const VenueStats = dynamic(() => import('@/components/VenueStats'), { loading: TabLoading });
+const LeagueComparison = dynamic(() => import('@/components/LeagueComparison'), {
+  loading: TabLoading,
+});
 const TeamWins = dynamic(() => import('@/components/TeamWins'), { loading: TabLoading });
 const BowlingWicketTypes = dynamic(() => import('@/components/BowlingWicketTypes'), {
   loading: TabLoading,
@@ -58,6 +62,12 @@ export default function StatsTabs() {
       </Tab>
       <Tab label="Team Run Rate">
         <TeamRunRateTab />
+      </Tab>
+      <Tab label="Venues">
+        <VenueStats />
+      </Tab>
+      <Tab label="Leagues">
+        <LeagueComparison />
       </Tab>
     </Tabs>
   );
