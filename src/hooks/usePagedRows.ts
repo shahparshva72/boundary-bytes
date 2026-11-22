@@ -9,11 +9,13 @@ export function usePagedRows<T>(rows: T[] | undefined, label: (row: T) => string
   const [search, setSearchValue] = useState('');
   const [page, setPage] = useState(1);
 
+  const isPaged = (rows?.length ?? 0) > pageSize;
+
   const filtered = useMemo(() => {
     const ranked: RankedRow<T>[] = (rows ?? []).map((row, index) => ({ row, rank: index + 1 }));
-    const term = search.trim().toLowerCase();
+    const term = isPaged ? search.trim().toLowerCase() : '';
     return term ? ranked.filter(({ row }) => label(row).toLowerCase().includes(term)) : ranked;
-  }, [rows, search, label]);
+  }, [rows, search, label, isPaged]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
   const currentPage = Math.min(page, totalPages);
@@ -29,7 +31,6 @@ export function usePagedRows<T>(rows: T[] | undefined, label: (row: T) => string
     totalPages,
     pageRows: filtered.slice((currentPage - 1) * pageSize, currentPage * pageSize),
     total: rows?.length ?? 0,
-    isPaged: (rows?.length ?? 0) > pageSize,
-    pageSize,
+    isPaged,
   };
 }

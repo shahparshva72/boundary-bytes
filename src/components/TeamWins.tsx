@@ -100,11 +100,11 @@ export default function TeamWins() {
                 )}
               </DataTableBody>
             </DataTable>
-            {table.isPaged && (
+            {table.totalPages > 1 && (
               <Pagination
                 currentPage={table.page}
                 totalPages={table.totalPages}
-                skipSize={table.pageSize}
+                skipSize={5}
                 onPageChange={table.setPage}
               />
             )}
