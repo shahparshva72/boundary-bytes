@@ -126,7 +126,7 @@ export default function StatExplorerBuilder() {
     if (filters.phase) {
       f.phase = filters.phase;
     }
-    if (filters.minBalls) {
+    if (filters.minBalls && filters.minBalls > 0) {
       f.minBalls = filters.minBalls;
     }
     return f;

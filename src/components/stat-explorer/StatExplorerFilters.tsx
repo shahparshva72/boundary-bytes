@@ -472,7 +472,9 @@ export default function StatExplorerFilters({
                   options={minBallsOptions}
                   value={
                     minBallsOptions.find((option) => Number(option.value) === filters.minBalls) ??
-                    null
+                    (filters.minBalls
+                      ? { value: String(filters.minBalls), label: `${filters.minBalls}+ balls` }
+                      : null)
                   }
                   onChange={(val) => updateFilter('minBalls', val ? Number(val.value) : undefined)}
                   placeholder="No minimum..."
