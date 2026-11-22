@@ -1,5 +1,12 @@
 import Link from 'next/link';
-import type { PlayerProfile, PlayerProfileLeagueStats } from '@/services/playerService';
+import type {
+  PlayerBattingSplit,
+  PlayerBowlingSplit,
+  PlayerFormBatting,
+  PlayerFormBowling,
+  PlayerProfile,
+  PlayerProfileLeagueStats,
+} from '@/services/playerService';
 
 interface PlayerProfileContentProps {
   profile: PlayerProfile;
@@ -145,6 +152,211 @@ function LeagueStatCard({
   );
 }
 
+function formatDate(date: string): string {
+  return new Date(`${date}T00:00:00Z`).toLocaleDateString('en-GB', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
+}
+
+function RecentFormCard({
+  batting,
+  bowling,
+}: {
+  batting: PlayerFormBatting[];
+  bowling: PlayerFormBowling[];
+}) {
+  return (
+    <div className="bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] p-3 sm:p-4 md:p-5">
+      <h2 className="text-lg sm:text-xl md:text-2xl font-black text-black mb-3 text-center uppercase tracking-tight">
+        Recent Form
+      </h2>
+
+      {batting.length > 0 && (
+        <div className="mb-3 sm:mb-4">
+          <h3 className="text-base sm:text-lg font-black text-black mb-2 bg-[#4ECDC4] inline-block px-2 py-1 border-2 border-black">
+            Last {batting.length} Batting Innings
+          </h3>
+          <ul className="flex flex-wrap gap-1.5 mb-2" aria-label="Recent scores, latest first">
+            {batting.map((innings) => (
+              <li
+                key={`${innings.matchId}-chip`}
+                className={`border-2 border-black px-2 py-0.5 text-sm font-mono font-bold text-black ${
+                  innings.runs >= 50
+                    ? 'bg-[#FFC700]'
+                    : innings.runs >= 30
+                      ? 'bg-[#FFFEE0]'
+                      : 'bg-white'
+                }`}
+              >
+                {innings.runs}
+                {innings.notOut ? '*' : ''}
+              </li>
+            ))}
+          </ul>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse min-w-[500px]">
+              <thead>
+                <tr className="bg-[#4ECDC4]">
+                  <TableHead>Date</TableHead>
+                  <TableHead>League</TableHead>
+                  <TableHead>Vs</TableHead>
+                  <TableHead>Runs</TableHead>
+                  <TableHead>Balls</TableHead>
+                  <TableHead>4s</TableHead>
+                  <TableHead>6s</TableHead>
+                  <TableHead>SR</TableHead>
+                </tr>
+              </thead>
+              <tbody>
+                {batting.map((innings) => (
+                  <tr key={innings.matchId} className="bg-white">
+                    <TableCell>{formatDate(innings.date)}</TableCell>
+                    <TableCell>{innings.league}</TableCell>
+                    <TableCell>{innings.opposition}</TableCell>
+                    <TableCell>
+                      {innings.runs}
+                      {innings.notOut ? '*' : ''}
+                    </TableCell>
+                    <TableCell>{innings.balls}</TableCell>
+                    <TableCell>{innings.fours}</TableCell>
+                    <TableCell>{innings.sixes}</TableCell>
+                    <TableCell>
+                      {innings.balls > 0 ? formatNumber(innings.strikeRate) : '-'}
+                    </TableCell>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
+      {bowling.length > 0 && (
+        <div>
+          <h3 className="text-base sm:text-lg font-black text-black mb-2 bg-[#FF5E5B] inline-block px-2 py-1 border-2 border-black">
+            Last {bowling.length} Bowling Innings
+          </h3>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse min-w-[500px]">
+              <thead>
+                <tr className="bg-[#FF5E5B]">
+                  <TableHead>Date</TableHead>
+                  <TableHead>League</TableHead>
+                  <TableHead>Vs</TableHead>
+                  <TableHead>Figures</TableHead>
+                  <TableHead>Overs</TableHead>
+                  <TableHead>Dots</TableHead>
+                </tr>
+              </thead>
+              <tbody>
+                {bowling.map((innings) => (
+                  <tr key={innings.matchId} className="bg-white">
+                    <TableCell>{formatDate(innings.date)}</TableCell>
+                    <TableCell>{innings.league}</TableCell>
+                    <TableCell>{innings.opposition}</TableCell>
+                    <TableCell>{`${innings.wickets}/${innings.runsConceded}`}</TableCell>
+                    <TableCell>{innings.overs}</TableCell>
+                    <TableCell>{innings.dotBalls}</TableCell>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function InningsSplitsCard({
+  batting,
+  bowling,
+}: {
+  batting: PlayerBattingSplit[];
+  bowling: PlayerBowlingSplit[];
+}) {
+  return (
+    <div className="bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] p-3 sm:p-4 md:p-5">
+      <h2 className="text-lg sm:text-xl md:text-2xl font-black text-black mb-3 text-center uppercase tracking-tight">
+        Setting vs Chasing
+      </h2>
+
+      {batting.length > 0 && (
+        <div className="mb-3 sm:mb-4">
+          <h3 className="text-base sm:text-lg font-black text-black mb-2 bg-[#4ECDC4] inline-block px-2 py-1 border-2 border-black">
+            Batting
+          </h3>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse min-w-[500px]">
+              <thead>
+                <tr className="bg-[#4ECDC4]">
+                  <TableHead>Situation</TableHead>
+                  <TableHead>Inns</TableHead>
+                  <TableHead>Runs</TableHead>
+                  <TableHead>Balls</TableHead>
+                  <TableHead>Avg</TableHead>
+                  <TableHead>SR</TableHead>
+                </tr>
+              </thead>
+              <tbody>
+                {batting.map((split) => (
+                  <tr key={split.innings} className="bg-white">
+                    <TableCell>{split.innings === 1 ? 'Batting first' : 'Chasing'}</TableCell>
+                    <TableCell>{split.played}</TableCell>
+                    <TableCell>{split.runs}</TableCell>
+                    <TableCell>{split.balls}</TableCell>
+                    <TableCell>
+                      {split.dismissals > 0 ? formatNumber(split.average) : '-'}
+                    </TableCell>
+                    <TableCell>{split.balls > 0 ? formatNumber(split.strikeRate) : '-'}</TableCell>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
+      {bowling.length > 0 && (
+        <div>
+          <h3 className="text-base sm:text-lg font-black text-black mb-2 bg-[#FF5E5B] inline-block px-2 py-1 border-2 border-black">
+            Bowling
+          </h3>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse min-w-[500px]">
+              <thead>
+                <tr className="bg-[#FF5E5B]">
+                  <TableHead>Situation</TableHead>
+                  <TableHead>Inns</TableHead>
+                  <TableHead>Wkts</TableHead>
+                  <TableHead>Balls</TableHead>
+                  <TableHead>Econ</TableHead>
+                  <TableHead>Avg</TableHead>
+                </tr>
+              </thead>
+              <tbody>
+                {bowling.map((split) => (
+                  <tr key={split.innings} className="bg-white">
+                    <TableCell>{split.innings === 1 ? 'Bowling first' : 'Defending'}</TableCell>
+                    <TableCell>{split.played}</TableCell>
+                    <TableCell>{split.wickets}</TableCell>
+                    <TableCell>{split.balls}</TableCell>
+                    <TableCell>{split.balls > 0 ? formatNumber(split.economy) : '-'}</TableCell>
+                    <TableCell>{split.wickets > 0 ? formatNumber(split.average) : '-'}</TableCell>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function TableHead({ children }: { children: React.ReactNode }) {
   return (
     <th className="border-2 border-black px-2 py-1.5 text-left text-xs sm:text-sm font-black text-black whitespace-nowrap">
@@ -164,6 +376,10 @@ function TableCell({ children }: { children: React.ReactNode }) {
 export default function PlayerProfileContent({ profile }: PlayerProfileContentProps) {
   const roleText = formatRole(profile.bio);
   const leaguesText = profile.leagueStats.map((s) => s.league).join(', ');
+  const formBatting = profile.recentForm?.batting ?? [];
+  const formBowling = profile.recentForm?.bowling ?? [];
+  const splitBatting = profile.inningsSplits?.batting ?? [];
+  const splitBowling = profile.inningsSplits?.bowling ?? [];
 
   return (
     <div className="p-2 sm:p-3 md:p-4 pb-16 sm:pb-20">
@@ -240,6 +456,14 @@ export default function PlayerProfileContent({ profile }: PlayerProfileContentPr
               )}
             </dl>
           </div>
+        )}
+
+        {(formBatting.length > 0 || formBowling.length > 0) && (
+          <RecentFormCard batting={formBatting} bowling={formBowling} />
+        )}
+
+        {(splitBatting.length > 0 || splitBowling.length > 0) && (
+          <InningsSplitsCard batting={splitBatting} bowling={splitBowling} />
         )}
 
         <div className="flex flex-col gap-3 sm:gap-4 md:gap-5">
