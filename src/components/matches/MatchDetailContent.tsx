@@ -190,8 +190,9 @@ function InningsCard({ innings }: { innings: MatchInnings }) {
               <tr key={partnership.wicket} className="bg-white">
                 <Td>{partnership.wicket}</Td>
                 <Td>
-                  {partnership.batter1} {partnership.batter1Runs} ({partnership.batter1Balls}),{' '}
-                  {partnership.batter2} {partnership.batter2Runs} ({partnership.batter2Balls})
+                  <PlayerLink name={partnership.batter1} /> {partnership.batter1Runs} (
+                  {partnership.batter1Balls}), <PlayerLink name={partnership.batter2} />{' '}
+                  {partnership.batter2Runs} ({partnership.batter2Balls})
                 </Td>
                 <Td>
                   {partnership.runs}

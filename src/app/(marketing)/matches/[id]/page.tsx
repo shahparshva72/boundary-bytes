@@ -17,11 +17,11 @@ export async function generateMetadata({
   }
 
   const { match } = detail;
-  const teams = match.teams.join(' vs ');
+  const teams = match.teams.join(' vs ') || `Match ${match.id}`;
   return {
     title: `${teams} Scorecard, ${match.league} ${match.season} | Boundary Bytes`,
-    description: `${teams} at ${match.venue}: ${match.result}. Full scorecard, partnerships and over-by-over scoring.`,
-    alternates: { canonical: `/matches/${id}` },
+    description: `${teams} at ${match.venue}${match.result ? `: ${match.result}` : ''}. Full scorecard, partnerships and over-by-over scoring.`,
+    alternates: { canonical: `/matches/${match.id}` },
   };
 }
 
