@@ -82,7 +82,7 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
                 { value: '', label: 'All Seasons' },
                 ...seasons.map((season: string) => ({ value: season, label: season })),
               ]}
-              value={{ value: initialSeason ?? '', label: initialSeason ?? 'All Seasons' }}
+              value={{ value: initialSeason ?? '', label: initialSeason || 'All Seasons' }}
               onChange={(option) =>
                 router.push(option?.value ? `/?season=${encodeURIComponent(option.value)}` : '/')
               }
