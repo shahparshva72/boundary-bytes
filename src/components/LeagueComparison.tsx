@@ -16,7 +16,7 @@ import {
   Select,
   Spinner,
 } from './ui';
-import { SINCE_OPTIONS } from './VenueStats';
+import { normalizeSince, SINCE_OPTIONS } from './VenueStats';
 
 const HEADERS = [
   'League',
@@ -33,10 +33,11 @@ const HEADERS = [
 ];
 
 export default function LeagueComparison() {
-  const [since, setSince] = useQueryState(
+  const [sinceParam, setSince] = useQueryState(
     'leaguesSince',
     parseAsInteger.withDefault(0).withOptions({ clearOnDefault: true }),
   );
+  const since = normalizeSince(sinceParam);
   const { data, isLoading, isError } = useLeagueComparison(since);
 
   return (

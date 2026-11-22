@@ -35,6 +35,9 @@ export const SINCE_OPTIONS: SelectOption[] = [
   { value: '2025', label: 'Since 2025' },
 ];
 
+export const normalizeSince = (since: number): number =>
+  SINCE_OPTIONS.some((option) => Number(option.value) === since) ? since : 0;
+
 const HEADERS = [
   '#',
   'Venue',
@@ -58,12 +61,12 @@ export default function VenueStats() {
     },
     { clearOnDefault: true },
   );
-  const { data, isLoading, isError } = useVenueStats(
-    params.venuesPage,
-    params.venuesSort,
-    params.venuesSince,
-    PAGE_SIZE,
-  );
+  const page = Math.max(1, params.venuesPage);
+  const sort = SORT_OPTIONS.some((option) => option.value === params.venuesSort)
+    ? params.venuesSort
+    : 'matches';
+  const since = normalizeSince(params.venuesSince);
+  const { data, isLoading, isError } = useVenueStats(page, sort, since, PAGE_SIZE);
 
   return (
     <div className="w-full mx-auto p-0 sm:p-4">
@@ -79,10 +82,7 @@ export default function VenueStats() {
               <label className="block text-xs font-black text-black uppercase mb-1">Sort By</label>
               <Select
                 options={SORT_OPTIONS}
-                value={
-                  SORT_OPTIONS.find((option) => option.value === params.venuesSort) ??
-                  SORT_OPTIONS[0]
-                }
+                value={SORT_OPTIONS.find((option) => option.value === sort) ?? SORT_OPTIONS[0]}
                 onChange={(val) =>
                   setParams({ venuesSort: val?.value ?? 'matches', venuesPage: 1 })
                 }
@@ -95,8 +95,7 @@ export default function VenueStats() {
               <Select
                 options={SINCE_OPTIONS}
                 value={
-                  SINCE_OPTIONS.find((option) => Number(option.value) === params.venuesSince) ??
-                  SINCE_OPTIONS[0]
+                  SINCE_OPTIONS.find((option) => Number(option.value) === since) ?? SINCE_OPTIONS[0]
                 }
                 onChange={(val) =>
                   setParams({ venuesSince: Number(val?.value ?? 0), venuesPage: 1 })
@@ -132,9 +131,7 @@ export default function VenueStats() {
                 {data?.data && data.data.length > 0 ? (
                   data.data.map((venue, index) => (
                     <DataTableRow key={venue.venue} index={index}>
-                      <DataTableCell>
-                        {(params.venuesPage - 1) * PAGE_SIZE + index + 1}
-                      </DataTableCell>
+                      <DataTableCell>{(page - 1) * PAGE_SIZE + index + 1}</DataTableCell>
                       <DataTableCell>
                         <span className="font-bold">{venue.venue}</span>
                         {venue.city && !venue.venue.includes(venue.city) ? `, ${venue.city}` : ''}
@@ -161,7 +158,7 @@ export default function VenueStats() {
               </DataTableBody>
             </DataTable>
             <Pagination
-              currentPage={params.venuesPage}
+              currentPage={page}
               totalPages={data?.pagination.pages ?? 1}
               skipSize={PAGE_SIZE}
               onPageChange={(page: number) => setParams({ venuesPage: page })}
