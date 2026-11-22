@@ -218,9 +218,11 @@ export const useTeamRunRateProgression = (team: string, season: string) => {
 export const useRunRateTrend = (team?: string | null, byLeague = false) => {
   const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
+  const splitByLeague = !team && byLeague;
+
   return useQuery({
-    queryKey: ['runRateTrend', team, byLeague, scopeKey],
-    queryFn: () => fetchRunRateTrend(fetchWithLeague, team, byLeague),
+    queryKey: ['runRateTrend', team, splitByLeague, scopeKey],
+    queryFn: () => fetchRunRateTrend(fetchWithLeague, team, splitByLeague),
   });
 };
 

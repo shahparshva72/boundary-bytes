@@ -37,7 +37,9 @@ export default function LeagueRunRateTrendChart({ data }: { data: LeagueTrendPoi
   }, [data]);
 
   const selected = useMemo(() => {
-    const chosen = (selectedParam ?? []).filter((league) => leagues.includes(league));
+    const chosen = [...new Set(selectedParam ?? [])]
+      .filter((league) => leagues.includes(league))
+      .slice(0, LINE_COLORS.length);
     return chosen.length > 0 ? chosen : leagues.slice(0, DEFAULT_LEAGUES);
   }, [selectedParam, leagues]);
 
