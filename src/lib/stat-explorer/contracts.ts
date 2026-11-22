@@ -56,6 +56,15 @@ export const StatExplorerMetric = z.enum([
   'matches',
   'winsBattingFirst',
   'winsBattingSecond',
+  'boundaryPct',
+  'dotBallPct',
+  'ballsPerBoundary',
+  'ballsPerSix',
+  'nonBoundaryStrikeRate',
+  'matchesBattingFirst',
+  'matchesBattingSecond',
+  'winPctBattingFirst',
+  'winPctBattingSecond',
 ]);
 export type StatExplorerMetric = z.infer<typeof StatExplorerMetric>;
 

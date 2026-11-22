@@ -63,6 +63,8 @@ export default function StatExplorerBuilder() {
     playingRole: parseAsString,
     playingRoleDetail: parseAsString,
     battingPositions: parseAsArrayOf(parseAsInteger),
+    phase: parseAsStringEnum<'powerplay' | 'middle' | 'death'>(['powerplay', 'middle', 'death']),
+    minBalls: parseAsInteger,
   });
 
   const cleanFilters: StatExplorerRunRequest['filters'] = useMemo(() => {
@@ -121,6 +123,12 @@ export default function StatExplorerBuilder() {
     if (filters.battingPositions?.length) {
       f.battingPositions = filters.battingPositions;
     }
+    if (filters.phase) {
+      f.phase = filters.phase;
+    }
+    if (filters.minBalls) {
+      f.minBalls = filters.minBalls;
+    }
     return f;
   }, [filters]);
 
@@ -178,6 +186,8 @@ export default function StatExplorerBuilder() {
       playingRole: null,
       playingRoleDetail: null,
       battingPositions: null,
+      phase: null,
+      minBalls: null,
     });
     setSortParams({ sortBy: null, sortDir: null });
     setPage(1);
@@ -229,6 +239,8 @@ export default function StatExplorerBuilder() {
         playingRole: newFilters.playingRole || null,
         playingRoleDetail: newFilters.playingRoleDetail || null,
         battingPositions: newFilters.battingPositions?.length ? newFilters.battingPositions : null,
+        phase: newFilters.phase && newFilters.phase !== 'overall' ? newFilters.phase : null,
+        minBalls: newFilters.minBalls || null,
       });
       setPage(1);
     },
