@@ -125,7 +125,7 @@ export default function PhaseLeaders() {
 
   const type = params.phaseLeadersType;
   const phase = params.phaseLeadersPhase;
-  const page = params.phaseLeadersPage;
+  const page = Math.max(1, params.phaseLeadersPage);
   const config = LEADER_CONFIG[type];
   const rank =
     config.rankBy.find((option) => option.metric === params.phaseLeadersRank) ?? config.rankBy[0];
@@ -279,7 +279,11 @@ export default function PhaseLeaders() {
                   {columns.map((column, index) => (
                     <DataTableHeadCell key={column.key} isLast={index === columns.length - 1}>
                       {column.label}
-                      {column.key === rankKey ? (rank.direction === 'asc' ? ' ↑' : ' ↓') : ''}
+                      {column.key.toLowerCase() === rankKey
+                        ? rank.direction === 'asc'
+                          ? ' ↑'
+                          : ' ↓'
+                        : ''}
                     </DataTableHeadCell>
                   ))}
                 </tr>
