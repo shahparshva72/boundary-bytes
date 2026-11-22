@@ -16,6 +16,7 @@ const MultiMatchupTab = dynamic(() => import('@/components/MultiMatchupTab'), {
 const PlayerCompare = dynamic(() => import('@/components/PlayerCompare'), { loading: TabLoading });
 const RunScorers = dynamic(() => import('@/components/RunScorers'), { loading: TabLoading });
 const WicketTakers = dynamic(() => import('@/components/WicketTakers'), { loading: TabLoading });
+const PhaseLeaders = dynamic(() => import('@/components/PhaseLeaders'), { loading: TabLoading });
 const TeamWins = dynamic(() => import('@/components/TeamWins'), { loading: TabLoading });
 const BowlingWicketTypes = dynamic(() => import('@/components/BowlingWicketTypes'), {
   loading: TabLoading,
@@ -42,6 +43,9 @@ export default function StatsTabs() {
       </Tab>
       <Tab label="Wicket Takers">
         <WicketTakers />
+      </Tab>
+      <Tab label="Phase Leaders">
+        <PhaseLeaders />
       </Tab>
       <Tab label="Team Wins">
         <TeamWins />

@@ -11,6 +11,7 @@ import {
   Sparkles,
   Swords,
   Target,
+  Timer,
   Trophy,
   UsersRound,
 } from 'lucide-react';
@@ -101,6 +102,12 @@ export const featureGroups: NavigationGroup[] = [
         href: '/stats?tab=Wicket+Takers',
         description: 'Leading bowlers by season',
         icon: Target,
+      },
+      {
+        label: 'Phase Leaders',
+        href: '/stats?tab=Phase+Leaders',
+        description: 'Best in the powerplay, middle and death overs',
+        icon: Timer,
       },
       {
         label: 'Team Records',
