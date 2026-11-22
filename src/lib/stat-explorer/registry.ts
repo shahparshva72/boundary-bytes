@@ -83,6 +83,7 @@ export const ALLOWED_METRICS: Record<StatExplorerReportType, StatExplorerMetric[
     'ballsPerBoundary',
     'ballsPerSix',
     'nonBoundaryStrikeRate',
+    'leagueAdjustedStrikeRate',
   ],
   bowling: [
     'wickets',
@@ -97,6 +98,7 @@ export const ALLOWED_METRICS: Record<StatExplorerReportType, StatExplorerMetric[
     'dotBalls',
     'dotBallPct',
     'boundaryPct',
+    'leagueAdjustedEconomy',
   ],
   team: [
     'matchesPlayed',
@@ -174,6 +176,8 @@ export const METRIC_LABELS: Record<StatExplorerMetric, string> = {
   matchesBattingSecond: 'Batting 2nd Matches',
   winPctBattingFirst: 'Batting 1st Win %',
   winPctBattingSecond: 'Batting 2nd Win %',
+  leagueAdjustedStrikeRate: 'SR vs League',
+  leagueAdjustedEconomy: 'Econ vs League',
 };
 
 export const PHASE_LABELS: Record<Exclude<StatExplorerPhaseFilter, 'overall'>, string> = {
