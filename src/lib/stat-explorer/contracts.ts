@@ -65,6 +65,8 @@ export const StatExplorerMetric = z.enum([
   'matchesBattingSecond',
   'winPctBattingFirst',
   'winPctBattingSecond',
+  'leagueAdjustedStrikeRate',
+  'leagueAdjustedEconomy',
 ]);
 export type StatExplorerMetric = z.infer<typeof StatExplorerMetric>;
 

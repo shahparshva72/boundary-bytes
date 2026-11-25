@@ -57,9 +57,11 @@ const LEADER_CONFIG: Record<LeaderType, LeaderConfig> = {
       'boundaryPct',
       'dotBallPct',
       'ballsPerSix',
+      'leagueAdjustedStrikeRate',
     ],
     rankBy: [
       { metric: 'strikeRate', direction: 'desc' },
+      { metric: 'leagueAdjustedStrikeRate', direction: 'desc' },
       { metric: 'runs', direction: 'desc' },
       { metric: 'boundaryPct', direction: 'desc' },
       { metric: 'ballsPerSix', direction: 'asc' },
@@ -69,9 +71,17 @@ const LEADER_CONFIG: Record<LeaderType, LeaderConfig> = {
     ballsLabel: 'Minimum Balls Faced',
   },
   bowling: {
-    metrics: ['wickets', 'ballsBowled', 'economyRate', 'dotBallPct', 'boundaryPct'],
+    metrics: [
+      'wickets',
+      'ballsBowled',
+      'economyRate',
+      'dotBallPct',
+      'boundaryPct',
+      'leagueAdjustedEconomy',
+    ],
     rankBy: [
       { metric: 'economyRate', direction: 'asc' },
+      { metric: 'leagueAdjustedEconomy', direction: 'asc' },
       { metric: 'wickets', direction: 'desc' },
       { metric: 'dotBallPct', direction: 'desc' },
       { metric: 'boundaryPct', direction: 'asc' },
@@ -162,6 +172,11 @@ export default function PhaseLeaders() {
         <SectionHeader title={`${PHASE_LABELS[phase]} Leaders`} color="coral" />
 
         <CardContent className="border-b-2 border-black">
+          <p className="mb-3 text-xs font-bold text-black">
+            {type === 'batting' ? 'SR vs League' : 'Econ vs League'} compares each player with the
+            average for the same league, season and phase. 100 is average;{' '}
+            {type === 'batting' ? 'higher' : 'lower'} is better.
+          </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
             <div>
               <label className="block text-xs font-black text-black uppercase mb-1">
