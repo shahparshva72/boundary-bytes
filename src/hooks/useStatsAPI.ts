@@ -111,10 +111,16 @@ export const fetchTeamRunRateProgression = async (
   return response.json();
 };
 
-export const fetchRunRateTrend = async (fetchWithLeague: FetchWithLeague, team?: string | null) => {
+export const fetchRunRateTrend = async (
+  fetchWithLeague: FetchWithLeague,
+  team?: string | null,
+  byLeague = false,
+) => {
   const params = new URLSearchParams();
   if (team) {
     params.set('team', team);
+  } else if (byLeague) {
+    params.set('byLeague', 'true');
   }
   const query = params.toString();
   const response = await fetchWithLeague(`/api/stats/runrate-trend${query ? `?${query}` : ''}`);
@@ -209,12 +215,14 @@ export const useTeamRunRateProgression = (team: string, season: string) => {
   });
 };
 
-export const useRunRateTrend = (team?: string | null) => {
+export const useRunRateTrend = (team?: string | null, byLeague = false) => {
   const { fetchWithLeague, scopeKey } = useLeagueAPI();
 
+  const splitByLeague = !team && byLeague;
+
   return useQuery({
-    queryKey: ['runRateTrend', team, scopeKey],
-    queryFn: () => fetchRunRateTrend(fetchWithLeague, team),
+    queryKey: ['runRateTrend', team, splitByLeague, scopeKey],
+    queryFn: () => fetchRunRateTrend(fetchWithLeague, team, splitByLeague),
   });
 };
 

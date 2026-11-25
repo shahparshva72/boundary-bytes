@@ -23,13 +23,17 @@ const RunRateTrendChart = dynamic(() => import('@/components/RunRateTrendChart')
   ssr: false,
   loading: ChartLoading,
 });
+const LeagueRunRateTrendChart = dynamic(() => import('@/components/LeagueRunRateTrendChart'), {
+  ssr: false,
+  loading: ChartLoading,
+});
 const TeamRunRateProgressionChart = dynamic(
   () => import('@/components/TeamRunRateProgressionChart'),
   { ssr: false, loading: ChartLoading },
 );
 
 export default function TeamRunRateTab() {
-  const { scopeDescription } = useLeagueContext();
+  const { scopeDescription, singleLeague } = useLeagueContext();
   const { data: teamsData, isLoading: teamsLoading } = useTeamAverages();
   const { data: seasonsData, isLoading: seasonsLoading } = useSeasons();
 
@@ -73,7 +77,8 @@ export default function TeamRunRateTab() {
     data: trendData,
     isLoading: trendLoading,
     error: trendError,
-  } = useRunRateTrend(selectedTeam?.value || null);
+  } = useRunRateTrend(selectedTeam?.value || null, !singleLeague);
+  const trendIsByLeague = Boolean(trendData?.data?.[0]?.league);
 
   const isLoadingSelectors = teamsLoading || seasonsLoading;
   const description = `View team run rate progression per over and seasonal trends across ${scopeDescription}.`;
@@ -167,15 +172,21 @@ export default function TeamRunRateTab() {
         )}
         {!trendLoading && !trendError && trendData ? (
           <>
-            <RunRateTrendChart data={trendData.data} team={trendData.team} />
-            <div className="mt-2 p-2 bg-[#FFED66] border-2 border-black">
-              <p className="text-xs font-bold text-black">
-                {trendData.team
-                  ? `Showing ${trendData.team} run rate trend`
-                  : 'Showing league-wide run rate trend'}{' '}
-                across {trendData.metadata.totalSeasons} seasons
-              </p>
-            </div>
+            {trendIsByLeague ? (
+              <LeagueRunRateTrendChart data={trendData.data} />
+            ) : (
+              <>
+                <RunRateTrendChart data={trendData.data} team={trendData.team} />
+                <div className="mt-2 p-2 bg-[#FFED66] border-2 border-black">
+                  <p className="text-xs font-bold text-black">
+                    {trendData.team
+                      ? `Showing ${trendData.team} run rate trend`
+                      : 'Showing league-wide run rate trend'}{' '}
+                    across {trendData.metadata.totalSeasons} seasons
+                  </p>
+                </div>
+              </>
+            )}
           </>
         ) : (
           !trendLoading &&
