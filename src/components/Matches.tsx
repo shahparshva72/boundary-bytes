@@ -3,8 +3,12 @@
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useRef } from 'react';
+import { useLeagueContext } from '@/contexts/LeagueContext';
 import { useMatches } from '@/hooks/useMatches';
 import Pagination from './ui/Pagination';
+import { Select } from './ui/Select';
+
+const MAX_SEASON_BUTTONS = 20;
 
 function redirectToCricinfoScorecard(matchId: number) {
   const scorecardUrl = 'https://www.espncricinfo.com/matches/engine/match/' + matchId + '.html';
@@ -18,6 +22,7 @@ interface MatchesProps {
 
 interface Match {
   id: number;
+  league?: string;
   venue: string;
   startDate: string;
   season: string;
@@ -31,6 +36,7 @@ interface Match {
 export default function Matches({ initialPage, initialSeason }: MatchesProps) {
   const { data, isLoading, error } = useMatches(initialPage, initialSeason);
   const router = useRouter();
+  const { singleLeague } = useLeagueContext();
   const cachedSeasonsRef = useRef<string[]>([]);
 
   if (data?.seasons && data.seasons.length > 0) {
@@ -68,7 +74,23 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
         </div>
 
         {/* Season Filter */}
-        {seasons.length > 0 && (
+        {seasons.length > MAX_SEASON_BUTTONS && (
+          <div className="w-full max-w-xs">
+            <label className="block text-xs font-black text-black uppercase mb-1">Season</label>
+            <Select
+              options={[
+                { value: '', label: 'All Seasons' },
+                ...seasons.map((season: string) => ({ value: season, label: season })),
+              ]}
+              value={{ value: initialSeason ?? '', label: initialSeason || 'All Seasons' }}
+              onChange={(option) =>
+                router.push(option?.value ? `/?season=${encodeURIComponent(option.value)}` : '/')
+              }
+              instanceId="matches-season"
+            />
+          </div>
+        )}
+        {seasons.length > 0 && seasons.length <= MAX_SEASON_BUTTONS && (
           <div className="w-full flex flex-wrap gap-2 sm:gap-4 justify-center">
             <Link
               href="/"
@@ -155,8 +177,15 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
                           })}
                         </p>
                       </div>
-                      <div className="text-xs sm:text-sm bg-[#FF9F1C] px-2 sm:px-3 py-0.5 sm:py-1 rounded-none border-2 border-black font-black text-black self-start">
-                        {match.season}
+                      <div className="flex gap-1.5 self-start">
+                        {!singleLeague && match.league && (
+                          <div className="text-xs sm:text-sm bg-white px-2 sm:px-3 py-0.5 sm:py-1 rounded-none border-2 border-black font-black text-black">
+                            {match.league}
+                          </div>
+                        )}
+                        <div className="text-xs sm:text-sm bg-[#FF9F1C] px-2 sm:px-3 py-0.5 sm:py-1 rounded-none border-2 border-black font-black text-black">
+                          {match.season}
+                        </div>
                       </div>
                     </div>
                   </div>

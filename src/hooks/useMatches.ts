@@ -5,6 +5,7 @@ type FetchWithLeague = (url: string, options?: RequestInit) => Promise<Response>
 
 interface Match {
   id: number;
+  league?: string;
   season: string;
   startDate: string;
   venue: string;
