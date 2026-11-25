@@ -1,6 +1,6 @@
 'use client';
 
-import { parseAsInteger, parseAsString, useQueryStates } from 'nuqs';
+import { parseAsArrayOf, parseAsInteger, parseAsString, useQueryStates } from 'nuqs';
 import { ReactNode } from 'react';
 
 interface TabProps {
@@ -27,6 +27,12 @@ const Tabs = ({ children, defaultTab = 'Batter vs Bowler' }: TabsProps) => {
       players: parseAsString,
       seasons: parseAsString,
       statType: parseAsString,
+      phaseLeadersType: parseAsString,
+      phaseLeadersPhase: parseAsString,
+      phaseLeadersRank: parseAsString,
+      phaseLeadersMin: parseAsInteger,
+      phaseLeadersSeasons: parseAsArrayOf(parseAsString),
+      phaseLeadersPage: parseAsInteger,
     },
     { clearOnDefault: true },
   );
@@ -43,6 +49,12 @@ const Tabs = ({ children, defaultTab = 'Batter vs Bowler' }: TabsProps) => {
       players: null,
       seasons: null,
       statType: null,
+      phaseLeadersType: null,
+      phaseLeadersPhase: null,
+      phaseLeadersRank: null,
+      phaseLeadersMin: null,
+      phaseLeadersSeasons: null,
+      phaseLeadersPage: null,
     });
   };
 
