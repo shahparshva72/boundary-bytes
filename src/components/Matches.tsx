@@ -187,7 +187,13 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
                     </div>
                   </div>
 
-                  <div className="flex justify-end mt-2 sm:mt-2.5">
+                  <div className="flex justify-end gap-2 mt-2 sm:mt-2.5">
+                    <Link
+                      href={`/matches/${match.id}`}
+                      className="text-xs sm:text-sm bg-[#4ECDC4] px-2 sm:px-3 py-1.5 rounded-none border-2 border-black font-black text-black hover:bg-[#4ECDC4]/80 transition-colors"
+                    >
+                      Scorecard
+                    </Link>
                     <button
                       onClick={() => redirectToCricinfoScorecard(match.id)}
                       className="text-xs sm:text-sm bg-[#FF9F1C] px-2 sm:px-3 py-1.5 rounded-none border-2 border-black font-black text-black cursor-pointer hover:bg-[#FF9F1C]/80 transition-colors"
