@@ -8,7 +8,12 @@ import type {
   StatExplorerReportType,
   StatExplorerRunRequest,
 } from '@/lib/stat-explorer/contracts';
-import { DIMENSION_LABELS, METRIC_LABELS } from '@/lib/stat-explorer/registry';
+import {
+  DIMENSION_LABELS,
+  METRIC_LABELS,
+  MIN_BALLS_OPTIONS,
+  PHASE_LABELS,
+} from '@/lib/stat-explorer/registry';
 
 const battingHandLabels: Record<string, string> = {
   right: 'Right Hand',
@@ -42,6 +47,16 @@ interface StatExplorerFiltersProps {
   onMetricsChange: (metrics: string[]) => void;
   onFiltersChange: (filters: StatExplorerRunRequest['filters']) => void;
 }
+
+const phaseOptions: SelectOption[] = Object.entries(PHASE_LABELS).map(([value, label]) => ({
+  value,
+  label,
+}));
+
+const minBallsOptions: SelectOption[] = MIN_BALLS_OPTIONS.map((balls) => ({
+  value: String(balls),
+  label: `${balls}+ balls`,
+}));
 
 const toOptions = (items: string[]): SelectOption[] =>
   items.map((item) => ({ value: item, label: item }));
@@ -421,6 +436,57 @@ export default function StatExplorerFilters({
           </CardContent>
         </Card>
       </div>
+
+      {showPlayerStyleFilters && (
+        <Card>
+          <CardHeader color="teal">
+            <h3 className="text-sm font-black text-black uppercase">Phase & Qualifier</h3>
+          </CardHeader>
+          <CardContent>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label className="block text-xs font-black text-black uppercase mb-1">
+                  Match Phase
+                </label>
+                <Select
+                  options={phaseOptions}
+                  value={phaseOptions.find((option) => option.value === filters.phase) ?? null}
+                  onChange={(val) =>
+                    updateFilter(
+                      'phase',
+                      (val?.value as StatExplorerRunRequest['filters']['phase']) || undefined,
+                    )
+                  }
+                  placeholder="Whole innings..."
+                  isClearable
+                  isSearchable={false}
+                  instanceId="stat-explorer-phase"
+                />
+              </div>
+
+              <div>
+                <label className="block text-xs font-black text-black uppercase mb-1">
+                  {reportType === 'bowling' ? 'Minimum Balls Bowled' : 'Minimum Balls Faced'}
+                </label>
+                <Select
+                  options={minBallsOptions}
+                  value={
+                    minBallsOptions.find((option) => Number(option.value) === filters.minBalls) ??
+                    (filters.minBalls
+                      ? { value: String(filters.minBalls), label: `${filters.minBalls}+ balls` }
+                      : null)
+                  }
+                  onChange={(val) => updateFilter('minBalls', val ? Number(val.value) : undefined)}
+                  placeholder="No minimum..."
+                  isClearable
+                  isSearchable={false}
+                  instanceId="stat-explorer-min-balls"
+                />
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      )}
 
       {showPlayerStyleFilters && (
         <Card>

@@ -78,6 +78,11 @@ export const ALLOWED_METRICS: Record<StatExplorerReportType, StatExplorerMetric[
     'average',
     'dismissals',
     'dotBalls',
+    'boundaryPct',
+    'dotBallPct',
+    'ballsPerBoundary',
+    'ballsPerSix',
+    'nonBoundaryStrikeRate',
   ],
   bowling: [
     'wickets',
@@ -90,8 +95,21 @@ export const ALLOWED_METRICS: Record<StatExplorerReportType, StatExplorerMetric[
     'fourWickets',
     'fiveWickets',
     'dotBalls',
+    'dotBallPct',
+    'boundaryPct',
   ],
-  team: ['matchesPlayed', 'wins', 'losses', 'winPct', 'winsBattingFirst', 'winsBattingSecond'],
+  team: [
+    'matchesPlayed',
+    'wins',
+    'losses',
+    'winPct',
+    'winsBattingFirst',
+    'winsBattingSecond',
+    'matchesBattingFirst',
+    'matchesBattingSecond',
+    'winPctBattingFirst',
+    'winPctBattingSecond',
+  ],
   match: ['matches', 'runs', 'wickets', 'ballsFaced', 'ballsBowled', 'economyRate', 'strikeRate'],
 };
 
@@ -147,7 +165,24 @@ export const METRIC_LABELS: Record<StatExplorerMetric, string> = {
   matches: 'Matches',
   winsBattingFirst: 'Batting 1st Wins',
   winsBattingSecond: 'Batting 2nd Wins',
+  boundaryPct: 'Boundary %',
+  dotBallPct: 'Dot Ball %',
+  ballsPerBoundary: 'Balls / Boundary',
+  ballsPerSix: 'Balls / Six',
+  nonBoundaryStrikeRate: 'Non-Boundary SR',
+  matchesBattingFirst: 'Batting 1st Matches',
+  matchesBattingSecond: 'Batting 2nd Matches',
+  winPctBattingFirst: 'Batting 1st Win %',
+  winPctBattingSecond: 'Batting 2nd Win %',
 };
+
+export const PHASE_LABELS: Record<Exclude<StatExplorerPhaseFilter, 'overall'>, string> = {
+  powerplay: 'Powerplay',
+  middle: 'Middle Overs',
+  death: 'Death Overs',
+};
+
+export const MIN_BALLS_OPTIONS = [30, 60, 100, 250, 500, 1000];
 
 export const PHASE_OVER_RANGES: Record<
   Exclude<StatExplorerPhaseFilter, 'overall'>,
