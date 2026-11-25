@@ -41,11 +41,63 @@ export interface PlayerProfileLeagueStats {
   bowling?: PlayerProfileBowling;
 }
 
+export interface PlayerFormBatting {
+  matchId: number;
+  date: string;
+  league: string;
+  opposition: string;
+  runs: number;
+  balls: number;
+  fours: number;
+  sixes: number;
+  strikeRate: number;
+  notOut: boolean;
+}
+
+export interface PlayerFormBowling {
+  matchId: number;
+  date: string;
+  league: string;
+  opposition: string;
+  overs: number;
+  runsConceded: number;
+  wickets: number;
+  dotBalls: number;
+}
+
+export interface PlayerBattingSplit {
+  innings: number;
+  played: number;
+  runs: number;
+  balls: number;
+  dismissals: number;
+  average: number;
+  strikeRate: number;
+}
+
+export interface PlayerBowlingSplit {
+  innings: number;
+  played: number;
+  balls: number;
+  runsConceded: number;
+  wickets: number;
+  economy: number;
+  average: number;
+}
+
 export interface PlayerProfile {
   slug: string;
   name: string;
   bio?: PlayerProfileBio;
   leagueStats: PlayerProfileLeagueStats[];
+  recentForm?: {
+    batting: PlayerFormBatting[];
+    bowling: PlayerFormBowling[];
+  };
+  inningsSplits?: {
+    batting: PlayerBattingSplit[];
+    bowling: PlayerBowlingSplit[];
+  };
   metadata: {
     availableLeagues: string[];
   };
