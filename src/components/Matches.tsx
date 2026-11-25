@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { useLeagueContext } from '@/contexts/LeagueContext';
 import { useMatches } from '@/hooks/useMatches';
 import Pagination from './ui/Pagination';
@@ -42,6 +42,17 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
   if (data?.seasons && data.seasons.length > 0) {
     cachedSeasonsRef.current = data.seasons;
   }
+
+  const seasonNotInScope =
+    Boolean(initialSeason) &&
+    Boolean(data?.seasons?.length) &&
+    !data?.seasons.includes(initialSeason as string);
+
+  useEffect(() => {
+    if (seasonNotInScope) {
+      router.replace('/');
+    }
+  }, [seasonNotInScope, router]);
 
   if (error) {
     return (
@@ -120,7 +131,7 @@ export default function Matches({ initialPage, initialSeason }: MatchesProps) {
 
         {/* Match cards */}
         <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-3 sm:gap-4 lg:gap-6">
-          {isLoading
+          {isLoading || seasonNotInScope
             ? // Skeleton loader for 6 cards
               Array.from({ length: 6 }).map((_, index) => (
                 <div
