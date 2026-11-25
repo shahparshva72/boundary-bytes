@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type {
   PlayerBattingSplit,
   PlayerBowlingSplit,
+  PlayerCareerRow,
   PlayerFormBatting,
   PlayerFormBowling,
   PlayerProfile,
@@ -271,6 +272,118 @@ function RecentFormCard({
   );
 }
 
+function CareerCard({ seasons, total }: { seasons: PlayerCareerRow[]; total?: PlayerCareerRow }) {
+  const rows = total ? [total, ...seasons] : seasons;
+  const hasBatting = rows.some((row) => row.batting);
+  const hasBowling = rows.some((row) => row.bowling);
+  const label = (row: PlayerCareerRow) =>
+    row === total ? <span className="font-black">All leagues</span> : `${row.league} ${row.season}`;
+
+  return (
+    <div className="bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] p-3 sm:p-4 md:p-5">
+      <h2 className="text-lg sm:text-xl md:text-2xl font-black text-black mb-3 text-center uppercase tracking-tight">
+        Career by League & Season
+      </h2>
+
+      {hasBatting && (
+        <div className="mb-3 sm:mb-4">
+          <h3 className="text-base sm:text-lg font-black text-black mb-2 bg-[#4ECDC4] inline-block px-2 py-1 border-2 border-black">
+            Batting
+          </h3>
+          <div className="overflow-auto max-h-[420px]">
+            <table className="w-full border-collapse min-w-[600px]">
+              <thead>
+                <tr className="bg-[#4ECDC4]">
+                  <TableHead>Season</TableHead>
+                  <TableHead>Inns</TableHead>
+                  <TableHead>NO</TableHead>
+                  <TableHead>Runs</TableHead>
+                  <TableHead>Balls</TableHead>
+                  <TableHead>Avg</TableHead>
+                  <TableHead>SR</TableHead>
+                  <TableHead>HS</TableHead>
+                  <TableHead>4s</TableHead>
+                  <TableHead>6s</TableHead>
+                  <TableHead>50s/100s</TableHead>
+                </tr>
+              </thead>
+              <tbody>
+                {rows.map(
+                  (row) =>
+                    row.batting && (
+                      <tr
+                        key={`${row.league}-${row.season}`}
+                        className={row === total ? 'bg-[#FFFEE0]' : 'bg-white'}
+                      >
+                        <TableCell>{label(row)}</TableCell>
+                        <TableCell>{row.batting.innings}</TableCell>
+                        <TableCell>{row.batting.notOuts}</TableCell>
+                        <TableCell>{row.batting.runs}</TableCell>
+                        <TableCell>{row.batting.ballsFaced}</TableCell>
+                        <TableCell>{formatNumber(row.batting.average)}</TableCell>
+                        <TableCell>{formatNumber(row.batting.strikeRate)}</TableCell>
+                        <TableCell>{row.batting.highestScore}</TableCell>
+                        <TableCell>{row.batting.fours}</TableCell>
+                        <TableCell>{row.batting.sixes}</TableCell>
+                        <TableCell>{`${row.batting.fifties}/${row.batting.hundreds}`}</TableCell>
+                      </tr>
+                    ),
+                )}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
+      {hasBowling && (
+        <div>
+          <h3 className="text-base sm:text-lg font-black text-black mb-2 bg-[#FF5E5B] inline-block px-2 py-1 border-2 border-black">
+            Bowling
+          </h3>
+          <div className="overflow-auto max-h-[420px]">
+            <table className="w-full border-collapse min-w-[600px]">
+              <thead>
+                <tr className="bg-[#FF5E5B]">
+                  <TableHead>Season</TableHead>
+                  <TableHead>Inns</TableHead>
+                  <TableHead>Wkts</TableHead>
+                  <TableHead>Balls</TableHead>
+                  <TableHead>Runs</TableHead>
+                  <TableHead>Avg</TableHead>
+                  <TableHead>Econ</TableHead>
+                  <TableHead>SR</TableHead>
+                  <TableHead>4w/5w</TableHead>
+                </tr>
+              </thead>
+              <tbody>
+                {rows.map(
+                  (row) =>
+                    row.bowling && (
+                      <tr
+                        key={`${row.league}-${row.season}`}
+                        className={row === total ? 'bg-[#FFFEE0]' : 'bg-white'}
+                      >
+                        <TableCell>{label(row)}</TableCell>
+                        <TableCell>{row.bowling.innings}</TableCell>
+                        <TableCell>{row.bowling.wickets}</TableCell>
+                        <TableCell>{row.bowling.ballsBowled}</TableCell>
+                        <TableCell>{row.bowling.runsConceded}</TableCell>
+                        <TableCell>{formatNumber(row.bowling.average)}</TableCell>
+                        <TableCell>{formatNumber(row.bowling.economy)}</TableCell>
+                        <TableCell>{formatNumber(row.bowling.strikeRate)}</TableCell>
+                        <TableCell>{`${row.bowling.fourWickets}/${row.bowling.fiveWickets}`}</TableCell>
+                      </tr>
+                    ),
+                )}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function InningsSplitsCard({
   batting,
   bowling,
@@ -380,6 +493,7 @@ export default function PlayerProfileContent({ profile }: PlayerProfileContentPr
   const formBowling = profile.recentForm?.bowling ?? [];
   const splitBatting = profile.inningsSplits?.batting ?? [];
   const splitBowling = profile.inningsSplits?.bowling ?? [];
+  const careerSeasons = profile.career?.seasons ?? [];
 
   return (
     <div className="p-2 sm:p-3 md:p-4 pb-16 sm:pb-20">
@@ -464,6 +578,10 @@ export default function PlayerProfileContent({ profile }: PlayerProfileContentPr
 
         {(splitBatting.length > 0 || splitBowling.length > 0) && (
           <InningsSplitsCard batting={splitBatting} bowling={splitBowling} />
+        )}
+
+        {careerSeasons.length > 0 && (
+          <CareerCard seasons={careerSeasons} total={profile.career?.total} />
         )}
 
         <div className="flex flex-col gap-3 sm:gap-4 md:gap-5">

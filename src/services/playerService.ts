@@ -85,6 +85,13 @@ export interface PlayerBowlingSplit {
   average: number;
 }
 
+export interface PlayerCareerRow {
+  league: string;
+  season: string;
+  batting?: PlayerProfileBatting;
+  bowling?: PlayerProfileBowling;
+}
+
 export interface PlayerProfile {
   slug: string;
   name: string;
@@ -93,6 +100,10 @@ export interface PlayerProfile {
   recentForm?: {
     batting: PlayerFormBatting[];
     bowling: PlayerFormBowling[];
+  };
+  career?: {
+    seasons: PlayerCareerRow[];
+    total?: PlayerCareerRow;
   };
   inningsSplits?: {
     batting: PlayerBattingSplit[];
