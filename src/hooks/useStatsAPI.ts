@@ -348,3 +348,70 @@ export const useMultiMatchup = (
     enabled: !!player && opponents.length > 0 && opponents.length <= 5,
   });
 };
+
+export interface VenueStats {
+  venue: string;
+  city: string;
+  matches: number;
+  avgFirstInnings: number;
+  avgSecondInnings: number;
+  highestTotal: number;
+  lowestTotal: number;
+  runRate: number;
+  decided: number;
+  batFirstWins: number;
+  chaseWins: number;
+  chaseWinPct: number;
+}
+
+export interface LeagueComparison {
+  league: string;
+  name: string;
+  matches: number;
+  avgFirstInnings: number;
+  runRate: number;
+  powerplayRunRate: number;
+  middleRunRate: number;
+  deathRunRate: number;
+  boundaryPct: number;
+  dotBallPct: number;
+  ballsPerWicket: number;
+  decided: number;
+  chaseWinPct: number;
+}
+
+export const useVenueStats = (page: number, sort: string, since: number, limit = 10) => {
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
+
+  return useQuery({
+    queryKey: ['venueStats', page, sort, since, limit, scopeKey],
+    queryFn: async (): Promise<{ data: VenueStats[]; pagination: { pages: number } }> => {
+      const params = new URLSearchParams({
+        page: String(page),
+        limit: String(limit),
+        sort,
+        since: String(since),
+      });
+      const response = await fetchWithLeague(`/api/stats/venues?${params}`);
+      if (!response.ok) {
+        throw new Error('Failed to fetch venue stats');
+      }
+      return response.json();
+    },
+  });
+};
+
+export const useLeagueComparison = (since: number) => {
+  const { fetchWithLeague, scopeKey } = useLeagueAPI();
+
+  return useQuery({
+    queryKey: ['leagueComparison', since, scopeKey],
+    queryFn: async (): Promise<{ data: LeagueComparison[] }> => {
+      const response = await fetchWithLeague(`/api/stats/league-comparison?since=${since}`);
+      if (!response.ok) {
+        throw new Error('Failed to fetch league comparison');
+      }
+      return response.json();
+    },
+  });
+};

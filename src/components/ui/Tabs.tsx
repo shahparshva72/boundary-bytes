@@ -33,6 +33,10 @@ const Tabs = ({ children, defaultTab = 'Batter vs Bowler' }: TabsProps) => {
       phaseLeadersMin: parseAsInteger,
       phaseLeadersSeasons: parseAsArrayOf(parseAsString),
       phaseLeadersPage: parseAsInteger,
+      venuesPage: parseAsInteger,
+      venuesSort: parseAsString,
+      venuesSince: parseAsInteger,
+      leaguesSince: parseAsInteger,
     },
     { clearOnDefault: true },
   );
@@ -55,6 +59,10 @@ const Tabs = ({ children, defaultTab = 'Batter vs Bowler' }: TabsProps) => {
       phaseLeadersMin: null,
       phaseLeadersSeasons: null,
       phaseLeadersPage: null,
+      venuesPage: null,
+      venuesSort: null,
+      venuesSince: null,
+      leaguesSince: null,
     });
   };
 
